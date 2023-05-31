@@ -24,7 +24,7 @@ def augment_address_with_nbn_data(nbn: NBNApi, address: dict):
         address["tech"] = status["addressDetail"]["techType"]
         address["upgrade"] = status["addressDetail"].get("altReasonCode", "UNKNOWN")
     except requests.exceptions.RequestException as err:
-        logging.warning('Error fetching NBN data for %s: %s', address["name"], err)
+        logging.warning("Error fetching NBN data for %s: %s", address["name"], err)
     # other exceptions are raised to the caller
 
 
@@ -37,7 +37,7 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
         with open("results/results.json", "r", encoding="utf-8") as file:
             completed_suburbs = {}  # state -> set-of-suburbs
             for completed in json.load(file)["suburbs"]:
-                state, suburb = completed['state'], completed['internal']
+                state, suburb = completed["state"], completed["internal"]
                 if state not in completed_suburbs:
                     completed_suburbs[state] = set()
                 completed_suburbs[state].add(suburb)
@@ -54,10 +54,10 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
 
 def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int = 10) -> list:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
-    logging.info('Fetching all addresses for %s, %s', suburb.title(), state)
+    logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
     addresses = db.get_addresses(suburb, state)
-    addresses = sorted(addresses, key=lambda k: k['name'])
-    logging.info('Fetched %d addresses from database', len(addresses))
+    addresses = sorted(addresses, key=lambda k: k["name"])
+    logging.info("Fetched %d addresses from database", len(addresses))
 
     chunk_size = 200
     chunks_completed = 0
@@ -70,48 +70,44 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
         with lock:
             nonlocal chunks_completed
             chunks_completed += 1
-            logging.info('Completed %d requests', chunks_completed * chunk_size)
+            logging.info("Completed %d requests", chunks_completed * chunk_size)
 
-    logging.info('Submitting %d requests to add NBNco data...', len(addresses))
+    logging.info("Submitting %d requests to add NBNco data...", len(addresses))
     threads = []
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         for i in range(0, len(addresses), chunk_size):
-            chunk = addresses[i:i + chunk_size]
+            chunk = addresses[i : i + chunk_size]
             future = executor.submit(process_chunk, chunk)
             threads.append(future)
     exceptions = [thread.exception() for thread in threads if thread.exception() is not None]
-    logging.info('All threads completed, %d exceptions', len(exceptions))
+    logging.info("All threads completed, %d exceptions", len(exceptions))
     # TODO: not the most elegant way to handle this
     for e in exceptions:
         if not isinstance(e, requests.exceptions.RequestException):
-            logging.error('Unhandled exception: %s', e)
-    logging.info('Tally of tech types: %s', Counter([address.get("tech") for address in addresses]))
-    logging.info('Location ID starting with "LOC": %s', Counter([address.get("locID", "").startswith("LOC") for address in addresses]))
+            logging.error("Unhandled exception: %s", e)
+    logging.info("Tally of tech types: %s", Counter([address.get("tech") for address in addresses]))
+    logging.info(
+        'Location ID starting with "LOC": %s',
+        Counter([address.get("locID", "").startswith("LOC") for address in addresses]),
+    )
 
     return addresses
 
 
 def format_addresses(addresses: list) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    formatted_addresses = {
-        "type": "FeatureCollection",
-        "generated": datetime.now().isoformat(),
-        "features": []
-    }
+    formatted_addresses = {"type": "FeatureCollection", "generated": datetime.now().isoformat(), "features": []}
     for address in addresses:
         if "upgrade" in address and "tech" in address:
             formatted_address = {
                 "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": address["location"]
-                },
+                "geometry": {"type": "Point", "coordinates": address["location"]},
                 "properties": {
                     "name": address["name"],
                     "locID": address["locID"],
                     "tech": address["tech"],
-                    "upgrade": address["upgrade"]
-                }
+                    "upgrade": address["upgrade"],
+                },
             }
             formatted_addresses["features"].append(formatted_address)
 
@@ -125,17 +121,17 @@ def write_geojson_file(suburb: str, state: str, formatted_addresses: dict):
             os.makedirs(f"results/{state}")
         target_suburb_file = suburb.lower().replace(" ", "-")
         with open(f"results/{state}/{target_suburb_file}.geojson", "w", encoding="utf-8") as outfile:
-            logging.info('Writing results to %s', outfile.name)
+            logging.info("Writing results to %s", outfile.name)
             json.dump(formatted_addresses, outfile, indent=1)  # indent=1 is to minimise size increase
     else:
-        logging.warning('No addresses found for %s, %s', suburb.title(), state)
+        logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
 
 def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
-    if suburb == 'NA':
-        logging.error('No more suburbs to process')
+    if suburb == "NA":
+        logging.error("No more suburbs to process")
     else:
         addresses = get_all_addresses(db, suburb, state, max_threads)
         formatted_addresses = format_addresses(addresses)
@@ -145,23 +141,27 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
 def main():
     """Parse command line arguments and start processing selected suburb."""
     parser = argparse.ArgumentParser(
-        description='Create GeoJSON files containing FTTP upgrade details for the prescribed suburb.')
+        description="Create GeoJSON files containing FTTP upgrade details for the prescribed suburb."
+    )
     parser.add_argument(
-        'target_suburb', help='The name of a suburb, for example "bli-bli", or "NA" to process the next suburb', default='NA')
+        "target_suburb",
+        help='The name of a suburb, for example "bli-bli", or "NA" to process the next suburb',
+        default="NA",
+    )
+    parser.add_argument("target_state", help='The name of a state, for example "QLD"', default="NA")
+    parser.add_argument("-u", "--dbuser", help="The name of the database user", default="postgres")
+    parser.add_argument("-p", "--dbpassword", help="The password for the database user", default="password")
+    parser.add_argument("-H", "--dbhost", help="The hostname for the database", default="localhost")
+    parser.add_argument("-P", "--dbport", help="The port number for the database", default="5433")
     parser.add_argument(
-        'target_state', help='The name of a state, for example "QLD"', default='NA')
+        "-i",
+        "--create_index",
+        help="Whether to disable adding an index to the DB to help speed up queries (only used for GitHub Actions)",
+        action="store_false",
+    )
     parser.add_argument(
-        '-u', '--dbuser', help='The name of the database user', default='postgres')
-    parser.add_argument(
-        '-p', '--dbpassword', help='The password for the database user', default='password')
-    parser.add_argument(
-        '-H', '--dbhost', help='The hostname for the database', default='localhost')
-    parser.add_argument(
-        '-P', '--dbport', help='The port number for the database', default='5433')
-    parser.add_argument(
-        '-i', '--create_index', help='Whether to disable adding an index to the DB to help speed up queries (only used for GitHub Actions)', action='store_false')
-    parser.add_argument(
-        '-n', '--threads', help='The number of threads to use', default=10, type=int, choices=range(1, 41))
+        "-n", "--threads", help="The number of threads to use", default=10, type=int, choices=range(1, 41)
+    )
     args = parser.parse_args()
 
     db = AddressDB("postgres", args.dbhost, args.dbport, args.dbuser, args.dbpassword, args.create_index)
@@ -169,6 +169,6 @@ def main():
 
 
 if __name__ == "__main__":
-    LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
-    logging.basicConfig(level=LOGLEVEL, format='%(asctime)s %(levelname)s %(message)s')
+    LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
+    logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(message)s")
     main()

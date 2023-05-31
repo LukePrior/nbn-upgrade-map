@@ -6,20 +6,19 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 # 1GB LRU cache of gnaf_pid->loc_id and loc_id->details
-CACHE = diskcache.Cache('cache')
+CACHE = diskcache.Cache("cache")
 
 
 class NBNApi:
     """Interacts with NBN's unofficial API."""
+
     LOOKUP_URL = "https://places.nbnco.net.au/places/v1/autocomplete?query="
     DETAIL_URL = "https://places.nbnco.net.au/places/v2/details/"
-    HEADERS = {
-        "referer": "https://www.nbnco.com.au/"
-    }
+    HEADERS = {"referer": "https://www.nbnco.com.au/"}
 
     def __init__(self):
         self.session = requests.Session()
-        self.session.mount('http://', HTTPAdapter(max_retries=(Retry(total=5))))
+        self.session.mount("http://", HTTPAdapter(max_retries=(Retry(total=5))))
 
     def close(self):
         """Close the cache."""
@@ -43,7 +42,7 @@ class NBNApi:
         loc_id = self.get_nbn_loc_id(key, address)
         if not loc_id.startswith("LOC"):
             details = self.get_nbn_loc_details(loc_id)
-            new_address = ' '.join(details['addressSplitDetails'].values())
+            new_address = " ".join(details["addressSplitDetails"].values())
             if new_address.lower() != address.lower():
                 loc_id = self.get_nbn_loc_id("X" + key, new_address)
         return loc_id

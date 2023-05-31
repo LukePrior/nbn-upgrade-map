@@ -21,21 +21,21 @@ def collect_completed_suburbs():
                 with open(file, "w", encoding="utf-8") as outfile:
                     json.dump(result, outfile, indent=1)  # indent=1 is to minimise size increase
 
-            suburbs.append({
-                "internal": filename.replace("-", " ").upper(),
-                "state": state,
-                "name": filename.replace("-", " ").title(),
-                "file": filename,
-                "date": datetime.fromisoformat(result["generated"]).strftime("%d-%m-%Y"),
-            })
+            suburbs.append(
+                {
+                    "internal": filename.replace("-", " ").upper(),
+                    "state": state,
+                    "name": filename.replace("-", " ").title(),
+                    "file": filename,
+                    "date": datetime.fromisoformat(result["generated"]).strftime("%d-%m-%Y"),
+                }
+            )
     return suburbs
 
 
 def write_results_json(suburbs: list):
     """Write the list of completed suburbs to a JSON file."""
-    suburb_record = {
-        "suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))
-    }
+    suburb_record = {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))}
 
     with open("results/results.json", "w") as outfile:
         json.dump(suburb_record, outfile, indent=4)

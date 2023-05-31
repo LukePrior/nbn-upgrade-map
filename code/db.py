@@ -10,12 +10,7 @@ class AddressDB:
     def __init__(self, database: str, host: str, port: str, user: str, password: str, create_index: bool = True):
         """Connect to the database"""
         self.conn = psycopg2.connect(
-            database=database,
-            host=host,
-            port=port,
-            user=user,
-            password=password,
-            cursor_factory=NamedTupleCursor
+            database=database, host=host, port=port, user=user, password=password, cursor_factory=NamedTupleCursor
         )
 
         self.cur = self.conn.cursor()
@@ -27,11 +22,13 @@ class AddressDB:
         # optionally create a DB index
         if create_index:
             try:
-                logging.info('Creating DB index...')
-                self.cur.execute(f"CREATE index address_name_state on {self.db_schema}.address_principals (locality_name, state)")
+                logging.info("Creating DB index...")
+                self.cur.execute(
+                    f"CREATE index address_name_state on {self.db_schema}.address_principals (locality_name, state)"
+                )
                 self.conn.commit()
             except psycopg2.errors.DuplicateTable:
-                logging.info('Skipping index creation as already exists')
+                logging.info("Skipping index creation as already exists")
                 self.conn.rollback()
 
     def get_addresses(self, target_suburb: str, target_state: str) -> list:
@@ -50,7 +47,7 @@ class AddressDB:
             address = {
                 "gnaf_pid": row.gnaf_pid,
                 "name": f"{row.address} {row.locality_name} {row.postcode}",
-                "location": [float(row.longitude), float(row.latitude)]
+                "location": [float(row.longitude), float(row.latitude)],
             }
             addresses.append(address)
             row = self.cur.fetchone()
