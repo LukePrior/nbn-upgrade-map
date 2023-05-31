@@ -5,7 +5,7 @@ conn = psycopg2.connect(database="postgres", host="localhost", user="postgres", 
 
 cur = conn.cursor()
 
-cur.execute(f"SELECT DISTINCT locality_name, state FROM gnaf_202302.address_principals")
+cur.execute("SELECT DISTINCT locality_name, state FROM gnaf_202302.address_principals")
 
 rows = cur.fetchall()
 
