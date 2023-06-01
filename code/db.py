@@ -28,7 +28,7 @@ class AddressDB:
                 )
                 self.conn.commit()
             except psycopg2.errors.DuplicateTable:
-                logging.info("Skipping index creation as already exists")
+                logging.info('Skipping index creation as already exists')
                 self.conn.rollback()
 
     def get_addresses(self, target_suburb: str, target_state: str) -> list:
