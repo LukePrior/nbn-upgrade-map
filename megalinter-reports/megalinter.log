@@ -1,0 +1,69 @@
+----------------------------------------------------------------------------------------------------
+------------------------------------ MegaLinter, by OX Security ------------------------------------
+----------------------------------------------------------------------------------------------------
+ - Image Creation Date: 2023-05-31T21:57:00Z
+ - Image Revision: 0d014ffdef3307ca4a4cd1ddf482fc4f05733d7c
+ - Image Version: v7.0.4
+----------------------------------------------------------------------------------------------------
+The MegaLinter documentation can be found at:
+ - https://megalinter.io/7.0.4
+----------------------------------------------------------------------------------------------------
+::group::MegaLinter initialization (expand for details)
+MegaLinter will analyze workspace [/github/workspace]
+GITHUB_REPOSITORY: LukePrior/nbn-upgrade-map
+GITHUB_REF: refs/pull/94/merge
+GITHUB_RUN_ID: 5140745872
+
+
+MARKDOWN_REMARK_LINT has been temporary disabled in MegaLinter, please use a previous MegaLinter version or wait for the next one !
+Skipped linters: ACTION_ACTIONLINT, ANSIBLE_ANSIBLE_LINT, ARM_ARM_TTK, BASH_EXEC, BASH_SHELLCHECK, BASH_SHFMT, BICEP_BICEP_LINTER, CLOJURE_CLJSTYLE, CLOJURE_CLJ_KONDO, CLOUDFORMATION_CFN_LINT, COFFEE_COFFEELINT, COPYPASTE_JSCPD, CPP_CPPLINT, CSHARP_CSHARPIER, CSHARP_DOTNET_FORMAT, CSS_SCSS_LINT, CSS_STYLELINT, C_CPPLINT, DART_DARTANALYZER, DOCKERFILE_HADOLINT, EDITORCONFIG_EDITORCONFIG_CHECKER, ENV_DOTENV_LINTER, GHERKIN_GHERKIN_LINT, GO_GOLANGCI_LINT, GO_REVIVE, GRAPHQL_GRAPHQL_SCHEMA_LINTER, GROOVY_NPM_GROOVY_LINT, HTML_DJLINT, HTML_HTMLHINT, JAVASCRIPT_ES, JAVASCRIPT_PRETTIER, JAVASCRIPT_STANDARD, JAVA_CHECKSTYLE, JAVA_PMD, JSON_ESLINT_PLUGIN_JSONC, JSON_JSONLINT, JSON_NPM_PACKAGE_JSON_LINT, JSON_PRETTIER, JSON_V8R, JSX_ESLINT, KOTLIN_KTLINT, KUBERNETES_HELM, KUBERNETES_KUBECONFORM, KUBERNETES_KUBESCAPE, LATEX_CHKTEX, LUA_LUACHECK, MAKEFILE_CHECKMAKE, MARKDOWN_MARKDOWNLINT, MARKDOWN_MARKDOWN_LINK_CHECK, MARKDOWN_MARKDOWN_TABLE_FORMATTER, MARKDOWN_REMARK_LINT, OPENAPI_SPECTRAL, PERL_PERLCRITIC, PHP_PHPCS, PHP_PHPLINT, PHP_PHPSTAN, PHP_PSALM, POWERSHELL_POWERSHELL, POWERSHELL_POWERSHELL_FORMATTER, PROTOBUF_PROTOLINT, PUPPET_PUPPET_LINT, PYTHON_BANDIT, PYTHON_MYPY, PYTHON_PYLINT, PYTHON_PYRIGHT, PYTHON_RUFF, RAKU_RAKU, REPOSITORY_CHECKOV, REPOSITORY_DEVSKIM, REPOSITORY_DUSTILOCK, REPOSITORY_GITLEAKS, REPOSITORY_GIT_DIFF, REPOSITORY_KICS, REPOSITORY_SECRETLINT, REPOSITORY_SEMGREP, REPOSITORY_SYFT, REPOSITORY_TRIVY, RST_RSTCHECK, RST_RSTFMT, RST_RST_LINT, RUBY_RUBOCOP, RUST_CLIPPY, R_LINTR, SALESFORCE_SFDX_SCANNER_APEX, SALESFORCE_SFDX_SCANNER_AURA, SALESFORCE_SFDX_SCANNER_LWC, SCALA_SCALAFIX, SNAKEMAKE_LINT, SNAKEMAKE_SNAKEFMT, SPELL_CSPELL, SPELL_PROSELINT, SPELL_VALE, SQL_SQLFLUFF, SQL_SQL_LINT, SQL_TSQLLINT, SWIFT_SWIFTLINT, TEKTON_TEKTON_LINT, TERRAFORM_TERRAFORM_FMT, TERRAFORM_TERRAGRUNT, TERRAFORM_TERRASCAN, TERRAFORM_TFLINT, TSX_ESLINT, TYPESCRIPT_ES, TYPESCRIPT_PRETTIER, TYPESCRIPT_STANDARD, VBDOTNET_DOTNET_FORMAT, XML_XMLLINT, YAML_PRETTIER, YAML_V8R, YAML_YAMLLINT
+To receive reports as email, please set variable EMAIL_REPORTER_EMAIL
+::endgroup::
+::group::MegaLinter now collects the files to analyse (expand for details)
+Listing updated files in [/github/workspace] using git diff.
+Modified files:
+code/db.py
+- File extensions: .py
+- Excluding .gitignored files [0]: 
+Kept [1] files on [1] found files
+
++----MATCHING LINTERS-+----------+----------------+------------+
+| Descriptor | Linter | Criteria | Matching files | Format/Fix |
++------------+--------+----------+----------------+------------+
+| PYTHON     | black  | .py      | 1              | yes        |
+| PYTHON     | flake8 | .py      | 1              | no         |
+| PYTHON     | isort  | .py      | 1              | yes        |
++------------+--------+----------+----------------+------------+
+::endgroup::
+Processing linters on [2] parallel cores…
+::group::[32m✅ Linted [PYTHON] files with [flake8] successfully - (0.33s)[0m (expand for details)
+- Using [flake8 v6.0.0] https://megalinter.io/7.0.4/descriptors/python_flake8
+- MegaLinter key: [PYTHON_FLAKE8]
+- Rules config: [.flake8]
+- Number of files analyzed: [1]
+::endgroup::
+::group::[32m✅ Linted [PYTHON] files with [black] successfully - (1.19s)[0m (expand for details)
+- Using [black v23.3.0] https://megalinter.io/7.0.4/descriptors/python_black
+- MegaLinter key: [PYTHON_BLACK]
+- Rules config: [pyproject.toml]
+- Number of files analyzed: [1]
+::endgroup::
+::group::[32m✅ Linted [PYTHON] files with [isort] successfully - (0.92s)[0m (expand for details)
+- Using [isort v5.12.0] https://megalinter.io/7.0.4/descriptors/python_isort
+- MegaLinter key: [PYTHON_ISORT]
+- Rules config: [.isort.cfg]
+- Number of files analyzed: [1]
+::endgroup::
+
++----SUMMARY-+--------+---------------+-------+-------+--------+--------------+
+| Descriptor | Linter | Mode          | Files | Fixed | Errors | Elapsed time |
++------------+--------+---------------+-------+-------+--------+--------------+
+| ✅ PYTHON  | black  | list_of_files |     1 |     1 |      0 |        1.19s |
+| ✅ PYTHON  | flake8 | list_of_files |     1 |       |      0 |        0.33s |
+| ✅ PYTHON  | isort  | list_of_files |     1 |     1 |      0 |        0.92s |
++------------+--------+---------------+-------+-------+--------+--------------+
+
+[GitHub Comment Reporter] Posted summary as comment on LukePrior/nbn-upgrade-map #PR94
+[Updated Sources Reporter] copied 1 fixed source files in folder /github/workspace/megalinter-reports/updated_sources.
+Download it from artifacts then copy-paste it in your local repo to apply linters updates
+[32m✅ Successfully linted all files without errors[0m

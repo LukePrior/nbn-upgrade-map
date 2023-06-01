@@ -1,0 +1,45 @@
+MegaLinter can help you to define the same linter configuration locally
+
+INSTRUCTIONS
+
+- Copy the content of IDE-config folder at the root of your repository
+- if you are using Visual Studio Code, just reopen your project after the copy, and you will be prompted to install recommended extensions
+- If not, you can install extensions manually using the following links.
+
+IDE EXTENSIONS APPLICABLE TO YOUR PROJECT
+
+black (PYTHON)
+  - atom:
+    - python-black: https://atom.io/packages/python-black
+  - emacs:
+    - blacken: https://github.com/pythonic-emacs/blacken
+    - reformatter.el: https://github.com/purcell/reformatter.el
+    - elpy: https://github.com/jorgenschaefer/elpy
+  - idea:
+    - black: https://black.readthedocs.io/en/stable/editor_integration.html#pycharm-intellij-idea
+  - sublime:
+    - sublack: https://github.com/jgirardet/sublack
+  - vscode:
+    - VSCode Python Extension: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
+flake8 (PYTHON)
+  - atom:
+    - linter-flake8: https://atom.io/packages/linter-flake8
+  - idea:
+    - flake8-support: https://plugins.jetbrains.com/plugin/11563-flake8-support
+  - vscode:
+    - Native Support: https://code.visualstudio.com/docs/python/linting#_flake8
+
+isort (PYTHON)
+  - atom:
+    - atom-python-isort: https://github.com/bh/atom-python-isort
+    - atom-isort: https://atom.io/packages/atom-isort
+  - emacs:
+    - py-isort.el: https://github.com/paetzke/py-isort.el
+  - sublime:
+    - isort plugin: https://github.com/jcugat/sublime-text-isort-plugin#install
+  - vim:
+    - ale: https://github.com/w0rp/ale
+    - vim-isort: https://github.com/fisadev/vim-isort#installation
+  - vscode:
+    - VSCode Python Extension: https://github.com/Microsoft/vscode-python
