@@ -1,3 +1,11 @@
+FROM minus34/gnafloader:latest
+WORKDIR /data
+USER postgres
+RUN /usr/lib/postgresql/15/bin/pg_ctl start -D /var/lib/postgresql/15/main -o '-c config_file=/etc/postgresql/15/main/postgresql.conf' \
+  && sleep 5 \
+  && psql -c "copy (SELECT gnaf_pid, address, locality_name, postcode, state, latitude, longitude FROM gnaf_202305.address_principals) to stdout with CSV HEADER;" | gzip -9 > /tmp/address_principals.csv.gz
+
+
 FROM debian:buster-slim
 
 # Postgres user password - WARNING: change this to something a lot more secure
@@ -31,7 +39,8 @@ WORKDIR /data
 
 EXPOSE 5432
 
-ADD --chown=postgres create-table.sql address_principals.csv.gz /data/
+ADD --chown=postgres create-table.sql /data/
+COPY --from=0 --chown=postgres /tmp/address_principals.csv.gz /data/
 
 # set user for postgres startup
 USER postgres
