@@ -8,22 +8,13 @@ jobs:
   auto-suburb:
     runs-on: ubuntu-latest
     steps:
-      - name: Maximize build space
-        uses: easimon/maximize-build-space@master
-        with:
-          root-reserve-mb: 37000
-          swap-size-mb: 1024
-          remove-dotnet: 'true'
-          remove-android: 'true'
-          remove-haskell: 'true'
-
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Docker
         run: |
-          docker pull minus34/gnafloader:latest
-          docker run -d --publish=5433:5432 minus34/gnafloader:latest
+          docker pull lyricnz/nbn-upgrade-map-db:latest
+          docker run -d --publish=5433:5432 lyricnz/nbn-upgrade-map-db:latest
 
       - name: Setup Python
         uses: actions/setup-python@v3
