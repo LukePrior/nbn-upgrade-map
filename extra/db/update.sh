@@ -2,7 +2,6 @@
 
 # check the latest release of the gnaf-loader
 LAST_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
-LAST_TAG=latest
 
 # check if we already have our derived image
 IMG_NAME=lyricnz/nbn-upgrade-map-db
