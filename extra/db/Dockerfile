@@ -1,4 +1,6 @@
-FROM minus34/gnafloader:latest
+ARG GNAF_LOADER_TAG="latest"
+
+FROM minus34/gnafloader:${GNAF_LOADER_TAG}
 WORKDIR /data
 USER postgres
 RUN /usr/lib/postgresql/15/bin/pg_ctl start -D /var/lib/postgresql/15/main -o '-c config_file=/etc/postgresql/15/main/postgresql.conf' \
