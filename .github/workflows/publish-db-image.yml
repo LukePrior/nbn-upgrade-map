@@ -10,14 +10,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Extract Data
-        run: |
-            docker run -d --publish=5433:5432 --name db minus34/gnafloader:latest
-            sleep 5
-            docker exec db psql -c "copy (SELECT gnaf_pid, address, locality_name, postcode, state, latitude, longitude FROM gnaf_202305.address_principals) to stdout with CSV HEADER;" | \
-            gzip -9 > ./extra/db/address_principals.csv.gz
-            docker rm -f db
-      
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
@@ -26,7 +18,7 @@ jobs:
       
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        uses: docker/metadata-action@v4
         with:
           images: lyricnz/nbn-upgrade-map-db
       
