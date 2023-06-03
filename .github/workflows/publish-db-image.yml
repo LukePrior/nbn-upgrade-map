@@ -24,18 +24,21 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       
+      - name: Check upstream version
+        id: version
+        run: |
+          GNAF_LOADER_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
+          echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG" >> $GITHUB_OUTPUT
+
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: lyricnz/nbn-upgrade-map-db
-
-      - name: Check upstream version
-        id: version
-        run: |
-          GNAF_LOADER_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
-          echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG"
-          echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG" >> $GITHUB_OUTPUT
+          tags: |
+            type=raw,value=${{ steps.version.outputs.GNAF_LOADER_TAG }}
+            # set latest tag for main branch
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
 
       - name: Download GNAF data dmp
         run: |
