@@ -36,16 +36,16 @@ jobs:
           echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG"
           echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG\n" >> $GITHUB_OUTPUT
 
-      # - name: Download GNAF data dmp
-      #   run: |
-      #     curl --insecure https://minus34.com/opendata/geoscape-202305/gnaf-202305.dmp --output ./extra/db/gnaf-202305.dmp
+      - name: Download GNAF data dmp
+        run: |
+          curl --insecure https://minus34.com/opendata/geoscape-202305/gnaf-202305.dmp --output ./extra/db/gnaf-202305.dmp
       
-      # - name: Build and push Docker image
-      #   uses: docker/build-push-action@v4
-      #   with:
-      #     context: ./extra/db
-      #     push: true
-      #     tags: ${{ steps.meta.outputs.tags }}
-      #     labels: ${{ steps.meta.outputs.labels }}
-      #     build-args: |
-      #       GNAF_LOADER_TAG=${{ steps.check_upstream_version.outputs.GNAF_LOADER_TAG }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./extra/db
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            GNAF_LOADER_TAG=${{ steps.check_upstream_version.outputs.GNAF_LOADER_TAG }}
