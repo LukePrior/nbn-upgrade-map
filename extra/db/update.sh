@@ -12,7 +12,7 @@ if [ $? -eq 0 ]; then
 else
     # doesn't exist - build and push
     echo "Building $IMG_NAME:$LAST_TAG..."
-    docker build . --build-arg GNAF_LOADER_TAG=$LAST_TAG -t $IMG_NAME:$LAST_TAG -t $IMG_NAME:latest
+    docker build . --build-arg GNAF_LOADER_TAG=$LAST_TAG -t $IMG_NAME:$LAST_TAG -t $IMG_NAME:latest --progress=plain
     docker push $IMG_NAME:$LAST_TAG
     docker push $IMG_NAME:latest
 fi
