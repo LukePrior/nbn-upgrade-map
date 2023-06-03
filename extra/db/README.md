@@ -3,8 +3,14 @@ huge (32GB). In order to consume less resources, we can create a cut-down
 version of this, with just the single table that this tool actually uses,
 as well as a DB index already created.
 
-In order to do this, we use the upstream Docker container as a base image, 
-then run an export command to extract just the data we need into a CSV.
+~~In order to do this, we use the upstream Docker container as a base image, 
+then run an export command to extract just the data we need into a CSV.~~
+
+Using the upstream image works, but uses too much space to run in Github
+Actions.  As an alternative, we download the DB dump file, the restore
+just the table we are interested in.  This creates a 9.45GB image.
+To make the image even smaller, we export just the columns want.
+
 Then we rebuild the Postgresql server, basically the same as the upstream
 image, and create a single table with the exported data.
 
