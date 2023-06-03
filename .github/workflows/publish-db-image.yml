@@ -31,6 +31,7 @@ jobs:
           images: lyricnz/nbn-upgrade-map-db
 
       - name: Check upstream version
+        id: version
         run: |
           GNAF_LOADER_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
           echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG"
@@ -39,6 +40,8 @@ jobs:
       - name: Download GNAF data dmp
         run: |
           curl --insecure https://minus34.com/opendata/geoscape-202305/gnaf-202305.dmp --output ./extra/db/gnaf-202305.dmp
+          GNAF_LOADER_TAG=${{ steps.version.outputs.GNAF_LOADER_TAG }}
+          curl --insecure https://minus34.com/opendata/geoscape-$GNAF_LOADER_TAG/gnaf-$GNAF_LOADER_TAG.dmp --output ./extra/db/gnaf-$GNAF_LOADER_TAG.dmp
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
@@ -48,4 +51,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            GNAF_LOADER_TAG=${{ steps.check_upstream_version.outputs.GNAF_LOADER_TAG }}
+            GNAF_LOADER_TAG=${{ steps.version.outputs.GNAF_LOADER_TAG }}
