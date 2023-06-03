@@ -30,11 +30,12 @@ If you would like to see an additional suburb added please open an issue.
 
 ## Running locally
 
-To run the code on your local machine you will first need to setup the PostgreSQL database with the GNAF dataset using gnaf-loader. The simplest way to do this is by running the Docker container with the following commands.
+To run the code on your local machine you will first need to setup the PostgreSQL database with the GNAF dataset.
+We have developed a "cut down" version of the minus34/gnaf-loader image that includes just the data this program needs, and is ~3GB instead of the 32GB original.
+The simplest way to do this is by running the Docker container with the following commands.
 
 ```
-docker pull minus34/gnafloader:latest
-docker run --publish=5433:5432 minus34/gnafloader:latest
+docker run --publish=5433:5432 lukeprior/nbn-upgrade-map-db:latest:latest
 ```
 
 The database can then be accessed at localhost on port 5433 with username: `postgres` and password `password`.

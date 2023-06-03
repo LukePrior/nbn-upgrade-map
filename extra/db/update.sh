@@ -4,7 +4,7 @@
 LAST_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
 
 # check if we already have our derived image
-IMG_NAME=lyricnz/nbn-upgrade-map-db
+IMG_NAME=lukeprior/nbn-upgrade-map-db
 docker manifest inspect $IMG_NAME:$LAST_TAG > /dev/null
 if [ $? -eq 0 ]; then
     # already exists - do nothing

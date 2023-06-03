@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: lyricnz/nbn-upgrade-map-db
+          images: lukeprior/nbn-upgrade-map-db
           tags: |
             type=raw,value=${{ steps.version.outputs.GNAF_LOADER_TAG }}
             # set latest tag for main branch
@@ -42,7 +42,6 @@ jobs:
 
       - name: Download GNAF data dmp
         run: |
-          curl --insecure https://minus34.com/opendata/geoscape-202305/gnaf-202305.dmp --output ./extra/db/gnaf-202305.dmp
           GNAF_LOADER_TAG=${{ steps.version.outputs.GNAF_LOADER_TAG }}
           curl --insecure https://minus34.com/opendata/geoscape-$GNAF_LOADER_TAG/gnaf-$GNAF_LOADER_TAG.dmp --output ./extra/db/gnaf-$GNAF_LOADER_TAG.dmp
       
