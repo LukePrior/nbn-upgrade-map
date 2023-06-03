@@ -35,7 +35,7 @@ jobs:
         run: |
           GNAF_LOADER_TAG=$(curl -s https://api.github.com/repos/minus34/gnaf-loader/releases/latest | jq -r .tag_name)
           echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG"
-          echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG\n" >> $GITHUB_OUTPUT
+          echo "GNAF_LOADER_TAG=$GNAF_LOADER_TAG" >> $GITHUB_OUTPUT
 
       - name: Download GNAF data dmp
         run: |
