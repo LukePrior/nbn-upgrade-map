@@ -36,10 +36,10 @@ class AddressDB:
         query = f"""
             SELECT gnaf_pid, address, postcode, latitude, longitude
             FROM {self.db_schema}.address_principals
-            WHERE locality_name = '{target_suburb}' AND state = '{target_state}'
+            WHERE locality_name = %s AND state = %s
             LIMIT 100000"""
 
-        self.cur.execute(query)
+        self.cur.execute(query, (target_suburb, target_state))
 
         addresses = []
         row = self.cur.fetchone()
