@@ -197,12 +197,7 @@ def main():
         args.dbpassword,
         args.create_index,
     )
-    # process_suburb(db, args.target_suburb, args.target_state, args.threads)
-    with open("results/suburbs.json", "r", encoding="utf-8") as file:
-        suburb_list = json.load(file)
-        state = "VIC"
-        for suburb in suburb_list["states"][state]:
-            process_suburb(db, suburb, state, args.threads)
+    process_suburb(db, args.target_suburb, args.target_state, args.threads)
 
 
 if __name__ == "__main__":
