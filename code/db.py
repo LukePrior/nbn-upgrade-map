@@ -25,9 +25,7 @@ class AddressDB:
         if create_index:
             try:
                 logging.info("Creating DB index...")
-                self.cur.execute(
-                    f"CREATE index address_name_state on address_principals (locality_name, state)"
-                )
+                self.cur.execute(f"CREATE index address_name_state on address_principals (locality_name, state)")
                 conn.commit()
             except psycopg2.errors.DuplicateTable:
                 logging.info("Skipping index creation as already exists")
@@ -43,15 +41,13 @@ class AddressDB:
 
         self.cur.execute(query, (target_suburb, target_state))
 
-        addresses = []
-        row = self.cur.fetchone()
-        while row is not None:
-            address = {
+        addresses = [
+            {
                 "gnaf_pid": row.gnaf_pid,
                 "name": f"{row.address} {target_suburb} {row.postcode}",
                 "location": [float(row.longitude), float(row.latitude)],
             }
-            addresses.append(address)
-            row = self.cur.fetchone()
+            for row in self.cur.fetchall()
+        ]
 
         return addresses

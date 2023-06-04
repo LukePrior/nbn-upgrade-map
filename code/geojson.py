@@ -16,10 +16,7 @@ def format_addresses(addresses: list, suburb: str) -> dict:
         if "upgrade" in address and "tech" in address:
             formatted_address = {
                 "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": address["location"]
-                },
+                "geometry": {"type": "Point", "coordinates": address["location"]},
                 "properties": {
                     "name": address["name"],
                     "locID": address["locID"],
