@@ -13,8 +13,8 @@ jobs:
 
       - name: Docker
         run: |
-          docker pull lyricnz/nbn-upgrade-map-db:latest
-          docker run -d --publish=5433:5432 lyricnz/nbn-upgrade-map-db:latest
+          docker pull lukeprior/nbn-upgrade-map-db:latest
+          docker run -d --publish=5433:5432 lukeprior/nbn-upgrade-map-db:latest
 
       - name: Setup Python
         uses: actions/setup-python@v3
