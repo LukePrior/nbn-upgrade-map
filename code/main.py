@@ -103,11 +103,12 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
     return addresses
 
 
-def format_addresses(addresses: list) -> dict:
+def format_addresses(addresses: list, suburb: str) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
     formatted_addresses = {
         "type": "FeatureCollection",
         "generated": datetime.now().isoformat(),
+        "suburb": suburb,
         "features": [],
     }
     for address in addresses:
@@ -147,7 +148,7 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
         logging.error("No more suburbs to process")
     else:
         addresses = get_all_addresses(db, suburb, state, max_threads)
-        formatted_addresses = format_addresses(addresses)
+        formatted_addresses = format_addresses(addresses, state)
         write_geojson_file(suburb, state, formatted_addresses)
 
 

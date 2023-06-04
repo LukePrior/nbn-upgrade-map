@@ -18,6 +18,9 @@ def collect_completed_suburbs():
             with open(file, "r", encoding="utf-8") as infile:
                 result = json.load(infile)
 
+            # Check if has a "suburb" field
+            suburb = result.get("suburb", filename.replace("-", " "))
+
             # fixup any missing generated dates
             if "generated" not in result:
                 result["generated"] = datetime.now().isoformat()
@@ -28,9 +31,9 @@ def collect_completed_suburbs():
 
             suburbs.append(
                 {
-                    "internal": filename.replace("-", " ").upper(),
+                    "internal": suburb.upper(),
                     "state": state,
-                    "name": filename.replace("-", " ").title(),
+                    "name": suburb.title(),
                     "file": filename,
                     "date": datetime.fromisoformat(result["generated"]).strftime("%d-%m-%Y"),
                 }
