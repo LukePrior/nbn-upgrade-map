@@ -64,12 +64,12 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
     chunks_completed = 0
     lock = Lock()
 
-    def process_chunk(chunk):
+    def process_chunk(addresses_chunk):
         nbn = NBNApi()
-        for address in chunk:
+        for address in addresses_chunk:
             try:
                 augment_address_with_nbn_data(nbn, address)
-            except Exception as e:
+            except Exception:
                 logging.error(traceback.format_exc())  # gobble all exceptions so we can continue processing
 
         with lock:
