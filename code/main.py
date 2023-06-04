@@ -4,6 +4,7 @@ import argparse
 import json
 import logging
 import os
+import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -18,13 +19,13 @@ def augment_address_with_nbn_data(nbn: NBNApi, address: dict):
     """Fetch the upgrade+tech details for the provided address from the NBN API and add to the address dict."""
     try:
         loc_id = nbn.extended_get_nbn_loc_id(address["gnaf_pid"], address["name"])
-        status = nbn.get_nbn_loc_details(loc_id)
-        address["locID"] = loc_id
-        address["tech"] = status["addressDetail"]["techType"]
-        address["upgrade"] = status["addressDetail"].get("altReasonCode", "UNKNOWN")
+        if loc_id:
+            status = nbn.get_nbn_loc_details(loc_id)
+            address["locID"] = loc_id
+            address["tech"] = status["addressDetail"]["techType"]
+            address["upgrade"] = status["addressDetail"].get("altReasonCode", "UNKNOWN")
     except requests.exceptions.RequestException as err:
         logging.warning("Error fetching NBN data for %s: %s", address["name"], err)
-    # other exceptions are raised to the caller
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
@@ -65,7 +66,11 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
     def process_chunk(chunk):
         nbn = NBNApi()
         for address in chunk:
-            augment_address_with_nbn_data(nbn, address)
+            try:
+                augment_address_with_nbn_data(nbn, address)
+            except Exception as e:
+                logging.error(traceback.format_exc())  # gobble all exceptions so we can continue processing
+
         with lock:
             nonlocal chunks_completed
             chunks_completed += 1
@@ -78,17 +83,19 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
             chunk = addresses[i : i + chunk_size]
             future = executor.submit(process_chunk, chunk)
             threads.append(future)
-    exceptions = [thread.exception() for thread in threads if thread.exception() is not None]
-    logging.info("All threads completed, %d exceptions", len(exceptions))
-    # TODO: not the most elegant way to handle this
-    for e in exceptions:
-        if not isinstance(e, requests.exceptions.RequestException):
-            logging.error("Unhandled exception: %s", e)
-    logging.info("Tally of tech types: %s", Counter([address.get("tech") for address in addresses]))
-    logging.info(
-        'Location ID starting with "LOC": %s',
-        Counter([address.get("locID", "").startswith("LOC") for address in addresses]),
-    )
+    logging.info("Completed. Tally of tech types: %s", Counter([address.get("tech") for address in addresses]))
+
+    loc_tally = Counter()
+    for address in addresses:
+        loc_id = address.get("locID", None)
+        if loc_id is None:
+            loc_tally["None"] += 1
+        elif loc_id.startswith("LOC"):
+            loc_tally["LOC"] += 1
+        else:
+            loc_tally["Other"] += 1
+
+    logging.info('Location ID starting with "LOC": %s', dict(loc_tally))
 
     return addresses
 
@@ -164,8 +171,12 @@ def main():
     args = parser.parse_args()
 
     db = AddressDB("postgres", args.dbhost, args.dbport, args.dbuser, args.dbpassword, args.create_index)
-    process_suburb(db, args.target_suburb, args.target_state, args.threads)
-
+    # process_suburb(db, args.target_suburb, args.target_state, args.threads)
+    with open("results/suburbs.json", "r", encoding="utf-8") as file:
+        suburb_list = json.load(file)
+        state = "VIC"
+        for suburb in suburb_list["states"][state]:
+            process_suburb(db, suburb, state, args.threads)
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()

@@ -1,3 +1,4 @@
+import logging
 import urllib.parse
 
 import diskcache
@@ -33,18 +34,29 @@ class NBNApi:
         """Return the NBN locID for the provided address, or None if there was an error."""
         if key in CACHE:
             return CACHE[key]
-        loc_id = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))["suggestions"][0]["id"]
-        CACHE[key] = loc_id  # cache indefinitely
-        return loc_id
+        # loc_id = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))["suggestions"][0]["id"]
+        result = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))
+        if "suggestions" not in result:
+            logging.warning("No suggestions for %s", address)
+        elif len(result["suggestions"]) == 0:
+            logging.warning("Zero suggestions for %s", address)
+        elif "id" not in result["suggestions"][0]:
+            logging.warning("No id for %s", address)
+        else:
+            loc_id = result["suggestions"][0]["id"]
+            CACHE[key] = loc_id  # cache indefinitely
+            return loc_id
 
     def extended_get_nbn_loc_id(self, key: str, address: str) -> str:
         """Return the NBN locID for the provided address, following the addressSplitDetails if required."""
         loc_id = self.get_nbn_loc_id(key, address)
-        if not loc_id.startswith("LOC"):
+        if loc_id and not loc_id.startswith("LOC"):
             details = self.get_nbn_loc_details(loc_id)
-            new_address = " ".join(details["addressSplitDetails"].values())
-            if new_address.lower() != address.lower():
-                loc_id = self.get_nbn_loc_id("X" + key, new_address)
+            # sometimes addressSplitDetails.address1 is None
+            if details and None not in details["addressSplitDetails"].values():
+                new_address = " ".join(details["addressSplitDetails"].values())
+                if new_address.lower() != address.lower():
+                    loc_id = self.get_nbn_loc_id("X" + key, new_address)
         return loc_id
 
     def get_nbn_loc_details(self, id: str) -> dict:
