@@ -34,7 +34,6 @@ class NBNApi:
         """Return the NBN locID for the provided address, or None if there was an error."""
         if key in CACHE:
             return CACHE[key]
-        # loc_id = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))["suggestions"][0]["id"]
         result = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))
         if "suggestions" not in result:
             logging.warning("No suggestions for %s", address)
