@@ -9,33 +9,35 @@ class AddressDB:
 
     def __init__(self, database: str, host: str, port: str, user: str, password: str, create_index: bool = True):
         """Connect to the database"""
-        self.conn = psycopg2.connect(
+        conn = psycopg2.connect(
             database=database, host=host, port=port, user=user, password=password, cursor_factory=NamedTupleCursor
         )
 
-        self.cur = self.conn.cursor()
+        self.cur = conn.cursor()
 
         # detect the schema used by the DB
         self.cur.execute("SELECT schema_name FROM information_schema.schemata where schema_name like 'gnaf_%'")
-        self.db_schema = self.cur.fetchone().schema_name
+        db_schema = self.cur.fetchone().schema_name
+        self.cur.execute(f"SET search_path TO {db_schema}")
+        conn.commit()
 
         # optionally create a DB index
         if create_index:
             try:
                 logging.info("Creating DB index...")
                 self.cur.execute(
-                    f"CREATE index address_name_state on {self.db_schema}.address_principals (locality_name, state)"
+                    f"CREATE index address_name_state on address_principals (locality_name, state)"
                 )
-                self.conn.commit()
+                conn.commit()
             except psycopg2.errors.DuplicateTable:
                 logging.info("Skipping index creation as already exists")
-                self.conn.rollback()
+                conn.rollback()
 
     def get_addresses(self, target_suburb: str, target_state: str) -> list:
         """Return a list of addresses for the provided suburb+state from the database."""
         query = f"""
             SELECT gnaf_pid, address, postcode, latitude, longitude
-            FROM {self.db_schema}.address_principals
+            FROM address_principals
             WHERE locality_name = %s AND state = %s
             LIMIT 100000"""
 
