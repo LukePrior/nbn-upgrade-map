@@ -121,6 +121,7 @@ def format_addresses(addresses: list, suburb: str) -> dict:
                     "locID": address["locID"],
                     "tech": address["tech"],
                     "upgrade": address["upgrade"],
+                    "gnaf_pid": address["gnaf_pid"],
                 },
             }
             formatted_addresses["features"].append(formatted_address)
