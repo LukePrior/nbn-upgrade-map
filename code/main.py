@@ -148,7 +148,7 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
         logging.error("No more suburbs to process")
     else:
         addresses = get_all_addresses(db, suburb, state, max_threads)
-        formatted_addresses = format_addresses(addresses, state)
+        formatted_addresses = format_addresses(addresses, suburb)
         write_geojson_file(suburb, state, formatted_addresses)
 
 
