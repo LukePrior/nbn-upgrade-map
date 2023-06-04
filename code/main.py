@@ -7,10 +7,11 @@ import os
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
 from threading import Lock
 
 import requests
+
+from geojson import write_geojson_file
 from db import AddressDB
 from nbn import NBNApi
 
@@ -103,45 +104,6 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
     return addresses
 
 
-def format_addresses(addresses: list, suburb: str) -> dict:
-    """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    formatted_addresses = {
-        "type": "FeatureCollection",
-        "generated": datetime.now().isoformat(),
-        "suburb": suburb,
-        "features": [],
-    }
-    for address in addresses:
-        if "upgrade" in address and "tech" in address:
-            formatted_address = {
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": address["location"]},
-                "properties": {
-                    "name": address["name"],
-                    "locID": address["locID"],
-                    "tech": address["tech"],
-                    "upgrade": address["upgrade"],
-                    "gnaf_pid": address["gnaf_pid"],
-                },
-            }
-            formatted_addresses["features"].append(formatted_address)
-
-    return formatted_addresses
-
-
-def write_geojson_file(suburb: str, state: str, formatted_addresses: dict):
-    """Write the GeoJSON FeatureCollection to a file."""
-    if formatted_addresses["features"]:
-        if not os.path.exists(f"results/{state}"):
-            os.makedirs(f"results/{state}")
-        target_suburb_file = suburb.lower().replace(" ", "-")
-        with open(f"results/{state}/{target_suburb_file}.geojson", "w", encoding="utf-8") as outfile:
-            logging.info("Writing results to %s", outfile.name)
-            json.dump(formatted_addresses, outfile, indent=1)  # indent=1 is to minimise size increase
-    else:
-        logging.warning("No addresses found for %s, %s", suburb.title(), state)
-
-
 def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
@@ -149,8 +111,7 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
         logging.error("No more suburbs to process")
     else:
         addresses = get_all_addresses(db, suburb, state, max_threads)
-        formatted_addresses = format_addresses(addresses, suburb)
-        write_geojson_file(suburb, state, formatted_addresses)
+        write_geojson_file(suburb, state, addresses)
 
 
 def main():
