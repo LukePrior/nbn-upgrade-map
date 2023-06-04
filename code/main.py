@@ -89,26 +89,27 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
     for e in exceptions:
         if not isinstance(e, requests.exceptions.RequestException):
             logging.error("Unhandled exception: %s", e)
-    logging.info("Completed. Tally of tech types: %s", Counter([address.get("tech") for address in addresses]))
+    tech_tally = Counter([address.get("tech") for address in addresses])
+    logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
 
     loc_tally = Counter()
     for address in addresses:
         loc_id = address.get("locID", None)
-        if loc_id is None:
-            loc_tally["None"] += 1
-        elif loc_id.startswith("LOC"):
-            loc_tally["LOC"] += 1
-        else:
-            loc_tally["Other"] += 1
+        tag = "None" if loc_id is None else "LOC" if loc_id.startswith("LOC") else "Other"
+        loc_tally[tag] += 1
 
-    logging.info('Location ID starting with "LOC": %s', dict(loc_tally))
+    logging.info("Location ID types: %s", dict(loc_tally))
 
     return addresses
 
 
 def format_addresses(addresses: list) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    formatted_addresses = {"type": "FeatureCollection", "generated": datetime.now().isoformat(), "features": []}
+    formatted_addresses = {
+        "type": "FeatureCollection",
+        "generated": datetime.now().isoformat(),
+        "features": [],
+    }
     for address in addresses:
         if "upgrade" in address and "tech" in address:
             formatted_address = {
@@ -162,7 +163,12 @@ def main():
     )
     parser.add_argument("target_state", help='The name of a state, for example "QLD"', default="NA")
     parser.add_argument("-u", "--dbuser", help="The name of the database user", default="postgres")
-    parser.add_argument("-p", "--dbpassword", help="The password for the database user", default="password")
+    parser.add_argument(
+        "-p",
+        "--dbpassword",
+        help="The password for the database user",
+        default="password",
+    )
     parser.add_argument("-H", "--dbhost", help="The hostname for the database", default="localhost")
     parser.add_argument("-P", "--dbport", help="The port number for the database", default="5433")
     parser.add_argument(
@@ -172,17 +178,30 @@ def main():
         action="store_false",
     )
     parser.add_argument(
-        "-n", "--threads", help="The number of threads to use", default=10, type=int, choices=range(1, 41)
+        "-n",
+        "--threads",
+        help="The number of threads to use",
+        default=10,
+        type=int,
+        choices=range(1, 41),
     )
     args = parser.parse_args()
 
-    db = AddressDB("postgres", args.dbhost, args.dbport, args.dbuser, args.dbpassword, args.create_index)
+    db = AddressDB(
+        "postgres",
+        args.dbhost,
+        args.dbport,
+        args.dbuser,
+        args.dbpassword,
+        args.create_index,
+    )
     # process_suburb(db, args.target_suburb, args.target_state, args.threads)
     with open("results/suburbs.json", "r", encoding="utf-8") as file:
         suburb_list = json.load(file)
         state = "VIC"
         for suburb in suburb_list["states"][state]:
             process_suburb(db, suburb, state, args.threads)
+
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
