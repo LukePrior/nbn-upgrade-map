@@ -83,6 +83,12 @@ def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int =
             chunk = addresses[i : i + chunk_size]
             future = executor.submit(process_chunk, chunk)
             threads.append(future)
+    exceptions = [thread.exception() for thread in threads if thread.exception() is not None]
+    logging.info("All threads completed, %d exceptions", len(exceptions))
+    # TODO: not the most elegant way to handle this
+    for e in exceptions:
+        if not isinstance(e, requests.exceptions.RequestException):
+            logging.error("Unhandled exception: %s", e)
     logging.info("Completed. Tally of tech types: %s", Counter([address.get("tech") for address in addresses]))
 
     loc_tally = Counter()
