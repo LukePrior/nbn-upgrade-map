@@ -13,16 +13,16 @@ def format_addresses(addresses: list, suburb: str) -> dict:
         "features": [],
     }
     for address in addresses:
-        if "upgrade" in address and "tech" in address:
+        if address.upgrade and address.tech:
             formatted_address = {
                 "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": address["location"]},
+                "geometry": {"type": "Point", "coordinates": address.location},
                 "properties": {
-                    "name": address["name"],
-                    "locID": address["locID"],
-                    "tech": address["tech"],
-                    "upgrade": address["upgrade"],
-                    "gnaf_pid": address["gnaf_pid"],
+                    "name": address.name,
+                    "locID": address.loc_id,
+                    "tech": address.tech,
+                    "upgrade": address.upgrade,
+                    "gnaf_pid": address.gnaf_pid,
                 },
             }
             formatted_addresses["features"].append(formatted_address)

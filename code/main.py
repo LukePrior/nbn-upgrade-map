@@ -1,32 +1,39 @@
 """Main script for fetching NBN data for a suburb from the NBN API and writing to a GeoJSON file."""
 
 import argparse
+import itertools
 import json
 import logging
 import os
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
 from threading import Lock
 
 import requests
 
-from geojson import write_geojson_file
 from db import AddressDB
+from geojson import write_geojson_file
 from nbn import NBNApi
 
 
-def augment_address_with_nbn_data(nbn: NBNApi, address: dict):
-    """Fetch the upgrade+tech details for the provided address from the NBN API and add to the address dict."""
-    try:
-        loc_id = nbn.extended_get_nbn_loc_id(address["gnaf_pid"], address["name"])
-        if loc_id:
-            status = nbn.get_nbn_loc_details(loc_id)
-            address["locID"] = loc_id
-            address["tech"] = status["addressDetail"]["techType"]
-            address["upgrade"] = status["addressDetail"].get("altReasonCode", "UNKNOWN")
-    except requests.exceptions.RequestException as err:
-        logging.warning("Error fetching NBN data for %s: %s", address["name"], err)
+@dataclass
+class Address:
+    name: str
+    gnaf_pid: str
+    location: tuple
+    loc_id: str = None
+    tech: str = None
+    upgrade: str = None
+
+    @staticmethod
+    def from_dict(address_info):
+        return Address(
+            name=address_info["name"],
+            gnaf_pid=address_info["gnaf_pid"],
+            location=address_info["location"],
+        )
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
@@ -53,50 +60,62 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
     return target_suburb, target_state
 
 
+def get_address(nbn: NBNApi, address_info: dict) -> Address:
+    """Return an Address for the given db address, probably augmented with data from the NBN API."""
+    address = Address.from_dict(address_info)
+    try:
+        loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
+        if loc_id:
+            status = nbn.get_nbn_loc_details(loc_id)
+            address.loc_id = loc_id
+            address.tech = status["addressDetail"]["techType"]
+            address.upgrade = status["addressDetail"].get("altReasonCode", "UNKNOWN")
+    except requests.exceptions.RequestException as err:
+        logging.warning("Error fetching NBN data for %s: %s", address.name, err)
+    except Exception:
+        # gobble all exceptions so we can continue processing!
+        logging.warning(traceback.format_exc())
+
+    return address
+
+
 def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int = 10) -> list:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
     logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
-    addresses = db.get_addresses(suburb, state)
-    addresses = sorted(addresses, key=lambda k: k["name"])
-    logging.info("Fetched %d addresses from database", len(addresses))
+    db_addresses = db.get_addresses(suburb, state)
+    db_addresses.sort(key=lambda k: k["name"])
+    logging.info("Fetched %d addresses from database", len(db_addresses))
 
     chunk_size = 200
     chunks_completed = 0
     lock = Lock()
 
     def process_chunk(addresses_chunk):
+        """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
-        for address in addresses_chunk:
-            try:
-                augment_address_with_nbn_data(nbn, address)
-            except Exception:
-                logging.error(traceback.format_exc())  # gobble all exceptions so we can continue processing
+        addresses = [get_address(nbn, address) for address in addresses_chunk]
 
+        # show progress
         with lock:
             nonlocal chunks_completed
             chunks_completed += 1
             logging.info("Completed %d requests", chunks_completed * chunk_size)
 
-    logging.info("Submitting %d requests to add NBNco data...", len(addresses))
-    threads = []
-    with ThreadPoolExecutor(max_workers=max_threads) as executor:
-        for i in range(0, len(addresses), chunk_size):
-            chunk = addresses[i : i + chunk_size]
-            future = executor.submit(process_chunk, chunk)
-            threads.append(future)
-    exceptions = [thread.exception() for thread in threads if thread.exception() is not None]
-    logging.info("All threads completed, %d exceptions", len(exceptions))
-    # TODO: not the most elegant way to handle this
-    for e in exceptions:
-        if not isinstance(e, requests.exceptions.RequestException):
-            logging.error("Unhandled exception: %s", e)
-    tech_tally = Counter([address.get("tech") for address in addresses])
+        return addresses
+
+    logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
+    with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
+        chunks = (db_addresses[i : i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
+        chunk_results = executor.map(process_chunk, chunks)
+
+    addresses = list(itertools.chain.from_iterable(chunk_results))
+
+    tech_tally = Counter(address.tech for address in addresses)
     logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
 
     loc_tally = Counter()
     for address in addresses:
-        loc_id = address.get("locID", None)
-        tag = "None" if loc_id is None else "LOC" if loc_id.startswith("LOC") else "Other"
+        tag = "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
         loc_tally[tag] += 1
 
     logging.info("Location ID types: %s", dict(loc_tally))
@@ -163,5 +182,5 @@ def main():
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
-    logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(message)s")
+    logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
     main()
