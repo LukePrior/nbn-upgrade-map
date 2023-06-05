@@ -59,14 +59,13 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
     return target_suburb, target_state
 
 
-def get_address(nbn: NBNApi, address_info: dict) -> Address:
+def get_address(nbn: NBNApi, address_info: dict, get_status=True) -> Address:
     """Return an Address for the given db address, probably augmented with data from the NBN API."""
     address = Address.from_dict(address_info)
     try:
-        loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
-        if loc_id:
-            status = nbn.get_nbn_loc_details(loc_id)
-            address.loc_id = loc_id
+        address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
+        if address.loc_id and get_status:
+            status = nbn.get_nbn_loc_details(address.loc_id)
             address.tech = status["addressDetail"]["techType"]
             address.upgrade = status["addressDetail"].get("altReasonCode", "UNKNOWN")
     except requests.exceptions.RequestException as err:
@@ -78,22 +77,23 @@ def get_address(nbn: NBNApi, address_info: dict) -> Address:
     return address
 
 
-def get_all_addresses(db_addresses: list, max_threads: int = 10) -> list:
+def get_all_addresses(db_addresses: list, max_threads: int = 10, get_status: bool = True) -> list:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
+    # return list of Address
     chunk_size = 200
-    chunks_completed = 0
+    addresses_completed = 0
     lock = Lock()
 
     def process_chunk(addresses_chunk):
         """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
-        addresses = [get_address(nbn, address) for address in addresses_chunk]
+        addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]
 
         # show progress
         with lock:
-            nonlocal chunks_completed
-            chunks_completed += 1
-            logging.info("Completed %d requests", chunks_completed * chunk_size)
+            nonlocal addresses_completed
+            addresses_completed += len(addresses_chunk)
+            logging.info("Completed %d requests", addresses_completed)
 
         return addresses
 
@@ -103,17 +103,6 @@ def get_all_addresses(db_addresses: list, max_threads: int = 10) -> list:
         chunk_results = executor.map(process_chunk, chunks)
 
     addresses = list(itertools.chain.from_iterable(chunk_results))
-
-    tech_tally = Counter(address.tech for address in addresses)
-    logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
-
-    loc_tally = Counter()
-    for address in addresses:
-        tag = "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
-        loc_tally[tag] += 1
-
-    logging.info("Location ID types: %s", dict(loc_tally))
-
     return addresses
 
 
@@ -123,12 +112,26 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
     if suburb == "NA":
         logging.error("No more suburbs to process")
     else:
+        # get addresses from DB
         logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
         db_addresses = db.get_addresses(suburb, state)
         db_addresses.sort(key=lambda k: k["name"])
         logging.info("Fetched %d addresses from database", len(db_addresses))
 
+        # get NBN data for addresses
         addresses = get_all_addresses(db_addresses, max_threads)
+
+        # emit some tallies
+        tech_tally = Counter(address.tech for address in addresses)
+        logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
+
+        types = [
+            "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
+            for address in addresses
+        ]
+        loc_tally = Counter(types)
+        logging.info("Location ID types: %s", dict(loc_tally))
+
         write_geojson_file(suburb, state, addresses)
 
 
