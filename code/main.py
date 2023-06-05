@@ -12,7 +12,6 @@ from dataclasses import dataclass
 from threading import Lock
 
 import requests
-
 from db import AddressDB
 from geojson import write_geojson_file
 from nbn import NBNApi
