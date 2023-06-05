@@ -3,8 +3,10 @@ import logging
 import os
 from datetime import datetime
 
+from data import AddressList
 
-def format_addresses(addresses: list, suburb: str) -> dict:
+
+def format_addresses(addresses: AddressList, suburb: str) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
     formatted_addresses = {
         "type": "FeatureCollection",
@@ -30,7 +32,7 @@ def format_addresses(addresses: list, suburb: str) -> dict:
     return formatted_addresses
 
 
-def write_geojson_file(suburb: str, state: str, addresses: list):
+def write_geojson_file(suburb: str, state: str, addresses: AddressList):
     """Write the GeoJSON FeatureCollection to a file."""
     formatted_addresses = format_addresses(addresses, suburb)
     if formatted_addresses["features"]:

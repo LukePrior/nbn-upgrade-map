@@ -3,9 +3,11 @@ import logging
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
 
+import data
+
 
 class AddressDB:
-    """Connect to the GNAF PostgreSQL database and query for addresses. See https://github.com/minus34/gnaf-loader"""
+    """Connect to the GNAF Postgres database and query for addresses. See https://github.com/minus34/gnaf-loader"""
 
     def __init__(self, database: str, host: str, port: str, user: str, password: str, create_index: bool = True):
         """Connect to the database"""
@@ -31,8 +33,8 @@ class AddressDB:
                 logging.info("Skipping index creation as already exists")
                 conn.rollback()
 
-    def get_addresses(self, target_suburb: str, target_state: str) -> list:
-        """Return a list of addresses for the provided suburb+state from the database."""
+    def get_addresses(self, target_suburb: str, target_state: str) -> data.AddressList:
+        """Return a list of Address for the provided suburb+state from the database."""
         query = """
             SELECT gnaf_pid, address, postcode, latitude, longitude
             FROM address_principals
@@ -42,11 +44,11 @@ class AddressDB:
         self.cur.execute(query, (target_suburb, target_state))
 
         addresses = [
-            {
-                "gnaf_pid": row.gnaf_pid,
-                "name": f"{row.address} {target_suburb} {row.postcode}",
-                "location": [float(row.longitude), float(row.latitude)],
-            }
+            data.Address(
+                name=f"{row.address} {target_suburb} {row.postcode}",
+                gnaf_pid=row.gnaf_pid,
+                location=(float(row.longitude), float(row.latitude)),
+            )
             for row in self.cur.fetchall()
         ]
 

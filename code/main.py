@@ -8,31 +8,14 @@ import os
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
 from threading import Lock
 
 import requests
+
+from data import Address, AddressList
 from db import AddressDB
 from geojson import write_geojson_file
 from nbn import NBNApi
-
-
-@dataclass
-class Address:
-    name: str
-    gnaf_pid: str
-    location: tuple
-    loc_id: str = None
-    tech: str = None
-    upgrade: str = None
-
-    @staticmethod
-    def from_dict(address_info):
-        return Address(
-            name=address_info["name"],
-            gnaf_pid=address_info["gnaf_pid"],
-            location=address_info["location"],
-        )
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
@@ -59,9 +42,8 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
     return target_suburb, target_state
 
 
-def get_address(nbn: NBNApi, address_info: dict, get_status=True) -> Address:
+def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
     """Return an Address for the given db address, probably augmented with data from the NBN API."""
-    address = Address.from_dict(address_info)
     try:
         address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
         if address.loc_id and get_status:
@@ -77,7 +59,7 @@ def get_address(nbn: NBNApi, address_info: dict, get_status=True) -> Address:
     return address
 
 
-def get_all_addresses(db_addresses: list, max_threads: int = 10, get_status: bool = True) -> list:
+def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_status: bool = True) -> AddressList:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
     # return list of Address
     chunk_size = 200
@@ -87,7 +69,7 @@ def get_all_addresses(db_addresses: list, max_threads: int = 10, get_status: boo
     def process_chunk(addresses_chunk):
         """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
-        addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]
+        chunk_addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]
 
         # show progress
         with lock:
@@ -95,11 +77,11 @@ def get_all_addresses(db_addresses: list, max_threads: int = 10, get_status: boo
             addresses_completed += len(addresses_chunk)
             logging.info("Completed %d requests", addresses_completed)
 
-        return addresses
+        return chunk_addresses
 
     logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
     with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
-        chunks = (db_addresses[i : i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
+        chunks = (db_addresses[i: i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
         chunk_results = executor.map(process_chunk, chunks)
 
     addresses = list(itertools.chain.from_iterable(chunk_results))
@@ -115,7 +97,7 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
         # get addresses from DB
         logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
         db_addresses = db.get_addresses(suburb, state)
-        db_addresses.sort(key=lambda k: k["name"])
+        db_addresses.sort(key=lambda k: k.name)
         logging.info("Fetched %d addresses from database", len(db_addresses))
 
         # get NBN data for addresses
