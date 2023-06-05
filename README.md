@@ -6,7 +6,7 @@ NBN has progressively announced towns and suburbs where FTTN users will be eligi
 
 The details regarding actual availability of the program are limited with not all households in announced suburbs eligible for upgrades.
 
-To address these concerns this project runs automated checks against the announced suburbs to generate interactive maps showing which premises are ready to upgrade.
+To address these concerns this project runs automated checks against the announced suburbs to generate interactive maps showing which premises are ready to upgrade.  You can see the current version of this data at https://lukeprior.github.io/nbn-upgrade-map/
 
 ![Website Screenshot](resources/screenshot-1.png)
 
