@@ -78,13 +78,8 @@ def get_address(nbn: NBNApi, address_info: dict) -> Address:
     return address
 
 
-def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int = 10) -> list:
+def get_all_addresses(db_addresses: list, max_threads: int = 10) -> list:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
-    logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
-    db_addresses = db.get_addresses(suburb, state)
-    db_addresses.sort(key=lambda k: k["name"])
-    logging.info("Fetched %d addresses from database", len(db_addresses))
-
     chunk_size = 200
     chunks_completed = 0
     lock = Lock()
@@ -128,7 +123,12 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
     if suburb == "NA":
         logging.error("No more suburbs to process")
     else:
-        addresses = get_all_addresses(db, suburb, state, max_threads)
+        logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
+        db_addresses = db.get_addresses(suburb, state)
+        db_addresses.sort(key=lambda k: k["name"])
+        logging.info("Fetched %d addresses from database", len(db_addresses))
+
+        addresses = get_all_addresses(db_addresses, max_threads)
         write_geojson_file(suburb, state, addresses)
 
 
