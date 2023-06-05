@@ -3,8 +3,9 @@ import json
 import os
 from collections import Counter
 from datetime import datetime
+from typing import Dict, List
 
-STATES = ["ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"]
+import data
 
 UPGRADE_TALLY = Counter()
 
@@ -12,13 +13,13 @@ UPGRADE_TALLY = Counter()
 def collect_completed_suburbs():
     """Collect the list of completed suburbs from the results folder."""
     suburbs = []
-    for state in STATES:
+    for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             filename, _ = os.path.splitext(os.path.basename(file))
             with open(file, "r", encoding="utf-8") as infile:
                 result = json.load(infile)
 
-            # Check if has a "suburb" field
+            # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
 
             # fixup any missing generated dates
@@ -41,7 +42,7 @@ def collect_completed_suburbs():
     return suburbs
 
 
-def write_results_json(suburbs: list):
+def write_results_json(suburbs: List[Dict]):
     """Write the list of completed suburbs to a JSON file."""
     suburb_record = {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))}
 
@@ -54,12 +55,12 @@ def print_progress(done_all_suburbs, vs_description: str, vs_file: str):
     # load suburbs list and convert to dict of suburb-sets
     with open(vs_file, "r", encoding="utf-8") as infile:
         vs_json = json.load(infile)
-        vs_all_suburbs = {state: set(vs_json["states"].get(state, set())) for state in STATES}
+        vs_all_suburbs = {state: set(vs_json["states"].get(state, set())) for state in data.STATES}
 
     # we may have done suburbs that are not in the vs list: don't count them
     print(f"Progress vs {vs_description}:")
     total_done = total_count = 0
-    for state in STATES:
+    for state in data.STATES:
         state_done = done_all_suburbs[state] & vs_all_suburbs[state]
         done_percent = len(state_done) / len(vs_all_suburbs[state]) * 100
         total_done += len(state_done)
@@ -74,15 +75,19 @@ def print_upgrade_types():
         print(f"  {k}: {v}")
 
 
-if __name__ == "__main__":
+def main():
     suburbs = collect_completed_suburbs()
     write_results_json(suburbs)
 
     # convert suburbs to same format as json files
     done_suburbs = {}
-    for state in STATES:
+    for state in data.STATES:
         done_suburbs[state] = {suburb["internal"] for suburb in suburbs if suburb["state"] == state}
 
     print_progress(done_suburbs, "Listed Suburbs", "results/suburbs.json")
     print_progress(done_suburbs, "All Suburbs", "results/all_suburbs.json")
     print_upgrade_types()
+
+
+if __name__ == "__main__":
+    main()

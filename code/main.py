@@ -1,31 +1,20 @@
 """Main script for fetching NBN data for a suburb from the NBN API and writing to a GeoJSON file."""
 
 import argparse
+import itertools
 import json
 import logging
 import os
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
 from threading import Lock
 
 import requests
+from data import Address, AddressList
 from db import AddressDB
+from geojson import write_geojson_file
 from nbn import NBNApi
-
-
-def augment_address_with_nbn_data(nbn: NBNApi, address: dict):
-    """Fetch the upgrade+tech details for the provided address from the NBN API and add to the address dict."""
-    try:
-        loc_id = nbn.extended_get_nbn_loc_id(address["gnaf_pid"], address["name"])
-        if loc_id:
-            status = nbn.get_nbn_loc_details(loc_id)
-            address["locID"] = loc_id
-            address["tech"] = status["addressDetail"]["techType"]
-            address["upgrade"] = status["addressDetail"].get("altReasonCode", "UNKNOWN")
-    except requests.exceptions.RequestException as err:
-        logging.warning("Error fetching NBN data for %s: %s", address["name"], err)
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
@@ -52,94 +41,50 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
     return target_suburb, target_state
 
 
-def get_all_addresses(db: AddressDB, suburb: str, state: str, max_threads: int = 10) -> list:
-    """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
-    logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
-    addresses = db.get_addresses(suburb, state)
-    addresses = sorted(addresses, key=lambda k: k["name"])
-    logging.info("Fetched %d addresses from database", len(addresses))
+def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
+    """Return an Address for the given db address, probably augmented with data from the NBN API."""
+    try:
+        address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
+        if address.loc_id and get_status:
+            status = nbn.get_nbn_loc_details(address.loc_id)
+            address.tech = status["addressDetail"]["techType"]
+            address.upgrade = status["addressDetail"].get("altReasonCode", "UNKNOWN")
+    except requests.exceptions.RequestException as err:
+        logging.warning("Error fetching NBN data for %s: %s", address.name, err)
+    except Exception:
+        # gobble all exceptions so we can continue processing!
+        logging.warning(traceback.format_exc())
 
+    return address
+
+
+def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_status: bool = True) -> AddressList:
+    """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
+    # return list of Address
     chunk_size = 200
-    chunks_completed = 0
+    addresses_completed = 0
     lock = Lock()
 
-    def process_chunk(chunk):
+    def process_chunk(addresses_chunk):
+        """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
-        for address in chunk:
-            try:
-                augment_address_with_nbn_data(nbn, address)
-            except Exception as e:
-                logging.error(traceback.format_exc())  # gobble all exceptions so we can continue processing
+        chunk_addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]
 
+        # show progress
         with lock:
-            nonlocal chunks_completed
-            chunks_completed += 1
-            logging.info("Completed %d requests", chunks_completed * chunk_size)
+            nonlocal addresses_completed
+            addresses_completed += len(addresses_chunk)
+            logging.info("Completed %d requests", addresses_completed)
 
-    logging.info("Submitting %d requests to add NBNco data...", len(addresses))
-    threads = []
-    with ThreadPoolExecutor(max_workers=max_threads) as executor:
-        for i in range(0, len(addresses), chunk_size):
-            chunk = addresses[i : i + chunk_size]
-            future = executor.submit(process_chunk, chunk)
-            threads.append(future)
-    exceptions = [thread.exception() for thread in threads if thread.exception() is not None]
-    logging.info("All threads completed, %d exceptions", len(exceptions))
-    # TODO: not the most elegant way to handle this
-    for e in exceptions:
-        if not isinstance(e, requests.exceptions.RequestException):
-            logging.error("Unhandled exception: %s", e)
-    tech_tally = Counter([address.get("tech") for address in addresses])
-    logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
+        return chunk_addresses
 
-    loc_tally = Counter()
-    for address in addresses:
-        loc_id = address.get("locID", None)
-        tag = "None" if loc_id is None else "LOC" if loc_id.startswith("LOC") else "Other"
-        loc_tally[tag] += 1
+    logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
+    with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
+        chunks = (db_addresses[i : i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
+        chunk_results = executor.map(process_chunk, chunks)
 
-    logging.info("Location ID types: %s", dict(loc_tally))
-
+    addresses = list(itertools.chain.from_iterable(chunk_results))
     return addresses
-
-
-def format_addresses(addresses: list, suburb: str) -> dict:
-    """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    formatted_addresses = {
-        "type": "FeatureCollection",
-        "generated": datetime.now().isoformat(),
-        "suburb": suburb,
-        "features": [],
-    }
-    for address in addresses:
-        if "upgrade" in address and "tech" in address:
-            formatted_address = {
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": address["location"]},
-                "properties": {
-                    "name": address["name"],
-                    "locID": address["locID"],
-                    "tech": address["tech"],
-                    "upgrade": address["upgrade"],
-                    "gnaf_pid": address["gnaf_pid"],
-                },
-            }
-            formatted_addresses["features"].append(formatted_address)
-
-    return formatted_addresses
-
-
-def write_geojson_file(suburb: str, state: str, formatted_addresses: dict):
-    """Write the GeoJSON FeatureCollection to a file."""
-    if formatted_addresses["features"]:
-        if not os.path.exists(f"results/{state}"):
-            os.makedirs(f"results/{state}")
-        target_suburb_file = suburb.lower().replace(" ", "-")
-        with open(f"results/{state}/{target_suburb_file}.geojson", "w", encoding="utf-8") as outfile:
-            logging.info("Writing results to %s", outfile.name)
-            json.dump(formatted_addresses, outfile, indent=1)  # indent=1 is to minimise size increase
-    else:
-        logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
 
 def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10):
@@ -148,9 +93,27 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
     if suburb == "NA":
         logging.error("No more suburbs to process")
     else:
-        addresses = get_all_addresses(db, suburb, state, max_threads)
-        formatted_addresses = format_addresses(addresses, suburb)
-        write_geojson_file(suburb, state, formatted_addresses)
+        # get addresses from DB
+        logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
+        db_addresses = db.get_addresses(suburb, state)
+        db_addresses.sort(key=lambda k: k.name)
+        logging.info("Fetched %d addresses from database", len(db_addresses))
+
+        # get NBN data for addresses
+        addresses = get_all_addresses(db_addresses, max_threads)
+
+        # emit some tallies
+        tech_tally = Counter(address.tech for address in addresses)
+        logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
+
+        types = [
+            "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
+            for address in addresses
+        ]
+        loc_tally = Counter(types)
+        logging.info("Location ID types: %s", dict(loc_tally))
+
+        write_geojson_file(suburb, state, addresses)
 
 
 def main():
@@ -202,5 +165,5 @@ def main():
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
-    logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(message)s")
+    logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
     main()
