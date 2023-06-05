@@ -3,7 +3,7 @@ import json
 import os
 from collections import Counter
 from datetime import datetime
-from typing import List, Dict
+from typing import Dict, List
 
 import data
 

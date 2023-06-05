@@ -11,7 +11,6 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
 import requests
-
 from data import Address, AddressList
 from db import AddressDB
 from geojson import write_geojson_file
@@ -81,7 +80,7 @@ def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_stat
 
     logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
     with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
-        chunks = (db_addresses[i: i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
+        chunks = (db_addresses[i : i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
         chunk_results = executor.map(process_chunk, chunks)
 
     addresses = list(itertools.chain.from_iterable(chunk_results))

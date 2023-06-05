@@ -1,9 +1,8 @@
 import logging
 
+import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
-
-import data
 
 
 class AddressDB:
