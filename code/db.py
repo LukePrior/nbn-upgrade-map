@@ -25,7 +25,7 @@ class AddressDB:
         if create_index:
             try:
                 logging.info("Creating DB index...")
-                self.cur.execute(f"CREATE index address_name_state on address_principals (locality_name, state)")
+                self.cur.execute("CREATE index address_name_state on address_principals (locality_name, state)")
                 conn.commit()
             except psycopg2.errors.DuplicateTable:
                 logging.info("Skipping index creation as already exists")
@@ -33,7 +33,7 @@ class AddressDB:
 
     def get_addresses(self, target_suburb: str, target_state: str) -> list:
         """Return a list of addresses for the provided suburb+state from the database."""
-        query = f"""
+        query = """
             SELECT gnaf_pid, address, postcode, latitude, longitude
             FROM address_principals
             WHERE locality_name = %s AND state = %s
