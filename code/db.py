@@ -1,3 +1,4 @@
+import itertools
 import logging
 
 import data
@@ -52,3 +53,26 @@ class AddressDB:
         ]
 
         return addresses
+
+    def get_progress(self, suburbs_states: dict) -> (int, int):
+        """Provide approximate progress on the given list of {state->[suburbs,...]}"""
+
+        # generate a query like:
+        # SELECT COUNT(*) FROM address_principals WHERE
+        #    (state = 'NSW' AND locality_name IN ('NORTH SYDNEY', 'WOLLAR')) OR
+        #    (state = 'VIC' AND locality_name IN ('SOMERVILLE'))
+
+        self.cur.execute("SELECT COUNT(*) FROM address_principals")
+        total_addresses = self.cur.fetchone().count
+
+        query_parts = ["(state = %s AND locality_name IN %s)\n"] * len(suburbs_states)
+        values = [[state, tuple(suburbs)] for state, suburbs in suburbs_states.items()]
+        all_values = itertools.chain.from_iterable(values)
+
+        query = f"""
+            SELECT COUNT(*) FROM address_principals WHERE\n{" OR ".join(query_parts)}
+        """
+        self.cur.execute(query, tuple(all_values))  # takes ~2 minutes
+        completed_addresses = self.cur.fetchone().count
+
+        return completed_addresses, total_addresses
