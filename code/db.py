@@ -1,9 +1,10 @@
 import itertools
 import logging
 
-import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
+
+import data
 
 
 class AddressDB:
@@ -54,25 +55,38 @@ class AddressDB:
 
         return addresses
 
-    def get_progress(self, suburbs_states: dict) -> (int, int):
-        """Provide approximate progress on the given list of {state->[suburbs,...]}"""
-
-        # generate a query like:
-        # SELECT COUNT(*) FROM address_principals WHERE
-        #    (state = 'NSW' AND locality_name IN ('NORTH SYDNEY', 'WOLLAR')) OR
-        #    (state = 'VIC' AND locality_name IN ('SOMERVILLE'))
-
-        self.cur.execute("SELECT COUNT(*) FROM address_principals")
-        total_addresses = self.cur.fetchone().count
+    def get_progress(self, suburbs_states: dict) -> dict:
+        """Calculate a state-by-state completion progress relative to the DB totals."""
+        self.cur.execute("SELECT state, COUNT(*) FROM address_principals GROUP BY state")
+        states = {row.state: {"total": row.count} for row in self.cur.fetchall()}
 
         query_parts = ["(state = %s AND locality_name IN %s)\n"] * len(suburbs_states)
         values = [[state, tuple(suburbs)] for state, suburbs in suburbs_states.items()]
-        all_values = itertools.chain.from_iterable(values)
+        all_values = tuple(itertools.chain.from_iterable(values))
 
         query = f"""
-            SELECT COUNT(*) FROM address_principals WHERE\n{" OR ".join(query_parts)}
+            SELECT state, COUNT(*)
+            FROM address_principals
+            WHERE\n{" OR ".join(query_parts)}
+            GROUP BY state
         """
-        self.cur.execute(query, tuple(all_values))  # takes ~2 minutes
-        completed_addresses = self.cur.fetchone().count
+        self.cur.execute(query, all_values)  # takes ~2 minutes
+        for row in self.cur.fetchall():
+            states[row.state]["completed"] = row.count
 
-        return completed_addresses, total_addresses
+        return states
+
+    @staticmethod
+    def get_and_log_progress(self, suburbs_states: dict) -> dict:
+        """Calculate and log a state-by-state completion progress relative to the DB totals."""
+        progress = self.get_progress(suburbs_states)
+
+        total_completed = total = 0
+        for state, sp in progress.items():
+            s_completed, s_total = sp.get("completed", 0), sp.get("total", 0)
+            logging.info("%5s: %d/%d (%.1f%%)", state, s_completed, s_total, s_completed / s_total * 100)
+            total_completed += s_completed
+            total += s_total
+        logging.info("Total: %d/%d (%.1f%%)", total_completed, total, total_completed / total * 100)
+
+        return progress
