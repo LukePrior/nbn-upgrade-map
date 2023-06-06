@@ -75,7 +75,6 @@ class AddressDB:
 
         return states
 
-    @staticmethod
     def get_and_log_progress(self, suburbs_states: dict) -> dict:
         """Calculate and log a state-by-state completion progress relative to the DB totals."""
         progress = self.get_progress(suburbs_states)
