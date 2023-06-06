@@ -3,7 +3,7 @@ huge (32GB). In order to consume less resources, we can create a cut-down
 version of this, with just the single table that this tool actually uses,
 as well as a DB index already created.
 
-~~In order to do this, we use the upstream Docker container as a base image, 
+~~In order to do this, we use the upstream Docker container as a base image,
 then run an export command to extract just the data we need into a CSV.~~
 
 Using the upstream image works, but uses too much space to run in Github
