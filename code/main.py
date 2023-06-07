@@ -12,7 +12,7 @@ from threading import Lock
 
 import requests
 from data import Address, AddressList
-from db import AddressDB
+from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
 
@@ -127,21 +127,6 @@ def main():
         default="NA",
     )
     parser.add_argument("target_state", help='The name of a state, for example "QLD"', default="NA")
-    parser.add_argument("-u", "--dbuser", help="The name of the database user", default="postgres")
-    parser.add_argument(
-        "-p",
-        "--dbpassword",
-        help="The password for the database user",
-        default="password",
-    )
-    parser.add_argument("-H", "--dbhost", help="The hostname for the database", default="localhost")
-    parser.add_argument("-P", "--dbport", help="The port number for the database", default="5433")
-    parser.add_argument(
-        "-i",
-        "--create_index",
-        help="Whether to disable adding an index to the DB to help speed up queries (only used for GitHub Actions)",
-        action="store_false",
-    )
     parser.add_argument(
         "-n",
         "--threads",
@@ -150,16 +135,10 @@ def main():
         type=int,
         choices=range(1, 41),
     )
+    add_db_arguments(parser)
     args = parser.parse_args()
 
-    db = AddressDB(
-        "postgres",
-        args.dbhost,
-        args.dbport,
-        args.dbuser,
-        args.dbpassword,
-        args.create_index,
-    )
+    db = connect_to_db(args)
     process_suburb(db, args.target_suburb, args.target_state, args.threads)
 
 
