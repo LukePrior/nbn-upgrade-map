@@ -55,8 +55,8 @@ class AddressDB:
 
         return addresses
 
-    def get_progress(self, suburbs_states: dict) -> dict:
-        """Calculate a state-by-state completion progress relative to the DB totals."""
+    def get_list_vs_total(self, suburbs_states: dict) -> dict:
+        """Calculate which fraction of the entire dataset is represented by the given list of state+suburb."""
         self.cur.execute("SELECT state, COUNT(*) FROM address_principals GROUP BY state")
         states = {row.state: {"total": row.count} for row in self.cur.fetchall()}
 
@@ -80,6 +80,24 @@ class AddressDB:
         states["total"] = {"completed": total_completed, "total": total}
 
         return states
+
+    def get_counts_by_suburb(self) -> dict:
+        """return a tally of addresses by state and suburb"""
+        query = f"""
+            SELECT locality_name, state, COUNT(*)
+            FROM address_principals
+            GROUP BY locality_name, state
+            ORDER BY state, locality_name
+        """
+        self.cur.execute(query)
+
+        results = {}
+        for record in self.cur.fetchall():
+            if record.state not in results:
+                results[record.state] = {}
+            results[record.state][record.locality_name] = record.count
+
+        return results
 
 
 def add_db_arguments(parser: ArgumentParser):
