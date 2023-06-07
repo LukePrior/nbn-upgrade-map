@@ -63,10 +63,10 @@ def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: di
             if suburb in completed_suburbs.get(state, set()):
                 completed += suburb_count
             total += suburb_count
-        results[state] = {"done": completed, "total": total, "percent": completed / total * 100}
+        results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100,1)}
         all_completed += completed
         all_total += total
-    results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": all_completed / all_total * 100}
+    results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100)}
     return results
 
 
@@ -121,11 +121,11 @@ def get_suburb_progess(done_all_suburbs, vs_file: str):
         done_percent = len(state_done) / len(vs_all_suburbs[state]) * 100
         total_done += len(state_done)
         total_count += len(vs_all_suburbs[state])
-        results[state] = {"done": len(state_done), "total": len(vs_all_suburbs[state]), "percent": done_percent}
+        results[state] = {"done": len(state_done), "total": len(vs_all_suburbs[state]), "percent": round(done_percent,1)}
     results["TOTAL"] = {
         "done": total_done,
         "total": total_count,
-        "percent": total_done / total_count * 100,
+        "percent": round(total_done / total_count * 100,1),
     }
     return results
 
