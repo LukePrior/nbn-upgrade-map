@@ -66,7 +66,7 @@ def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: di
         results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100,1)}
         all_completed += completed
         all_total += total
-    results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100)}
+    results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100, 1)}
     return results
 
 
