@@ -4,11 +4,10 @@ import json
 import os
 from collections import Counter
 from datetime import datetime
-from typing import Dict, List
 
 import data
-from suburbs import get_all_suburbs, get_listed_suburbs
 from db import add_db_arguments, connect_to_db
+from suburbs import get_all_suburbs, get_listed_suburbs, get_completed_suburbs_by_state, write_results_json
 
 UPGRADE_TALLY = Counter()
 
@@ -45,14 +44,6 @@ def collect_completed_suburbs():
     return suburbs
 
 
-def write_results_json(suburbs: List[Dict]):
-    """Write the list of completed suburbs to a JSON file."""
-    suburb_record = {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))}
-
-    with open("results/results.json", "w") as outfile:
-        json.dump(suburb_record, outfile, indent=4)
-
-
 def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: dict):
     """Calculate a summary of progress against the list of suburbs in the DB."""
     results = {}
@@ -64,7 +55,7 @@ def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: di
             if suburb in completed_suburbs.get(state, set()):
                 completed += suburb_count
             total += suburb_count
-        results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100,1)}
+        results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100, 1)}
         all_completed += completed
         all_total += total
     results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100, 1)}
@@ -83,10 +74,7 @@ def collect_address_progress():
     # load the suburb lists and the list of completed suburbs
     listed_suburbs = get_listed_suburbs()
     all_suburbs = get_all_suburbs()
-    with open("results/results.json", "r", encoding="utf-8") as file:
-        completed_suburbs = {state: set() for state in data.STATES}
-        for suburb in json.load(file)["suburbs"]:
-            completed_suburbs[suburb["state"]].add(suburb["internal"])
+    completed_suburbs = get_completed_suburbs_by_state()
 
     return {
         "listed": compare_address_counts(completed_suburbs, listed_suburbs, counts),
@@ -118,11 +106,15 @@ def get_suburb_progress(done_all_suburbs, vs_suburbs: dict):
         done_percent = len(state_done) / len(vs_all_suburbs[state]) * 100
         total_done += len(state_done)
         total_count += len(vs_all_suburbs[state])
-        results[state] = {"done": len(state_done), "total": len(vs_all_suburbs[state]), "percent": round(done_percent,1)}
+        results[state] = {
+            "done": len(state_done),
+            "total": len(vs_all_suburbs[state]),
+            "percent": round(done_percent, 1),
+        }
     results["TOTAL"] = {
         "done": total_done,
         "total": total_count,
-        "percent": round(total_done / total_count * 100,1),
+        "percent": round(total_done / total_count * 100, 1),
     }
     return results
 

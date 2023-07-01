@@ -17,6 +17,7 @@ from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
+from suburbs import get_completed_suburbs_by_state
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
@@ -25,13 +26,7 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
     target_state = target_state.upper()
     if target_suburb == "NA":
         # load the list of previously completed suburbs
-        with open("results/results.json", "r", encoding="utf-8") as file:
-            completed_suburbs = {}  # state -> set-of-suburbs
-            for completed in json.load(file)["suburbs"]:
-                state, suburb = completed["state"], completed["internal"]
-                if state not in completed_suburbs:
-                    completed_suburbs[state] = set()
-                completed_suburbs[state].add(suburb)
+        completed_suburbs = get_completed_suburbs_by_state()
         # load the list of all suburbs
         suburb_list = get_all_suburbs()
         for state, suburbs in suburb_list["states"].items():
