@@ -11,10 +11,6 @@ from bs4 import BeautifulSoup
 import data
 import db
 import suburbs
-
-# from code.db import add_db_arguments, connect_to_db
-
-# from code import suburbs
 from suburbs import get_listed_suburbs
 
 
@@ -40,7 +36,10 @@ def update_suburb_dates():
 
 def update_suburb_list():
     """Parse a NBN web page to get a list of all suburbs announced for upgrades."""
-    URL = "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
+    URL = (
+        "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
+        "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
+    )
     content = requests.get(URL).content
     # with open("results/suburb-list.html", "wb") as outfile:
     #     outfile.write(content)
