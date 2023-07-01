@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import data
 import db
 import suburbs
+
 # from code.db import add_db_arguments, connect_to_db
 
 # from code import suburbs
@@ -65,7 +66,9 @@ def update_suburb_list():
         state_code = data.STATES_MAP[state]
         new_results[state_code] = [
             re.sub(
-                r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))", "", suburb.strip("*#.\xa0\r\n").upper()
+                r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))",
+                "",
+                suburb.strip("*#.\xa0\r\n").upper().replace("’", "'"),
             )
             for suburb in suburbs
         ]
@@ -106,6 +109,6 @@ if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
 
-    # update_suburb_dates()
-    # update_suburb_list()
+    update_suburb_dates()
+    update_suburb_list()
     compare_db_suburbs()
