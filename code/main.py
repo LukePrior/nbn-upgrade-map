@@ -11,6 +11,8 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
 import requests
+
+from suburbs import get_all_suburbs
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
@@ -31,12 +33,11 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple:
                     completed_suburbs[state] = set()
                 completed_suburbs[state].add(suburb)
         # load the list of all suburbs
-        with open("results/all_suburbs.json", "r", encoding="utf-8") as file:
-            suburb_list = json.load(file)
-            for state, suburbs in suburb_list["states"].items():
-                for suburb in suburbs:
-                    if state not in completed_suburbs or suburb not in completed_suburbs[state]:
-                        return suburb, state
+        suburb_list = get_all_suburbs()
+        for state, suburbs in suburb_list["states"].items():
+            for suburb in suburbs:
+                if state not in completed_suburbs or suburb not in completed_suburbs[state]:
+                    return suburb, state
 
     return target_suburb, target_state
 

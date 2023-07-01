@@ -7,6 +7,7 @@ from datetime import datetime
 from typing import Dict, List
 
 import data
+from suburbs import get_all_suburbs, get_listed_suburbs
 from db import add_db_arguments, connect_to_db
 
 UPGRADE_TALLY = Counter()
@@ -80,10 +81,8 @@ def collect_address_progress():
     counts = db.get_counts_by_suburb()
 
     # load the suburb lists and the list of completed suburbs
-    with open("results/suburbs.json", "r", encoding="utf-8") as file:
-        listed_suburbs = json.load(file)["states"]
-    with open("results/all_suburbs.json", "r", encoding="utf-8") as file:
-        all_suburbs = json.load(file)["states"]
+    listed_suburbs = get_listed_suburbs()
+    all_suburbs = get_all_suburbs()
     with open("results/results.json", "r", encoding="utf-8") as file:
         completed_suburbs = {state: set() for state in data.STATES}
         for suburb in json.load(file)["suburbs"]:
@@ -106,12 +105,10 @@ def print_progress(tally: dict):
         print(f"Total: {total_done} / {total}  = {total_done / total * 100.0:.1f}%")
 
 
-def get_suburb_progess(done_all_suburbs, vs_file: str):
+def get_suburb_progress(done_all_suburbs, vs_suburbs: dict):
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    # load suburbs list and convert to dict of suburb-sets
-    with open(vs_file, "r", encoding="utf-8") as infile:
-        vs_json = json.load(infile)
-        vs_all_suburbs = {state: set(vs_json["states"].get(state, set())) for state in data.STATES}
+    # convert state/suburb list to dict of suburb-sets
+    vs_all_suburbs = {state: set(vs_suburbs.get(state, set())) for state in data.STATES}
 
     # we may have done suburbs that are not in the vs list: don't count them
     results = {}
@@ -146,11 +143,11 @@ def main():
         done_suburbs[state] = {suburb["internal"] for suburb in suburbs if suburb["state"] == state}
 
     print("Progress vs Listed Suburbs:")
-    suburb_vs_listed = get_suburb_progess(done_suburbs, "results/suburbs.json")
+    suburb_vs_listed = get_suburb_progress(done_suburbs, get_listed_suburbs())
     print_progress(suburb_vs_listed)
 
     print("Progress vs All Suburbs")
-    suburb_vs_all = get_suburb_progess(done_suburbs, "results/all_suburbs.json")
+    suburb_vs_all = get_suburb_progress(done_suburbs, get_all_suburbs())
     print_progress(suburb_vs_all)
 
     print_upgrade_types()
