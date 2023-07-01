@@ -95,7 +95,11 @@ def compare_db_suburbs():
     for state, suburb_count in counts.items():
         for suburb, n in suburb_count.items():
             if suburb not in all_suburbs.get(state, set()):
-                print(f"Missing {suburb}, {state} ({n} addresses)")
+                print(f"Missing from list {suburb}, {state} ({n} addresses)")
+    for state, state_suburbs in all_suburbs.items():
+        for suburb in state_suburbs:
+            if suburb not in counts.get(state, {}):
+                print(f"Missing from DB {suburb}, {state}")
 
 
 if __name__ == "__main__":
