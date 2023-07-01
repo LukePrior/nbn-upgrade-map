@@ -3,6 +3,17 @@ from typing import List
 
 STATES = ["ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"]
 
+STATES_MAP = {
+    "New South Wales": "NSW",
+    "ACT": "ACT",
+    "Victoria": "VIC",
+    "Queensland": "QLD",
+    "South Australia": "SA",
+    "Western Australia": "WA",
+    "Tasmania": "TAS",
+    "Northern Territory": "NT",
+}
+
 
 @dataclass
 class Address:
