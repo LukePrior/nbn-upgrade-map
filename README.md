@@ -1,10 +1,10 @@
 # NBN FTTP Upgrade Map
 
-![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Listed&query=%24.suburbs.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%)
-![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Total&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Listed&query=%24.suburbs.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Total&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
 
-![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Listed&query=%24.addresses.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%)
-![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Total&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Listed&query=%24.addresses.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Total&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
 
 The Australian National Broadband Network (NBN) announced an on-demand upgrade program for select premises serviced via Fibre to the Node (FTTN) and Fibre to the Curb (FTTC) to Fibre to the Premises (FTTP) in October 2020.
 
