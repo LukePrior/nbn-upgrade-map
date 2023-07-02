@@ -14,6 +14,7 @@ STATES_MAP = {
 
 STATES = sorted(STATES_MAP.values())
 
+
 @dataclass
 class Address:
     name: str

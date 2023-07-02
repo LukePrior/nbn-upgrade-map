@@ -5,15 +5,16 @@ import logging
 import os
 import re
 
+import requests
+from bs4 import BeautifulSoup
+
 import data
 import db
-import requests
 import suburbs
-from bs4 import BeautifulSoup
 from suburbs import get_listed_suburbs
 
 
-def update_suburb_dates():
+def get_suburb_dates():
     """Parse a NBN web page to get a list of all suburb upgrade dates."""
     URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
     content = requests.get(URL).content
@@ -27,23 +28,25 @@ def update_suburb_dates():
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
             for suburb, date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
                 results[state][suburb] = date
-        print(state, len(results[state]), results[state])
 
+    return results
+
+
+def update_suburb_dates():
+    """Fetch the NBN web page with list of suburb dates and write it to a file."""
+    # print(state, len(results[state]), results[state])
+    # TODO: sort?
     with open("results/suburb-dates.json", "w") as outfile:
-        json.dump(results, outfile, indent=4)
+        json.dump(get_suburb_dates(), outfile, indent=4)
 
 
-def update_suburb_list():
+def get_suburb_list():
     """Parse a NBN web page to get a list of all suburbs announced for upgrades."""
     URL = (
         "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
         "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
     )
     content = requests.get(URL).content
-    # with open("results/suburb-list.html", "wb") as outfile:
-    #     outfile.write(content)
-    # with open("results/suburb-list.html", "r") as infile:
-    #     content = infile.read()
 
     results = {}
 
@@ -52,24 +55,32 @@ def update_suburb_list():
         state = state_element.find("span", class_="cmp-accordion__title").text
         results[state] = []
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
-            # paragraphs starting with <b> are titles, others are lists of suburbs
             if p.text.startswith("Announced "):
                 continue
-            suburbs = re.split(r", ?", p.text)
+            # remove extra text, and sanitise suburb names
+            suburbs = [
+                re.sub(
+                    r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))",
+                    "",
+                    suburb.strip("*#.\xa0\r\n").replace("’", "'"),
+                    flags=re.IGNORECASE,
+                )
+                for suburb in re.split(r", ?", p.text)
+            ]
             results[state].extend(suburbs)
+
+    return results
+
+
+def compare_suburb_lists():
+    """Compare the list of suburbs in current configuration vs the NBN website."""
+    results = get_suburb_list()
 
     # convert to a state codes and uppercase suburbs
     new_results = {}
     for state, suburbs in results.items():
         state_code = data.STATES_MAP[state]
-        new_results[state_code] = [
-            re.sub(
-                r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))",
-                "",
-                suburb.strip("*#.\xa0\r\n").upper().replace("’", "'"),
-            )
-            for suburb in suburbs
-        ]
+        new_results[state_code] = [suburb.upper() for suburb in suburbs]
 
     old_results = get_listed_suburbs()
 
@@ -108,5 +119,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
 
     update_suburb_dates()
-    update_suburb_list()
+    compare_suburb_lists()
     compare_db_suburbs()
