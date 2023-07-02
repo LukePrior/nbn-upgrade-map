@@ -1,8 +1,6 @@
 from dataclasses import dataclass
 from typing import List
 
-STATES = ["ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"]
-
 STATES_MAP = {
     "New South Wales": "NSW",
     "ACT": "ACT",
@@ -14,6 +12,7 @@ STATES_MAP = {
     "Northern Territory": "NT",
 }
 
+STATES = sorted(STATES_MAP.values())
 
 @dataclass
 class Address:
