@@ -1,7 +1,7 @@
 # api for managing the list of suburbs, which ones have been completed, dates announced, etc.
 
 import json
-from typing import List, Dict
+from typing import Dict, List
 
 import data
 

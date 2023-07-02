@@ -7,7 +7,12 @@ from datetime import datetime
 
 import data
 from db import add_db_arguments, connect_to_db
-from suburbs import get_all_suburbs, get_listed_suburbs, get_completed_suburbs_by_state, write_results_json
+from suburbs import (
+    get_all_suburbs,
+    get_completed_suburbs_by_state,
+    get_listed_suburbs,
+    write_results_json,
+)
 
 UPGRADE_TALLY = Counter()
 

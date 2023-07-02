@@ -5,12 +5,11 @@ import logging
 import os
 import re
 
-import requests
-from bs4 import BeautifulSoup
-
 import data
 import db
+import requests
 import suburbs
+from bs4 import BeautifulSoup
 from suburbs import get_listed_suburbs
 
 

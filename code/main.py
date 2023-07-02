@@ -10,13 +10,11 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
 import requests
-
-from suburbs import get_all_suburbs
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
-from suburbs import get_completed_suburbs_by_state
+from suburbs import get_all_suburbs, get_completed_suburbs_by_state
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple:
