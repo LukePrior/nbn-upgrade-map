@@ -63,6 +63,9 @@ def get_nbn_suburb_list():
             ]
             results[state].extend(suburbs)
 
+    # Convert to consistent state/suburb format
+    return {data.STATES_MAP[state]: [s.title() for s in suburbs] for state, suburbs in results.items()}
+
 
 def get_db_suburb_list():
     """Get list of all states and suburbs from the database"""
@@ -76,8 +79,8 @@ def get_db_suburb_list():
 def rebuild_status_file():
     """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
     # Load list of all suburbs from DB
-    db_suburbs_list = get_db_suburb_list()
-    # geojson.write_json_file("results/db-counts.json", db_suburbs_list)
+    db_suburbs = get_db_suburb_list()
+    # geojson.write_json_file("results/db-counts.json", db_suburbs)
     # db_suburbs = geojson.read_json_file("results/db-counts.json")
 
     # Load list of all announced suburbs from NBN website
@@ -123,9 +126,6 @@ def rebuild_status_file():
             if announced and announced_date is None:
                 print(f"Announced {suburb}, {state} - but no date")
 
-    # all_suburbs_dicts = {state: [dataclasses.asdict(xsuburb) for xsuburb in suburbs_list] for state, suburbs_list in all_suburbs.items()}
-    # geojson.write_json_file("results/all-suburbs.json", all_suburbs)
-    # write_all_suburbs(all_suburbs)
     write_all_suburbs(all_suburbs)
 
 
