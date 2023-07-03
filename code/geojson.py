@@ -6,6 +6,16 @@ from datetime import datetime
 from data import AddressList
 
 
+def write_json_file(filename, data, indent=4):
+    with open(filename, "w", encoding="utf-8") as outfile:
+        json.dump(data, outfile, indent=indent)
+
+
+def read_json_file(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
 def format_addresses(addresses: AddressList, suburb: str) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
     formatted_addresses = {
@@ -32,15 +42,32 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
     return formatted_addresses
 
 
+def get_geojson_filename(suburb: str, state: str) -> str:
+    return f"results/{state}/{suburb.lower().replace(' ', '-')}.geojson"
+
+
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
     """Write the GeoJSON FeatureCollection to a file."""
     formatted_addresses = format_addresses(addresses, suburb)
     if formatted_addresses["features"]:
-        if not os.path.exists(f"results/{state}"):
-            os.makedirs(f"results/{state}")
-        target_suburb_file = suburb.lower().replace(" ", "-")
-        with open(f"results/{state}/{target_suburb_file}.geojson", "w", encoding="utf-8") as outfile:
-            logging.info("Writing results to %s", outfile.name)
-            json.dump(formatted_addresses, outfile, indent=1)  # indent=1 is to minimise size increase
+        filename = get_geojson_filename(suburb, state)
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        logging.info("Writing results to %s", filename)
+        write_json_file(filename, formatted_addresses, indent=1)  # indent=1 is to minimise size increase
     else:
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
+
+
+def get_geojson_file_generated(suburb: str, state: str) -> datetime:
+    """Get the generated date from the GeoJSON file (faster than reading whole file)."""
+    filename = get_geojson_filename(suburb, state)
+    if os.path.exists(filename):
+        # attempt to load just the first few lines of the file
+        try:
+            with open(filename, "r", encoding="utf-8") as file:
+                first_bit = file.readline() + file.readline() + file.readline().replace(",", "") + "}"
+                result = json.loads(first_bit)
+        except json.JSONDecodeError:
+            # sometimes generated is not at the top of the file, fall back to loading the entire thing
+            result = read_json_file(filename)
+        return datetime.fromisoformat(result["generated"])

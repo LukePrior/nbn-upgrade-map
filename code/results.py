@@ -6,6 +6,7 @@ from collections import Counter
 from datetime import datetime
 
 import data
+import geojson
 from db import add_db_arguments, connect_to_db
 from suburbs import (
     get_all_suburbs,
@@ -23,8 +24,7 @@ def collect_completed_suburbs():
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             filename, _ = os.path.splitext(os.path.basename(file))
-            with open(file, "r", encoding="utf-8") as infile:
-                result = json.load(infile)
+            result = geojson.read_json_file(file)
 
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
@@ -32,8 +32,7 @@ def collect_completed_suburbs():
             # fixup any missing generated dates
             if "generated" not in result:
                 result["generated"] = datetime.now().isoformat()
-                with open(file, "w", encoding="utf-8") as outfile:
-                    json.dump(result, outfile, indent=1)  # indent=1 is to minimise size increase
+                geojson.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
 
             UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
 
@@ -155,15 +154,14 @@ def main():
     print("Progress vs Addresses in All Suburbs")
     print_progress(address_vs["all"])
 
-    with open("results/progress.json", "w") as outfile:
-        results = {
-            "suburbs": {
-                "listed": suburb_vs_listed,
-                "all": suburb_vs_all,
-            },
-            "addresses": address_vs,
-        }
-        json.dump(results, outfile, indent=4)
+    results = {
+        "suburbs": {
+            "listed": suburb_vs_listed,
+            "all": suburb_vs_all,
+        },
+        "addresses": address_vs,
+    }
+    geojson.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
 
 
 if __name__ == "__main__":
