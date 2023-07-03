@@ -1,13 +1,18 @@
 import argparse
 import glob
-import json
 import os
 from collections import Counter
 from datetime import datetime
-from typing import Dict, List
 
 import data
+import geojson
 from db import add_db_arguments, connect_to_db
+from suburbs import (
+    get_all_suburbs,
+    get_completed_suburbs_by_state,
+    get_listed_suburbs,
+    write_results_json,
+)
 
 UPGRADE_TALLY = Counter()
 
@@ -18,8 +23,7 @@ def collect_completed_suburbs():
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             filename, _ = os.path.splitext(os.path.basename(file))
-            with open(file, "r", encoding="utf-8") as infile:
-                result = json.load(infile)
+            result = geojson.read_json_file(file)
 
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
@@ -27,8 +31,7 @@ def collect_completed_suburbs():
             # fixup any missing generated dates
             if "generated" not in result:
                 result["generated"] = datetime.now().isoformat()
-                with open(file, "w", encoding="utf-8") as outfile:
-                    json.dump(result, outfile, indent=1)  # indent=1 is to minimise size increase
+                geojson.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
 
             UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
 
@@ -44,14 +47,6 @@ def collect_completed_suburbs():
     return suburbs
 
 
-def write_results_json(suburbs: List[Dict]):
-    """Write the list of completed suburbs to a JSON file."""
-    suburb_record = {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))}
-
-    with open("results/results.json", "w") as outfile:
-        json.dump(suburb_record, outfile, indent=4)
-
-
 def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: dict):
     """Calculate a summary of progress against the list of suburbs in the DB."""
     results = {}
@@ -63,7 +58,7 @@ def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: di
             if suburb in completed_suburbs.get(state, set()):
                 completed += suburb_count
             total += suburb_count
-        results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100,1)}
+        results[state] = {"done": completed, "total": total, "percent": round(completed / total * 100, 1)}
         all_completed += completed
         all_total += total
     results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100, 1)}
@@ -80,14 +75,9 @@ def collect_address_progress():
     counts = db.get_counts_by_suburb()
 
     # load the suburb lists and the list of completed suburbs
-    with open("results/suburbs.json", "r", encoding="utf-8") as file:
-        listed_suburbs = json.load(file)["states"]
-    with open("results/all_suburbs.json", "r", encoding="utf-8") as file:
-        all_suburbs = json.load(file)["states"]
-    with open("results/results.json", "r", encoding="utf-8") as file:
-        completed_suburbs = {state: set() for state in data.STATES}
-        for suburb in json.load(file)["suburbs"]:
-            completed_suburbs[suburb["state"]].add(suburb["internal"])
+    listed_suburbs = get_listed_suburbs()
+    all_suburbs = get_all_suburbs()
+    completed_suburbs = get_completed_suburbs_by_state()
 
     return {
         "listed": compare_address_counts(completed_suburbs, listed_suburbs, counts),
@@ -106,12 +96,10 @@ def print_progress(tally: dict):
         print(f"Total: {total_done} / {total}  = {total_done / total * 100.0:.1f}%")
 
 
-def get_suburb_progess(done_all_suburbs, vs_file: str):
+def get_suburb_progress(done_all_suburbs, vs_suburbs: dict):
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    # load suburbs list and convert to dict of suburb-sets
-    with open(vs_file, "r", encoding="utf-8") as infile:
-        vs_json = json.load(infile)
-        vs_all_suburbs = {state: set(vs_json["states"].get(state, set())) for state in data.STATES}
+    # convert state/suburb list to dict of suburb-sets
+    vs_all_suburbs = {state: set(vs_suburbs.get(state, set())) for state in data.STATES}
 
     # we may have done suburbs that are not in the vs list: don't count them
     results = {}
@@ -121,11 +109,15 @@ def get_suburb_progess(done_all_suburbs, vs_file: str):
         done_percent = len(state_done) / len(vs_all_suburbs[state]) * 100
         total_done += len(state_done)
         total_count += len(vs_all_suburbs[state])
-        results[state] = {"done": len(state_done), "total": len(vs_all_suburbs[state]), "percent": round(done_percent,1)}
+        results[state] = {
+            "done": len(state_done),
+            "total": len(vs_all_suburbs[state]),
+            "percent": round(done_percent, 1),
+        }
     results["TOTAL"] = {
         "done": total_done,
         "total": total_count,
-        "percent": round(total_done / total_count * 100,1),
+        "percent": round(total_done / total_count * 100, 1),
     }
     return results
 
@@ -146,11 +138,11 @@ def main():
         done_suburbs[state] = {suburb["internal"] for suburb in suburbs if suburb["state"] == state}
 
     print("Progress vs Listed Suburbs:")
-    suburb_vs_listed = get_suburb_progess(done_suburbs, "results/suburbs.json")
+    suburb_vs_listed = get_suburb_progress(done_suburbs, get_listed_suburbs())
     print_progress(suburb_vs_listed)
 
     print("Progress vs All Suburbs")
-    suburb_vs_all = get_suburb_progess(done_suburbs, "results/all_suburbs.json")
+    suburb_vs_all = get_suburb_progress(done_suburbs, get_all_suburbs())
     print_progress(suburb_vs_all)
 
     print_upgrade_types()
@@ -161,15 +153,14 @@ def main():
     print("Progress vs Addresses in All Suburbs")
     print_progress(address_vs["all"])
 
-    with open("results/progress.json", "w") as outfile:
-        results = {
-            "suburbs": {
-                "listed": suburb_vs_listed,
-                "all": suburb_vs_all,
-            },
-            "addresses": address_vs,
-        }
-        json.dump(results, outfile, indent=4)
+    results = {
+        "suburbs": {
+            "listed": suburb_vs_listed,
+            "all": suburb_vs_all,
+        },
+        "addresses": address_vs,
+    }
+    geojson.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
 
 
 if __name__ == "__main__":
