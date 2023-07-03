@@ -1,22 +1,22 @@
-# parse a NBN web page to get a list of all suburb upgrade dates
 import argparse
-import json
+import dataclasses
 import logging
 import os
 import re
+from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
 
 import data
 import db
-import suburbs
-from suburbs import get_listed_suburbs
+import geojson
 
 
-def get_suburb_dates():
+def get_nbn_suburb_dates():
     """Parse a NBN web page to get a list of all suburb upgrade dates."""
     URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
+    logging.info("Fetching list of suburbs from NBN website...")
     content = requests.get(URL).content
 
     results = {}
@@ -29,23 +29,17 @@ def get_suburb_dates():
             for suburb, date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
                 results[state][suburb] = date
 
-    return results
+    # Convert to consistent state/suburb format
+    return {state: {s.title(): d for s, d in suburb_list.items()} for state, suburb_list in results.items()}
 
 
-def update_suburb_dates():
-    """Fetch the NBN web page with list of suburb dates and write it to a file."""
-    # print(state, len(results[state]), results[state])
-    # TODO: sort?
-    with open("results/suburb-dates.json", "w") as outfile:
-        json.dump(get_suburb_dates(), outfile, indent=4)
-
-
-def get_suburb_list():
+def get_nbn_suburb_list():
     """Parse a NBN web page to get a list of all suburbs announced for upgrades."""
     URL = (
         "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
         "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
     )
+    logging.info("Fetching list of suburb dates from NBN website...")
     content = requests.get(URL).content
 
     results = {}
@@ -69,55 +63,112 @@ def get_suburb_list():
             ]
             results[state].extend(suburbs)
 
-    return results
 
-
-def compare_suburb_lists():
-    """Compare the list of suburbs in current configuration vs the NBN website."""
-    results = get_suburb_list()
-
-    # convert to a state codes and uppercase suburbs
-    new_results = {}
-    for state, suburbs in results.items():
-        state_code = data.STATES_MAP[state]
-        new_results[state_code] = [suburb.upper() for suburb in suburbs]
-
-    old_results = get_listed_suburbs()
-
-    # compare for differences
-    for state_code, suburbs in new_results.items():
-        new_set = set(suburbs)
-        old_set = set(old_results[state_code])
-        if new_set != old_set:
-            # state, new count, old count, new, old
-            print(state_code, len(new_set), len(old_set), len(new_set - old_set), len(old_set - new_set))
-            print("   NEW: ", new_set - old_set)
-            print("   OLD: ", old_set - new_set)
-
-
-def compare_db_suburbs():
-    """Compare the suburbs in the DB with the list of all suburbs."""
-    parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
-    db.add_db_arguments(parser)
-    args = parser.parse_args()
+def get_db_suburb_list():
+    """Get list of all states and suburbs from the database"""
     xdb = db.connect_to_db(args)
-    counts = xdb.get_counts_by_suburb()
-    all_suburbs = suburbs.get_all_suburbs()
-    # check all the DB suburbs are in the list of all suburbs
-    for state, suburb_count in counts.items():
-        for suburb, n in suburb_count.items():
-            if suburb not in all_suburbs.get(state, set()):
-                print(f"Missing from list {suburb}, {state} ({n} addresses)")
-    for state, state_suburbs in all_suburbs.items():
-        for suburb in state_suburbs:
-            if suburb not in counts.get(state, {}):
-                print(f"Missing from DB {suburb}, {state}")
+    db_suburb_counts = xdb.get_counts_by_suburb()
+    return {
+        state: [s.title() for s in sorted(suburb_counts.keys())] for state, suburb_counts in db_suburb_counts.items()
+    }
+
+
+def rebuild_status_file():
+    """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
+    # Load list of all suburbs from DB
+    db_suburbs_list = get_db_suburb_list()
+    # geojson.write_json_file("results/db-counts.json", db_suburbs_list)
+    # db_suburbs = geojson.read_json_file("results/db-counts.json")
+
+    # Load list of all announced suburbs from NBN website
+    announced_suburbs = get_nbn_suburb_list()
+    # geojson.write_json_file("results/announced.json", announced_suburbs)
+    # with open("results/announced.json", "r", encoding="utf-8") as file:
+    #     announced_suburbs = json.load(file)
+    # announced_suburbs = geojson.read_json_file("results/announced.json")
+
+    # Load list of all suburb dates from NBN website
+    suburb_dates = get_nbn_suburb_dates()
+    # geojson.write_json_file("results/suburb-dates.json", suburb_dates)
+    # suburb_dates = geojson.read_json_file("results/suburb-dates.json")
+
+    # TODO: Townsville not in DB. Why?  Two similar names included
+
+    # add OT
+    if "OT" not in announced_suburbs:
+        announced_suburbs["OT"] = []
+    if "OT" not in suburb_dates:
+        suburb_dates["OT"] = {}
+
+    # convert to sets for faster operation
+    announced_suburbs = {state: set(suburb_list) for state, suburb_list in announced_suburbs.items()}
+    db_suburbs = {state: set(suburb_list) for state, suburb_list in db_suburbs.items()}
+
+    all_suburbs = {}  # state -> List[Suburb]
+    for state, suburb_list in db_suburbs.items():
+        all_suburbs[state] = []
+        for suburb in suburb_list:
+            announced = suburb in announced_suburbs[state]
+            announced_date = suburb_dates[state].get(suburb, None)
+            processed_date = geojson.get_geojson_file_generated(suburb, state)
+            xsuburb = data.Suburb(
+                name=suburb,
+                state=state,
+                announced=announced,
+                announced_date=announced_date,
+                processed_date=processed_date,
+            )
+            all_suburbs[state].append(xsuburb)
+
+            if announced and announced_date is None:
+                print(f"Announced {suburb}, {state} - but no date")
+
+    # all_suburbs_dicts = {state: [dataclasses.asdict(xsuburb) for xsuburb in suburbs_list] for state, suburbs_list in all_suburbs.items()}
+    # geojson.write_json_file("results/all-suburbs.json", all_suburbs)
+    # write_all_suburbs(all_suburbs)
+    write_all_suburbs(all_suburbs)
+
+
+def write_all_suburbs(all_suburbs: dict):  # Dict[str, List[data.Suburb]]
+    """Write the list of all suburbs to a file."""
+
+    def _suburb_to_dict(s: data.Suburb) -> dict:
+        d = dataclasses.asdict(s)
+        if d["processed_date"]:
+            d["processed_date"] = d["processed_date"].isoformat()
+        return d
+
+    all_suburbs_dicts = {
+        state: [_suburb_to_dict(xsuburb) for xsuburb in suburbs_list] for state, suburbs_list in all_suburbs.items()
+    }
+    geojson.write_json_file("results/all-suburbs.json", all_suburbs_dicts)
+
+
+def read_all_suburbs() -> dict:
+    """Read the list of all suburbs from a file."""
+
+    def _dict_to_suburb(d: dict) -> data.Suburb:
+        d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
+        return data.Suburb(**d)
+
+    results = geojson.read_json_file("results/all-suburbs.json")
+    return {state: [_dict_to_suburb(d) for d in suburbs_list] for state, suburbs_list in results.items()}
 
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
 
-    update_suburb_dates()
-    compare_suburb_lists()
-    compare_db_suburbs()
+    parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
+    db.add_db_arguments(parser)
+    args = parser.parse_args()
+
+    rebuild_status_file()
+    # blah = read_all_suburbs()
+    # blah = geojson.read_json_file("results/all-suburbs.json")
+
+    # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
+
+    # update_suburb_dates()
+    # compare_suburb_lists()
+    # compare_db_suburbs()

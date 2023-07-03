@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from datetime import datetime
 from typing import List
 
 STATES_MAP = {
@@ -34,3 +35,23 @@ class Address:
 
 
 AddressList = List[Address]
+
+
+# A combination of results.json and suburbs.json/all_suburbs.json plus suburb-dates
+#             "internal": "AINSLIE",
+#             "state": "ACT",
+#             "name": "Ainslie",
+#             "file": "ainslie",
+#             "date": "05-06-2023"
+
+
+@dataclass
+class Suburb:
+    name: str
+    # internal: str
+    state: str  # redundant but useful
+    # file: str # redundant but useful
+    processed_date: datetime = None
+    announced: bool = False  # should be redundant vs announced_date, but isn't
+    announced_date: str = None
+    # completed: bool
