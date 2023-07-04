@@ -1,9 +1,10 @@
 import argparse
 import dataclasses
+import glob
 import logging
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import data
 import db
@@ -153,6 +154,13 @@ def read_all_suburbs() -> dict:
     results = geojson.read_json_file("results/all-suburbs.json")
     return {state: [_dict_to_suburb(d) for d in suburbs_list] for state, suburbs_list in results.items()}
 
+def resort_results():
+    for state in data.STATES:
+        for file in glob.glob(f"results/{state}/*.geojson"):
+            print(file)
+            result = geojson.read_json_file(file)
+            result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
+            geojson.write_json_file(file, result, indent=1)
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
@@ -162,7 +170,9 @@ if __name__ == "__main__":
     db.add_db_arguments(parser)
     args = parser.parse_args()
 
-    rebuild_status_file()
+    resort_results()
+
+    # rebuild_status_file()
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
