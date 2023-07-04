@@ -6,13 +6,12 @@ import os
 import re
 from datetime import datetime
 
-import requests
-from bs4 import BeautifulSoup
-
 import data
 import db
 import geojson
+import requests
 import suburbs
+from bs4 import BeautifulSoup
 
 
 def get_nbn_suburb_dates():
