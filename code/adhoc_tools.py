@@ -6,11 +6,13 @@ import os
 import re
 from datetime import datetime
 
+import requests
+from bs4 import BeautifulSoup
+
 import data
 import db
 import geojson
-import requests
-from bs4 import BeautifulSoup
+import suburbs
 
 
 def get_nbn_suburb_dates():
@@ -156,12 +158,29 @@ def read_all_suburbs() -> dict:
 
 
 def resort_results():
+    """Sort every one of the previously created geojson files by gnaf_pid"""
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             print(file)
             result = geojson.read_json_file(file)
             result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
             geojson.write_json_file(file, result, indent=1)
+
+
+def add_to_announced_suburbs():
+    """Add all the suburbs announced with dates to the current list"""
+    all_suburb_dates = get_nbn_suburb_dates()
+    announced_suburbs = suburbs.get_listed_suburbs()  # Dict[str, List[str]] - capitals only
+    for state, suburb_dates in all_suburb_dates.items():
+        for suburb, date in suburb_dates.items():
+            suburb = suburb.upper()
+            if suburb not in announced_suburbs[state]:
+                logging.info("+%s", suburb)
+                announced_suburbs[state].append(suburb)
+            else:
+                logging.info("~%s", suburb)
+        announced_suburbs[state].sort()
+    geojson.write_json_file("results/suburbs.json", {"states": announced_suburbs})
 
 
 if __name__ == "__main__":
@@ -172,7 +191,8 @@ if __name__ == "__main__":
     db.add_db_arguments(parser)
     args = parser.parse_args()
 
-    resort_results()
+    # resort_results()
+    add_to_announced_suburbs()
 
     # rebuild_status_file()
     # blah = read_all_suburbs()
