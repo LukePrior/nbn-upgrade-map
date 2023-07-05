@@ -26,7 +26,7 @@ class NBNApi:
         # TODO Each thread that accesses a cache should also call close on the cache.
         CACHE.close()
 
-    def get_nbn_data_json(self, url):
+    def get_nbn_data_json(self, url) -> dict:
         """Gets a JSON response from a URL."""
         return self.session.get(url, stream=True, headers=self.HEADERS).json()
 
@@ -58,10 +58,10 @@ class NBNApi:
                     loc_id = self.get_nbn_loc_id("X" + key, new_address)
         return loc_id
 
-    def get_nbn_loc_details(self, id: str) -> dict:
+    def get_nbn_loc_details(self, place_id: str) -> dict:
         """Return the NBN details for the provided id, or None if there was an error."""
-        if id in CACHE:
-            return CACHE[id]
-        details = self.get_nbn_data_json(self.DETAIL_URL + id)
-        CACHE.set(id, details, expire=60 * 60 * 24 * 7)  # cache for 7 days
+        if place_id in CACHE:
+            return CACHE[place_id]
+        details = self.get_nbn_data_json(self.DETAIL_URL + place_id)
+        CACHE.set(place_id, details, expire=60 * 60 * 24 * 7)  # cache for 7 days
         return details

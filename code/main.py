@@ -17,7 +17,7 @@ from nbn import NBNApi
 from suburbs import get_all_suburbs, get_completed_suburbs_by_state
 
 
-def select_suburb(target_suburb: str, target_state: str) -> tuple:
+def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
     """Return a (state,suburb) tuple based on the provided input or the next suburb in the list."""
     target_suburb = target_suburb.upper()
     target_state = target_state.upper()
@@ -58,7 +58,7 @@ def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_stat
     addresses_completed = 0
     lock = Lock()
 
-    def process_chunk(addresses_chunk):
+    def process_chunk(addresses_chunk: AddressList):
         """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
         chunk_addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]

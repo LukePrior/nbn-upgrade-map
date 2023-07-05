@@ -81,7 +81,7 @@ class AddressDB:
 
         return states
 
-    def get_counts_by_suburb(self) -> dict:
+    def get_counts_by_suburb(self) -> dict[str, dict[str, int]]:
         """return a tally of addresses by state and suburb"""
         query = """
             SELECT locality_name, state, COUNT(*)
