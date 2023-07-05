@@ -2,10 +2,9 @@ import itertools
 import logging
 from argparse import ArgumentParser, Namespace
 
+import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
-
-import data
 
 
 class AddressDB:
