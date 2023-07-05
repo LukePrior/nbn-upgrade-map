@@ -16,7 +16,7 @@ STATES_MAP = {
 STATES = sorted(STATES_MAP.values())
 
 
-@dataclass
+@dataclass(slots=True)
 class Address:
     name: str
     gnaf_pid: str
@@ -45,7 +45,7 @@ AddressList = List[Address]
 #             "date": "05-06-2023"
 
 
-@dataclass
+@dataclass(slots=True)
 class Suburb:
     name: str
     # internal: str
