@@ -182,6 +182,15 @@ def add_to_announced_suburbs():
     geojson.write_json_file("results/suburbs.json", {"states": announced_suburbs})
 
 
+def get_suburb_extents():
+    xdb = db.connect_to_db(args)
+    logging.info("Getting extents")
+    result = xdb.get_extents_by_suburb()
+    logging.info("Writing extents")
+    # pprint.pprint(result)
+    geojson.write_json_file("results/suburb-extents.json", result)
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
@@ -191,7 +200,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # resort_results()
-    add_to_announced_suburbs()
+    # add_to_announced_suburbs()
+    get_suburb_extents()
 
     # rebuild_status_file()
     # blah = read_all_suburbs()

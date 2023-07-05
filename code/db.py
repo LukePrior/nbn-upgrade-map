@@ -2,9 +2,10 @@ import itertools
 import logging
 from argparse import ArgumentParser, Namespace
 
-import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
+
+import data
 
 
 class AddressDB:
@@ -96,6 +97,31 @@ class AddressDB:
             if record.state not in results:
                 results[record.state] = {}
             results[record.state][record.locality_name] = record.count
+
+        return results
+
+    def get_extents_by_suburb(self) -> dict:
+        """return the bounding box for each state/suburb as a tuple of (min_lat, min_long), (max_lat, max_long)"""
+        query = """
+            SELECT locality_name, state,
+                min(latitude) as min_lat,
+                max(latitude) as max_lat,
+                min(longitude) as min_long,
+                max(longitude) as max_long
+            FROM address_principals
+            GROUP BY locality_name, state
+            ORDER BY state, locality_name
+        """
+        self.cur.execute(query)
+
+        results = {}
+        for record in self.cur.fetchall():
+            if record.state not in results:
+                results[record.state] = {}
+            results[record.state][record.locality_name] = (
+                (float(record.min_lat), float(record.min_long)),
+                (float(record.max_lat), float(record.max_long)),
+            )
 
         return results
 
