@@ -188,7 +188,7 @@ def get_suburb_extents():
     result = xdb.get_extents_by_suburb()
     logging.info("Writing extents")
     # pprint.pprint(result)
-    geojson.write_json_file("results/suburb-extents.json", result)
+    geojson.write_json_file("results/suburb-extents.json", result, indent=1)
 
 
 if __name__ == "__main__":
