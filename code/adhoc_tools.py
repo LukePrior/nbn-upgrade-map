@@ -191,6 +191,19 @@ def get_suburb_extents():
     geojson.write_json_file("results/suburb-extents.json", result, indent=1)
 
 
+def update_all_suburbs_from_db():
+    """Rewrite the (old) all_suburbs.json file from the DB.  This is a one-off."""
+    db_suburbs = get_db_suburb_list()
+    db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
+    db_suburbs["QLD"].sort()
+    geojson.write_json_file("results/all_suburbs.json", {
+        "states": {
+            state: [suburb.upper() for suburb in suburb_list]
+            for state, suburb_list in db_suburbs.items()
+        }
+    })
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
@@ -201,7 +214,8 @@ if __name__ == "__main__":
 
     # resort_results()
     # add_to_announced_suburbs()
-    get_suburb_extents()
+    # get_suburb_extents
+    update_all_suburbs_from_db()
 
     # rebuild_status_file()
     # blah = read_all_suburbs()
