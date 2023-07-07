@@ -196,12 +196,10 @@ def update_all_suburbs_from_db():
     db_suburbs = get_db_suburb_list()
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
     db_suburbs["QLD"].sort()
-    geojson.write_json_file("results/all_suburbs.json", {
-        "states": {
-            state: [suburb.upper() for suburb in suburb_list]
-            for state, suburb_list in db_suburbs.items()
-        }
-    })
+    geojson.write_json_file(
+        "results/all_suburbs.json",
+        {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
+    )
 
 
 if __name__ == "__main__":
