@@ -10,6 +10,7 @@ STATES_MAP = {
     "Western Australia": "WA",
     "Tasmania": "TAS",
     "Northern Territory": "NT",
+    "Other Territories": "OT",
 }
 
 STATES = sorted(STATES_MAP.values())
