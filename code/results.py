@@ -5,7 +5,6 @@ from collections import Counter
 from datetime import datetime
 
 import data
-import geojson
 from db import add_db_arguments, connect_to_db
 from suburbs import (
     get_all_suburbs,
@@ -23,7 +22,7 @@ def collect_completed_suburbs():
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             filename, _ = os.path.splitext(os.path.basename(file))
-            result = geojson.read_json_file(file)
+            result = data.read_json_file(file)
 
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
@@ -31,7 +30,7 @@ def collect_completed_suburbs():
             # fixup any missing generated dates
             if "generated" not in result:
                 result["generated"] = datetime.now().isoformat()
-                geojson.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
+                data.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
 
             UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
 
@@ -161,7 +160,7 @@ def main():
         },
         "addresses": address_vs,
     }
-    geojson.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
+    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
 
 
 if __name__ == "__main__":
