@@ -9,8 +9,8 @@ import geojson
 from db import add_db_arguments, connect_to_db
 from suburbs import (
     get_all_suburbs,
-    get_completed_suburbs_by_state,
     get_completed_suburbs,
+    get_completed_suburbs_by_state,
     get_listed_suburbs,
     write_results_json,
 )
@@ -24,7 +24,10 @@ def update_existing_suburbs(suburbs: list):
     for new_suburb in suburbs:
         add_suburb = True
         for existing_suburb in existing:
-            if new_suburb["internal"] == existing_suburb["internal"] and new_suburb["state"] == existing_suburb["state"]:
+            if (
+                new_suburb["internal"] == existing_suburb["internal"]
+                and new_suburb["state"] == existing_suburb["state"]
+            ):
                 existing_suburb.update(new_suburb)
                 add_suburb = False
                 break
@@ -146,9 +149,7 @@ def print_upgrade_types():
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Emit a summary of progress against the list of suburbs in the DB."
-    )
+    parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
     parser.add_argument(
         "-s",
         "--simple",
