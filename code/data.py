@@ -1,3 +1,4 @@
+import json
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -55,3 +56,13 @@ class Suburb:
     announced: bool = False  # should be redundant vs announced_date, but isn't
     announced_date: str = None  # TODO: datetime?
     # completed: bool
+
+
+def write_json_file(filename: str, data: dict, indent=4):
+    with open(filename, "w", encoding="utf-8") as outfile:
+        json.dump(data, outfile, indent=indent)
+
+
+def read_json_file(filename: str) -> dict:
+    with open(filename, "r", encoding="utf-8") as file:
+        return json.load(file)

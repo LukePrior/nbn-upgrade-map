@@ -6,12 +6,13 @@ import os
 import re
 from datetime import datetime
 
+import requests
+from bs4 import BeautifulSoup
+
 import data
 import db
 import geojson
-import requests
 import suburbs
-from bs4 import BeautifulSoup
 
 
 def get_nbn_suburb_dates():
@@ -142,7 +143,7 @@ def write_all_suburbs(all_suburbs: dict):  # Dict[str, List[data.Suburb]]
     all_suburbs_dicts = {
         state: [_suburb_to_dict(xsuburb) for xsuburb in suburbs_list] for state, suburbs_list in all_suburbs.items()
     }
-    geojson.write_json_file("results/all-suburbs.json", all_suburbs_dicts)
+    data.write_json_file("results/all-suburbs.json", all_suburbs_dicts)
 
 
 def read_all_suburbs() -> dict:
@@ -152,7 +153,7 @@ def read_all_suburbs() -> dict:
         d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
         return data.Suburb(**d)
 
-    results = geojson.read_json_file("results/all-suburbs.json")
+    results = data.read_json_file("results/all-suburbs.json")
     return {state: [_dict_to_suburb(d) for d in suburbs_list] for state, suburbs_list in results.items()}
 
 
@@ -161,9 +162,9 @@ def resort_results():
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
             print(file)
-            result = geojson.read_json_file(file)
+            result = data.read_json_file(file)
             result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
-            geojson.write_json_file(file, result, indent=1)
+            data.write_json_file(file, result, indent=1)
 
 
 def add_to_announced_suburbs():
@@ -179,7 +180,7 @@ def add_to_announced_suburbs():
             else:
                 logging.info("~%s", suburb)
         announced_suburbs[state].sort()
-    geojson.write_json_file("results/suburbs.json", {"states": announced_suburbs})
+    data.write_json_file("results/suburbs.json", {"states": announced_suburbs})
 
 
 def get_suburb_extents():
@@ -188,7 +189,7 @@ def get_suburb_extents():
     result = xdb.get_extents_by_suburb()
     logging.info("Writing extents")
     # pprint.pprint(result)
-    geojson.write_json_file("results/suburb-extents.json", result, indent=1)
+    data.write_json_file("results/suburb-extents.json", result, indent=1)
 
 
 def update_all_suburbs_from_db():
@@ -196,7 +197,7 @@ def update_all_suburbs_from_db():
     db_suburbs = get_db_suburb_list()
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
     db_suburbs["QLD"].sort()
-    geojson.write_json_file(
+    data.write_json_file(
         "results/all_suburbs.json",
         {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
     )

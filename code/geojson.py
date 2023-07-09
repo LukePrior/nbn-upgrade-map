@@ -3,17 +3,7 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList
-
-
-def write_json_file(filename: str, data: dict, indent=4):
-    with open(filename, "w", encoding="utf-8") as outfile:
-        json.dump(data, outfile, indent=indent)
-
-
-def read_json_file(filename: str) -> dict:
-    with open(filename, "r", encoding="utf-8") as file:
-        return json.load(file)
+from data import AddressList, write_json_file, read_json_file
 
 
 def format_addresses(addresses: AddressList, suburb: str) -> dict:
