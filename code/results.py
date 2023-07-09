@@ -9,11 +9,27 @@ from db import add_db_arguments, connect_to_db
 from suburbs import (
     get_all_suburbs,
     get_completed_suburbs_by_state,
+    get_completed_suburbs,
     get_listed_suburbs,
     write_results_json,
 )
 
 UPGRADE_TALLY = Counter()
+
+
+def update_existing_suburbs(suburbs: list):
+    """Update the suburb list with the latest results from the results folder."""
+    existing = get_completed_suburbs()
+    for new_suburb in suburbs:
+        add_suburb = True
+        for existing_suburb in existing:
+            if new_suburb["internal"] == existing_suburb["internal"] and new_suburb["state"] == existing_suburb["state"]:
+                existing_suburb.update(new_suburb)
+                add_suburb = False
+                break
+        if add_suburb:
+            existing.append(new_suburb)
+    return existing
 
 
 def collect_completed_suburbs():
@@ -131,7 +147,24 @@ def print_upgrade_types():
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Emit a summary of progress against the list of suburbs in the DB."
+    )
+    parser.add_argument(
+        "-s",
+        "--simple",
+        help="Whether to only update results.json and not the other files",
+        action="store_true",
+    )
+    args = parser.parse_args()
+
     suburbs = collect_completed_suburbs()
+
+    if args.simple:
+        suburbs = update_existing_suburbs(suburbs)
+        write_results_json(suburbs)
+        return
+
     write_results_json(suburbs)
 
     # convert suburbs to same format as json files
