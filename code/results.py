@@ -40,7 +40,7 @@ def collect_completed_suburbs():
                     "state": state,
                     "name": suburb.title(),
                     "file": filename,
-                    "date": datetime.fromisoformat(result["generated"]).strftime("%d-%m-%Y"),
+                    "date": datetime.fromisoformat(result["generated"]).strftime("%d-%m-%Y"), # TODO: record more accurate
                 }
             )
     return suburbs
