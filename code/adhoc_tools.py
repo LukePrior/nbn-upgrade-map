@@ -4,13 +4,12 @@ import logging
 import os
 import re
 
-import requests
-from bs4 import BeautifulSoup
-
 import data
 import db
 import geojson
+import requests
 import suburbs
+from bs4 import BeautifulSoup
 from suburbs import write_all_suburbs
 
 
@@ -178,29 +177,29 @@ def update_all_suburbs_from_db():
         {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
     )
 
+
 def test_suburbs_api():
     def compare_suburb_lists(old, new):
         for state in old.keys():
             old_suburbs = set(old[state])
             new_suburbs = set(new[state])
-            print(state, '+', new_suburbs - old_suburbs)
-            print(state, '-', old_suburbs - new_suburbs)
+            print(state, "+", new_suburbs - old_suburbs)
+            print(state, "-", old_suburbs - new_suburbs)
 
     old = suburbs.old_get_all_suburbs()
     new = suburbs.get_all_suburbs()
-    print('All suburbs')
+    print("All suburbs")
     compare_suburb_lists(old, new)
 
     old = suburbs.old_get_listed_suburbs()
     new = suburbs.get_listed_suburbs()
-    print('Listed suburbs')
+    print("Listed suburbs")
     compare_suburb_lists(old, new)
 
     old = suburbs.old_get_completed_suburbs()
     new = suburbs.get_completed_suburbs()
-    print('Completed suburbs')
+    print("Completed suburbs")
     print(len(old), len(new))
-
 
 
 if __name__ == "__main__":

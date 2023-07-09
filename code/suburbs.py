@@ -13,10 +13,7 @@ def old_get_all_suburbs() -> dict[str, list[str]]:
 
 def get_all_suburbs() -> dict[str, list[str]]:
     """Return a list of all suburbs by state"""
-    return {
-        state: [suburb.name.upper() for suburb in suburb_list]
-        for state, suburb_list in read_all_suburbs().items()
-    }
+    return {state: [suburb.name.upper() for suburb in suburb_list] for state, suburb_list in read_all_suburbs().items()}
 
 
 def old_get_listed_suburbs() -> dict[str, list[str]]:
@@ -53,9 +50,12 @@ def get_completed_suburbs() -> list[dict]:
                 "state": suburb.state,
                 "name": suburb.name,
                 "file": suburb.file,
-                "date": suburb.processed_date.strftime("%d-%m-%Y") if suburb.processed_date else None
-            } for suburb in sorted(suburb_list) if suburb.processed_date
-        ] for state, suburb_list in sorted(read_all_suburbs().items())
+                "date": suburb.processed_date.strftime("%d-%m-%Y") if suburb.processed_date else None,
+            }
+            for suburb in sorted(suburb_list)
+            if suburb.processed_date
+        ]
+        for state, suburb_list in sorted(read_all_suburbs().items())
     ]
     return list(itertools.chain.from_iterable(by_state))
 
@@ -70,9 +70,7 @@ def get_completed_suburbs_by_state() -> dict[str, set[str]]:
 
 def old_write_results_json(suburbs: list[dict]):
     """Write the list of completed suburbs to a JSON file."""
-    data.write_json_file("results/results.json", {
-        "suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))
-    })
+    data.write_json_file("results/results.json", {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))})
 
 
 def write_results_json(suburbs: list[dict]):
@@ -82,7 +80,9 @@ def write_results_json(suburbs: list[dict]):
     # make state->suburb->date lookup
     suburb_dates_by_state = {state: {} for state in data.STATES}
     for suburb in suburbs:
-        suburb_dates_by_state[suburb["state"]][suburb["name"]] = datetime.strptime(suburb["date"], "%d-%m-%Y") if suburb["date"] else None
+        suburb_dates_by_state[suburb["state"]][suburb["name"]] = (
+            datetime.strptime(suburb["date"], "%d-%m-%Y") if suburb["date"] else None
+        )
 
     # update date field in results only
     all_suburbs = read_all_suburbs()
@@ -106,7 +106,8 @@ def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
         return d
 
     all_suburbs_dicts = {
-        state: [_suburb_to_dict(xsuburb) for xsuburb in sorted(suburbs_list)] for state, suburbs_list in sorted(all_suburbs.items())
+        state: [_suburb_to_dict(xsuburb) for xsuburb in sorted(suburbs_list)]
+        for state, suburbs_list in sorted(all_suburbs.items())
     }
     data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts)
 

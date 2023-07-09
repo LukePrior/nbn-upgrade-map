@@ -57,17 +57,18 @@ class Suburb:
 
     @property
     def internal(self):
-        return self.name.upper().replace(' ', '-')
+        return self.name.upper().replace(" ", "-")
 
     @property
     def file(self):
-        return self.name.lower().replace(' ', '-')
+        return self.name.lower().replace(" ", "-")
 
     def __eq__(self, other):
         return self.name == other.name and self.state == other.state
 
     def __lt__(self, other):
         return f"{self.name} {self.state}" < f"{other.name} {other.state}"
+
 
 def write_json_file(filename: str, data: dict, indent=4):
     with open(filename, "w", encoding="utf-8") as outfile:
