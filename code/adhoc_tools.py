@@ -1,10 +1,8 @@
 import argparse
-import dataclasses
 import glob
 import logging
 import os
 import re
-from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +11,7 @@ import data
 import db
 import geojson
 import suburbs
+from suburbs import write_all_suburbs
 
 
 def get_nbn_suburb_dates():
@@ -82,6 +81,7 @@ def rebuild_status_file():
     """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
     # Load list of all suburbs from DB
     db_suburbs = get_db_suburb_list()
+    db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
     # geojson.write_json_file("results/db-counts.json", db_suburbs)
     # db_suburbs = geojson.read_json_file("results/db-counts.json")
 
@@ -115,6 +115,8 @@ def rebuild_status_file():
         for suburb in suburb_list:
             announced = suburb in announced_suburbs[state]
             announced_date = suburb_dates[state].get(suburb, None)
+            if announced_date:
+                announced = True  # implicit announcement - if we have a date, then it's announced
             processed_date = geojson.get_geojson_file_generated(suburb, state)
             xsuburb = data.Suburb(
                 name=suburb,
@@ -129,32 +131,6 @@ def rebuild_status_file():
                 print(f"Announced {suburb}, {state} - but no date")
 
     write_all_suburbs(all_suburbs)
-
-
-def write_all_suburbs(all_suburbs: dict):  # Dict[str, List[data.Suburb]]
-    """Write the list of all suburbs to a file."""
-
-    def _suburb_to_dict(s: data.Suburb) -> dict:
-        d = dataclasses.asdict(s)
-        if d["processed_date"]:
-            d["processed_date"] = d["processed_date"].isoformat()
-        return d
-
-    all_suburbs_dicts = {
-        state: [_suburb_to_dict(xsuburb) for xsuburb in suburbs_list] for state, suburbs_list in all_suburbs.items()
-    }
-    data.write_json_file("results/all-suburbs.json", all_suburbs_dicts)
-
-
-def read_all_suburbs() -> dict:
-    """Read the list of all suburbs from a file."""
-
-    def _dict_to_suburb(d: dict) -> data.Suburb:
-        d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
-        return data.Suburb(**d)
-
-    results = data.read_json_file("results/all-suburbs.json")
-    return {state: [_dict_to_suburb(d) for d in suburbs_list] for state, suburbs_list in results.items()}
 
 
 def resort_results():
@@ -202,6 +178,30 @@ def update_all_suburbs_from_db():
         {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
     )
 
+def test_suburbs_api():
+    def compare_suburb_lists(old, new):
+        for state in old.keys():
+            old_suburbs = set(old[state])
+            new_suburbs = set(new[state])
+            print(state, '+', new_suburbs - old_suburbs)
+            print(state, '-', old_suburbs - new_suburbs)
+
+    old = suburbs.old_get_all_suburbs()
+    new = suburbs.get_all_suburbs()
+    print('All suburbs')
+    compare_suburb_lists(old, new)
+
+    old = suburbs.old_get_listed_suburbs()
+    new = suburbs.get_listed_suburbs()
+    print('Listed suburbs')
+    compare_suburb_lists(old, new)
+
+    old = suburbs.old_get_completed_suburbs()
+    new = suburbs.get_completed_suburbs()
+    print('Completed suburbs')
+    print(len(old), len(new))
+
+
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
@@ -214,9 +214,10 @@ if __name__ == "__main__":
     # resort_results()
     # add_to_announced_suburbs()
     # get_suburb_extents
-    update_all_suburbs_from_db()
+    # update_all_suburbs_from_db()
 
-    # rebuild_status_file()
+    rebuild_status_file()
+    test_suburbs_api()
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
