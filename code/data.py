@@ -49,14 +49,25 @@ AddressList = list[Address]
 @dataclass(slots=True)
 class Suburb:
     name: str
-    # internal: str
     state: str  # redundant but useful
-    # file: str # redundant but useful
     processed_date: datetime = None
     announced: bool = False  # should be redundant vs announced_date, but isn't
     announced_date: str = None  # TODO: datetime?
     # completed: bool
 
+    @property
+    def internal(self):
+        return self.name.upper().replace(' ', '-')
+
+    @property
+    def file(self):
+        return self.name.lower().replace(' ', '-')
+
+    def __eq__(self, other):
+        return self.name == other.name and self.state == other.state
+
+    def __lt__(self, other):
+        return f"{self.name} {self.state}" < f"{other.name} {other.state}"
 
 def write_json_file(filename: str, data: dict, indent=4):
     with open(filename, "w", encoding="utf-8") as outfile:
