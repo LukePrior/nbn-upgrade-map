@@ -119,7 +119,6 @@ def rebuild_status_file():
             processed_date = geojson.get_geojson_file_generated(suburb, state)
             xsuburb = data.Suburb(
                 name=suburb,
-                state=state,
                 announced=announced,
                 announced_date=announced_date,
                 processed_date=processed_date,

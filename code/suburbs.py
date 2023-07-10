@@ -35,7 +35,7 @@ def old_get_completed_suburbs() -> list[dict]:
 
 
 def get_completed_suburbs() -> list[dict]:
-    """Return a flat of all suburbs by state that have been completed. (compatability api)"""
+    """Return a flat of all suburbs by state that have been completed. (compatibility api)"""
     #         {
     #             "internal": "ACTON",
     #             "state": "ACT",
@@ -47,15 +47,15 @@ def get_completed_suburbs() -> list[dict]:
         [
             {
                 "internal": suburb.internal,
-                "state": suburb.state,
+                "state": state,
                 "name": suburb.name,
                 "file": suburb.file,
                 "date": suburb.processed_date.strftime("%d-%m-%Y") if suburb.processed_date else None,
             }
-            for suburb in sorted(suburb_list)
+            for suburb in suburb_list
             if suburb.processed_date
         ]
-        for state, suburb_list in sorted(read_all_suburbs().items())
+        for state, suburb_list in read_all_suburbs().items()
     ]
     return list(itertools.chain.from_iterable(by_state))
 
@@ -121,4 +121,4 @@ def read_all_suburbs() -> dict:
 
     results = data.read_json_file("results/combined-suburbs.json")
     # TODO: convert to dict[str, dict[str, data.Suburb]]  (state->suburub_name->Suburb)
-    return {state: [_dict_to_suburb(d) for d in suburbs_list] for state, suburbs_list in results.items()}
+    return {state: sorted(_dict_to_suburb(d) for d in results[state]) for state in sorted(results)}
