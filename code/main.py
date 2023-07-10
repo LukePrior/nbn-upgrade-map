@@ -51,25 +51,59 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
     return address
 
 
-def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_status: bool = True) -> AddressList:
+def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", printEnd="\r"):
+    """
+    Call in a loop to create terminal progress bar.
+    Borrowed from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar = fill * filled_length + "-" * (length - filled_length)
+    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
+    # Print New Line on Complete
+    if iteration == total:
+        print()
+
+
+def get_all_addresses(
+    db_addresses: AddressList, max_threads: int = 10, get_status: bool = True, progress_bar: bool = False
+) -> AddressList:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
     # return list of Address
     chunk_size = 200
+    sub_chunk_size = chunk_size // 10
     addresses_completed = 0
     lock = Lock()
 
     def process_chunk(addresses_chunk: AddressList):
         """Process a chunk of DB addresses, augmenting them with NBN data."""
         nbn = NBNApi()
-        chunk_addresses = [get_address(nbn, address, get_status) for address in addresses_chunk]
 
-        # show progress
-        with lock:
-            nonlocal addresses_completed
-            addresses_completed += len(addresses_chunk)
+        results = []
+        sub_chunks = (addresses_chunk[i : i + sub_chunk_size] for i in range(0, len(addresses_chunk), sub_chunk_size))
+        for sub_chunk in sub_chunks:
+            results.extend(get_address(nbn, address, get_status) for address in sub_chunk)
+            with lock:
+                nonlocal addresses_completed
+                addresses_completed += len(sub_chunk)
+                if progress_bar:
+                    print_progress_bar(
+                        addresses_completed, len(db_addresses), prefix="Progress:", suffix="Complete", length=50
+                    )
+
+        if not progress_bar:
             logging.info("Completed %d requests", addresses_completed)
 
-        return chunk_addresses
+        return results
 
     logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
     with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
@@ -80,7 +114,9 @@ def get_all_addresses(db_addresses: AddressList, max_threads: int = 10, get_stat
     return addresses
 
 
-def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10):
+def process_suburb(
+    db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10, progress_bar: bool = False
+):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
     if suburb == "NA":
@@ -93,7 +129,7 @@ def process_suburb(db: AddressDB, target_suburb: str, target_state: str, max_thr
         logging.info("Fetched %d addresses from database", len(db_addresses))
 
         # get NBN data for addresses
-        addresses = get_all_addresses(db_addresses, max_threads)
+        addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
 
         # emit some tallies
         tech_tally = Counter(address.tech for address in addresses)
@@ -128,11 +164,12 @@ def main():
         type=int,
         choices=range(1, 41),
     )
+    parser.add_argument("--progress", help="Show a progress bar", action=argparse.BooleanOptionalAction)
     add_db_arguments(parser)
     args = parser.parse_args()
 
     db = connect_to_db(args)
-    process_suburb(db, args.target_suburb, args.target_state, args.threads)
+    process_suburb(db, args.target_suburb, args.target_state, args.threads, progress_bar=args.progress)
 
 
 if __name__ == "__main__":
