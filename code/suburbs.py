@@ -109,7 +109,7 @@ def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
         state: [_suburb_to_dict(xsuburb) for xsuburb in sorted(suburbs_list)]
         for state, suburbs_list in sorted(all_suburbs.items())
     }
-    data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts)
+    data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
 
 
 def read_all_suburbs() -> dict:
