@@ -45,7 +45,6 @@ class NBNApi:
         else:
             logging.warning("No suggestions for %s", address)
 
-
     def extended_get_nbn_loc_id(self, key: str, address: str) -> str:
         """Return the NBN locID for the provided address, following the addressSplitDetails if required."""
         loc_id = self.get_nbn_loc_id(key, address)
