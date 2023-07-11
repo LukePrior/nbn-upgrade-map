@@ -68,9 +68,12 @@ class Suburb:
         return self.name < other.name
 
 
-def write_json_file(filename: str, data: dict, indent=4):
+def write_json_file(filename: str, data: dict, indent=4, minimise=False):
     with open(filename, "w", encoding="utf-8") as outfile:
-        json.dump(data, outfile, indent=indent)
+        if minimise:
+            json.dump(data, outfile, separators=(",", ":"))
+        else:
+            json.dump(data, outfile, indent=indent)
 
 
 def read_json_file(filename: str) -> dict:

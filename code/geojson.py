@@ -43,7 +43,7 @@ def write_geojson_file(suburb: str, state: str, addresses: AddressList):
         filename = get_geojson_filename(suburb, state)
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         logging.info("Writing results to %s", filename)
-        write_json_file(filename, formatted_addresses, indent=1)  # indent=1 is to minimise size increase
+        write_json_file(filename, formatted_addresses, minimise=True)
     else:
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
