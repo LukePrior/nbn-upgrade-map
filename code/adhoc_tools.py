@@ -177,30 +177,6 @@ def update_all_suburbs_from_db():
     )
 
 
-def test_suburbs_api():
-    def compare_suburb_lists(old, new):
-        for state in old.keys():
-            old_suburbs = set(old[state])
-            new_suburbs = set(new[state])
-            print(state, "+", new_suburbs - old_suburbs)
-            print(state, "-", old_suburbs - new_suburbs)
-
-    old = suburbs.old_get_all_suburbs()
-    new = suburbs.get_all_suburbs()
-    print("All suburbs")
-    compare_suburb_lists(old, new)
-
-    old = suburbs.old_get_listed_suburbs()
-    new = suburbs.get_listed_suburbs()
-    print("Listed suburbs")
-    compare_suburb_lists(old, new)
-
-    old = suburbs.old_get_completed_suburbs()
-    new = suburbs.get_completed_suburbs()
-    print("Completed suburbs")
-    print(len(old), len(new))
-
-
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
@@ -215,7 +191,6 @@ if __name__ == "__main__":
     # update_all_suburbs_from_db()
 
     rebuild_status_file()
-    test_suburbs_api()
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 

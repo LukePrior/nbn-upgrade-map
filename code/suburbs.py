@@ -6,19 +6,9 @@ from datetime import datetime
 import data
 
 
-def old_get_all_suburbs() -> dict[str, list[str]]:
-    """Return a list of all suburbs by state"""
-    return data.read_json_file("results/all_suburbs.json")["states"]
-
-
 def get_all_suburbs() -> dict[str, list[str]]:
     """Return a list of all suburbs by state"""
     return {state: [suburb.name.upper() for suburb in suburb_list] for state, suburb_list in read_all_suburbs().items()}
-
-
-def old_get_listed_suburbs() -> dict[str, list[str]]:
-    """Return a list of all suburbs by state that have been listed for upgrade."""
-    return data.read_json_file("results/suburbs.json")["states"]
 
 
 def get_listed_suburbs() -> dict[str, list[str]]:
@@ -27,11 +17,6 @@ def get_listed_suburbs() -> dict[str, list[str]]:
         state: [suburb.name.upper() for suburb in suburb_list if suburb.announced]
         for state, suburb_list in read_all_suburbs().items()
     }
-
-
-def old_get_completed_suburbs() -> list[dict]:
-    """Return a flat of all suburbs by state that have been completed."""
-    return data.read_json_file("results/results.json")["suburbs"]
 
 
 def get_completed_suburbs() -> list[dict]:
@@ -66,11 +51,6 @@ def get_completed_suburbs_by_state() -> dict[str, set[str]]:
     for suburb in get_completed_suburbs():
         completed_suburbs[suburb["state"]].add(suburb["internal"])
     return completed_suburbs
-
-
-def old_write_results_json(suburbs: list[dict]):
-    """Write the list of completed suburbs to a JSON file."""
-    data.write_json_file("results/results.json", {"suburbs": sorted(suburbs, key=lambda k: (k["state"], k["name"]))})
 
 
 def write_results_json(suburbs: list[dict]):
