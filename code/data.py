@@ -62,7 +62,7 @@ class Suburb:
         return self.name.lower().replace(" ", "-")
 
     def __eq__(self, other):
-        return self.name == other.name and self.state == other.state
+        return self.name == other.name
 
     def __lt__(self, other):
         return self.name < other.name
