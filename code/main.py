@@ -14,7 +14,7 @@ from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
-from suburbs import get_all_suburbs, get_completed_suburbs_by_state
+from suburbs import read_all_suburbs
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
@@ -22,14 +22,10 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
     target_suburb = target_suburb.upper()
     target_state = target_state.upper()
     if target_suburb == "NA":
-        # load the list of previously completed suburbs
-        completed_suburbs = get_completed_suburbs_by_state()
-        # load the list of all suburbs
-        suburb_list = get_all_suburbs()
-        for state, suburbs in suburb_list.items():
-            for suburb in suburbs:
-                if state not in completed_suburbs or suburb not in completed_suburbs[state]:
-                    return suburb, state
+        for state, suburb_list in read_all_suburbs().items():
+            for suburb in suburb_list:
+                if suburb.processed_date is None:
+                    return suburb.name.upper(), state
 
     return target_suburb, target_state
 
