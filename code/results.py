@@ -46,11 +46,6 @@ def collect_completed_suburbs():
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
 
-            # fixup any missing generated dates
-            if "generated" not in result:
-                result["generated"] = datetime.now().isoformat()
-                data.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
-
             UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
 
             suburbs.append(
@@ -59,9 +54,7 @@ def collect_completed_suburbs():
                     "state": state,
                     "name": suburb.title(),
                     "file": filename,
-                    "date": datetime.fromisoformat(result["generated"]).strftime(
-                        "%d-%m-%Y"
-                    ),  # TODO: record more accurate
+                    "date": datetime.fromisoformat(result["generated"]),
                 }
             )
     return suburbs
