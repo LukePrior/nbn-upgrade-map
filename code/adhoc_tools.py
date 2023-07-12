@@ -4,12 +4,12 @@ import logging
 import os
 import re
 
+import requests
+from bs4 import BeautifulSoup
+
 import data
 import db
 import geojson
-import requests
-import suburbs
-from bs4 import BeautifulSoup
 from suburbs import write_all_suburbs
 
 
@@ -139,22 +139,6 @@ def resort_results():
             result = data.read_json_file(file)
             result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
             data.write_json_file(file, result, indent=1)
-
-
-def add_to_announced_suburbs():
-    """Add all the suburbs announced with dates to the current list"""
-    all_suburb_dates = get_nbn_suburb_dates()
-    announced_suburbs = suburbs.get_listed_suburbs()  # Dict[str, List[str]] - capitals only
-    for state, suburb_dates in all_suburb_dates.items():
-        for suburb, date in suburb_dates.items():
-            suburb = suburb.upper()
-            if suburb not in announced_suburbs[state]:
-                logging.info("+%s", suburb)
-                announced_suburbs[state].append(suburb)
-            else:
-                logging.info("~%s", suburb)
-        announced_suburbs[state].sort()
-    data.write_json_file("results/suburbs.json", {"states": announced_suburbs})
 
 
 def get_suburb_extents():

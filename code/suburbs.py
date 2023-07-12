@@ -6,19 +6,6 @@ from datetime import datetime
 import data
 
 
-def get_all_suburbs() -> dict[str, list[str]]:
-    """Return a list of all suburbs by state"""
-    return {state: [suburb.name.upper() for suburb in suburb_list] for state, suburb_list in read_all_suburbs().items()}
-
-
-def get_listed_suburbs() -> dict[str, list[str]]:
-    """Return a list of all suburbs by state (names are uppercased)"""
-    return {
-        state: [suburb.name.upper() for suburb in suburb_list if suburb.announced]
-        for state, suburb_list in read_all_suburbs().items()
-    }
-
-
 def get_completed_suburbs() -> list[dict]:
     """Return a flat of all suburbs by state that have been completed. (compatibility api)"""
     # deprecated
@@ -46,18 +33,9 @@ def get_completed_suburbs() -> list[dict]:
     return list(itertools.chain.from_iterable(by_state))
 
 
-def get_completed_suburbs_by_state() -> dict[str, set[str]]:
-    """Return a dict->set(internal-name) of all suburbs by state that have been completed."""
-    # deprecated
-    completed_suburbs = {state: set() for state in data.STATES}
-    for suburb in get_completed_suburbs():
-        completed_suburbs[suburb["state"]].add(suburb["name"].upper())
-    return completed_suburbs
-
-
 def write_results_json(suburbs: list[dict]):
     """Write the list of completed suburbs to a JSON file."""
-    # Compatability with previous API. To be refactored.
+    # Compatibility with previous API. To be refactored.
 
     # make state->suburb->date lookup
     suburb_dates_by_state = {state: {} for state in data.STATES}

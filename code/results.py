@@ -1,25 +1,17 @@
 import argparse
 import glob
+import logging
 import os
 from collections import Counter
 from datetime import datetime
 
 import data
-from db import add_db_arguments, connect_to_db
-from suburbs import (
-    get_all_suburbs,
-    get_completed_suburbs,
-    get_completed_suburbs_by_state,
-    get_listed_suburbs,
-    write_results_json,
-)
-
-UPGRADE_TALLY = Counter()
-CONNECTION_TALLY = Counter()
+from suburbs import get_completed_suburbs, read_all_suburbs, write_results_json
 
 
 def update_existing_suburbs(suburbs: list):
     """Update the suburb list with the latest results from the results folder."""
+    # TODO: refactor this to use the Suburb class
     existing = get_completed_suburbs()
     for new_suburb in suburbs:
         add_suburb = True
@@ -38,17 +30,16 @@ def update_existing_suburbs(suburbs: list):
 
 def collect_completed_suburbs():
     """Collect the list of completed suburbs from the results folder."""
+    # This should only be used in extreme cases, e.g. when the results file is corrupted.
     suburbs = []
     for state in data.STATES:
+        logging.info("Collecting completed suburbs for %s", state)
         for file in glob.glob(f"results/{state}/*.geojson"):
             filename, _ = os.path.splitext(os.path.basename(file))
             result = data.read_json_file(file)
 
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
-
-            UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
-            CONNECTION_TALLY.update(feature["properties"].get("tech", "") for feature in result["features"])
 
             suburbs.append(
                 {
@@ -62,92 +53,53 @@ def collect_completed_suburbs():
     return suburbs
 
 
-def compare_address_counts(completed_suburbs: dict, vs_suburbs: dict, counts: dict):
-    """Calculate a summary of progress against the list of suburbs in the DB."""
-    results = {}
-    all_completed = all_total = 0
-    for state, suburbs in vs_suburbs.items():
-        completed = total = 0
-        for suburb in suburbs:
-            suburb_count = counts[state].get(suburb, 0)
-            if suburb in completed_suburbs.get(state, set()):
-                completed += suburb_count
-            total += suburb_count
-        fraction_completed = (completed / total * 100) if total else 0
-        results[state] = {"done": completed, "total": total, "percent": round(fraction_completed, 1)}
-        all_completed += completed
-        all_total += total
-    results["TOTAL"] = {"done": all_completed, "total": all_total, "percent": round(all_completed / all_total * 100, 1)}
-    return results
-
-
-def collect_address_progress():
-    """Collect a summary of progress against the list of suburbs in the DB."""
-    # connect to the DB and get a count of addresses by suburb
-    parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
-    add_db_arguments(parser)
-    args = parser.parse_args()
-    db = connect_to_db(args)
-    counts = db.get_counts_by_suburb()
-
-    # load the suburb lists and the list of completed suburbs
-    listed_suburbs = get_listed_suburbs()
-    all_suburbs = get_all_suburbs()
-    completed_suburbs = get_completed_suburbs_by_state()
-
-    return {
-        "listed": compare_address_counts(completed_suburbs, listed_suburbs, counts),
-        "all": compare_address_counts(completed_suburbs, all_suburbs, counts),
-    }
-
-
-def print_progress(tally: dict):
+def print_progress(message: str, tally: dict):
     """print each row of a done/total/percent tally with a grant total at the bottom"""
     total_done = total = 0
+    print(f"{message}:")
     for key, info in tally.items():
         total_done += info["done"]
         total += info["total"]
         print(f"{key:>5}: {info['done']} / {info['total']} = {info['percent']:.1f}%")
     if "TOTAL" not in tally:
         print(f"Total: {total_done} / {total}  = {total_done / total * 100.0:.1f}%")
+    print()
 
 
-def get_suburb_progress(done_all_suburbs, vs_suburbs: dict):
-    """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    # convert state/suburb list to dict of suburb-sets
-    vs_all_suburbs = {state: set(vs_suburbs.get(state, set())) for state in data.STATES}
+def _format_percent(numerator: int, denominator: int, default=100.0):
+    """Format a percentage as a string."""
+    return round(numerator / denominator * 100.0, 1) if denominator else default
 
-    # we may have done suburbs that are not in the vs list: don't count them
-    results = {}
-    total_done = total_count = 0
-    for state in data.STATES:
-        state_done = done_all_suburbs[state] & vs_all_suburbs[state]
-        done_percent = (len(state_done) / len(vs_all_suburbs[state]) * 100) if vs_all_suburbs[state] else 0
-        total_done += len(state_done)
-        total_count += len(vs_all_suburbs[state])
-        results[state] = {
-            "done": len(state_done),
-            "total": len(vs_all_suburbs[state]),
-            "percent": round(done_percent, 1),
-        }
-    results["TOTAL"] = {
-        "done": total_done,
-        "total": total_count,
-        "percent": round(total_done / total_count * 100, 1),
+
+def _get_completion_progress(suburb_list) -> dict:
+    """Return done/total/progress dict for all suburbs in the given list"""
+    tally = Counter(suburb.processed_date is not None for suburb in suburb_list)
+    return {
+        "done": tally.get(True, 0),
+        "total": tally.total(),
+        "percent": _format_percent(tally.get(True, 0), tally.total()),
     }
-    return results
 
 
-def print_upgrade_types():
-    print("Upgrade types:")
-    for k, v in sorted(UPGRADE_TALLY.items()):
-        print(f"  {k}: {v}")
+def _add_total_progress(progress: dict):
+    """Add a TOTAL entry to the given progress dict."""
+    progress["TOTAL"] = {
+        "done": sum(p["done"] for p in progress.values()),
+        "total": sum(p["total"] for p in progress.values()),
+    }
+    progress["TOTAL"]["percent"] = _format_percent(progress["TOTAL"]["done"], progress["TOTAL"]["total"])
 
 
-def print_connection_types():
-    print("Connection types:")
-    for k, v in sorted(CONNECTION_TALLY.items()):
-        print(f"  {k}: {v}")
+def get_suburb_progress():
+    """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
+    progress = {"listed": {}, "all": {}}
+    for state, suburb_list in read_all_suburbs().items():
+        progress["listed"][state] = _get_completion_progress(suburb for suburb in suburb_list if suburb.announced)
+        progress["all"][state] = _get_completion_progress(suburb_list)
+
+    _add_total_progress(progress["listed"])
+    _add_total_progress(progress["all"])
+    return progress
 
 
 def main():
@@ -160,43 +112,21 @@ def main():
     )
     args = parser.parse_args()
 
+    # TODO: shouldn't need to read all the results!  This takes so long!
     suburbs = collect_completed_suburbs()
-
     if args.simple:
         suburbs = update_existing_suburbs(suburbs)
         write_results_json(suburbs)
         return
-
     write_results_json(suburbs)
 
-    # convert suburbs to same format as json files
-    done_suburbs = {}
-    for state in data.STATES:
-        done_suburbs[state] = {suburb["internal"] for suburb in suburbs if suburb["state"] == state}
-
-    print("Progress vs Listed Suburbs:")
-    suburb_vs_listed = get_suburb_progress(done_suburbs, get_listed_suburbs())
-    print_progress(suburb_vs_listed)
-
-    print("Progress vs All Suburbs")
-    suburb_vs_all = get_suburb_progress(done_suburbs, get_all_suburbs())
-    print_progress(suburb_vs_all)
-
-    print_upgrade_types()
-    print_connection_types()
-
-    address_vs = collect_address_progress()
-    print("Progress vs Addresses in Listed Suburbs")
-    print_progress(address_vs["listed"])
-    print("Progress vs Addresses in All Suburbs")
-    print_progress(address_vs["all"])
+    suburb_progress = get_suburb_progress()
+    print_progress("Progress vs Listed Suburbs", suburb_progress["listed"])
+    print_progress("Progress vs All Suburbs", suburb_progress["all"])
 
     results = {
-        "suburbs": {
-            "listed": suburb_vs_listed,
-            "all": suburb_vs_all,
-        },
-        "addresses": address_vs,
+        "suburbs": suburb_progress,
+        # "addresses": address_vs,
     }
     data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
 
