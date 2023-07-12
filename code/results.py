@@ -101,6 +101,7 @@ def get_suburb_progress():
     _add_total_progress(progress["all"])
     return progress
 
+
 def update_progress():
     """Update the progress.json file with the latest results."""
     results = {
@@ -110,6 +111,7 @@ def update_progress():
     logging.info("Updating progress.json")
     data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
     return results["suburbs"]
+
 
 def main():
     parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")

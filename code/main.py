@@ -125,7 +125,11 @@ def get_all_addresses(
 
 
 def process_suburb(
-    db: AddressDB, target_suburb: str|None, target_state: str|None, max_threads: int = 10, progress_bar: bool = False
+    db: AddressDB,
+    target_suburb: str | None,
+    target_state: str | None,
+    max_threads: int = 10,
+    progress_bar: bool = False,
 ):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
