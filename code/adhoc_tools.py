@@ -9,7 +9,7 @@ import db
 import geojson
 import requests
 from bs4 import BeautifulSoup
-from suburbs import write_all_suburbs
+import suburbs
 
 
 def get_nbn_suburb_dates():
@@ -139,7 +139,7 @@ def rebuild_status_file():
             if announced and announced_date is None:
                 print(f"Announced {suburb}, {state} - but no date")
 
-    write_all_suburbs(all_suburbs)
+    suburbs.write_all_suburbs(all_suburbs)
 
 
 def resort_results():
