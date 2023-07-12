@@ -118,7 +118,7 @@ def _add_total_progress(progress: dict):
     progress["TOTAL"]["percent"] = _format_percent(progress["TOTAL"]["done"], progress["TOTAL"]["total"])
 
 
-def get_suburb_progress():
+def get_suburb_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
     progress = {"listed": {}, "all": {}}
     for state, suburb_list in read_all_suburbs().items():
@@ -129,12 +129,43 @@ def get_suburb_progress():
     _add_total_progress(progress["all"])
     return progress
 
+def get_address_progress() -> dict:
+    """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
+    progress = {"listed": {}, "all": {}}
+    for state, suburb_list in read_all_suburbs().items():
+        tot_addresses = tot_listed = 0
+        tot_done = tot_listed_done = 0
+        for suburb in suburb_list:
+            tot_addresses += suburb.address_count
+            if suburb.announced:
+                tot_listed += suburb.address_count
+
+            if suburb.processed_date is not None:
+                tot_done += suburb.address_count
+                if suburb.announced:
+                    tot_listed_done += suburb.address_count
+
+        progress["listed"][state] = {
+            "done": tot_listed_done,
+            "total": tot_listed,
+            "percent": _format_percent(tot_listed_done, tot_listed),
+        }
+        progress["all"][state] = {
+            "done": tot_done,
+            "total": tot_addresses,
+            "percent": _format_percent(tot_done, tot_addresses),
+        }
+
+    _add_total_progress(progress["listed"])
+    _add_total_progress(progress["all"])
+    return progress
+
 
 def update_progress():
     """Update the progress.json file with the latest results."""
     results = {
         "suburbs": get_suburb_progress(),
-        # "addresses": address_vs,
+        "addresses": get_address_progress(),
     }
     logging.info("Updating progress.json")
     data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
