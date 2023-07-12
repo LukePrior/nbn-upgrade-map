@@ -32,8 +32,8 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
                 if suburb.processed_date is None:
                     return suburb.name.upper(), state
     else:
-        target_suburb = target_suburb.upper()
-        target_state = target_state.capitalize()
+        target_suburb = target_suburb.title()
+        target_state = target_state.upper()
         for state, suburb_list in suburbs:
             if state == target_state:
                 for suburb in suburb_list:
