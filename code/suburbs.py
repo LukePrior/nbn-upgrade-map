@@ -1,11 +1,14 @@
 # api for managing the list of suburbs, which ones have been completed, dates announced, etc.
 import dataclasses
+import glob
 import itertools
 import logging
+import os
 from collections import Counter
 from datetime import datetime
 
 import data
+from geojson import get_geojson_file_generated
 
 
 def get_completed_suburbs() -> list[dict]:
@@ -79,6 +82,27 @@ def read_all_suburbs() -> dict[str, list[data.Suburb]]:
     results = data.read_json_file("results/combined-suburbs.json")
     # TODO: convert to dict[str, dict[str, data.Suburb]]  (state->suburub_name->Suburb)
     return {state: sorted(_dict_to_suburb(d) for d in results[state]) for state in sorted(results)}
+
+
+def update_processed_dates():
+    """Check if any new/updated geojson files need to be updated in the all-suburbs file."""
+    logging.info("Checking for externally updated geojson results...")
+    all_suburbs = read_all_suburbs()
+    changed = False
+    for state in data.STATES:
+        file_suburb_map = {suburb.file: suburb for suburb in all_suburbs[state]}
+        for file in glob.glob(f"results/{state}/*.geojson"):
+            this_file = os.path.splitext(os.path.basename(file))[0]
+            this_suburb = file_suburb_map.get(this_file, None)
+            generated = get_geojson_file_generated(file)
+
+            if this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
+                logging.info("   Updating %s/%s processed date %s", state, this_suburb.name, generated)
+                this_suburb.processed_date = generated
+                changed = True
+    if changed:
+        write_all_suburbs(all_suburbs)
+    logging.info("...done")
 
 
 def update_suburb_in_all_suburbs(suburb: str, state: str) -> dict[str, list[data.Suburb]]:
