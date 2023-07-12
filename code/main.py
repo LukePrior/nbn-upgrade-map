@@ -15,7 +15,11 @@ from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
-from suburbs import read_all_suburbs, update_suburb_in_all_suburbs, update_processed_dates
+from suburbs import (
+    read_all_suburbs,
+    update_processed_dates,
+    update_suburb_in_all_suburbs,
+)
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
