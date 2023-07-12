@@ -129,6 +129,7 @@ def get_suburb_progress() -> dict:
     _add_total_progress(progress["all"])
     return progress
 
+
 def get_address_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
     progress = {"listed": {}, "all": {}}
