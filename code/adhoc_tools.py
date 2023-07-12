@@ -75,6 +75,18 @@ def get_db_suburb_list():
     }
 
 
+def add_address_count_to_suburbs():
+    """Add address counts to Suburb objects"""
+    xdb = db.connect_to_db(args)
+    db_suburb_counts = xdb.get_counts_by_suburb()
+
+    all_suburbs = suburbs.read_all_suburbs()
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            suburb.address_count = db_suburb_counts[state].get(suburb.name.upper(), 0)
+    suburbs.write_all_suburbs(all_suburbs)
+
+
 def rebuild_status_file():
     """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
     # Load list of all suburbs from DB
@@ -173,7 +185,8 @@ if __name__ == "__main__":
     # get_suburb_extents
     # update_all_suburbs_from_db()
 
-    rebuild_status_file()
+    # rebuild_status_file()
+    add_address_count_to_suburbs()
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
