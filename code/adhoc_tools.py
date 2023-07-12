@@ -4,12 +4,11 @@ import logging
 import os
 import re
 
-import requests
-from bs4 import BeautifulSoup
-
 import data
 import db
 import geojson
+import requests
+from bs4 import BeautifulSoup
 from suburbs import write_all_suburbs
 
 
