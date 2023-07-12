@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 import data
-from suburbs import get_completed_suburbs, write_results_json, update_progress
+from suburbs import get_completed_suburbs, update_progress, write_results_json
 
 
 def update_existing_suburbs(suburbs: list):
