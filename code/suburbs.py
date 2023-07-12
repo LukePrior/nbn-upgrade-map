@@ -4,6 +4,7 @@ import itertools
 from datetime import datetime
 
 import data
+import results
 
 
 def get_completed_suburbs() -> list[dict]:
@@ -67,7 +68,7 @@ def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
     data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
 
 
-def read_all_suburbs() -> dict:
+def read_all_suburbs() -> dict[str, list[data.Suburb]]:
     """Read the new combined file list of all suburbs."""
 
     def _dict_to_suburb(d: dict) -> data.Suburb:
@@ -77,3 +78,16 @@ def read_all_suburbs() -> dict:
     results = data.read_json_file("results/combined-suburbs.json")
     # TODO: convert to dict[str, dict[str, data.Suburb]]  (state->suburub_name->Suburb)
     return {state: sorted(_dict_to_suburb(d) for d in results[state]) for state in sorted(results)}
+
+
+def update_suburb_in_all_suburbs(suburb: str, state: str) -> dict[str, list[data.Suburb]]:
+    """Update the suburb in the combined file."""
+    suburb = suburb.title()
+
+    all_suburbs = read_all_suburbs()
+    found_suburb = next(s for s in all_suburbs[state.upper()] if s.name == suburb)
+    found_suburb.processed_date = datetime.now()
+    write_all_suburbs(all_suburbs)
+
+    results.update_progress()
+    return all_suburbs
