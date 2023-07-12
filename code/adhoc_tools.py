@@ -8,8 +8,8 @@ import data
 import db
 import geojson
 import requests
-from bs4 import BeautifulSoup
 import suburbs
+from bs4 import BeautifulSoup
 
 
 def get_nbn_suburb_dates():
