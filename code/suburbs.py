@@ -1,10 +1,11 @@
 # api for managing the list of suburbs, which ones have been completed, dates announced, etc.
 import dataclasses
 import itertools
+import logging
+from collections import Counter
 from datetime import datetime
 
 import data
-import results
 
 
 def get_completed_suburbs() -> list[dict]:
@@ -89,5 +90,52 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> dict[str, list[data
     found_suburb.processed_date = datetime.now()
     write_all_suburbs(all_suburbs)
 
-    results.update_progress()
+    update_progress()
     return all_suburbs
+
+
+def _format_percent(numerator: int, denominator: int, default=100.0):
+    """Format a percentage as a string."""
+    return round(numerator / denominator * 100.0, 1) if denominator else default
+
+
+def _get_completion_progress(suburb_list) -> dict:
+    """Return done/total/progress dict for all suburbs in the given list"""
+    tally = Counter(suburb.processed_date is not None for suburb in suburb_list)
+    return {
+        "done": tally.get(True, 0),
+        "total": tally.total(),
+        "percent": _format_percent(tally.get(True, 0), tally.total()),
+    }
+
+
+def _add_total_progress(progress: dict):
+    """Add a TOTAL entry to the given progress dict."""
+    progress["TOTAL"] = {
+        "done": sum(p["done"] for p in progress.values()),
+        "total": sum(p["total"] for p in progress.values()),
+    }
+    progress["TOTAL"]["percent"] = _format_percent(progress["TOTAL"]["done"], progress["TOTAL"]["total"])
+
+
+def get_suburb_progress():
+    """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
+    progress = {"listed": {}, "all": {}}
+    for state, suburb_list in read_all_suburbs().items():
+        progress["listed"][state] = _get_completion_progress(suburb for suburb in suburb_list if suburb.announced)
+        progress["all"][state] = _get_completion_progress(suburb_list)
+
+    _add_total_progress(progress["listed"])
+    _add_total_progress(progress["all"])
+    return progress
+
+
+def update_progress():
+    """Update the progress.json file with the latest results."""
+    results = {
+        "suburbs": get_suburb_progress(),
+        # "addresses": address_vs,
+    }
+    logging.info("Updating progress.json")
+    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
+    return results["suburbs"]
