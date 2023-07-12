@@ -101,6 +101,15 @@ def get_suburb_progress():
     _add_total_progress(progress["all"])
     return progress
 
+def update_progress():
+    """Update the progress.json file with the latest results."""
+    results = {
+        "suburbs": get_suburb_progress(),
+        # "addresses": address_vs,
+    }
+    logging.info("Updating progress.json")
+    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
+    return results["suburbs"]
 
 def main():
     parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
@@ -120,15 +129,9 @@ def main():
         return
     write_results_json(suburbs)
 
-    suburb_progress = get_suburb_progress()
+    suburb_progress = update_progress()
     print_progress("Progress vs Listed Suburbs", suburb_progress["listed"])
     print_progress("Progress vs All Suburbs", suburb_progress["all"])
-
-    results = {
-        "suburbs": suburb_progress,
-        # "addresses": address_vs,
-    }
-    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
 
 
 if __name__ == "__main__":
