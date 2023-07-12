@@ -15,13 +15,16 @@ from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
-from suburbs import read_all_suburbs, write_results_json
 from results import collect_completed_suburbs
+from suburbs import read_all_suburbs, write_results_json
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
     """Return a (state,suburb) tuple based on the provided input or the next suburb in the list."""
-    suburbs = [(state, sorted(suburb_list, key=lambda s: s.announced, reverse=True)) for state, suburb_list in read_all_suburbs().items()]
+    suburbs = [
+        (state, sorted(suburb_list, key=lambda s: s.announced, reverse=True))
+        for state, suburb_list in read_all_suburbs().items()
+    ]
 
     if target_suburb is None or target_state is None:
         for state, suburb_list in suburbs:
@@ -38,7 +41,7 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
                         return suburb.name.upper(), state
         # TODO: maybe fuzzy search?
         logging.error("Suburb %s, %s not found in suburbs list", target_suburb, target_state)
-    
+
     return None, None
 
 
@@ -160,8 +163,11 @@ def timer(run_time: int, db: AddressDB, max_threads: int = 10, progress_bar: boo
         logging.info("Time elapsed: %d minutes", (time.time() - start) // 60)
         logging.info("Time remaining: %d minutes", run_time - (time.time() - start) // 60)
         process_suburb(db, None, None, max_threads, progress_bar)
-        write_results_json(collect_completed_suburbs()) # TODO: this doesn't need to recheck every single file every time
+        write_results_json(
+            collect_completed_suburbs()
+        )  # TODO: this doesn't need to recheck every single file every time
     logging.info("Total time elapsed: %d minutes", (time.time() - start) // 60)
+
 
 def main():
     """Parse command line arguments and start processing selected suburb."""
@@ -179,7 +185,7 @@ def main():
         choices=range(1, 41),
     )
     parser.add_argument("--progress", help="Show a progress bar", action=argparse.BooleanOptionalAction)
-    parser.add_argument("-t", "--time", help='When on auto mode for how many minutes to process suburbs', type=int)
+    parser.add_argument("-t", "--time", help="When on auto mode for how many minutes to process suburbs", type=int)
     add_db_arguments(parser)
     args = parser.parse_args()
 
