@@ -35,9 +35,9 @@ jobs:
         run: |
           python code/main.py --suburb "${{ github.event.inputs.suburb }}" --state "${{ github.event.inputs.state }}" -i
 
-      - name: Run results
-        run: |
-          python code/results.py
+#      - name: Run results
+#        run: |
+#          python code/results.py
   
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

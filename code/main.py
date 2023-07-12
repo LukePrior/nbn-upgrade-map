@@ -16,7 +16,7 @@ from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
 from results import collect_completed_suburbs
-from suburbs import read_all_suburbs, write_results_json
+from suburbs import read_all_suburbs, write_results_json, update_suburb_in_all_suburbs
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
@@ -126,7 +126,7 @@ def get_all_addresses(
 
 
 def process_suburb(
-    db: AddressDB, target_suburb: str, target_state: str, max_threads: int = 10, progress_bar: bool = False
+    db: AddressDB, target_suburb: str|None, target_state: str|None, max_threads: int = 10, progress_bar: bool = False
 ):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
@@ -154,6 +154,7 @@ def process_suburb(
         logging.info("Location ID types: %s", dict(loc_tally))
 
         write_geojson_file(suburb, state, addresses)
+        update_suburb_in_all_suburbs(suburb, state)
 
 
 def timer(run_time: int, db: AddressDB, max_threads: int = 10, progress_bar: bool = False):
@@ -163,9 +164,6 @@ def timer(run_time: int, db: AddressDB, max_threads: int = 10, progress_bar: boo
         logging.info("Time elapsed: %d minutes", (time.time() - start) // 60)
         logging.info("Time remaining: %d minutes", run_time - (time.time() - start) // 60)
         process_suburb(db, None, None, max_threads, progress_bar)
-        write_results_json(
-            collect_completed_suburbs()
-        )  # TODO: this doesn't need to recheck every single file every time
     logging.info("Total time elapsed: %d minutes", (time.time() - start) // 60)
 
 

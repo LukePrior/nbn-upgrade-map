@@ -30,9 +30,9 @@ jobs:
         run: |
           python code/main.py -i -t 30
 
-      - name: Run results
-        run: |
-          python code/results.py
+#      - name: Run results
+#        run: |
+#          python code/results.py
   
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
