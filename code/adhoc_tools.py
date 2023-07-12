@@ -127,7 +127,7 @@ def rebuild_status_file():
             announced_date = suburb_dates[state].get(suburb, None)
             if announced_date:
                 announced = True  # implicit announcement - if we have a date, then it's announced
-            processed_date = geojson.get_geojson_file_generated(suburb, state)
+            processed_date = geojson.get_geojson_file_generated_from_name(suburb, state)
             xsuburb = data.Suburb(
                 name=suburb,
                 announced=announced,

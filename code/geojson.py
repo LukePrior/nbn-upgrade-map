@@ -48,9 +48,13 @@ def write_geojson_file(suburb: str, state: str, addresses: AddressList):
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
 
-def get_geojson_file_generated(suburb: str, state: str) -> datetime:
+def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
+    """Given a suburb and state, get the generated date from the GeoJSON file (faster than reading whole file)."""
+    return get_geojson_file_generated(get_geojson_filename(suburb, state))
+
+
+def get_geojson_file_generated(filename) -> datetime:
     """Get the generated date from the GeoJSON file (faster than reading whole file)."""
-    filename = get_geojson_filename(suburb, state)
     if os.path.exists(filename):
         # attempt to load just the first few lines of the file
         try:
