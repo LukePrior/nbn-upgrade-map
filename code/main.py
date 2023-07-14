@@ -8,9 +8,12 @@ import time
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from threading import Lock
 
 import requests
+
+import geojson
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
@@ -20,6 +23,10 @@ from suburbs import (
     update_processed_dates,
     update_suburb_in_all_suburbs,
 )
+
+# a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
+GNAF_PID_TO_LOC: dict[str, str] = {}
+MAX_LOC_CACHE_AGE_DAYS = 180
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
@@ -50,8 +57,12 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
     """Return an Address for the given db address, probably augmented with data from the NBN API."""
+    global GNAF_PID_TO_LOC
     try:
-        address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
+        if loc_id := GNAF_PID_TO_LOC.get(address.gnaf_pid):
+            address.loc_id = loc_id
+        else:
+            address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
         if address.loc_id and get_status:
             status = nbn.get_nbn_loc_details(address.loc_id)
             address.tech = status["addressDetail"]["techType"]
@@ -145,6 +156,16 @@ def process_suburb(
         db_addresses = db.get_addresses(suburb, state)
         db_addresses.sort(key=lambda k: k.name)
         logging.info("Fetched %d addresses from database", len(db_addresses))
+
+        # if the output file exists already the use it to cache locid lookup
+        global GNAF_PID_TO_LOC
+        GNAF_PID_TO_LOC = {}
+        if results := geojson.read_geojson_file(suburb, state):
+            file_generated = datetime.fromisoformat(results["generated"])
+            if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
+                logging.info("Loaded %d addresses from output file", len(results["features"]))
+                for feature in results["features"]:
+                    GNAF_PID_TO_LOC[feature["properties"]["gnaf_pid"]] = feature["properties"]["locID"]
 
         # get NBN data for addresses
         addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
