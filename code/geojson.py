@@ -33,7 +33,7 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
 
 
 def get_geojson_filename(suburb: str, state: str) -> str:
-    return f"results/{state}/{suburb.lower().replace(' ', '-')}.geojson"
+    return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
@@ -46,6 +46,13 @@ def write_geojson_file(suburb: str, state: str, addresses: AddressList):
         write_json_file(filename, formatted_addresses, indent=1)  # indent=1 is to minimise size increase
     else:
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
+
+
+def read_geojson_file(suburb: str, state: str) -> dict:
+    """Read the GeoJSON FeatureCollection from a file, or return None"""
+    filename = get_geojson_filename(suburb, state)
+    if os.path.exists(filename):
+        return read_json_file(filename)
 
 
 def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
