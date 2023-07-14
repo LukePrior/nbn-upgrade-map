@@ -51,6 +51,7 @@
         var urlParams = new URLSearchParams(window.location.search);
         var default_suburb = "bli-bli";
         var default_state = "QLD";
+        var combined_info = null;
         if (urlParams.has("suburb") && urlParams.has("state")) {
             default_suburb = urlParams.get("suburb");
             default_state = urlParams.get("state");
@@ -58,6 +59,7 @@
 
         // add dropdown
         fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+            combined_info = data;
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
@@ -69,7 +71,7 @@
                         if (suburb.processed_date == null) continue;
                         file = suburb.name.toLowerCase().replace(/ /g, "-") // any other sanitisation required? apostrophe OK
                         selected_text = ((file == default_suburb && state == default_state) ? "selected" : "")
-                        dropdownHTML += '<option value="https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/' + state + '/' + file + '.geojson" ' + selected_text + '>' + suburb.name + '</option>';
+                        dropdownHTML += '<option value="' + state + '/' + file + '" ' + selected_text + '>' + suburb.name + '</option>';
                     }
                     dropdownHTML += '</optgroup>';
                 }
@@ -118,7 +120,8 @@
         github.addTo(map);
 
         // load GeoJSON from an external file
-        function loadSuburb(url) {
+        function loadSuburb(state_file) {
+            url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/" + state_file + ".geojson"
             fetch(url).then(res => res.json()).then(data => {
                 // clear existing markers
                 map.eachLayer(function (layer) {
@@ -207,6 +210,19 @@
                     }
                     statsHTML += '</table>';
                     statsHTML += 'Last Update: ' + new Date(data["generated"]).toLocaleDateString("en-AU");
+                    [state, file] = state_file.split('/')
+                    if (combined_info != null) {
+                        for (var suburb of combined_info[state]) {
+                                this_file = suburb.name.toLowerCase().replace(/ /g, "-") // any other sanitisation required? apostrophe OK
+                                if (this_file == file) {
+                                    if (suburb.announced_date != null) {
+                                        statsHTML += '<br/>Expected: ' + suburb.announced_date;
+                                    }
+                                    break;
+                                }
+                        }
+                    }
+
                     div.innerHTML = statsHTML;
                     return div;
                 }
@@ -221,7 +237,7 @@
             });
         }
 
-        loadSuburb("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/"+default_state+"/"+default_suburb+".geojson")
+        loadSuburb(default_state+"/"+default_suburb)
     </script>
 </body>
 </html>
