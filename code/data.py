@@ -21,7 +21,8 @@ STATES = sorted(STATES_MAP.values())
 class Address:
     name: str
     gnaf_pid: str
-    location: tuple[float, float]
+    longitude: float
+    latitude: float
     loc_id: str = None
     tech: str = None
     upgrade: str = None
