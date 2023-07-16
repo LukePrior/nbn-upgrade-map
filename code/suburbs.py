@@ -10,7 +10,7 @@ import data
 from geojson import get_geojson_file_generated
 
 
-def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
+def write_all_suburbs(all_suburbs: data.SuburbsByState):
     """Write the new combined file containing all suburbs to a file."""
 
     def _suburb_to_dict(s: data.Suburb) -> dict:
@@ -26,7 +26,7 @@ def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
     data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
 
 
-def read_all_suburbs() -> dict[str, list[data.Suburb]]:
+def read_all_suburbs() -> data.SuburbsByState:
     """Read the new combined file list of all suburbs."""
 
     def _dict_to_suburb(d: dict) -> data.Suburb:
@@ -59,7 +59,7 @@ def update_processed_dates():
     logging.info("...done")
 
 
-def update_suburb_in_all_suburbs(suburb: str, state: str) -> dict[str, list[data.Suburb]]:
+def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState:
     """Update the suburb in the combined file."""
     suburb = suburb.title()
 

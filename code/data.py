@@ -70,6 +70,9 @@ class Suburb:
         return self.name < other.name
 
 
+SuburbsByState = dict[str, list[Suburb]]
+
+
 def write_json_file(filename: str, data: dict, indent=4):
     with open(filename, "w", encoding="utf-8") as outfile:
         json.dump(data, outfile, indent=indent)
