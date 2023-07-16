@@ -1,7 +1,6 @@
 # api for managing the list of suburbs, which ones have been completed, dates announced, etc.
 import dataclasses
 import glob
-import itertools
 import logging
 import os
 from collections import Counter
@@ -9,51 +8,6 @@ from datetime import datetime
 
 import data
 from geojson import get_geojson_file_generated
-
-
-def get_completed_suburbs() -> list[dict]:
-    """Return a flat of all suburbs by state that have been completed. (compatibility api)"""
-    # deprecated
-    #         {
-    #             "internal": "ACTON",
-    #             "state": "ACT",
-    #             "name": "Acton",
-    #             "file": "acton",
-    #             "date": "07-07-2023"  # replaced with ISO format
-    #         },
-    by_state = [
-        [
-            {
-                "internal": suburb.internal,
-                "state": state,
-                "name": suburb.name,
-                "file": suburb.file,
-                "date": suburb.processed_date.isoformat() if suburb.processed_date else None,
-            }
-            for suburb in suburb_list
-            if suburb.processed_date
-        ]
-        for state, suburb_list in read_all_suburbs().items()
-    ]
-    return list(itertools.chain.from_iterable(by_state))
-
-
-def write_results_json(suburbs: list[dict]):
-    """Write the list of completed suburbs to a JSON file."""
-    # Compatibility with previous API. To be refactored.
-
-    # make state->suburb->date lookup
-    suburb_dates_by_state = {state: {} for state in data.STATES}
-    for suburb in suburbs:
-        suburb_dates_by_state[suburb["state"]][suburb["name"]] = suburb["date"]
-
-    # update date field in results only
-    all_suburbs = read_all_suburbs()
-    for state, suburb_list in all_suburbs.items():
-        for suburb in suburb_list:
-            suburb.processed_date = suburb_dates_by_state[state].get(suburb.name, None)
-
-    write_all_suburbs(all_suburbs)
 
 
 def write_all_suburbs(all_suburbs: dict[str, list[data.Suburb]]):
@@ -144,7 +98,10 @@ def _add_total_progress(progress: dict):
 
 def get_suburb_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {"listed": {}, "all": {}}
+    progress = {
+        "listed": {},
+        "all": {}
+    }
     for state, suburb_list in read_all_suburbs().items():
         progress["listed"][state] = _get_completion_progress(suburb for suburb in suburb_list if suburb.announced)
         progress["all"][state] = _get_completion_progress(suburb_list)
@@ -156,7 +113,10 @@ def get_suburb_progress() -> dict:
 
 def get_address_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {"listed": {}, "all": {}}
+    progress = {
+        "listed": {},
+        "all": {}
+    }
     for state, suburb_list in read_all_suburbs().items():
         tot_addresses = tot_listed = 0
         tot_done = tot_listed_done = 0
