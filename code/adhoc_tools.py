@@ -11,12 +11,18 @@ import requests
 import suburbs
 from bs4 import BeautifulSoup
 
+NBN_UPGRADE_DATES_URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
+
+NBN_SUBURB_LIST_URL = (
+    "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
+    "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
+)
+
 
 def get_nbn_suburb_dates():
     """Parse a NBN web page to get a list of all suburb upgrade dates."""
-    URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
     logging.info("Fetching list of suburbs from NBN website...")
-    content = requests.get(URL).content
+    content = requests.get(NBN_UPGRADE_DATES_URL).content
 
     results = {}
 
@@ -34,12 +40,8 @@ def get_nbn_suburb_dates():
 
 def get_nbn_suburb_list():
     """Parse a NBN web page to get a list of all suburbs announced for upgrades."""
-    URL = (
-        "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
-        "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
-    )
     logging.info("Fetching list of suburb dates from NBN website...")
-    content = requests.get(URL).content
+    content = requests.get(NBN_SUBURB_LIST_URL).content
 
     results = {}
 
@@ -51,7 +53,7 @@ def get_nbn_suburb_list():
             if p.text.startswith("Announced "):
                 continue
             # remove extra text, and sanitise suburb names
-            suburbs = [
+            suburbs_list = [
                 re.sub(
                     r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))",
                     "",
@@ -60,10 +62,10 @@ def get_nbn_suburb_list():
                 )
                 for suburb in re.split(r", ?", p.text)
             ]
-            results[state].extend(suburbs)
+            results[state].extend(suburbs_list)
 
     # Convert to consistent state/suburb format
-    return {data.STATES_MAP[state]: [s.title() for s in suburbs] for state, suburbs in results.items()}
+    return {data.STATES_MAP[state]: [s.title() for s in suburbs_list] for state, suburbs_list in results.items()}
 
 
 def get_db_suburb_list():
@@ -153,6 +155,7 @@ def resort_results():
 
 
 def get_suburb_extents():
+    """Using the min/max lat/long of all addresses in each suburb, create a list of extents for each suburb"""
     xdb = db.connect_to_db(args)
     logging.info("Getting extents")
     result = xdb.get_extents_by_suburb()
