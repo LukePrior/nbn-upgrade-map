@@ -33,6 +33,7 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
 
 
 def get_geojson_filename(suburb: str, state: str) -> str:
+    """Get the filename for the GeoJSON file."""
     return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
