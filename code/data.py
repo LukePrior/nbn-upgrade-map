@@ -20,6 +20,7 @@ STATES = sorted(STATES_MAP.values())
 @dataclass(slots=True)
 class Address:
     """A single address in a suburb."""
+
     name: str
     gnaf_pid: str
     longitude: float
@@ -35,6 +36,7 @@ AddressList = list[Address]
 @dataclass(slots=True)
 class Suburb:
     """Details about a Suburb."""
+
     name: str
     processed_date: datetime = None
     announced: bool = False  # should be redundant vs announced_date, but isn't

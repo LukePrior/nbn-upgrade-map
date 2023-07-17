@@ -98,10 +98,7 @@ def _add_total_progress(progress: dict):
 
 def get_suburb_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {
-        "listed": {},
-        "all": {}
-    }
+    progress = {"listed": {}, "all": {}}
     for state, suburb_list in read_all_suburbs().items():
         progress["listed"][state] = _get_completion_progress(suburb for suburb in suburb_list if suburb.announced)
         progress["all"][state] = _get_completion_progress(suburb_list)
@@ -113,10 +110,7 @@ def get_suburb_progress() -> dict:
 
 def get_address_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {
-        "listed": {},
-        "all": {}
-    }
+    progress = {"listed": {}, "all": {}}
     for state, suburb_list in read_all_suburbs().items():
         tot_addresses = tot_listed = 0
         tot_done = tot_listed_done = 0
