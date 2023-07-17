@@ -28,23 +28,12 @@ jobs:
 
       - name: Run program
         run: |
-          python code/main.py "NA" "NA" -i
+          python code/main.py -i -t 30
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: Updated region
-          default_author: github_actions
-          pull: '--rebase --autostash'
-
-      - name: Run results
-        run: |
-          python code/results.py
-  
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: Updated results
+          message: Updated regions & results
           default_author: github_actions
           pull: '--rebase --autostash'
 

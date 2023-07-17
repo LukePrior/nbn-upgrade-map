@@ -35,16 +35,15 @@ class NBNApi:
         if key in CACHE:
             return CACHE[key]
         result = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))
-        if "suggestions" not in result:
-            logging.warning("No suggestions for %s", address)
-        elif len(result["suggestions"]) == 0:
-            logging.warning("Zero suggestions for %s", address)
-        elif "id" not in result["suggestions"][0]:
-            logging.warning("No id for %s", address)
-        else:
+        suggestions = result.get("suggestions", [])
+        suggestions = [s for s in suggestions if "id" in s]  # remove useless suggestions
+        suggestions = sorted(suggestions, key=lambda k: k["formattedAddress"])  # stable ordering
+        if suggestions:
             loc_id = result["suggestions"][0]["id"]
             CACHE[key] = loc_id  # cache indefinitely
             return loc_id
+        else:
+            logging.warning("No suggestions for %s", address)
 
     def extended_get_nbn_loc_id(self, key: str, address: str) -> str:
         """Return the NBN locID for the provided address, following the addressSplitDetails if required."""

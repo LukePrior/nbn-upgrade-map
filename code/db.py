@@ -48,7 +48,8 @@ class AddressDB:
             data.Address(
                 name=f"{row.address} {target_suburb} {row.postcode}",
                 gnaf_pid=row.gnaf_pid,
-                location=(float(row.longitude), float(row.latitude)),
+                longitude=float(row.longitude),
+                latitude=float(row.latitude),
             )
             for row in self.cur.fetchall()
         ]

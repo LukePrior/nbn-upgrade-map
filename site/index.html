@@ -1,22 +1,36 @@
 <html>
 <head>
     <title>NBN Technology Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" 
-        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" 
-        crossorigin=""></script>
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css" integrity="sha512-ENrTWqddXrLJsQS2A86QmvA17PkJ0GVm1bqj5aTgpeMAfDKN2+SIOLpKG8R/6KkimnhTb+VW5qqUHB/r1zaRgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <style>
-        #map {
-            height: 100%
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100vw;
+        }
+        .marker-cluster div {
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #000000;
+            font-size: 8px;
+            text-align: center;
+            opacity: 0.8;
         }
     </style>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VVNNFL32M"></script>
     <script>
@@ -26,6 +40,8 @@
 
         gtag('config', 'G-5VVNNFL32M');
     </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
     <div id="map"></div>
@@ -36,16 +52,17 @@
         });
 
         // load a tile layer
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 18,
-            minZoom: 0
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 20
         }).addTo(map);
 
         // get url parameters
         var urlParams = new URLSearchParams(window.location.search);
         var default_suburb = "bli-bli";
         var default_state = "QLD";
+        var combined_info = null;
         if (urlParams.has("suburb") && urlParams.has("state")) {
             default_suburb = urlParams.get("suburb");
             default_state = urlParams.get("state");
@@ -53,6 +70,7 @@
 
         // add dropdown
         fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+            combined_info = data;
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
@@ -61,9 +79,10 @@
                 for (const [state, suburbs] of Object.entries(data)) {
                     dropdownHTML += '<optgroup label="' + state + '">';
                     for (var suburb of suburbs) {
+                        if (suburb.processed_date == null) continue;
                         file = suburb.name.toLowerCase().replace(/ /g, "-") // any other sanitisation required? apostrophe OK
                         selected_text = ((file == default_suburb && state == default_state) ? "selected" : "")
-                        dropdownHTML += '<option value="https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/' + state + '/' + file + '.geojson" ' + selected_text + '>' + suburb.name + '</option>';
+                        dropdownHTML += '<option value="' + state + '/' + file + '" ' + selected_text + '>' + suburb.name + '</option>';
                     }
                     dropdownHTML += '</optgroup>';
                 }
@@ -85,7 +104,14 @@
             div.style.padding = "5px";
             div.style.borderRadius = "5px";
             div.style.width = "150px";
-            var legendHTML = '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#00aa00" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP<br><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#00ff00" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade<br><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#ffa500" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> HFC<br><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#ff0000" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> No upgrade available<br><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#888888" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> Unknown';
+            var legendHTML = 
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#1D7044" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP<br>' + 
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#75AD6F" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade<br>' +
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FFBE00" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> HFC<br>' + 
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FF7E01" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTC<br>' +
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#E3071D" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTN/FTTB<br>' +
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#C91414" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FW/SAT<br>' +
+                '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#888888" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> Unknown';
             div.innerHTML = legendHTML;
             return div;
         }
@@ -104,8 +130,37 @@
         }
         github.addTo(map);
 
+        function getColour(tech, upgrade) {
+            switch(upgrade) {
+                case "FTTP_SA":
+                    return "#75AD6F";
+                case "FTTP_NA":
+                    return "#75AD6F";
+            }
+            switch(tech) {
+                case "FTTP":
+                    return "#1D7044";
+                case "FTTC":
+                    return "#FF7E01";
+                case "FTTB":
+                    return "#E3071D";
+                case "FTTN":
+                    return "#E3071D";
+                case "HFC":
+                    return "#FFBE00";
+                case "WIRELESS":
+                    return "#C91414";
+                case "SATELLITE":
+                    return "#C91414";
+                case "NULL":
+                    return "#888888";
+            }
+            return "#000000";
+        }
+
         // load GeoJSON from an external file
-        function loadSuburb(url) {
+        function loadSuburb(state_file) {
+            url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/" + state_file + ".geojson"
             fetch(url).then(res => res.json()).then(data => {
                 // clear existing markers
                 map.eachLayer(function (layer) {
@@ -113,12 +168,42 @@
                         map.removeLayer(layer);
                     }
                 });
+                var markers = L.markerClusterGroup({
+                    showCoverageOnHover: false,
+                    zoomToBoundsOnClick: false,
+                    maxClusterRadius: 0,
+                    iconCreateFunction: function(cluster) {
+                        children = cluster.getAllChildMarkers();
+                        var techs = [];
+                        var upgrades = [];
+                        for (var child of children) {
+                            techs.push(child.feature.properties.tech);
+                            upgrades.push(child.feature.properties.upgrade);
+                        }
+                        var tech = techs.sort((a,b) =>
+                            techs.filter(v => v===a).length
+                            - techs.filter(v => v===b).length
+                        ).pop();
+                        var upgrade = upgrades.sort((a,b) =>
+                            upgrades.filter(v => v===a).length
+                            - upgrades.filter(v => v===b).length
+                        ).pop();
+                        var color = getColour(tech, upgrade);
+                        return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
+                    }
+                });
+                markers.on('clustermouseover', function (a) {
+                    if (map.getZoom() > 17) {
+                        a.layer.spiderfy();
+                    }
+                });
                 // add circle marker for each feature
-                L.geoJson(data, {
+                var geojson = L.geoJson(data, {
                     pointToLayer: function (feature, latlng) {
+                        var color = getColour(feature.properties.tech, feature.properties.upgrade);
                         return L.circleMarker(latlng, {
                             radius: 5,
-                            fillColor: feature.properties.upgrade == "FTTP_SA" ? "#00ff00" : feature.properties.tech == "FTTP" ? "#00aa00" : feature.properties.tech == "HFC" ? "#ffa500" : feature.properties.upgrade == "UNKNOWN" ? "#888888" : "#ff0000",
+                            fillColor: color,
                             color: "#000000",
                             weight: 1,
                             opacity: 1,
@@ -127,9 +212,15 @@
                     },
                     onEachFeature: function (feature, layer) {
                         // popup with place name and upgrade type
-                        layer.bindPopup("<b>" + feature.properties.name + "</b><br>Current tech: " + feature.properties.tech + "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : feature.properties.tech == "FTTP" ? "N/A" : "No"));
+                        layer.bindPopup(
+                            "<b>" + feature.properties.name + 
+                            "</b><br>Current tech: " + feature.properties.tech + 
+                            "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : feature.properties.tech == "FTTP" ? "N/A" : "No"))
+                        );
                     }
-                }).addTo(map);
+                })
+                markers.addLayer(geojson);
+                map.addLayer(markers);
                 // Create stats table
                 var stats = L.control({ position: 'bottomright' });
                 stats.onAdd = function (map) {
@@ -154,6 +245,20 @@
                         statsHTML += '<tr><td>' + tech + '</td><td>' + techs[tech] + '</td></tr>';
                     }
                     statsHTML += '</table>';
+                    statsHTML += 'Last Update: ' + new Date(data["generated"]).toLocaleDateString("en-AU");
+                    [state, file] = state_file.split('/')
+                    if (combined_info != null) {
+                        for (var suburb of combined_info[state]) {
+                                this_file = suburb.name.toLowerCase().replace(/ /g, "-") // any other sanitisation required? apostrophe OK
+                                if (this_file == file) {
+                                    if (suburb.announced_date != null) {
+                                        statsHTML += '<br/>Expected: ' + suburb.announced_date;
+                                    }
+                                    break;
+                                }
+                        }
+                    }
+
                     div.innerHTML = statsHTML;
                     return div;
                 }
@@ -168,7 +273,7 @@
             });
         }
 
-        loadSuburb("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/"+default_state+"/"+default_suburb+".geojson")
+        loadSuburb(default_state+"/"+default_suburb)
     </script>
 </body>
 </html>

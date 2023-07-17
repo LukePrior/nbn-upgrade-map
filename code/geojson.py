@@ -8,21 +8,21 @@ from data import AddressList, read_json_file, write_json_file
 
 def format_addresses(addresses: AddressList, suburb: str) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    features = []
-    for address in addresses:
-        if address.upgrade and address.tech:
-            formatted_address = {
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": address.location},
-                "properties": {
-                    "name": address.name,
-                    "locID": address.loc_id,
-                    "tech": address.tech,
-                    "upgrade": address.upgrade,
-                    "gnaf_pid": address.gnaf_pid,
-                },
-            }
-            features.append(formatted_address)
+    features = [
+        {
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [address.longitude, address.latitude]},
+            "properties": {
+                "name": address.name,
+                "locID": address.loc_id,
+                "tech": address.tech,
+                "upgrade": address.upgrade,
+                "gnaf_pid": address.gnaf_pid,
+            },
+        }
+        for address in addresses
+        if address.upgrade and address.tech
+    ]
 
     return {
         "type": "FeatureCollection",
@@ -33,7 +33,8 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
 
 
 def get_geojson_filename(suburb: str, state: str) -> str:
-    return f"results/{state}/{suburb.lower().replace(' ', '-')}.geojson"
+    """Get the filename for the GeoJSON file."""
+    return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
@@ -43,14 +44,25 @@ def write_geojson_file(suburb: str, state: str, addresses: AddressList):
         filename = get_geojson_filename(suburb, state)
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         logging.info("Writing results to %s", filename)
-        write_json_file(filename, formatted_addresses, minimise=True)
+        write_json_file(filename, formatted_addresses, indent=0)
     else:
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
 
-def get_geojson_file_generated(suburb: str, state: str) -> datetime:
-    """Get the generated date from the GeoJSON file (faster than reading whole file)."""
+def read_geojson_file(suburb: str, state: str) -> dict:
+    """Read the GeoJSON FeatureCollection from a file, or return None"""
     filename = get_geojson_filename(suburb, state)
+    if os.path.exists(filename):
+        return read_json_file(filename)
+
+
+def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
+    """Given a suburb and state, get the generated date from the GeoJSON file (faster than reading whole file)."""
+    return get_geojson_file_generated(get_geojson_filename(suburb, state))
+
+
+def get_geojson_file_generated(filename) -> datetime:
+    """Get the generated date from the GeoJSON file (faster than reading whole file)."""
     if os.path.exists(filename):
         # attempt to load just the first few lines of the file
         try:
