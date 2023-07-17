@@ -62,6 +62,7 @@ class Suburb:
 
 SuburbsByState = dict[str, list[Suburb]]
 
+
 def write_json_file(filename: str, data: dict, indent=4):
     """Write a dict to a JSON file. If indent==0 then minimise the file size."""
     with open(filename, "w", encoding="utf-8") as outfile:
