@@ -42,6 +42,7 @@ class Suburb:
     announced: bool = False  # should be redundant vs announced_date, but isn't
     announced_date: str = None  # TODO: datetime?
     address_count: int = 0
+    extent: tuple[float, float, float, float] = None  # west, south, east, north
 
     @property
     def internal(self):

@@ -19,6 +19,7 @@ from geojson import write_geojson_file
 from nbn import NBNApi
 from suburbs import (
     read_all_suburbs,
+    update_all_suburbs_extents,
     update_processed_dates,
     update_suburb_in_all_suburbs,
 )
@@ -231,9 +232,10 @@ def main():
     add_db_arguments(parser)
     args = parser.parse_args()
 
-    update_processed_dates()
-
     db = connect_to_db(args)
+    update_processed_dates()
+    update_all_suburbs_extents(db)
+
     if args.time and args.time >= 5:
         timer(args.time, db, args.threads, progress_bar=args.progress)
     else:

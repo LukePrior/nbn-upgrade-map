@@ -7,6 +7,7 @@ from collections import Counter
 from datetime import datetime
 
 import data
+from db import AddressDB
 from geojson import get_geojson_file_generated
 
 
@@ -57,6 +58,20 @@ def update_processed_dates():
     if changed:
         write_all_suburbs(all_suburbs)
     logging.info("...done")
+
+
+def update_all_suburbs_extents(db: AddressDB):
+    """Update all suburbs with their extents from the DB, if there are no extents present."""
+    all_suburbs = read_all_suburbs()
+    first_suburb = next(iter(all_suburbs.values()))[0]
+    if first_suburb.extent is None:
+        logging.info("Updating all-suburb extents...")
+        extents = db.get_extents_by_suburb()
+        for state, suburb_list in all_suburbs.items():
+            for suburb in suburb_list:
+                if extent := extents[state].get(suburb.name.upper()):
+                    suburb.extent = (extent[0][1], extent[0][0], extent[1][1], extent[1][0])  # west, south, east, north
+        write_all_suburbs(all_suburbs)
 
 
 def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState:
