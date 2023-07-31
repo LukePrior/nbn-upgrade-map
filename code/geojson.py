@@ -39,14 +39,10 @@ def get_geojson_filename(suburb: str, state: str) -> str:
 
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
     """Write the GeoJSON FeatureCollection to a file."""
-    formatted_addresses = format_addresses(addresses, suburb)
-    if formatted_addresses["features"]:
-        filename = get_geojson_filename(suburb, state)
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        logging.info("Writing results to %s", filename)
-        write_json_file(filename, formatted_addresses, indent=1)  # indent=1 is to minimise size increase
-    else:
-        logging.warning("No addresses found for %s, %s", suburb.title(), state)
+    filename = get_geojson_filename(suburb, state)
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    logging.info("Writing results to %s", filename)
+    write_json_file(filename, format_addresses(addresses, suburb), indent=1)  # indent=1 is to minimise size increase
 
 
 def read_geojson_file(suburb: str, state: str) -> dict:
