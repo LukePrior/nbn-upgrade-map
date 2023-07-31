@@ -49,8 +49,12 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
         # if we get here, then all suburbs have been processed.
         logging.info("All suburbs have been processed")
         if oldest_processed_date:
-            logging.info("Picking the oldest announced suburb: %s, %s (%s)",
-                         oldest_suburb.name, oldest_state, oldest_processed_date)
+            logging.info(
+                "Picking the oldest announced suburb: %s, %s (%s)",
+                oldest_suburb.name,
+                oldest_state,
+                oldest_processed_date,
+            )
             return oldest_suburb.name.upper(), oldest_state
     else:
         target_suburb = target_suburb.title()
