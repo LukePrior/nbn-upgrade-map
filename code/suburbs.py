@@ -7,7 +7,7 @@ from collections import Counter
 from datetime import datetime
 
 import data
-from geojson import get_geojson_file_generated
+from geojson import get_geojson_file_generated, get_geojson_file_generated_from_name
 
 
 def write_all_suburbs(all_suburbs: data.SuburbsByState):
@@ -65,7 +65,9 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
 
     all_suburbs = read_all_suburbs()
     found_suburb = next(s for s in all_suburbs[state.upper()] if s.name == suburb)
-    found_suburb.processed_date = datetime.now()
+    found_suburb.processed_date = get_geojson_file_generated_from_name(suburb, state)
+    if found_suburb.processed_date is None:
+        found_suburb.processed_date = datetime.now()
     write_all_suburbs(all_suburbs)
 
     update_progress()
