@@ -149,6 +149,7 @@ def process_suburb(
     suburb, state = select_suburb(target_suburb, target_state)
     if suburb is None:
         logging.error("No more suburbs to process")
+        raise StopIteration
     else:
         # get addresses from DB
         logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
