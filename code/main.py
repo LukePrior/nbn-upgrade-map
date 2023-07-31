@@ -36,10 +36,26 @@ def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
     ]
 
     if target_suburb is None or target_state is None:
+        oldest_state = oldest_suburb = None
+        oldest_processed_date = None
         for state, suburb_list in suburbs:
             for suburb in suburb_list:
                 if suburb.processed_date is None:
                     return suburb.name.upper(), state
+                if oldest_processed_date is None or suburb.processed_date < oldest_processed_date:
+                    oldest_processed_date = suburb.processed_date
+                    oldest_state = state
+                    oldest_suburb = suburb
+        # if we get here, then all suburbs have been processed.
+        logging.info("All suburbs have been processed")
+        if oldest_processed_date:
+            logging.info(
+                "Picking the oldest announced suburb: %s, %s (%s)",
+                oldest_suburb.name,
+                oldest_state,
+                oldest_processed_date,
+            )
+            return oldest_suburb.name.upper(), oldest_state
     else:
         target_suburb = target_suburb.title()
         target_state = target_state.upper()
@@ -149,6 +165,7 @@ def process_suburb(
     suburb, state = select_suburb(target_suburb, target_state)
     if suburb is None:
         logging.error("No more suburbs to process")
+        raise StopIteration
     else:
         # get addresses from DB
         logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
