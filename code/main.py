@@ -163,10 +163,7 @@ def process_suburb(
             if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
                 logging.info("Loaded %d addresses from output file", len(results["features"]))
                 GNAF_PID_TO_LOC = {
-                    feature["properties"]["gnaf_pid"]: feature["properties"][
-                        "locID"
-                    ]
-                    for feature in results["features"]
+                    feature["properties"]["gnaf_pid"]: feature["properties"]["locID"] for feature in results["features"]
                 }
         # get NBN data for addresses
         addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
