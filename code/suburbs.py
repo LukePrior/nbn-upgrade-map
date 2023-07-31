@@ -47,7 +47,7 @@ def update_processed_dates():
         file_suburb_map = {suburb.file: suburb for suburb in all_suburbs[state]}
         for file in glob.glob(f"results/{state}/*.geojson"):
             this_file = os.path.splitext(os.path.basename(file))[0]
-            this_suburb = file_suburb_map.get(this_file, None)
+            this_suburb = file_suburb_map.get(this_file)
             generated = get_geojson_file_generated(file)
 
             if this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:

@@ -44,7 +44,7 @@ class AddressDB:
 
         self.cur.execute(query, (target_suburb, target_state))
 
-        addresses = [
+        return [
             data.Address(
                 name=f"{row.address} {target_suburb} {row.postcode}",
                 gnaf_pid=row.gnaf_pid,
@@ -53,8 +53,6 @@ class AddressDB:
             )
             for row in self.cur.fetchall()
         ]
-
-        return addresses
 
     def get_list_vs_total(self, suburbs_states: dict) -> dict:
         """Calculate which fraction of the entire dataset is represented by the given list of state+suburb."""
