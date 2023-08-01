@@ -1,4 +1,3 @@
-import json
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -61,15 +60,3 @@ class Suburb:
 
 
 SuburbsByState = dict[str, list[Suburb]]
-
-
-def write_json_file(filename: str, data: dict, indent=4):
-    """Write a dict to a JSON file."""
-    with open(filename, "w", encoding="utf-8") as outfile:
-        json.dump(data, outfile, indent=indent)
-
-
-def read_json_file(filename: str) -> dict:
-    """Read a dict from a JSON file."""
-    with open(filename, "r", encoding="utf-8") as file:
-        return json.load(file)

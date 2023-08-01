@@ -3,7 +3,8 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList, read_json_file, write_json_file
+from data import AddressList
+from utils import write_json_file, read_json_file
 
 
 def format_addresses(addresses: AddressList, suburb: str) -> dict:

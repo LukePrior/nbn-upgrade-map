@@ -7,6 +7,7 @@ from collections import Counter
 from datetime import datetime
 
 import data
+import utils
 from geojson import get_geojson_file_generated, get_geojson_file_generated_from_name
 
 
@@ -23,7 +24,7 @@ def write_all_suburbs(all_suburbs: data.SuburbsByState):
         state: [_suburb_to_dict(xsuburb) for xsuburb in sorted(suburbs_list)]
         for state, suburbs_list in sorted(all_suburbs.items())
     }
-    data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
+    utils.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
 
 
 def read_all_suburbs() -> data.SuburbsByState:
@@ -33,7 +34,7 @@ def read_all_suburbs() -> data.SuburbsByState:
         d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
         return data.Suburb(**d)
 
-    results = data.read_json_file("results/combined-suburbs.json")
+    results = utils.read_json_file("results/combined-suburbs.json")
     # TODO: convert to dict[str, dict[str, data.Suburb]]  (state->suburub_name->Suburb)
     return {state: sorted(_dict_to_suburb(d) for d in results[state]) for state in sorted(results)}
 
@@ -149,5 +150,5 @@ def update_progress():
         "addresses": get_address_progress(),
     }
     logging.info("Updating progress.json")
-    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
+    utils.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
     return results["suburbs"]

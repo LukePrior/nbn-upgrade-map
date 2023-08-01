@@ -4,7 +4,6 @@ import argparse
 import itertools
 import logging
 import os
-import time
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -23,6 +22,8 @@ from suburbs import (
     update_suburb_in_all_suburbs,
 )
 from collections.abc import Generator
+
+from utils import print_progress_bar
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
 GNAF_PID_TO_LOC: dict[str, str] = {}
@@ -79,29 +80,6 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
         logging.warning(traceback.format_exc())
 
     return address
-
-
-def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", printEnd="\r"):
-    """
-    Call in a loop to create terminal progress bar.
-    Borrowed from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
-    """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-    filled_length = int(length * iteration // total)
-    bar = fill * filled_length + "-" * (length - filled_length)
-    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
-    # Print New Line on Complete
-    if iteration == total:
-        print()
 
 
 def get_all_addresses(
