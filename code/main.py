@@ -43,7 +43,8 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
                 yield suburb.name.upper(), target_state
                 return
 
-    # 1. find suburbs that have not been processed, prefer announced suburbs
+    # 1. find suburbs that have not been processed
+    # TODO: prefer announced suburbs
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
             if suburb.processed_date is None:
@@ -51,7 +52,7 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
                 yield suburb.name.upper(), state
 
     # 2. find suburbs for reprocessing, ordered by oldest processed date (they should be unique)
-    #   TODO: prefer suburbs with closer announced dates
+    # TODO: prefer suburbs with closer announced dates
     by_date = {}
     for state, suburb_list in all_suburbs.items():
         by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
