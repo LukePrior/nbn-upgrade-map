@@ -9,9 +9,8 @@ import db
 import geojson
 import requests
 import suburbs
-from bs4 import BeautifulSoup
-
 import utils
+from bs4 import BeautifulSoup
 
 NBN_UPGRADE_DATES_URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
 

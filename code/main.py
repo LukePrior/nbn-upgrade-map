@@ -6,6 +6,7 @@ import logging
 import os
 import traceback
 from collections import Counter
+from collections.abc import Generator
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from threading import Lock
@@ -21,8 +22,6 @@ from suburbs import (
     update_processed_dates,
     update_suburb_in_all_suburbs,
 )
-from collections.abc import Generator
-
 from utils import print_progress_bar
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
