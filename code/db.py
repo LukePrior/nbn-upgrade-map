@@ -27,7 +27,9 @@ class AddressDB:
         # optionally create a DB index
         if create_index:
             logging.info("Creating DB index...")
-            self.cur.execute("CREATE INDEX IF NOT EXISTS address_name_state ON address_principals (locality_name, state)")
+            self.cur.execute(
+                "CREATE INDEX IF NOT EXISTS address_name_state ON address_principals (locality_name, state)"
+            )
             conn.commit()
 
     def get_addresses(self, target_suburb: str, target_state: str) -> data.AddressList:
