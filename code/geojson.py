@@ -3,7 +3,8 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList, read_json_file, write_json_file
+from data import AddressList
+from utils import read_json_file, write_json_file
 
 
 def format_addresses(addresses: AddressList, suburb: str) -> dict:
@@ -39,14 +40,10 @@ def get_geojson_filename(suburb: str, state: str) -> str:
 
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
     """Write the GeoJSON FeatureCollection to a file."""
-    formatted_addresses = format_addresses(addresses, suburb)
-    if formatted_addresses["features"]:
-        filename = get_geojson_filename(suburb, state)
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        logging.info("Writing results to %s", filename)
-        write_json_file(filename, formatted_addresses, indent=0)
-    else:
-        logging.warning("No addresses found for %s, %s", suburb.title(), state)
+    filename = get_geojson_filename(suburb, state)
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    logging.info("Writing results to %s", filename)
+    write_json_file(filename, format_addresses(addresses, suburb), indent=0)
 
 
 def read_geojson_file(suburb: str, state: str) -> dict:

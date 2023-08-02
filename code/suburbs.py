@@ -7,7 +7,8 @@ from collections import Counter
 from datetime import datetime
 
 import data
-from geojson import get_geojson_file_generated
+import utils
+from geojson import get_geojson_file_generated, get_geojson_file_generated_from_name
 
 
 def write_all_suburbs(all_suburbs: data.SuburbsByState):
@@ -23,7 +24,7 @@ def write_all_suburbs(all_suburbs: data.SuburbsByState):
         state: [_suburb_to_dict(xsuburb) for xsuburb in sorted(suburbs_list)]
         for state, suburbs_list in sorted(all_suburbs.items())
     }
-    data.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
+    utils.write_json_file("results/combined-suburbs.json", all_suburbs_dicts, indent=1)
 
 
 def read_all_suburbs() -> data.SuburbsByState:
@@ -33,7 +34,7 @@ def read_all_suburbs() -> data.SuburbsByState:
         d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
         return data.Suburb(**d)
 
-    results = data.read_json_file("results/combined-suburbs.json")
+    results = utils.read_json_file("results/combined-suburbs.json")
     # TODO: convert to dict[str, dict[str, data.Suburb]]  (state->suburub_name->Suburb)
     return {state: sorted(_dict_to_suburb(d) for d in results[state]) for state in sorted(results)}
 
@@ -47,7 +48,7 @@ def update_processed_dates():
         file_suburb_map = {suburb.file: suburb for suburb in all_suburbs[state]}
         for file in glob.glob(f"results/{state}/*.geojson"):
             this_file = os.path.splitext(os.path.basename(file))[0]
-            this_suburb = file_suburb_map.get(this_file, None)
+            this_suburb = file_suburb_map.get(this_file)
             generated = get_geojson_file_generated(file)
 
             if this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
@@ -65,7 +66,9 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
 
     all_suburbs = read_all_suburbs()
     found_suburb = next(s for s in all_suburbs[state.upper()] if s.name == suburb)
-    found_suburb.processed_date = datetime.now()
+    found_suburb.processed_date = get_geojson_file_generated_from_name(suburb, state)
+    if found_suburb.processed_date is None:
+        found_suburb.processed_date = datetime.now()
     write_all_suburbs(all_suburbs)
 
     update_progress()
@@ -147,5 +150,5 @@ def update_progress():
         "addresses": get_address_progress(),
     }
     logging.info("Updating progress.json")
-    data.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
+    utils.write_json_file("results/progress.json", results)  # indent=1 is to minimise size increase
     return results["suburbs"]

@@ -4,11 +4,11 @@ import argparse
 import itertools
 import logging
 import os
-import time
 import traceback
 from collections import Counter
+from collections.abc import Generator
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timedelta
 from threading import Lock
 
 import geojson
@@ -22,36 +22,43 @@ from suburbs import (
     update_processed_dates,
     update_suburb_in_all_suburbs,
 )
+from utils import print_progress_bar
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
 GNAF_PID_TO_LOC: dict[str, str] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
 
-def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
-    """Return a (state,suburb) tuple based on the provided input or the next suburb in the list."""
-    suburbs = [
-        (state, sorted(suburb_list, key=lambda s: s.announced, reverse=True))
-        for state, suburb_list in read_all_suburbs().items()
-    ]
+def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
+    """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""
 
-    if target_suburb is None or target_state is None:
-        for state, suburb_list in suburbs:
-            for suburb in suburb_list:
-                if suburb.processed_date is None:
-                    return suburb.name.upper(), state
-    else:
+    # 0. If suburb/state are given return that (only)
+    all_suburbs = read_all_suburbs()
+    if target_suburb is not None and target_state is not None:
         target_suburb = target_suburb.title()
         target_state = target_state.upper()
-        for state, suburb_list in suburbs:
-            if state == target_state:
-                for suburb in suburb_list:
-                    if suburb.name == target_suburb:
-                        return suburb.name.upper(), state
-        # TODO: maybe fuzzy search?
-        logging.error("Suburb %s, %s not found in suburbs list", target_suburb, target_state)
+        for suburb in all_suburbs[target_state]:
+            if suburb.name == target_suburb:
+                # print(0, suburb.name.upper(), target_state)
+                yield suburb.name.upper(), target_state
+                return
 
-    return None, None
+    # 1. find suburbs that have not been processed
+    # TODO: prefer announced suburbs
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            if suburb.processed_date is None:
+                # print(1, suburb.name.upper(), state)
+                yield suburb.name.upper(), state
+
+    # 2. find suburbs for reprocessing, ordered by oldest processed date (they should be unique)
+    # TODO: prefer suburbs with closer announced dates
+    by_date = {}
+    for state, suburb_list in all_suburbs.items():
+        by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
+    for processed_date in sorted(by_date):
+        # print(2, by_date[processed_date], processed_date)
+        yield by_date[processed_date]
 
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
@@ -73,29 +80,6 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
         logging.warning(traceback.format_exc())
 
     return address
-
-
-def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", printEnd="\r"):
-    """
-    Call in a loop to create terminal progress bar.
-    Borrowed from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
-    """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-    filled_length = int(length * iteration // total)
-    bar = fill * filled_length + "-" * (length - filled_length)
-    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
-    # Print New Line on Complete
-    if iteration == total:
-        print()
 
 
 def get_all_addresses(
@@ -140,58 +124,43 @@ def get_all_addresses(
 
 def process_suburb(
     db: AddressDB,
-    target_suburb: str | None,
-    target_state: str | None,
+    state: str,
+    suburb: str,
     max_threads: int = 10,
     progress_bar: bool = False,
 ):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
-    suburb, state = select_suburb(target_suburb, target_state)
-    if suburb is None:
-        logging.error("No more suburbs to process")
-    else:
-        # get addresses from DB
-        logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
-        db_addresses = db.get_addresses(suburb, state)
-        db_addresses.sort(key=lambda k: k.name)
-        logging.info("Fetched %d addresses from database", len(db_addresses))
+    # get addresses from DB
+    logging.info("Fetching all addresses for %s, %s", suburb.title(), state)
+    db_addresses = db.get_addresses(suburb, state)
+    db_addresses.sort(key=lambda k: k.name)
+    logging.info("Fetched %d addresses from database", len(db_addresses))
 
-        # if the output file exists already the use it to cache locid lookup
-        global GNAF_PID_TO_LOC
-        GNAF_PID_TO_LOC = {}
-        if results := geojson.read_geojson_file(suburb, state):
-            file_generated = datetime.fromisoformat(results["generated"])
-            if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
-                logging.info("Loaded %d addresses from output file", len(results["features"]))
-                for feature in results["features"]:
-                    GNAF_PID_TO_LOC[feature["properties"]["gnaf_pid"]] = feature["properties"]["locID"]
+    # if the output file exists already the use it to cache locid lookup
+    global GNAF_PID_TO_LOC
+    if results := geojson.read_geojson_file(suburb, state):
+        file_generated = datetime.fromisoformat(results["generated"])
+        if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
+            logging.info("Loaded %d addresses from output file", len(results["features"]))
+            GNAF_PID_TO_LOC = {
+                feature["properties"]["gnaf_pid"]: feature["properties"]["locID"] for feature in results["features"]
+            }
+    # get NBN data for addresses
+    addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
 
-        # get NBN data for addresses
-        addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
+    # emit some tallies
+    tech_tally = Counter(address.tech for address in addresses)
+    logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
 
-        # emit some tallies
-        tech_tally = Counter(address.tech for address in addresses)
-        logging.info("Completed. Tally of tech types: %s", dict(tech_tally))
+    types = [
+        "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
+        for address in addresses
+    ]
+    loc_tally = Counter(types)
+    logging.info("Location ID types: %s", dict(loc_tally))
 
-        types = [
-            "None" if address.loc_id is None else "LOC" if address.loc_id.startswith("LOC") else "Other"
-            for address in addresses
-        ]
-        loc_tally = Counter(types)
-        logging.info("Location ID types: %s", dict(loc_tally))
-
-        write_geojson_file(suburb, state, addresses)
-        update_suburb_in_all_suburbs(suburb, state)
-
-
-def timer(run_time: int, db: AddressDB, max_threads: int = 10, progress_bar: bool = False):
-    """Process suburbs for a given amount of minutes."""
-    start = time.time()
-    while time.time() - start < run_time * 60:
-        logging.info("Time elapsed: %d minutes", (time.time() - start) // 60)
-        logging.info("Time remaining: %d minutes", run_time - (time.time() - start) // 60)
-        process_suburb(db, None, None, max_threads, progress_bar)
-    logging.info("Total time elapsed: %d minutes", (time.time() - start) // 60)
+    write_geojson_file(suburb, state, addresses)
+    update_suburb_in_all_suburbs(suburb, state)
 
 
 def main():
@@ -217,10 +186,18 @@ def main():
     update_processed_dates()
 
     db = connect_to_db(args)
-    if args.time and args.time >= 5:
-        timer(args.time, db, args.threads, progress_bar=args.progress)
-    else:
-        process_suburb(db, args.suburb, args.state, args.threads, progress_bar=args.progress)
+
+    # if runtime is specified, then run for that duration, otherwise run for just one suburb
+    runtime = timedelta(minutes=args.time) if args.time else timedelta()
+    start_time = datetime.now()
+    for suburb, state in select_suburb(args.suburb, args.state):
+        logging.info("Processing %s, %s", suburb.title(), state)
+        if runtime.total_seconds() > 0:
+            elapsed_seconds = timedelta(seconds=round((datetime.now() - start_time).total_seconds()))
+            logging.info("Time elapsed: %s/%s", elapsed_seconds, runtime)
+        process_suburb(db, state, suburb, args.threads, progress_bar=args.progress)
+        if datetime.now() > (start_time + runtime):
+            break
 
 
 if __name__ == "__main__":

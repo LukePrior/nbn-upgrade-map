@@ -26,13 +26,11 @@ class AddressDB:
 
         # optionally create a DB index
         if create_index:
-            try:
-                logging.info("Creating DB index...")
-                self.cur.execute("CREATE index address_name_state on address_principals (locality_name, state)")
-                conn.commit()
-            except psycopg2.errors.DuplicateTable:
-                logging.info("Skipping index creation as already exists")
-                conn.rollback()
+            logging.info("Creating DB index...")
+            self.cur.execute(
+                "CREATE INDEX IF NOT EXISTS address_name_state ON address_principals (locality_name, state)"
+            )
+            conn.commit()
 
     def get_addresses(self, target_suburb: str, target_state: str) -> data.AddressList:
         """Return a list of Address for the provided suburb+state from the database."""
@@ -44,7 +42,7 @@ class AddressDB:
 
         self.cur.execute(query, (target_suburb, target_state))
 
-        addresses = [
+        return [
             data.Address(
                 name=f"{row.address} {target_suburb} {row.postcode}",
                 gnaf_pid=row.gnaf_pid,
@@ -53,8 +51,6 @@ class AddressDB:
             )
             for row in self.cur.fetchall()
         ]
-
-        return addresses
 
     def get_list_vs_total(self, suburbs_states: dict) -> dict:
         """Calculate which fraction of the entire dataset is represented by the given list of state+suburb."""

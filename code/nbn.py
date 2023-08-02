@@ -54,7 +54,7 @@ class NBNApi:
             if details and None not in details["addressSplitDetails"].values():
                 new_address = " ".join(details["addressSplitDetails"].values())
                 if new_address.lower() != address.lower():
-                    loc_id = self.get_nbn_loc_id("X" + key, new_address)
+                    loc_id = self.get_nbn_loc_id(f"X{key}", new_address)
         return loc_id
 
     def get_nbn_loc_details(self, place_id: str) -> dict:
