@@ -28,6 +28,8 @@ from utils import print_progress_bar
 GNAF_PID_TO_LOC: dict[str, str] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
+REFRESH_ANNOUNCED_DAYS = 30  # number of days between refreshing announced suburbs
+
 
 def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
     """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""
@@ -35,6 +37,7 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
     # 0. If suburb/state are given return that (only)
     all_suburbs = read_all_suburbs()
     if target_suburb is not None and target_state is not None:
+        logging.info("Selecting explicit %s, %s", target_suburb, target_state)
         target_suburb = target_suburb.title()
         target_state = target_state.upper()
         for suburb in all_suburbs[target_state]:
@@ -43,13 +46,15 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
                 return
 
     # 1. find suburbs that have not been processed
+    logging.info("Checking for unprocessed suburbs...")
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
             if suburb.processed_date is None:
                 yield suburb.name.upper(), state
 
-    # 2. find announced suburbs that have not been updated in 30 days
-    cutoff_date = datetime.now() - timedelta(days=30)
+    # 2. find announced suburbs that have not been updated in REFRESH_ANNOUNCED_DAYS days
+    logging.info("Checking for announced suburbs that haven't been updated in %d days...", REFRESH_ANNOUNCED_DAYS)
+    cutoff_date = datetime.now() - timedelta(days=REFRESH_ANNOUNCED_DAYS)
     announced_by_date = {}
     for state, suburb_list in all_suburbs.items():
         for s in suburb_list:
@@ -59,6 +64,7 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
         yield announced_by_date[processed_date]
 
     # 3. find suburbs for reprocessing
+    logging.info("Checking for all suburbs...")
     # TODO: prefer suburbs with closer announced dates
     by_date = {}
     for state, suburb_list in all_suburbs.items():
