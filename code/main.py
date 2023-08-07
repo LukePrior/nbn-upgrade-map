@@ -44,20 +44,34 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
                 return
 
     # 1. find suburbs that have not been processed
-    # TODO: prefer announced suburbs
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
             if suburb.processed_date is None:
                 # print(1, suburb.name.upper(), state)
                 yield suburb.name.upper(), state
 
-    # 2. find suburbs for reprocessing, ordered by oldest processed date (they should be unique)
+    # 2. find announced suburbs that have not been updated in 30 days
+    cutoff_date = datetime.now() - timedelta(days=30)
+    announced_by_date = {}
+    for state, suburb_list in all_suburbs.items():
+        for s in suburb_list:
+            if s.processed_date is not None and s.announced and s.processed_date < cutoff_date:
+                announced_by_date[s.processed_date] = (s.name.upper(), state)
+    for processed_date in sorted(announced_by_date):
+        # print(2, announced_by_date[processed_date], processed_date)
+        yield announced_by_date[processed_date]
+
+    # 3. find suburbs for reprocessing
     # TODO: prefer suburbs with closer announced dates
     by_date = {}
     for state, suburb_list in all_suburbs.items():
-        by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
+        by_date |= {
+            s.processed_date: (s.name.upper(), state)
+            for s in suburb_list
+            if s.processed_date and s.processed_date not in announced_by_date
+        }
     for processed_date in sorted(by_date):
-        # print(2, by_date[processed_date], processed_date)
+        # print(3, by_date[processed_date], processed_date)
         yield by_date[processed_date]
 
 
