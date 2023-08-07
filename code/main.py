@@ -39,7 +39,6 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
         target_state = target_state.upper()
         for suburb in all_suburbs[target_state]:
             if suburb.name == target_suburb:
-                # print(0, suburb.name.upper(), target_state)
                 yield suburb.name.upper(), target_state
                 return
 
@@ -47,7 +46,6 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
             if suburb.processed_date is None:
-                # print(1, suburb.name.upper(), state)
                 yield suburb.name.upper(), state
 
     # 2. find announced suburbs that have not been updated in 30 days
@@ -58,7 +56,6 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
             if s.processed_date is not None and s.announced and s.processed_date < cutoff_date:
                 announced_by_date[s.processed_date] = (s.name.upper(), state)
     for processed_date in sorted(announced_by_date):
-        # print(2, announced_by_date[processed_date], processed_date)
         yield announced_by_date[processed_date]
 
     # 3. find suburbs for reprocessing
@@ -71,7 +68,6 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
             if s.processed_date and s.processed_date not in announced_by_date
         }
     for processed_date in sorted(by_date):
-        # print(3, by_date[processed_date], processed_date)
         yield by_date[processed_date]
 
 
