@@ -1,8 +1,6 @@
-# test select_suburb method
 import main
 import pytest
 import suburbs
-import utils
 
 
 def _dummy_read_json_file_combined_suburbs(filename: str) -> dict:
@@ -44,7 +42,7 @@ def _dummy_read_json_file_combined_suburbs(filename: str) -> dict:
 
 def test_select_unprocessed(monkeypatch):
     """Test main.select_suburb()."""
-    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
 
     selector = main.select_suburb(None, None)
     assert next(selector)[0] == "ACTON"  # unprocessed 1
