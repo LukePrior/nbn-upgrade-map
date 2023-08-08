@@ -55,7 +55,7 @@ def test_select_unprocessed(monkeypatch):
 
 def test_get_suburb_progress(monkeypatch):
     """Test suburbs.get_suburb_progress()."""
-    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     progress = suburbs.get_suburb_progress()
     assert progress["all"]["ACT"] == {"done": 2, "percent": 50.0, "total": 4}
     assert progress["listed"]["ACT"] == {"done": 0, "percent": 0.0, "total": 1}
@@ -63,7 +63,7 @@ def test_get_suburb_progress(monkeypatch):
 
 def test_get_address_progress(monkeypatch):
     """Test suburbs.get_address_progress()."""
-    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     progress = suburbs.get_address_progress()
     assert progress["listed"]["TOTAL"] == {"done": 0, "percent": 0.0, "total": 2372}
     assert progress["all"]["TOTAL"] == {"done": 3670, "percent": 57.8, "total": 6354}
