@@ -3,6 +3,9 @@ import glob
 import logging
 import os
 import re
+from collections import Counter
+
+from tabulate import tabulate
 
 import data
 import db
@@ -167,6 +170,22 @@ def update_all_suburbs_from_db():
         {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
     )
 
+def check_processing_rate():
+    """Emit a table of the number of suburbs processed each day (announced vs other)"""
+    announced_tally = Counter()
+    other_tally = Counter()
+    for state, suburb_list in suburbs.read_all_suburbs().items():
+        for suburb in suburb_list:
+            tally = announced_tally if suburb.announced else other_tally
+            tally[suburb.processed_date.date()] += 1
+
+    data = [
+        (day, announced_tally.get(day), other_tally.get(day))
+        for day in sorted(announced_tally.keys() | other_tally.keys())
+    ]
+    data.append(("TOTAL", sum(announced_tally.values()), sum(other_tally.values())))
+
+    print(tabulate(data, headers=["date", "announced", "other"], tablefmt="github"))
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
@@ -181,7 +200,8 @@ if __name__ == "__main__":
     # get_suburb_extents
     # update_all_suburbs_from_db()
 
-    rebuild_status_file()
+    # rebuild_status_file()
+    check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()
     # blah = read_all_suburbs()
