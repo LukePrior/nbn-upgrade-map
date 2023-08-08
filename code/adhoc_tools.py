@@ -5,8 +5,6 @@ import os
 import re
 from collections import Counter
 
-from tabulate import tabulate
-
 import data
 import db
 import geojson
@@ -14,6 +12,7 @@ import requests
 import suburbs
 import utils
 from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
 
@@ -170,6 +169,7 @@ def update_all_suburbs_from_db():
         {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
     )
 
+
 def check_processing_rate():
     """Emit a table of the number of suburbs processed each day (announced vs other)"""
     announced_tally = Counter()
@@ -186,6 +186,7 @@ def check_processing_rate():
     data.append(("TOTAL", sum(announced_tally.values()), sum(other_tally.values())))
 
     print(tabulate(data, headers=["date", "announced", "other"], tablefmt="github"))
+
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
