@@ -1,5 +1,4 @@
 import pytest
-
 import utils
 
 
@@ -15,9 +14,7 @@ def test_write_json_file():
     assert test_data == read_data
 
 
-@pytest.mark.skip(
-    reason="waiting for https://github.com/LukePrior/nbn-upgrade-map/pull/177"
-)
+@pytest.mark.skip(reason="waiting for https://github.com/LukePrior/nbn-upgrade-map/pull/177")
 def test_minimised_json():
     test_data = {"a": 1, "b": 2, "c": {"d": 3, "e": 4}}
     utils.write_json_file("test.json", test_data, indent=0)

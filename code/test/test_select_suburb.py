@@ -1,7 +1,6 @@
 # test select_suburb method
-import pytest
-
 import main
+import pytest
 import utils
 
 
