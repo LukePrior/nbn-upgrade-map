@@ -1,6 +1,7 @@
 # test select_suburb method
 import main
 import pytest
+import suburbs
 import utils
 
 
@@ -42,12 +43,8 @@ def _dummy_read_json_file_combined_suburbs(filename: str) -> dict:
 
 
 def test_select_unprocessed(monkeypatch):
-    """Test select_suburb method behaves in prescribed manner."""
-    monkeypatch.setattr(
-        utils,
-        "read_json_file",
-        lambda *args, **kwargs: _dummy_read_json_file_combined_suburbs(*args, **kwargs),
-    )
+    """Test main.select_suburb()."""
+    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
 
     selector = main.select_suburb(None, None)
     assert next(selector)[0] == "ACTON"  # unprocessed 1
@@ -56,3 +53,19 @@ def test_select_unprocessed(monkeypatch):
     assert next(selector)[0] == "AINSLIE"  # old unannounced
     with pytest.raises(StopIteration):
         next(selector)
+
+
+def test_get_suburb_progress(monkeypatch):
+    """Test suburbs.get_suburb_progress()."""
+    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
+    progress = suburbs.get_suburb_progress()
+    assert progress["all"]["ACT"] == {"done": 2, "percent": 50.0, "total": 4}
+    assert progress["listed"]["ACT"] == {"done": 0, "percent": 0.0, "total": 1}
+
+
+def test_get_address_progress(monkeypatch):
+    """Test suburbs.get_address_progress()."""
+    monkeypatch.setattr(utils, "read_json_file", _dummy_read_json_file_combined_suburbs)
+    progress = suburbs.get_address_progress()
+    assert progress["listed"]["TOTAL"] == {"done": 0, "percent": 0.0, "total": 2372}
+    assert progress["all"]["TOTAL"] == {"done": 3670, "percent": 57.8, "total": 6354}
