@@ -66,6 +66,8 @@ def get_geojson_file_generated(filename) -> datetime:
             with open(filename, "r", encoding="utf-8") as file:
                 first_bit = file.readline() + file.readline() + file.readline().replace(",", "") + "}"
                 result = json.loads(first_bit)
+                if 'generated' not in result:
+                    result = read_json_file(filename)
         except json.JSONDecodeError:
             # sometimes generated is not at the top of the file, fall back to loading the entire thing
             result = read_json_file(filename)
