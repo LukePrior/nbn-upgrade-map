@@ -1,7 +1,6 @@
 import geojson
 from data import Address
 
-
 WRITTEN_JSON = {}
 
 
