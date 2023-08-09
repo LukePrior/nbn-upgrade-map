@@ -52,12 +52,13 @@ def test_select_unprocessed(monkeypatch):
     with pytest.raises(StopIteration):
         next(selector)
 
+
 def test_suburb_data(monkeypatch):
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     all_suburbs = suburbs.read_all_suburbs()
-    assert all_suburbs['ACT'][0].internal == 'ACTON'
-    assert all_suburbs['ACT'][0].file == 'acton'
-    assert all_suburbs['ACT'][0] != all_suburbs['ACT'][1]
+    assert all_suburbs["ACT"][0].internal == "ACTON"
+    assert all_suburbs["ACT"][0].file == "acton"
+    assert all_suburbs["ACT"][0] != all_suburbs["ACT"][1]
 
 
 def test_get_suburb_progress(monkeypatch):
