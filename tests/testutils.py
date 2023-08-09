@@ -1,8 +1,6 @@
 import json
 import os
 
-import utils
-
 
 def read_file_string(filename: str) -> str:
     with open(filename) as f:
