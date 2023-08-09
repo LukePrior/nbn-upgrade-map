@@ -1,10 +1,7 @@
 import pytest
+
 import utils
-
-
-def _read_file_string(filename: str) -> str:
-    with open(filename) as f:
-        return f.read()
+import testutils
 
 
 def test_write_json_file():
@@ -18,5 +15,5 @@ def test_write_json_file():
 def test_minimised_json():
     test_data = {"a": 1, "b": 2, "c": {"d": 3, "e": 4}}
     utils.write_json_file("test.json", test_data, indent=0)
-    s = _read_file_string("test.json")
+    s = testutils.read_file_string("test.json")
     assert s == '{"a":1,"b":2,"c":{"d":3,"e":4}}'
