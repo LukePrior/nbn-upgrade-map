@@ -1,15 +1,27 @@
+import datetime
+import os
+
 import geojson
+import utils
 from data import Address
 
 WRITTEN_JSON = {}
 
+def test_read_geojson(monkeypatch):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    monkeypatch.setattr("geojson.os.path.exists", lambda path: True)
+    monkeypatch.setattr("geojson.read_json_file", lambda filename: utils.read_json_file(f'{dir_path}/data/sample2.geojson'))
 
-def _dummy_write_json_file(filename: str, data: dict, indent=4):
-    global WRITTEN_JSON
-    WRITTEN_JSON[filename] = data
-
+    stuff = geojson.read_geojson_file("MyTown", "ABC")
+    assert stuff is not None
+    assert stuff['type'] == 'FeatureCollection'
+    assert stuff['suburb'] == 'ACTON'
 
 def test_write_geojson(monkeypatch):
+    def _dummy_write_json_file(filename: str, data: dict, indent=4):
+        global WRITTEN_JSON
+        WRITTEN_JSON[filename] = data
+
     monkeypatch.setattr("geojson.write_json_file", _dummy_write_json_file)
     monkeypatch.setattr("geojson.os.makedirs", lambda name, mode=0o777, exist_ok=False: None)
     addresses = [
@@ -27,3 +39,28 @@ def test_write_geojson(monkeypatch):
     assert info["features"][0]["type"] == "Feature"
     assert info["features"][0]["properties"]["upgrade"] == "XYZ"
     assert info["features"][0]["properties"]["tech"] == "FTTP"
+
+def test_geojson_generated(monkeypatch):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+
+    # check date at top (partial read)
+    generated = geojson.get_geojson_file_generated(f'{dir_path}/data/sample1.geojson')
+    assert generated is not None
+    assert generated.date() == datetime.date(2023,7,7)
+
+    # check date at bottom (full read)
+    generated = geojson.get_geojson_file_generated(f'{dir_path}/data/sample2.geojson')
+    assert generated is not None
+    assert generated.date() == datetime.date(2023,7,7)
+
+    # check date at bottom with incomplete top-few JSON (full read)
+    generated = geojson.get_geojson_file_generated(f'{dir_path}/data/sample3.geojson')
+    assert generated is not None
+    assert generated.date() == datetime.date(2023,7,7)
+
+    # check generated name path
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    monkeypatch.setattr("geojson.get_geojson_filename", lambda suburb, state: f'{dir_path}/data/sample2.geojson')
+    generated = geojson.get_geojson_file_generated_from_name("MyTown", "ABC")
+    assert generated is not None
+
