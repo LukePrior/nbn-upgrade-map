@@ -1,7 +1,6 @@
 import pytest
-
-import utils
 import testutils
+import utils
 
 
 def test_write_json_file():
