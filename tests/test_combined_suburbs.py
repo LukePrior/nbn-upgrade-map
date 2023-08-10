@@ -83,6 +83,8 @@ def test_update_progress(monkeypatch):
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
 
     results = suburbs.update_progress()
+    assert results is not None
+    assert results == SAVED_JSON["results/progress.json"]["suburbs"]
 
     assert len(SAVED_JSON) == 1, "Should only be one file"
     progress = SAVED_JSON["results/progress.json"]

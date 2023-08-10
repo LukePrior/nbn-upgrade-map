@@ -15,7 +15,7 @@ def get_nbn_data_json(self, url) -> dict:
         loc_id = url.split('/')[-1]
         return testutils.read_test_data_json(f'nbn/details.{loc_id}.json')
 
-    raise NotImplemented
+    raise NotImplementedError
 
 
 def test_get_address(monkeypatch):
