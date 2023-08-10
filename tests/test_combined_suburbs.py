@@ -1,6 +1,5 @@
-import pytest
-
 import main
+import pytest
 import suburbs
 import testutils
 
