@@ -4,8 +4,6 @@ import os
 import geojson
 import utils
 from data import Address
-import testutils
-from testutils import reset_captures
 
 
 def test_read_geojson(monkeypatch):
@@ -21,8 +19,13 @@ def test_read_geojson(monkeypatch):
     assert stuff["suburb"] == "ACTON"
 
 
-def test_write_geojson(monkeypatch, reset_captures):
-    monkeypatch.setattr("geojson.write_json_file", testutils.dummy_write_json_file)
+def test_write_geojson(monkeypatch):
+    SAVED_JSON = {}
+
+    def dummy_write_json_file(filename: str, data: dict, indent=4):
+        SAVED_JSON[filename] = data
+
+    monkeypatch.setattr("geojson.write_json_file", dummy_write_json_file)
     monkeypatch.setattr("geojson.os.makedirs", lambda name, mode=0o777, exist_ok=False: None)
     addresses = [
         Address(name="1 Fake St", gnaf_pid="GNAF123", longitude=123.456, latitude=-12.345, upgrade="XYZ", tech="FTTP"),
@@ -32,7 +35,7 @@ def test_write_geojson(monkeypatch, reset_captures):
     ]
     geojson.write_geojson_file("MyTown", "ABC", addresses)
 
-    info = testutils.WRITTEN_JSON["results/ABC/mytown.geojson"]
+    info = SAVED_JSON["results/ABC/mytown.geojson"]
     assert info["type"] == "FeatureCollection"
     assert info["suburb"] == "MyTown"
     assert len(info["features"]) == 2, "addresses with no tech or upgrade should not be included"

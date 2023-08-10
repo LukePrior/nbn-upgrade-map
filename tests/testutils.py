@@ -1,22 +1,6 @@
 import json
 import os
 
-import pytest
-
-WRITTEN_JSON = {}
-
-
-@pytest.fixture
-def reset_captures():
-    """Reset the buckets where load/save is stored"""
-    global WRITTEN_JSON
-    WRITTEN_JSON = {}
-
-
-def dummy_write_json_file(filename: str, data: dict, indent=4):
-    """Dummy function to replace utils.write_json_file() for testing."""
-    WRITTEN_JSON[filename] = data
-
 
 def read_file_string(filename: str) -> str:
     """Read the contents of a file as a string"""
