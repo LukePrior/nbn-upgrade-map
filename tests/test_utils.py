@@ -16,3 +16,13 @@ def test_minimised_json():
     utils.write_json_file("test.json", test_data, indent=0)
     s = testutils.read_file_string("test.json")
     assert s == '{"a":1,"b":2,"c":{"d":3,"e":4}}'
+
+def test_progress_bar(capsys):
+    utils.print_progress_bar(0, 100, prefix="Progress:", suffix="Complete", length=50)
+    utils.print_progress_bar(25, 100, prefix="Progress:", suffix="Complete", length=50)
+    utils.print_progress_bar(100, 100, prefix="Progress:", suffix="Complete", length=50)
+
+    captured = capsys.readouterr()
+    assert captured.out.count('Progress:') == 3
+    assert '0.0%' in captured.out
+    assert '100.0%' in captured.out

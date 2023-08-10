@@ -3,6 +3,7 @@ import os
 
 
 def read_file_string(filename: str) -> str:
+    """Read the contents of a file as a string"""
     with open(filename) as f:
         return f.read()
 
