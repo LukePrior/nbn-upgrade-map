@@ -18,6 +18,8 @@ def test_select_suburb(monkeypatch):
     # test explicit suburb
     selector = main.select_suburb("Acton", "ACT")
     assert next(selector)[0] == "ACTON"  # unprocessed 1
+    with pytest.raises(StopIteration):
+        next(selector)
 
     # test select order
     selector = main.select_suburb(None, None)
