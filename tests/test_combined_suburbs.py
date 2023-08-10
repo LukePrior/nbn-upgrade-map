@@ -1,3 +1,5 @@
+import os
+
 import main
 import pytest
 import suburbs
@@ -6,8 +8,9 @@ import testutils
 
 def _dummy_read_json_file_combined_suburbs(filename: str) -> dict:
     """Fake combined-suburbs.json file."""
-    assert filename == "results/combined-suburbs.json"
-    return testutils.read_test_data_json("combined-suburbs.json")
+    if filename == "results/combined-suburbs.json":
+        return testutils.read_test_data_json("combined-suburbs.json")
+    raise NotImplementedError
 
 
 def test_select_suburb(monkeypatch):
@@ -101,5 +104,22 @@ def test_update_progress(monkeypatch):
     assert progress["addresses"]["listed"]["TOTAL"]["total"] == 3446
     assert progress["addresses"]["listed"]["TOTAL"]["percent"] == 31.2
 
+def test_update_processed_dates(monkeypatch):
+    SAVED_JSON = {}
 
-# TODO: test_update_processed_dates() - need to patch glob.glob, get-generated, and read_all_suburbs + write_all_suburbs
+    def _dummy_glob(pathname, *, root_dir=None, dir_fd=None, recursive=False):
+        if pathname == "results/ACT/*.geojson":
+            dir_path = os.path.dirname(os.path.realpath(__file__))
+            return [f"{dir_path}/data/acton.geojson"] # acton, 2023-07-07T03:54:25.154530
+        return []
+
+    def dummy_write_json_file(filename: str, data: dict, indent=4):
+        SAVED_JSON[filename] = data
+
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("suburbs.glob.glob", _dummy_glob)
+    monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
+
+    suburbs.update_processed_dates()
+    assert len(SAVED_JSON) == 1, "Should only be one file"
+    assert SAVED_JSON['results/combined-suburbs.json']['ACT'][0]['processed_date'] == "2023-07-07T03:54:25.154530"
