@@ -45,7 +45,7 @@ def update_processed_dates():
     all_suburbs = read_all_suburbs()
     changed = False
     for state in data.STATES:
-        file_suburb_map = {suburb.file: suburb for suburb in all_suburbs[state]}
+        file_suburb_map = {suburb.file: suburb for suburb in all_suburbs.get(state, [])}
         for file in glob.glob(f"results/{state}/*.geojson"):
             this_file = os.path.splitext(os.path.basename(file))[0]
             this_suburb = file_suburb_map.get(this_file)
