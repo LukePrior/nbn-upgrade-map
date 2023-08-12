@@ -3,7 +3,7 @@ import copy
 import main
 import testutils
 from data import Address
-from nbn import NBNApi
+from nbn import NBNApi, CACHE
 
 
 def get_nbn_data_json(self, url) -> dict:
@@ -20,6 +20,8 @@ def get_nbn_data_json(self, url) -> dict:
 
 def test_get_address(monkeypatch):
     monkeypatch.setattr("nbn.NBNApi.get_nbn_data_json", get_nbn_data_json)
+
+    CACHE.clear()
 
     nbn = NBNApi()
     address = Address(
