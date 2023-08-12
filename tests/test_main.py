@@ -3,7 +3,7 @@ import copy
 import main
 import testutils
 from data import Address
-from nbn import NBNApi, CACHE
+from nbn import CACHE, NBNApi
 
 
 def get_nbn_data_json(self, url) -> dict:
