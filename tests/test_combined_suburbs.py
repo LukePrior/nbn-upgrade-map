@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 import main
 import pytest
@@ -124,3 +125,35 @@ def test_update_processed_dates(monkeypatch):
     suburbs.update_processed_dates()
     assert len(SAVED_JSON) == 1, "Should only be one file"
     assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]["processed_date"] == "2023-07-07T03:54:25.154530"
+
+
+def test_update_suburb_in_all_suburbs(monkeypatch):
+    SAVED_JSON = {}
+
+    def dummy_write_json_file(filename: str, data: dict, indent=4):
+        SAVED_JSON[filename] = data
+
+    def dummy_get_geojson_file_generated(filename) -> datetime:
+        assert filename == "results/ACT/acton.geojson"
+        return datetime(2023, 7, 7, 3, 54, 25, 154530)
+
+    def dummy_get_geojson_file_generated_none(filename) -> datetime:
+        assert filename == "results/ACT/acton.geojson"
+        return None  # simulate no file
+
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
+    monkeypatch.setattr("geojson.get_geojson_file_generated", dummy_get_geojson_file_generated)
+
+    suburbs.update_suburb_in_all_suburbs("ACTON", "ACT")
+    assert len(SAVED_JSON) == 2, "progress and combined-suburbs should be written"
+    acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
+    assert acton_suburb["name"] == "Acton"
+    assert acton_suburb["processed_date"] == "2023-07-07T03:54:25.154530"
+
+    monkeypatch.setattr("geojson.get_geojson_file_generated", dummy_get_geojson_file_generated_none)
+    suburbs.update_suburb_in_all_suburbs("ACTON", "ACT")
+    assert len(SAVED_JSON) == 2, "progress and combined-suburbs should be written"
+    acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
+    assert acton_suburb["name"] == "Acton"
+    assert datetime.fromisoformat(acton_suburb["processed_date"]).date() == datetime.now().date()
