@@ -10,7 +10,14 @@ if [ $? -eq 0 ]; then
     # already exists - do nothing
     echo "$IMG_NAME:$LAST_TAG already exists, skipping..."
 else
-    # doesn't exist - build and push
+    # image doesn't exist - download DB dump, build and push
+    DUMP_FILE="gnaf-${LAST_TAG}.dmp"
+    if [ -f "$DUMP_FILE" ]; then
+        echo "$DUMP_FILE already exists, skipping download..."
+    else
+        echo "Downloading $DUMP_FILE..."
+        curl --insecure "https://minus34.com/opendata/geoscape-${LAST_TAG}/${DUMP_FILE}" --output "./${DUMP_FILE}"
+    fi
     echo "Building $IMG_NAME:$LAST_TAG..."
     docker build . --build-arg GNAF_LOADER_TAG=$LAST_TAG -t $IMG_NAME:$LAST_TAG -t $IMG_NAME:latest --progress=plain
     docker push $IMG_NAME:$LAST_TAG
