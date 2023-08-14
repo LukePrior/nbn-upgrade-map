@@ -4,11 +4,14 @@ import logging
 import os
 import re
 from collections import Counter
+from datetime import datetime
 
 import data
 import db
 import geojson
 import requests
+
+import main
 import suburbs
 import utils
 from bs4 import BeautifulSoup
@@ -188,6 +191,32 @@ def check_processing_rate():
     print(tabulate(data, headers=["date", "announced", "other"], tablefmt="github"))
 
 
+def remove_duplicate_addresses():
+    """Read all suburbs, and remove duplicate addresses from each suburb."""
+    all_suburbs = suburbs.read_all_suburbs()
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            info = geojson.read_geojson_file(suburb.name, state)
+            addresses = [
+                data.Address(
+                    name=f["properties"]["name"],
+                    gnaf_pid=f["properties"]["gnaf_pid"],
+                    longitude=f["geometry"]["coordinates"][0],
+                    latitude=f["geometry"]["coordinates"][1],
+                    loc_id=f["properties"]["locID"],
+                    tech=f["properties"]["tech"],
+                    upgrade=f["properties"]["upgrade"],
+                )
+                for f in info["features"]
+            ]
+            new_addresses = main.remove_duplicate_addresses(addresses)
+            if len(addresses) != len(new_addresses):
+                generated = datetime.fromisoformat(info["generated"])
+                geojson.write_geojson_file(suburb.name.upper(), state, new_addresses, generated)
+
+    # No need to update progress, combined-suburbs: they are based on DB counts
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
@@ -202,11 +231,13 @@ if __name__ == "__main__":
     # update_all_suburbs_from_db()
 
     # rebuild_status_file()
-    check_processing_rate()
+    # check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
+
+    remove_duplicate_addresses()
 
     # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
 
