@@ -41,6 +41,7 @@ def test_get_address(monkeypatch):
     assert out_address.tech == "FTTN"
     assert out_address.upgrade == "FTTP_SA"
 
+
 def test_remove_duplicate_addresses():
     addresses = [
         Address(name=f"{n} Fake St", gnaf_pid=f"GNAF00{n}", longitude=123.456, latitude=-12.345, loc_id=str(n))
