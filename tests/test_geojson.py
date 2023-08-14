@@ -18,6 +18,19 @@ def test_read_geojson(monkeypatch):
     assert stuff["type"] == "FeatureCollection"
     assert stuff["suburb"] == "ACTON"
 
+    addresses = geojson.read_geojson_file_addresses("MyTown", "ABC")
+    assert addresses is not None
+    assert len(addresses) == 3
+    assert addresses[0] == Address(
+        name="21 MCCOY CIRCUIT ACTON 2601",
+        gnaf_pid="GAACT714876373",
+        longitude=149.12072415,
+        latitude=-35.28414781,
+        loc_id="ChIJBXWXMEdNFmsRoN6pR5X8gC4",
+        tech="FTTP",
+        upgrade="UNKNOWN",
+    )
+
 
 def test_write_geojson(monkeypatch):
     SAVED_JSON = {}
