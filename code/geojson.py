@@ -3,11 +3,11 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList, Address
+from data import Address, AddressList
 from utils import read_json_file, write_json_file
 
 
-def format_addresses(addresses: AddressList, suburb: str, generated:datetime = None) -> dict:
+def format_addresses(addresses: AddressList, suburb: str, generated: datetime = None) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
     features = [
         {
@@ -40,12 +40,14 @@ def get_geojson_filename(suburb: str, state: str) -> str:
     return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
-def write_geojson_file(suburb: str, state: str, addresses: AddressList, generated:datetime = None):
+def write_geojson_file(suburb: str, state: str, addresses: AddressList, generated: datetime = None):
     """Write the GeoJSON FeatureCollection to a file."""
     filename = get_geojson_filename(suburb, state)
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     logging.info("Writing results to %s", filename)
-    write_json_file(filename, format_addresses(addresses, suburb, generated), indent=1)  # indent=1 is to minimise size increase
+    write_json_file(
+        filename, format_addresses(addresses, suburb, generated), indent=1
+    )  # indent=1 is to minimise size increase
 
 
 def read_geojson_file(suburb: str, state: str) -> dict:
@@ -53,6 +55,7 @@ def read_geojson_file(suburb: str, state: str) -> dict:
     filename = get_geojson_filename(suburb, state)
     if os.path.exists(filename):
         return read_json_file(filename)
+
 
 def read_geojson_file_addresses(suburb: str, state: str) -> AddressList:
     """Read the Addresses from a GeoJSON FeatureCollection"""
@@ -68,6 +71,7 @@ def read_geojson_file_addresses(suburb: str, state: str) -> AddressList:
         )
         for f in read_geojson_file(suburb, state)["features"]
     ]
+
 
 def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
     """Given a suburb and state, get the generated date from the GeoJSON file (faster than reading whole file)."""

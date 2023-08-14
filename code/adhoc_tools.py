@@ -9,9 +9,8 @@ from datetime import datetime
 import data
 import db
 import geojson
-import requests
-
 import main
+import requests
 import suburbs
 import utils
 from bs4 import BeautifulSoup
