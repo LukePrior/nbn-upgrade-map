@@ -8,7 +8,11 @@ from datetime import datetime
 
 import data
 import utils
-from geojson import get_geojson_file_generated, get_geojson_file_generated_from_name, read_geojson_file
+from geojson import (
+    get_geojson_file_generated,
+    get_geojson_file_generated_from_name,
+    read_geojson_file,
+)
 
 
 def write_all_suburbs(all_suburbs: data.SuburbsByState):
@@ -147,7 +151,11 @@ def get_technology_breakdown() -> dict:
     """Calculate a state-by-state breakdown of technology used."""
     breakdown = {}
     for state, suburb_list in read_all_suburbs().items():
-        tally = Counter(address["properties"]["tech"] for suburb in suburb_list for address in read_geojson_file(suburb.name, state)["features"])
+        tally = Counter(
+            address["properties"]["tech"]
+            for suburb in suburb_list
+            for address in read_geojson_file(suburb.name, state)["features"]
+        )
         breakdown[state] = {
             "FTTN": tally.get("FTTN", 0),
             "FTTP": tally.get("FTTP", 0),
@@ -156,18 +164,26 @@ def get_technology_breakdown() -> dict:
             "HFC": tally.get("HFC", 0),
             "WIRELESS": tally.get("WIRELESS", 0),
             "SATELLITE": tally.get("SATELLITE", 0),
-            "total": tally.total()
+            "total": tally.total(),
         }
-    breakdown["TOTAL"] = {key: sum(breakdown[state][key] for state in breakdown) for key in breakdown[next(iter(breakdown))]}
+    breakdown["TOTAL"] = {
+        key: sum(breakdown[state][key] for state in breakdown) for key in breakdown[next(iter(breakdown))]
+    }
     return breakdown
+
 
 def get_last_updated_breakdown() -> dict:
     """Calculate a state-by-state breakdown of last updated date."""
     progress = {"listed": {}, "all": {}}
     current_date = datetime.now()
     for state, suburb_list in read_all_suburbs().items():
-        oldest_all = min((suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None), default=None)
-        oldest_listed = min((suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None and suburb.announced), default=None)
+        oldest_all = min(
+            (suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None), default=None
+        )
+        oldest_listed = min(
+            (suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None and suburb.announced),
+            default=None,
+        )
         progress["listed"][state] = {
             "date": oldest_listed.strftime("%Y-%m-%d") if oldest_listed else None,
             "days": (current_date - oldest_listed).days if oldest_listed else None,
@@ -177,12 +193,32 @@ def get_last_updated_breakdown() -> dict:
             "days": (current_date - oldest_all).days if oldest_all else None,
         }
     progress["listed"]["TOTAL"] = {
-        "date": min((progress["listed"][state]["date"] for state in progress["listed"] if progress["listed"][state]["date"] is not None), default=None),
-        "days": max((progress["listed"][state]["days"] for state in progress["listed"] if progress["listed"][state]["days"] is not None), default=None),
+        "date": min(
+            (
+                progress["listed"][state]["date"]
+                for state in progress["listed"]
+                if progress["listed"][state]["date"] is not None
+            ),
+            default=None,
+        ),
+        "days": max(
+            (
+                progress["listed"][state]["days"]
+                for state in progress["listed"]
+                if progress["listed"][state]["days"] is not None
+            ),
+            default=None,
+        ),
     }
     progress["all"]["TOTAL"] = {
-        "date": min((progress["all"][state]["date"] for state in progress["all"] if progress["all"][state]["date"] is not None), default=None),
-        "days": max((progress["all"][state]["days"] for state in progress["all"] if progress["all"][state]["days"] is not None), default=None),
+        "date": min(
+            (progress["all"][state]["date"] for state in progress["all"] if progress["all"][state]["date"] is not None),
+            default=None,
+        ),
+        "days": max(
+            (progress["all"][state]["days"] for state in progress["all"] if progress["all"][state]["days"] is not None),
+            default=None,
+        ),
     }
     return progress
 
