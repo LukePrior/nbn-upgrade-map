@@ -7,7 +7,7 @@ from data import AddressList, Address
 from utils import read_json_file, write_json_file
 
 
-def format_addresses(addresses: AddressList, suburb: str) -> dict:
+def format_addresses(addresses: AddressList, suburb: str, generated:datetime = None) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
     features = [
         {
@@ -25,9 +25,11 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
         if address.upgrade and address.tech
     ]
 
+    if generated is None:
+        generated = datetime.now()
     return {
         "type": "FeatureCollection",
-        "generated": datetime.now().isoformat(),
+        "generated": generated.isoformat(),
         "suburb": suburb,
         "features": sorted(features, key=lambda x: x["properties"]["gnaf_pid"]),
     }
@@ -38,12 +40,12 @@ def get_geojson_filename(suburb: str, state: str) -> str:
     return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
-def write_geojson_file(suburb: str, state: str, addresses: AddressList):
+def write_geojson_file(suburb: str, state: str, addresses: AddressList, generated:datetime = None):
     """Write the GeoJSON FeatureCollection to a file."""
     filename = get_geojson_filename(suburb, state)
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     logging.info("Writing results to %s", filename)
-    write_json_file(filename, format_addresses(addresses, suburb), indent=1)  # indent=1 is to minimise size increase
+    write_json_file(filename, format_addresses(addresses, suburb, generated), indent=1)  # indent=1 is to minimise size increase
 
 
 def read_geojson_file(suburb: str, state: str) -> dict:

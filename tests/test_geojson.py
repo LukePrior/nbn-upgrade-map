@@ -46,11 +46,13 @@ def test_write_geojson(monkeypatch):
         Address(name="3 Fake St", gnaf_pid="GNAF789", longitude=123.456, latitude=-12.345, upgrade="ABC"),
         Address(name="4 Fake St", gnaf_pid="GNAF007", longitude=123.456, latitude=-12.345, tech="ABC"),
     ]
-    geojson.write_geojson_file("MyTown", "ABC", addresses)
+    generated = datetime.datetime.now() - datetime.timedelta(days=1)
+    geojson.write_geojson_file("MyTown", "ABC", addresses, generated)
 
     info = SAVED_JSON["results/ABC/mytown.geojson"]
     assert info["type"] == "FeatureCollection"
     assert info["suburb"] == "MyTown"
+    assert info["generated"] == generated.isoformat()
     assert len(info["features"]) == 2, "addresses with no tech or upgrade should not be included"
     assert info["features"][0]["type"] == "Feature"
     assert info["features"][0]["properties"]["upgrade"] == "XYZ"
