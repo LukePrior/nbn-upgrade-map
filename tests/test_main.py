@@ -40,3 +40,14 @@ def test_get_address(monkeypatch):
     assert out_address.loc_id == "LOC000126303452"
     assert out_address.tech == "FTTN"
     assert out_address.upgrade == "FTTP_SA"
+
+def test_remove_duplicate_addresses():
+    addresses = [
+        Address(name=f"{n} Fake St", gnaf_pid=f"GNAF00{n}", longitude=123.456, latitude=-12.345, loc_id=str(n))
+        for n in range(5)
+    ]
+    addresses.append(copy.copy(addresses[0]))
+    new_addresses = main.remove_duplicate_addresses(addresses)
+    assert len(addresses) == 6
+    assert len(new_addresses) == 5
+    assert [a.loc_id for a in new_addresses] == [str(n) for n in range(5)]

@@ -138,6 +138,20 @@ def get_all_addresses(
     return addresses
 
 
+def remove_duplicate_addresses(addresses: AddressList) -> AddressList:
+    """remove duplicates (same address + same locID: ignore gnaf_pid)"""
+    unique_addresses = set()
+    output = []
+    for address in addresses:
+        key = (address.name, address.loc_id)
+        if key in unique_addresses:
+            logging.warning("Remove duplicate address: %s", address.name)
+        else:
+            unique_addresses.add(key)
+            output.append(address)
+    return output
+
+
 def process_suburb(
     db: AddressDB,
     state: str,
@@ -163,6 +177,7 @@ def process_suburb(
             }
     # get NBN data for addresses
     addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
+    addresses = remove_duplicate_addresses(addresses)
 
     # emit some tallies
     tech_tally = Counter(address.tech for address in addresses)
