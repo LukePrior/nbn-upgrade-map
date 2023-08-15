@@ -201,13 +201,14 @@ def remove_duplicate_addresses():
 
     # No need to update progress, combined-suburbs: they are based on DB counts
 
+
 def fix_gnaf_pid_mismatch():
     xdb = db.connect_to_db(args)
 
     all_suburbs = suburbs.read_all_suburbs()
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
-            logging.info('Processing %s, %s', suburb.name, state)
+            logging.info("Processing %s, %s", suburb.name, state)
             db_addresses = xdb.get_addresses(suburb.name.upper(), state)
             db_lookup = {a.name: a.gnaf_pid for a in db_addresses}
 
@@ -223,9 +224,8 @@ def fix_gnaf_pid_mismatch():
 
             if changed:
                 logging.info("Writing %s, %s - updated %d addresses", suburb.name, state, changed)
-                geojson.write_geojson_file(
-                    suburb.name.upper(), state, file_addresses, generated
-                )
+                geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
+
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
