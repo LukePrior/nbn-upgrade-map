@@ -195,26 +195,38 @@ def remove_duplicate_addresses():
     all_suburbs = suburbs.read_all_suburbs()
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
-            info = geojson.read_geojson_file(suburb.name, state)
-            addresses = [
-                data.Address(
-                    name=f["properties"]["name"],
-                    gnaf_pid=f["properties"]["gnaf_pid"],
-                    longitude=f["geometry"]["coordinates"][0],
-                    latitude=f["geometry"]["coordinates"][1],
-                    loc_id=f["properties"]["locID"],
-                    tech=f["properties"]["tech"],
-                    upgrade=f["properties"]["upgrade"],
-                )
-                for f in info["features"]
-            ]
+            addresses, generated = geojson.read_geojson_file_addresses(suburb.name, state)
             new_addresses = main.remove_duplicate_addresses(addresses)
             if len(addresses) != len(new_addresses):
-                generated = datetime.fromisoformat(info["generated"])
                 geojson.write_geojson_file(suburb.name.upper(), state, new_addresses, generated)
 
     # No need to update progress, combined-suburbs: they are based on DB counts
 
+def fix_gnaf_pid_mismatch():
+    xdb = db.connect_to_db(args)
+
+    all_suburbs = suburbs.read_all_suburbs()
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            logging.info('Processing %s, %s', suburb.name, state)
+            db_addresses = xdb.get_addresses(suburb.name.upper(), state)
+            db_lookup = {a.name: a.gnaf_pid for a in db_addresses}
+
+            file_addresses, generated = geojson.read_geojson_file_addresses(suburb.name, state)
+
+            changed = 0
+            for a in file_addresses:
+                db_gnaf_pid = db_lookup.get(a.name)
+                if db_gnaf_pid and db_gnaf_pid != a.gnaf_pid:
+                    # logging.info('Mismatch: %s db=%s file=%s', a.name, a.gnaf_pid, db_gnaf_pid)
+                    a.gnaf_pid = db_gnaf_pid
+                    changed += 1
+
+            if changed:
+                logging.info("Writing %s, %s - updated %d addresses", suburb.name, state, changed)
+                geojson.write_geojson_file(
+                    suburb.name.upper(), state, file_addresses, generated
+                )
 
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
@@ -236,7 +248,8 @@ if __name__ == "__main__":
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
-    remove_duplicate_addresses()
+    # remove_duplicate_addresses()
+    fix_gnaf_pid_mismatch()
 
     # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
 
