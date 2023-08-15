@@ -18,7 +18,8 @@ def test_read_geojson(monkeypatch):
     assert stuff["type"] == "FeatureCollection"
     assert stuff["suburb"] == "ACTON"
 
-    addresses = geojson.read_geojson_file_addresses("MyTown", "ABC")
+    addresses, generated = geojson.read_geojson_file_addresses("MyTown", "ABC")
+    assert generated == datetime.datetime.fromisoformat("2023-07-07T03:54:25.154530")
     assert addresses is not None
     assert len(addresses) == 3
     assert addresses[0] == Address(
