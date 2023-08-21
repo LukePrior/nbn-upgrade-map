@@ -2,6 +2,7 @@ import argparse
 import glob
 import logging
 import os
+import pprint
 import re
 from collections import Counter
 
@@ -226,6 +227,22 @@ def fix_gnaf_pid_mismatch():
             if changed:
                 logging.info("Writing %s, %s - updated %d addresses", suburb.name, state, changed)
                 geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
+
+
+def get_tech_and_upgrade_breakdown():
+    """Print some stats about the tech and upgrade breakdown of all addresses."""
+    all_tech = Counter()
+    all_upgrade = Counter()
+    for state, suburb_list in suburbs.read_all_suburbs().items():
+        for suburb in suburb_list:
+            logging.info("Processing %s, %s", suburb.name, state)
+            addresses, generated = geojson.read_geojson_file_addresses(suburb.name, state)
+            all_tech.update(a.tech for a in addresses)
+            all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
+    print("All tech breakdown:", sum(all_tech.values()))
+    pprint.pprint(all_tech)
+    print("All upgrade breakdown (excluding tech=FTTP):", sum(all_upgrade.values()))
+    pprint.pprint(all_upgrade)
 
 
 if __name__ == "__main__":
