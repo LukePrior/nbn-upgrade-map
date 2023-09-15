@@ -10,7 +10,7 @@ docker build . -f extra/docker/Dockerfile -t nbn-upgrade-map:latest
 
 ## Run
 
-Create a shared network, start the DB image, then start the default processing run. Execute from the top level directory of the project: 
+Create a shared network, start the DB image, then start the default processing run. Execute from the top level directory of the project:
 
 ```shell
 # create a network for the containers to communicate over
