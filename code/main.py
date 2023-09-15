@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Main script for fetching NBN data for a suburb from the NBN API and writing to a GeoJSON file."""
 
 import argparse
