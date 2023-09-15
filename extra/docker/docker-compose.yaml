@@ -1,0 +1,15 @@
+services:
+  db:
+    image: lukeprior/nbn-upgrade-map-db:latest
+  app:
+    image: lukeprior/nbn-upgrade-map:latest
+    depends_on:
+      - db
+    network_mode: "service:db"
+    volumes:
+        - type: bind
+          source: ../../results
+          target: /app/results
+    command: ./main.py -H db -P 5432
+    profiles:
+      - test
