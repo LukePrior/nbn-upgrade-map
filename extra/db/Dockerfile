@@ -1,5 +1,5 @@
 # STAGE 1: import the DB dump files then export a cutdown CSV file
-FROM postgis/postgis:15-3.4-alpine
+FROM postgis/postgis:16-3.4-alpine
 ENV POSTGRES_HOST_AUTH_METHOD=trust
 
 RUN mkdir -p /data
