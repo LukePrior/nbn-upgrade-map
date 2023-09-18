@@ -7,6 +7,7 @@ from collections import Counter
 from datetime import datetime
 
 import data
+import geojson
 import utils
 from geojson import (
     get_geojson_file_generated,
@@ -57,9 +58,17 @@ def update_processed_dates():
             generated = get_geojson_file_generated(file)
 
             if this_suburb is None:
-                logging.warning("   Skipping %s/%s - no suburb found", state, this_file)
-                continue
-            if this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
+                # missing from the combined file: add it
+                this_geojson = utils.read_json_file(file)
+                this_suburb = data.Suburb(
+                    name=this_geojson["suburb"].title(),
+                    processed_date=datetime.fromisoformat(this_geojson["generated"]),
+                    address_count=len(this_geojson["features"]),
+                )
+                logging.warning("   Adding suburb from file: %s, %s", this_suburb.name, state)
+                all_suburbs[state].append(this_suburb)
+                changed = True
+            elif (this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0):
                 logging.info("   Updating %s/%s processed date %s", state, this_suburb.name, generated)
                 this_suburb.processed_date = generated
                 changed = True
