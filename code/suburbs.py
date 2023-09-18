@@ -36,6 +36,7 @@ def read_all_suburbs() -> data.SuburbsByState:
 
     def _dict_to_suburb(d: dict) -> data.Suburb:
         d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
+        d.pop("announced", None)
         return data.Suburb(**d)
 
     results = utils.read_json_file("results/combined-suburbs.json")

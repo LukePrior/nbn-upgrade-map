@@ -84,15 +84,10 @@ def rebuild_status_file():
     for state, suburb_list in db_suburbs.items():
         all_suburbs[state] = []
         for suburb in suburb_list:
-            announced = False
-            announced_date = suburb_dates[state].get(suburb, None)
-            if announced_date:
-                announced = True  # implicit announcement - if we have a date, then it's announced
             processed_date = geojson.get_geojson_file_generated_from_name(suburb, state)
             xsuburb = data.Suburb(
                 name=suburb,
-                announced=announced,
-                announced_date=announced_date,
+                announced_date=suburb_dates[state].get(suburb, None),
                 processed_date=processed_date,
             )
             all_suburbs[state].append(xsuburb)

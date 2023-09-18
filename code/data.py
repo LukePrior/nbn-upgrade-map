@@ -38,7 +38,6 @@ class Suburb:
 
     name: str
     processed_date: datetime = None
-    announced: bool = False  # should be redundant vs announced_date, but isn't
     announced_date: str = None  # TODO: datetime?
     address_count: int = 0
 
@@ -51,6 +50,11 @@ class Suburb:
     def file(self):
         """Return the "file" representation of the suburb name, e.g. "Brisbane City" -> "brisbane-city"."""
         return self.name.lower().replace(" ", "-")
+
+    @property
+    def announced(self):
+        """Return True if the suburb has been announced."""
+        return self.announced_date is not None
 
     def __eq__(self, other):
         return self.name == other.name
