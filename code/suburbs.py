@@ -67,7 +67,7 @@ def update_processed_dates():
                 logging.warning("   Adding suburb from file: %s, %s", this_suburb.name, state)
                 all_suburbs[state].append(this_suburb)
                 changed = True
-            elif (this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0):
+            elif this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
                 logging.info("   Updating %s/%s processed date %s", state, this_suburb.name, generated)
                 this_suburb.processed_date = generated
                 changed = True
