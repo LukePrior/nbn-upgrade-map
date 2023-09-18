@@ -16,9 +16,8 @@ import utils
 from bs4 import BeautifulSoup
 from tabulate import tabulate
 
-NBN_UPGRADE_DATES_URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
 
-NBN_SUBURB_LIST_URL = (
+NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
     "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
 )
@@ -32,7 +31,7 @@ def get_nbn_suburb_dates():
     results = {}
 
     soup = BeautifulSoup(content, "html.parser")
-    for state_element in soup.find(id="accordion-c467de9e93").find_all("div", class_="cmp-accordion__item"):
+    for state_element in soup.find_all("div", class_="cmp-accordion__item"):
         state = state_element.find("span", class_="cmp-accordion__title").text
         results[state] = {}
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
@@ -41,36 +40,6 @@ def get_nbn_suburb_dates():
 
     # Convert to consistent state/suburb format
     return {state: {s.title(): d for s, d in suburb_list.items()} for state, suburb_list in results.items()}
-
-
-def get_nbn_suburb_list():
-    """Parse a NBN web page to get a list of all suburbs announced for upgrades."""
-    logging.info("Fetching list of suburb dates from NBN website...")
-    content = requests.get(NBN_SUBURB_LIST_URL).content
-
-    results = {}
-
-    soup = BeautifulSoup(content, "html.parser")
-    for state_element in soup.find_all("div", class_="cmp-accordion__item"):
-        state = state_element.find("span", class_="cmp-accordion__title").text
-        results[state] = []
-        for p in state_element.find("div", class_="cmp-text").find_all("p"):
-            if p.text.startswith("Announced "):
-                continue
-            # remove extra text, and sanitise suburb names
-            suburbs_list = [
-                re.sub(
-                    r"( \(ADDITIONAL FOOTPRINT\)|ADDITIONAL AREAS OF | \(4350\))",
-                    "",
-                    suburb.strip("*#.\xa0\r\n").replace("’", "'"),
-                    flags=re.IGNORECASE,
-                )
-                for suburb in re.split(r", ?", p.text)
-            ]
-            results[state].extend(suburbs_list)
-
-    # Convert to consistent state/suburb format
-    return {data.STATES_MAP[state]: [s.title() for s in suburbs_list] for state, suburbs_list in results.items()}
 
 
 def get_db_suburb_list():
@@ -100,9 +69,6 @@ def rebuild_status_file():
     db_suburbs = get_db_suburb_list()
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
 
-    # Load list of all announced suburbs from NBN website
-    announced_suburbs = get_nbn_suburb_list()
-
     # Load list of all suburb dates from NBN website
     suburb_dates = get_nbn_suburb_dates()
     utils.write_json_file("results/suburb-dates.json", suburb_dates)
@@ -110,20 +76,17 @@ def rebuild_status_file():
     # TODO: Townsville not in DB. Why?  Two similar names included
 
     # add OT
-    if "OT" not in announced_suburbs:
-        announced_suburbs["OT"] = []
     if "OT" not in suburb_dates:
         suburb_dates["OT"] = {}
 
     # convert to sets for faster operation
-    announced_suburbs = {state: set(suburb_list) for state, suburb_list in announced_suburbs.items()}
     db_suburbs = {state: set(suburb_list) for state, suburb_list in db_suburbs.items()}
 
     all_suburbs = {}  # state -> List[Suburb]
     for state, suburb_list in db_suburbs.items():
         all_suburbs[state] = []
         for suburb in suburb_list:
-            announced = suburb in announced_suburbs[state]
+            announced = False
             announced_date = suburb_dates[state].get(suburb, None)
             if announced_date:
                 announced = True  # implicit announcement - if we have a date, then it's announced
@@ -258,7 +221,7 @@ if __name__ == "__main__":
     # get_suburb_extents
     # update_all_suburbs_from_db()
 
-    # rebuild_status_file()
+    rebuild_status_file()
     # check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()
@@ -266,7 +229,7 @@ if __name__ == "__main__":
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
     # remove_duplicate_addresses()
-    fix_gnaf_pid_mismatch()
+    # fix_gnaf_pid_mismatch()
 
     # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
 
