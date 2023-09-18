@@ -17,6 +17,11 @@ jobs:
 
       - name: Check out the repo
         uses: actions/checkout@v3
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !results
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
