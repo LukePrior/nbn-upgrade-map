@@ -139,6 +139,9 @@ def check_processing_rate():
     other_tally = Counter()
     for state, suburb_list in suburbs.read_all_suburbs().items():
         for suburb in suburb_list:
+            if not suburb.processed_date:
+                print(f"No processed date for {suburb.name}, {state}")
+                continue
             tally = announced_tally if suburb.announced else other_tally
             tally[suburb.processed_date.date()] += 1
 
@@ -149,6 +152,7 @@ def check_processing_rate():
     data.append(("TOTAL", sum(announced_tally.values()), sum(other_tally.values())))
 
     print(tabulate(data, headers=["date", "announced", "other"], tablefmt="github"))
+    return data
 
 
 def remove_duplicate_addresses():
