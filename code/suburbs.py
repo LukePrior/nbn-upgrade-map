@@ -7,7 +7,6 @@ from collections import Counter
 from datetime import datetime
 
 import data
-import geojson
 import utils
 from geojson import (
     get_geojson_file_generated,
