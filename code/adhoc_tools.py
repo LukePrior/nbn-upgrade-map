@@ -5,16 +5,18 @@ import os
 import pprint
 import re
 from collections import Counter
+from datetime import datetime
+
+import requests
+from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 import data
 import db
 import geojson
 import main
-import requests
 import suburbs
 import utils
-from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -193,16 +195,32 @@ def get_tech_and_upgrade_breakdown():
     """Print some stats about the tech and upgrade breakdown of all addresses."""
     all_tech = Counter()
     all_upgrade = Counter()
+    done_addresses = 0
+    total_addresses = suburbs.get_progress()["addresses"]["all"]["TOTAL"]["total"]
     for state, suburb_list in suburbs.read_all_suburbs().items():
+        print()
+        logging.info("Processing %s", state)
         for suburb in suburb_list:
-            logging.info("Processing %s, %s", suburb.name, state)
             addresses, generated = geojson.read_geojson_file_addresses(suburb.name, state)
             all_tech.update(a.tech for a in addresses)
             all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
+
+            done_addresses += len(addresses)
+            utils.print_progress_bar(done_addresses, total_addresses, prefix="Progress:", suffix="Complete", length=50)
+
+    print()
     print("All tech breakdown:", sum(all_tech.values()))
     pprint.pprint(all_tech)
     print("All upgrade breakdown (excluding tech=FTTP):", sum(all_upgrade.values()))
     pprint.pprint(all_upgrade)
+
+    # Save to file, include generation timestamp
+    results = {
+        "tech": dict(all_tech),
+        "upgrade": dict(all_upgrade),
+        "last_updated": datetime.now().isoformat()
+    }
+    utils.write_json_file("results/breakdown.json", results)
 
 
 if __name__ == "__main__":
@@ -218,7 +236,7 @@ if __name__ == "__main__":
     # get_suburb_extents
     # update_all_suburbs_from_db()
 
-    rebuild_status_file()
+    get_tech_and_upgrade_breakdown()
     # check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()
