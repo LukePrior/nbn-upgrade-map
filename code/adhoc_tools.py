@@ -7,16 +7,15 @@ import re
 from collections import Counter
 from datetime import datetime
 
-import requests
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-
 import data
 import db
 import geojson
 import main
+import requests
 import suburbs
 import utils
+from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -215,11 +214,7 @@ def get_tech_and_upgrade_breakdown():
     pprint.pprint(all_upgrade)
 
     # Save to file, include generation timestamp
-    results = {
-        "tech": dict(all_tech),
-        "upgrade": dict(all_upgrade),
-        "last_updated": datetime.now().isoformat()
-    }
+    results = {"tech": dict(all_tech), "upgrade": dict(all_upgrade), "last_updated": datetime.now().isoformat()}
     utils.write_json_file("results/breakdown.json", results)
 
 
