@@ -16,7 +16,6 @@ import utils
 from bs4 import BeautifulSoup
 from tabulate import tabulate
 
-
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
     "-towns-where-an-additional-ninty-thousand-homes-and-businesses-will-become-eligible-for-fibre-upgrades"
