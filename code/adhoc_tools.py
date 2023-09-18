@@ -35,10 +35,9 @@ def get_nbn_suburb_dates():
         results[state] = {}
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
             for suburb, date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
-                results[state][suburb] = date
+                results[state][suburb.title()] = date
 
-    # Convert to consistent state/suburb format
-    return {state: {s.title(): d for s, d in suburb_list.items()} for state, suburb_list in results.items()}
+    return results
 
 
 def get_db_suburb_list():
