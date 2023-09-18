@@ -56,6 +56,9 @@ def update_processed_dates():
             this_suburb = file_suburb_map.get(this_file)
             generated = get_geojson_file_generated(file)
 
+            if this_suburb is None:
+                logging.warning("   Skipping %s/%s - no suburb found", state, this_file)
+                continue
             if this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
                 logging.info("   Updating %s/%s processed date %s", state, this_suburb.name, generated)
                 this_suburb.processed_date = generated
