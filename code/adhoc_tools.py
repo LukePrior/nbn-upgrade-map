@@ -223,7 +223,6 @@ def get_historical_tech_and_upgrade_breakdown():
     checkout_dir = '../new-checkout'
     if not os.path.isdir(checkout_dir):
         subprocess.run(f"git clone git@github.com:LukePrior/nbn-upgrade-map.git {checkout_dir}", check=True, shell=True)
-        subprocess.run(f"git log --date=iso-strict > git.log", check=True, shell=True, cwd=checkout_dir)
 
     # start from now, and go back in time 7 days at a time
     co_date = datetime.now()
@@ -277,7 +276,7 @@ if __name__ == "__main__":
     # update_all_suburbs_from_db()
 
     # get_tech_and_upgrade_breakdown()
-    # get_historical_tech_and_upgrade_breakdown()
+    get_historical_tech_and_upgrade_breakdown()
     combine_breakdown_files()
     # check_processing_rate()
     # add_address_count_to_suburbs()
