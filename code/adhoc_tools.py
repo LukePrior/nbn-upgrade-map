@@ -4,8 +4,9 @@ import logging
 import os
 import pprint
 import re
+import subprocess
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import data
 import db
@@ -190,32 +191,76 @@ def fix_gnaf_pid_mismatch():
                 geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
 
 
-def get_tech_and_upgrade_breakdown():
-    """Print some stats about the tech and upgrade breakdown of all addresses."""
+def get_tech_and_upgrade_breakdown(root_dir = '.') -> dict:
+    """Generate some stats about the tech and upgrade breakdown of all addresses (slow)."""
     all_tech = Counter()
     all_upgrade = Counter()
-    done_addresses = 0
-    total_addresses = suburbs.get_progress()["addresses"]["all"]["TOTAL"]["total"]
-    for state, suburb_list in suburbs.read_all_suburbs().items():
-        print()
-        logging.info("Processing %s", state)
-        for suburb in suburb_list:
-            addresses, generated = geojson.read_geojson_file_addresses(suburb.name, state)
-            all_tech.update(a.tech for a in addresses)
-            all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
+    filenames = glob.glob(f"{root_dir}/results/**/*.geojson")
+    for i, filename in enumerate(filenames):
+        info = utils.read_json_file(filename)
+        addresses = list(map(geojson.feature_to_address, info["features"]))
+        all_tech.update(a.tech for a in addresses)
+        all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
 
-            done_addresses += len(addresses)
-            utils.print_progress_bar(done_addresses, total_addresses, prefix="Progress:", suffix="Complete", length=50)
+        if i % 100 == 0:
+            utils.print_progress_bar(i, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+    return {"tech": dict(all_tech), "upgrade": dict(all_upgrade), "processed_date": datetime.now().isoformat()}
 
+
+def print_tech_and_upgrade_breakdown(breakdown: dict):
+    """Print some stats about the tech and upgrade breakdown of all addresses."""
+    all_tech, all_upgrade = breakdown["tech"], breakdown["upgrade"]
     print()
     print("All tech breakdown:", sum(all_tech.values()))
     pprint.pprint(all_tech)
     print("All upgrade breakdown (excluding tech=FTTP):", sum(all_upgrade.values()))
     pprint.pprint(all_upgrade)
 
-    # Save to file, include generation timestamp
-    results = {"tech": dict(all_tech), "upgrade": dict(all_upgrade), "last_updated": datetime.now().isoformat()}
-    utils.write_json_file("results/breakdown.json", results)
+
+def get_historical_tech_and_upgrade_breakdown():
+    """Using git, generate a list of tech and upgrade breakdowns over time."""
+    # use a separate checkout of the repo, so we don't have to worry about uncommitted changes
+    checkout_dir = '../new-checkout'
+    if not os.path.isdir(checkout_dir):
+        subprocess.run(f"git clone git@github.com:LukePrior/nbn-upgrade-map.git {checkout_dir}", check=True, shell=True)
+        subprocess.run(f"git log --date=iso-strict > git.log", check=True, shell=True, cwd=checkout_dir)
+
+    # start from now, and go back in time 7 days at a time
+    co_date = datetime.now()
+    while co_date > datetime(2023, 5, 1):
+        logging.info("Processing %s", co_date.strftime('%Y-%m-%d'))
+        output_file = f"results/breakdown-{co_date.strftime('%Y-%m-%d')}.json"
+        if os.path.exists(output_file):
+            logging.info("Skipping %s", output_file)
+        else:
+            cmd = f"git checkout `git rev-list -n 1 --before=\"{co_date.strftime('%Y-%m-%d %H:%M')}\" main`"
+            subprocess.run(cmd, check=True, cwd=checkout_dir, shell=True)
+            breakdown = get_tech_and_upgrade_breakdown(checkout_dir)
+            breakdown['processed_date'] = co_date.isoformat()
+            if len(breakdown['tech']):
+                utils.write_json_file(output_file, breakdown)
+        co_date -= timedelta(days=7)
+
+
+def combine_breakdown_files():
+    """Combine all the breakdown files into one."""
+    all_breakdown = {}
+    tech = []
+    upgrade = []
+    for file in sorted(glob.glob("results/breakdown-*.json")):
+        breakdown = utils.read_json_file(file)
+        run_date = datetime.fromisoformat(breakdown['processed_date']).date()
+        all_breakdown[run_date.isoformat()] = breakdown
+        tech.append({'date': run_date} | breakdown['tech'])
+        upgrade.append({'date': run_date} | breakdown['upgrade'])
+
+    # tab-separated values for paste to excel
+    print(tabulate(tech, headers="keys", tablefmt="tsv"))
+    print()
+    print(tabulate(upgrade, headers="keys", tablefmt="tsv"))
+
+    # write all results to a file
+    utils.write_json_file("results/breakdown.json", all_breakdown)
 
 
 if __name__ == "__main__":
@@ -231,7 +276,9 @@ if __name__ == "__main__":
     # get_suburb_extents
     # update_all_suburbs_from_db()
 
-    get_tech_and_upgrade_breakdown()
+    # get_tech_and_upgrade_breakdown()
+    # get_historical_tech_and_upgrade_breakdown()
+    combine_breakdown_files()
     # check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()

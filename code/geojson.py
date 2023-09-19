@@ -56,22 +56,22 @@ def read_geojson_file(suburb: str, state: str) -> dict:
     if os.path.exists(filename):
         return read_json_file(filename)
 
+def feature_to_address(f: dict) -> Address:
+    """Return an Address from a GeoJSON Feature"""
+    return Address(
+        name=f["properties"]["name"],
+        gnaf_pid=f["properties"].get("gnaf_pid"),
+        longitude=f["geometry"]["coordinates"][0],
+        latitude=f["geometry"]["coordinates"][1],
+        loc_id=f["properties"]["locID"],
+        tech=f["properties"]["tech"],
+        upgrade=f["properties"]["upgrade"],
+    )
 
 def read_geojson_file_addresses(suburb: str, state: str) -> (AddressList, datetime):
     """Read the Addresses (and generated datetime) from a GeoJSON FeatureCollection"""
     info = read_geojson_file(suburb, state)
-    return [
-        Address(
-            name=f["properties"]["name"],
-            gnaf_pid=f["properties"]["gnaf_pid"],
-            longitude=f["geometry"]["coordinates"][0],
-            latitude=f["geometry"]["coordinates"][1],
-            loc_id=f["properties"]["locID"],
-            tech=f["properties"]["tech"],
-            upgrade=f["properties"]["upgrade"],
-        )
-        for f in info["features"]
-    ], datetime.fromisoformat(info["generated"])
+    return list(map(feature_to_address, info["features"])), datetime.fromisoformat(info["generated"])
 
 
 def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
