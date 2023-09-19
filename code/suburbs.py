@@ -245,8 +245,3 @@ def update_progress():
     logging.info("Updating progress.json")
     utils.write_json_file("results/progress.json", results)
     return results["suburbs"]
-
-
-def get_progress():
-    """Return the progress.json file with the latest results."""
-    return utils.read_json_file("results/progress.json")
