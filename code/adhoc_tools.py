@@ -191,7 +191,7 @@ def fix_gnaf_pid_mismatch():
                 geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
 
 
-def get_tech_and_upgrade_breakdown(root_dir = '.') -> dict:
+def get_tech_and_upgrade_breakdown(root_dir=".") -> dict:
     """Generate some stats about the tech and upgrade breakdown of all addresses (slow)."""
     all_tech = Counter()
     all_upgrade = Counter()
@@ -220,14 +220,14 @@ def print_tech_and_upgrade_breakdown(breakdown: dict):
 def get_historical_tech_and_upgrade_breakdown():
     """Using git, generate a list of tech and upgrade breakdowns over time."""
     # use a separate checkout of the repo, so we don't have to worry about uncommitted changes
-    checkout_dir = '../new-checkout'
+    checkout_dir = "../new-checkout"
     if not os.path.isdir(checkout_dir):
         subprocess.run(f"git clone git@github.com:LukePrior/nbn-upgrade-map.git {checkout_dir}", check=True, shell=True)
 
     # start from now, and go back in time 7 days at a time
     co_date = datetime.now()
     while co_date > datetime(2023, 5, 1):
-        logging.info("Processing %s", co_date.strftime('%Y-%m-%d'))
+        logging.info("Processing %s", co_date.strftime("%Y-%m-%d"))
         output_file = f"results/breakdown-{co_date.strftime('%Y-%m-%d')}.json"
         if os.path.exists(output_file):
             logging.info("Skipping %s", output_file)
@@ -235,8 +235,8 @@ def get_historical_tech_and_upgrade_breakdown():
             cmd = f"git checkout `git rev-list -n 1 --before=\"{co_date.strftime('%Y-%m-%d %H:%M')}\" main`"
             subprocess.run(cmd, check=True, cwd=checkout_dir, shell=True)
             breakdown = get_tech_and_upgrade_breakdown(checkout_dir)
-            breakdown['processed_date'] = co_date.isoformat()
-            if len(breakdown['tech']):
+            breakdown["processed_date"] = co_date.isoformat()
+            if len(breakdown["tech"]):
                 utils.write_json_file(output_file, breakdown)
         co_date -= timedelta(days=7)
 
@@ -248,10 +248,10 @@ def combine_breakdown_files():
     upgrade = []
     for file in sorted(glob.glob("results/breakdown-*.json")):
         breakdown = utils.read_json_file(file)
-        run_date = datetime.fromisoformat(breakdown['processed_date']).date()
+        run_date = datetime.fromisoformat(breakdown["processed_date"]).date()
         all_breakdown[run_date.isoformat()] = breakdown
-        tech.append({'date': run_date} | breakdown['tech'])
-        upgrade.append({'date': run_date} | breakdown['upgrade'])
+        tech.append({"date": run_date} | breakdown["tech"])
+        upgrade.append({"date": run_date} | breakdown["upgrade"])
 
     # tab-separated values for paste to excel
     print(tabulate(tech, headers="keys", tablefmt="tsv"))

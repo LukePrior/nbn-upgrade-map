@@ -56,6 +56,7 @@ def read_geojson_file(suburb: str, state: str) -> dict:
     if os.path.exists(filename):
         return read_json_file(filename)
 
+
 def feature_to_address(f: dict) -> Address:
     """Return an Address from a GeoJSON Feature"""
     return Address(
@@ -67,6 +68,7 @@ def feature_to_address(f: dict) -> Address:
         tech=f["properties"]["tech"],
         upgrade=f["properties"]["upgrade"],
     )
+
 
 def read_geojson_file_addresses(suburb: str, state: str) -> (AddressList, datetime):
     """Read the Addresses (and generated datetime) from a GeoJSON FeatureCollection"""
