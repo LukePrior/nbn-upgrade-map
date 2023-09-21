@@ -218,7 +218,8 @@ def update_historical_tech_and_upgrade_breakdown():
         subprocess.run(f"git clone git@github.com:LukePrior/nbn-upgrade-map.git {checkout_dir}", check=True, shell=True)
 
     # starting from ancient history, move forward 7 days at a time
-    breakdowns = utils.read_json_file("results/breakdown.json")
+    breakdown_file = "results/breakdown.json"
+    breakdowns = utils.read_json_file(breakdown_file) if os.path.exists(breakdown_file) else {}
     co_date = datetime(2023, 5, 23)
     while co_date < datetime.now():
         if co_date.date().isoformat() in breakdowns:
@@ -228,7 +229,7 @@ def update_historical_tech_and_upgrade_breakdown():
             cmd = f"git checkout `git rev-list -n 1 --before=\"{co_date.strftime('%Y-%m-%d %H:%M')}\" main`"
             subprocess.run(cmd, check=True, cwd=checkout_dir, shell=True)
             breakdowns[co_date.date().isoformat()] = get_tech_and_upgrade_breakdown(checkout_dir)
-            utils.write_json_file("results/breakdown.json", breakdowns)  # save each time
+            utils.write_json_file(breakdown_file, breakdowns)  # save each time
         co_date += timedelta(days=7)
 
     # print tech breakdown
