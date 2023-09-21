@@ -5,10 +5,9 @@ import logging
 import os
 from datetime import datetime
 
-from tabulate import tabulate
-
 import utils
 from adhoc_tools import get_tech_and_upgrade_breakdown
+from tabulate import tabulate
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
