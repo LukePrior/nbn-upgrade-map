@@ -5,6 +5,8 @@ import logging
 import os
 from datetime import datetime
 
+from tabulate import tabulate
+
 import utils
 from adhoc_tools import get_tech_and_upgrade_breakdown
 
@@ -20,3 +22,8 @@ if __name__ == "__main__":
         logging.info("Processing %s", co_date)
         breakdowns[co_date.isoformat()] = get_tech_and_upgrade_breakdown()
         utils.write_json_file(breakdown_file, breakdowns)
+
+    for key in {"tech", "upgrade"}:
+        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
+        print()
+        print(tabulate(rows, headers="keys", tablefmt="github"))
