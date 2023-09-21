@@ -2,11 +2,10 @@ import argparse
 import glob
 import logging
 import os
-import pprint
 import re
 import subprocess
-from collections import Counter
-from datetime import datetime, timedelta, date
+from collections import Counter, OrderedDict
+from datetime import datetime, timedelta
 
 import data
 import db
@@ -191,7 +190,6 @@ def fix_gnaf_pid_mismatch():
                 geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
 
 
-
 def get_tech_and_upgrade_breakdown(root_dir='.') -> dict:
     """Generate some tallies for tech-type and upgrade-status for all addresses (slow)."""
     all_tech = Counter()
@@ -257,8 +255,7 @@ if __name__ == "__main__":
     # update_all_suburbs_from_db()
 
     # get_tech_and_upgrade_breakdown()
-    get_historical_tech_and_upgrade_breakdown()
-    combine_breakdown_files()
+    update_historical_tech_and_upgrade_breakdown()
     # check_processing_rate()
     # add_address_count_to_suburbs()
     # add_address_count_to_suburbs()
