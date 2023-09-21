@@ -232,14 +232,11 @@ def update_historical_tech_and_upgrade_breakdown():
             utils.write_json_file(breakdown_file, breakdowns)  # save each time
         co_date += timedelta(days=7)
 
-    # print tech breakdown
-    tech = [{"date": run_date} | b["tech"] for run_date, b in breakdowns.items()]
-    print()
-    print(tabulate(tech, headers="keys", tablefmt="github"))
-
-    upgrade = [{"date": run_date} | b["upgrade"] for run_date, b in breakdowns.items()]
-    print()
-    print(tabulate(upgrade, headers="keys", tablefmt="github"))
+    # print tech+upgrade breakdown
+    for key in {"tech", "upgrade"}:
+        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
+        print()
+        print(tabulate(rows, headers="keys", tablefmt="github"))
 
 
 if __name__ == "__main__":
