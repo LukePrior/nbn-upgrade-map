@@ -190,7 +190,7 @@ def fix_gnaf_pid_mismatch():
                 geojson.write_geojson_file(suburb.name.upper(), state, file_addresses, generated)
 
 
-def get_tech_and_upgrade_breakdown(root_dir='.') -> dict:
+def get_tech_and_upgrade_breakdown(root_dir=".") -> dict:
     """Generate some tallies for tech-type and upgrade-status for all addresses (slow)."""
     all_tech = Counter()
     all_upgrade = Counter()
@@ -213,7 +213,7 @@ def get_tech_and_upgrade_breakdown(root_dir='.') -> dict:
 def update_historical_tech_and_upgrade_breakdown():
     """Using git, generate/update a list of tech and upgrade breakdowns over time."""
     # use a separate checkout of the repo, so we don't have to worry about uncommitted changes
-    checkout_dir = '../new-checkout'
+    checkout_dir = "../new-checkout"
     if not os.path.isdir(checkout_dir):
         subprocess.run(f"git clone git@github.com:LukePrior/nbn-upgrade-map.git {checkout_dir}", check=True, shell=True)
 
@@ -232,11 +232,11 @@ def update_historical_tech_and_upgrade_breakdown():
         co_date += timedelta(days=7)
 
     # print tech breakdown
-    tech = [{'date': run_date} | b['tech'] for run_date, b in breakdowns.items()]
+    tech = [{"date": run_date} | b["tech"] for run_date, b in breakdowns.items()]
     print()
     print(tabulate(tech, headers="keys", tablefmt="github"))
 
-    upgrade = [{'date': run_date} | b['upgrade'] for run_date, b in breakdowns.items()]
+    upgrade = [{"date": run_date} | b["upgrade"] for run_date, b in breakdowns.items()]
     print()
     print(tabulate(upgrade, headers="keys", tablefmt="github"))
 
