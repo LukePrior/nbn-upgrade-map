@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NBN Technology Breakdown</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breakdown of NBN technology by date.">
+    <meta name="author" content="Luke Prior">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VVNNFL32M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5VVNNFL32M');
+    </script>
+
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div style="width: 80%; margin: 0 auto;">
+        <!-- Heading for Line Chart -->
+        <h2>Line Chart by Technology</h2>
+        <!-- Create a taller canvas element to render the line chart -->
+        <div style="height: 500px;">
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+    <div style="width: 80%; margin: 0 auto;">
+        <!-- Heading for Pie Chart -->
+        <h2>Pie Chart by Technology</h2>
+        <!-- Create a canvas element to render the pie chart -->
+        <div style="height: 300px;">
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Function to fetch JSON data
+        const fetchData = (() => {
+            let cachedData = null;
+            let isFetching = false;
+
+            return async () => {
+                if (cachedData) {
+                    return cachedData;
+                }
+
+                if (isFetching) {
+                    await new Promise(resolve => {
+                        const intervalId = setInterval(() => {
+                        if (!isFetching) {
+                            clearInterval(intervalId);
+                            resolve();
+                        }
+                        }, 100);
+                    });
+                    return cachedData;
+                }
+
+                isFetching = true;
+
+                try {
+                    const response = await fetch('https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/breakdown.json');
+                    let data = await response.json();
+                    Object.keys(data).forEach(date => {
+                        delete data[date].tech['NULL'];
+                    });
+                    cachedData = data;
+                    isFetching = false;
+                    return data;
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    isFetching = false;
+                }
+            };
+        })();
+
+        // Function to prepare data for the line chart
+        async function prepareLineChartData() {
+            const rawData = await fetchData();
+            const dates = Object.keys(rawData).filter(date => date >= "2023-08-01");
+            const newestDate = Object.keys(rawData).sort().reverse()[0];
+            const techData = rawData[newestDate].tech;
+            const sortedTechData = sortTechData(techData);
+
+            const datasets = sortedTechData.map((techData, index) => ({
+                label: techData.label,
+                data: dates.map(date => rawData[date].tech[techData.label]),
+                borderWidth: 2,
+                fill: true,
+            }));
+
+            return { dates, datasets };
+        }
+
+        // Function to prepare data for the pie chart
+        async function preparePieChartData() {
+            const rawData = await fetchData();
+            const newestDate = Object.keys(rawData).sort().reverse()[0];
+            const techData = rawData[newestDate].tech;
+            const sortedTechData = sortTechData(techData);
+
+            return {
+                labels: sortedTechData.map(data => data.label),
+                values: sortedTechData.map(data => data.value),
+            };
+        }
+
+        // Helper function to sort tech data in descending order of values
+        function sortTechData(techData) {
+            const techLabels = Object.keys(techData);
+            const techValues = Object.values(techData);
+
+            return techLabels.map((label, index) => ({
+                label: label,
+                value: techValues[index],
+            })).sort((a, b) => b.value - a.value);
+        }
+
+        // Create the line chart
+        async function createLineChart() {
+            const chartData = await prepareLineChartData();
+
+            const ctx = document.getElementById('lineChart').getContext('2d');
+            const lineChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: chartData.dates,
+                    datasets: chartData.datasets,
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            stacked: true,
+                            beginAtZero: true,
+                        },
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.dataset.label || '';
+                                    const value = context.formattedValue;
+                                    const dataset = context.dataset || {};
+                                    const valueActual = dataset.data[context.dataIndex];
+                                    const total = chartData.datasets.reduce((a, b) => a + b.data[context.dataIndex], 0);
+                                    const percentage = ((valueActual / total) * 100).toFixed(2);
+                                    return label + ': ' + value + ' (' + percentage + '%)';
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+        // Create the pie chart
+        async function createPieChart() {
+            const pieData = await preparePieChartData();
+
+            const ctx = document.getElementById('pieChart').getContext('2d');
+            const pieChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: pieData.labels,
+                    datasets: [{
+                        data: pieData.values,
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label || '';
+                                    const value = context.formattedValue;
+                                    const dataset = context.dataset || {};
+                                    const valueActual = dataset.data[context.dataIndex];
+                                    const total = pieData.values.reduce((a, b) => a + b, 0);
+                                    const percentage = ((valueActual / total) * 100).toFixed(2);
+                                    return label + ': ' + value + ' (' + percentage + '%)';
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+        // Call the functions to create both charts
+        createLineChart();
+        createPieChart();
+    </script>
+</body>
+</html>
