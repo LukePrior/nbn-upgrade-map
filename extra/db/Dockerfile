@@ -1,5 +1,5 @@
 # STAGE 1: import the DB dump files then export a cutdown CSV file
-FROM postgis/postgis:16-3.4-alpine
+FROM postgis/postgis:16-3.4-alpine as import
 ENV POSTGRES_HOST_AUTH_METHOD=trust
 
 RUN mkdir -p /data
@@ -16,12 +16,12 @@ RUN bash -x /usr/local/bin/docker-entrypoint.sh postgres
 
 
 # STAGE 2: load the CSV file from previous stage into right DB version (no PostGIS)
-FROM postgres:16-alpine
+FROM postgres:16-alpine as load
 ENV POSTGRES_HOST_AUTH_METHOD=trust
 
 RUN mkdir -p /data
 WORKDIR /data
-COPY --from=0 --chown=postgres /tmp/address_principals.csv.gz /data/
+COPY --from=import --chown=postgres /tmp/address_principals.csv.gz /data/
 ADD --chown=postgres create-table.sql /data/
 ADD 20_import_csv.sh /docker-entrypoint-initdb.d/
 
@@ -31,8 +31,8 @@ RUN bash -x /usr/local/bin/docker-entrypoint.sh postgres
 
 
 # STAGE 3: just use the data from the previous stage
-FROM postgres:16-alpine
+FROM postgres:16-alpine as final
 ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=password
 
-COPY --from=1 --chown=postgres /var/lib/postgresql/data /var/lib/postgresql/data
+COPY --from=load --chown=postgres /var/lib/postgresql/data /var/lib/postgresql/data
