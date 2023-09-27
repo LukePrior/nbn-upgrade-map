@@ -59,3 +59,13 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             GNAF_LOADER_TAG=${{ steps.version.outputs.GNAF_LOADER_TAG }}
+
+      - name: Convert the Postgres DB to SQLite
+        run: ./extra/db/docker2sqlite.sh
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: sqlite-db-${{ steps.version.outputs.GNAF_LOADER_TAG }}
+          body: SQLite DB for the cutdown version of the GNAF address database
+          files: address_principals.sqllite
