@@ -1,4 +1,5 @@
 import json
+import os
 
 
 def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", printEnd="\r"):
@@ -30,7 +31,9 @@ def write_json_file(filename: str, data: dict, indent=4):
         json.dump(data, outfile, indent=indent)
 
 
-def read_json_file(filename: str) -> dict:
+def read_json_file(filename: str, empty_if_missing=False) -> dict:
     """Read a dict from a JSON file."""
+    if empty_if_missing and not os.path.exists(filename):
+        return {}
     with open(filename, "r", encoding="utf-8") as file:
         return json.load(file)
