@@ -203,7 +203,7 @@ def get_tech_and_upgrade_breakdown(root_dir=".") -> dict:
         all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
 
         state = filename.split("/")[-2].upper()
-        suburb = filename.split("/")[-1].replace('.geojson','').replace('-', ' ').title()
+        suburb = filename.split("/")[-1].replace(".geojson", "").replace("-", " ").title()
         suburb_tech[state][suburb] = Counter(a.tech for a in addresses)
 
         if i % 100 == 0:
