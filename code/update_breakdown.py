@@ -2,7 +2,6 @@
 """a cut-down version of update_historical_tech_and_upgrade_breakdown() that processes the current checkout"""
 
 import logging
-import os
 from datetime import datetime
 
 import utils
@@ -13,14 +12,19 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
     breakdown_file = "results/breakdown.json"
-    co_date = datetime.now().date()
-    breakdowns = utils.read_json_file(breakdown_file) if os.path.exists(breakdown_file) else {}
-    if co_date.isoformat() in breakdowns:
-        logging.info("Skipping %s", co_date)
+    breakdowns = utils.read_json_file(breakdown_file, True)
+    breakdown_suburbs_file = "results/breakdown-suburbs.json"
+    breakdown_suburbs = utils.read_json_file(breakdown_suburbs_file, True)
+
+    date_key = datetime.now().date().isoformat()
+    if date_key in breakdowns:
+        logging.info("Skipping %s", date_key)
     else:
-        logging.info("Processing %s", co_date)
-        breakdowns[co_date.isoformat()] = get_tech_and_upgrade_breakdown()
+        logging.info("Processing %s", date_key)
+        breakdowns[date_key] = get_tech_and_upgrade_breakdown()
+        breakdown_suburbs[date_key] = breakdowns[date_key].pop("suburb_tech")
         utils.write_json_file(breakdown_file, breakdowns)
+        utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs)
 
     for key in {"tech", "upgrade"}:
         rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]

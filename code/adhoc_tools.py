@@ -194,6 +194,7 @@ def get_tech_and_upgrade_breakdown(root_dir=".") -> dict:
     """Generate some tallies for tech-type and upgrade-status for all addresses (slow)."""
     all_tech = Counter()
     all_upgrade = Counter()
+    suburb_tech = {s: {} for s in data.STATES}  # [State][Suburb] = Counter()
     filenames = glob.glob(f"{root_dir}/results/**/*.geojson")
     for i, filename in enumerate(filenames):
         info = utils.read_json_file(filename)
@@ -201,12 +202,17 @@ def get_tech_and_upgrade_breakdown(root_dir=".") -> dict:
         all_tech.update(a.tech for a in addresses)
         all_upgrade.update(a.upgrade for a in addresses if a.tech != "FTTP")
 
+        state = filename.split("/")[-2].upper()
+        suburb = filename.split("/")[-1].replace('.geojson','').replace('-', ' ').title()
+        suburb_tech[state][suburb] = Counter(a.tech for a in addresses)
+
         if i % 100 == 0:
             utils.print_progress_bar(i, len(filenames), prefix="Progress:", suffix="Complete", length=50)
 
     return {
         "tech": OrderedDict(all_tech.most_common()),
         "upgrade": OrderedDict(all_upgrade.most_common()),
+        "suburb_tech": suburb_tech,
     }
 
 
@@ -219,17 +225,23 @@ def update_historical_tech_and_upgrade_breakdown():
 
     # starting from ancient history, move forward 7 days at a time
     breakdown_file = "results/breakdown.json"
-    breakdowns = utils.read_json_file(breakdown_file) if os.path.exists(breakdown_file) else {}
+    breakdowns = utils.read_json_file(breakdown_file, True)
+    breakdown_suburbs_file = "results/breakdown-suburbs.json"
+    breakdown_suburbs = utils.read_json_file(breakdown_suburbs_file, True)
+
     co_date = datetime(2023, 5, 23)
     while co_date < datetime.now():
-        if co_date.date().isoformat() in breakdowns:
-            logging.info("Skipping %s", co_date)
+        date_key = co_date.date().isoformat()
+        if date_key in breakdowns:
+            logging.info("Skipping %s", date_key)
         else:
-            logging.info("Processing %s", co_date)
+            logging.info("Processing %s", date_key)
             cmd = f"git checkout `git rev-list -n 1 --before=\"{co_date.strftime('%Y-%m-%d %H:%M')}\" main`"
             subprocess.run(cmd, check=True, cwd=checkout_dir, shell=True)
-            breakdowns[co_date.date().isoformat()] = get_tech_and_upgrade_breakdown(checkout_dir)
+            breakdowns[date_key] = get_tech_and_upgrade_breakdown(checkout_dir)
+            breakdown_suburbs[date_key] = breakdowns[date_key].pop("suburb_tech")
             utils.write_json_file(breakdown_file, breakdowns)  # save each time
+            utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs)  # save each time
         co_date += timedelta(days=7)
 
     # print tech+upgrade breakdown
