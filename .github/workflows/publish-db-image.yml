@@ -68,4 +68,4 @@ jobs:
         with:
           tag_name: sqlite-db-${{ steps.version.outputs.GNAF_LOADER_TAG }}
           body: SQLite DB for the cutdown version of the GNAF address database
-          files: address_principals.sqllite
+          files: address_principals.sqlite
