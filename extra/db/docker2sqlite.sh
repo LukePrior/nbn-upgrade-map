@@ -17,7 +17,7 @@ fi
 # Create a new sqlite DB with the contents of the CSV
 DB_FILENAME=address_principals.sqlite
 if [ -f $DB_FILENAME ]; then
-  echo "sqllite file already exists, skipping creation..."
+  echo "SQLite file $DB_FILENAME already exists, skipping creation..."
 else
   sqlite3 $DB_FILENAME <<EOF
 

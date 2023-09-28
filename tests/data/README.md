@@ -1,4 +1,4 @@
-To create sample data in sqllite use the following process:
+To create sample data in SQLite use the following process:
 
 - create empty DB per process described  in DB:
 
