@@ -31,10 +31,7 @@ def test_get_address(monkeypatch):
     details = nbn.get_nbn_loc_details("LOC000126303452")
     assert details["servingArea"]["techType"] == "FTTN"
     assert details["servingArea"]["description"] == "Moggill"
-    assert (
-        details["addressDetail"]["formattedAddress"]
-        == "LOT 56 1 BLUEGUM RISE ANSTEAD QLD 4070 Australia"
-    )
+    assert details["addressDetail"]["formattedAddress"] == "LOT 56 1 BLUEGUM RISE ANSTEAD QLD 4070 Australia"
     # test cached
     details = nbn.get_nbn_loc_details("LOC000126303452")
     assert details["servingArea"]["techType"] == "FTTN"
