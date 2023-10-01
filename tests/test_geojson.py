@@ -59,6 +59,11 @@ def test_write_geojson(monkeypatch):
     assert info["features"][0]["properties"]["upgrade"] == "XYZ"
     assert info["features"][0]["properties"]["tech"] == "FTTP"
 
+    geojson.write_geojson_file("MyTown", "ABC", addresses)
+    info = SAVED_JSON["results/ABC/mytown.geojson"]
+    was_generated = datetime.datetime.fromisoformat(info["generated"])
+    assert was_generated - datetime.datetime.now() < datetime.timedelta(seconds=5)
+
 
 def test_geojson_generated(monkeypatch):
     dir_path = os.path.dirname(os.path.realpath(__file__))
