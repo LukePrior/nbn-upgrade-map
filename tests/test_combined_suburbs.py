@@ -1,9 +1,9 @@
-import logging
 import os
 from datetime import datetime
 
-import main
 import pytest
+
+import main
 import suburbs
 import testutils
 
@@ -163,7 +163,7 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
 def test_get_technology_breakdown(monkeypatch):
     def _dummy_read_json_file(filename: str) -> dict:
         if filename == "results/combined-suburbs.json":
-            return testutils.read_test_data_json("combined-suburbs.json")
+            return testutils.read_test_data_json("combined-suburbs.json")  # four ACT suburbs
         elif filename.startswith("results/ACT/"):
             return testutils.read_test_data_json("sample2.geojson")  # two FTTP, one FTTN
         raise NotImplementedError
