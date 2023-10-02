@@ -1,3 +1,4 @@
+import logging
 import os
 from datetime import datetime
 
@@ -157,3 +158,22 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
     acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
     assert acton_suburb["name"] == "Acton"
     assert datetime.fromisoformat(acton_suburb["processed_date"]).date() == datetime.now().date()
+
+
+def test_get_technology_breakdown(monkeypatch):
+    def _dummy_read_json_file(filename: str) -> dict:
+        if filename == "results/combined-suburbs.json":
+            return testutils.read_test_data_json("combined-suburbs.json")
+        elif filename.startswith("results/ACT/"):
+            return testutils.read_test_data_json("sample2.geojson")  # two FTTP, one FTTN
+        raise NotImplementedError
+
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file)
+    monkeypatch.setattr("geojson.read_json_file", _dummy_read_json_file)
+    monkeypatch.setattr("geojson.os.path.exists", lambda x: True)
+
+    breakdown = suburbs.get_technology_breakdown()
+    assert breakdown["ACT"]["FTTP"] == 8
+    assert breakdown["ACT"]["FTTN"] == 4
+    assert breakdown["ACT"]["total"] == 12
+    assert breakdown["TOTAL"]["total"] == 12
