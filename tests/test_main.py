@@ -1,7 +1,9 @@
 import copy
+import datetime
 
 import main
 import testutils
+import update_breakdown
 from data import Address
 from nbn import CACHE, NBNApi
 
@@ -52,3 +54,57 @@ def test_remove_duplicate_addresses():
     assert len(addresses) == 6
     assert len(new_addresses) == 5
     assert [a.loc_id for a in new_addresses] == [str(n) for n in range(5)]
+
+def test_update_breakdown(monkeypatch):
+    SAVED_JSON = {}
+
+    def _dummy_read_json_file(filename: str, empty_if_missing=False) -> dict:
+        if filename == "results/breakdown.json" and empty_if_missing:
+            return {}
+        elif filename == "results/breakdown-suburbs.json" and empty_if_missing:
+            return {}
+        elif filename == "results/combined-suburbs.json":
+            return testutils.read_test_data_json("combined-suburbs.json")  # four ACT suburbs
+        elif filename.startswith("results/ACT/"):
+            return testutils.read_test_data_json("sample2.geojson")  # two FTTP, one FTTN
+        raise NotImplementedError(f"Unexpected filename: {filename}")
+
+    def _dummy_write_json_file(filename: str, data: dict, indent=4):
+        SAVED_JSON[filename] = data
+
+    def _dummy_glob(pathname, *, root_dir=None, dir_fd=None, recursive=False):
+        return ["results/ACT/acton.geojson", "results/ACT/braddon.geojson"]
+
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file)
+    monkeypatch.setattr("utils.write_json_file", _dummy_write_json_file)
+    monkeypatch.setattr("adhoc_tools.glob.glob", _dummy_glob)
+
+    bd = update_breakdown.update_breakdown()
+
+    date_key = datetime.datetime.now().date().isoformat()
+    assert len(bd) == 1
+    assert date_key in bd
+    assert len(bd[date_key]) == 2
+    assert bd[date_key]["tech"]["FTTP"] == 4
+    assert bd[date_key]["tech"]["FTTN"] == 2
+    assert bd[date_key]["upgrade"]["NULL_NA"] == 2
+    update_breakdown.print_breakdowns(bd)
+    # TODO: check output?
+
+
+def test_update_breakdown_rerun(monkeypatch):
+    date_key = datetime.datetime.now().date().isoformat()
+    dummy_value = 'DUMMY_VALUE'
+
+    def _dummy_read_json_file(filename: str, empty_if_missing=False) -> dict:
+        if filename == "results/breakdown.json" and empty_if_missing:
+            return {date_key: dummy_value}
+        elif filename == "results/breakdown-suburbs.json" and empty_if_missing:
+            return {date_key: dummy_value}
+        raise NotImplementedError(f"Unexpected filename: {filename}")
+
+
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file)
+    bd = update_breakdown.update_breakdown()
+    assert len(bd) == 1
+    assert bd[date_key] == dummy_value
