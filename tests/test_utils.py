@@ -3,11 +3,13 @@ import testutils
 import utils
 
 
-def test_write_json_file():
+def test_read_write_json_file():
     test_data = {"a": 1, "b": 2, "c": {"d": 3, "e": 4}}
     utils.write_json_file("test.json", test_data)
     read_data = utils.read_json_file("test.json")
     assert test_data == read_data
+    missing_file = utils.read_json_file("xtest.json", empty_if_missing=True)
+    assert missing_file == {}
 
 
 @pytest.mark.skip(reason="waiting for https://github.com/LukePrior/nbn-upgrade-map/pull/177")
