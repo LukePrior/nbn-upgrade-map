@@ -55,6 +55,7 @@ def test_remove_duplicate_addresses():
     assert len(new_addresses) == 5
     assert [a.loc_id for a in new_addresses] == [str(n) for n in range(5)]
 
+
 def test_update_breakdown(monkeypatch):
     SAVED_JSON = {}
 
@@ -94,7 +95,7 @@ def test_update_breakdown(monkeypatch):
 
 def test_update_breakdown_rerun(monkeypatch):
     date_key = datetime.datetime.now().date().isoformat()
-    dummy_value = 'DUMMY_VALUE'
+    dummy_value = "DUMMY_VALUE"
 
     def _dummy_read_json_file(filename: str, empty_if_missing=False) -> dict:
         if filename == "results/breakdown.json" and empty_if_missing:
@@ -102,7 +103,6 @@ def test_update_breakdown_rerun(monkeypatch):
         elif filename == "results/breakdown-suburbs.json" and empty_if_missing:
             return {date_key: dummy_value}
         raise NotImplementedError(f"Unexpected filename: {filename}")
-
 
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file)
     bd = update_breakdown.update_breakdown()

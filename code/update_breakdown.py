@@ -4,10 +4,9 @@
 import logging
 from datetime import datetime
 
-from tabulate import tabulate
-
 import utils
 from adhoc_tools import get_tech_and_upgrade_breakdown
+from tabulate import tabulate
 
 
 def update_breakdown():
@@ -32,9 +31,7 @@ def update_breakdown():
 def print_breakdowns(breakdowns):
     """Dump the breakdowns to the console as tables."""
     for key in {"tech", "upgrade"}:
-        rows = [{
-                    "date": run_date
-                } | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
+        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
         print()
         print(tabulate(rows, headers="keys", tablefmt="github"))
 
