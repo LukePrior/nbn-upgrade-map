@@ -41,7 +41,7 @@ def get_nbn_suburb_dates():
     return results
 
 
-def get_db_suburb_list():
+def get_db_suburb_list(args):
     """Get list of all states and suburbs from the database"""
     xdb = db.connect_to_db(args)
     db_suburb_counts = xdb.get_counts_by_suburb()
@@ -50,7 +50,7 @@ def get_db_suburb_list():
     }
 
 
-def add_address_count_to_suburbs():
+def add_address_count_to_suburbs(args):
     """Add address counts to Suburb objects"""
     xdb = db.connect_to_db(args)
     db_suburb_counts = xdb.get_counts_by_suburb()
@@ -58,14 +58,14 @@ def add_address_count_to_suburbs():
     all_suburbs = suburbs.read_all_suburbs()
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
-            suburb.address_count = db_suburb_counts[state].get(suburb.name.upper(), 0)
+            suburb.address_count = db_suburb_counts.get(state, {}).get(suburb.name.upper(), 0)
     suburbs.write_all_suburbs(all_suburbs)
 
 
 def rebuild_status_file():
     """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
     # Load list of all suburbs from DB
-    db_suburbs = get_db_suburb_list()
+    db_suburbs = get_db_suburb_list(args)
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
 
     # Load list of all suburb dates from NBN website
@@ -95,7 +95,7 @@ def rebuild_status_file():
 
     suburbs.write_all_suburbs(all_suburbs)
 
-    add_address_count_to_suburbs()
+    add_address_count_to_suburbs(args)
 
 
 def resort_results():
@@ -120,7 +120,7 @@ def get_suburb_extents():
 
 def update_all_suburbs_from_db():
     """Rewrite the (old) all_suburbs.json file from the DB.  This is a one-off."""
-    db_suburbs = get_db_suburb_list()
+    db_suburbs = get_db_suburb_list(args)
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
     db_suburbs["QLD"].sort()
     utils.write_json_file(
@@ -267,8 +267,7 @@ if __name__ == "__main__":
     # get_tech_and_upgrade_breakdown()
     update_historical_tech_and_upgrade_breakdown()
     # check_processing_rate()
-    # add_address_count_to_suburbs()
-    # add_address_count_to_suburbs()
+    # add_address_count_to_suburbs(args)
     # blah = read_all_suburbs()
     # blah = geojson.read_json_file("results/all-suburbs.json")
 
