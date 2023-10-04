@@ -43,8 +43,10 @@ def test_add_address_count_to_suburbs(monkeypatch):
         lambda filename: testutils.read_test_data_json("combined-suburbs-somer.json"),
     )
     SAVED_JSON = {}
+
     def dummy_write_json_file(filename: str, data: dict, indent=4):
         SAVED_JSON[filename] = data
+
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
 
     # DB has 8 suburbs (like "SOMER") across 5 states
@@ -53,8 +55,8 @@ def test_add_address_count_to_suburbs(monkeypatch):
     adhoc_tools.add_address_count_to_suburbs(args)
     assert len(SAVED_JSON) == 1
     assert "results/combined-suburbs.json" in SAVED_JSON
-    nsw_suburbs = {s['name']: s for s in SAVED_JSON["results/combined-suburbs.json"]["NSW"]}
-    assert nsw_suburbs['Somersby']['address_count'] == 5
+    nsw_suburbs = {s["name"]: s for s in SAVED_JSON["results/combined-suburbs.json"]["NSW"]}
+    assert nsw_suburbs["Somersby"]["address_count"] == 5
     assert nsw_suburbs["Somerton"]["address_count"] == 1
-    sa_suburbs = {s['name']: s for s in SAVED_JSON["results/combined-suburbs.json"]["SA"]}
+    sa_suburbs = {s["name"]: s for s in SAVED_JSON["results/combined-suburbs.json"]["SA"]}
     assert sa_suburbs["Somerton Park"]["address_count"] == 20
