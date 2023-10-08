@@ -97,6 +97,7 @@ def rebuild_status_file():
 
     add_address_count_to_suburbs(args)
 
+
 def update_suburb_dates():
     """Update the suburb dates from the NBN website"""
     suburb_dates = get_nbn_suburb_dates()

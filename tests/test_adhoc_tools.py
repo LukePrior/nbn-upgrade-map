@@ -61,6 +61,7 @@ def test_add_address_count_to_suburbs(monkeypatch):
     sa_suburbs = {s["name"]: s for s in SAVED_JSON["results/combined-suburbs.json"]["SA"]}
     assert sa_suburbs["Somerton Park"]["address_count"] == 20
 
+
 def test_update_suburb_dates(monkeypatch):
     monkeypatch.setattr("adhoc_tools.get_nbn_suburb_dates", lambda: testutils.read_test_data_json("suburb-dates.json"))
     monkeypatch.setattr("utils.read_json_file", lambda filename: testutils.read_test_data_json("combined-suburbs.json"))
@@ -76,4 +77,3 @@ def test_update_suburb_dates(monkeypatch):
     assert len(SAVED_JSON) == 2
     assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]["announced_date"] is None
     assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][1]["announced_date"] == "February 2025"
-
