@@ -36,10 +36,6 @@ The updating of data is performed with a GitHub Actions workflow that accepts a 
 
 If you would like to see an additional suburb added please open an issue.
 
-## History
-
-![History Graph](https://quickchart.io/chart/render/sf-fce67a4f-2c64-41d8-aa96-9f584e67a4ef)
-
 ## Running locally
 
 To run the code on your local machine you will first need to setup the PostgreSQL database with the GNAF dataset.
