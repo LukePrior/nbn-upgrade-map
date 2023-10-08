@@ -97,6 +97,18 @@ def rebuild_status_file():
 
     add_address_count_to_suburbs(args)
 
+def update_suburb_dates():
+    """Update the suburb dates from the NBN website"""
+    suburb_dates = get_nbn_suburb_dates()
+    utils.write_json_file("results/suburb-dates.json", suburb_dates)
+
+    all_suburbs = suburbs.read_all_suburbs()
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            if state in suburb_dates:
+                suburb.announced_date = suburb_dates[state].get(suburb.name, None)
+    suburbs.write_all_suburbs(all_suburbs)
+
 
 def resort_results():
     """Sort every one of the previously created geojson files by gnaf_pid"""
@@ -265,7 +277,7 @@ if __name__ == "__main__":
     # update_all_suburbs_from_db()
 
     # get_tech_and_upgrade_breakdown()
-    update_historical_tech_and_upgrade_breakdown()
+    # update_historical_tech_and_upgrade_breakdown()
     # check_processing_rate()
     # add_address_count_to_suburbs(args)
     # blah = read_all_suburbs()
@@ -275,6 +287,8 @@ if __name__ == "__main__":
     # fix_gnaf_pid_mismatch()
 
     # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
+
+    update_suburb_dates()
 
     # update_suburb_dates()
     # compare_suburb_lists()
