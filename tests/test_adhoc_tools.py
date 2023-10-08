@@ -73,8 +73,7 @@ def test_update_suburb_dates(monkeypatch):
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
 
     adhoc_tools.update_suburb_dates()
-    print(SAVED_JSON)
     assert len(SAVED_JSON) == 2
-    assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]["announced_date"] == "February 2025"
-    assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][1]["announced_date"] is None
+    assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]["announced_date"] is None
+    assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][1]["announced_date"] == "February 2025"
 
