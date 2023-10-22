@@ -32,10 +32,11 @@ else
     longitude numeric(11,8) NOT NULL
   );
 
-  CREATE INDEX address_name_state ON address_principals(locality_name, state);
-
 .mode csv
 .import $CSV_FILENAME address_principals
+
+  CREATE INDEX address_name_state ON address_principals(locality_name, state);
+
 .exit
 EOF
 
