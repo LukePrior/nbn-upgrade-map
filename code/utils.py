@@ -2,7 +2,7 @@ import json
 import os
 
 
-def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", printEnd="\r"):
+def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, length=100, fill="█", print_end="\r"):
     """
     Call in a loop to create terminal progress bar.
     Borrowed from https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters
@@ -19,7 +19,7 @@ def print_progress_bar(iteration, total, prefix="", suffix="", decimals=1, lengt
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     filled_length = int(length * iteration // total)
     bar = fill * filled_length + "-" * (length - filled_length)
-    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=printEnd)
+    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end=print_end)
     # Print New Line on Complete
     if iteration == total:
         print()
@@ -35,5 +35,5 @@ def read_json_file(filename: str, empty_if_missing=False) -> dict:
     """Read a dict from a JSON file."""
     if empty_if_missing and not os.path.exists(filename):
         return {}
-    with open(filename, "r", encoding="utf-8") as file:
+    with open(filename, encoding="utf-8") as file:
         return json.load(file)
