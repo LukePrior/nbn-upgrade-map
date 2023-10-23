@@ -9,6 +9,9 @@ class JSONWrapper:
     def json(self):
         return self.data
 
+    def raise_for_status(self):
+        pass
+
 
 def requests_session_get(self, url, **kwargs):
     """Return canned NBN API data for testing"""
