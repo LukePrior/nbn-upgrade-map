@@ -14,7 +14,7 @@ class DbDriver(ABC):
     """Abstract class for DB connections."""
 
     @abstractmethod
-    def execute(self, query, vars=None):
+    def execute(self, query, args=None):
         """Return a list of Namespace objects for the provided query."""
         pass
 
@@ -131,9 +131,9 @@ class PostgresDb(DbDriver):
             )
             conn.commit()
 
-    def execute(self, query, vars=None):
+    def execute(self, query, args=None):
         """Return a list of Namespace objects for the provided query."""
-        self.cur.execute(query, vars)
+        self.cur.execute(query, args)
         return self.cur.fetchall()
 
 
@@ -146,12 +146,13 @@ class SqliteDb(DbDriver):
         conn.row_factory = sqlite3.Row
         self.cur = conn.cursor()
 
-    def execute(self, query, vars=None):
+    def execute(self, query, args=None):
         """Return a list of Namespace objects for the provided query."""
         query = query.replace("%s", "?")
-        if vars is None:
-            vars = {}
-        self.cur.execute(query, vars)
+        if args is None:
+            args = {}
+        logging.info("Executing query: %s", query)
+        self.cur.execute(query, args)
         # sqlite doesn't support NamedTupleCursor, so we need to manually add the column names
         return [Namespace(**dict(zip(x.keys(), x))) for x in self.cur.fetchall()]
 
