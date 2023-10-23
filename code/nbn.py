@@ -28,7 +28,9 @@ class NBNApi:
 
     def get_nbn_data_json(self, url) -> dict:
         """Gets a JSON response from a URL."""
-        return self.session.get(url, stream=True, headers=self.HEADERS).json()
+        r = self.session.get(url, stream=True, headers=self.HEADERS)
+        r.raise_for_status()
+        return r.json()
 
     def get_nbn_loc_id(self, key: str, address: str) -> str:
         """Return the NBN locID for the provided address, or None if there was an error."""
