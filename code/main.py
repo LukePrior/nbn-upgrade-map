@@ -90,6 +90,9 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
             status = nbn.get_nbn_loc_details(address.loc_id)
             address.tech = status["addressDetail"]["techType"]
             address.upgrade = status["addressDetail"].get("altReasonCode", "UNKNOWN")
+            address.techChangeStatus = status["addressDetail"].get("techChangeStatus", "UNKNOWN")
+            address.programType = status["addressDetail"].get("programType", "UNKNOWN")
+            address.targetEligibilityQuarter = status["addressDetail"].get("targetEligibilityQuarter", "UNKNOWN")
     except requests.exceptions.RequestException as err:
         logging.warning("Error fetching NBN data for %s: %s", address.name, err)
     except Exception:

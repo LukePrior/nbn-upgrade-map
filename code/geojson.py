@@ -18,6 +18,9 @@ def format_addresses(addresses: AddressList, suburb: str, generated: datetime = 
                 "locID": address.loc_id,
                 "tech": address.tech,
                 "upgrade": address.upgrade,
+                "techChangeStatus": address.techChangeStatus,
+                "programType": address.programType,
+                "targetEligibilityQuarter": address.targetEligibilityQuarter,
                 "gnaf_pid": address.gnaf_pid,
             },
         }

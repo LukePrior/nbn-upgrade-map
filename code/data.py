@@ -27,6 +27,9 @@ class Address:
     loc_id: str = None
     tech: str = None
     upgrade: str = None
+    techChangeStatus: str = None
+    programType: str = None
+    targetEligibilityQuarter: str = None
 
 
 AddressList = list[Address]
