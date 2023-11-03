@@ -9,6 +9,7 @@ from utils import read_json_file, write_json_file
 
 def format_addresses(addresses: AddressList, suburb: str, generated: datetime = None) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
+
     def make_feature(address: Address) -> dict:
         """Given an Address, return a GeoJSON Feature."""
         feature = {
@@ -20,7 +21,7 @@ def format_addresses(addresses: AddressList, suburb: str, generated: datetime = 
                 "tech": address.tech,
                 "upgrade": address.upgrade,
                 "gnaf_pid": address.gnaf_pid,
-            }
+            },
         }
         if address.tech_change_status:
             feature["properties"]["tech_change_status"] = address.tech_change_status
