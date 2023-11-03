@@ -219,11 +219,20 @@
                     },
                     onEachFeature: function (feature, layer) {
                         // popup with place name and upgrade type
-                        layer.bindPopup(
-                            "<b>" + feature.properties.name + 
-                            "</b><br>Current tech: " + feature.properties.tech + 
+                        var s = "<b>" + feature.properties.name +
+                            "</b><br>Current tech: " + feature.properties.tech +
                             "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : feature.properties.tech == "FTTP" ? "N/A" : "No"))
-                        );
+                        if ("tech_change_status" in feature.properties) {
+                            s += "<br>Tech Change Status: " + feature.properties.tech_change_status
+                        }
+                        if ("program_type" in feature.properties) {
+                            s += "<br>Program Type: " + feature.properties.program_type
+                        }
+                        if ("target_eligibility_quarter" in feature.properties) {
+                            s += "<br>Target Eligibility Quarter: " + feature.properties.target_eligibility_quarter
+                        }
+
+                        layer.bindPopup(s);
                     }
                 })
                 markers.addLayer(geojson);
