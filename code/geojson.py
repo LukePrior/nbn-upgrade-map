@@ -19,6 +19,9 @@ def format_addresses(addresses: AddressList, suburb: str, generated: datetime = 
                 "tech": address.tech,
                 "upgrade": address.upgrade,
                 "gnaf_pid": address.gnaf_pid,
+                "tech_change_status": address.tech_change_status,
+                "program_type": address.program_type,
+                "target_eligibility_quarter": address.target_eligibility_quarter,
             },
         }
         for address in addresses
@@ -67,6 +70,9 @@ def feature_to_address(f: dict) -> Address:
         loc_id=f["properties"]["locID"],
         tech=f["properties"]["tech"],
         upgrade=f["properties"]["upgrade"],
+        tech_change_status=f["properties"].get("tech_change_status"),
+        program_type=f["properties"].get("program_type"),
+        target_eligibility_quarter=f["properties"].get("target_eligibility_quarter"),
     )
 
 

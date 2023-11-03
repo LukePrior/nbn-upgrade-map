@@ -1,5 +1,8 @@
 import testutils
 from nbn import CACHE, NBNApi
+import main
+from data import Address
+import copy
 
 
 class JSONWrapper:
@@ -35,6 +38,9 @@ def test_get_address(monkeypatch):
     assert details["servingArea"]["techType"] == "FTTN"
     assert details["servingArea"]["description"] == "Moggill"
     assert details["addressDetail"]["formattedAddress"] == "LOT 56 1 BLUEGUM RISE ANSTEAD QLD 4070 Australia"
+    assert details["addressDetail"]["techChangeStatus"] == "Committed"
+    assert details["addressDetail"]["programType"] == "On-Demand N2P SDU/MDU Simple"
+    assert details["addressDetail"]["targetEligibilityQuarter"] == "Jun 2024"
     # test cached
     details = nbn.get_nbn_loc_details("LOC000126303452")
     assert details["servingArea"]["techType"] == "FTTN"

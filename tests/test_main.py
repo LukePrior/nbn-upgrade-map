@@ -2,6 +2,7 @@ import copy
 import datetime
 
 import main
+import test_nbn
 import testutils
 import update_breakdown
 from data import Address
@@ -108,3 +109,25 @@ def test_update_breakdown_rerun(monkeypatch):
     bd = update_breakdown.update_breakdown()
     assert len(bd) == 1
     assert bd[date_key] == dummy_value
+
+
+def test_nbn_to_data(monkeypatch):
+    monkeypatch.setattr("nbn.requests.Session.get", test_nbn.requests_session_get)
+
+    nbn = NBNApi()
+
+    # test uncached
+    CACHE.clear()
+
+    address = Address(
+        name="1 BLUEGUM RISE ANSTEAD 4070",
+        gnaf_pid="GAQLD425035994",
+        longitude=-27.56300033,
+        latitude=152.85904758,
+    )
+    out_address = main.get_address(nbn, copy.copy(address), get_status=True)
+    assert out_address.loc_id == "LOC000126303452"
+    assert out_address.tech == "FTTN"
+    assert out_address.tech_change_status == "Committed"
+    assert out_address.program_type == "On-Demand N2P SDU/MDU Simple"
+    assert out_address.target_eligibility_quarter == "Jun 2024"

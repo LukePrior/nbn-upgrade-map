@@ -46,6 +46,17 @@ def test_write_geojson(monkeypatch):
         Address(name="2 Fake St", gnaf_pid="GNAF456", longitude=123.456, latitude=-12.345, upgrade="ABC", tech="FTTN"),
         Address(name="3 Fake St", gnaf_pid="GNAF789", longitude=123.456, latitude=-12.345, upgrade="ABC"),
         Address(name="4 Fake St", gnaf_pid="GNAF007", longitude=123.456, latitude=-12.345, tech="ABC"),
+        Address(
+            name="5 Fake St",
+            gnaf_pid="GNAF808",
+            longitude=123.456,
+            latitude=-12.345,
+            upgrade="ABC",
+            tech="FTTN",
+            tech_change_status="Committed",
+            program_type="On-Demand N2P SDU/MDU Simple",
+            target_eligibility_quarter="Jun 2024",
+        ),
     ]
     generated = datetime.datetime.now() - datetime.timedelta(days=1)
     geojson.write_geojson_file("MyTown", "ABC", addresses, generated)
@@ -54,10 +65,13 @@ def test_write_geojson(monkeypatch):
     assert info["type"] == "FeatureCollection"
     assert info["suburb"] == "MyTown"
     assert info["generated"] == generated.isoformat()
-    assert len(info["features"]) == 2, "addresses with no tech or upgrade should not be included"
+    assert len(info["features"]) == 3, "addresses with no tech or upgrade should not be included"
     assert info["features"][0]["type"] == "Feature"
     assert info["features"][0]["properties"]["upgrade"] == "XYZ"
     assert info["features"][0]["properties"]["tech"] == "FTTP"
+    assert info["features"][2]["properties"]["tech_change_status"] == "Committed"
+    assert info["features"][2]["properties"]["program_type"] == "On-Demand N2P SDU/MDU Simple"
+    assert info["features"][2]["properties"]["target_eligibility_quarter"] == "Jun 2024"
 
     geojson.write_geojson_file("MyTown", "ABC", addresses)
     info = SAVED_JSON["results/ABC/mytown.geojson"]
