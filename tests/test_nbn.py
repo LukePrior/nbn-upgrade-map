@@ -1,8 +1,5 @@
 import testutils
 from nbn import CACHE, NBNApi
-import main
-from data import Address
-import copy
 
 
 class JSONWrapper:
