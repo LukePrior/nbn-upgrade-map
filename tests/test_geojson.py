@@ -69,6 +69,9 @@ def test_write_geojson(monkeypatch):
     assert info["features"][0]["type"] == "Feature"
     assert info["features"][0]["properties"]["upgrade"] == "XYZ"
     assert info["features"][0]["properties"]["tech"] == "FTTP"
+    assert "tech_change_status" not in info["features"][0]["properties"]
+    assert "program_type" not in info["features"][0]["properties"]
+    assert "target_eligibility_quarter" not in info["features"][0]["properties"]
     assert info["features"][2]["properties"]["tech_change_status"] == "Committed"
     assert info["features"][2]["properties"]["program_type"] == "On-Demand N2P SDU/MDU Simple"
     assert info["features"][2]["properties"]["target_eligibility_quarter"] == "Jun 2024"

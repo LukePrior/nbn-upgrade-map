@@ -9,8 +9,9 @@ from utils import read_json_file, write_json_file
 
 def format_addresses(addresses: AddressList, suburb: str, generated: datetime = None) -> dict:
     """Convert the list of addresses (with upgrade+tech fields) into a GeoJSON FeatureCollection."""
-    features = [
-        {
+    def make_feature(address: Address) -> dict:
+        """Given an Address, return a GeoJSON Feature."""
+        feature = {
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": [address.longitude, address.latitude]},
             "properties": {
@@ -19,13 +20,20 @@ def format_addresses(addresses: AddressList, suburb: str, generated: datetime = 
                 "tech": address.tech,
                 "upgrade": address.upgrade,
                 "gnaf_pid": address.gnaf_pid,
-                "tech_change_status": address.tech_change_status,
-                "program_type": address.program_type,
-                "target_eligibility_quarter": address.target_eligibility_quarter,
-            },
+            }
         }
+        if address.tech_change_status:
+            feature["properties"]["tech_change_status"] = address.tech_change_status
+        if address.program_type:
+            feature["properties"]["program_type"] = address.program_type
+        if address.target_eligibility_quarter:
+            feature["properties"]["target_eligibility_quarter"] = address.target_eligibility_quarter
+        return feature
+
+    features = [
+        make_feature(address)
         for address in addresses
-        if address.upgrade and address.tech
+        if address.upgrade and address.tech  # don't include addresses with no tech or upgrade
     ]
 
     if generated is None:
