@@ -78,8 +78,29 @@
             default_commit = urlParams.get("commit");
         }
 
-        // add dropdown
-        fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+
+        // add date dropdown
+        // https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json
+        fetch("commits.json").then(res => res.json()).then(data => {
+            combined_info = data;
+            var dropdown = L.control({ position: 'topright' });
+            dropdown.onAdd = function (map) {
+                var div = L.DomUtil.create('div', 'dropdown');
+                var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_suburb+"/"+default_state, this.value)" style="width: 120px;">';
+                dropdownHTML += '<option value="main">latest</option>';
+                for (const [cdate, commit] of Object.entries(data)) {
+                    dropdownHTML += '<option value=' + commit + '>' + cdate + '</option>';
+                }
+                dropdownHTML += '</select>';
+                div.innerHTML = dropdownHTML;
+                return div;
+            }
+            dropdown.addTo(map);
+            $('.commit-selector').select2();
+        });
+
+        // add suburb dropdown
+        fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + default_commit + "/results/combined-suburbs.json").then(res => res.json()).then(data => {
             combined_info = data;
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
@@ -289,7 +310,7 @@
                 // fit to bounds
                 map.fitBounds(L.geoJson(data).getBounds());
                 // update url
-                window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0]);
+                window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
             });
         }
 
