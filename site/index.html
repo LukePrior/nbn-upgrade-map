@@ -68,10 +68,14 @@
         var urlParams = new URLSearchParams(window.location.search);
         var default_suburb = "bli-bli";
         var default_state = "QLD";
+        var default_commit = "main";
         var combined_info = null;
         if (urlParams.has("suburb") && urlParams.has("state")) {
             default_suburb = urlParams.get("suburb");
             default_state = urlParams.get("state");
+        }
+        if (urlParams.has("commit")) {
+            default_commit = urlParams.get("commit");
         }
 
         // add dropdown
@@ -80,7 +84,7 @@
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
-                var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value)" style="width: 300px;">';
+                var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;">';
                 // add options for each state
                 for (const [state, suburbs] of Object.entries(data)) {
                     dropdownHTML += '<optgroup label="' + state + '">';
@@ -166,8 +170,8 @@
         }
 
         // load GeoJSON from an external file
-        function loadSuburb(state_file) {
-            url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/" + state_file + ".geojson"
+        function loadSuburb(state_file, commit) {
+            url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
             fetch(url).then(res => res.json()).then(data => {
                 // clear existing markers
                 map.eachLayer(function (layer) {
@@ -289,7 +293,7 @@
             });
         }
 
-        loadSuburb(default_state+"/"+default_suburb)
+        loadSuburb(default_state+"/"+default_suburb, default_commit)
     </script>
 </body>
 </html>
