@@ -5,7 +5,7 @@ import os
 import re
 import subprocess
 from collections import Counter, OrderedDict
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta
 
 import data
 import db
@@ -35,8 +35,8 @@ def get_nbn_suburb_dates():
         state = state_element.find("span", class_="cmp-accordion__title").text
         results[state] = {}
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
-            for suburb, suburb_date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
-                results[state][suburb.title()] = suburb_date
+            for suburb, date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
+                results[state][suburb.title()] = date
 
     return results
 
@@ -262,22 +262,6 @@ def update_historical_tech_and_upgrade_breakdown():
         rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
         print()
         print(tabulate(rows, headers="keys", tablefmt="github"))
-
-
-def write_git_history_file():
-    """Write a file containing the git history of the repo (hash every 7 days), for use in the website."""
-    co_date = date(2023, 5, 23)
-    commits = {}
-
-    cmd = f'git log --pretty=format:"%H%x09%ai" --since={co_date}'
-    for line in subprocess.getoutput(cmd).split("\n"):
-        commit, datestr = line.split("\t")
-        commit_date = datetime.fromisoformat(datestr).date()
-        if commit_date > co_date:
-            commits[str(co_date)] = commit
-            co_date += timedelta(days=7)
-
-    utils.write_json_file('results/commits.json', commits)
 
 
 if __name__ == "__main__":
