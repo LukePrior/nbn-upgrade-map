@@ -306,8 +306,6 @@
                     dropdownHTML += '<option value="main">latest ' + default_suburb + '</option>';
                     for (const [cid, commit] of Object.entries(data)) {
                         [commit_date, commit_time] = commit.commit.author.date.split('T')
-                        // selected_text = ((file == default_suburb && state == default_state) ? "selected" : "")
-                        // dropdownHTML += '<option value="' + state + '/' + file + '" ' + selected_text + '>' + suburb.name + '</option>';
                         selected_text = (commit.sha == default_commit) ? "selected" : ""
                         dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + commit_date + '</option>';
                     }
