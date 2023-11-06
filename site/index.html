@@ -270,7 +270,7 @@
                         statsHTML += '<tr><td>' + tech + '</td><td>' + techs[tech] + '</td></tr>';
                     }
                     statsHTML += '</table>';
-                    statsHTML += 'Last Update: ' + new Date(data["generated"]).toLocaleDateString("en-AU");
+                    statsHTML += 'As of ' + new Date(data["generated"]).toLocaleDateString("en-AU");
                     [state, file] = state_file.split('/')
                     if (combined_info != null) {
                         for (var suburb of combined_info[state]) {
@@ -307,7 +307,7 @@
                     for (const [cid, commit] of Object.entries(data)) {
                         [commit_date, commit_time] = commit.commit.author.date.split('T')
                         selected_text = (commit.sha == default_commit) ? "selected" : ""
-                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + commit_date + '</option>';
+                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
                     }
                     dropdownHTML += '</select>';
                     div.innerHTML = dropdownHTML;
