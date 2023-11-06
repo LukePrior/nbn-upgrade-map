@@ -35,8 +35,8 @@ def get_nbn_suburb_dates():
         state = state_element.find("span", class_="cmp-accordion__title").text
         results[state] = {}
         for p in state_element.find("div", class_="cmp-text").find_all("p"):
-            for suburb, date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
-                results[state][suburb.title()] = date
+            for suburb, suburb_date in re.findall(r"^(.*) - from (\w+ \d{4})", p.text, flags=re.MULTILINE):
+                results[state][suburb.title()] = suburb_date
 
     return results
 
