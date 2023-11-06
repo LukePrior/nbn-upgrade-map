@@ -85,7 +85,7 @@
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
-                var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;">';
+                var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, &quot;main&quot;)" style="width: 300px;">';
                 // add options for each state
                 for (const [state, suburbs] of Object.entries(data)) {
                     dropdownHTML += '<optgroup label="' + state + '">';
