@@ -295,29 +295,29 @@
                 map.fitBounds(L.geoJson(data).getBounds());
                 // update url
                 window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
-            });
 
-            commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
-            fetch(commits_url).then(res => res.json()).then(data => {
-                var dropdown = L.control({ position: 'topright' });
-                dropdown.onAdd = function (map) {
-                    var div = L.DomUtil.create('div', 'date-dropdown');
-                    var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
-                    dropdownHTML += '<option value="main">latest ' + default_suburb + '</option>';
-                    for (const [cid, commit] of Object.entries(data)) {
-                        [commit_date, commit_time] = commit.commit.author.date.split('T')
-                        selected_text = (commit.sha == default_commit) ? "selected" : ""
-                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
+                commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
+                fetch(commits_url).then(res => res.json()).then(data => {
+                    var dropdown = L.control({ position: 'topright' });
+                    dropdown.onAdd = function (map) {
+                        var div = L.DomUtil.create('div', 'date-dropdown');
+                        var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
+                        dropdownHTML += '<option value="main">latest ' + default_suburb + '</option>';
+                        for (const [cid, commit] of Object.entries(data)) {
+                            [commit_date, commit_time] = commit.commit.author.date.split('T')
+                            selected_text = (commit.sha == default_commit) ? "selected" : ""
+                            dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
+                        }
+                        dropdownHTML += '</select>';
+                        div.innerHTML = dropdownHTML;
+                        return div;
                     }
-                    dropdownHTML += '</select>';
-                    div.innerHTML = dropdownHTML;
-                    return div;
-                }
-                if (document.getElementsByClassName("date-dropdown").length > 0) {
-                    document.getElementsByClassName("date-dropdown")[0].remove();
-                }
-                dropdown.addTo(map);
-                $('.commit-selector').select2();
+                    if (document.getElementsByClassName("date-dropdown").length > 0) {
+                        document.getElementsByClassName("date-dropdown")[0].remove();
+                    }
+                    dropdown.addTo(map);
+                    $('.commit-selector').select2();
+                });
             });
         }
 
