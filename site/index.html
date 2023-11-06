@@ -79,26 +79,6 @@
         }
 
 
-        // add date dropdown
-        // https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json
-        fetch("commits.json").then(res => res.json()).then(data => {
-            combined_info = data;
-            var dropdown = L.control({ position: 'topright' });
-            dropdown.onAdd = function (map) {
-                var div = L.DomUtil.create('div', 'dropdown');
-                var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_suburb+"/"+default_state, this.value)" style="width: 120px;">';
-                dropdownHTML += '<option value="main">latest</option>';
-                for (const [cdate, commit] of Object.entries(data)) {
-                    dropdownHTML += '<option value=' + commit + '>' + cdate + '</option>';
-                }
-                dropdownHTML += '</select>';
-                div.innerHTML = dropdownHTML;
-                return div;
-            }
-            dropdown.addTo(map);
-            $('.commit-selector').select2();
-        });
-
         // add suburb dropdown
         fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + default_commit + "/results/combined-suburbs.json").then(res => res.json()).then(data => {
             combined_info = data;
@@ -192,7 +172,11 @@
 
         // load GeoJSON from an external file
         function loadSuburb(state_file, commit) {
+            console.log("loadSuburb(" + state_file + ", " + commit + ")")
             url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
+            default_state = state_file.split('/')[0]
+            default_suburb = state_file.split('/')[1]
+            default_commit = commit
             fetch(url).then(res => res.json()).then(data => {
                 // clear existing markers
                 map.eachLayer(function (layer) {
@@ -311,6 +295,31 @@
                 map.fitBounds(L.geoJson(data).getBounds());
                 // update url
                 window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
+            });
+
+            commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
+            fetch(commits_url).then(res => res.json()).then(data => {
+                var dropdown = L.control({ position: 'topright' });
+                dropdown.onAdd = function (map) {
+                    var div = L.DomUtil.create('div', 'date-dropdown');
+                    var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
+                    dropdownHTML += '<option value="main">latest ' + default_suburb + '</option>';
+                    for (const [cid, commit] of Object.entries(data)) {
+                        [commit_date, commit_time] = commit.commit.author.date.split('T')
+                        // selected_text = ((file == default_suburb && state == default_state) ? "selected" : "")
+                        // dropdownHTML += '<option value="' + state + '/' + file + '" ' + selected_text + '>' + suburb.name + '</option>';
+                        selected_text = (commit.sha == default_commit) ? "selected" : ""
+                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + commit_date + '</option>';
+                    }
+                    dropdownHTML += '</select>';
+                    div.innerHTML = dropdownHTML;
+                    return div;
+                }
+                if (document.getElementsByClassName("date-dropdown").length > 0) {
+                    document.getElementsByClassName("date-dropdown")[0].remove();
+                }
+                dropdown.addTo(map);
+                $('.commit-selector').select2();
             });
         }
 
