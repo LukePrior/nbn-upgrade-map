@@ -278,6 +278,16 @@ def generate_all_suburbs_nbn_tallies():
                         if prop not in tallies:
                             tallies[prop] = Counter()
                         tallies[prop][value] += 1
+
+    # Add percentages and missing items
+    total_count = sum(tallies["tech"].values())  # everything has a tech+NULL
+    tallies["percent"] = {}
+    for prop, kvs in tallies.items():
+        if prop in {"tech", "upgrade", "percent"}:
+            continue
+        kvs["None"] = total_count - sum(kvs.values())
+        tallies["percent"][prop] = {k: f"{100 * v / total_count:.2f}%" for k, v in kvs.items()}
+
     utils.write_json_file("results/all-suburbs-nbn-tallies.json", tallies, indent=1)
 
 
