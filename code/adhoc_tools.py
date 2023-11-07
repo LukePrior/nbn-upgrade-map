@@ -264,6 +264,23 @@ def update_historical_tech_and_upgrade_breakdown():
         print(tabulate(rows, headers="keys", tablefmt="github"))
 
 
+def generate_all_suburbs_nbn_tallies():
+    """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
+    exclude_properties = {'name', 'locID', 'gnaf_pid'}
+    tallies = {}  # property-name -> Counter()
+    for state in data.STATES:
+        for file in glob.glob(f"results/{state}/*.geojson"):
+            print(file)
+            result = utils.read_json_file(file)
+            for feature in result["features"]:
+                for prop, value in feature["properties"].items():
+                    if prop not in exclude_properties:
+                        if prop not in tallies:
+                            tallies[prop] = Counter()
+                        tallies[prop][value] += 1
+    utils.write_json_file("results/all-suburbs-nbn-tallies.json", tallies, indent=1)
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
