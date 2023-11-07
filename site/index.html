@@ -78,10 +78,24 @@
             default_commit = urlParams.get("commit");
         }
 
+        function addControlWithHTML(className, html) {
+            // Add/replace a topright control with given className and innerHTML
+            var dropdown = L.control({ position: 'topright' });
+            dropdown.onAdd = function (map) {
+                var div = L.DomUtil.create('div', className);
+                div.innerHTML = html;
+                return div;
+            }
+            if (document.getElementsByClassName(className).length > 0) {
+                document.getElementsByClassName(className)[0].remove();
+            }
+            dropdown.addTo(map);
+        }
 
         // add suburb dropdown
         fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + default_commit + "/results/combined-suburbs.json").then(res => res.json()).then(data => {
             combined_info = data;
+            // TODO: use addControlWithHTML?
             var dropdown = L.control({ position: 'topright' });
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
@@ -177,6 +191,7 @@
             default_state = state_file.split('/')[0]
             default_suburb = state_file.split('/')[1]
             default_commit = commit
+            addControlWithHTML('date-selector', 'Loading...')
             fetch(url).then(res => res.json()).then(data => {
                 // clear existing markers
                 map.eachLayer(function (layer) {
@@ -298,23 +313,14 @@
 
                 commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
                 fetch(commits_url).then(res => res.json()).then(data => {
-                    var dropdown = L.control({ position: 'topright' });
-                    dropdown.onAdd = function (map) {
-                        var div = L.DomUtil.create('div', 'date-dropdown');
-                        var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
-                        for (const [cid, commit] of Object.entries(data)) {
-                            [commit_date, commit_time] = commit.commit.author.date.split('T')
-                            selected_text = (commit.sha == default_commit) ? "selected" : ""
-                            dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
-                        }
-                        dropdownHTML += '</select>';
-                        div.innerHTML = dropdownHTML;
-                        return div;
+                    var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
+                    for (const [cid, commit] of Object.entries(data)) {
+                        [commit_date, commit_time] = commit.commit.author.date.split('T')
+                        selected_text = (commit.sha == default_commit) ? "selected" : ""
+                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
                     }
-                    if (document.getElementsByClassName("date-dropdown").length > 0) {
-                        document.getElementsByClassName("date-dropdown")[0].remove();
-                    }
-                    dropdown.addTo(map);
+                    dropdownHTML += '</select>';
+                    addControlWithHTML('date-selector', dropdownHTML)
                     $('.commit-selector').select2();
                 });
             });
