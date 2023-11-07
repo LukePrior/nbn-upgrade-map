@@ -268,16 +268,14 @@ def generate_all_suburbs_nbn_tallies():
     """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
     exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
-    for state in data.STATES:
-        for file in glob.glob(f"results/{state}/*.geojson"):
-            print(file)
-            result = utils.read_json_file(file)
-            for feature in result["features"]:
-                for prop, value in feature["properties"].items():
-                    if prop not in exclude_properties:
-                        if prop not in tallies:
-                            tallies[prop] = Counter()
-                        tallies[prop][value] += 1
+    for file in glob.glob(f"results/**/*.geojson"):
+        print(file)
+        for feature in utils.read_json_file(file)["features"]:
+            for prop, value in feature["properties"].items():
+                if prop not in exclude_properties:
+                    if prop not in tallies:
+                        tallies[prop] = Counter()
+                    tallies[prop][value] += 1
 
     # Add percentages and missing items
     total_count = sum(tallies["tech"].values())  # everything has a tech+NULL
