@@ -266,7 +266,7 @@ def update_historical_tech_and_upgrade_breakdown():
 
 def generate_all_suburbs_nbn_tallies():
     """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
-    exclude_properties = {'name', 'locID', 'gnaf_pid'}
+    exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
     for state in data.STATES:
         for file in glob.glob(f"results/{state}/*.geojson"):
