@@ -269,7 +269,6 @@ def generate_all_suburbs_nbn_tallies():
     exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
     for file in glob.glob("results/**/*.geojson"):
-        print(file)
         for feature in utils.read_json_file(file)["features"]:
             for prop, value in feature["properties"].items():
                 if prop not in exclude_properties:
