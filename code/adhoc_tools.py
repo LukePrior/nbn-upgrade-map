@@ -268,29 +268,14 @@ if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
 
-    parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
+    parser = argparse.ArgumentParser(
+        description="Run adhoc utility functions to do various maintenence-type activitirs."
+    )
+    parser.add_argument("run_functions", help="Comma-separated list of no-arg functions to run")
     db.add_db_arguments(parser)
     args = parser.parse_args()
 
-    # resort_results()
-    # add_to_announced_suburbs()
-    # get_suburb_extents
-    # update_all_suburbs_from_db()
-
-    # get_tech_and_upgrade_breakdown()
-    # update_historical_tech_and_upgrade_breakdown()
-    # check_processing_rate()
-    # add_address_count_to_suburbs(args)
-    # blah = read_all_suburbs()
-    # blah = geojson.read_json_file("results/all-suburbs.json")
-
-    # remove_duplicate_addresses()
-    # fix_gnaf_pid_mismatch()
-
-    # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
-
-    update_suburb_dates()
-
-    # update_suburb_dates()
-    # compare_suburb_lists()
-    # compare_db_suburbs()
+    for f in args.run_functions.split(","):
+        if f not in globals():
+            raise Exception(f"Unknown function: {f}")
+        globals()[f]()
