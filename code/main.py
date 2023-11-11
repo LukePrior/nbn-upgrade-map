@@ -12,9 +12,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from threading import Lock
 
-import requests
-
 import geojson
+import requests
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
@@ -56,11 +55,7 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
     logging.info("Checking for all suburbs...")
     by_date = {}
     for state, suburb_list in all_suburbs.items():
-        by_date |= {
-            s.processed_date: (s.name.upper(), state)
-            for s in suburb_list
-            if s.processed_date
-        }
+        by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
     for processed_date in sorted(by_date):
         yield by_date[processed_date]
 

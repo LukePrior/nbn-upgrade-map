@@ -7,16 +7,15 @@ import subprocess
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
 
-import requests
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-
 import data
 import db
 import geojson
 import main
+import requests
 import suburbs
 import utils
+from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
