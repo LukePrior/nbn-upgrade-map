@@ -2,7 +2,6 @@ import datetime
 from argparse import Namespace
 
 import adhoc_tools
-import data
 import testutils
 from test_db import SAMPLE_ADDRESSES_DB_FILE
 
