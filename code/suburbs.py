@@ -130,7 +130,7 @@ def get_address_progress() -> dict:
     progress = {"all": {}}
     for state, suburb_list in read_all_suburbs().items():
         tot_addresses = 0
-        tot_done = tot_listed_done = 0
+        tot_done = 0
         for suburb in suburb_list:
             tot_addresses += suburb.address_count
             if suburb.processed_date is not None:

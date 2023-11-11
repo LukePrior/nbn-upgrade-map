@@ -128,11 +128,10 @@ def check_processing_rate():
                 continue
             tally[suburb.processed_date.date()] += 1
 
-    data = sorted(tally.items())
-    data.append(("TOTAL", sum(tally.values())))
-
-    print(tabulate(data, headers=["date", "count"], tablefmt="github"))
-    return data
+    items = sorted(tally.items())
+    items.append(("TOTAL", sum(tally.values())))
+    print(tabulate(items, headers=["date", "count"], tablefmt="github"))
+    return items
 
 
 def remove_duplicate_addresses():
