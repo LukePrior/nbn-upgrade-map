@@ -24,11 +24,12 @@ REPOSITORY           TAG       IMAGE ID       CREATED          SIZE
 mydb                 latest    84af660a3493   39 seconds ago   3.73GB
 minus34/gnafloader   latest    d2c552c72a0a   10 days ago      32GB
 ```
-# Sqlite Version
+
+## Sqlite Version
 
 To create a SQLite DB from the full CSV file (as used in the Dockerfile) use:
 
-```
+```text
 sqlite3 address_principals.db
 
 CREATE TABLE address_principals
