@@ -1,13 +1,8 @@
 # NBN FTTP Upgrade Map
 
-![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Listed&query=%24.suburbs.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
-![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress%20vs%20Total&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
-
-![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Listed&query=%24.addresses.listed.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
-![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress%20vs%20Total&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
-
-![Updated](https://img.shields.io/badge/dynamic/json?label=Oldest%20Listed&query=last_updated.listed.TOTAL.days&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%20days)
-![Updated](https://img.shields.io/badge/dynamic/json?label=Oldest%20Total&query=last_updated.all.TOTAL.days&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%20days)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
+![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
+![Updated](https://img.shields.io/badge/dynamic/json?label=Oldest%20Suburb&query=last_updated.all.TOTAL.days&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%20days)
 
 
 The Australian National Broadband Network (NBN) announced an on-demand upgrade program for select premises serviced via Fibre to the Node (FTTN) and Fibre to the Curb (FTTC) to Fibre to the Premises (FTTP) in October 2020.

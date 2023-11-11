@@ -12,8 +12,9 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from threading import Lock
 
-import geojson
 import requests
+
+import geojson
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
@@ -53,26 +54,14 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
             if suburb.processed_date is None:
                 yield suburb.name.upper(), state
 
-    # 2. find announced suburbs that have not been updated in REFRESH_ANNOUNCED_DAYS days
-    logging.info("Checking for announced suburbs that haven't been updated in %d days...", REFRESH_ANNOUNCED_DAYS)
-    cutoff_date = datetime.now() - timedelta(days=REFRESH_ANNOUNCED_DAYS)
-    announced_by_date = {}
-    for state, suburb_list in all_suburbs.items():
-        for s in suburb_list:
-            if s.processed_date is not None and s.announced and s.processed_date < cutoff_date:
-                announced_by_date[s.processed_date] = (s.name.upper(), state)
-    for processed_date in sorted(announced_by_date):
-        yield announced_by_date[processed_date]
-
     # 3. find suburbs for reprocessing
     logging.info("Checking for all suburbs...")
-    # TODO: prefer suburbs with closer announced dates
     by_date = {}
     for state, suburb_list in all_suburbs.items():
         by_date |= {
             s.processed_date: (s.name.upper(), state)
             for s in suburb_list
-            if s.processed_date and s.processed_date not in announced_by_date
+            if s.processed_date
         }
     for processed_date in sorted(by_date):
         yield by_date[processed_date]
