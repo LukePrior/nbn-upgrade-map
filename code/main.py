@@ -30,8 +30,6 @@ from utils import print_progress_bar
 GNAF_PID_TO_LOC: dict[str, str] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
-REFRESH_ANNOUNCED_DAYS = 21  # number of days between refreshing announced suburbs
-
 
 def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
     """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""

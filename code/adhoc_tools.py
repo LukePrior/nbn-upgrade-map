@@ -64,7 +64,7 @@ def add_address_count_to_suburbs(args):
 
 
 def rebuild_status_file():
-    """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
+    """Fetch a list of all suburbs from DB, augment with processed+dates, and completed results"""
     # Load list of all suburbs from DB
     db_suburbs = get_db_suburb_list(args)
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
@@ -119,7 +119,7 @@ def update_all_suburbs_from_db():
 
 
 def check_processing_rate():
-    """Emit a table of the number of suburbs processed each day (announced vs other)"""
+    """Emit a table of the number of suburbs processed each day"""
     tally = Counter()
     for state, suburb_list in suburbs.read_all_suburbs().items():
         for suburb in suburb_list:

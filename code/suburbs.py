@@ -1,4 +1,4 @@
-# api for managing the list of suburbs, which ones have been completed, dates announced, etc.
+# api for managing the list of suburbs, which ones have been completed,etc.
 import dataclasses
 import glob
 import logging
