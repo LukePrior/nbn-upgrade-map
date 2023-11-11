@@ -65,14 +65,12 @@ def test_get_suburb_progress(monkeypatch):
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     progress = suburbs.get_suburb_progress()
     assert progress["all"]["ACT"] == {"done": 2, "percent": 50.0, "total": 4}
-    assert progress["listed"]["ACT"] == {"done": 1, "percent": 50.0, "total": 2}
 
 
 def test_get_address_progress(monkeypatch):
     """Test suburbs.get_address_progress()."""
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     progress = suburbs.get_address_progress()
-    assert progress["listed"]["TOTAL"] == {"done": 1074, "percent": 31.2, "total": 3446}
     assert progress["all"]["TOTAL"] == {"done": 3670, "percent": 57.8, "total": 6354}
 
 
@@ -94,16 +92,10 @@ def test_update_progress(monkeypatch):
     assert progress["suburbs"]["all"]["TOTAL"]["done"] == 2
     assert progress["suburbs"]["all"]["TOTAL"]["total"] == 4
     assert progress["suburbs"]["all"]["TOTAL"]["percent"] == 50.0
-    assert progress["suburbs"]["listed"]["TOTAL"]["done"] == 1
-    assert progress["suburbs"]["listed"]["TOTAL"]["total"] == 2
-    assert progress["suburbs"]["listed"]["TOTAL"]["percent"] == 50.0
 
     assert progress["addresses"]["all"]["TOTAL"]["done"] == 3670
     assert progress["addresses"]["all"]["TOTAL"]["total"] == 6354
     assert progress["addresses"]["all"]["TOTAL"]["percent"] == 57.8
-    assert progress["addresses"]["listed"]["TOTAL"]["done"] == 1074
-    assert progress["addresses"]["listed"]["TOTAL"]["total"] == 3446
-    assert progress["addresses"]["listed"]["TOTAL"]["percent"] == 31.2
 
 
 def test_update_processed_dates(monkeypatch):

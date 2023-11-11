@@ -1,4 +1,4 @@
-# api for managing the list of suburbs, which ones have been completed, dates announced, etc.
+# api for managing the list of suburbs, which ones have been completed,etc.
 import dataclasses
 import glob
 import logging
@@ -36,7 +36,7 @@ def read_all_suburbs() -> data.SuburbsByState:
 
     def _dict_to_suburb(d: dict) -> data.Suburb:
         d["processed_date"] = datetime.fromisoformat(d["processed_date"]) if d["processed_date"] else None
-        d.pop("announced", None)
+        d.pop("announced_date", None)  # TODO: remove old field
         return data.Suburb(**d)
 
     results = utils.read_json_file("results/combined-suburbs.json")
@@ -117,44 +117,31 @@ def _add_total_progress(progress: dict):
 
 def get_suburb_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {"listed": {}, "all": {}}
+    progress = {"all": {}}
     for state, suburb_list in read_all_suburbs().items():
-        progress["listed"][state] = _get_completion_progress(suburb for suburb in suburb_list if suburb.announced)
         progress["all"][state] = _get_completion_progress(suburb_list)
 
-    _add_total_progress(progress["listed"])
     _add_total_progress(progress["all"])
     return progress
 
 
 def get_address_progress() -> dict:
     """Calculate a state-by-state progress indicator vs the named list of states+suburbs."""
-    progress = {"listed": {}, "all": {}}
+    progress = {"all": {}}
     for state, suburb_list in read_all_suburbs().items():
-        tot_addresses = tot_listed = 0
-        tot_done = tot_listed_done = 0
+        tot_addresses = 0
+        tot_done = 0
         for suburb in suburb_list:
             tot_addresses += suburb.address_count
-            if suburb.announced:
-                tot_listed += suburb.address_count
-
             if suburb.processed_date is not None:
                 tot_done += suburb.address_count
-                if suburb.announced:
-                    tot_listed_done += suburb.address_count
 
-        progress["listed"][state] = {
-            "done": tot_listed_done,
-            "total": tot_listed,
-            "percent": _format_percent(tot_listed_done, tot_listed),
-        }
         progress["all"][state] = {
             "done": tot_done,
             "total": tot_addresses,
             "percent": _format_percent(tot_done, tot_addresses),
         }
 
-    _add_total_progress(progress["listed"])
     _add_total_progress(progress["all"])
     return progress
 
@@ -186,42 +173,16 @@ def get_technology_breakdown() -> dict:
 
 def get_last_updated_breakdown() -> dict:
     """Calculate a state-by-state breakdown of last updated date."""
-    progress = {"listed": {}, "all": {}}
+    progress = {"all": {}}
     current_date = datetime.now()
     for state, suburb_list in read_all_suburbs().items():
         oldest_all = min(
             (suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None), default=None
         )
-        oldest_listed = min(
-            (suburb.processed_date for suburb in suburb_list if suburb.processed_date is not None and suburb.announced),
-            default=None,
-        )
-        progress["listed"][state] = {
-            "date": oldest_listed.strftime("%Y-%m-%d") if oldest_listed else None,
-            "days": (current_date - oldest_listed).days if oldest_listed else None,
-        }
         progress["all"][state] = {
             "date": oldest_all.strftime("%Y-%m-%d") if oldest_all else None,
             "days": (current_date - oldest_all).days if oldest_all else None,
         }
-    progress["listed"]["TOTAL"] = {
-        "date": min(
-            (
-                progress["listed"][state]["date"]
-                for state in progress["listed"]
-                if progress["listed"][state]["date"] is not None
-            ),
-            default=None,
-        ),
-        "days": max(
-            (
-                progress["listed"][state]["days"]
-                for state in progress["listed"]
-                if progress["listed"][state]["days"] is not None
-            ),
-            default=None,
-        ),
-    }
     progress["all"]["TOTAL"] = {
         "date": min(
             (progress["all"][state]["date"] for state in progress["all"] if progress["all"][state]["date"] is not None),

@@ -63,20 +63,12 @@ def add_address_count_to_suburbs(args):
 
 
 def rebuild_status_file():
-    """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
+    """Fetch a list of all suburbs from DB, augment with processed+dates, and completed results"""
     # Load list of all suburbs from DB
     db_suburbs = get_db_suburb_list(args)
     db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
 
-    # Load list of all suburb dates from NBN website
-    suburb_dates = get_nbn_suburb_dates()
-    utils.write_json_file("results/suburb-dates.json", suburb_dates)
-
     # TODO: Townsville not in DB. Why?  Two similar names included
-
-    # add OT
-    if "OT" not in suburb_dates:
-        suburb_dates["OT"] = {}
 
     # convert to sets for faster operation
     db_suburbs = {state: set(suburb_list) for state, suburb_list in db_suburbs.items()}
@@ -86,29 +78,12 @@ def rebuild_status_file():
         all_suburbs[state] = []
         for suburb in suburb_list:
             processed_date = geojson.get_geojson_file_generated_from_name(suburb, state)
-            xsuburb = data.Suburb(
-                name=suburb,
-                announced_date=suburb_dates[state].get(suburb, None),
-                processed_date=processed_date,
-            )
+            xsuburb = data.Suburb(name=suburb, processed_date=processed_date)
             all_suburbs[state].append(xsuburb)
 
     suburbs.write_all_suburbs(all_suburbs)
 
     add_address_count_to_suburbs(args)
-
-
-def update_suburb_dates():
-    """Update the suburb dates from the NBN website"""
-    suburb_dates = get_nbn_suburb_dates()
-    utils.write_json_file("results/suburb-dates.json", suburb_dates)
-
-    all_suburbs = suburbs.read_all_suburbs()
-    for state, suburb_list in all_suburbs.items():
-        for suburb in suburb_list:
-            if state in suburb_dates:
-                suburb.announced_date = suburb_dates[state].get(suburb.name, None)
-    suburbs.write_all_suburbs(all_suburbs)
 
 
 def resort_results():
@@ -143,25 +118,19 @@ def update_all_suburbs_from_db():
 
 
 def check_processing_rate():
-    """Emit a table of the number of suburbs processed each day (announced vs other)"""
-    announced_tally = Counter()
-    other_tally = Counter()
+    """Emit a table of the number of suburbs processed each day"""
+    tally = Counter()
     for state, suburb_list in suburbs.read_all_suburbs().items():
         for suburb in suburb_list:
             if not suburb.processed_date:
                 print(f"No processed date for {suburb.name}, {state}")
                 continue
-            tally = announced_tally if suburb.announced else other_tally
             tally[suburb.processed_date.date()] += 1
 
-    data = [
-        (day, announced_tally.get(day), other_tally.get(day))
-        for day in sorted(announced_tally.keys() | other_tally.keys())
-    ]
-    data.append(("TOTAL", sum(announced_tally.values()), sum(other_tally.values())))
-
-    print(tabulate(data, headers=["date", "announced", "other"], tablefmt="github"))
-    return data
+    items = sorted(tally.items())
+    items.append(("TOTAL", sum(tally.values())))
+    print(tabulate(items, headers=["date", "count"], tablefmt="github"))
+    return items
 
 
 def remove_duplicate_addresses():

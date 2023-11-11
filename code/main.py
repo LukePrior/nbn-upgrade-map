@@ -29,8 +29,6 @@ from utils import print_progress_bar
 GNAF_PID_TO_LOC: dict[str, str] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
-REFRESH_ANNOUNCED_DAYS = 21  # number of days between refreshing announced suburbs
-
 
 def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
     """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""
@@ -53,27 +51,11 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
             if suburb.processed_date is None:
                 yield suburb.name.upper(), state
 
-    # 2. find announced suburbs that have not been updated in REFRESH_ANNOUNCED_DAYS days
-    logging.info("Checking for announced suburbs that haven't been updated in %d days...", REFRESH_ANNOUNCED_DAYS)
-    cutoff_date = datetime.now() - timedelta(days=REFRESH_ANNOUNCED_DAYS)
-    announced_by_date = {}
-    for state, suburb_list in all_suburbs.items():
-        for s in suburb_list:
-            if s.processed_date is not None and s.announced and s.processed_date < cutoff_date:
-                announced_by_date[s.processed_date] = (s.name.upper(), state)
-    for processed_date in sorted(announced_by_date):
-        yield announced_by_date[processed_date]
-
     # 3. find suburbs for reprocessing
     logging.info("Checking for all suburbs...")
-    # TODO: prefer suburbs with closer announced dates
     by_date = {}
     for state, suburb_list in all_suburbs.items():
-        by_date |= {
-            s.processed_date: (s.name.upper(), state)
-            for s in suburb_list
-            if s.processed_date and s.processed_date not in announced_by_date
-        }
+        by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
     for processed_date in sorted(by_date):
         yield by_date[processed_date]
 
