@@ -30,7 +30,7 @@
         <h2>Line Chart by Technology</h2>
         <!-- Create a taller canvas element to render the line chart -->
         <div style="height: 500px;">
-            <canvas id="lineChart"></canvas>
+            <canvas id="line-chart"></canvas>
         </div>
     </div>
     <div style="width: 80%; margin: 0 auto;">
@@ -38,7 +38,7 @@
         <h2>Pie Chart by Technology</h2>
         <!-- Create a canvas element to render the pie chart -->
         <div style="height: 300px;">
-            <canvas id="pieChart"></canvas>
+            <canvas id="pie-chart"></canvas>
         </div>
     </div>
 
@@ -129,7 +129,7 @@
         async function createLineChart() {
             const chartData = await prepareLineChartData();
 
-            const ctx = document.getElementById('lineChart').getContext('2d');
+            const ctx = document.getElementById('line-chart').getContext('2d');
             const lineChart = new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -168,7 +168,7 @@
         async function createPieChart() {
             const pieData = await preparePieChartData();
 
-            const ctx = document.getElementById('pieChart').getContext('2d');
+            const ctx = document.getElementById('pie-chart').getContext('2d');
             const pieChart = new Chart(ctx, {
                 type: 'pie',
                 data: {
