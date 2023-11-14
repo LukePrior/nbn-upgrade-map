@@ -1,8 +1,10 @@
+# How to create Sample Data for testing
+
 To create sample data in SQLite use the following process:
 
 - create empty DB per process described  in DB:
 
-```
+```text
 sqlite3 tests/data/sample-addresses.db
 
 -- create table and index per process described in DB
@@ -23,4 +25,3 @@ CREATE INDEX address_name_state ON address_principals(locality_name, state);
 attach database './extra/db/address_principals.db' as full_db;
 INSERT INTO main.address_principals SELECT * FROM full_db.address_principals WHERE locality_name like '%SOMER%' ORDER BY RANDOM() LIMIT 100;
 ```
-

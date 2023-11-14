@@ -1,4 +1,7 @@
+# nbn-upgrade-map Docker Image
 
+This directory contains a Dockerfile that can be used to create a docker image which can run the suburb processing without installing
+local dependencies.
 
 ## Build
 
@@ -27,7 +30,7 @@ docker run -it -v ./results:/app/results --network test_network nbn-upgrade-map:
 
 You can also run everything using docker-compose. Execute from the top level directory of the project:
 
-```
+```shell
 ❯ docker-compose -f extra/docker/docker-compose.yaml --profile test up
 [+] Running 2/2
  ✔ Container docker-db-1   Created                                                                                                                                                                                               0.0s
