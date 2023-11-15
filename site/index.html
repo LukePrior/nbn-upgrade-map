@@ -169,16 +169,47 @@
         }
         github.addTo(map);
 
-        function getColour(tech, upgrade) {
-            switch(upgrade) {
-                case "FTTP_SA":
-                    return "#75AD6F";
-                case "FTTP_NA":
-                    return "#C8E3C5";
+        function getColour(tech, upgrade, date, status, generated) {
+            // Already have FTTP
+            if (tech == "FTTP") {
+                return "#1D7044";
             }
+
+            // Eligible for immediate upgrade
+            if (status == "Eligible To Order" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") {
+                return "#75AD6F";
+            }
+
+            if (date != null) {
+                [month, year] = date.split(" ")
+                date = new Date(year, ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"].indexOf(month), 1)
+            }
+
+            // Calculate date in reference to when data was fetched
+            var generated = new Date(generated)
+            var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
+
+            // FTTP upgrade planned
+            if (diff != -1) {
+                if (diff < 3) {
+                    // Upgrade available in 3 months or less
+                    return "#C8E3C5";
+                } else {
+                    // Upgrade available in more than 3 months
+                    return "#E3071D";
+                }
+            } else {
+                // Legacy FTTP upgrade for records before November 2023
+                switch(upgrade) {
+                    case "FTTP_SA":
+                        return "#75AD6F";
+                    case "FTTP_NA":
+                        return "#C8E3C5";
+                }
+            }
+
+            // Non FTTP with no upgrade
             switch(tech) {
-                case "FTTP":
-                    return "#1D7044";
                 case "FTTC":
                     return "#FF7E01";
                 case "FTTB":
@@ -194,6 +225,8 @@
                 case "NULL":
                     return "#888888";
             }
+
+            // This should never happen
             return "#000000";
         }
 
@@ -220,9 +253,17 @@
                         children = cluster.getAllChildMarkers();
                         var techs = [];
                         var upgrades = [];
+                        var dates = []
+                        var statuss = []
                         for (var child of children) {
                             techs.push(child.feature.properties.tech);
                             upgrades.push(child.feature.properties.upgrade);
+                            if ("target_eligibility_quarter" in child.feature.properties) {
+                                dates.push(child.feature.properties.target_eligibility_quarter)
+                            }
+                            if ("tech_change_status" in child.feature.properties) {
+                                statuss.push(child.feature.properties.tech_change_status)
+                            }
                         }
                         var tech = techs.sort((a,b) =>
                             techs.filter(v => v===a).length
@@ -232,7 +273,15 @@
                             upgrades.filter(v => v===a).length
                             - upgrades.filter(v => v===b).length
                         ).pop();
-                        var color = getColour(tech, upgrade);
+                        var date = dates.sort((a,b) =>
+                            dates.filter(v => v===a).length
+                            - dates.filter(v => v===b).length
+                        ).pop();
+                        var status = statuss.sort((a,b) =>
+                            statuss.filter(v => v===a).length
+                            - statuss.filter(v => v===b).length
+                        ).pop();
+                        var color = getColour(tech, upgrade, date, status, data.generated);
                         return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
                     }
                 });
@@ -244,7 +293,7 @@
                 // add circle marker for each feature
                 var geojson = L.geoJson(data, {
                     pointToLayer: function (feature, latlng) {
-                        var color = getColour(feature.properties.tech, feature.properties.upgrade);
+                        var color = getColour(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
                         return L.circleMarker(latlng, {
                             radius: 5,
                             fillColor: color,
@@ -256,9 +305,10 @@
                     },
                     onEachFeature: function (feature, layer) {
                         // popup with place name and upgrade type
-                        var s = "<b>" + feature.properties.name +
-                            "</b><br>Current tech: " + feature.properties.tech +
-                            "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : feature.properties.tech == "FTTP" ? "N/A" : "No"))
+                        var s = "<b>" + feature.properties.name + "</b><br>Current tech: " + feature.properties.tech
+                        if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP") {
+                            s += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : feature.properties.tech == "FTTP" ? "N/A" : "No"))
+                        }
                         if ("tech_change_status" in feature.properties) {
                             s += "<br>Tech Change Status: " + feature.properties.tech_change_status
                         }
@@ -329,6 +379,11 @@
                     var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
                     for (const [cid, commit] of Object.entries(data)) {
                         [commit_date, commit_time] = commit.commit.author.date.split('T')
+                        commit_date_js = new Date(commit_date)
+                        // NBN changed field meanings and we didn't capture new fields
+                        if (commit_date_js >= new Date(2023, 9, 22) && commit_date_js <= new Date(2023, 10, 4)) {
+                            continue;
+                        }
                         selected_text = (commit.sha == default_commit) ? "selected" : ""
                         dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
                     }
