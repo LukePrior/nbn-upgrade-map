@@ -69,7 +69,7 @@
             renderer: L.canvas(),
         });
 
-        map.setView([-27.5, 133], 4);
+        map.setView([-27.5, 133], 5);
 
         // load a tile layer
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -81,8 +81,8 @@
 
         // get url parameters
         var urlParams = new URLSearchParams(window.location.search);
-        var default_suburb = "bli-bli";
-        var default_state = "QLD";
+        var default_suburb = null;
+        var default_state = null;
         var default_commit = "main";
         var combined_info = null;
         if (urlParams.has("suburb") && urlParams.has("state")) {
@@ -112,9 +112,10 @@
             combined_info = data;
             // TODO: use addControlWithHTML?
             var dropdown = L.control({ position: 'topright' });
+            var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, &quot;main&quot;)" style="width: 300px;">';
             dropdown.onAdd = function (map) {
                 var div = L.DomUtil.create('div', 'dropdown');
-                var dropdownHTML = '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, &quot;main&quot;)" style="width: 300px;">';
+                dropdownHTML += '<option value="" disabled selected>Select a suburb</option>';
                 // add options for each state
                 for (const [state, suburbs] of Object.entries(data)) {
                     dropdownHTML += '<optgroup label="' + state + '">';
@@ -232,8 +233,7 @@
         }
 
         // load GeoJSON from an external file
-        function loadSuburb(state_file, commit, first_load=false) {
-            console.log("loadSuburb(" + state_file + ", " + commit + ")")
+        async function loadSuburb(state_file, commit, first_load=false) {
             url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
             default_state = state_file.split('/')[0]
             default_suburb = state_file.split('/')[1]
@@ -372,7 +372,6 @@
                 }
                 stats.addTo(map);
 
-                // print current url params
                 var tempUrlParams = new URLSearchParams(window.location.search);
 
                 if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
@@ -406,7 +405,9 @@
             });
         }
 
-        loadSuburb(default_state+"/"+default_suburb, default_commit, true)
+        if (default_suburb != null && default_state != null) {
+            loadSuburb(default_state + "/" + default_suburb, default_commit, true);
+        }
     </script>
 </body>
 </html>
