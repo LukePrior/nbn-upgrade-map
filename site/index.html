@@ -384,18 +384,19 @@
                 // update url
                 window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
 
-                commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
-                fetch(commits_url).then(res => res.json()).then(data => {
+                all_commits_url = "https://raw.githubusercontent.com/lyricnz/nbn-upgrade-map/feature/git-commit-cache/results/git-commits.json"
+                fetch(all_commits_url).then(res => res.json()).then(data => {
                     var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
-                    for (const [cid, commit] of Object.entries(data)) {
-                        [commit_date, commit_time] = commit.commit.author.date.split('T')
-                        commit_date_js = new Date(commit_date)
+                    var suburb_commits = data[default_state + "/" + default_suburb]
+                    for (var commit_info of suburb_commits) {
+                        var [commit_time, commit_hash] = commit_info.split(' ')
+                        commit_date_js = new Date(commit_time * 1000)
                         // NBN changed field meanings and we didn't capture new fields
                         if (commit_date_js >= new Date(2023, 9, 22) && commit_date_js <= new Date(2023, 10, 4)) {
                             continue;
                         }
-                        selected_text = (commit.sha == default_commit) ? "selected" : ""
-                        dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
+                        selected_text = (commit_hash == default_commit) ? "selected" : ""
+                        dropdownHTML += '<option value=' + commit_hash + ' ' + selected_text + '>' + commit_date_js.toLocaleDateString("en-AU") + '</option>';
                     }
                     dropdownHTML += '</select>';
                     addControlWithHTML('date-selector', dropdownHTML)

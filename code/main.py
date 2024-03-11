@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from threading import Lock
 
+import adhoc_tools
 import geojson
 import requests
 from data import Address, AddressList
@@ -201,6 +202,7 @@ def main():
     args = parser.parse_args()
 
     update_processed_dates()
+    adhoc_tools.write_git_commits_index()
 
     db = connect_to_db(args)
 
