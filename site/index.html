@@ -124,9 +124,18 @@
             return {results: formatted_data};
         }
 
+        // download combined suburb data if not in cache
+        const cacheKey = 'suburb-cache';
+        const flatVal = localStorage.getItem(cacheKey) ?? '';
+        const [query, strVal, dateStr] = flatVal.split('|');
+        if (!query || !strVal || !dateStr) {
+            fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+                const cacheVal = `${cacheKey}|${JSON.stringify(data)}|${(new Date()).toISOString()}`;
+                localStorage.setItem(cacheKey, cacheVal);
+            });
+        }
 
         addControlWithHTML('suburb-selector-container', '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;"><option></option></select>');
-        // on document ready
         $(document).ready(function() {
             $('.suburb-selector').select2({
                 placeholder: "Select a suburb",
