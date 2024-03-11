@@ -4,9 +4,9 @@
     <title>NBN Technology Map</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -107,28 +107,64 @@
             dropdown.addTo(map);
         }
 
-        // add suburb dropdown
-        fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
-            combined_info = data;
+        function format_suburb_data(data, term) {
             let formatted_data = [];
             for (var state in data) {
                 let state_data = {text: state, children: []};
                 for (var suburb of data[state]) {
-                    if (default_state == state && default_suburb == suburb.name.toLowerCase().replace(/ /g, "-")) {
-                        state_data.children.push({id: state + "/" + suburb.name.toLowerCase().replace(/ /g, "-"), text: suburb.name, selected: true});
-                    } else {
-                        state_data.children.push({id: state + "/" + suburb.name.toLowerCase().replace(/ /g, "-"), text: suburb.name });
+                    if (term != null && suburb.name.toLowerCase().indexOf(term.toLowerCase()) == -1) {
+                        continue;
                     }
+                    state_data.children.push({id: state + "/" + suburb.name.toLowerCase().replace(/ /g, "-"), text: suburb.name });
                 }
-                formatted_data.push(state_data);
+                if (state_data.children.length > 0) {
+                    formatted_data.push(state_data);
+                }
             }
-            addControlWithHTML('suburb-selector-container', '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;"><option></option></select>');
+            return {results: formatted_data};
+        }
+
+
+        addControlWithHTML('suburb-selector-container', '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;"><option></option></select>');
+        // on document ready
+        $(document).ready(function() {
             $('.suburb-selector').select2({
                 placeholder: "Select a suburb",
                 allowClear: true,
-                data: formatted_data,
-                minimumInputLength: 3
+                minimumInputLength: 3,
+                ajax: {
+                    url: "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json",
+                    dataType: 'json',
+                    delay: 10,
+                    transport: function(params, success, failure) {
+                        const cacheKey = 'suburb-cache';
+                        const flatVal = localStorage.getItem(cacheKey) ?? '';
+                        const [query, strVal, dateStr] = flatVal.split('|');
+                        if (query && strVal && dateStr) {
+                            const date = new Date(dateStr);
+                            const expireDate = Date.now() - 24*1000*60*60;
+                            if (date?.getMonth && date > expireDate) {
+                                const value = JSON.parse(strVal);
+                                if (value) success(format_suburb_data(value, params.data.term));
+                                return;
+                            }
+                            localStorage.removeItem(cacheKey); // remove expired
+                        }
+                        const request = $.ajax(params);
+                        request.then(function(data) {
+                            const cacheVal = `${cacheKey}|${JSON.stringify(data)}|${(new Date()).toISOString()}`;
+                            localStorage.setItem(cacheKey, cacheVal);
+                            success(format_suburb_data(data, params.data.term));
+                        });
+                        request.fail(failure);
+                        return request;
+                    }
+                }
             });
+            if (default_suburb != null && default_state != null) {
+                var option = new Option(default_suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase()), default_state + "/" + default_suburb, true, true);
+                $('.suburb-selector').append(option).trigger('change');
+            }
         });
 
         // add legend
