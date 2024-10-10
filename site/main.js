@@ -29,6 +29,7 @@ var combined_info = null;
 if (urlParams.has("suburb") && urlParams.has("state")) {
     default_suburb = urlParams.get("suburb");
     default_state = urlParams.get("state");
+    updateSiteDetails(default_suburb, default_state);
 }
 if (urlParams.has("commit")) {
     default_commit = urlParams.get("commit");
@@ -37,6 +38,14 @@ if (urlParams.has("commit")) {
 
 if (window.matchMedia('(display-mode: standalone)').matches) {
     gtag('event', 'PWA');
+}
+
+function updateSiteDetails(suburb, state) {
+    formattedSuburb = suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    newTitle = "NBN Technology Map - " + formattedSuburb;
+    if (document.title != newTitle) {
+        document.title = newTitle;
+    }
 }
 
 function addControlWithHTML(className, html) {
@@ -254,6 +263,7 @@ function loadSuburb(state_file, commit, first_load=false) {
     default_state = state_file.split('/')[0]
     default_suburb = state_file.split('/')[1]
     default_commit = commit
+    updateSiteDetails(default_suburb, default_state);
     addControlWithHTML('date-selector', 'Loading...')
     fetch(url).then(res => res.json()).then(data => {
         // clear existing markers
