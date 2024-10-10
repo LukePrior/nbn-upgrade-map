@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
-from datetime import datetime
 import utils
+
 
 def generate_sitemap(json_file, output_file):
     # Load suburbs data from JSON file
@@ -22,10 +22,11 @@ def generate_sitemap(json_file, output_file):
 
     # Convert the XML tree to a string
     sitemap_xml = ET.tostring(urlset, encoding='utf-8', xml_declaration=True).decode('utf-8')
-    
+
     # Save the XML to a file
     with open(output_file, 'w') as f:
         f.write(sitemap_xml)
+
 
 def add_url(urlset, loc, lastmod=None):
     url = ET.SubElement(urlset, 'url')
@@ -35,5 +36,5 @@ def add_url(urlset, loc, lastmod=None):
         lastmod_element = ET.SubElement(url, 'lastmod')
         lastmod_element.text = lastmod
 
-# Example usage
+
 generate_sitemap('results/combined-suburbs.json', 'site/sitemap.xml')
