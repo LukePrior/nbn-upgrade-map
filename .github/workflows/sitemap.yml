@@ -1,0 +1,31 @@
+name: Sitemap Test
+on:
+  workflow_dispatch:
+
+jobs:
+  auto-suburb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r code/requirements.txt
+
+      - name: Run program
+        run: |
+          python code/sitemap.py
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Updated sitemap
+          default_author: github_actions
+          pull: '--rebase --autostash'
