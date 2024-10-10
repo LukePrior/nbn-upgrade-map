@@ -46,6 +46,8 @@ function updateSiteDetails(suburb, state) {
     if (document.title != newTitle) {
         document.title = newTitle;
     }
+    newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + ".";
+    $('meta[name="description"]').attr("content", newDescription);
 }
 
 function addControlWithHTML(className, html) {
