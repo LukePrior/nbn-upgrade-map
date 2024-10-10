@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from urllib.parse import quote
 
 import utils
 
@@ -17,8 +18,9 @@ def generate_sitemap(json_file, output_file):
     for state, suburbs in data.items():
         for suburb in suburbs:
             suburb_name = suburb["name"]
-            processed_date = suburb["processed_date"]
-            url = f"https://nbn.lukeprior.com/?suburb={suburb_name.lower().replace(' ', '-')}&state={state.lower()}"
+            encoded_suburb = quote(suburb_name.lower().replace(' ', '-'))
+            processed_date = suburb['processed_date']
+            url = f"https://nbn.lukeprior.com/?suburb={encoded_suburb}&state={state.lower()}"
             add_url(urlset, url, processed_date)
 
     # Convert the XML tree to a string
