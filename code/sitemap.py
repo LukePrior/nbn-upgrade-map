@@ -9,7 +9,7 @@ def generate_sitemap(json_file, output_file):
     data = utils.read_json_file(json_file)
 
     # Create the root element for the XML sitemap
-    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1")
+    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
 
     # Add the static stats page without a lastmod tag
     add_url(urlset, "https://nbn.lukeprior.com/stats")
@@ -19,7 +19,7 @@ def generate_sitemap(json_file, output_file):
         for suburb in suburbs:
             suburb_name = suburb["name"]
             encoded_suburb = quote(suburb_name.lower().replace(" ", "-"))
-            processed_date = suburb["processed_date"]
+            processed_date = suburb["processed_date"].split("T")[0]
             url = f"https://nbn.lukeprior.com/?suburb={encoded_suburb}&state={state.lower()}"
             add_url(urlset, url, processed_date)
 
