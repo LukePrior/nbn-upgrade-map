@@ -50,6 +50,23 @@ function updateSiteDetails(suburb, state) {
     $('meta[name="description"]').attr("content", newDescription);
 }
 
+function updateSiteDetailed(suburb, state, data) {
+    techBreakdown = data.features.reduce((acc, feature) => {
+        if (feature.properties.tech in acc) {
+            acc[feature.properties.tech] += 1;
+        } else if (feature.properties.tech != "NULL") {
+            acc[feature.properties.tech] = 1;
+        }
+        return acc;
+    }, {});
+    formattedSuburb = suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    primaryTech = Object.keys(techBreakdown).reduce((a, b) => techBreakdown[a] > techBreakdown[b] ? a : b);
+    newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + " as of " + data.generated.split("T")[0] + ".";
+    newDescription += " The primary technology is " + primaryTech + " with " + techBreakdown[primaryTech] + " premises, other technologies include " + Object.keys(techBreakdown).filter(tech => tech != primaryTech).map(tech => tech + " (" + techBreakdown[tech] + ")").join(", ") + ".";
+    console.log(newDescription);
+    $('meta[name="description"]').attr("content", newDescription);
+}
+
 function addControlWithHTML(className, html) {
     // Add/replace a topright control with given className and innerHTML
     var dropdown = L.control({ position: 'topright' });
@@ -268,6 +285,8 @@ function loadSuburb(state_file, commit, first_load=false) {
     updateSiteDetails(default_suburb, default_state);
     addControlWithHTML('date-selector', 'Loading...')
     fetch(url).then(res => res.json()).then(data => {
+        // Update site description
+        updateSiteDetailed(default_suburb, default_state, data);
         // clear existing markers
         map.eachLayer(function (layer) {
             if (layer instanceof L.MarkerClusterGroup) {
