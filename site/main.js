@@ -63,7 +63,6 @@ function updateSiteDetailed(suburb, state, data) {
     primaryTech = Object.keys(techBreakdown).reduce((a, b) => techBreakdown[a] > techBreakdown[b] ? a : b);
     newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + " as of " + data.generated.split("T")[0] + ".";
     newDescription += " The primary technology is " + primaryTech + " with " + techBreakdown[primaryTech] + " premises, other technologies include " + Object.keys(techBreakdown).filter(tech => tech != primaryTech).map(tech => tech + " (" + techBreakdown[tech] + ")").join(", ") + ".";
-    console.log(newDescription);
     $('meta[name="description"]').attr("content", newDescription);
 }
 
