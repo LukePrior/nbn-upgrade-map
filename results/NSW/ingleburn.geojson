@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-26T08:04:56.927867",
+ "generated": "2024-10-14T04:32:54.956204",
  "suburb": "INGLEBURN",
  "features": [
   {
@@ -5007,7 +5007,7 @@
     "name": "31 FREEMAN CIRCUIT INGLEBURN 2565",
     "locID": "LOC000025482499",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704999601",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5047,7 +5047,7 @@
     "name": "33 FREEMAN CIRCUIT INGLEBURN 2565",
     "locID": "LOC000089372548",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704999603",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11567,10 +11567,9 @@
    "properties": {
     "name": "2 FREEMAN CIRCUIT INGLEBURN 2565",
     "locID": "LOC000098792889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705002200",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14386,7 +14385,7 @@
     "name": "51 FREEMAN CIRCUIT INGLEBURN 2565",
     "locID": "LOC000049301345",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705002875",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41894,7 +41893,7 @@
    "properties": {
     "name": "87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470716",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705013666"
    }
@@ -41928,7 +41927,7 @@
    "properties": {
     "name": "89 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470716",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705013668"
    }
@@ -55651,7 +55650,7 @@
     "name": "22 NORWICH ROAD INGLEBURN 2565",
     "locID": "LOC000022930864",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705018731",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -81593,10 +81592,10 @@
    "properties": {
     "name": "5 LIVERPOOL STREET INGLEBURN 2565",
     "locID": "LOC000109191767",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705036293",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -84885,23 +84884,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705037886"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.86946754,
-     -34.00307703
-    ]
-   },
-   "properties": {
-    "name": "39 MATTHEWS SQUARE INGLEBURN 2565",
-    "locID": "LOC000019725193",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705037887"
    }
   },
   {
@@ -119893,10 +119875,12 @@
    "properties": {
     "name": "5-7 MEMORIAL AVENUE INGLEBURN 2565",
     "locID": "LOC000121384266",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033505",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -132295,7 +132279,7 @@
    "properties": {
     "name": "UNIT 2, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470700",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721565053"
    }
@@ -132346,7 +132330,7 @@
    "properties": {
     "name": "UNIT 6, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470744",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721568273"
    }
@@ -132380,7 +132364,7 @@
    "properties": {
     "name": "UNIT 7, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470759",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721569620"
    }
@@ -132397,7 +132381,7 @@
    "properties": {
     "name": "UNIT 3, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470716",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721571035"
    }
@@ -132414,7 +132398,7 @@
    "properties": {
     "name": "UNIT 8, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470763",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721572723"
    }
@@ -132431,7 +132415,7 @@
    "properties": {
     "name": "UNIT 5, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470737",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721575595"
    }
@@ -132448,7 +132432,7 @@
    "properties": {
     "name": "UNIT 4, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470728",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721577423"
    }
@@ -132465,7 +132449,7 @@
    "properties": {
     "name": "UNIT 1, 87 OXFORD ROAD INGLEBURN 2565",
     "locID": "LOC000195470697",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721578185"
    }
