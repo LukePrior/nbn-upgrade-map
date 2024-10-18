@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-30T05:33:39.799259",
+ "generated": "2024-10-18T01:18:09.376067",
  "suburb": "GRANTVILLE",
  "features": [
   {
@@ -1250,7 +1250,7 @@
     "name": "66-68 STEWART STREET GRANTVILLE 3984",
     "locID": "LOC000114611227",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419849965",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3435,7 +3435,7 @@
     "name": "66 STEWART STREET GRANTVILLE 3984",
     "locID": "LOC000114611227",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420732456",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3614,10 +3614,9 @@
    "properties": {
     "name": "1650 BASS HIGHWAY GRANTVILLE 3984",
     "locID": "LOC000020216976",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420897107",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3973,10 +3972,10 @@
    "properties": {
     "name": "1268 BASS HIGHWAY GRANTVILLE 3984",
     "locID": "LOC000092481909",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420985450",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7192,10 +7191,9 @@
    "properties": {
     "name": "112 ACACIA ROAD GRANTVILLE 3984",
     "locID": "LOC000071763259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423389700",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8862,9 +8860,9 @@
     "name": "14 SHEPHERD ROAD GRANTVILLE 3984",
     "locID": "LOC000082701931",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424504558",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9418,10 +9416,10 @@
    "properties": {
     "name": "18 ACACIA ROAD GRANTVILLE 3984",
     "locID": "LOC000112893989",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424741133",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10747,6 +10745,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.52987725,
+     -38.41114789
+    ]
+   },
+   "properties": {
+    "name": "46 BRAZIER STREET GRANTVILLE 3984",
+    "locID": "LOC000125757095",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425009145",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.52979528,
      -38.41126906
     ]
@@ -11775,11 +11791,29 @@
     "name": "8 MONK LANE GRANTVILLE 3984",
     "locID": "LOC000148667529",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425565619",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.53723238,
+     -38.41452316
+    ]
+   },
+   "properties": {
+    "name": "68A ACACIA ROAD GRANTVILLE 3984",
+    "locID": "LOC100087318742",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425607986",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14453,7 +14487,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719913479",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
