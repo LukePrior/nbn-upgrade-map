@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-02T23:33:14.109938",
+ "generated": "2024-10-20T18:39:42.286462",
  "suburb": "BROOKVALE",
  "features": [
   {
@@ -2092,10 +2092,10 @@
    "properties": {
     "name": "22 PINE AVENUE BROOKVALE 2100",
     "locID": "LOC000099780087",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704233563",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2487,24 +2487,6 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704235017",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.26258236,
-     -33.76572011
-    ]
-   },
-   "properties": {
-    "name": "101 OLD PITTWATER ROAD BROOKVALE 2100",
-    "locID": "LOC000119799692",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704235018",
     "tech_change_status": "Not Planned"
    }
   },
@@ -3330,7 +3312,7 @@
     "name": "29 SYDENHAM ROAD BROOKVALE 2100",
     "locID": "LOC000092999321",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704235090",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5252,8 +5234,8 @@
    "properties": {
     "name": "23 VICTOR ROAD BROOKVALE 2100",
     "locID": "LOC000035813891",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704236745",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7602,9 +7584,10 @@
     "name": "527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000169230025",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704238316",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7620,9 +7603,10 @@
     "name": "529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704238322",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7716,8 +7700,8 @@
    "properties": {
     "name": "5 PINE AVENUE BROOKVALE 2100",
     "locID": "LOC000012407434",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704238327",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8914,8 +8898,8 @@
    "properties": {
     "name": "15 GREEN STREET BROOKVALE 2100",
     "locID": "LOC000086115453",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704239123",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13190,8 +13174,8 @@
    "properties": {
     "name": "6A BROOKVALE AVENUE BROOKVALE 2100",
     "locID": "LOC000004681395",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704241939",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13349,8 +13333,8 @@
    "properties": {
     "name": "16 CARTER ROAD BROOKVALE 2100",
     "locID": "LOC000023991314",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704241949",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23158,8 +23142,8 @@
    "properties": {
     "name": "5A REGINA AVENUE BROOKVALE 2100",
     "locID": "LOC000026424709",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708716815",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26638,8 +26622,8 @@
    "properties": {
     "name": "26 VICTOR ROAD BROOKVALE 2100",
     "locID": "LOC000028730448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710810507",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34461,9 +34445,10 @@
     "name": "UNIT 3, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016199216",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822853",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34479,9 +34464,10 @@
     "name": "UNIT 4, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016417399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822854",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34497,9 +34483,10 @@
     "name": "UNIT 5, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016417399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822855",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34515,9 +34502,10 @@
     "name": "UNIT 1, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000099885222",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822856",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34533,9 +34521,10 @@
     "name": "UNIT 2, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822857",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34551,9 +34540,10 @@
     "name": "SUITE 3, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000148012968",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822858",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34569,9 +34559,10 @@
     "name": "SUITE 4, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710822859",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38177,24 +38168,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.26257766,
-     -33.76563846
-    ]
-   },
-   "properties": {
-    "name": "101-105 OLD PITTWATER ROAD BROOKVALE 2100",
-    "locID": "LOC000119799692",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW710837476",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.27154448,
      -33.7645163
     ]
@@ -39925,9 +39898,10 @@
     "name": "UNIT 1, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016370676",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710842524",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39943,9 +39917,10 @@
     "name": "UNIT 2, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016417399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710842525",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -64645,9 +64620,10 @@
     "name": "LEVEL 1, 527 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000016466814",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717831430",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -65156,9 +65132,10 @@
     "name": "UNIT 5, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717963239",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -80641,9 +80618,10 @@
     "name": "UNIT 6, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718850406",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -80659,9 +80637,10 @@
     "name": "UNIT 7, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718850407",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -80677,9 +80656,10 @@
     "name": "UNIT 8, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718850408",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -80695,9 +80675,10 @@
     "name": "UNIT 9, 529 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000119797996",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718850409",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
