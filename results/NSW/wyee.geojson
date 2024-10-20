@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-02T22:22:32.056278",
+ "generated": "2024-10-20T17:28:50.604013",
  "suburb": "WYEE",
  "features": [
   {
@@ -195,8 +195,8 @@
    "properties": {
     "name": "22 JILLIBY STREET WYEE 2259",
     "locID": "LOC000023255436",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706352670",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -813,8 +813,8 @@
    "properties": {
     "name": "16 KOOLERA ROAD WYEE 2259",
     "locID": "LOC000043514568",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706352729",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2001,7 +2001,7 @@
     "name": "1 DARLINGUP ROAD WYEE 2259",
     "locID": "LOC000077450406",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706359263",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2371,10 +2371,10 @@
    "properties": {
     "name": "21 WARRAWOLONG STREET WYEE 2259",
     "locID": "LOC000078151368",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706362618",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3570,9 +3570,9 @@
     "name": "169 WYEE ROAD WYEE 2259",
     "locID": "LOC000001415131",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706365892",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4040,7 +4040,7 @@
     "name": "17 COLLUNGRA STREET WYEE 2259",
     "locID": "LOC000062219125",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706369557",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6418,7 +6418,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706380250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9228,8 +9228,8 @@
    "properties": {
     "name": "33 JABBARUP ROAD WYEE 2259",
     "locID": "LOC000010537826",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706397534",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10239,8 +10239,8 @@
    "properties": {
     "name": "25 BUNGAREE STREET WYEE 2259",
     "locID": "LOC000098741952",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706400064",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10415,8 +10415,8 @@
    "properties": {
     "name": "26 BOIKONUMBA ROAD WYEE 2259",
     "locID": "LOC000106023081",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711717630",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27443,6 +27443,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.47522678,
+     -33.1680589
+    ]
+   },
+   "properties": {
+    "name": "5 OLD MAITLAND ROAD WYEE 2259",
+    "locID": "LOC100087300825",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720380554",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.47466998,
      -33.167445
     ]
@@ -27456,6 +27474,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.47513399,
+     -33.16789472
+    ]
+   },
+   "properties": {
+    "name": "7 OLD MAITLAND ROAD WYEE 2259",
+    "locID": "LOC100087300839",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720387846",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -30926,9 +30962,9 @@
     "name": "UNIT 4, 119 TOEPFERS ROAD WYEE 2259",
     "locID": "LOC000178254224",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GANSW721186732",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
