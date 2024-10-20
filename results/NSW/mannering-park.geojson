@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-02T05:40:26.351461",
+ "generated": "2024-10-20T00:59:28.370002",
  "suburb": "MANNERING PARK",
  "features": [
   {
@@ -76,7 +76,7 @@
     "name": "4 BARCLAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000030016144",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705274599",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -155,7 +155,7 @@
     "name": "16 BARCLAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000029598511",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705277844",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -576,7 +576,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705280267",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1309,8 +1309,8 @@
    "properties": {
     "name": "14 DUNVEGAN STREET MANNERING PARK 2259",
     "locID": "LOC000018398848",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705280686",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1429,8 +1429,8 @@
    "properties": {
     "name": "2 DUNVEGAN STREET MANNERING PARK 2259",
     "locID": "LOC000016528783",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705280692",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2402,8 +2402,8 @@
    "properties": {
     "name": "21 WARWICK AVENUE MANNERING PARK 2259",
     "locID": "LOC000010510715",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705280749",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2802,7 +2802,7 @@
     "name": "52 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000084451669",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705281770",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2842,7 +2842,7 @@
     "name": "56 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000015710761",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705281772",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3081,10 +3081,9 @@
    "properties": {
     "name": "8 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000104068254",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705281785",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3101,10 +3100,9 @@
    "properties": {
     "name": "80 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000055467143",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705281786",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3516,10 +3514,9 @@
    "properties": {
     "name": "8 MONTROSE STREET MANNERING PARK 2259",
     "locID": "LOC000096410327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705282866",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3794,11 +3791,11 @@
     "name": "1 MONTROSE STREET MANNERING PARK 2259",
     "locID": "LOC000036353175",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705282884",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3834,7 +3831,7 @@
     "name": "11 MONTROSE STREET MANNERING PARK 2259",
     "locID": "LOC000097679308",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705282886",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4032,7 +4029,7 @@
    "properties": {
     "name": "2 MONTROSE STREET MANNERING PARK 2259",
     "locID": "LOC000007428773",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705282897",
     "tech_change_status": "Committed",
@@ -5289,7 +5286,7 @@
     "name": "12 WAVERLEY ROAD MANNERING PARK 2259",
     "locID": "LOC000052261576",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705284011",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5689,7 +5686,7 @@
     "name": "5 WAVERLEY ROAD MANNERING PARK 2259",
     "locID": "LOC000001526002",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705284034",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6108,7 +6105,7 @@
     "name": "11 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000080380329",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285257",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6207,10 +6204,9 @@
    "properties": {
     "name": "16 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000091986234",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705285262",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6427,10 +6423,9 @@
    "properties": {
     "name": "27 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000090624013",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705285273",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6508,7 +6503,7 @@
     "name": "31 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000003107634",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285277",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6967,7 +6962,7 @@
     "name": "11 BARCLAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000016387264",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285478",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7007,7 +7002,7 @@
     "name": "13 BARCLAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000055838606",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285480",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7665,7 +7660,7 @@
     "name": "8 SCOTT ROAD MANNERING PARK 2259",
     "locID": "LOC000019742741",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285524",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7765,9 +7760,9 @@
     "name": "10 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000096001475",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705285529",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7884,8 +7879,8 @@
    "properties": {
     "name": "15 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000064137010",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705285537",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8601,8 +8596,8 @@
    "properties": {
     "name": "53 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000055227334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705285576",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8959,11 +8954,11 @@
     "name": "15 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000065000120",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705286141",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9159,11 +9154,11 @@
     "name": "3 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000071565981",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705286157",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9379,11 +9374,11 @@
     "name": "5 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000037976052",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705286168",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9419,11 +9414,11 @@
     "name": "7 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000094211959",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705286170",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9439,11 +9434,11 @@
     "name": "9 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000035428640",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705286171",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9558,7 +9553,7 @@
     "name": "16 GREENWAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000092452967",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286607",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9577,8 +9572,8 @@
    "properties": {
     "name": "17 GREENWAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000104918318",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705286608",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9987,7 +9982,7 @@
     "name": "111 GRIFFITH STREET MANNERING PARK 2259",
     "locID": "LOC000079170027",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286629",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10067,7 +10062,7 @@
     "name": "115 GRIFFITH STREET MANNERING PARK 2259",
     "locID": "LOC000055838955",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286633",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10267,7 +10262,7 @@
     "name": "126 GRIFFITH STREET MANNERING PARK 2259",
     "locID": "LOC000055942552",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286646",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10307,7 +10302,7 @@
     "name": "128 GRIFFITH STREET MANNERING PARK 2259",
     "locID": "LOC000078852300",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286648",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10661,7 +10656,7 @@
    "properties": {
     "name": "1A KENILWORTH STREET MANNERING PARK 2259",
     "locID": "LOC000053140125",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705286897",
     "tech_change_status": "Committed",
@@ -10781,7 +10776,7 @@
     "name": "14 KENILWORTH STREET MANNERING PARK 2259",
     "locID": "LOC000052391085",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705286903",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10860,8 +10855,8 @@
    "properties": {
     "name": "2 KENILWORTH STREET MANNERING PARK 2259",
     "locID": "LOC000066390688",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705286908",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11439,7 +11434,7 @@
     "name": "4 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000011001194",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705288173",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12376,8 +12371,8 @@
    "properties": {
     "name": "120 VALES ROAD MANNERING PARK 2259",
     "locID": "LOC000063853808",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705288225",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13628,8 +13623,8 @@
    "properties": {
     "name": "22 SCOTT ROAD MANNERING PARK 2259",
     "locID": "LOC000040196305",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705288787",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13749,9 +13744,9 @@
     "name": "28 SCOTT ROAD MANNERING PARK 2259",
     "locID": "LOC000016329406",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705288793",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13849,9 +13844,9 @@
     "name": "7 SCOTT ROAD MANNERING PARK 2259",
     "locID": "LOC000098329696",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705288799",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14546,7 +14541,7 @@
     "name": "25 SPENCER ROAD MANNERING PARK 2259",
     "locID": "LOC000091561194",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705288865",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15262,8 +15257,8 @@
    "properties": {
     "name": "60 GRIFFITH STREET MANNERING PARK 2259",
     "locID": "LOC000001384191",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705289286",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15506,7 +15501,7 @@
     "name": "34 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000027794932",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705289329",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15746,7 +15741,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705290806",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15783,10 +15778,9 @@
    "properties": {
     "name": "67 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000028094484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705290808",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15882,8 +15876,8 @@
    "properties": {
     "name": "71 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000051456696",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705290813",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15923,7 +15917,7 @@
     "name": "73 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000001389445",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705290815",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15942,8 +15936,8 @@
    "properties": {
     "name": "74 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000047117219",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705290816",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16561,7 +16555,7 @@
     "name": "20 KEVIN STREET MANNERING PARK 2259",
     "locID": "LOC000057773914",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705291226",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16780,10 +16774,10 @@
    "properties": {
     "name": "86 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000077330243",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705291471",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16820,8 +16814,8 @@
    "properties": {
     "name": "88 CATHERINE STREET MANNERING PARK 2259",
     "locID": "LOC000078583395",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705291473",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17671,9 +17665,9 @@
     "name": "68 VALES ROAD MANNERING PARK 2259",
     "locID": "LOC000053860718",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705291531",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17919,7 +17913,7 @@
     "name": "12 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000076915557",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292551",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17959,7 +17953,7 @@
     "name": "15 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000065536058",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292554",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18038,10 +18032,9 @@
    "properties": {
     "name": "2 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000043331853",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705292558",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18099,7 +18092,7 @@
     "name": "22 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000063790742",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292561",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18118,10 +18111,9 @@
    "properties": {
     "name": "23 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000033013216",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705292562",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18159,7 +18151,7 @@
     "name": "25 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000088327034",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292564",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18219,7 +18211,7 @@
     "name": "27 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000080061486",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292567",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18259,11 +18251,11 @@
     "name": "29 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000063793507",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705292569",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18479,7 +18471,7 @@
     "name": "40 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000032351450",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705292582",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18498,8 +18490,8 @@
    "properties": {
     "name": "41 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000082792978",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705292583",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18519,11 +18511,11 @@
     "name": "42 GYMEA CRESCENT MANNERING PARK 2259",
     "locID": "LOC000013801763",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705292584",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19254,7 +19246,7 @@
     "name": "41 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000075579673",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705300491",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19274,7 +19266,7 @@
     "name": "45 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000029981687",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705300493",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19334,7 +19326,7 @@
     "name": "5 MACQUARIE ROAD MANNERING PARK 2259",
     "locID": "LOC000028789589",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705300496",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19533,10 +19525,9 @@
    "properties": {
     "name": "4 KENILWORTH STREET MANNERING PARK 2259",
     "locID": "LOC000076827591",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705306077",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20222,7 +20213,7 @@
    "properties": {
     "name": "11 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000005032576",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711725666",
     "tech_change_status": "Committed",
@@ -20242,7 +20233,7 @@
    "properties": {
     "name": "13 RAVENSWOOD STREET MANNERING PARK 2259",
     "locID": "LOC000013945445",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711725667",
     "tech_change_status": "Committed",
@@ -20962,8 +20953,8 @@
    "properties": {
     "name": "53 DUNVEGAN STREET MANNERING PARK 2259",
     "locID": "LOC000016528783",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711750424",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21972,7 +21963,7 @@
     "name": "16A BARCLAY AVENUE MANNERING PARK 2259",
     "locID": "LOC000029598511",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717074996",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25444,7 +25435,7 @@
     "name": "10 PEVERILL STREET MANNERING PARK 2259",
     "locID": "LOC000097859498",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717997777",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25503,8 +25494,8 @@
    "properties": {
     "name": "14A PEVERILL STREET MANNERING PARK 2259",
     "locID": "LOC000053630428",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717997780",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25524,9 +25515,9 @@
     "name": "16 PEVERILL STREET MANNERING PARK 2259",
     "locID": "LOC000077258643",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717997781",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25702,7 +25693,7 @@
     "name": "7 PEVERILL STREET MANNERING PARK 2259",
     "locID": "LOC000052651219",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717997790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25878,7 +25869,7 @@
     "name": "30A SCOTT ROAD MANNERING PARK 2259",
     "locID": "LOC000179419062",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718423250",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
