@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-02T15:18:24.275999",
+ "generated": "2024-10-20T11:20:51.586982",
  "suburb": "GWYNNEVILLE",
  "features": [
   {
@@ -2281,8 +2281,8 @@
    "properties": {
     "name": "21 SIDNEY STREET GWYNNEVILLE 2500",
     "locID": "LOC000004204214",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704908485",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2805,7 +2805,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704908744",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3044,8 +3044,8 @@
    "properties": {
     "name": "22 IRVINE STREET GWYNNEVILLE 2500",
     "locID": "LOC000049424120",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704908791",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3064,8 +3064,8 @@
    "properties": {
     "name": "24 IRVINE STREET GWYNNEVILLE 2500",
     "locID": "LOC000048279667",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704908792",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3104,10 +3104,9 @@
    "properties": {
     "name": "23 SIDNEY STREET GWYNNEVILLE 2500",
     "locID": "LOC000099745616",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704909126",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3712,8 +3711,8 @@
    "properties": {
     "name": "10 EASTERN STREET GWYNNEVILLE 2500",
     "locID": "LOC000013094294",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704910245",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5840,9 +5839,9 @@
     "name": "9 SPEARING PARADE GWYNNEVILLE 2500",
     "locID": "LOC000004238844",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704911764",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8719,28 +8718,8 @@
     "name": "4 WAITANGI STREET GWYNNEVILLE 2500",
     "locID": "LOC000008797370",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704915100",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.88024204,
-     -34.41387568
-    ]
-   },
-   "properties": {
-    "name": "5 WAITANGI STREET GWYNNEVILLE 2500",
-    "locID": "LOC000054647599",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704915101",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -9662,8 +9641,8 @@
    "properties": {
     "name": "7A JOHN STREET GWYNNEVILLE 2500",
     "locID": "LOC000101772794",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704918215",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11310,7 +11289,7 @@
     "name": "14 PAULSGROVE STREET GWYNNEVILLE 2500",
     "locID": "LOC000081149306",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704925306",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23629,6 +23608,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719598652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.87890747,
+     -34.41524976
+    ]
+   },
+   "properties": {
+    "name": "236 GIPPS ROAD GWYNNEVILLE 2500",
+    "locID": "LOC000053525359",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW719805307",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
