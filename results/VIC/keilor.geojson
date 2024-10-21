@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-03T19:00:47.335344",
+ "generated": "2024-10-21T15:09:48.399005",
  "suburb": "KEILOR",
  "features": [
   {
@@ -2940,10 +2940,10 @@
    "properties": {
     "name": "3 DENBIGH COURT KEILOR 3036",
     "locID": "LOC000100711536",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419558776",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3580,9 +3580,9 @@
     "name": "8 GREEN GULLY ROAD KEILOR 3036",
     "locID": "LOC000045311158",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419560001",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8820,9 +8820,9 @@
     "name": "6 ARABIN STREET KEILOR 3036",
     "locID": "LOC000071742509",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419863855",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9950,8 +9950,8 @@
    "properties": {
     "name": "61 TINTALDRA DRIVE KEILOR 3036",
     "locID": "LOC000044261560",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419871179",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10363,7 +10363,7 @@
    "properties": {
     "name": "35 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000007793702",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419928387",
     "tech_change_status": "Not Planned"
@@ -10381,7 +10381,7 @@
    "properties": {
     "name": "70 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000054922825",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419929235",
     "tech_change_status": "Not Planned"
@@ -10399,7 +10399,7 @@
    "properties": {
     "name": "50 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000104633056",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419929236",
     "tech_change_status": "Not Planned"
@@ -11094,8 +11094,8 @@
    "properties": {
     "name": "22 BURROWYE CRESCENT KEILOR 3036",
     "locID": "LOC000075014150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420106617",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20468,8 +20468,8 @@
    "properties": {
     "name": "41 BURROWYE CRESCENT KEILOR 3036",
     "locID": "LOC000022803208",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420473274",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21068,7 +21068,7 @@
    "properties": {
     "name": "30 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000085274321",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420541204",
     "tech_change_status": "Not Planned"
@@ -21086,7 +21086,7 @@
    "properties": {
     "name": "40 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000039258672",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420541875",
     "tech_change_status": "Not Planned"
@@ -22740,6 +22740,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420755211"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.822196,
+     -37.71097
+    ]
+   },
+   "properties": {
+    "name": "786 OLD CALDER HIGHWAY KEILOR 3036",
+    "locID": "LOC000195483698",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420755212"
    }
   },
   {
@@ -25392,7 +25409,7 @@
    "properties": {
     "name": "55 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000049970857",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420835233",
     "tech_change_status": "Not Planned"
@@ -29572,10 +29589,9 @@
    "properties": {
     "name": "16 HISLOP STREET KEILOR 3036",
     "locID": "LOC000004433529",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421083150",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421083150"
    }
   },
   {
@@ -29834,23 +29850,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421085179"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.824196,
-     -37.714324
-    ]
-   },
-   "properties": {
-    "name": "5 PARRAMATTA ROAD KEILOR 3036",
-    "locID": "LOC000062242727",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421085221"
    }
   },
   {
@@ -31076,7 +31075,7 @@
    "properties": {
     "name": "5 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000104410699",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421158322",
     "tech_change_status": "Not Planned"
@@ -35847,7 +35846,7 @@
    "properties": {
     "name": "65 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000054151860",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421481170",
     "tech_change_status": "Not Planned"
@@ -38275,7 +38274,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421695710",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38902,9 +38901,9 @@
     "name": "17 RIVERSIDE AVENUE KEILOR 3036",
     "locID": "LOC000040535217",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421702863",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -40180,7 +40179,7 @@
    "properties": {
     "name": "60 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000040764073",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421732502",
     "tech_change_status": "Not Planned"
@@ -42415,7 +42414,7 @@
    "properties": {
     "name": "95 MCNABS ROAD KEILOR 3036",
     "locID": "LOC000107659959",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423795927",
     "tech_change_status": "Not Planned"
