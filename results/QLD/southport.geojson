@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-05T11:39:57.224777",
+ "generated": "2024-10-23T09:11:30.647263",
  "suburb": "SOUTHPORT",
  "features": [
   {
@@ -1843,10 +1843,9 @@
    "properties": {
     "name": "76 BAUER STREET SOUTHPORT 4215",
     "locID": "LOC000040577077",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155812434",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155812434"
    }
   },
   {
@@ -4376,9 +4375,9 @@
     "name": "36 BAUER STREET SOUTHPORT 4215",
     "locID": "LOC000010762068",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155817217",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10193,10 +10192,9 @@
    "properties": {
     "name": "7 GILLIAN LANE SOUTHPORT 4215",
     "locID": "LOC000060935065",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155822926",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155822926"
    }
   },
   {
@@ -23085,10 +23083,10 @@
    "properties": {
     "name": "71 QUEEN STREET SOUTHPORT 4215",
     "locID": "LOC000028364121",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155829954",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69018,7 +69016,7 @@
    "properties": {
     "name": "63 FERRY ROAD SOUTHPORT 4215",
     "locID": "LOC000194838532",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157111338"
    }
@@ -77425,10 +77423,10 @@
    "properties": {
     "name": "18 SCARBOROUGH STREET SOUTHPORT 4215",
     "locID": "LOC000069340307",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157118506",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102296,9 +102294,9 @@
     "name": "109 SCARBOROUGH STREET SOUTHPORT 4215",
     "locID": "LOC000183342929",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157146421",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -253441,10 +253439,9 @@
    "properties": {
     "name": "2 GILLIAN LANE SOUTHPORT 4215",
     "locID": "LOC000060935065",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD162230212",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162230212"
    }
   },
   {
@@ -407466,6 +407463,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.38788678,
+     -27.95580773
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000183628032",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800683",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.38980618,
      -27.95518328
     ]
@@ -408296,6 +408312,44 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.38866838,
+     -27.95742393
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000184898411",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800842",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.38822881,
+     -27.95679177
+    ]
+   },
+   "properties": {
+    "name": "UNIT 15, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000020077614",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800843",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.40084922,
      -27.99150601
     ]
@@ -408417,6 +408471,25 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720800877",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.38771972,
+     -27.95683005
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000189878144",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800882",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -408608,6 +408681,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.3877432,
+     -27.95734528
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000192174144",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800917",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.4000877,
      -27.99180933
     ]
@@ -408752,18 +408844,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.38822881,
-     -27.95679177
+     153.38910117,
+     -27.95699587
     ]
    },
    "properties": {
-    "name": "UNIT 11, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
-    "locID": "LOC000189878144",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD720800968",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "name": "UNIT 10, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000188125391",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720800966"
    }
   },
   {
@@ -408810,6 +408900,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.38788678,
+     -27.95580773
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000187074858",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800977",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.40083987,
      -27.99135984
     ]
@@ -408821,6 +408930,25 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720800981",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.38980618,
+     -27.95518328
+    ]
+   },
+   "properties": {
+    "name": "UNIT 18, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
+    "locID": "LOC000186746000",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720800982",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -409085,8 +409213,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.38866838,
-     -27.95742393
+     153.3877432,
+     -27.95734528
     ]
    },
    "properties": {
@@ -409094,26 +409222,7 @@
     "locID": "LOC000187568222",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD720801041",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.38866838,
-     -27.95742393
-    ]
-   },
-   "properties": {
-    "name": "UNIT 15, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
-    "locID": "LOC000020077614",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD720801042",
+    "gnaf_pid": "GAQLD720801036",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -409223,25 +409332,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720801082",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.38847717,
-     -27.9577305
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 154 MUSGRAVE AVENUE SOUTHPORT 4215",
-    "locID": "LOC000183628032",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD720801083",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
