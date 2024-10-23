@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-05T04:05:37.480490",
+ "generated": "2024-10-23T00:58:37.788023",
  "suburb": "ACACIA RIDGE",
  "features": [
   {
@@ -69,10 +69,10 @@
    "properties": {
     "name": "181 BRADMAN STREET ACACIA RIDGE 4110",
     "locID": "LOC000068872117",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154918456",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1715,7 +1715,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD154918614",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33467,9 +33469,9 @@
     "name": "52 COLEBARD STREET EAST ACACIA RIDGE 4110",
     "locID": "LOC000011610421",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156166511",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -71602,6 +71604,23 @@
     "gnaf_pid": "GAQLD721518908",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.02339918,
+     -27.58369227
+    ]
+   },
+   "properties": {
+    "name": "45 SUSSEX ROAD ACACIA RIDGE 4110",
+    "locID": "LOC000193502746",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721520202"
    }
   },
   {
