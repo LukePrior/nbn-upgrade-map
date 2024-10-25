@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-07T06:40:22.333393",
+ "generated": "2024-10-25T05:56:21.280648",
  "suburb": "MALAGA",
  "features": [
   {
@@ -12966,10 +12966,9 @@
    "properties": {
     "name": "39 RESOURCE WAY MALAGA 6090",
     "locID": "LOC000029494974",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147243367",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28642,7 +28641,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147383494",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28660,9 +28659,9 @@
     "name": "66 BOULDER ROAD MALAGA 6090",
     "locID": "LOC000006451056",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147383495",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50385,9 +50384,11 @@
     "name": "380 VICTORIA ROAD MALAGA 6090",
     "locID": "LOC000132358501",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_162590292",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53945,6 +53946,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.90410683,
+     -31.85921594
+    ]
+   },
+   "properties": {
+    "name": "91 MULGUL ROAD MALAGA 6090",
+    "locID": "LOC000195666654",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_163049770"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.88649546,
      -31.84705232
     ]
@@ -56700,9 +56718,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163195343",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61261,12 +61279,10 @@
    "properties": {
     "name": "670 MARSHALL ROAD MALAGA 6090",
     "locID": "LOC000151203598",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718789061",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -62324,10 +62340,9 @@
    "properties": {
     "name": "UNIT 3, 33 MILLROSE DRIVE MALAGA 6090",
     "locID": "LOC000184730215",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719856773",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
