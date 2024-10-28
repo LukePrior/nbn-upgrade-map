@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-10T07:21:04.982128",
+ "generated": "2024-10-28T06:32:14.829259",
  "suburb": "BANGHOLME",
  "features": [
   {
@@ -4728,10 +4728,9 @@
    "properties": {
     "name": "123 HARWOOD ROAD BANGHOLME 3175",
     "locID": "LOC000014714956",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC410830294",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410830294"
    }
   },
   {
@@ -8673,10 +8672,12 @@
    "properties": {
     "name": "83-95 BANGHOLME ROAD BANGHOLME 3175",
     "locID": "LOC000195587229",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424906635",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9550,6 +9551,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720002057",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.20437677,
+     -38.04188743
+    ]
+   },
+   "properties": {
+    "name": "9 BOTTLEBRUSH COURT BANGHOLME 3175",
+    "locID": "LOC000047682391",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720002063",
     "tech_change_status": "Not Planned"
    }
   },
