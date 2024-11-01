@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-13T19:13:35.819243",
+ "generated": "2024-11-01T04:50:11.802262",
  "suburb": "BEGA",
  "features": [
   {
@@ -141,10 +141,9 @@
    "properties": {
     "name": "172 NEWTOWN ROAD BEGA 2550",
     "locID": "LOC000070125877",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704044998",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704044998"
    }
   },
   {
@@ -4283,10 +4282,9 @@
    "properties": {
     "name": "73 MERINGO STREET BEGA 2550",
     "locID": "LOC000071549673",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704053403",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704053403"
    }
   },
   {
@@ -4410,9 +4408,9 @@
     "name": "9 UNION STREET BEGA 2550",
     "locID": "LOC000091165144",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704054242",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21315,9 +21313,9 @@
     "name": "4 KOOLGARRA DRIVE BEGA 2550",
     "locID": "LOC000015909534",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704064869",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -23962,10 +23960,9 @@
    "properties": {
     "name": "2 LITTLE BEGA STREET BEGA 2550",
     "locID": "LOC000047667223",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704066295",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704066295"
    }
   },
   {
@@ -27713,9 +27710,9 @@
     "name": "23 PARKER STREET BEGA 2550",
     "locID": "LOC000016416993",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704069021",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -43279,8 +43276,9 @@
     "name": "UNIT 2, 81-85 AUCKLAND STREET BEGA 2550",
     "locID": "LOC000153763660",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717689941"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717689941",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -48651,6 +48649,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.82596097,
+     -36.66601651
+    ]
+   },
+   "properties": {
+    "name": "1 JOHN STREET BEGA 2550",
+    "locID": "LOC100087322157",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718864865",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.82621089,
      -36.66606044
     ]
@@ -50536,6 +50552,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719232099",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.83015972,
+     -36.67954256
+    ]
+   },
+   "properties": {
+    "name": "19 CURYO LANE BEGA 2550",
+    "locID": "LOC100087322334",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719233343",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -52477,6 +52513,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.83116595,
+     -36.70903095
+    ]
+   },
+   "properties": {
+    "name": "38 MAX SLATER DRIVE BEGA 2550",
+    "locID": "LOC100087322458",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720263800",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.82991656,
      -36.6765353
     ]
@@ -53451,6 +53507,46 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW721245390",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.85195002,
+     -36.67602437
+    ]
+   },
+   "properties": {
+    "name": "1623 TARRAGANDA LANE BEGA 2550",
+    "locID": "LOC100087322283",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721268349",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.8524264,
+     -36.67587355
+    ]
+   },
+   "properties": {
+    "name": "1619 TARRAGANDA LANE BEGA 2550",
+    "locID": "LOC100087322404",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721268751",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
