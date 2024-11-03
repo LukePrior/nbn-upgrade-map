@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-16T12:42:08.505341",
+ "generated": "2024-11-03T20:13:12.126684",
  "suburb": "NANANGO",
  "features": [
   {
@@ -75,10 +75,10 @@
    "properties": {
     "name": "51 NORMANBY STREET NANANGO 4615",
     "locID": "LOC000094989046",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155620346",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95,8 +95,8 @@
    "properties": {
     "name": "53 NORMANBY STREET NANANGO 4615",
     "locID": "LOC000020705844",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155620347",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -504,7 +504,7 @@
     "gnaf_pid": "GAQLD155621864",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -576,10 +576,10 @@
    "properties": {
     "name": "66 CAIRNS STREET NANANGO 4615",
     "locID": "LOC000105150582",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155622386",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3188,10 +3188,10 @@
    "properties": {
     "name": "32 ALFRED STREET NANANGO 4615",
     "locID": "LOC000053169793",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155629790",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3576,7 +3576,7 @@
     "gnaf_pid": "GAQLD155629838",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3611,10 +3611,12 @@
    "properties": {
     "name": "154 OLD RIFLE RANGE ROAD NANANGO 4615",
     "locID": "LOC000030796216",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155629841",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4415,7 +4417,7 @@
     "gnaf_pid": "GAQLD155631341",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4435,7 +4437,7 @@
     "gnaf_pid": "GAQLD155631342",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4455,7 +4457,7 @@
     "gnaf_pid": "GAQLD155631344",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5041,10 +5043,10 @@
    "properties": {
     "name": "12 BIRDIE STREET NANANGO 4615",
     "locID": "LOC000022670722",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155632260",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5121,10 +5123,10 @@
    "properties": {
     "name": "16 BIRDIE STREET NANANGO 4615",
     "locID": "LOC000015746588",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155632264",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5388,10 +5390,9 @@
    "properties": {
     "name": "80 DRAYTON STREET NANANGO 4615",
     "locID": "LOC000053905601",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155632651",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155632651"
    }
   },
   {
@@ -6723,7 +6724,7 @@
     "gnaf_pid": "GAQLD155638625",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6783,7 +6784,7 @@
     "gnaf_pid": "GAQLD155638628",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6803,7 +6804,7 @@
     "gnaf_pid": "GAQLD155638629",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6962,7 +6963,7 @@
     "gnaf_pid": "GAQLD155638654",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6982,7 +6983,7 @@
     "gnaf_pid": "GAQLD155638655",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7002,7 +7003,7 @@
     "gnaf_pid": "GAQLD155638656",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8542,10 +8543,9 @@
    "properties": {
     "name": "11 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155646998",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155646998"
    }
   },
   {
@@ -9383,7 +9383,7 @@
     "gnaf_pid": "GAQLD156876184",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13573,10 +13573,10 @@
    "properties": {
     "name": "8 EAGLE STREET NANANGO 4615",
     "locID": "LOC000099739130",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156907809",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15522,9 +15522,9 @@
     "name": "16 MOUNT STANLEY ROAD NANANGO 4615",
     "locID": "LOC000075358189",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "FW_NA",
     "gnaf_pid": "GAQLD156918372",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -16841,6 +16841,24 @@
     ]
    },
    "properties": {
+    "name": "12 BURNETT STREET NANANGO 4615",
+    "locID": "LOC100087357589",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156925177",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00396976,
+     -26.68415235
+    ]
+   },
+   "properties": {
     "name": "16 BURNETT STREET NANANGO 4615",
     "locID": "LOC000067434295",
     "tech": "WIRELESS",
@@ -17322,10 +17340,9 @@
    "properties": {
     "name": "21 DALBY STREET NANANGO 4615",
     "locID": "LOC000037536020",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156925859",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156925859"
    }
   },
   {
@@ -17654,10 +17671,9 @@
    "properties": {
     "name": "5 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156925895",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156925895"
    }
   },
   {
@@ -17712,7 +17728,7 @@
     "gnaf_pid": "GAQLD158360514",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17792,7 +17808,7 @@
     "gnaf_pid": "GAQLD158360523",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17812,7 +17828,7 @@
     "gnaf_pid": "GAQLD158362408",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17904,7 +17920,7 @@
     "gnaf_pid": "GAQLD158362493",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18850,7 +18866,7 @@
     "gnaf_pid": "GAQLD158371098",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18870,7 +18886,7 @@
     "gnaf_pid": "GAQLD158371099",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18890,7 +18906,7 @@
     "gnaf_pid": "GAQLD158371102",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19299,7 +19315,7 @@
     "gnaf_pid": "GAQLD158374972",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19375,7 +19391,7 @@
     "gnaf_pid": "GAQLD158375161",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19415,7 +19431,7 @@
     "gnaf_pid": "GAQLD158375166",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19435,7 +19451,7 @@
     "gnaf_pid": "GAQLD158375169",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19455,7 +19471,7 @@
     "gnaf_pid": "GAQLD158375170",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19475,7 +19491,7 @@
     "gnaf_pid": "GAQLD158375172",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19779,7 +19795,7 @@
     "gnaf_pid": "GAQLD158377744",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19799,7 +19815,7 @@
     "gnaf_pid": "GAQLD158377746",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19919,7 +19935,7 @@
     "gnaf_pid": "GAQLD158379728",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19979,7 +19995,7 @@
     "gnaf_pid": "GAQLD158379735",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20180,10 +20196,12 @@
    "properties": {
     "name": "113 GREENWOOD CREEK ROAD NANANGO 4615",
     "locID": "LOC000064674338",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158382260",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20436,7 +20454,7 @@
     "gnaf_pid": "GAQLD158383034",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20936,7 +20954,7 @@
     "gnaf_pid": "GAQLD158383764",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20951,10 +20969,10 @@
    "properties": {
     "name": "9 AVOCA PLACE NANANGO 4615",
     "locID": "LOC000037624304",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158383769",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21109,7 +21127,7 @@
     "gnaf_pid": "GAQLD158384384",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21167,7 +21185,7 @@
     "gnaf_pid": "GAQLD158386011",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21460,7 +21478,7 @@
     "gnaf_pid": "GAQLD158387526",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21733,7 +21751,7 @@
     "gnaf_pid": "GAQLD158389350",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22119,7 +22137,7 @@
     "gnaf_pid": "GAQLD158391128",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22431,7 +22449,7 @@
     "gnaf_pid": "GAQLD158395533",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22451,7 +22469,7 @@
     "gnaf_pid": "GAQLD158395535",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22619,7 +22637,7 @@
     "gnaf_pid": "GAQLD158396185",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22659,7 +22677,7 @@
     "gnaf_pid": "GAQLD158396199",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23434,7 +23452,7 @@
     "gnaf_pid": "GAQLD158402016",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23454,7 +23472,7 @@
     "gnaf_pid": "GAQLD158402018",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23514,7 +23532,7 @@
     "gnaf_pid": "GAQLD158402025",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23608,7 +23626,7 @@
     "gnaf_pid": "GAQLD158403433",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23706,7 +23724,7 @@
     "gnaf_pid": "GAQLD158404842",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23819,7 +23837,7 @@
     "gnaf_pid": "GAQLD158953897",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23879,7 +23897,7 @@
     "gnaf_pid": "GAQLD158953900",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23999,7 +24017,7 @@
     "gnaf_pid": "GAQLD158954525",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24039,7 +24057,7 @@
     "gnaf_pid": "GAQLD158954630",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24059,7 +24077,7 @@
     "gnaf_pid": "GAQLD158954631",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24198,7 +24216,7 @@
     "gnaf_pid": "GAQLD158954672",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24294,7 +24312,7 @@
     "gnaf_pid": "GAQLD158955369",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24314,7 +24332,7 @@
     "gnaf_pid": "GAQLD158955438",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24590,7 +24608,7 @@
     "gnaf_pid": "GAQLD160213564",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24836,7 +24854,7 @@
     "gnaf_pid": "GAQLD160218933",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24856,7 +24874,7 @@
     "gnaf_pid": "GAQLD160218934",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24876,7 +24894,7 @@
     "gnaf_pid": "GAQLD160218936",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24916,7 +24934,7 @@
     "gnaf_pid": "GAQLD160218938",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24956,7 +24974,7 @@
     "gnaf_pid": "GAQLD160218940",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24976,7 +24994,7 @@
     "gnaf_pid": "GAQLD160218941",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24996,7 +25014,7 @@
     "gnaf_pid": "GAQLD160218943",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25016,7 +25034,7 @@
     "gnaf_pid": "GAQLD160218945",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25036,7 +25054,7 @@
     "gnaf_pid": "GAQLD160218946",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25056,7 +25074,7 @@
     "gnaf_pid": "GAQLD160218947",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25076,7 +25094,7 @@
     "gnaf_pid": "GAQLD160218948",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25096,7 +25114,7 @@
     "gnaf_pid": "GAQLD160218949",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25136,7 +25154,7 @@
     "gnaf_pid": "GAQLD160218951",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25156,7 +25174,7 @@
     "gnaf_pid": "GAQLD160218952",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25176,7 +25194,7 @@
     "gnaf_pid": "GAQLD160218953",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25196,7 +25214,7 @@
     "gnaf_pid": "GAQLD160218954",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25216,7 +25234,7 @@
     "gnaf_pid": "GAQLD160218955",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25236,7 +25254,7 @@
     "gnaf_pid": "GAQLD160218966",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25645,7 +25663,7 @@
     "gnaf_pid": "GAQLD160224382",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25665,7 +25683,7 @@
     "gnaf_pid": "GAQLD160224383",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25685,7 +25703,7 @@
     "gnaf_pid": "GAQLD160224384",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25705,7 +25723,7 @@
     "gnaf_pid": "GAQLD160224385",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25725,7 +25743,7 @@
     "gnaf_pid": "GAQLD160224386",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25745,7 +25763,7 @@
     "gnaf_pid": "GAQLD160224387",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25765,7 +25783,7 @@
     "gnaf_pid": "GAQLD160224390",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25785,7 +25803,7 @@
     "gnaf_pid": "GAQLD160224391",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25805,7 +25823,7 @@
     "gnaf_pid": "GAQLD160224392",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25825,7 +25843,7 @@
     "gnaf_pid": "GAQLD160224394",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25845,7 +25863,7 @@
     "gnaf_pid": "GAQLD160224395",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26372,7 +26390,7 @@
     "gnaf_pid": "GAQLD160687549",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26588,7 +26606,7 @@
     "gnaf_pid": "GAQLD160691301",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26608,7 +26626,7 @@
     "gnaf_pid": "GAQLD160691303",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26668,7 +26686,7 @@
     "gnaf_pid": "GAQLD160693887",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26688,7 +26706,7 @@
     "gnaf_pid": "GAQLD160693888",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26708,7 +26726,7 @@
     "gnaf_pid": "GAQLD160693890",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26723,10 +26741,12 @@
    "properties": {
     "name": "20 OLD RIFLE RANGE ROAD NANANGO 4615",
     "locID": "LOC000073367321",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160695197",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26746,7 +26766,7 @@
     "gnaf_pid": "GAQLD160695198",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26866,7 +26886,7 @@
     "gnaf_pid": "GAQLD160703339",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26886,7 +26906,7 @@
     "gnaf_pid": "GAQLD160703340",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26986,7 +27006,7 @@
     "gnaf_pid": "GAQLD160712710",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27066,7 +27086,7 @@
     "gnaf_pid": "GAQLD160924948",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27144,7 +27164,7 @@
     "gnaf_pid": "GAQLD160945429",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27222,7 +27242,7 @@
     "gnaf_pid": "GAQLD160953152",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27302,7 +27322,7 @@
     "gnaf_pid": "GAQLD160955884",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27342,7 +27362,7 @@
     "gnaf_pid": "GAQLD160958272",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27362,7 +27382,7 @@
     "gnaf_pid": "GAQLD160968966",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27609,7 +27629,7 @@
     "gnaf_pid": "GAQLD161077849",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28185,7 +28205,7 @@
     "gnaf_pid": "GAQLD161094664",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28205,7 +28225,7 @@
     "gnaf_pid": "GAQLD161094665",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28365,7 +28385,7 @@
     "gnaf_pid": "GAQLD161094675",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28425,7 +28445,7 @@
     "gnaf_pid": "GAQLD161094680",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28445,7 +28465,7 @@
     "gnaf_pid": "GAQLD161094682",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28465,7 +28485,7 @@
     "gnaf_pid": "GAQLD161094683",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28605,7 +28625,7 @@
     "gnaf_pid": "GAQLD161094693",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28625,7 +28645,7 @@
     "gnaf_pid": "GAQLD161094694",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28645,7 +28665,7 @@
     "gnaf_pid": "GAQLD161094695",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29528,7 +29548,7 @@
     "gnaf_pid": "GAQLD161168046",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29543,10 +29563,12 @@
    "properties": {
     "name": "LOT 27 GREENWOOD CREEK ROAD NANANGO 4615",
     "locID": "LOC000064674338",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161168049",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29566,7 +29588,7 @@
     "gnaf_pid": "GAQLD161168051",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29606,7 +29628,7 @@
     "gnaf_pid": "GAQLD161168053",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29818,7 +29840,7 @@
     "gnaf_pid": "GAQLD161178753",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29878,7 +29900,7 @@
     "gnaf_pid": "GAQLD161178757",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29916,7 +29938,7 @@
     "gnaf_pid": "GAQLD161178759",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29936,7 +29958,7 @@
     "gnaf_pid": "GAQLD161178760",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29956,7 +29978,7 @@
     "gnaf_pid": "GAQLD161178761",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29976,7 +29998,7 @@
     "gnaf_pid": "GAQLD161178762",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29996,7 +30018,7 @@
     "gnaf_pid": "GAQLD161178763",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30016,7 +30038,7 @@
     "gnaf_pid": "GAQLD161178764",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30036,7 +30058,7 @@
     "gnaf_pid": "GAQLD161178765",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30056,7 +30078,7 @@
     "gnaf_pid": "GAQLD161178766",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30076,7 +30098,7 @@
     "gnaf_pid": "GAQLD161178767",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30245,7 +30267,7 @@
     "gnaf_pid": "GAQLD161200598",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30260,10 +30282,9 @@
    "properties": {
     "name": "LOT 130 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161201155",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161201155"
    }
   },
   {
@@ -30320,7 +30341,7 @@
     "gnaf_pid": "GAQLD161231137",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30340,7 +30361,7 @@
     "gnaf_pid": "GAQLD161231138",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30360,7 +30381,7 @@
     "gnaf_pid": "GAQLD161231139",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30380,7 +30401,7 @@
     "gnaf_pid": "GAQLD161231142",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30400,7 +30421,7 @@
     "gnaf_pid": "GAQLD161231143",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30420,7 +30441,7 @@
     "gnaf_pid": "GAQLD161231144",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30440,7 +30461,7 @@
     "gnaf_pid": "GAQLD161231145",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30460,7 +30481,7 @@
     "gnaf_pid": "GAQLD161237426",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30640,7 +30661,7 @@
     "gnaf_pid": "GAQLD161237437",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30660,7 +30681,7 @@
     "gnaf_pid": "GAQLD161237439",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30700,7 +30721,7 @@
     "gnaf_pid": "GAQLD161237442",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30720,7 +30741,7 @@
     "gnaf_pid": "GAQLD161237444",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30740,7 +30761,7 @@
     "gnaf_pid": "GAQLD161237446",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30760,7 +30781,7 @@
     "gnaf_pid": "GAQLD161237448",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30800,7 +30821,7 @@
     "gnaf_pid": "GAQLD161251570",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30880,7 +30901,7 @@
     "gnaf_pid": "GAQLD161251574",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30915,10 +30936,12 @@
    "properties": {
     "name": "LOT 1 OLD RIFLE RANGE ROAD NANANGO 4615",
     "locID": "LOC000073367321",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161264771",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30938,7 +30961,7 @@
     "gnaf_pid": "GAQLD161264777",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30958,7 +30981,7 @@
     "gnaf_pid": "GAQLD161265865",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31016,7 +31039,7 @@
     "gnaf_pid": "GAQLD161272618",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31592,7 +31615,7 @@
     "gnaf_pid": "GAQLD161367422",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31772,7 +31795,7 @@
     "gnaf_pid": "GAQLD161370417",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32005,7 +32028,7 @@
     "gnaf_pid": "GAQLD161467605",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32085,7 +32108,7 @@
     "gnaf_pid": "GAQLD161471492",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32125,7 +32148,7 @@
     "gnaf_pid": "GAQLD161474239",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32462,7 +32485,7 @@
     "gnaf_pid": "GAQLD161652711",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32482,7 +32505,7 @@
     "gnaf_pid": "GAQLD161652712",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32502,7 +32525,7 @@
     "gnaf_pid": "GAQLD161652713",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32522,7 +32545,7 @@
     "gnaf_pid": "GAQLD161652714",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32542,7 +32565,7 @@
     "gnaf_pid": "GAQLD161652715",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32562,7 +32585,7 @@
     "gnaf_pid": "GAQLD161652716",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32640,9 +32663,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161652814",
-    "tech_change_status": "Committed",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -32682,7 +32703,7 @@
     "gnaf_pid": "GAQLD161652816",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32722,7 +32743,7 @@
     "gnaf_pid": "GAQLD161652818",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32796,7 +32817,7 @@
     "gnaf_pid": "GAQLD161657560",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32936,7 +32957,7 @@
     "gnaf_pid": "GAQLD161658801",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33074,7 +33095,7 @@
     "gnaf_pid": "GAQLD161691429",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33109,10 +33130,9 @@
    "properties": {
     "name": "LOT 32 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697018",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697018"
    }
   },
   {
@@ -33127,10 +33147,9 @@
    "properties": {
     "name": "LOT 33 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697019",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697019"
    }
   },
   {
@@ -33145,10 +33164,9 @@
    "properties": {
     "name": "LOT 38 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697020",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697020"
    }
   },
   {
@@ -33163,10 +33181,9 @@
    "properties": {
     "name": "LOT 41 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697021",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697021"
    }
   },
   {
@@ -33181,10 +33198,9 @@
    "properties": {
     "name": "LOT 43 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697022",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697022"
    }
   },
   {
@@ -33216,10 +33232,9 @@
    "properties": {
     "name": "LOT 53 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697025",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697025"
    }
   },
   {
@@ -33234,10 +33249,9 @@
    "properties": {
     "name": "LOT 54 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697026",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697026"
    }
   },
   {
@@ -33252,10 +33266,9 @@
    "properties": {
     "name": "LOT 55 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161697027",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161697027"
    }
   },
   {
@@ -33335,7 +33348,7 @@
     "gnaf_pid": "GAQLD161708514",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33355,7 +33368,7 @@
     "gnaf_pid": "GAQLD161708515",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33375,7 +33388,7 @@
     "gnaf_pid": "GAQLD161708516",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33532,7 +33545,7 @@
     "gnaf_pid": "GAQLD161739399",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33552,7 +33565,7 @@
     "gnaf_pid": "GAQLD161740170",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33572,7 +33585,7 @@
     "gnaf_pid": "GAQLD161740171",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33592,7 +33605,7 @@
     "gnaf_pid": "GAQLD161740172",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33612,7 +33625,7 @@
     "gnaf_pid": "GAQLD161740173",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33670,7 +33683,7 @@
     "gnaf_pid": "GAQLD161784146",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33725,8 +33738,8 @@
    "properties": {
     "name": "9 HIBISCUS COURT NANANGO 4615",
     "locID": "LOC000087040387",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161785834",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33750,7 +33763,7 @@
     "gnaf_pid": "GAQLD161785835",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33830,7 +33843,7 @@
     "gnaf_pid": "GAQLD161788694",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33850,7 +33863,7 @@
     "gnaf_pid": "GAQLD161788695",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33890,7 +33903,7 @@
     "gnaf_pid": "GAQLD161791259",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33989,7 +34002,7 @@
     "gnaf_pid": "GAQLD161814158",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34009,7 +34022,7 @@
     "gnaf_pid": "GAQLD161814588",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34029,7 +34042,7 @@
     "gnaf_pid": "GAQLD161831380",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34049,7 +34062,7 @@
     "gnaf_pid": "GAQLD161831381",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34089,7 +34102,7 @@
     "gnaf_pid": "GAQLD161851939",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34169,7 +34182,7 @@
     "gnaf_pid": "GAQLD161856737",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34500,7 +34513,7 @@
     "gnaf_pid": "GAQLD161961696",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34520,7 +34533,7 @@
     "gnaf_pid": "GAQLD161961697",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34540,7 +34553,7 @@
     "gnaf_pid": "GAQLD161961698",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34560,7 +34573,7 @@
     "gnaf_pid": "GAQLD161961699",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34580,7 +34593,7 @@
     "gnaf_pid": "GAQLD161961700",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34760,7 +34773,7 @@
     "gnaf_pid": "GAQLD161961709",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34840,7 +34853,7 @@
     "gnaf_pid": "GAQLD161962623",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34860,7 +34873,7 @@
     "gnaf_pid": "GAQLD161962624",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34997,7 +35010,7 @@
     "gnaf_pid": "GAQLD161967755",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35467,7 +35480,7 @@
     "gnaf_pid": "GAQLD161978460",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35502,10 +35515,9 @@
    "properties": {
     "name": "11 BOONENNE COURT NANANGO 4615",
     "locID": "LOC000025882144",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162081665",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35562,10 +35574,10 @@
    "properties": {
     "name": "1 BOONENNE COURT NANANGO 4615",
     "locID": "LOC000025003068",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162081669",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36047,7 +36059,7 @@
     "gnaf_pid": "GAQLD162087460",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36207,7 +36219,7 @@
     "gnaf_pid": "GAQLD162091119",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36267,7 +36279,7 @@
     "gnaf_pid": "GAQLD162091787",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36487,7 +36499,7 @@
     "gnaf_pid": "GAQLD162218583",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36705,7 +36717,7 @@
     "gnaf_pid": "GAQLD162305710",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36725,7 +36737,7 @@
     "gnaf_pid": "GAQLD162305711",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36845,7 +36857,7 @@
     "gnaf_pid": "GAQLD162371656",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36963,7 +36975,7 @@
     "gnaf_pid": "GAQLD162454940",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37121,7 +37133,7 @@
     "gnaf_pid": "GAQLD162471597",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37261,7 +37273,7 @@
     "gnaf_pid": "GAQLD162599258",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37281,7 +37293,7 @@
     "gnaf_pid": "GAQLD162599259",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37301,7 +37313,7 @@
     "gnaf_pid": "GAQLD162599260",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37321,7 +37333,7 @@
     "gnaf_pid": "GAQLD162599262",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37341,7 +37353,7 @@
     "gnaf_pid": "GAQLD162599263",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37361,7 +37373,7 @@
     "gnaf_pid": "GAQLD162599264",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37381,7 +37393,7 @@
     "gnaf_pid": "GAQLD162599265",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37401,7 +37413,7 @@
     "gnaf_pid": "GAQLD162599266",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37421,7 +37433,7 @@
     "gnaf_pid": "GAQLD162599267",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37601,7 +37613,7 @@
     "gnaf_pid": "GAQLD162611034",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37719,7 +37731,7 @@
     "gnaf_pid": "GAQLD162613687",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37779,7 +37791,7 @@
     "gnaf_pid": "GAQLD162613976",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37799,7 +37811,7 @@
     "gnaf_pid": "GAQLD162613977",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37819,7 +37831,7 @@
     "gnaf_pid": "GAQLD162613978",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37839,7 +37851,7 @@
     "gnaf_pid": "GAQLD162613979",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37859,7 +37871,7 @@
     "gnaf_pid": "GAQLD162613980",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37879,7 +37891,7 @@
     "gnaf_pid": "GAQLD162613982",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37899,7 +37911,7 @@
     "gnaf_pid": "GAQLD162613984",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37919,7 +37931,7 @@
     "gnaf_pid": "GAQLD162613985",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37939,7 +37951,7 @@
     "gnaf_pid": "GAQLD162613986",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37959,7 +37971,7 @@
     "gnaf_pid": "GAQLD162613987",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37979,7 +37991,7 @@
     "gnaf_pid": "GAQLD162613988",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37999,7 +38011,7 @@
     "gnaf_pid": "GAQLD162613989",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38019,7 +38031,7 @@
     "gnaf_pid": "GAQLD162613990",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38039,7 +38051,7 @@
     "gnaf_pid": "GAQLD162613991",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38059,7 +38071,7 @@
     "gnaf_pid": "GAQLD162613992",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38079,7 +38091,7 @@
     "gnaf_pid": "GAQLD162613993",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38099,7 +38111,7 @@
     "gnaf_pid": "GAQLD162613994",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38119,7 +38131,7 @@
     "gnaf_pid": "GAQLD162613995",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38139,7 +38151,7 @@
     "gnaf_pid": "GAQLD162615840",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38159,7 +38171,7 @@
     "gnaf_pid": "GAQLD162615841",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38179,7 +38191,7 @@
     "gnaf_pid": "GAQLD162615842",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38199,7 +38211,7 @@
     "gnaf_pid": "GAQLD162615843",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38219,7 +38231,7 @@
     "gnaf_pid": "GAQLD162615844",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38239,7 +38251,7 @@
     "gnaf_pid": "GAQLD162615845",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38259,7 +38271,7 @@
     "gnaf_pid": "GAQLD162615846",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38279,7 +38291,7 @@
     "gnaf_pid": "GAQLD162615847",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38299,7 +38311,7 @@
     "gnaf_pid": "GAQLD162615848",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38414,7 +38426,7 @@
     "gnaf_pid": "GAQLD162667458",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39033,7 +39045,7 @@
     "gnaf_pid": "GAQLD163017549",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39053,7 +39065,7 @@
     "gnaf_pid": "GAQLD163017550",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39073,7 +39085,7 @@
     "gnaf_pid": "GAQLD163017551",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39093,7 +39105,7 @@
     "gnaf_pid": "GAQLD163017552",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39113,7 +39125,7 @@
     "gnaf_pid": "GAQLD163017553",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39133,7 +39145,7 @@
     "gnaf_pid": "GAQLD163017554",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39153,7 +39165,7 @@
     "gnaf_pid": "GAQLD163017555",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39173,7 +39185,7 @@
     "gnaf_pid": "GAQLD163017557",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39253,7 +39265,7 @@
     "gnaf_pid": "GAQLD163017565",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39293,7 +39305,7 @@
     "gnaf_pid": "GAQLD163017568",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39531,7 +39543,7 @@
     "gnaf_pid": "GAQLD163062171",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39591,7 +39603,7 @@
     "gnaf_pid": "GAQLD163121344",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39667,7 +39679,7 @@
     "gnaf_pid": "GAQLD163126164",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39959,7 +39971,7 @@
     "gnaf_pid": "GAQLD163180758",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39999,7 +40011,7 @@
     "gnaf_pid": "GAQLD163180760",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40019,7 +40031,7 @@
     "gnaf_pid": "GAQLD163180761",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40039,7 +40051,7 @@
     "gnaf_pid": "GAQLD163180762",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40097,7 +40109,7 @@
     "gnaf_pid": "GAQLD163227712",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40117,7 +40129,7 @@
     "gnaf_pid": "GAQLD163228542",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40237,7 +40249,7 @@
     "gnaf_pid": "GAQLD163254760",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40257,7 +40269,7 @@
     "gnaf_pid": "GAQLD163255983",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40415,7 +40427,7 @@
     "gnaf_pid": "GAQLD163266038",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40703,7 +40715,7 @@
     "gnaf_pid": "GAQLD163327759",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40723,7 +40735,7 @@
     "gnaf_pid": "GAQLD163327761",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40763,7 +40775,7 @@
     "gnaf_pid": "GAQLD163331577",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40823,7 +40835,7 @@
     "gnaf_pid": "GAQLD163331981",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40979,7 +40991,7 @@
     "gnaf_pid": "GAQLD424991397",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40999,7 +41011,7 @@
     "gnaf_pid": "GAQLD424991398",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41019,7 +41031,7 @@
     "gnaf_pid": "GAQLD424991399",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41039,7 +41051,7 @@
     "gnaf_pid": "GAQLD424991401",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41059,7 +41071,7 @@
     "gnaf_pid": "GAQLD424991402",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41079,7 +41091,7 @@
     "gnaf_pid": "GAQLD424991403",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41099,7 +41111,7 @@
     "gnaf_pid": "GAQLD424991404",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41119,7 +41131,7 @@
     "gnaf_pid": "GAQLD424991406",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41139,7 +41151,7 @@
     "gnaf_pid": "GAQLD424991407",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41159,7 +41171,7 @@
     "gnaf_pid": "GAQLD424991408",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41179,7 +41191,7 @@
     "gnaf_pid": "GAQLD424991409",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41199,7 +41211,7 @@
     "gnaf_pid": "GAQLD424991410",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41219,7 +41231,7 @@
     "gnaf_pid": "GAQLD424991411",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41239,7 +41251,7 @@
     "gnaf_pid": "GAQLD424991412",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41259,7 +41271,7 @@
     "gnaf_pid": "GAQLD424991413",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41279,7 +41291,7 @@
     "gnaf_pid": "GAQLD424991414",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41299,7 +41311,7 @@
     "gnaf_pid": "GAQLD425004066",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41319,7 +41331,7 @@
     "gnaf_pid": "GAQLD425035565",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41517,7 +41529,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425036412",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -41557,7 +41571,7 @@
     "gnaf_pid": "GAQLD425036464",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41577,7 +41591,7 @@
     "gnaf_pid": "GAQLD425036506",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41597,7 +41611,7 @@
     "gnaf_pid": "GAQLD425036507",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41674,6 +41688,24 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.96072459,
+     -26.66163902
+    ]
+   },
+   "properties": {
+    "name": "14471 D'AGUILAR HIGHWAY NANANGO 4615",
+    "locID": "LOC000128664807",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425036843",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -41759,10 +41791,9 @@
    "properties": {
     "name": "55 FITZROY STREET NANANGO 4615",
     "locID": "LOC000128638450",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD425037278",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425037278"
    }
   },
   {
@@ -41840,7 +41871,7 @@
     "gnaf_pid": "GAQLD425037459",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42275,7 +42306,7 @@
     "gnaf_pid": "GAQLD425038331",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42395,7 +42426,7 @@
     "gnaf_pid": "GAQLD425039556",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42415,7 +42446,7 @@
     "gnaf_pid": "GAQLD425039557",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42471,7 +42502,7 @@
     "name": "1 OLEANDER STREET NANANGO 4615",
     "locID": "LOC000128653313",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425039674",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42495,7 +42526,7 @@
     "gnaf_pid": "GAQLD425039678",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42515,7 +42546,7 @@
     "gnaf_pid": "GAQLD425039921",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43139,7 +43170,7 @@
     "gnaf_pid": "GAQLD425205951",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43229,10 +43260,9 @@
    "properties": {
     "name": "LOT 111 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425208252",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425208252"
    }
   },
   {
@@ -43247,10 +43277,9 @@
    "properties": {
     "name": "LOT 112 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425208253",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425208253"
    }
   },
   {
@@ -43265,10 +43294,9 @@
    "properties": {
     "name": "LOT 5 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425208256",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425208256"
    }
   },
   {
@@ -43305,7 +43333,7 @@
     "gnaf_pid": "GAQLD425237553",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43480,10 +43508,9 @@
    "properties": {
     "name": "LOT 8 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425590550",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425590550"
    }
   },
   {
@@ -43498,10 +43525,9 @@
    "properties": {
     "name": "LOT 9 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425590551",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425590551"
    }
   },
   {
@@ -44084,7 +44110,7 @@
     "gnaf_pid": "GAQLD425866133",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44124,7 +44150,7 @@
     "gnaf_pid": "GAQLD425866135",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44144,7 +44170,7 @@
     "gnaf_pid": "GAQLD425866136",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44376,7 +44402,7 @@
     "gnaf_pid": "GAQLD719269203",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44622,7 +44648,7 @@
     "gnaf_pid": "GAQLD719900615",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44796,7 +44822,7 @@
     "gnaf_pid": "GAQLD720542692",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45108,7 +45134,7 @@
     "gnaf_pid": "GAQLD720671443",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45164,7 +45190,7 @@
     "gnaf_pid": "GAQLD720674792",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45242,7 +45268,7 @@
     "gnaf_pid": "GAQLD720677035",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45257,10 +45283,9 @@
    "properties": {
     "name": "LOT 117 KING STREET NANANGO 4615",
     "locID": "LOC000045839099",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD720677062",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720677062"
    }
   },
   {
@@ -45316,6 +45341,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00349449,
+     -26.69560026
+    ]
+   },
+   "properties": {
+    "name": "123 BURNETT STREET NANANGO 4615",
+    "locID": "LOC100087357589",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720977775",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -45411,7 +45454,7 @@
     "name": "1B OLEANDER STREET NANANGO 4615",
     "locID": "LOC000128653313",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721145204",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45495,7 +45538,7 @@
     "gnaf_pid": "GAQLD721429058",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45515,7 +45558,27 @@
     "gnaf_pid": "GAQLD721430277",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.97593091,
+     -26.68079226
+    ]
+   },
+   "properties": {
+    "name": "261 CARBEEN CRESCENT NANANGO 4615",
+    "locID": "LOC100087312829",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721430531",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45535,7 +45598,7 @@
     "gnaf_pid": "GAQLD721431109",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45555,7 +45618,7 @@
     "gnaf_pid": "GAQLD721433146",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45805,7 +45868,7 @@
     "gnaf_pid": "GAQLD721580712",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
