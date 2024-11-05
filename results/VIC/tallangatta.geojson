@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-18T07:03:33.309265",
+ "generated": "2024-11-05T13:11:54.044018",
  "suburb": "TALLANGATTA",
  "features": [
   {
@@ -15,10 +15,9 @@
    "properties": {
     "name": "35 TOWONG STREET EAST TALLANGATTA 3700",
     "locID": "LOC000010312641",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412425437",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -357,10 +356,9 @@
    "properties": {
     "name": "22 BARREE STREET TALLANGATTA 3700",
     "locID": "LOC000065700384",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC412441554",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412441554"
    }
   },
   {
@@ -651,10 +649,10 @@
    "properties": {
     "name": "79 TOWONG STREET TALLANGATTA 3700",
     "locID": "LOC000125100964",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC412453304",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2848,9 +2846,9 @@
     "name": "8 NOOROOMA STREET TALLANGATTA 3700",
     "locID": "LOC000104924556",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420020429",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3617,10 +3615,9 @@
    "properties": {
     "name": "9 KARRIKA STREET TALLANGATTA 3700",
     "locID": "LOC000082578842",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420304978",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5371,10 +5368,10 @@
    "properties": {
     "name": "79-81 TOWONG STREET TALLANGATTA 3700",
     "locID": "LOC000125100964",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420898596",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5819,7 +5816,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420926710",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9349,9 +9346,9 @@
     "name": "57 TALLANGATTA LOOKOUT ROAD TALLANGATTA 3700",
     "locID": "LOC000044662155",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "FW_NA",
     "gnaf_pid": "GAVIC422031957",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -9528,10 +9525,12 @@
    "properties": {
     "name": "388 BRYANTS GAP ROAD TALLANGATTA 3700",
     "locID": "LOC000100084828",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422131687",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9564,10 +9563,12 @@
    "properties": {
     "name": "495 BRYANTS GAP ROAD TALLANGATTA 3700",
     "locID": "LOC000083040533",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422131689",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9619,9 +9620,11 @@
     "name": "623 BRYANTS GAP ROAD TALLANGATTA 3700",
     "locID": "LOC000045299191",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC422131693",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9697,7 +9700,7 @@
     "gnaf_pid": "GAVIC422174977",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9912,10 +9915,12 @@
    "properties": {
     "name": "100 TALLANGATTA LOOKOUT ROAD TALLANGATTA 3700",
     "locID": "LOC000096541122",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422194977",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10217,10 +10222,12 @@
    "properties": {
     "name": "1051 MURRAY VALLEY HIGHWAY TALLANGATTA 3700",
     "locID": "LOC000017811966",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423227515",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10434,10 +10441,12 @@
    "properties": {
     "name": "84A HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000009476059",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423634514",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10690,10 +10699,12 @@
    "properties": {
     "name": "266 BRYANTS GAP ROAD TALLANGATTA 3700",
     "locID": "LOC000017794418",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423788332",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11639,10 +11650,12 @@
    "properties": {
     "name": "84C HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000148367652",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425401097",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11675,7 +11688,7 @@
    "properties": {
     "name": "933 MURRAY VALLEY HIGHWAY TALLANGATTA 3700",
     "locID": "LOC000148037151",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425468211",
     "tech_change_status": "Not Planned"
@@ -11803,10 +11816,12 @@
    "properties": {
     "name": "66 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000148368461",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425518591",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11821,7 +11836,7 @@
    "properties": {
     "name": "148 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000148028886",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425561865",
     "tech_change_status": "Not Planned"
@@ -11919,10 +11934,12 @@
    "properties": {
     "name": "76 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000150279535",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425734983",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11937,10 +11954,12 @@
    "properties": {
     "name": "84 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000150279542",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425734984",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11975,7 +11994,7 @@
    "properties": {
     "name": "105 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000178767562",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425780830",
     "tech_change_status": "Not Planned"
@@ -12056,7 +12075,7 @@
     "gnaf_pid": "GAVIC719106075",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12127,7 +12146,7 @@
    "properties": {
     "name": "3 TALLANGATTA LOOKOUT ROAD TALLANGATTA 3700",
     "locID": "LOC000186790495",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719923001",
     "tech_change_status": "Not Planned"
@@ -12145,7 +12164,7 @@
    "properties": {
     "name": "168 HARDYS ROAD TALLANGATTA 3700",
     "locID": "LOC000173884156",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719985169",
     "tech_change_status": "Not Planned"
@@ -12181,10 +12200,10 @@
    "properties": {
     "name": "81-83 TOWONG STREET TALLANGATTA 3700",
     "locID": "LOC000125100964",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721091599",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12226,7 +12245,7 @@
     "gnaf_pid": "GAVIC721299699",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
