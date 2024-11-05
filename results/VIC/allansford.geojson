@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-17T20:40:21.078590",
+ "generated": "2024-11-05T02:53:34.058937",
  "suburb": "ALLANSFORD",
  "features": [
   {
@@ -2646,8 +2646,8 @@
    "properties": {
     "name": "108 ZIEGLER PARADE ALLANSFORD 3277",
     "locID": "LOC000062133774",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419979227",
     "tech_change_status": "Eligible to Order"
    }
@@ -3827,8 +3827,8 @@
    "properties": {
     "name": "6 ALICE STREET ALLANSFORD 3277",
     "locID": "LOC000070065979",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420360110",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3886,9 +3886,9 @@
     "name": "32 ZIEGLER PARADE ALLANSFORD 3277",
     "locID": "LOC000100990715",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420428975",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9935,7 +9935,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424591458",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10290,10 +10290,10 @@
    "properties": {
     "name": "7 GARABALDI LANE ALLANSFORD 3277",
     "locID": "LOC000115752754",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424878939",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14569,7 +14569,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721364427",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
