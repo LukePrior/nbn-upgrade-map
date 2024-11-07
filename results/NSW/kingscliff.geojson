@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-20T16:23:16.455927",
+ "generated": "2024-11-07T21:47:13.699920",
  "suburb": "KINGSCLIFF",
  "features": [
   {
@@ -829,10 +829,10 @@
    "properties": {
     "name": "11 MURPHYS ROAD KINGSCLIFF 2487",
     "locID": "LOC000040617971",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705092124",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1794,7 +1794,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705092512",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4766,10 +4766,10 @@
    "properties": {
     "name": "7 JULIUS PLACE KINGSCLIFF 2487",
     "locID": "LOC000014994429",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705093678",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4967,9 +4967,9 @@
     "name": "7 CHANNEL PLACE KINGSCLIFF 2487",
     "locID": "LOC000003078820",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705094473",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5109,7 +5109,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705094668",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7623,7 +7623,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705095806",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7700,10 +7700,9 @@
    "properties": {
     "name": "97 KINGSCLIFF STREET KINGSCLIFF 2487",
     "locID": "LOC000029637020",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705095810",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8418,7 +8417,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705095848",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8815,8 +8814,9 @@
     "name": "UNIT 1, 34 GIBSON STREET KINGSCLIFF 2487",
     "locID": "LOC000090163784",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705095984"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW705095984",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -10446,7 +10446,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705097318",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15894,7 +15894,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GANSW705099956",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17547,7 +17549,7 @@
     "name": "15 MCPHAIL AVENUE KINGSCLIFF 2487",
     "locID": "LOC000022024344",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705100694",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18495,10 +18497,9 @@
    "properties": {
     "name": "8 BOOMERANG STREET KINGSCLIFF 2487",
     "locID": "LOC000067371402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705101690",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23233,10 +23234,9 @@
    "properties": {
     "name": "32 ORIENT STREET KINGSCLIFF 2487",
     "locID": "LOC000028222319",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705104251",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705104251"
    }
   },
   {
@@ -24987,7 +24987,7 @@
    "properties": {
     "name": "230 MARINE PARADE KINGSCLIFF 2487",
     "locID": "LOC000191722512",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705104415"
    }
@@ -27929,7 +27929,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705107952",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32048,7 +32048,7 @@
    "properties": {
     "name": "3 OZONE STREET KINGSCLIFF 2487",
     "locID": "LOC000195637107",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705110593"
    }
@@ -33698,7 +33698,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705111501",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36282,7 +36282,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705113144",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39698,10 +39698,12 @@
    "properties": {
     "name": "20 YALE STREET KINGSCLIFF 2487",
     "locID": "LOC000003150457",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705114581",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39875,10 +39877,10 @@
    "properties": {
     "name": "10 YAO STREET KINGSCLIFF 2487",
     "locID": "LOC000059333868",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705114590",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40398,7 +40400,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705114643",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41031,7 +41033,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705115228",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56965,7 +56967,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712376266",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57714,25 +57718,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712386740",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.57330502,
-     -28.25293741
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 142 MARINE PARADE KINGSCLIFF 2487",
-    "locID": "LOC000076838320",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW712386741",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -65714,10 +65699,10 @@
    "properties": {
     "name": "5 YAO STREET KINGSCLIFF 2487",
     "locID": "LOC000059333868",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716746539",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67018,10 +67003,9 @@
    "properties": {
     "name": "1 CACTUS COURT KINGSCLIFF 2487",
     "locID": "LOC000013181391",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716915880",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716915880"
    }
   },
   {
@@ -72541,10 +72525,9 @@
    "properties": {
     "name": "22 BARREL STREET KINGSCLIFF 2487",
     "locID": "LOC000035121980",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717590313",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717590313"
    }
   },
   {
@@ -74421,10 +74404,9 @@
    "properties": {
     "name": "20 ULLADULLA COURT KINGSCLIFF 2487",
     "locID": "LOC000035470339",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717901949",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717901949"
    }
   },
   {
@@ -76689,7 +76671,7 @@
    "properties": {
     "name": "4 OZONE STREET KINGSCLIFF 2487",
     "locID": "LOC000195637111",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717927106"
    }
@@ -86723,10 +86705,9 @@
    "properties": {
     "name": "83 CYLINDERS DRIVE KINGSCLIFF 2487",
     "locID": "LOC000165976092",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW718528643",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718528643"
    }
   },
   {
@@ -86978,25 +86959,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718561539",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.56653022,
-     -28.23722173
-    ]
-   },
-   "properties": {
-    "name": "UNIT 201, 13 MURPHYS ROAD KINGSCLIFF 2487",
-    "locID": "LOC000165975055",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718563671",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -87610,10 +87572,9 @@
    "properties": {
     "name": "341 CASUARINA WAY KINGSCLIFF 2487",
     "locID": "LOC000165977097",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718597432",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718597432"
    }
   },
   {
@@ -88148,10 +88109,9 @@
    "properties": {
     "name": "48 SAILFISH WAY KINGSCLIFF 2487",
     "locID": "LOC000165977256",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW718605953",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718605953"
    }
   },
   {
@@ -88466,10 +88426,9 @@
    "properties": {
     "name": "25 BRONTE PLACE KINGSCLIFF 2487",
     "locID": "LOC000166096401",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718720999",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88728,7 +88687,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718721012",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -89592,9 +89551,9 @@
     "name": "57 SAILFISH WAY KINGSCLIFF 2487",
     "locID": "LOC000165979373",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718806317",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -90560,9 +90519,9 @@
     "name": "7 SEASIDE DRIVE KINGSCLIFF 2487",
     "locID": "LOC000165979523",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718806494",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -91194,10 +91153,9 @@
    "properties": {
     "name": "UNIT 2, 32 SAILFISH WAY KINGSCLIFF 2487",
     "locID": "LOC000165980363",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718906466",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718906466"
    }
   },
   {
@@ -91212,10 +91170,9 @@
    "properties": {
     "name": "UNIT 3, 32 SAILFISH WAY KINGSCLIFF 2487",
     "locID": "LOC000165980363",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718906467",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718906467"
    }
   },
   {
@@ -96434,10 +96391,9 @@
    "properties": {
     "name": "66A CYLINDERS DRIVE KINGSCLIFF 2487",
     "locID": "LOC100072967299",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719584012",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719584012"
    }
   },
   {
