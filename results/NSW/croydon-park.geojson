@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-20T08:15:56.374908",
+ "generated": "2024-11-07T13:34:58.818867",
  "suburb": "CROYDON PARK",
  "features": [
   {
@@ -1344,7 +1344,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704518064",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2169,10 +2169,10 @@
    "properties": {
     "name": "44 BLENHEIM STREET CROYDON PARK 2133",
     "locID": "LOC000105177062",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704520682",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10333,10 +10333,10 @@
    "properties": {
     "name": "30 BLENHEIM STREET CROYDON PARK 2133",
     "locID": "LOC000046991248",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704527350",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19342,6 +19342,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.10492817,
+     -33.8980367
+    ]
+   },
+   "properties": {
+    "name": "28 HAMPTON STREET CROYDON PARK 2133",
+    "locID": "LOC000195666612",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704531948"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.10418667,
      -33.89823737
     ]
@@ -21602,7 +21619,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704533008",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24557,10 +24574,9 @@
    "properties": {
     "name": "24 TANGARRA STREET CROYDON PARK 2133",
     "locID": "LOC000017523562",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704534576",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33706,10 +33722,9 @@
    "properties": {
     "name": "26 RAWSON STREET CROYDON PARK 2133",
     "locID": "LOC000017961763",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704538270",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704538270"
    }
   },
   {
@@ -80187,23 +80202,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10893435,
-     -33.89565075
-    ]
-   },
-   "properties": {
-    "name": "9 BRIGHTON AVENUE CROYDON PARK 2133",
-    "locID": "LOC000182213198",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718798768"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.10106531,
      -33.89207009
     ]
@@ -84226,6 +84224,40 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721170952"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.10492298,
+     -33.89803473
+    ]
+   },
+   "properties": {
+    "name": "28A HAMPTON STREET CROYDON PARK 2133",
+    "locID": "LOC000195666612",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721174960"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.10492298,
+     -33.89803473
+    ]
+   },
+   "properties": {
+    "name": "28B HAMPTON STREET CROYDON PARK 2133",
+    "locID": "LOC000195666620",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721175702"
    }
   },
   {
