@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-20T22:26:33.707852",
+ "generated": "2024-11-08T04:02:12.789809",
  "suburb": "CASTLEMAINE",
  "features": [
   {
@@ -604,7 +604,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411066157",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1293,7 +1293,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411068855",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1430,7 +1430,7 @@
     "name": "121 MOSTYN STREET CASTLEMAINE 3450",
     "locID": "LOC000124945625",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411069737",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2448,7 +2448,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411075997",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2885,7 +2885,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411076826",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3359,7 +3359,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411078160",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3435,9 +3435,9 @@
     "name": "55 URQUHART STREET CASTLEMAINE 3450",
     "locID": "LOC000049011931",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411079050",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3516,7 +3516,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411081420",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3916,26 +3916,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.22072001,
-     -37.05407198
-    ]
-   },
-   "properties": {
-    "name": "36 HALL STREET CASTLEMAINE 3450",
-    "locID": "LOC000164462333",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC411088746",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.20956985,
      -37.0737726
     ]
@@ -3946,7 +3926,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411088758",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6803,8 +6783,8 @@
    "properties": {
     "name": "3 EDWARD STREET CASTLEMAINE 3450",
     "locID": "LOC000050623148",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419671024",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8930,7 +8910,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419730590",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9185,7 +9165,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419732058",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9203,7 +9185,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419732059",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10169,10 +10153,9 @@
    "properties": {
     "name": "4 VINCENT STREET CASTLEMAINE 3450",
     "locID": "LOC000028927469",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419738839",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10439,10 +10422,9 @@
    "properties": {
     "name": "54 BLAKELEY ROAD CASTLEMAINE 3450",
     "locID": "LOC000093605736",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419741369",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10695,10 +10677,9 @@
    "properties": {
     "name": "16 SAWMILL ROAD CASTLEMAINE 3450",
     "locID": "LOC000075730962",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419743153",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10856,7 +10837,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419744271",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11050,7 +11031,7 @@
     "name": "78 BOWDEN STREET CASTLEMAINE 3450",
     "locID": "LOC000020234004",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419745258",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11365,10 +11346,9 @@
    "properties": {
     "name": "75 LYTTLETON STREET CASTLEMAINE 3450",
     "locID": "LOC000050683227",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419746684",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11606,7 +11586,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419748610",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12921,10 +12901,10 @@
    "properties": {
     "name": "2 VINCENT STREET CASTLEMAINE 3450",
     "locID": "LOC000154470919",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419961429",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13362,7 +13342,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419964519",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14273,10 +14253,9 @@
    "properties": {
     "name": "54 DOVETON STREET CASTLEMAINE 3450",
     "locID": "LOC000098020921",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419979660",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14414,7 +14393,7 @@
     "name": "38 WILLIAM STREET CASTLEMAINE 3450",
     "locID": "LOC000067655196",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419984171",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14456,7 +14435,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419984173",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15224,9 +15203,9 @@
     "name": "18 MYRING STREET CASTLEMAINE 3450",
     "locID": "LOC000039876375",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420015789",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15504,7 +15483,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420024555",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15522,7 +15503,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420025240",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16035,7 +16016,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420032549",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16760,10 +16741,10 @@
    "properties": {
     "name": "112 HARGRAVES STREET CASTLEMAINE 3450",
     "locID": "LOC000009714700",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420038810",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17647,7 +17628,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420048383",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18040,7 +18021,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420050991",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18180,7 +18161,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420053682",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18694,10 +18675,9 @@
    "properties": {
     "name": "37 GINGELL STREET CASTLEMAINE 3450",
     "locID": "LOC000053011436",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420058637",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19251,7 +19231,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420064293",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19569,7 +19549,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420070578",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19783,7 +19763,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420129088",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19880,7 +19860,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420138922",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21003,10 +20983,9 @@
    "properties": {
     "name": "36 URQUHART STREET CASTLEMAINE 3450",
     "locID": "LOC000102248733",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420261715",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21204,7 +21183,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420275883",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21362,7 +21341,7 @@
     "name": "2 FINCH STREET CASTLEMAINE 3450",
     "locID": "LOC000054066049",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420276411",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21642,7 +21621,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420279012",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21740,7 +21719,7 @@
     "name": "41 GINGELL STREET CASTLEMAINE 3450",
     "locID": "LOC000088993903",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420279017",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22315,7 +22294,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420298912",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22332,10 +22311,10 @@
    "properties": {
     "name": "56 PARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000055274203",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420301042",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22532,7 +22511,7 @@
     "name": "119-121 MOSTYN STREET CASTLEMAINE 3450",
     "locID": "LOC000124945625",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420307460",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22986,7 +22965,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420323521",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23296,7 +23275,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420337108",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23611,10 +23590,9 @@
    "properties": {
     "name": "99 BOWDEN STREET CASTLEMAINE 3450",
     "locID": "LOC000020558674",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420338622",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23992,7 +23970,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420339218",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24212,7 +24190,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420339441",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25088,7 +25066,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420345924",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25386,7 +25364,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420347515",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25584,7 +25562,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420349263",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25938,7 +25916,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420350351",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26054,10 +26032,10 @@
    "properties": {
     "name": "9 HAYDN COURT CASTLEMAINE 3450",
     "locID": "LOC000067890295",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420350752",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26293,10 +26271,10 @@
    "properties": {
     "name": "19 BUTTERWORTH STREET CASTLEMAINE 3450",
     "locID": "LOC000036897138",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420354592",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26415,7 +26393,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420356349",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28237,7 +28215,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420569828",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28294,7 +28272,7 @@
     "name": "25 PARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000069898042",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420569847",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28633,7 +28611,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420570966",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29549,7 +29527,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420577746",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29686,7 +29664,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420578660",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31203,7 +31183,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420639231",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31501,7 +31481,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420641206",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31536,10 +31518,9 @@
    "properties": {
     "name": "16 CHARLES STREET CASTLEMAINE 3450",
     "locID": "LOC000019351604",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420641308",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31950,10 +31931,9 @@
    "properties": {
     "name": "86 KENNEDY STREET CASTLEMAINE 3450",
     "locID": "LOC000050417957",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420645481",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32151,7 +32131,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420649055",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33112,7 +33092,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420659664",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33410,7 +33390,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420665762",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33687,7 +33667,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420670161",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34595,10 +34575,10 @@
    "properties": {
     "name": "5 BRITTON STREET CASTLEMAINE 3450",
     "locID": "LOC000079084902",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420851663",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34673,7 +34653,7 @@
     "name": "7 WHEELER STREET CASTLEMAINE 3450",
     "locID": "LOC000063683621",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420851667",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35252,7 +35232,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420862476",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35786,7 +35766,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420874960",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36976,7 +36956,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420892400",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36994,7 +36976,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420892401",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37054,7 +37036,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420893254",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37072,9 +37054,9 @@
     "name": "1 GEORGE STREET CASTLEMAINE 3450",
     "locID": "LOC000040506796",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420893255",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37592,7 +37574,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420935468",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38310,7 +38292,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420942350",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38683,7 +38665,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420945879",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38979,7 +38963,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420948128",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39232,9 +39216,9 @@
     "name": "23 CAROL STREET CASTLEMAINE 3450",
     "locID": "LOC000088827207",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420949904",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39550,7 +39534,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420952352",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41652,7 +41636,7 @@
     "name": "2 DANIELL DRIVE CASTLEMAINE 3450",
     "locID": "LOC000107202174",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421034736",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41733,7 +41717,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421050653",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42921,7 +42905,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421172055",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43140,7 +43124,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421172820",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43615,7 +43599,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421193179",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44390,7 +44374,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421226384",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44410,7 +44394,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421226385",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44768,7 +44752,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421231988",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45042,10 +45026,9 @@
    "properties": {
     "name": "50 URQUHART STREET CASTLEMAINE 3450",
     "locID": "LOC000071759435",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421234494",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46324,7 +46307,7 @@
     "name": "16-18 TEMPLETON STREET CASTLEMAINE 3450",
     "locID": "LOC000124950148",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421249816",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -46543,7 +46526,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421250954",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46900,7 +46883,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421253480",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47453,10 +47436,9 @@
    "properties": {
     "name": "12 CAROL STREET CASTLEMAINE 3450",
     "locID": "LOC000067005347",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421262641",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49348,7 +49330,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421485153",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49587,7 +49569,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421492520",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49665,7 +49647,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421492525",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50577,7 +50561,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421532299",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50795,7 +50779,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421539537",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50855,7 +50839,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421539551",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52178,7 +52162,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421561440",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52907,7 +52891,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421565800",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55395,10 +55379,10 @@
    "properties": {
     "name": "18 LAWRENCE STREET CASTLEMAINE 3450",
     "locID": "LOC000044578900",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421744591",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56638,10 +56622,10 @@
    "properties": {
     "name": "38 WIMBLE STREET CASTLEMAINE 3450",
     "locID": "LOC000058085206",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421811246",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56721,7 +56705,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421814412",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56901,7 +56885,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421817881",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59017,7 +59001,7 @@
     "name": "2 GINGELL STREET CASTLEMAINE 3450",
     "locID": "LOC000032132030",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421843919",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59916,7 +59900,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421860441",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60802,7 +60786,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421874661",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61271,7 +61255,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421884374",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61370,7 +61354,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421884886",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64120,7 +64104,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423661123",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65097,7 +65081,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423902495",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65157,7 +65141,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423929040",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65735,7 +65719,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424029802",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66894,7 +66878,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424269505",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67445,7 +67429,7 @@
     "name": "119 MOSTYN STREET CASTLEMAINE 3450",
     "locID": "LOC000124945625",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424376180",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -68115,10 +68099,9 @@
    "properties": {
     "name": "UNIT 3, 308 BARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000022630764",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424484588",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68488,8 +68471,8 @@
    "properties": {
     "name": "157 BARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000017743726",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424484612",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -69088,7 +69071,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424484649",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69166,9 +69149,9 @@
     "name": "220 BARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000024346177",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424484653",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69205,8 +69188,8 @@
    "properties": {
     "name": "223 BARKER STREET CASTLEMAINE 3450",
     "locID": "LOC000079942754",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424484656",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -70482,7 +70465,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424484727",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71472,7 +71455,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424489947",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73027,7 +73010,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424490036",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73365,7 +73348,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424490053",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74374,7 +74357,7 @@
     "name": "47 ELIZABETH STREET CASTLEMAINE 3450",
     "locID": "LOC000015291359",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424490652",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -74596,7 +74579,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424490665",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74633,10 +74616,9 @@
    "properties": {
     "name": "62 ELIZABETH STREET CASTLEMAINE 3450",
     "locID": "LOC000010888560",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424490667",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74693,10 +74675,10 @@
    "properties": {
     "name": "66 ELIZABETH STREET CASTLEMAINE 3450",
     "locID": "LOC000025300847",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424490670",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74775,7 +74757,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424490675",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74874,7 +74856,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424491361",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75269,7 +75251,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424495705",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75286,10 +75268,10 @@
    "properties": {
     "name": "113 JOHNSTONE STREET CASTLEMAINE 3450",
     "locID": "LOC000070331387",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424495706",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75366,7 +75348,7 @@
     "name": "117 JOHNSTONE STREET CASTLEMAINE 3450",
     "locID": "LOC000084960051",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424495710",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -75663,7 +75645,7 @@
     "name": "132 JOHNSTONE STREET CASTLEMAINE 3450",
     "locID": "LOC000060831881",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424495725",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -76441,7 +76423,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424495770",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77173,8 +77155,8 @@
    "properties": {
     "name": "14 ROSS DRIVE CASTLEMAINE 3450",
     "locID": "LOC000105757585",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424503361",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -78281,7 +78263,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424543647",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78436,8 +78420,8 @@
    "properties": {
     "name": "14 MARTIN STREET CASTLEMAINE 3450",
     "locID": "LOC000124949944",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424585159",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -78479,7 +78463,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424585384",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -80635,7 +80619,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425273585",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81032,7 +81016,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425462598",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81506,7 +81490,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425610292",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82239,7 +82223,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425690536",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -83330,10 +83316,10 @@
    "properties": {
     "name": "83 BLAKELEY ROAD CASTLEMAINE 3450",
     "locID": "LOC000183513126",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719511499",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -83767,7 +83753,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719987579",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86200,10 +86186,10 @@
    "properties": {
     "name": "83A BLAKELEY ROAD CASTLEMAINE 3450",
     "locID": "LOC000183513126",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720656410",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90270,7 +90256,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721371667",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90356,7 +90342,7 @@
    "properties": {
     "name": "APARTMENT 3, 61 FOREST STREET CASTLEMAINE 3450",
     "locID": "LOC000195493143",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721380023"
    }
