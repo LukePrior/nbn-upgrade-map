@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-22T15:55:56.329584",
+ "generated": "2024-11-09T18:33:51.106898",
  "suburb": "MOE",
  "features": [
   {
@@ -155,9 +155,9 @@
     "name": "11 BURNSIDE STREET MOE 3825",
     "locID": "LOC000057919807",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411852830",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3334,7 +3334,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412677025",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5303,11 +5305,11 @@
     "name": "13 WATSONS ROAD MOE 3825",
     "locID": "LOC000063409072",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC414670436",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8545,7 +8547,7 @@
     "name": "99 WIRRAWAY STREET MOE 3825",
     "locID": "LOC000038637078",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419708774",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9551,10 +9553,9 @@
    "properties": {
     "name": "36 LINCOLN STREET MOE 3825",
     "locID": "LOC000083484707",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419710283",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10238,7 +10239,7 @@
     "name": "23 KING STREET MOE 3825",
     "locID": "LOC000101324859",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419712074",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10260,7 +10261,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419712096",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10791,9 +10794,9 @@
     "name": "29 SCOTT AVENUE MOE 3825",
     "locID": "LOC000089703909",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419712994",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10929,10 +10932,10 @@
    "properties": {
     "name": "52 ELIZABETH STREET MOE 3825",
     "locID": "LOC000022753920",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419713030",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11208,10 +11211,12 @@
    "properties": {
     "name": "44 MOORE STREET MOE 3825",
     "locID": "LOC000070578370",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419713914",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11604,7 +11609,7 @@
     "name": "22 CASTLE STREET MOE 3825",
     "locID": "LOC000054250657",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419714708",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12031,6 +12036,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.25532704,
+     -38.18844085
+    ]
+   },
+   "properties": {
+    "name": "7 LINCOLN STREET MOE 3825",
+    "locID": "LOC000195773607",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419715776"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.25649423,
      -38.18858796
     ]
@@ -12134,7 +12156,7 @@
     "name": "4 GIBSON STREET MOE 3825",
     "locID": "LOC000071532760",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419716167",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18500,7 +18522,7 @@
     "name": "13 BRUCE STREET MOE 3825",
     "locID": "LOC000090576775",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419995351",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18678,7 +18700,7 @@
     "name": "1 BARRY STREET MOE 3825",
     "locID": "LOC000093974131",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419995436",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19168,26 +19190,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.24993925,
-     -38.18441202
-    ]
-   },
-   "properties": {
-    "name": "4 TRUSCOTT ROAD MOE 3825",
-    "locID": "LOC000076984717",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC419998940",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.2485538,
      -38.18447133
     ]
@@ -19316,9 +19318,9 @@
     "name": "52 HAMPTON STREET MOE 3825",
     "locID": "LOC000079541775",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419999079",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19456,7 +19458,7 @@
     "name": "2 CALDWELL STREET MOE 3825",
     "locID": "LOC000024329198",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419999909",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22512,10 +22514,9 @@
    "properties": {
     "name": "13 ALEXANDER AVENUE MOE 3825",
     "locID": "LOC000019610647",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420013665",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22872,6 +22873,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.24969289,
+     -38.17949761
+    ]
+   },
+   "properties": {
+    "name": "72 WATERLOO ROAD MOE 3825",
+    "locID": "LOC000195726063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420014642"
    }
   },
   {
@@ -24722,7 +24740,7 @@
     "name": "17 LIBRA CRESCENT MOE 3825",
     "locID": "LOC000104482956",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420024752",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25097,10 +25115,9 @@
    "properties": {
     "name": "12 EVELYN STREET MOE 3825",
     "locID": "LOC000106479163",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420027204",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25554,10 +25571,10 @@
    "properties": {
     "name": "16 BROCK STREET MOE 3825",
     "locID": "LOC000022971126",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420033536",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30311,8 +30328,8 @@
    "properties": {
     "name": "82 MOORE STREET MOE 3825",
     "locID": "LOC000060683520",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420312269",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30432,7 +30449,7 @@
     "name": "5 ALEXANDER AVENUE MOE 3825",
     "locID": "LOC000104558159",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420312601",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34173,7 +34190,7 @@
     "name": "66 LANGFORD STREET MOE 3825",
     "locID": "LOC000103875414",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420328341",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36417,10 +36434,9 @@
    "properties": {
     "name": "16 EDEN STREET MOE 3825",
     "locID": "LOC000048077028",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420339684",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38190,10 +38206,9 @@
    "properties": {
     "name": "43 JOHN STREET MOE 3825",
     "locID": "LOC000057220028",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420594292",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38463,10 +38478,9 @@
    "properties": {
     "name": "39 ELIZABETH STREET MOE 3825",
     "locID": "LOC000074088105",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420596100",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41380,7 +41394,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420612934",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44436,6 +44451,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.25754285,
+     -38.17004355
+    ]
+   },
+   "properties": {
+    "name": "19-27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392187",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420622612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.26139614,
      -38.16921873
     ]
@@ -46271,10 +46303,9 @@
    "properties": {
     "name": "106 WIRRAWAY STREET MOE 3825",
     "locID": "LOC000089591176",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420631558",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49845,10 +49876,9 @@
    "properties": {
     "name": "2B TRUSCOTT ROAD MOE 3825",
     "locID": "LOC000047428058",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420914106",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50046,7 +50076,7 @@
     "name": "2 MITCHELL COURT MOE 3825",
     "locID": "LOC000034498210",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420914164",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54414,10 +54444,10 @@
    "properties": {
     "name": "12 OLD SALE ROAD MOE 3825",
     "locID": "LOC000089846122",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420934734",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54829,10 +54859,9 @@
    "properties": {
     "name": "73 WIRRAWAY STREET MOE 3825",
     "locID": "LOC000014341155",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420935990",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54849,10 +54878,9 @@
    "properties": {
     "name": "29 SCORPIO DRIVE MOE 3825",
     "locID": "LOC000034304372",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420936024",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58899,10 +58927,9 @@
    "properties": {
     "name": "18 CANBERRA STREET MOE 3825",
     "locID": "LOC000066868412",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421211857",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60626,10 +60653,9 @@
    "properties": {
     "name": "4 BRENDAN STREET MOE 3825",
     "locID": "LOC000097218583",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421218985",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61262,12 +61288,12 @@
    "properties": {
     "name": "57 VICTORIA STREET MOE 3825",
     "locID": "LOC000102437735",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421221666",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62589,9 +62615,9 @@
     "name": "5 WUTTRICH STREET MOE 3825",
     "locID": "LOC000039823973",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421225193",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65920,10 +65946,10 @@
    "properties": {
     "name": "7 MONTE CRESCENT MOE 3825",
     "locID": "LOC000009307111",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421238046",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66939,10 +66965,9 @@
    "properties": {
     "name": "14 COMANS WAY MOE 3825",
     "locID": "LOC000085435680",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421244404",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73630,7 +73655,7 @@
     "name": "51 SCORPIO DRIVE MOE 3825",
     "locID": "LOC000027762177",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421542813",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -74308,7 +74333,7 @@
     "name": "17 MARGARET STREET MOE 3825",
     "locID": "LOC000023418543",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421557382",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -76184,7 +76209,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421586328",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79341,7 +79366,7 @@
     "name": "8 MAY STREET MOE 3825",
     "locID": "LOC000092210738",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421794670",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -79586,6 +79611,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25657728,
+     -38.18980133
+    ]
+   },
+   "properties": {
+    "name": "24 CANBERRA STREET MOE 3825",
+    "locID": "LOC000195674943",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421795959"
    }
   },
   {
@@ -80744,10 +80786,9 @@
    "properties": {
     "name": "6 HYLAND STREET MOE 3825",
     "locID": "LOC000083362602",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421817406",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82145,7 +82186,7 @@
     "name": "17 VICTORIA STREET MOE 3825",
     "locID": "LOC000067505181",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421836740",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -82604,7 +82645,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421839825",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -84834,11 +84875,9 @@
     "name": "5 JUBILEE STREET MOE 3825",
     "locID": "LOC000053695385",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421862038",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -84854,7 +84893,7 @@
     "name": "1 DELLA TORRE ROAD MOE 3825",
     "locID": "LOC000090594195",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421862072",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -85423,10 +85462,9 @@
    "properties": {
     "name": "65 WIRRAWAY STREET MOE 3825",
     "locID": "LOC000093042265",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421865697",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85932,10 +85970,9 @@
    "properties": {
     "name": "81 LANGFORD STREET MOE 3825",
     "locID": "LOC000089557532",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421870212",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86344,7 +86381,7 @@
     "name": "45 QUEEN STREET MOE 3825",
     "locID": "LOC000037838062",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421877204",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -90325,7 +90362,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422145008",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -91181,7 +91220,7 @@
     "name": "6 MITCHELLS ROAD MOE 3825",
     "locID": "LOC000027945872",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423105981",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -92949,9 +92988,9 @@
     "name": "UNIT 1, 55 LLOYD STREET MOE 3825",
     "locID": "LOC000101059206",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423223025",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93163,9 +93202,9 @@
     "name": "UNIT 3, 55 LLOYD STREET MOE 3825",
     "locID": "LOC000101059206",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423223037",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93419,7 +93458,7 @@
     "name": "117 LLOYD STREET MOE 3825",
     "locID": "LOC000029324500",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423223052",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -95009,7 +95048,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423375039",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -98709,10 +98750,10 @@
    "properties": {
     "name": "141 BORRMANS STREET MOE 3825",
     "locID": "LOC000005088688",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424021644",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -100272,10 +100313,9 @@
    "properties": {
     "name": "UNIT 1, 81 LANGFORD STREET MOE 3825",
     "locID": "LOC000089557532",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424458066",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -110297,7 +110337,7 @@
    "properties": {
     "name": "11 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575979",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720824503"
    }
@@ -110593,7 +110633,7 @@
    "properties": {
     "name": "7 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576000",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720836654"
    }
@@ -110610,7 +110650,7 @@
    "properties": {
     "name": "9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576028",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720840266"
    }
@@ -114643,7 +114683,7 @@
    "properties": {
     "name": "UNIT 3, 11 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575967",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721471786"
    }
@@ -114660,7 +114700,7 @@
    "properties": {
     "name": "UNIT 4, 11 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575979",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721473693"
    }
@@ -114677,7 +114717,7 @@
    "properties": {
     "name": "UNIT 4, 9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575998",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721475959"
    }
@@ -114694,7 +114734,7 @@
    "properties": {
     "name": "UNIT 1, 9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576028",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721476375"
    }
@@ -114711,7 +114751,7 @@
    "properties": {
     "name": "UNIT 1, 11 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575946",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721476794"
    }
@@ -114728,7 +114768,7 @@
    "properties": {
     "name": "UNIT 5, 9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575980",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721477256"
    }
@@ -114745,7 +114785,7 @@
    "properties": {
     "name": "UNIT 2, 9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576016",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721477563"
    }
@@ -114762,7 +114802,7 @@
    "properties": {
     "name": "UNIT 3, 9 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576028",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721481515"
    }
@@ -114779,9 +114819,60 @@
    "properties": {
     "name": "UNIT 2, 11 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195575951",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721488013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25710588,
+     -38.17038756
+    ]
+   },
+   "properties": {
+    "name": "UNIT 22, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392314",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721539942"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25684737,
+     -38.17116717
+    ]
+   },
+   "properties": {
+    "name": "UNIT 16, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392351",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721540313"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25781646,
+     -38.17031698
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392305",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721540570"
    }
   },
   {
@@ -114796,9 +114887,519 @@
    "properties": {
     "name": "UNIT 3, 7 ROONEY DRIVE MOE 3825",
     "locID": "LOC000195576000",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721541113"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25747841,
+     -38.17070764
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392156",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721541539"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.2575365,
+     -38.17040256
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392367",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721541906"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25751716,
+     -38.17050415
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392211",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721542670"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25783697,
+     -38.17020924
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392118",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25755585,
+     -38.17030095
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392367",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544468"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.2572955,
+     -38.17122034
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392403",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721546207"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25711625,
+     -38.17119907
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392380",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721546705"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25693674,
+     -38.17083177
+    ]
+   },
+   "properties": {
+    "name": "UNIT 17, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392314",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547091"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25738512,
+     -38.17123098
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392194",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547529"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25774732,
+     -38.17068015
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392295",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25707616,
+     -38.17084832
+    ]
+   },
+   "properties": {
+    "name": "UNIT 18, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392322",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25752736,
+     -38.1709152
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392346",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721548551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25708493,
+     -38.17049762
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392160",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721548942"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25749782,
+     -38.17060575
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392224",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721548975"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25716959,
+     -38.17005296
+    ]
+   },
+   "properties": {
+    "name": "UNIT 25, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392346",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549281"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25712684,
+     -38.1702775
+    ]
+   },
+   "properties": {
+    "name": "UNIT 23, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392139",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549324"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25702662,
+     -38.17118844
+    ]
+   },
+   "properties": {
+    "name": "UNIT 14, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392379",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549400"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.2577888,
+     -38.17046225
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392269",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549877"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25704301,
+     -38.17071775
+    ]
+   },
+   "properties": {
+    "name": "UNIT 19, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392187",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25780263,
+     -38.17038962
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392305",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25777497,
+     -38.17053488
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392276",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25720587,
+     -38.17120971
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392398",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551924"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25747357,
+     -38.17124147
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392435",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552089"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25740948,
+     -38.17090121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392333",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552281"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25706397,
+     -38.17060769
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392173",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552431"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25773347,
+     -38.17075287
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392305",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552848"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25776114,
+     -38.17060752
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 21 BUBB STREET MOE 3825",
+    "locID": "LOC000194392282",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25757913,
+     -38.17017868
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392367",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552928"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25714779,
+     -38.17016743
+    ]
+   },
+   "properties": {
+    "name": "UNIT 24, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392333",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721553519"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.25693699,
+     -38.1711778
+    ]
+   },
+   "properties": {
+    "name": "UNIT 15, 27 BUBB STREET MOE 3825",
+    "locID": "LOC000194392367",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721553912"
    }
   },
   {
