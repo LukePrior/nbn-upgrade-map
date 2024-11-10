@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-23T07:19:42.624432",
+ "generated": "2024-11-10T07:34:21.670607",
  "suburb": "EVERTON PARK",
  "features": [
   {
@@ -542,8 +542,9 @@
     "name": "429 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000174561483",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155283250"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155283250",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3500,6 +3501,26 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155287582"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98224008,
+     -27.38714153
+    ]
+   },
+   "properties": {
+    "name": "182 QUEENS ROAD EVERTON PARK 4053",
+    "locID": "LOC000102160701",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155288371",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10996,7 +11017,7 @@
     "name": "9 LEACH STREET EVERTON PARK 4053",
     "locID": "LOC000087516023",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155300806",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13459,7 +13480,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301722",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13632,10 +13653,9 @@
    "properties": {
     "name": "77 FALLON STREET EVERTON PARK 4053",
     "locID": "LOC000011721120",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301732",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27539,10 +27559,9 @@
    "properties": {
     "name": "28 NEWHAVEN STREET EVERTON PARK 4053",
     "locID": "LOC000049100097",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155308538",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28835,7 +28854,7 @@
    "properties": {
     "name": "11 NEWHAVEN STREET EVERTON PARK 4053",
     "locID": "LOC000192586676",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155309567"
    }
@@ -37231,10 +37250,9 @@
    "properties": {
     "name": "12 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000105498964",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156562916",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37342,10 +37360,10 @@
    "properties": {
     "name": "41 FALLON STREET EVERTON PARK 4053",
     "locID": "LOC000030808894",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156565026",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39129,10 +39147,9 @@
    "properties": {
     "name": "UNIT 2, 24 GORDON PARADE EVERTON PARK 4053",
     "locID": "LOC000097753784",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156567213",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64765,6 +64782,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98471911,
+     -27.40450932
+    ]
+   },
+   "properties": {
+    "name": "27 HUNTER STREET EVERTON PARK 4053",
+    "locID": "LOC000195705230",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161184621"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98415803,
      -27.40414827
     ]
@@ -70754,10 +70788,9 @@
    "properties": {
     "name": "46 BURWOOD ROAD EVERTON PARK 4053",
     "locID": "LOC000039251255",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163066549",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71944,7 +71977,7 @@
    "properties": {
     "name": "UNIT 3, 11 NEWHAVEN STREET EVERTON PARK 4053",
     "locID": "LOC000192586676",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163369530"
    }
@@ -77332,11 +77365,12 @@
    "properties": {
     "name": "UNIT 1, 27 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000159880897",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425178359",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -77351,11 +77385,12 @@
    "properties": {
     "name": "UNIT 2, 27 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000159880897",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425178360",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -77370,7 +77405,7 @@
    "properties": {
     "name": "UNIT 3, 27 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000159881117",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425178361",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -77389,11 +77424,12 @@
    "properties": {
     "name": "UNIT 4, 27 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000159880897",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425178362",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
