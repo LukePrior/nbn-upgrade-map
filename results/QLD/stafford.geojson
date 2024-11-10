@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-23T22:31:52.605716",
+ "generated": "2024-11-10T22:07:24.598335",
  "suburb": "STAFFORD",
  "features": [
   {
@@ -799,7 +799,7 @@
     "name": "31 TATHRA STREET STAFFORD 4053",
     "locID": "LOC000020671227",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155827910",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8092,10 +8092,10 @@
    "properties": {
     "name": "44 MINIMINE STREET STAFFORD 4053",
     "locID": "LOC000013537553",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155844164",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8574,10 +8574,9 @@
    "properties": {
     "name": "36 THEODORE STREET STAFFORD 4053",
     "locID": "LOC000086053057",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155844206",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9509,6 +9508,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01920903,
+     -27.41008048
+    ]
+   },
+   "properties": {
+    "name": "8 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000009122200",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155844876",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11696,10 +11714,9 @@
    "properties": {
     "name": "8 BAROKEE STREET STAFFORD 4053",
     "locID": "LOC000089575859",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155845914",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14615,24 +14632,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.01803555,
-     -27.4079871
-    ]
-   },
-   "properties": {
-    "name": "56 LEIPER STREET STAFFORD 4053",
-    "locID": "LOC000177206344",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155846711",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.00467163,
      -27.40349086
     ]
@@ -14861,10 +14860,10 @@
    "properties": {
     "name": "15 WAROON STREET STAFFORD 4053",
     "locID": "LOC000044603484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155846969",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17040,7 +17039,7 @@
     "name": "52 HAROLD STREET STAFFORD 4053",
     "locID": "LOC000006643363",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155847814",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22080,7 +22079,7 @@
     "name": "65 PATEENA STREET STAFFORD 4053",
     "locID": "LOC000072302322",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155850792",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26884,10 +26883,9 @@
    "properties": {
     "name": "260 WEBSTER ROAD STAFFORD 4053",
     "locID": "LOC000094528695",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155853837",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27904,7 +27902,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155854366",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31957,7 +31957,7 @@
     "name": "24 TURRANA STREET STAFFORD 4053",
     "locID": "LOC000040830736",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157097862",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36344,10 +36344,9 @@
    "properties": {
     "name": "25 HAYWARD STREET STAFFORD 4053",
     "locID": "LOC000126376461",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157161240",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36546,10 +36545,10 @@
    "properties": {
     "name": "12 DUNEDOO STREET STAFFORD 4053",
     "locID": "LOC000054758584",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157161611",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55272,10 +55271,10 @@
    "properties": {
     "name": "2 REUBEN STREET STAFFORD 4053",
     "locID": "LOC000089438193",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161002497",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57964,10 +57963,9 @@
    "properties": {
     "name": "8 RYENA STREET STAFFORD 4053",
     "locID": "LOC000074087087",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162479436",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74721,6 +74719,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721312493"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0187166,
+     -27.40697494
+    ]
+   },
+   "properties": {
+    "name": "38 WAROON STREET STAFFORD 4053",
+    "locID": "LOC000193644417",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392706"
    }
   },
   {
