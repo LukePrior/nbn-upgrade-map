@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-24T20:21:52.176743",
+ "generated": "2024-11-11T18:17:04.724359",
  "suburb": "PARA HILLS WEST",
  "features": [
   {
@@ -6849,10 +6849,10 @@
    "properties": {
     "name": "97 KESTERS ROAD PARA HILLS WEST 5096",
     "locID": "LOC000008301138",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414941227",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10182,8 +10182,8 @@
    "properties": {
     "name": "11 NEWFIELD ROAD PARA HILLS WEST 5096",
     "locID": "LOC000083207203",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415137013",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13258,10 +13258,10 @@
    "properties": {
     "name": "77 MCINTYRE ROAD PARA HILLS WEST 5096",
     "locID": "LOC000064195248",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415323034",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24632,8 +24632,8 @@
    "properties": {
     "name": "1399 MAIN NORTH ROAD PARA HILLS WEST 5096",
     "locID": "LOC000157126867",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416799719",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24768,9 +24768,10 @@
     "name": "UNIT 1, 28 MAXWELL ROAD PARA HILLS WEST 5096",
     "locID": "LOC000176628741",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416801824",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -26172,10 +26173,9 @@
    "properties": {
     "name": "8 CYCLAMEN AVENUE PARA HILLS WEST 5096",
     "locID": "LOC000079158747",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_421965593",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_421965593"
    }
   },
   {
@@ -34311,6 +34311,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721304630",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.63941722,
+     -34.80944253
+    ]
+   },
+   "properties": {
+    "name": "2B MOYES COURT PARA HILLS WEST 5096",
+    "locID": "LOC000192845861",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721304656",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-24T20:16:29.221125",
+ "generated": "2024-11-11T18:10:34.228393",
  "suburb": "THEBARTON",
  "features": [
   {
@@ -3755,6 +3755,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.57035888,
+     -34.9175036
+    ]
+   },
+   "properties": {
+    "name": "24 NEVILLE ROAD THEBARTON 5031",
+    "locID": "LOC000044695257",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_414958717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.57045513,
      -34.9188095
     ]
@@ -4031,7 +4048,7 @@
     "name": "14 RANDOLPH STREET THEBARTON 5031",
     "locID": "LOC000030849524",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414959539",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4147,10 +4164,9 @@
    "properties": {
     "name": "2 WARE STREET THEBARTON 5031",
     "locID": "LOC000053000218",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414964196",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7442,7 +7458,7 @@
     "name": "7 BALLANTYNE STREET THEBARTON 5031",
     "locID": "LOC000016706694",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415410210",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8359,8 +8375,8 @@
    "properties": {
     "name": "53 BALLANTYNE STREET THEBARTON 5031",
     "locID": "LOC000102923243",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415420198",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -14879,7 +14895,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416366445",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23973,9 +23989,10 @@
     "name": "LOT 50 WEST THEBARTON ROAD THEBARTON 5031",
     "locID": "LOC000189370043",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720300554",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
