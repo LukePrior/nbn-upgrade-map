@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-25T02:03:58.488203",
+ "generated": "2024-11-11T23:39:45.915628",
  "suburb": "MIDLAND",
  "features": [
   {
@@ -433,7 +433,7 @@
     "name": "49 JOHN STREET MIDLAND 6056",
     "locID": "LOC000022853935",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146676050",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1530,10 +1530,10 @@
    "properties": {
     "name": "16 EWART GROVE MIDLAND 6056",
     "locID": "LOC000033580263",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146686697",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5820,7 +5820,7 @@
     "name": "27 KAY PLACE MIDLAND 6056",
     "locID": "LOC000094645759",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146690232",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8381,7 +8381,7 @@
     "name": "11A FREDERIC STREET MIDLAND 6056",
     "locID": "LOC000101299150",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146692491",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10382,6 +10382,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.00745348,
+     -31.88472266
+    ]
+   },
+   "properties": {
+    "name": "54 NORTH STREET MIDLAND 6056",
+    "locID": "LOC000179212242",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146694686",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      116.00433182,
      -31.88554329
     ]
@@ -10969,6 +10988,26 @@
     "gnaf_pid": "GAWA_146695356",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.01473066,
+     -31.88882309
+    ]
+   },
+   "properties": {
+    "name": "57 LOTON AVENUE MIDLAND 6056",
+    "locID": "LOC000065121302",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146695357",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2025"
    }
   },
@@ -13593,9 +13632,9 @@
     "name": "9 HAMERSLEY STREET MIDLAND 6056",
     "locID": "LOC000172809884",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146697525",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16164,10 +16203,9 @@
    "properties": {
     "name": "33 NORTH STREET MIDLAND 6056",
     "locID": "LOC000093075304",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146700945",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20775,7 +20813,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146707149",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21937,10 +21975,9 @@
    "properties": {
     "name": "11 KINGSTON PLACE MIDLAND 6056",
     "locID": "LOC000092933442",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146707974",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21958,7 +21995,7 @@
     "name": "9 KINGSTON PLACE MIDLAND 6056",
     "locID": "LOC000066111023",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146707975",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22700,6 +22737,23 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.01833,
+     -31.89154
+    ]
+   },
+   "properties": {
+    "name": "6 MATHOURA STREET MIDLAND 6056",
+    "locID": "LOC000195729510",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146708599"
    }
   },
   {
@@ -28597,7 +28651,7 @@
     "name": "80 FERGUSON STREET MIDLAND 6056",
     "locID": "LOC000132223753",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147274065",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44993,10 +45047,9 @@
    "properties": {
     "name": "71B EWART STREET MIDLAND 6056",
     "locID": "LOC000028628639",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147944285",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147944285"
    }
   },
   {
@@ -51307,10 +51360,9 @@
    "properties": {
     "name": "UNIT 3, 142 MORRISON ROAD MIDLAND 6056",
     "locID": "LOC000106014083",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160936583",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68784,6 +68836,25 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.0140003,
+     -31.87971355
+    ]
+   },
+   "properties": {
+    "name": "8 NORTH STREET MIDLAND 6056",
+    "locID": "LOC000148311376",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163083701",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -96751,9 +96822,9 @@
     "name": "UNIT 1, 9 HAMERSLEY STREET MIDLAND 6056",
     "locID": "LOC000172809884",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720106529",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96771,9 +96842,9 @@
     "name": "UNIT 3, 9 HAMERSLEY STREET MIDLAND 6056",
     "locID": "LOC000172809884",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720108076",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96791,9 +96862,9 @@
     "name": "UNIT 2, 9 HAMERSLEY STREET MIDLAND 6056",
     "locID": "LOC000172809884",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720108273",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96811,9 +96882,9 @@
     "name": "UNIT 4, 9 HAMERSLEY STREET MIDLAND 6056",
     "locID": "LOC000172809884",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720109590",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
