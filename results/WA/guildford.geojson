@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-25T14:45:51.369029",
+ "generated": "2024-11-12T11:02:57.559095",
  "suburb": "GUILDFORD",
  "features": [
   {
@@ -902,7 +902,7 @@
     "name": "5 HELENA STREET GUILDFORD 6055",
     "locID": "LOC000086151035",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146680051",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1953,7 +1953,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146694550",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4951,8 +4951,8 @@
    "properties": {
     "name": "9 HUBERT STREET GUILDFORD 6055",
     "locID": "LOC000044340505",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146881784",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6503,7 +6503,7 @@
     "name": "1 SUTHERLAND CLOSE SOUTH GUILDFORD 6055",
     "locID": "LOC000089137275",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146889602",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7517,9 +7517,9 @@
     "name": "8 BERTIE STREET GUILDFORD 6055",
     "locID": "LOC000058482010",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146892588",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8987,10 +8987,9 @@
    "properties": {
     "name": "26 JAMES STREET GUILDFORD 6055",
     "locID": "LOC000039052804",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146896265",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9067,8 +9066,8 @@
    "properties": {
     "name": "17 TERRACE ROAD GUILDFORD 6055",
     "locID": "LOC000045535630",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146909355",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13548,10 +13547,10 @@
    "properties": {
     "name": "57A SWAN STREET GUILDFORD 6055",
     "locID": "LOC000022826229",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147741984",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15222,8 +15221,8 @@
    "properties": {
     "name": "57 JAMES STREET GUILDFORD 6055",
     "locID": "LOC000083947956",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148524740",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16836,9 +16835,9 @@
     "name": "9 WATER STREET GUILDFORD 6055",
     "locID": "LOC000017116860",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161995707",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19015,8 +19014,11 @@
     "name": "LOT 57 TERRACE ROAD GUILDFORD 6055",
     "locID": "LOC000132080263",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163087642"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163087642",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
