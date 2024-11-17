@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-10-30T19:49:09.198925",
+ "generated": "2024-11-17T02:32:01.527893",
  "suburb": "WOODSTOCK",
  "features": [
   {
@@ -513,7 +513,7 @@
    "properties": {
     "name": "1145 MERRIANG ROAD WOODSTOCK 3751",
     "locID": "LOC000066496514",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420232448",
     "tech_change_status": "Not Planned"
@@ -1164,9 +1164,9 @@
     "name": "1105 MERRIANG ROAD WOODSTOCK 3751",
     "locID": "LOC000044663148",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "FW_NA",
     "gnaf_pid": "GAVIC421168446",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -4438,7 +4438,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC721023006",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6806,8 +6808,8 @@
    "properties": {
     "name": "18W TALLOWWOOD CIRCUIT WOODSTOCK 3751",
     "locID": "LOC000048471371",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721215775",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
