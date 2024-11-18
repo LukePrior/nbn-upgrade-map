@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-01T03:05:21.543234",
+ "generated": "2024-11-18T09:07:25.786505",
  "suburb": "FAIRFIELD EAST",
  "features": [
   {
@@ -3505,7 +3505,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704733693",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17232,6 +17234,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.96970605,
+     -33.87400862
+    ]
+   },
+   "properties": {
+    "name": "8 LANDON STREET FAIRFIELD EAST 2165",
+    "locID": "LOC000195804078",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716495497"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.97278528,
      -33.87013459
     ]
@@ -21309,10 +21328,10 @@
    "properties": {
     "name": "89 MANDARIN STREET FAIRFIELD EAST 2165",
     "locID": "LOC000107534431",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716562204",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
