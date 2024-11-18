@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-01T01:39:41.440483",
+ "generated": "2024-11-18T07:45:05.078449",
  "suburb": "BELLBIRD",
  "features": [
   {
@@ -23227,6 +23227,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.31897905,
+     -32.85383738
+    ]
+   },
+   "properties": {
+    "name": "24A BIRMINGHAM CIRCUIT BELLBIRD 2325",
+    "locID": "LOC000139850403",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720994036"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.30741059,
      -32.8584732
     ]
@@ -24470,9 +24487,11 @@
     "name": "15A KENDALL STREET BELLBIRD 2325",
     "locID": "LOC000193641956",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721052368",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
