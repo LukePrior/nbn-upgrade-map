@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-05T10:48:42.682868",
+ "generated": "2024-11-27T00:51:01.681121",
  "suburb": "METUNG",
  "features": [
   {
@@ -1697,7 +1697,7 @@
    "properties": {
     "name": "135 CANTRILLS ROAD METUNG 3904",
     "locID": "LOC000092008796",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419744671",
     "tech_change_status": "Not Planned"
@@ -1775,7 +1775,7 @@
    "properties": {
     "name": "3 BAYVIEW COURT METUNG 3904",
     "locID": "LOC000105781047",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419750206",
     "tech_change_status": "Not Planned"
@@ -2319,7 +2319,7 @@
    "properties": {
     "name": "46 HEATHS ROAD METUNG 3904",
     "locID": "LOC000044715428",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419756351",
     "tech_change_status": "Not Planned"
@@ -7322,9 +7322,9 @@
     "name": "140 CANTRILLS ROAD METUNG 3904",
     "locID": "LOC000095164870",
     "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC420378203",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -9417,7 +9417,7 @@
    "properties": {
     "name": "50 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000003578067",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420716330",
     "tech_change_status": "Not Planned"
@@ -9751,7 +9751,7 @@
    "properties": {
     "name": "110 CANTRILLS ROAD METUNG 3904",
     "locID": "LOC000038058898",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420949322",
     "tech_change_status": "Not Planned"
@@ -11357,7 +11357,7 @@
    "properties": {
     "name": "58 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000010972426",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421029040",
     "tech_change_status": "Not Planned"
@@ -11471,7 +11471,7 @@
    "properties": {
     "name": "60 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000106399022",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421041129",
     "tech_change_status": "Not Planned"
@@ -11927,7 +11927,7 @@
    "properties": {
     "name": "56 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000002813065",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421258075",
     "tech_change_status": "Not Planned"
@@ -13276,7 +13276,7 @@
    "properties": {
     "name": "67 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000011048061",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421290603",
     "tech_change_status": "Not Planned"
@@ -13552,7 +13552,7 @@
    "properties": {
     "name": "48 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000036565700",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421362861",
     "tech_change_status": "Not Planned"
@@ -14764,10 +14764,10 @@
    "properties": {
     "name": "65 CANTRILLS ROAD METUNG 3904",
     "locID": "LOC000075778357",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421577710",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Committed",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
    }
@@ -15366,7 +15366,7 @@
    "properties": {
     "name": "62 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000105795826",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421594675",
     "tech_change_status": "Not Planned"
@@ -15924,7 +15924,7 @@
    "properties": {
     "name": "47 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000044266145",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421838083",
     "tech_change_status": "Not Planned"
@@ -19068,10 +19068,12 @@
    "properties": {
     "name": "20 WATERHOLES ROAD METUNG 3904",
     "locID": "LOC000046588608",
-    "tech": "SATELLITE",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423725778",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19086,7 +19088,7 @@
    "properties": {
     "name": "24A MARSHALL ROAD METUNG 3904",
     "locID": "LOC000019637801",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423764399",
     "tech_change_status": "Not Planned"
@@ -20271,7 +20273,7 @@
    "properties": {
     "name": "6 WATTLE RISE METUNG 3904",
     "locID": "LOC000048761729",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423807995",
     "tech_change_status": "Not Planned"
@@ -23740,7 +23742,7 @@
    "properties": {
     "name": "38 GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000019411378",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424071331",
     "tech_change_status": "Not Planned"
@@ -26348,7 +26350,7 @@
    "properties": {
     "name": "375 ROSHERVILLE ROAD METUNG 3904",
     "locID": "LOC100024416735",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424629440",
     "tech_change_status": "Not Planned"
@@ -26366,7 +26368,7 @@
    "properties": {
     "name": "395 ROSHERVILLE ROAD METUNG 3904",
     "locID": "LOC000115869315",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424629442",
     "tech_change_status": "Not Planned"
@@ -27567,10 +27569,10 @@
    "properties": {
     "name": "5A GREVILLIA AVENUE METUNG 3904",
     "locID": "LOC000153342278",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425226912",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -27916,7 +27918,7 @@
    "properties": {
     "name": "38B GILSENANS DRIVE METUNG 3904",
     "locID": "LOC000019411378",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425517461",
     "tech_change_status": "Not Planned"
@@ -29498,7 +29500,7 @@
    "properties": {
     "name": "50A GILSENANS DRIVE METUNG 3904",
     "locID": "LOC100084739956",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719995632",
     "tech_change_status": "Not Planned"
