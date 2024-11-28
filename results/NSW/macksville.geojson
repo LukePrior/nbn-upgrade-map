@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-06T19:59:23.031225",
+ "generated": "2024-11-28T10:19:39.060024",
  "suburb": "MACKSVILLE",
  "features": [
   {
@@ -1434,10 +1434,9 @@
    "properties": {
     "name": "6 BRINER STREET MACKSVILLE 2447",
     "locID": "LOC000001373097",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705243651",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1814,10 +1813,10 @@
    "properties": {
     "name": "3 FRANK STREET MACKSVILLE 2447",
     "locID": "LOC000086143721",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705243746",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2970,7 +2969,7 @@
     "name": "18 WEST STREET MACKSVILLE 2447",
     "locID": "LOC000064023281",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705250397",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3359,10 +3358,9 @@
    "properties": {
     "name": "23 YARRAWONGA STREET MACKSVILLE 2447",
     "locID": "LOC000088076051",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705250694",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3946,10 +3944,9 @@
    "properties": {
     "name": "25 BINALONG WAY MACKSVILLE 2447",
     "locID": "LOC000086228270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705256396",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4321,8 +4318,8 @@
    "properties": {
     "name": "24 MCKAY STREET MACKSVILLE 2447",
     "locID": "LOC000027989413",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705259074",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4797,10 +4794,9 @@
    "properties": {
     "name": "31 RIVER STREET MACKSVILLE 2447",
     "locID": "LOC000001564351",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705259739",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705259739"
    }
   },
   {
@@ -10531,7 +10527,7 @@
     "name": "51 UPPER WARRELL CREEK ROAD MACKSVILLE 2447",
     "locID": "LOC000043748477",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW709595876",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18062,9 +18058,8 @@
     "name": "12 WALL STREET MACKSVILLE 2447",
     "locID": "LOC000068711522",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712231309",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19456,26 +19451,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9151415,
-     -30.7113892
-    ]
-   },
-   "properties": {
-    "name": "65 WALLACE STREET MACKSVILLE 2447",
-    "locID": "LOC000046368727",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW712244640",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.91558197,
      -30.71199221
     ]
@@ -19862,9 +19837,11 @@
     "name": "30 MCKAY STREET MACKSVILLE 2447",
     "locID": "LOC000045860810",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW712248981",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19879,8 +19856,8 @@
    "properties": {
     "name": "10 MCKAY STREET MACKSVILLE 2447",
     "locID": "LOC000081126948",
-    "tech": "WIRELESS",
-    "upgrade": "FTTN",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW712248983",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -20138,9 +20115,9 @@
     "name": "9 WALLACE STREET MACKSVILLE 2447",
     "locID": "LOC000090478782",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712251592",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22784,7 +22761,7 @@
     "name": "16 YARRAWONGA STREET MACKSVILLE 2447",
     "locID": "LOC000040716648",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716194348",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22823,10 +22800,9 @@
    "properties": {
     "name": "18 YARRAWONGA STREET MACKSVILLE 2447",
     "locID": "LOC000088076051",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716194350",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23602,7 +23578,7 @@
     "name": "6 JOHNSTON CLOSE MACKSVILLE 2447",
     "locID": "LOC000061025067",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716860214",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30995,10 +30971,10 @@
    "properties": {
     "name": "23 MACKSVILLE HEIGHTS DRIVE MACKSVILLE 2447",
     "locID": "LOC000150142645",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718925996",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31256,9 +31232,9 @@
     "name": "8 MACKSVILLE HEIGHTS DRIVE MACKSVILLE 2447",
     "locID": "LOC000150142229",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718926009",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
