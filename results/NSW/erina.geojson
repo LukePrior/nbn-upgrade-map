@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-07T06:57:25.143161",
+ "generated": "2024-11-28T21:09:22.644095",
  "suburb": "ERINA",
  "features": [
   {
@@ -194,7 +194,7 @@
     "name": "13 JEAN MARIE CRESCENT ERINA 2250",
     "locID": "LOC000035598264",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704690648",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -728,7 +728,7 @@
     "name": "9 BARRALONG ROAD ERINA 2250",
     "locID": "LOC000080726426",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704690909",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2782,7 +2782,7 @@
     "name": "16 HAMMERSMITH ROAD ERINA 2250",
     "locID": "LOC000065473252",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704698109",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4251,7 +4251,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704700789",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4606,7 +4606,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704701461",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8753,8 +8753,8 @@
    "properties": {
     "name": "12 ROBUSTA CLOSE ERINA 2250",
     "locID": "LOC000012350222",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704705678",
     "tech_change_status": "Eligible to Order"
    }
@@ -8771,10 +8771,10 @@
    "properties": {
     "name": "13 ROBUSTA CLOSE ERINA 2250",
     "locID": "LOC000061356423",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704705679",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -9310,7 +9310,7 @@
     "name": "28 ERINA VALLEY ROAD ERINA 2250",
     "locID": "LOC000085972319",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704706353",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11957,7 +11957,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704708948",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13745,7 +13745,7 @@
     "name": "81 BRONZEWING DRIVE ERINA 2250",
     "locID": "LOC000069311538",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704710449",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14758,7 +14758,7 @@
     "name": "3 SUNHILL CRESCENT ERINA 2250",
     "locID": "LOC000095583613",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704711627",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40349,6 +40349,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.39290559,
+     -33.42979514
+    ]
+   },
+   "properties": {
+    "name": "284 THE ENTRANCE ROAD ERINA 2250",
+    "locID": "LOC000011274644",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716938183",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.39100102,
      -33.43230311
     ]
@@ -41315,10 +41333,9 @@
    "properties": {
     "name": "UNIT 1, 251 THE ENTRANCE ROAD ERINA 2250",
     "locID": "LOC000097996643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716966158",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41744,10 +41761,9 @@
    "properties": {
     "name": "UNIT 2, 251 THE ENTRANCE ROAD ERINA 2250",
     "locID": "LOC000097996643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716966191",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42189,10 +42205,9 @@
    "properties": {
     "name": "UNIT 3, 251 THE ENTRANCE ROAD ERINA 2250",
     "locID": "LOC000097996643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716966220",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43726,10 +43741,9 @@
    "properties": {
     "name": "251 THE ENTRANCE ROAD ERINA 2250",
     "locID": "LOC000097996643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716966336",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

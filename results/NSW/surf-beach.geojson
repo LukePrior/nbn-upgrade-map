@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-07T07:20:49.609511",
+ "generated": "2024-11-28T21:33:42.633808",
  "suburb": "SURF BEACH",
  "features": [
   {
@@ -802,8 +802,8 @@
    "properties": {
     "name": "56 OCEAN AVENUE SURF BEACH 2536",
     "locID": "LOC000090139651",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705969972",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1221,7 +1221,7 @@
     "name": "3 PACIFIC ROAD SURF BEACH 2536",
     "locID": "LOC000044154201",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705970012",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2934,7 +2934,7 @@
     "name": "14 FLINDERS WAY SURF BEACH 2536",
     "locID": "LOC000068256251",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705973560",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3252,7 +3252,7 @@
     "name": "6 TASMAN STREET SURF BEACH 2536",
     "locID": "LOC000035517592",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705973576",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3948,10 +3948,10 @@
    "properties": {
     "name": "27 NEWTH PLACE SURF BEACH 2536",
     "locID": "LOC000081381823",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705979943",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5919,7 +5919,7 @@
     "name": "25 WHITE SANDS PLACE SURF BEACH 2536",
     "locID": "LOC000051353214",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705983575",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5979,7 +5979,7 @@
     "name": "5 WHITE SANDS PLACE SURF BEACH 2536",
     "locID": "LOC000065269978",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705983578",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6793,7 +6793,7 @@
     "name": "3 HIGH VIEW AVENUE SURF BEACH 2536",
     "locID": "LOC000041920740",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705983851",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7349,7 +7349,7 @@
     "name": "37 FLINDERS WAY SURF BEACH 2536",
     "locID": "LOC000034075604",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705986616",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7587,7 +7587,7 @@
     "name": "4 BAY VIEW STREET SURF BEACH 2536",
     "locID": "LOC000104280951",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705990181",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8182,6 +8182,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.21377727,
+     -35.76402732
+    ]
+   },
+   "properties": {
+    "name": "33B NEWTH PLACE SURF BEACH 2536",
+    "locID": "LOC000015892858",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705990219",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.21383442,
      -35.76382896
     ]
@@ -8309,10 +8327,10 @@
    "properties": {
     "name": "24 OCEAN AVENUE SURF BEACH 2536",
     "locID": "LOC000080529148",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705990238",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8390,9 +8408,9 @@
     "name": "28 OCEAN AVENUE SURF BEACH 2536",
     "locID": "LOC000080808048",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705990242",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10380,10 +10398,10 @@
    "properties": {
     "name": "41 ERIC FENNING DRIVE SURF BEACH 2536",
     "locID": "LOC000032097812",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705993838",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11962,10 +11980,10 @@
    "properties": {
     "name": "636 BEACH ROAD SURF BEACH 2536",
     "locID": "LOC000078481673",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706000457",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
