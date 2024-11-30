@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-09T06:17:38.140724",
+ "generated": "2024-11-30T18:27:14.088776",
  "suburb": "KOBBLE CREEK",
  "features": [
   {
@@ -2352,9 +2352,9 @@
     "name": "169 PRINGLES ROAD KOBBLE CREEK 4520",
     "locID": "LOC000011651021",
     "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162235243",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Committed",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
    }
@@ -4208,7 +4208,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162832328",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4836,8 +4838,11 @@
     "name": "LOT 10 MOUNT SAMSON ROAD KOBBLE CREEK 4520",
     "locID": "LOC000066121116",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719710139"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719710139",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4976,6 +4981,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.80885238,
+     -27.24353651
+    ]
+   },
+   "properties": {
+    "name": "73 RAY BOOKER COURT KOBBLE CREEK 4520",
+    "locID": "LOC100087417746",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720504135",
+    "tech_change_status": "Not Planned"
    }
   },
   {
