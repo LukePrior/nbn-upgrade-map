@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-11-27T02:24:33.712637",
+ "generated": "2024-12-14T13:04:49.142952",
  "suburb": "SAN REMO",
  "features": [
   {
@@ -381,7 +381,7 @@
    "properties": {
     "name": "35 PUNCH BOWL ROAD SAN REMO 3925",
     "locID": "LOC000072983784",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412244056",
     "tech_change_status": "Not Planned"
@@ -1112,7 +1112,7 @@
     "name": "19 PARK ROAD SAN REMO 3925",
     "locID": "LOC000109884588",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414741821",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1936,7 +1936,7 @@
     "name": "5 GENISTA STREET SAN REMO 3925",
     "locID": "LOC000039553196",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419769539",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1996,7 +1996,7 @@
     "name": "59 BACK BEACH ROAD SAN REMO 3925",
     "locID": "LOC000051017495",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419769543",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2196,7 +2196,7 @@
     "name": "1 HAZELWOOD ROAD SAN REMO 3925",
     "locID": "LOC000085631264",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419770366",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3109,7 +3109,7 @@
     "name": "21 HAZELWOOD ROAD SAN REMO 3925",
     "locID": "LOC000007983413",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419952922",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3720,7 +3720,7 @@
     "name": "6 GENISTA STREET SAN REMO 3925",
     "locID": "LOC000073060938",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420061465",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5939,7 +5939,7 @@
     "name": "2 WOOLAMAI GROVE SAN REMO 3925",
     "locID": "LOC000085878075",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420374721",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9884,7 +9884,7 @@
     "name": "19 HALCYON AVENUE SAN REMO 3925",
     "locID": "LOC000051358394",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421253278",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11077,10 +11077,10 @@
    "properties": {
     "name": "33 PARK ROAD SAN REMO 3925",
     "locID": "LOC000096675194",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421283719",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13273,7 +13273,7 @@
     "name": "15 BOATHAVEN GROVE SAN REMO 3925",
     "locID": "LOC000076156139",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421592361",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13649,10 +13649,9 @@
    "properties": {
     "name": "2 GENISTA STREET SAN REMO 3925",
     "locID": "LOC000062284592",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421853200",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13973,6 +13972,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.37591721,
+     -38.52106529
+    ]
+   },
+   "properties": {
+    "name": "51 PHILLIP ISLAND ROAD SAN REMO 3925",
+    "locID": "LOC000195811991",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421857637"
    }
   },
   {
@@ -19658,7 +19674,7 @@
     "name": "1A OCEANVIEW DRIVE SAN REMO 3925",
     "locID": "LOC000041261751",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424626329",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24728,7 +24744,7 @@
     "name": "55 GENISTA STREET SAN REMO 3925",
     "locID": "LOC000054092086",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425779972",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34234,6 +34250,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.38350786,
+     -38.52985582
+    ]
+   },
+   "properties": {
+    "name": "7 GOLF CLUB DRIVE SAN REMO 3925",
+    "locID": "LOC000195896129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721153034"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.38312212,
      -38.52260956
     ]
@@ -34659,6 +34692,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721422596"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.38093433,
+     -38.52657072
+    ]
+   },
+   "properties": {
+    "name": "31 ANDERSON STREET SAN REMO 3925",
+    "locID": "LOC000194317843",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721485665"
    }
   },
   {
