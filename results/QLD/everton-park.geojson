@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-01T20:41:23.071338",
+ "generated": "2024-12-19T18:08:49.459669",
  "suburb": "EVERTON PARK",
  "features": [
   {
@@ -748,9 +748,9 @@
     "name": "468 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000020083082",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155283263",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24486,9 +24486,9 @@
     "name": "701 STAFFORD ROAD EVERTON PARK 4053",
     "locID": "LOC000106728106",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155306847",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42868,7 +42868,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156570486",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63789,9 +63789,11 @@
     "name": "SHOP 10, 791 STAFFORD ROAD EVERTON PARK 4053",
     "locID": "LOC000027726358",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160985236",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -64938,8 +64940,8 @@
    "properties": {
     "name": "27 MCILWRAITH STREET EVERTON PARK 4053",
     "locID": "LOC000126387839",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161231411",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -77475,10 +77477,9 @@
    "properties": {
     "name": "95 GRIFFITH STREET EVERTON PARK 4053",
     "locID": "LOC000160001150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425205992",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81910,10 +81911,9 @@
    "properties": {
     "name": "UNIT 1, 95 GRIFFITH STREET EVERTON PARK 4053",
     "locID": "LOC000160001150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425645355",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -91165,6 +91165,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.99183975,
+     -27.40839145
+    ]
+   },
+   "properties": {
+    "name": "49 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898190",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720043429"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99248979,
      -27.40880353
     ]
@@ -91177,6 +91194,23 @@
     "gnaf_pid": "GAQLD720044818",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99236299,
+     -27.40846801
+    ]
+   },
+   "properties": {
+    "name": "31 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898190",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720045483"
    }
   },
   {
