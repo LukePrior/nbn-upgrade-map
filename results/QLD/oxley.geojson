@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-02T10:00:20.924372",
+ "generated": "2024-12-20T11:21:00.520397",
  "suburb": "OXLEY",
  "features": [
   {
@@ -5442,8 +5442,8 @@
    "properties": {
     "name": "224 SEVENTEEN MILE ROCKS ROAD OXLEY 4075",
     "locID": "LOC000076314288",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155681538",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8773,7 +8773,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155683861",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13229,10 +13229,10 @@
    "properties": {
     "name": "10 MUIRFIELD CRESCENT OXLEY 4075",
     "locID": "LOC000106142167",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155686975",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23950,10 +23950,9 @@
    "properties": {
     "name": "15 MASTERTON STREET OXLEY 4075",
     "locID": "LOC000097053479",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156936568",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25584,8 +25583,8 @@
    "properties": {
     "name": "184 DOWDING STREET OXLEY 4075",
     "locID": "LOC000024937508",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156940108",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26954,10 +26953,10 @@
    "properties": {
     "name": "81 PORTAL STREET OXLEY 4075",
     "locID": "LOC000076077043",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156943613",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32357,7 +32356,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156960931",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43441,7 +43440,9 @@
     "locID": "LOC000097085052",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156981719"
+    "gnaf_pid": "GAQLD156981719",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50549,9 +50550,9 @@
     "name": "24 SUNNINGDALE STREET OXLEY 4075",
     "locID": "LOC000038225073",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161716972",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51188,10 +51189,9 @@
    "properties": {
     "name": "1 MICHAEL PLACE OXLEY 4075",
     "locID": "LOC000005033308",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161851261",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51425,8 +51425,8 @@
    "properties": {
     "name": "14 RHONDA PLACE OXLEY 4075",
     "locID": "LOC000069806412",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161867204",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52923,6 +52923,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98369766,
+     -27.57794383
+    ]
+   },
+   "properties": {
+    "name": "UNIT 44, 100 OAKMONT AVENUE OXLEY 4075",
+    "locID": "LOC000060784894",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161962341"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98362678,
      -27.57795771
     ]
@@ -54221,10 +54238,10 @@
    "properties": {
     "name": "5 PORTAL STREET OXLEY 4075",
     "locID": "LOC000076077043",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162186056",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55766,10 +55783,9 @@
    "properties": {
     "name": "6 KRYSTELLE CLOSE OXLEY 4075",
     "locID": "LOC000009495179",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162974839",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56176,10 +56192,10 @@
    "properties": {
     "name": "4 SANDI STREET OXLEY 4075",
     "locID": "LOC000079589840",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162977188",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74851,7 +74867,7 @@
    "properties": {
     "name": "51 HONEYEATER CIRCUIT OXLEY 4075",
     "locID": "LOC000190544292",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721427451"
    }
@@ -75021,7 +75037,7 @@
    "properties": {
     "name": "49 HONEYEATER CIRCUIT OXLEY 4075",
     "locID": "LOC000190544271",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721433393"
    }
@@ -75055,7 +75071,7 @@
    "properties": {
     "name": "55 HONEYEATER CIRCUIT OXLEY 4075",
     "locID": "LOC000190544339",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721434644"
    }
@@ -75106,7 +75122,7 @@
    "properties": {
     "name": "53 HONEYEATER CIRCUIT OXLEY 4075",
     "locID": "LOC000190544318",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721435653"
    }
@@ -75143,6 +75159,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721511373"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97647642,
+     -27.55313306
+    ]
+   },
+   "properties": {
+    "name": "46 COOK STREET OXLEY 4075",
+    "locID": "LOC000192066191",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721519530"
    }
   },
   {
