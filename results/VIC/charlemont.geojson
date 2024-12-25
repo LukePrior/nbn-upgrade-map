@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-06T23:58:26.532482",
+ "generated": "2024-12-25T06:36:24.679025",
  "suburb": "CHARLEMONT",
  "features": [
   {
@@ -38,7 +38,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC425007500",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -214,7 +216,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425007552",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -850,9 +854,9 @@
     "name": "168 RESERVE ROAD CHARLEMONT 3217",
     "locID": "LOC000124273759",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425026809",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -890,9 +894,9 @@
     "name": "180-184 RESERVE ROAD CHARLEMONT 3217",
     "locID": "LOC000124290640",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425026811",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28503,6 +28507,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.37101038,
+     -38.21016749
+    ]
+   },
+   "properties": {
+    "name": "3 CODRINGTON STREET CHARLEMONT 3217",
+    "locID": "LOC000186706204",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720655237"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.37100052,
      -38.20964979
     ]
@@ -40039,23 +40060,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720923546"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.3546016,
-     -38.21059318
-    ]
-   },
-   "properties": {
-    "name": "44 SCULLIN ROAD CHARLEMONT 3217",
-    "locID": "LOC000193155655",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720923585"
    }
   },
   {
