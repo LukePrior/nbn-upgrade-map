@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-14T08:19:46.682515",
+ "generated": "2025-01-03T14:23:54.753757",
  "suburb": "HEYWOOD",
  "features": [
   {
@@ -5515,10 +5515,9 @@
    "properties": {
     "name": "18 STEPHENS STREET HEYWOOD 3304",
     "locID": "LOC000047720581",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420563306",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5827,6 +5826,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     141.62520714,
+     -38.13075296
+    ]
+   },
+   "properties": {
+    "name": "47 HUNTER STREET HEYWOOD 3304",
+    "locID": "LOC000124690009",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420599746",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      141.62989489,
      -38.13074698
     ]
@@ -5834,10 +5851,9 @@
    "properties": {
     "name": "73 EDGAR STREET HEYWOOD 3304",
     "locID": "LOC000011177160",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420599747",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5934,10 +5950,10 @@
    "properties": {
     "name": "2 BEST STREET HEYWOOD 3304",
     "locID": "LOC000076898555",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420616927",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14924,7 +14940,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422173881",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19660,7 +19678,7 @@
    "properties": {
     "name": "1204 CONDAH-ETTRICK ROAD HEYWOOD 3304",
     "locID": "LOC100072043623",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425818728",
     "tech_change_status": "Not Planned"
