@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-15T21:05:45.078114",
+ "generated": "2025-01-05T19:31:49.914878",
  "suburb": "EDGEWORTH",
  "features": [
   {
@@ -9384,10 +9384,10 @@
    "properties": {
     "name": "37 CAMPANA AVENUE EDGEWORTH 2285",
     "locID": "LOC000030576381",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704676475",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9881,8 +9881,8 @@
    "properties": {
     "name": "30 CARINDA AVENUE EDGEWORTH 2285",
     "locID": "LOC000008940397",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704676513",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14875,7 +14875,7 @@
     "gnaf_pid": "GANSW704679766",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -23857,7 +23857,7 @@
     "gnaf_pid": "GANSW704683694",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -25622,9 +25622,9 @@
     "name": "3 JACQUET CLOSE EDGEWORTH 2285",
     "locID": "LOC000022361339",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704684653",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29778,7 +29778,7 @@
     "gnaf_pid": "GANSW704686272",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -29798,7 +29798,7 @@
     "gnaf_pid": "GANSW704686274",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -29838,7 +29838,7 @@
     "gnaf_pid": "GANSW704686277",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -36881,10 +36881,10 @@
    "properties": {
     "name": "14 HARPER AVENUE EDGEWORTH 2285",
     "locID": "LOC000015897500",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704688873",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42246,8 +42246,11 @@
     "name": "83 MINMI ROAD EDGEWORTH 2285",
     "locID": "LOC000008919059",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706580801"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706580801",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48619,10 +48622,9 @@
    "properties": {
     "name": "20A DUNN AVENUE EDGEWORTH 2285",
     "locID": "LOC000036778453",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711858171",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56645,10 +56647,9 @@
    "properties": {
     "name": "16 CHRIS PLACE EDGEWORTH 2285",
     "locID": "LOC000152845784",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718920371",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68420,6 +68421,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721453595"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.63004561,
+     -32.91569966
+    ]
+   },
+   "properties": {
+    "name": "13 BOOTARING BOULEVARD EDGEWORTH 2285",
+    "locID": "LOC000194202763",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721453598"
    }
   },
   {
