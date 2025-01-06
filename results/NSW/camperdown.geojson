@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-16T08:04:25.014500",
+ "generated": "2025-01-06T15:10:26.628293",
  "suburb": "CAMPERDOWN",
  "features": [
   {
@@ -2075,9 +2075,9 @@
     "name": "7 NORTHWOOD STREET CAMPERDOWN 2050",
     "locID": "LOC000079784000",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704291967",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6672,10 +6672,10 @@
    "properties": {
     "name": "29 BRIGGS STREET CAMPERDOWN 2050",
     "locID": "LOC000090575015",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704301465",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10410,10 +10410,9 @@
    "properties": {
     "name": "71 FOWLER STREET CAMPERDOWN 2050",
     "locID": "LOC000029613553",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704304575",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26179,7 +26178,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707895898",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -29496,8 +29495,8 @@
    "properties": {
     "name": "UNIT 18, 154 MALLETT STREET CAMPERDOWN 2050",
     "locID": "LOC000061746200",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707901861",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -32222,7 +32221,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW710565527",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -32394,8 +32393,8 @@
    "properties": {
     "name": "UNIT 34, 26 DUNBLANE STREET CAMPERDOWN 2050",
     "locID": "LOC000013956581",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW710565536",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -42732,8 +42731,8 @@
    "properties": {
     "name": "UNIT 12, 39 BRIGGS STREET CAMPERDOWN 2050",
     "locID": "LOC000045539847",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW710582681",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -65404,7 +65403,7 @@
    "properties": {
     "name": "17 FEDERATION ROAD CAMPERDOWN 2050",
     "locID": "LOC000195828355",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717769306"
    }
@@ -83206,6 +83205,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.17432883,
+     -33.88872006
+    ]
+   },
+   "properties": {
+    "name": "10-16 DENISON STREET CAMPERDOWN 2050",
+    "locID": "LOC000189160121",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718599006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.17426601,
      -33.88849164
     ]
@@ -84593,6 +84609,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718600306"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1739287,
+     -33.88760637
+    ]
+   },
+   "properties": {
+    "name": "1-7 GANTRY LANE CAMPERDOWN 2050",
+    "locID": "LOC000189158481",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718600307"
    }
   },
   {
@@ -108308,7 +108341,7 @@
    "properties": {
     "name": "UNIT 1, 17 FEDERATION ROAD CAMPERDOWN 2050",
     "locID": "LOC000195828355",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719192175"
    }
@@ -108378,7 +108411,7 @@
    "properties": {
     "name": "UNIT 2, 17 FEDERATION ROAD CAMPERDOWN 2050",
     "locID": "LOC000195828355",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719193166"
    }
