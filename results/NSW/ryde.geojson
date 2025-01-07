@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-16T20:38:44.247469",
+ "generated": "2025-01-07T09:38:11.278661",
  "suburb": "RYDE",
  "features": [
   {
@@ -3714,10 +3714,9 @@
    "properties": {
     "name": "23 WANDOO AVENUE RYDE 2112",
     "locID": "LOC000082366452",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705808352",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35069,23 +35068,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705835261"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11364856,
-     -33.81436704
-    ]
-   },
-   "properties": {
-    "name": "18 CLAYTON STREET RYDE 2112",
-    "locID": "LOC000065187785",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705835262"
    }
   },
   {
@@ -78196,23 +78178,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10999911,
-     -33.80362083
-    ]
-   },
-   "properties": {
-    "name": "24 HANCOTT STREET RYDE 2112",
-    "locID": "LOC000023712323",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705859343"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.10986643,
      -33.80351405
     ]
@@ -86413,6 +86378,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.09766402,
+     -33.81779763
+    ]
+   },
+   "properties": {
+    "name": "2 THISTLE STREET RYDE 2112",
+    "locID": "LOC000069601795",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705872772"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.09808847,
      -33.8169507
     ]
@@ -91351,10 +91333,10 @@
    "properties": {
     "name": "UNIT 8, 18 LINLEY WAY RYDE 2112",
     "locID": "LOC000095500096",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705879464",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -91454,23 +91436,6 @@
     "gnaf_pid": "GANSW705879472",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10419536,
-     -33.7994127
-    ]
-   },
-   "properties": {
-    "name": "69 NORTH ROAD RYDE 2112",
-    "locID": "LOC000093436742",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705879486"
    }
   },
   {
@@ -93907,10 +93872,9 @@
    "properties": {
     "name": "20 POTTS STREET RYDE 2112",
     "locID": "LOC000091004044",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705883058",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705883058"
    }
   },
   {
@@ -102605,23 +102569,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705896255"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10979973,
-     -33.82269261
-    ]
-   },
-   "properties": {
-    "name": "68 CHARLES STREET RYDE 2112",
-    "locID": "LOC000078728597",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705896257"
    }
   },
   {
@@ -172797,9 +172744,11 @@
     "name": "8 ST ANNES STREET RYDE 2112",
     "locID": "LOC000149302606",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718424501",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -242469,7 +242418,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719811461",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
