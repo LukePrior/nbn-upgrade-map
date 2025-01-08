@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-12-18T03:12:46.731729",
+ "generated": "2025-01-08T20:56:55.071512",
  "suburb": "DROUIN",
  "features": [
   {
@@ -645,12 +645,12 @@
    "properties": {
     "name": "29 HOPETOUN ROAD DROUIN 3818",
     "locID": "LOC000115101989",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411275505",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -665,10 +665,10 @@
    "properties": {
     "name": "1 GRANT STREET DROUIN 3818",
     "locID": "LOC000075294691",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411275508",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1999,10 +1999,10 @@
    "properties": {
     "name": "72 WEEBAR ROAD DROUIN 3818",
     "locID": "LOC000085505230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411285927",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3863,10 +3863,9 @@
    "properties": {
     "name": "11 HUNTER CLOSE DROUIN 3818",
     "locID": "LOC000052480374",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419607253",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4059,10 +4058,9 @@
    "properties": {
     "name": "3 FAIRWAY DRIVE DROUIN 3818",
     "locID": "LOC000076341224",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419609130",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5449,10 +5447,10 @@
    "properties": {
     "name": "15 BINBEAL ROAD DROUIN 3818",
     "locID": "LOC000070482009",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419737169",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6047,11 +6045,11 @@
     "name": "39 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000038514758",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419793282",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6446,10 +6444,10 @@
    "properties": {
     "name": "24 WADE STREET DROUIN 3818",
     "locID": "LOC000106440434",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419795974",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6785,10 +6783,10 @@
    "properties": {
     "name": "21 MOE STREET DROUIN 3818",
     "locID": "LOC000005294883",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419796104",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8356,6 +8354,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.845551,
+     -38.121983
+    ]
+   },
+   "properties": {
+    "name": "2 LINDSAY STREET DROUIN 3818",
+    "locID": "LOC000072660381",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419807077",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.85577,
      -38.127247
     ]
@@ -8501,10 +8519,10 @@
    "properties": {
     "name": "12 BULN BULN ROAD DROUIN 3818",
     "locID": "LOC000063444559",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419812129",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8582,11 +8600,11 @@
     "name": "37 WOOD STREET DROUIN 3818",
     "locID": "LOC000093803307",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419812135",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10458,26 +10476,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.858267,
-     -38.141314
-    ]
-   },
-   "properties": {
-    "name": "21 LARDNER ROAD DROUIN 3818",
-    "locID": "LOC000080609471",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420032380",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.861717,
      -38.136922
     ]
@@ -11021,10 +11019,10 @@
    "properties": {
     "name": "4 BLACKWOOD COURT DROUIN 3818",
     "locID": "LOC000037017701",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420083043",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11715,10 +11713,10 @@
    "properties": {
     "name": "12 FAIRCHILD STREET DROUIN 3818",
     "locID": "LOC000013577636",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420090155",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12554,10 +12552,9 @@
    "properties": {
     "name": "30 DARNUM STREET DROUIN 3818",
     "locID": "LOC000062696778",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420096722",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12934,10 +12931,9 @@
    "properties": {
     "name": "70 CHURCH STREET DROUIN 3818",
     "locID": "LOC000050818069",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420101413",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13750,10 +13746,9 @@
    "properties": {
     "name": "17 FORREST STREET DROUIN 3818",
     "locID": "LOC000101432519",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420106661",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13889,10 +13884,10 @@
    "properties": {
     "name": "28 HOPETOUN ROAD DROUIN 3818",
     "locID": "LOC000014335726",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420106922",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16496,10 +16491,10 @@
    "properties": {
     "name": "85 HOPETOUN ROAD DROUIN 3818",
     "locID": "LOC000071815849",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420382406",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16736,10 +16731,10 @@
    "properties": {
     "name": "5 WOLFF STREET DROUIN 3818",
     "locID": "LOC000057674313",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420407721",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17294,12 +17289,12 @@
    "properties": {
     "name": "7 LANCELOT COURT DROUIN 3818",
     "locID": "LOC000096215767",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420409299",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17515,11 +17510,11 @@
     "name": "28 CHURCH STREET DROUIN 3818",
     "locID": "LOC000101858987",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420409520",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17712,10 +17707,10 @@
    "properties": {
     "name": "23 GREENLAND DRIVE DROUIN 3818",
     "locID": "LOC000099132609",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420411350",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18632,11 +18627,11 @@
     "name": "38 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000077396492",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420417542",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18970,10 +18965,9 @@
    "properties": {
     "name": "11 WADDELL ROAD DROUIN 3818",
     "locID": "LOC000080222332",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420422089",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19410,10 +19404,9 @@
    "properties": {
     "name": "65 BULN BULN ROAD DROUIN 3818",
     "locID": "LOC000101317509",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420431090",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20091,11 +20084,11 @@
     "name": "15 MORTON AVENUE DROUIN 3818",
     "locID": "LOC000031126707",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420460698",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21394,10 +21387,10 @@
    "properties": {
     "name": "11-13 PARK STREET DROUIN 3818",
     "locID": "LOC000125329307",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420611883",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22742,10 +22735,10 @@
    "properties": {
     "name": "17 MONAGHAN AVENUE DROUIN 3818",
     "locID": "LOC000089574495",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420694007",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22763,11 +22756,11 @@
     "name": "17 MORTON AVENUE DROUIN 3818",
     "locID": "LOC000042669770",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420694011",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22922,12 +22915,12 @@
    "properties": {
     "name": "35 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000030085244",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420694068",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22943,11 +22936,11 @@
     "name": "36 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000073839003",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420694069",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23520,10 +23513,9 @@
    "properties": {
     "name": "64 LARDNER ROAD DROUIN 3818",
     "locID": "LOC000066941497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420697754",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25012,11 +25004,11 @@
     "name": "41 WOOD STREET DROUIN 3818",
     "locID": "LOC000104402857",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420726537",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25468,10 +25460,9 @@
    "properties": {
     "name": "20 BULN BULN ROAD DROUIN 3818",
     "locID": "LOC000045863504",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420732889",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26147,10 +26138,10 @@
    "properties": {
     "name": "17 PARK STREET DROUIN 3818",
     "locID": "LOC000059072836",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420809080",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26226,10 +26217,9 @@
    "properties": {
     "name": "25A NEERIM STREET DROUIN 3818",
     "locID": "LOC000066237600",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420817928",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26657,10 +26647,9 @@
    "properties": {
     "name": "11 WALKER DRIVE DROUIN 3818",
     "locID": "LOC000091567334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420846347",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27230,10 +27219,9 @@
    "properties": {
     "name": "28 NEERIM STREET DROUIN 3818",
     "locID": "LOC000096414691",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420922161",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27509,10 +27497,10 @@
    "properties": {
     "name": "11 SINCLAIR STREET DROUIN 3818",
     "locID": "LOC000005251387",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420937091",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28185,10 +28173,10 @@
    "properties": {
     "name": "8 RUSREES COURT DROUIN 3818",
     "locID": "LOC000022733911",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420975479",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28443,11 +28431,11 @@
     "name": "15 CHURCH STREET DROUIN 3818",
     "locID": "LOC000071649012",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420989221",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29022,10 +29010,9 @@
    "properties": {
     "name": "9 LINDMAN STREET DROUIN 3818",
     "locID": "LOC000030215744",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420999307",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29281,11 +29268,11 @@
     "name": "21 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000044470712",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421001022",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29521,11 +29508,11 @@
     "name": "11 MORTON AVENUE DROUIN 3818",
     "locID": "LOC000071807419",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421002852",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29718,10 +29705,10 @@
    "properties": {
     "name": "10 LAMPARD ROAD DROUIN 3818",
     "locID": "LOC000069217309",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421004745",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30155,10 +30142,9 @@
    "properties": {
     "name": "10 KRAFT CRESCENT DROUIN 3818",
     "locID": "LOC000062401770",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421006192",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31073,10 +31059,10 @@
    "properties": {
     "name": "10 FRANCIS AVENUE DROUIN 3818",
     "locID": "LOC000093194877",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421019293",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31113,10 +31099,9 @@
    "properties": {
     "name": "15 GRANT STREET DROUIN 3818",
     "locID": "LOC000012583260",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421019301",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31909,10 +31894,10 @@
    "properties": {
     "name": "50 OUTLOOK DRIVE DROUIN 3818",
     "locID": "LOC000007700589",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421099858",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33155,11 +33140,11 @@
     "name": "38 WOOD STREET DROUIN 3818",
     "locID": "LOC000080157961",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421234185",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34111,11 +34096,11 @@
     "name": "23 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000012973094",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421293844",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34209,10 +34194,9 @@
    "properties": {
     "name": "8 FRANCIS AVENUE DROUIN 3818",
     "locID": "LOC000068279463",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421294272",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34827,12 +34811,12 @@
    "properties": {
     "name": "40 WOOD STREET DROUIN 3818",
     "locID": "LOC000089883817",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421303098",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35228,11 +35212,11 @@
     "name": "40 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000020491630",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421308784",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36225,10 +36209,10 @@
    "properties": {
     "name": "8 LAMPARD ROAD DROUIN 3818",
     "locID": "LOC000066220970",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421315949",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36502,10 +36486,10 @@
    "properties": {
     "name": "2 LARDNER ROAD DROUIN 3818",
     "locID": "LOC000104485264",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421316842",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37023,9 +37007,9 @@
     "name": "27 WADE STREET DROUIN 3818",
     "locID": "LOC000044804425",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421320172",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37102,10 +37086,10 @@
    "properties": {
     "name": "88 MCNEILLY ROAD DROUIN 3818",
     "locID": "LOC000084817629",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421320396",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37122,10 +37106,10 @@
    "properties": {
     "name": "96 MCNEILLY ROAD DROUIN 3818",
     "locID": "LOC000070104348",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421320397",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37162,10 +37146,10 @@
    "properties": {
     "name": "11 MOE STREET DROUIN 3818",
     "locID": "LOC000058617966",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421320399",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37203,11 +37187,11 @@
     "name": "13 MORTON AVENUE DROUIN 3818",
     "locID": "LOC000058385842",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421320402",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37962,10 +37946,9 @@
    "properties": {
     "name": "75 VICTORIA STREET DROUIN 3818",
     "locID": "LOC000089712019",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421382501",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39050,11 +39033,11 @@
     "name": "24 CHURCH STREET DROUIN 3818",
     "locID": "LOC000082080105",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421506296",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40221,10 +40204,10 @@
    "properties": {
     "name": "2 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000010291530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421598250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40541,11 +40524,11 @@
     "name": "7 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000098389066",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421606070",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40561,11 +40544,11 @@
     "name": "27 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000114428687",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421606071",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40958,11 +40941,11 @@
     "name": "37 ALBERT ROAD DROUIN 3818",
     "locID": "LOC000079751160",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421612666",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41137,10 +41120,10 @@
    "properties": {
     "name": "24 DARNUM STREET DROUIN 3818",
     "locID": "LOC000022799693",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421613164",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41298,11 +41281,11 @@
     "name": "39 WOOD STREET DROUIN 3818",
     "locID": "LOC000018095076",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421613176",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41832,10 +41815,10 @@
    "properties": {
     "name": "19 BERTRAM STREET DROUIN 3818",
     "locID": "LOC000080267941",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421621572",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42010,10 +41993,9 @@
    "properties": {
     "name": "40 BULN BULN ROAD DROUIN 3818",
     "locID": "LOC000041350915",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421621583",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42210,11 +42192,11 @@
     "name": "26 CHURCH STREET DROUIN 3818",
     "locID": "LOC000002844846",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421623752",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42768,12 +42750,12 @@
    "properties": {
     "name": "46 LARDNER ROAD DROUIN 3818",
     "locID": "LOC000038714532",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421627922",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43169,11 +43151,11 @@
     "name": "5 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000017684585",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421646824",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43568,11 +43550,11 @@
     "name": "6A LANCELOT COURT DROUIN 3818",
     "locID": "LOC000100053738",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421711307",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45508,9 +45490,9 @@
     "name": "1 EDWARD STREET DROUIN 3818",
     "locID": "LOC000079332336",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421887298",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45867,10 +45849,10 @@
    "properties": {
     "name": "4 PARK STREET DROUIN 3818",
     "locID": "LOC000094203186",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421894164",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46207,10 +46189,10 @@
    "properties": {
     "name": "45 WOOD STREET DROUIN 3818",
     "locID": "LOC000054302211",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421898319",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47085,11 +47067,11 @@
     "name": "19 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000041175560",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421906026",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47845,9 +47827,9 @@
     "name": "3 BALMORAL CRESCENT DROUIN 3818",
     "locID": "LOC000071756179",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421913222",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48304,11 +48286,11 @@
     "name": "8 LANCELOT COURT DROUIN 3818",
     "locID": "LOC000061932417",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421915875",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49080,10 +49062,10 @@
    "properties": {
     "name": "8 RUSSELL STREET DROUIN 3818",
     "locID": "LOC000054099407",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421931368",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53023,10 +53005,9 @@
    "properties": {
     "name": "9 AMBER COURT DROUIN 3818",
     "locID": "LOC000080374493",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423056313",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54950,9 +54931,9 @@
     "name": "10 CARBINE COURT DROUIN 3818",
     "locID": "LOC000192303474",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423209087",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54990,9 +54971,9 @@
     "name": "12 CARBINE COURT DROUIN 3818",
     "locID": "LOC000077647234",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423209089",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55110,9 +55091,9 @@
     "name": "18 CARBINE COURT DROUIN 3818",
     "locID": "LOC000026151134",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423209095",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55129,10 +55110,10 @@
    "properties": {
     "name": "19 CARBINE COURT DROUIN 3818",
     "locID": "LOC000012570255",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423209096",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55169,10 +55150,9 @@
    "properties": {
     "name": "21 CARBINE COURT DROUIN 3818",
     "locID": "LOC000036807550",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423209098",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55903,10 +55883,9 @@
    "properties": {
     "name": "17 MCKINDLAY STREET DROUIN 3818",
     "locID": "LOC000026899774",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423225688",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56043,10 +56022,10 @@
    "properties": {
     "name": "7 MCKINDLAY STREET DROUIN 3818",
     "locID": "LOC000103925325",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423225695",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57451,10 +57430,10 @@
    "properties": {
     "name": "107 PRINCES WAY DROUIN 3818",
     "locID": "LOC000038552763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423231576",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57866,10 +57845,10 @@
    "properties": {
     "name": "154 PRINCES WAY DROUIN 3818",
     "locID": "LOC000048606801",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423231599",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58025,10 +58004,9 @@
    "properties": {
     "name": "169 PRINCES WAY DROUIN 3818",
     "locID": "LOC000060567586",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423231607",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58245,10 +58223,10 @@
    "properties": {
     "name": "182 PRINCES WAY DROUIN 3818",
     "locID": "LOC000008480626",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423231620",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59235,10 +59213,9 @@
    "properties": {
     "name": "247 PRINCES WAY DROUIN 3818",
     "locID": "LOC000038326809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423231676",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60548,10 +60525,9 @@
    "properties": {
     "name": "20 SUMMERHILL BOULEVARD DROUIN 3818",
     "locID": "LOC000096372469",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423237042",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61698,10 +61674,9 @@
    "properties": {
     "name": "8 FLAX MILL CLOSE DROUIN 3818",
     "locID": "LOC000051748938",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423277152",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62012,10 +61987,10 @@
    "properties": {
     "name": "152 PRINCES WAY DROUIN 3818",
     "locID": "LOC000032869484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423286902",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62092,10 +62067,10 @@
    "properties": {
     "name": "160 PRINCES WAY DROUIN 3818",
     "locID": "LOC000100608719",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423286907",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64118,11 +64093,11 @@
     "name": "236 MAIN NEERIM ROAD DROUIN 3818",
     "locID": "LOC000047338970",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423401966",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64515,9 +64490,9 @@
     "name": "27 NICKELL COURT DROUIN 3818",
     "locID": "LOC000190755430",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423478376",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66699,9 +66674,9 @@
     "name": "3 CARBINE COURT DROUIN 3818",
     "locID": "LOC000023011171",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423702190",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67158,10 +67133,10 @@
    "properties": {
     "name": "39 DAVEY DRIVE DROUIN 3818",
     "locID": "LOC000106547596",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423704073",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67218,10 +67193,10 @@
    "properties": {
     "name": "42 DAVEY DRIVE DROUIN 3818",
     "locID": "LOC000066806620",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423704076",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67776,9 +67751,9 @@
     "name": "3 LAWSON ROAD DROUIN 3818",
     "locID": "LOC000080224417",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423707886",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68565,10 +68540,10 @@
    "properties": {
     "name": "27 NORMAN ROAD DROUIN 3818",
     "locID": "LOC000109986281",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423710220",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68764,10 +68739,9 @@
    "properties": {
     "name": "10 PICADILLY COURT DROUIN 3818",
     "locID": "LOC000052530092",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423711110",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68804,10 +68778,10 @@
    "properties": {
     "name": "2 PICADILLY COURT DROUIN 3818",
     "locID": "LOC000002091718",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423711112",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68824,10 +68798,9 @@
    "properties": {
     "name": "3 PICADILLY COURT DROUIN 3818",
     "locID": "LOC000002737404",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423711113",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68944,10 +68917,10 @@
    "properties": {
     "name": "9 PICADILLY COURT DROUIN 3818",
     "locID": "LOC000027917933",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423711119",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74975,10 +74948,9 @@
    "properties": {
     "name": "7 CRYSTAL COURT DROUIN 3818",
     "locID": "LOC000115811639",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423966554",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75135,10 +75107,10 @@
    "properties": {
     "name": "8 EVERGREEN CLOSE DROUIN 3818",
     "locID": "LOC000074002648",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423967429",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75959,10 +75931,10 @@
    "properties": {
     "name": "109 MCNEILLY ROAD DROUIN 3818",
     "locID": "LOC000067084314",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423972249",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78295,6 +78267,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.85550831,
+     -38.13927685
+    ]
+   },
+   "properties": {
+    "name": "16 MAIN SOUTH ROAD DROUIN 3818",
+    "locID": "LOC000195898246",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424065431"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.84531715,
      -38.1469812
     ]
@@ -78757,11 +78746,11 @@
     "name": "54 MAIN SOUTH ROAD DROUIN 3818",
     "locID": "LOC000031989549",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424065458",
-    "tech_change_status": "Committed",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79613,9 +79602,9 @@
     "name": "14 VIVIAN COURT DROUIN 3818",
     "locID": "LOC000085000162",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424070002",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81187,10 +81176,9 @@
    "properties": {
     "name": "3 HARMON DRIVE DROUIN 3818",
     "locID": "LOC000038965370",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424239509",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81285,10 +81273,10 @@
    "properties": {
     "name": "140 HOPETOUN ROAD DROUIN 3818",
     "locID": "LOC000046364468",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424240107",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82580,10 +82568,9 @@
    "properties": {
     "name": "10 RIMFIRE AVENUE DROUIN 3818",
     "locID": "LOC000044899561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424245627",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82641,9 +82628,9 @@
     "name": "13 RIMFIRE AVENUE DROUIN 3818",
     "locID": "LOC000069064871",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424245630",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82700,10 +82687,10 @@
    "properties": {
     "name": "16 RIMFIRE AVENUE DROUIN 3818",
     "locID": "LOC000092527586",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424245633",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82901,9 +82888,9 @@
     "name": "31 RIMFIRE AVENUE DROUIN 3818",
     "locID": "LOC000066700522",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424245643",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -84871,10 +84858,10 @@
    "properties": {
     "name": "4 EUCALYPT COURT DROUIN 3818",
     "locID": "LOC000048795582",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424355107",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87183,9 +87170,9 @@
     "name": "18 CLAUDIA CRESCENT DROUIN 3818",
     "locID": "LOC000096665429",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424488115",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88314,7 +88301,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424499432",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88389,10 +88376,9 @@
    "properties": {
     "name": "29 MILLER CLOSE DROUIN 3818",
     "locID": "LOC000022726656",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424499436",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88708,8 +88694,8 @@
    "properties": {
     "name": "6 OBERON PLACE DROUIN 3818",
     "locID": "LOC000054274277",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424500825",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -88866,10 +88852,10 @@
    "properties": {
     "name": "8 BRYNWOOD AVENUE DROUIN 3818",
     "locID": "LOC000065524610",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424510165",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -89224,8 +89210,8 @@
    "properties": {
     "name": "9 CHISWICK CRESCENT DROUIN 3818",
     "locID": "LOC000103271800",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424533461",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -90536,10 +90522,10 @@
    "properties": {
     "name": "38 MONTAGUE AVENUE DROUIN 3818",
     "locID": "LOC000026187750",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424542516",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -91984,10 +91970,10 @@
    "properties": {
     "name": "9 KENSINGTON SQUARE DROUIN 3818",
     "locID": "LOC000029813453",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424554254",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92204,10 +92190,10 @@
    "properties": {
     "name": "25 NORMAN ROAD DROUIN 3818",
     "locID": "LOC000060061327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424586185",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92464,7 +92450,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424608828",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93026,10 +93012,9 @@
    "properties": {
     "name": "146 HOPETOUN ROAD DROUIN 3818",
     "locID": "LOC000125277397",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424620064",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94003,10 +93988,9 @@
    "properties": {
     "name": "20 WATERSIDE DRIVE DROUIN 3818",
     "locID": "LOC000054106548",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424633670",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94601,10 +94585,10 @@
    "properties": {
     "name": "21 CLIFFORD DRIVE DROUIN 3818",
     "locID": "LOC000125299736",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424669440",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95671,8 +95655,8 @@
    "properties": {
     "name": "17 SHAE CRESCENT DROUIN 3818",
     "locID": "LOC000125285841",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424678445",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -96724,10 +96708,9 @@
    "properties": {
     "name": "2 AJAX STREET DROUIN 3818",
     "locID": "LOC000114290766",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424741205",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100473,9 +100456,9 @@
     "name": "25 KENSINGTON SQUARE DROUIN 3818",
     "locID": "LOC000114290594",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424772573",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -101613,10 +101596,9 @@
    "properties": {
     "name": "13 AJAX STREET DROUIN 3818",
     "locID": "LOC000115816264",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424871680",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -105188,10 +105170,9 @@
    "properties": {
     "name": "8 LAKEVIEW COURT DROUIN 3818",
     "locID": "LOC000188014906",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424882609",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -108076,10 +108057,9 @@
    "properties": {
     "name": "15 TODMAN STREET DROUIN 3818",
     "locID": "LOC000115813997",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424891186",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -108739,10 +108719,10 @@
    "properties": {
     "name": "12 WATERFORD COURT DROUIN 3818",
     "locID": "LOC000115812725",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424892420",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109769,10 +109749,10 @@
    "properties": {
     "name": "5A GREENLAND DRIVE DROUIN 3818",
     "locID": "LOC000125273333",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424911772",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -110540,9 +110520,9 @@
     "name": "36 AMBERLY DRIVE DROUIN 3818",
     "locID": "LOC000125255543",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425006533",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -111922,10 +111902,10 @@
    "properties": {
     "name": "11 BERTA RISE DROUIN 3818",
     "locID": "LOC000151749404",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425155705",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -112062,10 +112042,9 @@
    "properties": {
     "name": "18 BERTA RISE DROUIN 3818",
     "locID": "LOC000151749375",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425155712",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -113061,10 +113040,10 @@
    "properties": {
     "name": "8 LEURA STREET DROUIN 3818",
     "locID": "LOC000177159000",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425163932",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115839,9 +115818,9 @@
     "name": "11 APPLEPORCH WAY DROUIN 3818",
     "locID": "LOC100074561986",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425555533",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -117415,12 +117394,12 @@
    "properties": {
     "name": "UNIT 1, 7 LANCELOT COURT DROUIN 3818",
     "locID": "LOC000096215767",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425736247",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -117435,12 +117414,12 @@
    "properties": {
     "name": "UNIT 2, 7 LANCELOT COURT DROUIN 3818",
     "locID": "LOC000096215767",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425736248",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -118254,10 +118233,9 @@
    "properties": {
     "name": "21 NICKELL COURT DROUIN 3818",
     "locID": "LOC100074566230",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425826853",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -119308,10 +119286,9 @@
    "properties": {
     "name": "28 ORCHARD COURT DROUIN 3818",
     "locID": "LOC000101249053",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719017076",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -119855,10 +119832,9 @@
    "properties": {
     "name": "12 WEEBAR ROAD DROUIN 3818",
     "locID": "LOC000183107138",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719117131",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -123996,11 +123972,11 @@
     "name": "UNIT 1, 37 WOOD STREET DROUIN 3818",
     "locID": "LOC000093803307",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719923634",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -134152,10 +134128,10 @@
    "properties": {
     "name": "72D WEEBAR ROAD DROUIN 3818",
     "locID": "LOC000085505230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720510456",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -134447,10 +134423,10 @@
    "properties": {
     "name": "72C WEEBAR ROAD DROUIN 3818",
     "locID": "LOC000085505230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720522598",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -139677,10 +139653,10 @@
    "properties": {
     "name": "19 PRINCES AVENUE DROUIN 3818",
     "locID": "LOC000181345213",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720744055",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -142309,6 +142285,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.86785628,
+     -38.14035245
+    ]
+   },
+   "properties": {
+    "name": "1371 PRINCES WAY DROUIN 3818",
+    "locID": "LOC000072089806",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720764666",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.8568116,
      -38.14899263
     ]
@@ -143857,6 +143853,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720838819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.83510768,
+     -38.12619148
+    ]
+   },
+   "properties": {
+    "name": "97 BINBEAL ROAD DROUIN 3818",
+    "locID": "LOC100087596342",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720838920",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -145786,9 +145800,9 @@
     "name": "8A ARNUP CRESCENT DROUIN 3818",
     "locID": "LOC000190338481",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721021175",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
