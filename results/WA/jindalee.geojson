@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-04T07:22:03.466432",
+ "generated": "2025-01-31T21:41:58.633577",
  "suburb": "JINDALEE",
  "features": [
   {
@@ -1118,10 +1118,9 @@
    "properties": {
     "name": "21 SEASPRAY CRESCENT JINDALEE 6036",
     "locID": "LOC000034417569",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161032633",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2376,10 +2375,9 @@
    "properties": {
     "name": "4 MARITIME DRIVE JINDALEE 6036",
     "locID": "LOC000018128995",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161422378",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4865,9 +4863,9 @@
     "name": "2 YARMOUTH ROAD JINDALEE 6036",
     "locID": "LOC000033722529",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161925997",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4884,10 +4882,9 @@
    "properties": {
     "name": "4 YARMOUTH ROAD JINDALEE 6036",
     "locID": "LOC000073646772",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161925998",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5992,7 +5989,7 @@
     "name": "3 COCKLESHELL BRACE JINDALEE 6036",
     "locID": "LOC000019458770",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162276620",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6450,10 +6447,9 @@
    "properties": {
     "name": "1 SAILBOAT LINK JINDALEE 6036",
     "locID": "LOC000069116847",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162332416",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7143,10 +7139,9 @@
    "properties": {
     "name": "7 DOTTEREL GREEN JINDALEE 6036",
     "locID": "LOC000067073030",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162390647",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7378,10 +7373,9 @@
    "properties": {
     "name": "18 SEAFARER WAY JINDALEE 6036",
     "locID": "LOC000086696358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162392720",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12290,7 +12284,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718822208",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12679,6 +12675,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.68739825,
+     -31.63518818
+    ]
+   },
+   "properties": {
+    "name": "37 COSMIA GROVE JINDALEE 6036",
+    "locID": "LOC000196111331",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719644422",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.68747731,
      -31.63518826
     ]
@@ -12743,7 +12757,7 @@
    "properties": {
     "name": "22 CASINA WAY JINDALEE 6036",
     "locID": "LOC100087641887",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720486882",
     "tech_change_status": "Not Planned"
@@ -12761,7 +12775,7 @@
    "properties": {
     "name": "6 CASINA WAY JINDALEE 6036",
     "locID": "LOC100087641887",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720490648",
     "tech_change_status": "Not Planned"
@@ -12873,7 +12887,7 @@
    "properties": {
     "name": "60 CASINA WAY JINDALEE 6036",
     "locID": "LOC100087641887",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720891929",
     "tech_change_status": "Not Planned"
@@ -12894,7 +12908,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAWA_721015293",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
