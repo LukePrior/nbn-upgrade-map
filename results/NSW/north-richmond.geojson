@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-06T15:15:53.885624",
+ "generated": "2025-02-02T16:59:46.807991",
  "suburb": "NORTH RICHMOND",
  "features": [
   {
@@ -1567,10 +1567,10 @@
    "properties": {
     "name": "5 PECKS ROAD NORTH RICHMOND 2754",
     "locID": "LOC000078798170",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705549053",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3333,7 +3333,7 @@
     "name": "19 BRANDERS LANE NORTH RICHMOND 2754",
     "locID": "LOC000036880079",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705550268",
     "tech_change_status": "Eligible to Order"
    }
@@ -12390,10 +12390,9 @@
    "properties": {
     "name": "130 CROOKED LANE NORTH RICHMOND 2754",
     "locID": "LOC000040976105",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705553912",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705553912"
    }
   },
   {
@@ -12464,7 +12463,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705553918",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12702,7 +12703,7 @@
     "name": "65 CROOKED LANE NORTH RICHMOND 2754",
     "locID": "LOC000027465650",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705553931",
     "tech_change_status": "Eligible to Order"
    }
@@ -14636,7 +14637,7 @@
     "name": "33 FLINDERS PLACE NORTH RICHMOND 2754",
     "locID": "LOC000028637504",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705554219",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14932,7 +14933,7 @@
     "name": "9 FULTON PLACE NORTH RICHMOND 2754",
     "locID": "LOC000044222680",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705554257",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15023,10 +15024,10 @@
    "properties": {
     "name": "98 PECKS ROAD NORTH RICHMOND 2754",
     "locID": "LOC000078798170",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705554263",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17351,7 +17352,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705556502",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17409,6 +17412,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705556505",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.72333247,
+     -33.55635416
+    ]
+   },
+   "properties": {
+    "name": "250 CROOKED LANE NORTH RICHMOND 2754",
+    "locID": "LOC000055327186",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705556507",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -20532,7 +20555,7 @@
     "name": "47 SUNNYSIDE CRESCENT NORTH RICHMOND 2754",
     "locID": "LOC000035368245",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705557879",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20551,8 +20574,8 @@
    "properties": {
     "name": "49 SUNNYSIDE CRESCENT NORTH RICHMOND 2754",
     "locID": "LOC000014958535",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705557880",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21219,7 +21242,7 @@
     "name": "47 ELIZABETH STREET NORTH RICHMOND 2754",
     "locID": "LOC000063455949",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705559127",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22335,7 +22358,7 @@
     "name": "20 GROSE VALE ROAD NORTH RICHMOND 2754",
     "locID": "LOC000098074454",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705559327",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36396,7 +36419,7 @@
     "name": "99 BELLS LINE OF ROAD NORTH RICHMOND 2754",
     "locID": "LOC000068368827",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716727709",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38576,8 +38599,8 @@
    "properties": {
     "name": "UNIT 1, 77 BELLS LINE OF ROAD NORTH RICHMOND 2754",
     "locID": "LOC000058052581",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717011049",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41893,10 +41916,10 @@
    "properties": {
     "name": "UNIT 8, 5 PECKS ROAD NORTH RICHMOND 2754",
     "locID": "LOC000078798170",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717602778",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44168,10 +44191,9 @@
    "properties": {
     "name": "138 CROOKED LANE NORTH RICHMOND 2754",
     "locID": "LOC100056405777",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718528536",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718528536"
    }
   },
   {
@@ -45332,6 +45354,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718800250"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.70254564,
+     -33.59449143
+    ]
+   },
+   "properties": {
+    "name": "235 GROSE VALE ROAD NORTH RICHMOND 2754",
+    "locID": "LOC100078085594",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718801925",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50285,10 +50327,9 @@
    "properties": {
     "name": "165A REDBANK ROAD NORTH RICHMOND 2754",
     "locID": "LOC000163946842",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW718867208",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718867208"
    }
   },
   {
@@ -65614,7 +65655,7 @@
     "name": "9A FULTON PLACE NORTH RICHMOND 2754",
     "locID": "LOC000044222680",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW721262704",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",

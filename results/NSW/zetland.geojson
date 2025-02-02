@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-06T16:51:28.529913",
+ "generated": "2025-02-02T17:55:10.110873",
  "suburb": "ZETLAND",
  "features": [
   {
@@ -472,7 +472,7 @@
     "name": "74 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000104355456",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706353889",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -492,8 +492,9 @@
     "name": "75 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000042948581",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706353890",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2489,7 +2490,7 @@
     "name": "950 ELIZABETH STREET ZETLAND 2017",
     "locID": "LOC000047416665",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706374272",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4098,7 +4099,7 @@
     "name": "51 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000001585092",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706391198",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4157,10 +4158,9 @@
    "properties": {
     "name": "54 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000081158168",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706391201",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -124331,6 +124331,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719945362"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.20649888,
+     -33.90460472
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2309, 6 KINGSBOROUGH WAY ZETLAND 2017",
+    "locID": "LOC000178290053",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719945363"
    }
   },
   {
