@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-07T19:18:41.660910",
+ "generated": "2025-02-03T17:10:01.633214",
  "suburb": "WANDONG",
  "features": [
   {
@@ -113,7 +113,7 @@
     "name": "3313 EPPING-KILMORE ROAD WANDONG 3758",
     "locID": "LOC000092748059",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419661661",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2007,7 +2007,7 @@
     "name": "59 RAIL STREET WANDONG 3758",
     "locID": "LOC000089962712",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420609109",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2165,8 +2165,8 @@
    "properties": {
     "name": "46 WANDONG AVENUE WANDONG 3758",
     "locID": "LOC000071722807",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420609120",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4471,10 +4471,9 @@
    "properties": {
     "name": "16 BONNIEVIEW COURT WANDONG 3758",
     "locID": "LOC000105691703",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421820006",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6002,7 +6001,7 @@
     "name": "5 COCHRANE COURT WANDONG 3758",
     "locID": "LOC000061779758",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423302241",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7068,10 +7067,9 @@
    "properties": {
     "name": "33 MATHIESONS ROAD WANDONG 3758",
     "locID": "LOC000042722633",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423474421",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9214,10 +9212,9 @@
    "properties": {
     "name": "5 SWAN COURT WANDONG 3758",
     "locID": "LOC000043632472",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423931993",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10844,7 +10841,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719437741",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10946,6 +10945,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.01052961,
+     -37.34099611
+    ]
+   },
+   "properties": {
+    "name": "26 SIR LEO CURTIS DRIVE WANDONG 3758",
+    "locID": "LOC100087697431",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720821549",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.0116991,
      -37.33895005
     ]
@@ -10986,6 +11003,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.00804593,
+     -37.3420451
+    ]
+   },
+   "properties": {
+    "name": "17 SIR LEO CURTIS DRIVE WANDONG 3758",
+    "locID": "LOC100087737350",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720824786",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.01342436,
      -37.34028364
     ]
@@ -10993,8 +11028,8 @@
    "properties": {
     "name": "4 SNOWY COURT WANDONG 3758",
     "locID": "LOC100083399951",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720825688",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -11013,12 +11048,30 @@
    "properties": {
     "name": "3 SNOWY COURT WANDONG 3758",
     "locID": "LOC100083399951",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720830305",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.01474079,
+     -37.33991032
+    ]
+   },
+   "properties": {
+    "name": "6 SNOWY COURT WANDONG 3758",
+    "locID": "LOC100087696751",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720837923",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11144,6 +11197,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721093320"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.02912943,
+     -37.3838165
+    ]
+   },
+   "properties": {
+    "name": "2989 EPPING-KILMORE ROAD WANDONG 3758",
+    "locID": "LOC100087697393",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721093819",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11431,7 +11502,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721422402",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
