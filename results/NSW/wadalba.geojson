@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-06T23:41:34.560930",
+ "generated": "2025-02-03T00:55:51.641218",
  "suburb": "WADALBA",
  "features": [
   {
@@ -35,7 +35,7 @@
     "name": "8 RAINTREE TERRACE WADALBA 2259",
     "locID": "LOC000011304690",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706136790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -708,7 +708,7 @@
     "name": "25 VAN STAPPEN ROAD WADALBA 2259",
     "locID": "LOC000076750322",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706136832",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -947,7 +947,7 @@
     "name": "6 MASCORD AVENUE WADALBA 2259",
     "locID": "LOC000077515137",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706139505",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1567,7 +1567,7 @@
     "name": "100 JENSEN ROAD WADALBA 2259",
     "locID": "LOC000067840592",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706170015",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2503,9 +2503,9 @@
     "name": "18 GLIDER ROAD WADALBA 2259",
     "locID": "LOC000051404252",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706180786",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3332,10 +3332,10 @@
    "properties": {
     "name": "28 MANCHURIAN WAY WADALBA 2259",
     "locID": "LOC000013061075",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706183540",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4011,10 +4011,9 @@
    "properties": {
     "name": "4 RAINTREE TERRACE WADALBA 2259",
     "locID": "LOC000086168805",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706202190",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5169,6 +5168,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.46312754,
+     -33.27184273
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511201",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715461674"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.4637806,
      -33.2701591
     ]
@@ -5594,6 +5610,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.46289793,
+     -33.27206759
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511077",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715461710"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.4631216,
      -33.27147986
     ]
@@ -5604,6 +5637,76 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715461713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.46280869,
+     -33.27205331
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511083",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715461721"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.4631389,
+     -33.27049267
+    ]
+   },
+   "properties": {
+    "name": "UNIT 52, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000186171682",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW715461723",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.46282469,
+     -33.27195155
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511096",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715461731"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.46292162,
+     -33.27196582
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511106",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715461742"
    }
   },
   {
@@ -7164,7 +7267,7 @@
     "name": "4 QUARTERHORSE PARADE WADALBA 2259",
     "locID": "LOC000069800016",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716056201",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8880,7 +8983,7 @@
     "name": "7 VOYAGER STREET WADALBA 2259",
     "locID": "LOC000065344464",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717111989",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8959,7 +9062,7 @@
     "name": "7 MAROUBRA CLOSE WADALBA 2259",
     "locID": "LOC000022292228",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717144725",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9049,6 +9152,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.46300959,
+     -33.27198007
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 195 JOHNS ROAD WADALBA 2259",
+    "locID": "LOC000191511110",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717215649"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.46537519,
      -33.27202033
     ]
@@ -9076,7 +9196,7 @@
     "name": "116 ORCHID WAY WADALBA 2259",
     "locID": "LOC000057262133",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717288775",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10539,7 +10659,7 @@
     "name": "3 HULDA ROAD WADALBA 2259",
     "locID": "LOC000036834049",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717334889",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10716,10 +10836,9 @@
    "properties": {
     "name": "13 MELBOURNE ROAD WADALBA 2259",
     "locID": "LOC000013168865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717339364",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11383,10 +11502,9 @@
    "properties": {
     "name": "1 CONNEMARA STREET WADALBA 2259",
     "locID": "LOC000025414851",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717618382",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16249,10 +16367,9 @@
    "properties": {
     "name": "82 SETTLEMENT DRIVE WADALBA 2259",
     "locID": "LOC000120624707",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718371851",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17275,9 +17392,9 @@
     "name": "42 RAINTREE TERRACE WADALBA 2259",
     "locID": "LOC000141987134",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718534330",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18337,7 +18454,7 @@
     "name": "193 JOHNS ROAD WADALBA 2259",
     "locID": "LOC000147604935",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718645558",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19325,7 +19442,7 @@
     "name": "34 KUTTABUL ROAD WADALBA 2259",
     "locID": "LOC000147605077",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718845916",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21947,10 +22064,10 @@
    "properties": {
     "name": "20 CRESWELL STREET WADALBA 2259",
     "locID": "LOC000169472164",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718921008",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22271,10 +22388,9 @@
    "properties": {
     "name": "43 MELBOURNE ROAD WADALBA 2259",
     "locID": "LOC000165338616",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718926620",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26698,7 +26814,7 @@
     "name": "8A CRESWELL STREET WADALBA 2259",
     "locID": "LOC100080428905",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW719376312",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
