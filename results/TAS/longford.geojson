@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-16T04:20:57.699887",
+ "generated": "2025-02-04T23:10:24.622166",
  "suburb": "LONGFORD",
  "features": [
   {
@@ -454,7 +454,7 @@
     "name": "14 ARCHER STREET LONGFORD 7301",
     "locID": "LOC000003516966",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702190097",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -834,7 +834,7 @@
     "name": "80 BULWER STREET LONGFORD 7301",
     "locID": "LOC000066735388",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702204683",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3490,7 +3490,7 @@
     "name": "101 CATHERINE STREET LONGFORD 7301",
     "locID": "LOC000042739579",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702212830",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3648,7 +3648,7 @@
     "name": "18 CATHERINE STREET LONGFORD 7301",
     "locID": "LOC000015160387",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702213909",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5499,10 +5499,10 @@
    "properties": {
     "name": "4 DAVIS CRESCENT LONGFORD 7301",
     "locID": "LOC000029286798",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702233174",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10783,7 +10783,7 @@
     "name": "57 MARLBOROUGH STREET LONGFORD 7301",
     "locID": "LOC000093662008",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702279205",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12013,8 +12013,8 @@
    "properties": {
     "name": "19 LEWIS STREET LONGFORD 7301",
     "locID": "LOC000033466629",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702284159",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14735,7 +14735,7 @@
     "name": "11 MARLBOROUGH STREET LONGFORD 7301",
     "locID": "LOC000107004885",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702301019",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16049,7 +16049,7 @@
     "name": "53 PULTNEY STREET LONGFORD 7301",
     "locID": "LOC000066745165",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702309592",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17652,7 +17652,7 @@
     "name": "62 PAKENHAM STREET LONGFORD 7301",
     "locID": "LOC000104544380",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702318393",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18547,7 +18547,7 @@
     "name": "41 PULTNEY STREET LONGFORD 7301",
     "locID": "LOC000100717129",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702327109",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20124,26 +20124,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.12085959,
-     -41.59180213
-    ]
-   },
-   "properties": {
-    "name": "46 WELLINGTON STREET LONGFORD 7301",
-    "locID": "LOC000051132685",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GATAS702351067",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      147.12356774,
      -41.59962356
     ]
@@ -20947,10 +20927,9 @@
    "properties": {
     "name": "19 UNION STREET LONGFORD 7301",
     "locID": "LOC000017595249",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702358836",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21424,9 +21403,9 @@
     "name": "126 WELLINGTON STREET LONGFORD 7301",
     "locID": "LOC000172548599",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702361562",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23128,10 +23107,10 @@
    "properties": {
     "name": "27 WELLINGTON STREET LONGFORD 7301",
     "locID": "LOC000008426339",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702371578",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25375,7 +25354,7 @@
     "name": "7 GAY STREET LONGFORD 7301",
     "locID": "LOC000047983664",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702483352",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25750,7 +25729,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS702483635",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26437,7 +26416,7 @@
     "name": "61 BURGHLEY STREET LONGFORD 7301",
     "locID": "LOC000082940249",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702486112",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27351,7 +27330,7 @@
     "name": "59 BULWER STREET LONGFORD 7301",
     "locID": "LOC000007572870",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702488027",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29165,8 +29144,8 @@
    "properties": {
     "name": "37 CATHERINE STREET LONGFORD 7301",
     "locID": "LOC000112480480",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702492416",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30182,9 +30161,9 @@
     "name": "UNIT 1, 126 WELLINGTON STREET LONGFORD 7301",
     "locID": "LOC000172548599",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702494035",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30440,9 +30419,9 @@
     "name": "UNIT 2, 126 WELLINGTON STREET LONGFORD 7301",
     "locID": "LOC000172548599",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702494400",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31911,7 +31890,7 @@
     "name": "5 HAY STREET LONGFORD 7301",
     "locID": "LOC000005225177",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS716463915",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32230,7 +32209,7 @@
     "name": "2 HOBHOUSE STREET LONGFORD 7301",
     "locID": "LOC000075140812",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS716592043",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35103,9 +35082,9 @@
     "name": "16 COUNTRY FIELD COURT LONGFORD 7301",
     "locID": "LOC000061867039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS717608993",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36028,7 +36007,7 @@
     "name": "15-17 LONGFORD CLOSE LONGFORD 7301",
     "locID": "LOC000094330497",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS717757498",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36087,7 +36066,7 @@
     "name": "26-28 LONGFORD CLOSE LONGFORD 7301",
     "locID": "LOC000023382030",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS717757501",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37748,10 +37727,9 @@
    "properties": {
     "name": "74 LEWIS STREET WEST LONGFORD 7301",
     "locID": "LOC000133755315",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS718182365",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-16T03:23:23.565572",
+ "generated": "2025-02-04T22:27:20.915966",
  "suburb": "KOO WEE RUP",
  "features": [
   {
@@ -928,7 +928,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411716935",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2473,7 +2475,7 @@
     "name": "252 ROSSITER ROAD KOO WEE RUP 3981",
     "locID": "LOC000016923557",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419800986",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3586,10 +3588,9 @@
    "properties": {
     "name": "9 MICKLE STREET KOO WEE RUP 3981",
     "locID": "LOC000031086983",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420087299",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4864,7 +4865,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420373398",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -6927,10 +6928,9 @@
    "properties": {
     "name": "7 CHARLES STREET KOO WEE RUP 3981",
     "locID": "LOC000104535306",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420699134",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8728,7 +8728,7 @@
     "name": "46 HENRY STREET KOO WEE RUP 3981",
     "locID": "LOC000010279603",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421004849",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10716,7 +10716,7 @@
     "name": "210 STATION STREET KOO WEE RUP 3981",
     "locID": "LOC000029252372",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421306228",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15837,7 +15837,7 @@
     "name": "15 BLACKFISH DRIVE KOO WEE RUP 3981",
     "locID": "LOC000009295287",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423821436",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17636,8 +17636,8 @@
    "properties": {
     "name": "10 BAILEY BOULEVARD KOO WEE RUP 3981",
     "locID": "LOC000102443008",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424077520",
     "tech_change_status": "Eligible to Order"
    }
@@ -18134,7 +18134,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424077548",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -18706,7 +18706,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424078029",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -19794,7 +19794,7 @@
     "name": "11 ALEXANDRA AVENUE KOO WEE RUP 3981",
     "locID": "LOC000016007997",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424530910",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21009,10 +21009,10 @@
    "properties": {
     "name": "6 QUINNY STREET KOO WEE RUP 3981",
     "locID": "LOC000007186969",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424544467",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21094,6 +21094,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.48840225,
+     -38.20076652
+    ]
+   },
+   "properties": {
+    "name": "1A SYBELLA AVENUE KOO WEE RUP 3981",
+    "locID": "LOC000195299187",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424546418"
    }
   },
   {
@@ -23559,10 +23576,10 @@
    "properties": {
     "name": "30 SIMS LANE KOO WEE RUP 3981",
     "locID": "LOC000029334802",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424630310",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30887,10 +30904,9 @@
    "properties": {
     "name": "37 ALEXANDRA AVENUE KOO WEE RUP 3981",
     "locID": "LOC000175813799",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425666271",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34273,6 +34289,24 @@
     "gnaf_pid": "GAVIC720522078",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.52168249,
+     -38.17047902
+    ]
+   },
+   "properties": {
+    "name": "85 BLADENS ROAD KOO WEE RUP 3981",
+    "locID": "LOC100087717930",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720566359",
+    "tech_change_status": "Not Planned"
    }
   },
   {
