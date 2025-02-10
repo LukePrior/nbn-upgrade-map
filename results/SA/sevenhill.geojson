@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-21T16:58:17.557240",
+ "generated": "2025-02-10T19:52:02.331751",
  "suburb": "SEVENHILL",
  "features": [
   {
@@ -116,8 +116,11 @@
     "name": "LOT 11 MAIN NORTH ROAD SEVENHILL 5453",
     "locID": "LOC000027533961",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424188147"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424188147",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -813,7 +816,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425712044",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1259,6 +1264,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.626502,
+     -33.88783
+    ]
+   },
+   "properties": {
+    "name": "25 INDUSTRIAL STREET SEVENHILL 5453",
+    "locID": "LOC100087714578",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719863473",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.628337,
      -33.889324
     ]
@@ -1312,6 +1335,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.627542,
+     -33.891692
+    ]
+   },
+   "properties": {
+    "name": "10 CHURCH STREET SEVENHILL 5453",
+    "locID": "LOC100087714300",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720237956",
+    "tech_change_status": "Not Planned"
    }
   },
   {
