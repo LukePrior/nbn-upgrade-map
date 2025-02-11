@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-22T15:50:33.346553",
+ "generated": "2025-02-11T19:27:18.102807",
  "suburb": "BENTLEIGH",
  "features": [
   {
@@ -346,10 +346,9 @@
    "properties": {
     "name": "UNIT 14, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410865121",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410865121"
    }
   },
   {
@@ -4414,10 +4413,9 @@
    "properties": {
     "name": "UNIT 326, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410880607",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410880607"
    }
   },
   {
@@ -4976,10 +4974,9 @@
    "properties": {
     "name": "UNIT 188, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410883210",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410883210"
    }
   },
   {
@@ -4994,10 +4991,9 @@
    "properties": {
     "name": "UNIT 334, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410883211",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410883211"
    }
   },
   {
@@ -5012,10 +5008,9 @@
    "properties": {
     "name": "UNIT 179, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410883225",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410883225"
    }
   },
   {
@@ -5698,10 +5693,9 @@
    "properties": {
     "name": "UNIT 187, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410887864",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410887864"
    }
   },
   {
@@ -5836,10 +5830,9 @@
    "properties": {
     "name": "UNIT 2, 7 CLAIRMONT AVENUE BENTLEIGH 3204",
     "locID": "LOC000106327572",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC410888618",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410888618"
    }
   },
   {
@@ -9864,10 +9857,9 @@
    "properties": {
     "name": "UNIT 1, 81 ROBERT STREET BENTLEIGH 3204",
     "locID": "LOC000085534412",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419629206",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419629206"
    }
   },
   {
@@ -10045,7 +10037,8 @@
     "locID": "LOC000026036231",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419636538"
+    "gnaf_pid": "GAVIC419636538",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15235,7 +15228,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419657334",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24666,6 +24661,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.02661957,
+     -37.92438394
+    ]
+   },
+   "properties": {
+    "name": "825 NEPEAN HIGHWAY BENTLEIGH 3204",
+    "locID": "LOC000196139060",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419943443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.02740279,
      -37.9252221
     ]
@@ -28866,9 +28878,10 @@
    "properties": {
     "name": "474 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000038938041",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419963933"
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC419963933",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -30361,7 +30374,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419975406",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -51009,23 +51023,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.025922,
-     -37.91283
-    ]
-   },
-   "properties": {
-    "name": "18 HUNTLEY ROAD BENTLEIGH 3204",
-    "locID": "LOC000014370887",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420551949"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.026882,
      -37.912684
     ]
@@ -53539,8 +53536,11 @@
     "name": "423 SOUTH ROAD BENTLEIGH 3204",
     "locID": "LOC000079686801",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420557708"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420557708",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53558,7 +53558,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420557709",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54015,10 +54017,9 @@
    "properties": {
     "name": "7 PLYM STREET BENTLEIGH 3204",
     "locID": "LOC000003716297",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC420559116",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420559116"
    }
   },
   {
@@ -55866,23 +55867,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420564924"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.04502631,
-     -37.9315335
-    ]
-   },
-   "properties": {
-    "name": "11 LUCKINS ROAD BENTLEIGH 3204",
-    "locID": "LOC000025980584",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420564925"
    }
   },
   {
@@ -60322,10 +60306,9 @@
    "properties": {
     "name": "7 CLAIRMONT AVENUE BENTLEIGH 3204",
     "locID": "LOC000106327572",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC420654024",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420654024"
    }
   },
   {
@@ -64417,23 +64400,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.046706,
-     -37.929939
-    ]
-   },
-   "properties": {
-    "name": "26 PASCHAL STREET BENTLEIGH 3204",
-    "locID": "LOC000056266997",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420845461"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.046964,
      -37.929664
     ]
@@ -66344,10 +66310,9 @@
    "properties": {
     "name": "13 RENOWN STREET BENTLEIGH 3204",
     "locID": "LOC000103323621",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420855736",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420855736"
    }
   },
   {
@@ -66517,10 +66482,9 @@
    "properties": {
     "name": "37 SOUTH AVENUE BENTLEIGH 3204",
     "locID": "LOC000044308696",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420855756",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420855756"
    }
   },
   {
@@ -67703,10 +67667,9 @@
    "properties": {
     "name": "30 GILBERT GROVE BENTLEIGH 3204",
     "locID": "LOC000104486549",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC420862137",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420862137"
    }
   },
   {
@@ -70753,10 +70716,9 @@
    "properties": {
     "name": "9 GODFREY STREET BENTLEIGH 3204",
     "locID": "LOC000035065386",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420875927",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420875927"
    }
   },
   {
@@ -73133,10 +73095,9 @@
    "properties": {
     "name": "15 MILES STREET BENTLEIGH 3204",
     "locID": "LOC000062625579",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420976854",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420976854"
    }
   },
   {
@@ -74592,23 +74553,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.03634416,
-     -37.9218726
-    ]
-   },
-   "properties": {
-    "name": "99 BREWER ROAD BENTLEIGH 3204",
-    "locID": "LOC000055304356",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421138818"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.034505,
      -37.921976
     ]
@@ -74914,10 +74858,9 @@
    "properties": {
     "name": "8 MILES STREET BENTLEIGH 3204",
     "locID": "LOC000057186143",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421141191",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421141191"
    }
   },
   {
@@ -75164,7 +75107,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421142691",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -75863,10 +75808,9 @@
    "properties": {
     "name": "500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421145829",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421145829"
    }
   },
   {
@@ -80040,9 +79984,8 @@
     "name": "47 SEAVIEW AVENUE BENTLEIGH 3204",
     "locID": "LOC000088655299",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421159821",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421159821"
    }
   },
   {
@@ -85103,10 +85046,9 @@
    "properties": {
     "name": "4A OSBORNE AVENUE BENTLEIGH 3204",
     "locID": "LOC000039139588",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421237968",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421237968"
    }
   },
   {
@@ -88106,9 +88048,9 @@
     "name": "31 OAK STREET BENTLEIGH 3204",
     "locID": "LOC000047515622",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421432967",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -91330,10 +91272,9 @@
    "properties": {
     "name": "26 WAVELL STREET BENTLEIGH 3204",
     "locID": "LOC000073354213",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421453843",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421453843"
    }
   },
   {
@@ -92777,10 +92718,9 @@
    "properties": {
     "name": "4 MILES STREET BENTLEIGH 3204",
     "locID": "LOC000056885476",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421464756",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421464756"
    }
   },
   {
@@ -95129,8 +95069,11 @@
     "name": "417 SOUTH ROAD BENTLEIGH 3204",
     "locID": "LOC000058257565",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421476479"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421476479",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -95283,10 +95226,9 @@
    "properties": {
     "name": "81 ROBERT STREET BENTLEIGH 3204",
     "locID": "LOC000085534412",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421476685",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421476685"
    }
   },
   {
@@ -101058,10 +101000,9 @@
    "properties": {
     "name": "107 BREWER ROAD BENTLEIGH 3204",
     "locID": "LOC000075774337",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421729998",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421729998"
    }
   },
   {
@@ -101937,7 +101878,7 @@
    "properties": {
     "name": "7 ROSS STREET BENTLEIGH 3204",
     "locID": "LOC000061641080",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421740514"
    }
@@ -104558,7 +104499,8 @@
     "locID": "LOC000074468455",
     "tech": "FTTC",
     "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421759176"
+    "gnaf_pid": "GAVIC421759176",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -114186,7 +114128,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422324455",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -114235,10 +114178,9 @@
    "properties": {
     "name": "UNIT 238, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC422385580",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422385580"
    }
   },
   {
@@ -114640,7 +114582,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423091737",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -118990,10 +118933,9 @@
    "properties": {
     "name": "UNIT 3, 500 CENTRE ROAD BENTLEIGH 3204",
     "locID": "LOC000170245535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC424039102",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424039102"
    }
   },
   {
@@ -120032,7 +119974,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424270131",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -128133,10 +128076,9 @@
    "properties": {
     "name": "7A BETHS STREET BENTLEIGH 3204",
     "locID": "LOC000166380178",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425155728",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425155728"
    }
   },
   {
@@ -128535,10 +128477,9 @@
    "properties": {
     "name": "21B MCARTHUR STREET BENTLEIGH 3204",
     "locID": "LOC000166386662",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425165116",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425165116"
    }
   },
   {
@@ -130686,7 +130627,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425470731",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -152822,7 +152764,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720347410",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -158028,6 +157971,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721093799"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.04027801,
+     -37.92741461
+    ]
+   },
+   "properties": {
+    "name": "2B MORTIMORE STREET BENTLEIGH 3204",
+    "locID": "LOC000196094083",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721094181"
    }
   },
   {
