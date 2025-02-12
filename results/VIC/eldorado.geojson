@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-23T05:03:37.688799",
+ "generated": "2025-02-12T09:02:57.218264",
  "suburb": "ELDORADO",
  "features": [
   {
@@ -160,7 +160,7 @@
     "gnaf_pid": "GAVIC419666099",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -3340,7 +3340,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720285639",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3356,8 +3358,11 @@
     "name": "1 MCKOY STREET ELDORADO 3746",
     "locID": "LOC000186625171",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720911216"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720911216",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3395,7 +3400,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC720914694",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3410,10 +3417,11 @@
    "properties": {
     "name": "7 MCKOY STREET ELDORADO 3746",
     "locID": "LOC000189303876",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720922648",
-    "tech_change_status": "Eligible to Order"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3434,6 +3442,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.51772795,
+     -36.30762887
+    ]
+   },
+   "properties": {
+    "name": "75 MAIN STREET ELDORADO 3746",
+    "locID": "LOC100087685891",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720970290",
+    "tech_change_status": "Not Planned"
    }
   },
   {
