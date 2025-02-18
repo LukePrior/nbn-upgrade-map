@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-01-29T08:26:51.405793",
+ "generated": "2025-02-18T08:46:30.657957",
  "suburb": "CURRUMBIN VALLEY",
  "features": [
   {
@@ -142,7 +142,7 @@
     "name": "520 TALLEBUDGERA CONNECTION ROAD CURRUMBIN VALLEY 4223",
     "locID": "LOC000040379770",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155223884",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1988,7 +1988,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155229645",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4238,7 +4238,7 @@
     "name": "23 BRADMAN DRIVE CURRUMBIN VALLEY 4223",
     "locID": "LOC000082691967",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155234856",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5035,8 +5035,8 @@
    "properties": {
     "name": "17 ESTELLE ROAD CURRUMBIN VALLEY 4223",
     "locID": "LOC000060156315",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156043656",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -5281,7 +5281,7 @@
    "properties": {
     "name": "1596 CURRUMBIN CREEK ROAD CURRUMBIN VALLEY 4223",
     "locID": "LOC000052545179",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156495206",
     "tech_change_status": "Not Planned"
@@ -7043,10 +7043,10 @@
    "properties": {
     "name": "3 JOANNE COURT CURRUMBIN VALLEY 4223",
     "locID": "LOC000099293150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156503881",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8464,10 +8464,10 @@
    "properties": {
     "name": "110 REYNOLDS ROAD CURRUMBIN VALLEY 4223",
     "locID": "LOC000061331504",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157840083",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -9497,10 +9497,10 @@
    "properties": {
     "name": "542B TALLEBUDGERA CONNECTION ROAD CURRUMBIN VALLEY 4223",
     "locID": "LOC000073908707",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161324030",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13668,6 +13668,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719711204",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.42282636,
+     -28.19070933
+    ]
+   },
+   "properties": {
+    "name": "77 TOMEWIN MOUNTAIN ROAD CURRUMBIN VALLEY 4223",
+    "locID": "LOC000100054090",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719712034",
     "tech_change_status": "Not Planned"
    }
   },
