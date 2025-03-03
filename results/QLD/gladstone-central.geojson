@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-06T08:25:35.696085",
+ "generated": "2025-03-03T15:21:26.040427",
  "suburb": "GLADSTONE CENTRAL",
  "features": [
   {
@@ -4294,10 +4294,10 @@
    "properties": {
     "name": "10 DENNIS STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000053560912",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162504411",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5330,6 +5330,24 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162507057"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25516352,
+     -23.83543228
+    ]
+   },
+   "properties": {
+    "name": "39 FLINDERS PARADE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000128959369",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162507063",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11038,9 +11056,9 @@
     "name": "23 LORD STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000039489426",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162512593",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16964,10 +16982,10 @@
    "properties": {
     "name": "3 WILMOTT STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000101592491",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162526689",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19174,10 +19192,9 @@
    "properties": {
     "name": "36 CHAPPLE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000174573695",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162536898",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162536898"
    }
   },
   {
@@ -39494,8 +39511,9 @@
     "name": "SHED 2, 35 CHAPPLE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000162769859",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425201222"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425201222",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
