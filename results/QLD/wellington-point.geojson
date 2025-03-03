@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-06T09:25:40.395343",
+ "generated": "2025-03-03T16:33:54.519163",
  "suburb": "WELLINGTON POINT",
  "features": [
   {
@@ -3311,7 +3311,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155944888",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14390,10 +14390,9 @@
    "properties": {
     "name": "3 TURNER CRESCENT WELLINGTON POINT 4160",
     "locID": "LOC000068785448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155953839",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17373,7 +17372,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155954865",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19400,10 +19401,10 @@
    "properties": {
     "name": "3 WALLACE STREET WELLINGTON POINT 4160",
     "locID": "LOC000024923000",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155957102",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20416,10 +20417,10 @@
    "properties": {
     "name": "7 FARNHAM STREET WELLINGTON POINT 4160",
     "locID": "LOC000019065033",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155960624",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22728,8 +22729,8 @@
    "properties": {
     "name": "6 KERRIDGE COURT WELLINGTON POINT 4160",
     "locID": "LOC000068667005",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155962410",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25325,10 +25326,10 @@
    "properties": {
     "name": "9 WILLARD CLOSE WELLINGTON POINT 4160",
     "locID": "LOC000043871831",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155966167",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27016,10 +27017,9 @@
    "properties": {
     "name": "5 BELFORD DRIVE WELLINGTON POINT 4160",
     "locID": "LOC000082363637",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155968044",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32270,9 +32270,9 @@
     "name": "24 WHEPSTEAD AVENUE WELLINGTON POINT 4160",
     "locID": "LOC000059013581",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156067476",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33491,7 +33491,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156098688",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36935,9 +36935,9 @@
     "name": "26 TURNER CRESCENT WELLINGTON POINT 4160",
     "locID": "LOC000059031684",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157266613",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39319,6 +39319,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157270250"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.23933947,
+     -27.46981223
+    ]
+   },
+   "properties": {
+    "name": "63 MAIN ROAD WELLINGTON POINT 4160",
+    "locID": "LOC000081399744",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157270253"
    }
   },
   {
@@ -49315,7 +49332,7 @@
    "properties": {
     "name": "14-18 HARRIS STREET WELLINGTON POINT 4160",
     "locID": "LOC000196115840",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157302227"
    }
@@ -49832,10 +49849,10 @@
    "properties": {
     "name": "7 KERRIDGE COURT WELLINGTON POINT 4160",
     "locID": "LOC000091148654",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157302329",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58187,6 +58204,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.23933947,
+     -27.46981223
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 63 MAIN ROAD WELLINGTON POINT 4160",
+    "locID": "LOC000081399744",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158812681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.24184719,
      -27.49376251
     ]
@@ -58299,6 +58333,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158814583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.23622734,
+     -27.48230867
+    ]
+   },
+   "properties": {
+    "name": "29 BAYVIEW STREET WELLINGTON POINT 4160",
+    "locID": "LOC000172865237",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158814584"
    }
   },
   {
@@ -59917,6 +59968,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.23933947,
+     -27.46981223
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 63 MAIN ROAD WELLINGTON POINT 4160",
+    "locID": "LOC000183017431",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158833534"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.23894293,
      -27.49765469
     ]
@@ -61299,6 +61367,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.23933947,
+     -27.46981223
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 63 MAIN ROAD WELLINGTON POINT 4160",
+    "locID": "LOC000183017412",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158840931"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.23994957,
      -27.46647099
     ]
@@ -61444,10 +61529,9 @@
    "properties": {
     "name": "16 HERITAGE DRIVE WELLINGTON POINT 4160",
     "locID": "LOC000007684299",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158841219",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64655,10 +64739,9 @@
    "properties": {
     "name": "7 BELFORD DRIVE WELLINGTON POINT 4160",
     "locID": "LOC000074917552",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158870210",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69354,6 +69437,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.24039636,
+     -27.48757372
+    ]
+   },
+   "properties": {
+    "name": "6-8 ARTHUR STREET WELLINGTON POINT 4160",
+    "locID": "LOC000172864522",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161424992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.23149002,
      -27.49799494
     ]
@@ -73078,6 +73178,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.23709065,
+     -27.48096211
+    ]
+   },
+   "properties": {
+    "name": "16 JELLICOE STREET WELLINGTON POINT 4160",
+    "locID": "LOC000196224080",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161786753"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.23688966,
      -27.4809333
     ]
@@ -73734,7 +73851,7 @@
    "properties": {
     "name": "14 HARRIS STREET WELLINGTON POINT 4160",
     "locID": "LOC000196115840",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161956004"
    }
@@ -73751,7 +73868,7 @@
    "properties": {
     "name": "18 HARRIS STREET WELLINGTON POINT 4160",
     "locID": "LOC000196115886",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161956005"
    }
@@ -75477,6 +75594,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162473150"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.23846211,
+     -27.46938618
+    ]
+   },
+   "properties": {
+    "name": "76 MAIN ROAD WELLINGTON POINT 4160",
+    "locID": "LOC000172869157",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162473159"
    }
   },
   {
