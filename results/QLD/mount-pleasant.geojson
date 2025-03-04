@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-06T19:10:06.743351",
+ "generated": "2025-03-04T04:39:06.954773",
  "suburb": "MOUNT PLEASANT",
  "features": [
   {
@@ -352,10 +352,10 @@
    "properties": {
     "name": "5 CRISPIN DRIVE MOUNT PLEASANT 4740",
     "locID": "LOC000026809996",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155599408",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -550,10 +550,9 @@
    "properties": {
     "name": "8 SUNCREST COURT MOUNT PLEASANT 4740",
     "locID": "LOC000077885309",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155599429",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3418,10 +3417,9 @@
    "properties": {
     "name": "11 GIBBS COURT MOUNT PLEASANT 4740",
     "locID": "LOC000052451657",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155606935",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3797,9 +3795,9 @@
     "name": "27 CHARLES HODGE AVENUE MOUNT PLEASANT 4740",
     "locID": "LOC000002452620",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155607831",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3978,7 +3976,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155607840",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8196,10 +8194,9 @@
    "properties": {
     "name": "5 MILLER STREET MOUNT PLEASANT 4740",
     "locID": "LOC000042865487",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155613218",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8236,9 +8233,9 @@
     "name": "14 WHITTEN COURT MOUNT PLEASANT 4740",
     "locID": "LOC000106772551",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155613229",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14771,9 +14768,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158340397",
-    "tech_change_status": "Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Jun 2025"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14814,6 +14809,63 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Jun 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.16600464,
+     -21.11939599
+    ]
+   },
+   "properties": {
+    "name": "4 PANSY WOOD COURT MOUNT PLEASANT 4740",
+    "locID": "LOC000170658554",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158340424",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.16600464,
+     -21.11939599
+    ]
+   },
+   "properties": {
+    "name": "9 PANSY WOOD COURT MOUNT PLEASANT 4740",
+    "locID": "LOC000170659220",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158340426",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.16600464,
+     -21.11939599
+    ]
+   },
+   "properties": {
+    "name": "2 PANSY WOOD COURT MOUNT PLEASANT 4740",
+    "locID": "LOC000170658554",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158340427",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16228,9 +16280,9 @@
     "name": "3 MARGARET GRANT PLACE MOUNT PLEASANT 4740",
     "locID": "LOC000031538984",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158368495",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19761,10 +19813,9 @@
    "properties": {
     "name": "30 WINDMILL CROSSING MOUNT PLEASANT 4740",
     "locID": "LOC000001809537",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160421796",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160421796"
    }
   },
   {
@@ -23046,7 +23097,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160625885",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23979,10 +24030,9 @@
    "properties": {
     "name": "6 NORTHVIEW TERRACE MOUNT PLEASANT 4740",
     "locID": "LOC000064534973",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160626427",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31242,10 +31292,9 @@
    "properties": {
     "name": "19 WILLETTS ROAD MOUNT PLEASANT 4740",
     "locID": "LOC000035001043",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160637677",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31897,10 +31946,10 @@
    "properties": {
     "name": "71 DANIEL STREET MOUNT PLEASANT 4740",
     "locID": "LOC000093232827",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160638430",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33365,10 +33414,10 @@
    "properties": {
     "name": "23 PHILLIP STREET MOUNT PLEASANT 4740",
     "locID": "LOC000015914859",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160638926",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33987,6 +34036,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.16600464,
+     -21.11939599
+    ]
+   },
+   "properties": {
+    "name": "5 PANSY WOOD COURT MOUNT PLEASANT 4740",
+    "locID": "LOC000170659188",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160704968",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36747,10 +36815,9 @@
    "properties": {
     "name": "2 FIONA COURT MOUNT PLEASANT 4740",
     "locID": "LOC000044715557",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162028034",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45947,10 +46014,9 @@
    "properties": {
     "name": "9 MARANARK AVENUE MOUNT PLEASANT 4740",
     "locID": "LOC100074893107",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD425126314",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425126314"
    }
   },
   {
@@ -49308,10 +49374,9 @@
    "properties": {
     "name": "UNIT 5, 11 GIBBS COURT MOUNT PLEASANT 4740",
     "locID": "LOC000052451657",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719632643",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49764,6 +49829,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.7970055,
+     -27.17831357
+    ]
+   },
+   "properties": {
+    "name": "123 MOUNT PLEASANT ROAD MOUNT PLEASANT 4521",
+    "locID": "LOC100087810738",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721115901",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.74194295,
      -27.1175688
     ]
@@ -49830,7 +49913,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721400664",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -49919,6 +50004,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721515081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76133814,
+     -27.12677428
+    ]
+   },
+   "properties": {
+    "name": "HOUSE 2, 2070 MOUNT MEE ROAD MOUNT PLEASANT 4521",
+    "locID": "LOC100087772600",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721518475",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Jun 2025"
    }
   }
  ]
