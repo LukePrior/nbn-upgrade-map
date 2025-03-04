@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-07T08:09:51.332389",
+ "generated": "2025-03-04T21:30:09.149078",
  "suburb": "SEATON",
  "features": [
   {
@@ -3988,10 +3988,9 @@
    "properties": {
     "name": "172 TRIMMER PARADE SEATON 5023",
     "locID": "LOC000060600729",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414944287",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29019,10 +29018,9 @@
    "properties": {
     "name": "30 ALFRED AVENUE SEATON 5023",
     "locID": "LOC000061703549",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415179592",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29979,10 +29977,10 @@
    "properties": {
     "name": "113 TRIMMER PARADE SEATON 5023",
     "locID": "LOC000095640843",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415183445",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38320,6 +38318,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.52091251,
+     -34.8971665
+    ]
+   },
+   "properties": {
+    "name": "3 DAWKINS AVENUE SEATON 5023",
+    "locID": "LOC000196129342",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415258689"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.52068938,
      -34.8971767
     ]
@@ -41754,23 +41769,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415362210"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50613286,
-     -34.90288482
-    ]
-   },
-   "properties": {
-    "name": "4 MEAKIN TERRACE SEATON 5023",
-    "locID": "LOC000028406362",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415362211"
    }
   },
   {
@@ -47548,10 +47546,9 @@
    "properties": {
     "name": "33 SEATON TERRACE SEATON 5023",
     "locID": "LOC000022460241",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415418802",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54523,10 +54520,9 @@
    "properties": {
     "name": "278 TAPLEYS HILL ROAD SEATON 5023",
     "locID": "LOC000034308391",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415537824",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74093,10 +74089,9 @@
    "properties": {
     "name": "239 TAPLEYS HILL ROAD SEATON 5023",
     "locID": "LOC000037467167",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416536474",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75898,10 +75893,9 @@
    "properties": {
     "name": "49 MINNS STREET EAST SEATON 5023",
     "locID": "LOC000040607062",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416548991",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -103829,10 +103823,9 @@
    "properties": {
     "name": "1A FLAVEL STREET SEATON 5023",
     "locID": "LOC000190441254",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720585069",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -105424,9 +105417,11 @@
     "name": "7A SECOND AVENUE SEATON 5023",
     "locID": "LOC000194456061",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721002058",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -105877,8 +105872,11 @@
     "name": "10A FOURTH AVENUE SEATON 5023",
     "locID": "LOC000193373179",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721135427"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721135427",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -105911,8 +105909,11 @@
     "name": "10B FOURTH AVENUE SEATON 5023",
     "locID": "LOC000193373180",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721135578"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721135578",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
