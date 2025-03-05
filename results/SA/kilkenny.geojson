@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-07T16:49:01.249228",
+ "generated": "2025-03-05T08:56:27.833557",
  "suburb": "KILKENNY",
  "features": [
   {
@@ -1136,7 +1136,7 @@
     "name": "48 DAVID TERRACE KILKENNY 5009",
     "locID": "LOC000109158735",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414948505",
     "tech_change_status": "Eligible to Order"
    }
@@ -2722,10 +2722,10 @@
    "properties": {
     "name": "25 COPLEY STREET KILKENNY 5009",
     "locID": "LOC000039073203",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415045936",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7155,10 +7155,10 @@
    "properties": {
     "name": "2 WILPENA TERRACE KILKENNY 5009",
     "locID": "LOC000065885590",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415421959",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17680,6 +17680,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.55062538,
+     -34.87922941
+    ]
+   },
+   "properties": {
+    "name": "92 DAVID TERRACE KILKENNY 5009",
+    "locID": "LOC000129913411",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422057454",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.55167806,
      -34.88492367
     ]
@@ -18885,8 +18905,9 @@
     "name": "2A HUMPHRIES TERRACE KILKENNY 5009",
     "locID": "LOC000012526350",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423697004"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_423697004",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21429,8 +21450,9 @@
     "name": "2-2A HUMPHRIES TERRACE KILKENNY 5009",
     "locID": "LOC000012526350",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719392987"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_719392987",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21868,10 +21890,9 @@
    "properties": {
     "name": "18 BRYAN AVENUE KILKENNY 5009",
     "locID": "LOC000181704576",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719858711",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
