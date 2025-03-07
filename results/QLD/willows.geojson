@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-09T16:04:11.781545",
+ "generated": "2025-03-07T19:36:03.722345",
  "suburb": "WILLOWS",
  "features": [
   {
@@ -1797,7 +1797,7 @@
    "properties": {
     "name": "LOT 32 CAPRICORN HIGHWAY WILLOWS 4702",
     "locID": "LOC000129059149",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161094124",
     "tech_change_status": "Not Planned"
@@ -2049,7 +2049,7 @@
    "properties": {
     "name": "LOT 62 CAPRICORN HIGHWAY WILLOWS 4702",
     "locID": "LOC000150175881",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161094140",
     "tech_change_status": "Not Planned"
@@ -2463,24 +2463,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161216685",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     147.29380543,
-     -23.64934599
-    ]
-   },
-   "properties": {
-    "name": "LOT 2 LONG STREET WILLOWS 4702",
-    "locID": "LOC000129231025",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161216695",
     "tech_change_status": "Not Planned"
    }
   },
@@ -3199,9 +3181,11 @@
     "name": "20 PARR STREET WILLOWS 4702",
     "locID": "LOC000009349027",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719797441",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -3272,7 +3256,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719799480",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3316,24 +3302,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.29324118,
-     -23.64902823
-    ]
-   },
-   "properties": {
-    "name": "2 LONG STREET WILLOWS 4702",
-    "locID": "LOC000129231025",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721146078",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      147.29167674,
      -23.64817832
     ]
@@ -3344,6 +3312,24 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721147616",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.28970943,
+     -23.64746669
+    ]
+   },
+   "properties": {
+    "name": "38 LONG STREET WILLOWS 4702",
+    "locID": "LOC100078011932",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721147774",
     "tech_change_status": "Not Planned"
    }
   },

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-09T16:16:50.652039",
+ "generated": "2025-03-07T19:48:51.309784",
  "suburb": "WINDSOR",
  "features": [
   {
@@ -12263,10 +12263,9 @@
    "properties": {
     "name": "30 FOSBERY STREET WINDSOR 4030",
     "locID": "LOC000107248702",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155984066",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155984066"
    }
   },
   {
@@ -33742,23 +33741,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.03147231,
-     -27.42828793
-    ]
-   },
-   "properties": {
-    "name": "17 FLOWER STREET WINDSOR 4030",
-    "locID": "LOC000048145029",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157310280"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.03148177,
      -27.42811587
     ]
@@ -54471,9 +54453,11 @@
     "name": "7A EARLE STREET WINDSOR 4030",
     "locID": "LOC000096466107",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163294555",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -55648,6 +55632,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425174664"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.03045097,
+     -27.43817879
+    ]
+   },
+   "properties": {
+    "name": "16A NEWMARKET ROAD WINDSOR 4030",
+    "locID": "LOC000167542643",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425212690"
    }
   },
   {

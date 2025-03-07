@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-09T16:09:21.977661",
+ "generated": "2025-03-07T19:41:20.983498",
  "suburb": "WILSTON",
  "features": [
   {
@@ -17161,23 +17161,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.02182239,
-     -27.4302993
-    ]
-   },
-   "properties": {
-    "name": "62 ANGLISS STREET WILSTON 4051",
-    "locID": "LOC000005766386",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157285981"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.02192287,
      -27.4303139
     ]
@@ -18224,8 +18207,11 @@
     "name": "187 NEWMARKET ROAD WILSTON 4051",
     "locID": "LOC000040234790",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157292801"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157292801",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18294,7 +18280,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157292811",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
