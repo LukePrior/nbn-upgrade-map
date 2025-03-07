@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-09T14:11:08.461917",
+ "generated": "2025-03-07T18:04:02.142439",
  "suburb": "VETERAN",
  "features": [
   {
@@ -4632,9 +4632,11 @@
     "name": "LOT 1 TIN CAN BAY ROAD VETERAN 4570",
     "locID": "LOC000005016815",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161331360",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4650,9 +4652,11 @@
     "name": "LOT 22 TIN CAN BAY ROAD VETERAN 4570",
     "locID": "LOC000171241074",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161331361",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -6605,10 +6609,12 @@
    "properties": {
     "name": "LOT 104 TIN CAN BAY ROAD VETERAN 4570",
     "locID": "LOC000025682435",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163117836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7676,6 +7682,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.69278983,
+     -26.14866529
+    ]
+   },
+   "properties": {
+    "name": "20 DIGGERS OUTLOOK VETERAN 4570",
+    "locID": "LOC000128482114",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425047567",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.69411819,
      -26.15472341
     ]
@@ -8036,6 +8062,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.69262883,
+     -26.1478402
+    ]
+   },
+   "properties": {
+    "name": "18 DIGGERS OUTLOOK VETERAN 4570",
+    "locID": "LOC000128538913",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719086239",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.72123306,
      -26.13789951
     ]
@@ -8340,10 +8386,10 @@
    "properties": {
     "name": "85 LANGLEY ROAD VETERAN 4570",
     "locID": "LOC100077462393",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720209225",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
