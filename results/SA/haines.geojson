@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-10T03:21:09.611920",
+ "generated": "2025-03-08T06:41:01.256541",
  "suburb": "HAINES",
  "features": [
   {
@@ -374,7 +374,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424565293",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -850,7 +852,7 @@
     "name": "64 REDBANKS ROAD HAINES 5223",
     "locID": "LOC000048552081",
     "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424663582",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -1405,10 +1407,12 @@
    "properties": {
     "name": "199 AMERICAN RIVER ROAD HAINES 5223",
     "locID": "LOC000130614641",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425060555",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1635,6 +1639,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.621745,
+     -35.803635
+    ]
+   },
+   "properties": {
+    "name": "345A HALLS ROAD HAINES 5223",
+    "locID": "LOC100082652273",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720236008",
+    "tech_change_status": "Not Planned"
    }
   },
   {
