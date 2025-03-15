@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-17T20:40:07.257735",
+ "generated": "2025-03-15T22:43:13.009182",
  "suburb": "ASHFIELD",
  "features": [
   {
@@ -38,7 +38,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154972854",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1985,10 +1987,9 @@
    "properties": {
     "name": "13 BELLE EDEN DRIVE ASHFIELD 4670",
     "locID": "LOC000186825518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163055172",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3272,10 +3273,9 @@
    "properties": {
     "name": "20 WEDGELEAF PLACE ASHFIELD 4670",
     "locID": "LOC000008390106",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163060318",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4091,9 +4091,9 @@
     "name": "21 LONGVIEW STREET ASHFIELD 4670",
     "locID": "LOC000112928374",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163312258",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4408,9 +4408,9 @@
     "name": "2 VILLA COURT ASHFIELD 4670",
     "locID": "LOC000113495822",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163320677",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6044,10 +6044,10 @@
    "properties": {
     "name": "7 PALERMO AVENUE ASHFIELD 4670",
     "locID": "LOC000142724273",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425428278",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6527,10 +6527,9 @@
    "properties": {
     "name": "43 SANCTUARY DRIVE ASHFIELD 4670",
     "locID": "LOC000166553821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425753958",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7311,6 +7310,96 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38473814,
+     -24.8763275
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 112 GREATHEAD ROAD ASHFIELD 4670",
+    "locID": "LOC000196228530",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719383538",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38473814,
+     -24.8763275
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 112 GREATHEAD ROAD ASHFIELD 4670",
+    "locID": "LOC000196228530",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719383790",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38473814,
+     -24.8763275
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 112 GREATHEAD ROAD ASHFIELD 4670",
+    "locID": "LOC000196228530",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719384364",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38473814,
+     -24.8763275
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 112 GREATHEAD ROAD ASHFIELD 4670",
+    "locID": "LOC000196228530",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719384974",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38473814,
+     -24.8763275
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 112 GREATHEAD ROAD ASHFIELD 4670",
+    "locID": "LOC000196228530",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719385138",
+    "tech_change_status": "Not Planned"
    }
   },
   {
