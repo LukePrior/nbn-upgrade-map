@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-20T09:23:45.736872",
+ "generated": "2025-03-18T07:59:15.406069",
  "suburb": "EUROA",
  "features": [
   {
@@ -7146,8 +7146,8 @@
    "properties": {
     "name": "8 CHARMAN AVENUE EUROA 3666",
     "locID": "LOC000076275672",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420009697",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11047,7 +11047,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420323630",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11227,7 +11227,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420337306",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11439,8 +11439,9 @@
     "name": "UNIT 2, 17 BINNEY STREET EUROA 3666",
     "locID": "LOC000020276200",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420343805"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420343805",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13364,6 +13365,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.57008452,
+     -36.75049639
+    ]
+   },
+   "properties": {
+    "name": "62 BINNEY STREET EUROA 3666",
+    "locID": "LOC000025205360",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420609940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.56970838,
      -36.74997757
     ]
@@ -14395,7 +14413,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420649307",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15598,10 +15616,9 @@
    "properties": {
     "name": "27 ATKINS STREET EUROA 3666",
     "locID": "LOC000081327878",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420899315",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17046,7 +17063,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420937578",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19577,8 +19594,9 @@
     "name": "UNIT 1, 17 BINNEY STREET EUROA 3666",
     "locID": "LOC000020276200",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421248149"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421248149",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21797,9 +21815,9 @@
     "name": "35 WEIR STREET EUROA 3666",
     "locID": "LOC000058562218",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421505270",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22830,10 +22848,10 @@
    "properties": {
     "name": "77 KENNEDY STREET EUROA 3666",
     "locID": "LOC000100249207",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421587333",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32448,10 +32466,9 @@
    "properties": {
     "name": "1A CLIFTON STREET EUROA 3666",
     "locID": "LOC000098289523",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423789209",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41816,7 +41833,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719744288",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42095,6 +42114,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.57977712,
+     -36.75108028
+    ]
+   },
+   "properties": {
+    "name": "13 HOLLAND STREET EUROA 3666",
+    "locID": "LOC000196276391",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720231518"
    }
   },
   {
