@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-21T03:35:53.749211",
+ "generated": "2025-03-19T00:54:23.642329",
  "suburb": "ADVANCETOWN",
  "features": [
   {
@@ -489,8 +489,8 @@
    "properties": {
     "name": "211 BEECHMONT ROAD ADVANCETOWN 4211",
     "locID": "LOC000005027373",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154921821",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -2313,8 +2313,8 @@
    "properties": {
     "name": "LOT 3 BEECHMONT ROAD ADVANCETOWN 4211",
     "locID": "LOC000005027373",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161063182",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -3973,6 +3973,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.30143466,
+     -28.01917776
+    ]
+   },
+   "properties": {
+    "name": "108 MIANDETTA DRIVE ADVANCETOWN 4211",
+    "locID": "LOC000187921655",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429865"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.3003918,
      -28.01862471
     ]
@@ -4219,8 +4236,9 @@
     "name": "62 BRUSHTAIL CLOSE ADVANCETOWN 4211",
     "locID": "LOC000195081664",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721558117"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721558117",
+    "tech_change_status": "Eligible to Order"
    }
   }
  ]

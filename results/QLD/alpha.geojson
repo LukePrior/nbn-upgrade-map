@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-21T04:26:19.480351",
+ "generated": "2025-03-19T01:23:33.898990",
  "suburb": "ALPHA",
  "features": [
   {
@@ -56,7 +56,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154945868",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -705,7 +705,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156196295",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -933,7 +933,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156196972",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -1161,7 +1161,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156197000",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -1845,7 +1845,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156198823",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -2778,7 +2778,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157430223",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -3080,10 +3080,11 @@
     "name": "56 MILTON STREET ALPHA 4724",
     "locID": "LOC000035204979",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157444465",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Regional Area Flip"
+    "program_type": "Regional Area Flip",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3558,25 +3559,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160380917",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Regional Area Flip"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.63622995,
-     -23.65299629
-    ]
-   },
-   "properties": {
-    "name": "18 HOOPER STREET ALPHA 4724",
-    "locID": "LOC100082064194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160381065",
-    "tech_change_status": "Eligible to Order",
     "program_type": "Regional Area Flip"
    }
   },
@@ -4696,7 +4678,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161976835",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -4734,7 +4716,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161976837",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -5192,44 +5174,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162700496",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Regional Area Flip"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.63622995,
-     -23.65299629
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 18 HOOPER STREET ALPHA 4724",
-    "locID": "LOC100082064194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162846773",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Regional Area Flip"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.63622995,
-     -23.65299629
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 18 HOOPER STREET ALPHA 4724",
-    "locID": "LOC100082064194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162846774",
-    "tech_change_status": "Eligible to Order",
     "program_type": "Regional Area Flip"
    }
   },
@@ -7756,10 +7700,10 @@
    "properties": {
     "name": "LOT 15 COOINDA ROAD ALPHA 4724",
     "locID": "LOC000050140086",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721115983",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8198,24 +8142,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.96382152,
-     -23.63932051
-    ]
-   },
-   "properties": {
-    "name": "LOT 2 PINEHILL ROAD ALPHA 4724",
-    "locID": "LOC100080608390",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721147187",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.64189469,
      -23.63032606
     ]
@@ -8298,24 +8224,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721150903",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.96234403,
-     -23.64640483
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 PINEHILL ROAD ALPHA 4724",
-    "locID": "LOC100080608390",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721152088",
     "tech_change_status": "Not Planned"
    }
   },
