@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-22T06:26:30.082915",
+ "generated": "2025-03-20T01:28:30.349094",
  "suburb": "GILGANDRA",
  "features": [
   {
@@ -2668,10 +2668,10 @@
    "properties": {
     "name": "34 MYRTLE STREET GILGANDRA 2827",
     "locID": "LOC000104086185",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704787461",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2831,7 +2831,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704789268",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6445,10 +6445,9 @@
    "properties": {
     "name": "20 WAUGAN STREET GILGANDRA 2827",
     "locID": "LOC000099700125",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704791878",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8184,7 +8183,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704793396",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13295,7 +13294,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704801688",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -20503,8 +20502,8 @@
    "properties": {
     "name": "60 WRIGLEY STREET GILGANDRA 2827",
     "locID": "LOC000080046833",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704816987",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30968,10 +30967,9 @@
    "properties": {
     "name": "74 WARREN ROAD GILGANDRA 2827",
     "locID": "LOC000178263907",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717613509",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32791,7 +32789,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718324110",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32949,7 +32949,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718408246",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33506,7 +33506,7 @@
    "properties": {
     "name": "12 HERCULES PLACE GILGANDRA 2827",
     "locID": "LOC000194761823",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718698774"
    }
@@ -33523,7 +33523,7 @@
    "properties": {
     "name": "14 HERCULES PLACE GILGANDRA 2827",
     "locID": "LOC000194761847",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718698775"
    }
@@ -33540,9 +33540,77 @@
    "properties": {
     "name": "16 HERCULES PLACE GILGANDRA 2827",
     "locID": "LOC000194761868",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718698776"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64457895,
+     -31.70570607
+    ]
+   },
+   "properties": {
+    "name": "18 HERCULES PLACE GILGANDRA 2827",
+    "locID": "LOC000194761847",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718698777"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64492083,
+     -31.70581508
+    ]
+   },
+   "properties": {
+    "name": "20 HERCULES PLACE GILGANDRA 2827",
+    "locID": "LOC000194761852",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718698778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64515144,
+     -31.70566682
+    ]
+   },
+   "properties": {
+    "name": "22 HERCULES PLACE GILGANDRA 2827",
+    "locID": "LOC000194761868",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718698779"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64521809,
+     -31.70535435
+    ]
+   },
+   "properties": {
+    "name": "24 HERCULES PLACE GILGANDRA 2827",
+    "locID": "LOC000194761875",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718698780"
    }
   },
   {
@@ -33557,7 +33625,7 @@
    "properties": {
     "name": "2 HERCULES PLACE GILGANDRA 2827",
     "locID": "LOC000194761834",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718698781"
    }
@@ -33912,6 +33980,46 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718917460",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.67015362,
+     -31.8204721
+    ]
+   },
+   "properties": {
+    "name": "1041 BALLADORAN RAILWAY ROAD GILGANDRA 2827",
+    "locID": "LOC000052698906",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718917820",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.65178383,
+     -31.81830487
+    ]
+   },
+   "properties": {
+    "name": "1042 BALLADORAN RAILWAY ROAD GILGANDRA 2827",
+    "locID": "LOC000028978090",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718917821",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -34332,6 +34440,82 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.63097836,
+     -31.80546025
+    ]
+   },
+   "properties": {
+    "name": "5505 NEWELL HIGHWAY GILGANDRA 2827",
+    "locID": "LOC000073839850",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718927774",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.62147197,
+     -31.78975925
+    ]
+   },
+   "properties": {
+    "name": "5681 NEWELL HIGHWAY GILGANDRA 2827",
+    "locID": "LOC000039864296",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718927776",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64370486,
+     -31.78283806
+    ]
+   },
+   "properties": {
+    "name": "5766 NEWELL HIGHWAY GILGANDRA 2827",
+    "locID": "LOC000069352287",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718927777",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.64148427,
+     -31.77806968
+    ]
+   },
+   "properties": {
+    "name": "5816 NEWELL HIGHWAY GILGANDRA 2827",
+    "locID": "LOC000025054291",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718927779",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.64295831,
      -31.75472003
     ]
@@ -34436,6 +34620,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718933212",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.69014504,
+     -31.82600887
+    ]
+   },
+   "properties": {
+    "name": "743 EURA FOREST ROAD GILGANDRA 2827",
+    "locID": "LOC000094393483",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718937603",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
