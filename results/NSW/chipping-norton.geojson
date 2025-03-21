@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-23T19:37:20.652291",
+ "generated": "2025-03-21T14:24:00.948669",
  "suburb": "CHIPPING NORTON",
  "features": [
   {
@@ -275,7 +275,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394599",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -355,7 +355,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394603",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -415,7 +415,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394606",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -2279,10 +2279,9 @@
    "properties": {
     "name": "10 AYLESBURY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000005005656",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704396145",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2302,7 +2301,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704396146",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3150,7 +3149,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704400016",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3600,8 +3601,8 @@
    "properties": {
     "name": "22 AYLESBURY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000080108963",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704403081",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4188,9 +4189,10 @@
     "name": "4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086679405",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403134",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4712,9 +4714,10 @@
     "name": "UNIT 1, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403161",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4730,9 +4733,10 @@
     "name": "UNIT 10, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089022368",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403162",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4748,9 +4752,10 @@
     "name": "UNIT 11, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089095319",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403163",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4766,9 +4771,10 @@
     "name": "UNIT 12, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403164",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4784,9 +4790,10 @@
     "name": "UNIT 13, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089152719",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403165",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4802,9 +4809,10 @@
     "name": "UNIT 15, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089284263",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403166",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4820,9 +4828,10 @@
     "name": "UNIT 16, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089111025",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704403167",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5436,6 +5445,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.95996033,
+     -33.9209807
+    ]
+   },
+   "properties": {
+    "name": "28 AYLESBURY CRESCENT CHIPPING NORTON 2170",
+    "locID": "LOC000196174491",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704405753"
    }
   },
   {
@@ -7047,9 +7073,10 @@
     "name": "UNIT 34, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944409",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704407528",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7065,9 +7092,10 @@
     "name": "UNIT 36, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027819247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704407530",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7083,9 +7111,10 @@
     "name": "3 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944394",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704407534",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7137,9 +7166,10 @@
     "name": "UNIT 3, 6 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704407538",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7285,10 +7315,10 @@
    "properties": {
     "name": "3 GRANTHAM PLACE CHIPPING NORTON 2170",
     "locID": "LOC000043586494",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704407554",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8830,10 +8860,9 @@
    "properties": {
     "name": "2 BEACHCOMBER PLACE CHIPPING NORTON 2170",
     "locID": "LOC000034427910",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704408783",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704408783"
    }
   },
   {
@@ -8867,9 +8896,10 @@
     "name": "UNIT 27, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027861079",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409021",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8885,9 +8915,10 @@
     "name": "UNIT 29, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027854023",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409023",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8903,9 +8934,29 @@
     "name": "UNIT 31, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027905417",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409026",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96486719,
+     -33.91209829
+    ]
+   },
+   "properties": {
+    "name": "UNIT 32, 2 MEAD PLACE CHIPPING NORTON 2170",
+    "locID": "LOC000076278555",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409027",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8921,9 +8972,10 @@
     "name": "UNIT 33, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944394",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409028",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8939,9 +8991,10 @@
     "name": "UNIT 35, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076278540",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409030",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8957,9 +9010,10 @@
     "name": "UNIT 14, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409034",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8975,9 +9029,10 @@
     "name": "UNIT 15, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063421041",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409035",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9499,9 +9554,10 @@
     "name": "UNIT 23, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063393521",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409082",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9517,9 +9573,10 @@
     "name": "UNIT 24, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063077861",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409083",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9535,9 +9592,10 @@
     "name": "UNIT 3, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409084",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9553,9 +9611,10 @@
     "name": "UNIT 4, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063044424",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409085",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9571,9 +9630,10 @@
     "name": "UNIT 5, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063532965",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409086",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9589,9 +9649,10 @@
     "name": "UNIT 6, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063306225",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409087",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9607,9 +9668,10 @@
     "name": "UNIT 7, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063002366",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409088",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9625,9 +9687,10 @@
     "name": "UNIT 8, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063309056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409089",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9643,9 +9706,10 @@
     "name": "UNIT 9, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063485130",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409090",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9672,6 +9736,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.96447765,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000180849925",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409092",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.96447774,
      -33.91220868
     ]
@@ -9680,9 +9763,67 @@
     "name": "UNIT 10, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118291",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409093",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220868
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000180849925",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409094",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447774,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000027876213",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409095",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000028041706",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409096",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9698,9 +9839,48 @@
     "name": "UNIT 14, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063504152",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409097",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 15, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000028288756",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409098",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220868
+    ]
+   },
+   "properties": {
+    "name": "UNIT 16, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000180849925",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704409099",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9870,9 +10050,9 @@
     "name": "1B MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000051894305",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704409535",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10025,9 +10205,10 @@
     "name": "UNIT 30, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944373",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409548",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11237,9 +11418,10 @@
     "name": "UNIT 24, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086833040",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409786",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11255,9 +11437,10 @@
     "name": "UNIT 25, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086824527",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409787",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11273,9 +11456,10 @@
     "name": "UNIT 26, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086960271",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409788",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11291,9 +11475,10 @@
     "name": "UNIT 27, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086867653",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409789",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11309,9 +11494,10 @@
     "name": "UNIT 3, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086867816",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409790",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11327,9 +11513,10 @@
     "name": "UNIT 4, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086679405",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409791",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11345,9 +11532,10 @@
     "name": "UNIT 5, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086738767",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409792",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11363,9 +11551,10 @@
     "name": "UNIT 6, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000088182774",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409793",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11381,9 +11570,10 @@
     "name": "UNIT 7, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086873696",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409794",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11399,9 +11589,10 @@
     "name": "UNIT 8, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086669902",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409795",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11417,9 +11608,10 @@
     "name": "UNIT 9, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086682057",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704409796",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11502,10 +11694,9 @@
    "properties": {
     "name": "1 NEWHAM PLACE CHIPPING NORTON 2170",
     "locID": "LOC000055353770",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704410530",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13611,10 +13802,9 @@
    "properties": {
     "name": "5 BINHAM PLACE CHIPPING NORTON 2170",
     "locID": "LOC000039584030",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704411048",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13743,9 +13933,10 @@
     "name": "UNIT 4, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089307375",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411670",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13761,9 +13952,10 @@
     "name": "UNIT 5, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089319755",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411671",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13779,9 +13971,10 @@
     "name": "UNIT 6, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089283933",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411672",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13797,9 +13990,10 @@
     "name": "UNIT 7, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089102854",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411673",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13815,9 +14009,10 @@
     "name": "UNIT 8, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089033845",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411674",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13833,9 +14028,10 @@
     "name": "UNIT 9, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089635006",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411675",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13851,9 +14047,10 @@
     "name": "12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411676",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13889,9 +14086,10 @@
     "name": "UNIT 1, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411678",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13907,9 +14105,10 @@
     "name": "UNIT 10, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063537165",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411679",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13925,9 +14124,10 @@
     "name": "UNIT 11, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063181329",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411680",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13943,9 +14143,10 @@
     "name": "UNIT 12, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411681",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13961,9 +14162,10 @@
     "name": "UNIT 13, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063384287",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411682",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14058,9 +14260,10 @@
     "name": "UNIT 16, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063504152",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411687",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14076,9 +14279,10 @@
     "name": "UNIT 17, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063560463",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411688",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14094,9 +14298,10 @@
     "name": "UNIT 18, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063373324",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411689",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14112,9 +14317,10 @@
     "name": "UNIT 19, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063166636",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411690",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14130,9 +14336,10 @@
     "name": "UNIT 2, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411691",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14148,9 +14355,10 @@
     "name": "UNIT 20, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063388523",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411692",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14166,9 +14374,10 @@
     "name": "UNIT 21, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411693",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14184,9 +14393,10 @@
     "name": "UNIT 22, 14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063221442",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411694",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14479,9 +14689,10 @@
     "name": "UNIT 1, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118408",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411717",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14497,9 +14708,10 @@
     "name": "UNIT 10, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118291",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411718",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14515,9 +14727,10 @@
     "name": "UNIT 5, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118420",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411731",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14533,9 +14746,10 @@
     "name": "UNIT 8, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118431",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411734",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14551,9 +14765,10 @@
     "name": "UNIT 9, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118449",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411735",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14569,9 +14784,10 @@
     "name": "2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000179664005",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704411736",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -15848,9 +16064,10 @@
     "name": "9 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000120379284",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704412150",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -18851,23 +19068,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95661706,
-     -33.92436641
-    ]
-   },
-   "properties": {
-    "name": "10 BUNGARRA CRESCENT CHIPPING NORTON 2170",
-    "locID": "LOC000022195670",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704413210"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.95640687,
      -33.92390854
     ]
@@ -19779,9 +19979,10 @@
     "name": "UNIT 17, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089635006",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413666",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19797,9 +19998,10 @@
     "name": "UNIT 18, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089022368",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413667",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19815,9 +20017,10 @@
     "name": "UNIT 19, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089095319",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413668",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19833,9 +20036,10 @@
     "name": "UNIT 2, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413669",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19851,9 +20055,10 @@
     "name": "UNIT 20, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089083229",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413670",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19869,9 +20074,10 @@
     "name": "UNIT 21, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413671",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19887,9 +20093,10 @@
     "name": "UNIT 22, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089108308",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413672",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19905,9 +20112,10 @@
     "name": "UNIT 23, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089294353",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413673",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19923,9 +20131,10 @@
     "name": "UNIT 24, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089229172",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413674",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19941,9 +20150,10 @@
     "name": "UNIT 3, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089390819",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413675",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19959,9 +20169,10 @@
     "name": "UNIT 25, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000028029022",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704413677",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20012,9 +20223,10 @@
     "name": "UNIT 17, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118364",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414317",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20030,9 +20242,29 @@
     "name": "UNIT 18, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118372",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414318",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000180849925",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704414319",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20048,9 +20280,29 @@
     "name": "UNIT 3, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118227",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414320",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447774,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000028240974",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704414321",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20066,9 +20318,29 @@
     "name": "UNIT 5, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118243",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414322",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447765,
+     -33.91220859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000076612616",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704414323",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20084,9 +20356,10 @@
     "name": "UNIT 7, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118262",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414324",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20102,9 +20375,29 @@
     "name": "UNIT 8, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118270",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414325",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96447774,
+     -33.91220868
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000182734443",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704414326",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20786,10 +21079,10 @@
    "properties": {
     "name": "31 RUGBY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000065460267",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704414483",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20809,7 +21102,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704414491",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21950,10 +22243,10 @@
    "properties": {
     "name": "40 ASCOT DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000031337176",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414964",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22081,9 +22374,10 @@
     "name": "UNIT 12, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118465",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414972",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22099,9 +22393,10 @@
     "name": "UNIT 14, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118477",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414974",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22117,9 +22412,10 @@
     "name": "UNIT 15, 2 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118483",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414975",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22441,9 +22737,10 @@
     "name": "5 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000120379284",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704414998",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -23256,10 +23553,9 @@
    "properties": {
     "name": "22 SHOREHAM CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000070688946",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704415444",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27489,8 +27785,8 @@
    "properties": {
     "name": "17 LEDBURY PLACE CHIPPING NORTON 2170",
     "locID": "LOC000072499866",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704417198",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28028,8 +28324,8 @@
    "properties": {
     "name": "49 ASCOT DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000087405922",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704417244",
     "tech_change_status": "Eligible to Order"
    }
@@ -28711,7 +29007,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704417284",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30380,9 +30676,10 @@
     "name": "UNIT 24, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076112488",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704417690",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30398,9 +30695,10 @@
     "name": "UNIT 26, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027982723",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704417692",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30416,9 +30714,10 @@
     "name": "UNIT 28, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000189246474",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704417694",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32485,10 +32784,9 @@
    "properties": {
     "name": "68B CENTRAL AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000003193847",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704418218",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32698,9 +32996,10 @@
     "name": "2 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000088046331",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418229",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32752,9 +33051,10 @@
     "name": "25 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086824527",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418232",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32922,9 +33222,10 @@
     "name": "UNIT 1, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086873228",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418242",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32940,9 +33241,10 @@
     "name": "UNIT 10, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086991188",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418243",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32958,9 +33260,10 @@
     "name": "UNIT 11, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086804136",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418244",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32976,9 +33279,10 @@
     "name": "UNIT 12, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086526622",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418245",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32994,9 +33298,10 @@
     "name": "UNIT 13, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086306835",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418246",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33012,9 +33317,10 @@
     "name": "UNIT 14, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087049943",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418247",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33030,9 +33336,10 @@
     "name": "UNIT 15, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086736504",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418248",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33048,9 +33355,10 @@
     "name": "UNIT 16, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086507296",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418249",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33066,9 +33374,10 @@
     "name": "UNIT 17, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086778614",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418250",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33084,9 +33393,10 @@
     "name": "UNIT 18, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086913070",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418251",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33102,9 +33412,10 @@
     "name": "UNIT 19, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086577353",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418252",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33120,9 +33431,10 @@
     "name": "UNIT 2, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086679405",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418253",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33138,9 +33450,10 @@
     "name": "UNIT 20, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086784838",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418254",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33156,9 +33469,10 @@
     "name": "UNIT 21, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086679405",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418255",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33174,9 +33488,10 @@
     "name": "UNIT 22, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087181428",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418256",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33192,9 +33507,10 @@
     "name": "UNIT 23, 4 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086578259",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704418257",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38820,9 +39136,10 @@
     "name": "UNIT 19, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076112435",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704422860",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38838,9 +39155,29 @@
     "name": "UNIT 20, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000027927534",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704422862",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.96486719,
+     -33.91209835
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 2 MEAD PLACE CHIPPING NORTON 2170",
+    "locID": "LOC000075944409",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704422863",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38856,9 +39193,10 @@
     "name": "UNIT 22, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000028115386",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704422864",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38874,9 +39212,10 @@
     "name": "UNIT 23, 2 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000028147001",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704422865",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44981,10 +45320,10 @@
    "properties": {
     "name": "24 YACHTSMAN DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000097634640",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704428673",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45599,10 +45938,9 @@
    "properties": {
     "name": "2 COSFORD CLOSE CHIPPING NORTON 2170",
     "locID": "LOC000107290537",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704429288",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51072,10 +51410,9 @@
    "properties": {
     "name": "44 YACHTSMAN DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000016345703",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431309",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51542,7 +51879,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431333",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52320,7 +52657,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431957",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52360,7 +52697,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431959",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52437,10 +52774,10 @@
    "properties": {
     "name": "86 NEWBRIDGE ROAD CHIPPING NORTON 2170",
     "locID": "LOC000058927134",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704431964",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54413,9 +54750,9 @@
     "name": "87 BUNGARRA CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000017938355",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704433754",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55219,7 +55556,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704433808",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55374,10 +55711,11 @@
    "properties": {
     "name": "117 CENTRAL AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000077300267",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704433816",
-    "tech_change_status": "Eligible to Order"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57534,9 +57872,10 @@
     "name": "UNIT 1, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087789871",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259591",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57552,9 +57891,10 @@
     "name": "UNIT 2, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087832127",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259596",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57570,9 +57910,10 @@
     "name": "UNIT 3, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087954334",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259597",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57588,9 +57929,10 @@
     "name": "UNIT 4, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000088182774",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259598",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57606,9 +57948,10 @@
     "name": "UNIT 5, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087905152",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259599",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57624,9 +57967,10 @@
     "name": "UNIT 6, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087832127",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259600",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57642,9 +57986,10 @@
     "name": "UNIT 7, 6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087916967",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711259601",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -58212,9 +58557,10 @@
     "name": "6 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000002268090",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711260503",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -58230,9 +58576,10 @@
     "name": "8 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000049406096",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711260504",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -60795,9 +61142,10 @@
     "name": "UNIT 18, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711267932",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61411,9 +61759,10 @@
     "name": "UNIT 14, 12 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089214220",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269600",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61429,9 +61778,10 @@
     "name": "2A FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000101244812",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269602",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61447,9 +61797,10 @@
     "name": "10 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000078718126",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269781",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61465,9 +61816,10 @@
     "name": "19 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063166636",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269785",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61483,9 +61835,10 @@
     "name": "21 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089352813",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269786",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61501,9 +61854,10 @@
     "name": "4 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000037070438",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711269802",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63472,9 +63826,10 @@
     "name": "UNIT 1, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000155118338",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281254",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63490,9 +63845,10 @@
     "name": "UNIT 4, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281257",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63508,9 +63864,10 @@
     "name": "UNIT 6, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281259",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63526,9 +63883,10 @@
     "name": "UNIT 7, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281260",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63544,9 +63902,10 @@
     "name": "UNIT 8, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281261",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63562,9 +63921,10 @@
     "name": "UNIT 11, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000180849925",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281264",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63580,9 +63940,10 @@
     "name": "UNIT 12, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281265",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63598,9 +63959,10 @@
     "name": "UNIT 13, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000028041706",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281266",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63616,9 +63978,10 @@
     "name": "UNIT 14, 211 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000155118338",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711281267",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -64842,9 +65205,10 @@
     "name": "6 ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000087832127",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715608936",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -64860,9 +65224,10 @@
     "name": "14 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000063123069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715611642",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69283,6 +69648,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.96447774,
+     -33.91220868
+    ]
+   },
+   "properties": {
+    "name": "16 FRANK OLIVERI DRIVE CHIPPING NORTON 2170",
+    "locID": "LOC000180849925",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717428644",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.96765424,
      -33.91623173
     ]
@@ -69361,9 +69745,10 @@
     "name": "UNIT 10, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040537834",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519845",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69379,9 +69764,10 @@
     "name": "UNIT 14, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040452021",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519846",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69397,9 +69783,10 @@
     "name": "UNIT 15, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033261679",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519847",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69415,9 +69802,10 @@
     "name": "UNIT 15, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040129247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519848",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69433,9 +69821,10 @@
     "name": "UNIT 16, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040200760",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519849",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69451,9 +69840,10 @@
     "name": "UNIT 17, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039754254",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519850",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69469,9 +69859,10 @@
     "name": "UNIT 18, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033157826",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519851",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69487,9 +69878,10 @@
     "name": "UNIT 18, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040167560",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519852",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69505,9 +69897,10 @@
     "name": "UNIT 19, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040214453",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519853",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69523,9 +69916,10 @@
     "name": "UNIT 1, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028070840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519854",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69541,9 +69935,10 @@
     "name": "UNIT 1, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089205761",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519855",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69559,9 +69954,10 @@
     "name": "UNIT 20, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040240822",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519856",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69577,9 +69973,10 @@
     "name": "UNIT 21, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519857",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69595,9 +69992,10 @@
     "name": "UNIT 21, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519858",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69613,9 +70011,10 @@
     "name": "UNIT 22, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089332965",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519859",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69631,9 +70030,10 @@
     "name": "UNIT 22, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040240805",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519860",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69649,9 +70049,10 @@
     "name": "UNIT 23, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025020219",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519861",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69667,9 +70068,10 @@
     "name": "UNIT 23, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089555073",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519862",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69685,9 +70087,10 @@
     "name": "UNIT 23, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040309168",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519863",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69703,9 +70106,10 @@
     "name": "UNIT 24, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089650307",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519864",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69721,9 +70125,10 @@
     "name": "UNIT 24, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040373361",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519865",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69739,9 +70144,10 @@
     "name": "UNIT 25, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357122",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519866",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69757,9 +70163,10 @@
     "name": "UNIT 26, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519867",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69775,9 +70182,10 @@
     "name": "UNIT 27, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519868",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69793,9 +70201,10 @@
     "name": "UNIT 29, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357167",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519870",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69811,9 +70220,10 @@
     "name": "UNIT 31, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519872",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69829,9 +70239,10 @@
     "name": "UNIT 32, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357198",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519873",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69847,9 +70258,10 @@
     "name": "UNIT 33, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357200",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519874",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69865,9 +70277,10 @@
     "name": "UNIT 34, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357216",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519875",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69883,9 +70296,10 @@
     "name": "UNIT 35, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024836544",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519876",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69901,9 +70315,10 @@
     "name": "UNIT 36, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042706970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519878",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69919,9 +70334,10 @@
     "name": "UNIT 36, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519879",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69937,9 +70353,10 @@
     "name": "UNIT 37, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519880",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69955,9 +70372,10 @@
     "name": "UNIT 38, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519881",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69973,9 +70391,10 @@
     "name": "UNIT 39, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519882",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -69991,9 +70410,10 @@
     "name": "UNIT 40, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519883",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70009,9 +70429,10 @@
     "name": "UNIT 41, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519884",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70027,9 +70448,10 @@
     "name": "UNIT 42, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519885",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70045,9 +70467,10 @@
     "name": "UNIT 43, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519886",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70063,9 +70486,10 @@
     "name": "UNIT 44, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120359430",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519887",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70081,9 +70505,10 @@
     "name": "UNIT 46, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519889",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70099,9 +70524,10 @@
     "name": "UNIT 47, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519890",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70117,9 +70543,10 @@
     "name": "UNIT 4, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028118012",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519892",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70135,9 +70562,10 @@
     "name": "UNIT 9, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040567800",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519893",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70153,9 +70581,10 @@
     "name": "7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717519894",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70171,9 +70600,10 @@
     "name": "UNIT 10, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089162949",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528950",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70189,9 +70619,10 @@
     "name": "UNIT 11, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089238437",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528951",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70207,9 +70638,10 @@
     "name": "UNIT 11, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040376555",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528952",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70225,9 +70657,10 @@
     "name": "UNIT 12, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088989072",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528953",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70243,9 +70676,10 @@
     "name": "UNIT 12, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040437705",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528954",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70261,9 +70695,10 @@
     "name": "UNIT 13, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089517478",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528955",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70279,9 +70714,10 @@
     "name": "UNIT 13, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040551224",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528956",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70297,9 +70733,10 @@
     "name": "UNIT 14, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089452722",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528957",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70315,9 +70752,10 @@
     "name": "UNIT 15, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089111767",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528958",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70333,9 +70771,10 @@
     "name": "UNIT 16, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089432061",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528959",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70351,9 +70790,10 @@
     "name": "UNIT 17, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089381896",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528960",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70369,9 +70809,10 @@
     "name": "UNIT 18, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089452733",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528961",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70387,9 +70828,10 @@
     "name": "UNIT 19, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089299198",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528962",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70405,9 +70847,10 @@
     "name": "UNIT 1, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040437705",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70423,9 +70866,10 @@
     "name": "UNIT 20, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089340836",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528964",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70441,9 +70885,10 @@
     "name": "UNIT 2, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528965",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70459,9 +70904,10 @@
     "name": "UNIT 2, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528966",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70477,9 +70923,10 @@
     "name": "UNIT 3, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357198",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528967",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70495,9 +70942,10 @@
     "name": "UNIT 4, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089202078",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528968",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70513,9 +70961,10 @@
     "name": "UNIT 4, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120359430",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528969",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70531,9 +70980,10 @@
     "name": "UNIT 5, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089105670",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528970",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70549,9 +70999,10 @@
     "name": "UNIT 5, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040297831",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528971",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70567,9 +71018,10 @@
     "name": "UNIT 6, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528972",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70585,9 +71037,10 @@
     "name": "UNIT 6, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040139257",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528973",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70603,9 +71056,10 @@
     "name": "UNIT 7, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089261945",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528974",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70621,9 +71075,10 @@
     "name": "UNIT 7, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000039976351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528975",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70639,9 +71094,10 @@
     "name": "UNIT 8, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089120010",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528976",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70657,9 +71113,10 @@
     "name": "UNIT 8, 7 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000040000706",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528977",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70675,9 +71132,10 @@
     "name": "UNIT 9, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089167316",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717528978",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70693,9 +71151,10 @@
     "name": "UNIT 11, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028070840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537315",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70711,9 +71170,10 @@
     "name": "UNIT 20, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032957222",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537316",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70729,9 +71189,10 @@
     "name": "UNIT 21, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024749474",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537317",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70747,9 +71208,10 @@
     "name": "UNIT 24, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024960119",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537318",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70765,9 +71227,10 @@
     "name": "UNIT 26, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033281448",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537319",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70783,9 +71246,10 @@
     "name": "UNIT 27, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025066322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537320",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70801,9 +71265,10 @@
     "name": "UNIT 30, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024891483",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537321",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70819,9 +71284,10 @@
     "name": "UNIT 31, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024910935",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537322",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70837,9 +71303,10 @@
     "name": "UNIT 38, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042699163",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537323",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70855,9 +71322,10 @@
     "name": "UNIT 41, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000084214832",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537324",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70873,9 +71341,10 @@
     "name": "UNIT 46, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042730955",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537325",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70891,9 +71360,10 @@
     "name": "UNIT 4, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024749474",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537326",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70909,9 +71379,10 @@
     "name": "UNIT 5, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000027985778",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537327",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70927,9 +71398,10 @@
     "name": "UNIT 6, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024523114",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537328",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70945,9 +71417,10 @@
     "name": "UNIT 8, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028014031",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537329",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70963,9 +71436,10 @@
     "name": "UNIT 8, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025067512",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537330",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70981,9 +71455,10 @@
     "name": "UNIT 9, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028146699",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537331",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -70999,9 +71474,10 @@
     "name": "4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024749474",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717537332",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71017,9 +71493,10 @@
     "name": "UNIT 10, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000027885232",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544608",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71035,9 +71512,10 @@
     "name": "UNIT 10, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024694190",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544609",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71053,9 +71531,10 @@
     "name": "UNIT 10, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033030050",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544610",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71071,9 +71550,10 @@
     "name": "UNIT 11, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025048112",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544611",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71089,9 +71569,10 @@
     "name": "UNIT 11, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033129170",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544612",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71107,9 +71588,10 @@
     "name": "UNIT 12, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028094791",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544613",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71125,9 +71607,10 @@
     "name": "UNIT 12, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025013673",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544614",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71143,9 +71626,10 @@
     "name": "UNIT 12, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033251751",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544615",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71161,9 +71645,10 @@
     "name": "UNIT 13, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000027952861",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544616",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71179,9 +71664,10 @@
     "name": "UNIT 13, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024964652",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544617",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71197,9 +71683,10 @@
     "name": "UNIT 13, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033318860",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544618",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71215,9 +71702,10 @@
     "name": "UNIT 14, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028191470",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544619",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71233,9 +71721,10 @@
     "name": "UNIT 14, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024661004",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544620",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71251,9 +71740,10 @@
     "name": "UNIT 14, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032994302",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544621",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71269,9 +71759,10 @@
     "name": "UNIT 15, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000027912450",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544622",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71287,9 +71778,10 @@
     "name": "UNIT 15, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025039187",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544623",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71305,9 +71797,10 @@
     "name": "UNIT 16, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028360883",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544624",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71323,9 +71816,10 @@
     "name": "UNIT 16, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024782376",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544625",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71341,9 +71835,10 @@
     "name": "UNIT 16, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033200106",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544626",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71359,9 +71854,10 @@
     "name": "UNIT 17, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028145900",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544627",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71377,9 +71873,10 @@
     "name": "UNIT 17, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025063433",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544628",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71395,9 +71892,10 @@
     "name": "UNIT 17, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033242051",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544629",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71413,9 +71911,10 @@
     "name": "UNIT 18, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028092902",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544630",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71431,9 +71930,10 @@
     "name": "UNIT 18, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024628918",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544631",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71449,9 +71949,10 @@
     "name": "UNIT 19, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028091846",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544632",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71467,9 +71968,10 @@
     "name": "UNIT 19, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025112699",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544633",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71485,9 +71987,10 @@
     "name": "UNIT 19, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032992340",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544634",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71503,9 +72006,10 @@
     "name": "UNIT 1, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024661004",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544635",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71521,9 +72025,10 @@
     "name": "UNIT 1, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033318860",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544636",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71539,9 +72044,10 @@
     "name": "UNIT 20, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028082694",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544637",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71557,9 +72063,10 @@
     "name": "UNIT 20, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024773511",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544638",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71575,9 +72082,10 @@
     "name": "UNIT 21, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028039247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544639",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71593,9 +72101,10 @@
     "name": "UNIT 21, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033115515",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544640",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71611,9 +72120,10 @@
     "name": "UNIT 22, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028260879",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544641",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71629,9 +72139,10 @@
     "name": "UNIT 22, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024597882",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544642",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71647,9 +72158,10 @@
     "name": "UNIT 22, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033268618",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544643",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71665,9 +72177,10 @@
     "name": "UNIT 23, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028098509",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544644",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71683,9 +72196,10 @@
     "name": "UNIT 23, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032953299",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544645",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71701,9 +72215,10 @@
     "name": "UNIT 24, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028045654",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544646",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71719,9 +72234,10 @@
     "name": "UNIT 24, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033101380",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544647",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71737,9 +72253,10 @@
     "name": "UNIT 25, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042819463",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544648",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71755,9 +72272,10 @@
     "name": "UNIT 25, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024601594",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544649",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71773,9 +72291,10 @@
     "name": "UNIT 25, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033100101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544650",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71791,9 +72310,10 @@
     "name": "UNIT 26, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042658256",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544652",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71809,9 +72329,10 @@
     "name": "UNIT 26, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024628669",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544653",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71827,9 +72348,10 @@
     "name": "UNIT 27, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042694181",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544655",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71845,9 +72367,10 @@
     "name": "UNIT 27, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033179983",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544656",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71863,9 +72386,10 @@
     "name": "UNIT 28, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042578569",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544658",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71881,9 +72405,10 @@
     "name": "UNIT 28, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025065573",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544659",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71899,9 +72424,10 @@
     "name": "UNIT 29, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042836392",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544661",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71917,9 +72443,10 @@
     "name": "UNIT 29, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025004720",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544662",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71935,9 +72462,10 @@
     "name": "UNIT 2, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028039247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544664",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71953,9 +72481,10 @@
     "name": "UNIT 2, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024749474",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544665",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71971,9 +72500,10 @@
     "name": "UNIT 2, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033115515",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544666",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71989,9 +72519,10 @@
     "name": "UNIT 30, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042604282",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544667",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72007,9 +72538,10 @@
     "name": "UNIT 31, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042497735",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544669",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72025,9 +72557,10 @@
     "name": "UNIT 32, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042897193",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544671",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72043,9 +72576,10 @@
     "name": "UNIT 32, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024878964",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544672",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72061,9 +72595,10 @@
     "name": "UNIT 33, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042735731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544674",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72079,9 +72614,10 @@
     "name": "UNIT 33, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025037440",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544675",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72097,9 +72633,10 @@
     "name": "UNIT 34, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042920770",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544677",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72115,9 +72652,10 @@
     "name": "UNIT 34, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025053071",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544678",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72133,9 +72671,10 @@
     "name": "UNIT 35, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042960303",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544680",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72151,9 +72690,10 @@
     "name": "UNIT 36, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042706970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544682",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72169,9 +72709,10 @@
     "name": "UNIT 36, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025043249",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544683",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72187,9 +72728,10 @@
     "name": "UNIT 37, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042891866",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544685",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72205,9 +72747,10 @@
     "name": "UNIT 38, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042699163",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544687",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72223,9 +72766,10 @@
     "name": "UNIT 39, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042544162",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544689",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72241,9 +72785,10 @@
     "name": "UNIT 3, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000027857366",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544691",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72259,9 +72804,10 @@
     "name": "UNIT 3, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025019129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544692",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72277,9 +72823,10 @@
     "name": "UNIT 3, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033113495",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544693",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72295,9 +72842,10 @@
     "name": "UNIT 3, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000089439024",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544694",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72313,9 +72861,10 @@
     "name": "UNIT 40, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000043228016",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544695",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72331,9 +72880,10 @@
     "name": "UNIT 41, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042593704",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544697",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72349,9 +72899,10 @@
     "name": "UNIT 42, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042791178",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544699",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72367,9 +72918,10 @@
     "name": "UNIT 43, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042524856",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544701",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72385,9 +72937,10 @@
     "name": "UNIT 44, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042917592",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544703",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72403,9 +72956,10 @@
     "name": "UNIT 45, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042837811",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544705",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72421,9 +72975,10 @@
     "name": "UNIT 46, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042730955",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544707",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72439,9 +72994,10 @@
     "name": "UNIT 47, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042464453",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544709",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72457,9 +73013,10 @@
     "name": "UNIT 48, 3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000043236937",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544711",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72475,9 +73032,10 @@
     "name": "UNIT 4, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033101881",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544713",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72493,9 +73051,10 @@
     "name": "UNIT 5, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024685840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544714",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72511,9 +73070,10 @@
     "name": "UNIT 5, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033115515",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544715",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72529,9 +73089,10 @@
     "name": "UNIT 6, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028300753",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544716",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72547,9 +73108,10 @@
     "name": "UNIT 6, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032944258",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544717",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72565,9 +73127,10 @@
     "name": "UNIT 7, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028025345",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544718",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72583,9 +73146,10 @@
     "name": "UNIT 7, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000025125158",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544719",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72601,9 +73165,10 @@
     "name": "UNIT 7, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000032934937",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544720",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72619,9 +73184,10 @@
     "name": "UNIT 8, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033296874",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544721",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72637,9 +73203,10 @@
     "name": "UNIT 9, 4 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024665595",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544722",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72655,9 +73222,10 @@
     "name": "UNIT 9, 5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033183164",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544723",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72673,9 +73241,10 @@
     "name": "10 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000155118454",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544724",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72691,9 +73260,10 @@
     "name": "11 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000074457429",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544725",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72709,9 +73279,10 @@
     "name": "12 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000096662092",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544726",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72727,9 +73298,10 @@
     "name": "13 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033262999",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544727",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72745,9 +73317,10 @@
     "name": "14 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000078393498",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544728",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72763,9 +73336,10 @@
     "name": "15 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000067483415",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544729",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72781,9 +73355,10 @@
     "name": "9 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024665595",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717544730",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72799,9 +73374,10 @@
     "name": "UNIT 25, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72817,9 +73393,10 @@
     "name": "UNIT 26, 6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558837",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72835,9 +73412,10 @@
     "name": "2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000028039247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558838",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72853,9 +73431,10 @@
     "name": "3 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042960303",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558839",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72871,9 +73450,10 @@
     "name": "5 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000033115515",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558840",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72889,9 +73469,10 @@
     "name": "6 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000088893703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558841",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -72907,9 +73488,10 @@
     "name": "8 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000084492056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717558842",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -73694,6 +74276,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.96463878,
+     -33.91212103
+    ]
+   },
+   "properties": {
+    "name": "2 MEAD PLACE CHIPPING NORTON 2170",
+    "locID": "LOC000075944409",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717747272",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.96458671,
      -33.91176758
     ]
@@ -73702,9 +74303,10 @@
     "name": "6 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000076612616",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717747273",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74639,9 +75241,10 @@
     "name": "UNIT 25, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024601594",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777818",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74657,9 +75260,10 @@
     "name": "UNIT 26, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042658256",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777819",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74675,9 +75279,10 @@
     "name": "UNIT 27, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042694181",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777820",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74693,9 +75298,10 @@
     "name": "UNIT 28, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042578569",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74711,9 +75317,10 @@
     "name": "UNIT 29, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042836392",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777822",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74729,9 +75336,10 @@
     "name": "UNIT 30, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000024891483",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777823",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74747,9 +75355,10 @@
     "name": "UNIT 31, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000084307026",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777824",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74765,9 +75374,10 @@
     "name": "UNIT 32, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042897193",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777825",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74783,9 +75393,10 @@
     "name": "UNIT 33, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357200",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777826",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74801,9 +75412,10 @@
     "name": "UNIT 34, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000120357216",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777827",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74819,9 +75431,10 @@
     "name": "UNIT 35, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042960303",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777828",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74837,9 +75450,10 @@
     "name": "UNIT 40, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000043228016",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777829",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74855,9 +75469,10 @@
     "name": "UNIT 42, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042791178",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777830",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74873,9 +75488,10 @@
     "name": "UNIT 43, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000084354089",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777831",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74891,9 +75507,10 @@
     "name": "UNIT 44, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042917592",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777832",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74909,9 +75526,10 @@
     "name": "UNIT 45, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000042837811",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777833",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74927,9 +75545,10 @@
     "name": "UNIT 47, 2 MEAD DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000084226077",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777834",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74963,9 +75582,10 @@
     "name": "UNIT 1, 3 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944394",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -74981,9 +75601,10 @@
     "name": "UNIT 2, 3 MEAD PLACE CHIPPING NORTON 2170",
     "locID": "LOC000075944394",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717777837",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -82573,9 +83194,10 @@
     "name": "27C ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086867653",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721175724",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -82625,9 +83247,10 @@
     "name": "25A ERNEST AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000086824527",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721176548",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
