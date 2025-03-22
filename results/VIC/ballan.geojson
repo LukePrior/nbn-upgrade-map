@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-24T15:29:29.454580",
+ "generated": "2025-03-22T07:27:13.689555",
  "suburb": "BALLAN",
  "features": [
   {
@@ -849,7 +849,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410805259",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2202,7 +2202,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419662235",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4287,10 +4289,9 @@
    "properties": {
     "name": "21 EDOLS STREET BALLAN 3342",
     "locID": "LOC000101267593",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419989024",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7112,7 +7113,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420584076",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7741,9 +7744,9 @@
     "name": "16 OLD GEELONG ROAD BALLAN 3342",
     "locID": "LOC000068146863",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420604573",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -8387,10 +8390,10 @@
    "properties": {
     "name": "8 MUSGRAVE STREET BALLAN 3342",
     "locID": "LOC000101481194",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420868822",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14202,10 +14205,10 @@
    "properties": {
     "name": "17 EDOLS STREET BALLAN 3342",
     "locID": "LOC000047626520",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421818396",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14458,7 +14461,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421936550",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15180,9 +15185,9 @@
     "name": "55 EDOLS STREET BALLAN 3342",
     "locID": "LOC000062589940",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423102951",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23918,11 +23923,9 @@
     "name": "53 HADDON DRIVE BALLAN 3342",
     "locID": "LOC000124451880",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424493629",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -26414,10 +26417,10 @@
    "properties": {
     "name": "11C STEIGLITZ STREET BALLAN 3342",
     "locID": "LOC000124434598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424918385",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31323,6 +31326,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.21698807,
+     -37.58119475
+    ]
+   },
+   "properties": {
+    "name": "86 VON STEIGLITZ DRIVE BALLAN 3342",
+    "locID": "LOC000160666661",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719553388",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Jun 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.22385638,
      -37.64220636
     ]
@@ -33461,9 +33484,9 @@
     "name": "6 OLD GEELONG ROAD BALLAN 3342",
     "locID": "LOC000080002339",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720523014",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -33516,9 +33539,9 @@
     "name": "2 OLD GEELONG ROAD BALLAN 3342",
     "locID": "LOC000080002339",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720527308",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -34516,10 +34539,9 @@
    "properties": {
     "name": "UNIT 1, 49 ATKINSON STREET BALLAN 3342",
     "locID": "LOC000189404270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720834973",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
