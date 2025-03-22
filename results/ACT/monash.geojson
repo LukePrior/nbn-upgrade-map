@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-24T12:46:32.627569",
+ "generated": "2025-03-22T04:43:14.592641",
  "suburb": "MONASH",
  "features": [
   {
@@ -1118,10 +1118,10 @@
    "properties": {
     "name": "79 CLIVE STEELE AVENUE MONASH 2904",
     "locID": "LOC000113665746",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714925447",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10316,10 +10316,9 @@
    "properties": {
     "name": "1 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000111499705",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714931174",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16349,10 +16348,9 @@
    "properties": {
     "name": "25 ASHCROFT CRESCENT MONASH 2904",
     "locID": "LOC000112542098",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714933774",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18475,10 +18473,9 @@
    "properties": {
     "name": "26 ASHCROFT CRESCENT MONASH 2904",
     "locID": "LOC000110845110",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714934679",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30409,10 +30406,11 @@
     "name": "UNIT 7, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000111437189",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715045787",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31030,10 +31028,11 @@
     "name": "UNIT 9, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000111380647",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715047439",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31332,10 +31331,11 @@
     "name": "UNIT 11, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000110515616",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715048707",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31499,10 +31499,11 @@
     "name": "UNIT 6, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000111759539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715048808",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31825,10 +31826,9 @@
    "properties": {
     "name": "UNIT 36, 67 BARRACLOUGH CRESCENT MONASH 2904",
     "locID": "LOC000110616106",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAACT715048850",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT715048850"
    }
   },
   {
@@ -32236,7 +32236,7 @@
    "properties": {
     "name": "UNIT 12, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112466126",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715049575",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -32987,6 +32987,23 @@
     "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715051300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.09730896,
+     -35.41785061
+    ]
+   },
+   "properties": {
+    "name": "UNIT 26, 27 COCKCROFT AVENUE MONASH 2904",
+    "locID": "LOC000177152066",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT715051301"
    }
   },
   {
@@ -35147,10 +35164,11 @@
     "name": "UNIT 15, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112261451",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715057147",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35241,10 +35259,11 @@
     "name": "UNIT 10, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000110975492",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715057451",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35533,10 +35552,11 @@
     "name": "UNIT 13, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000110844048",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715058306",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35665,7 +35685,7 @@
    "properties": {
     "name": "UNIT 3, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112333931",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715058323",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -36095,10 +36115,11 @@
     "name": "UNIT 5, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000110268989",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715060030",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36489,10 +36510,11 @@
     "name": "UNIT 17, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112063732",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715061540",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36508,10 +36530,11 @@
     "name": "UNIT 1, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112411779",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715061554",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36546,10 +36569,11 @@
     "name": "UNIT 14, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112303483",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715061559",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37275,10 +37299,11 @@
     "name": "UNIT 16, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112029897",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715062408",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37516,10 +37541,11 @@
     "name": "UNIT 2, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112035558",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715063117",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37610,11 +37636,12 @@
    "properties": {
     "name": "UNIT 8, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000110772894",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715063126",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37630,10 +37657,11 @@
     "name": "UNIT 4, 26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112122940",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715063128",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38900,7 +38928,7 @@
    "properties": {
     "name": "26 WILLIAM HUDSON CRESCENT MONASH 2904",
     "locID": "LOC000112333931",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717232750",
     "tech_change_status": "MDU Complex Eligible To Apply",
