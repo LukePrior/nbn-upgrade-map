@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-02-24T17:04:23.915494",
+ "generated": "2025-03-22T08:52:28.019519",
  "suburb": "SUNSHINE",
  "features": [
   {
@@ -49,7 +49,7 @@
    "properties": {
     "name": "UNIT 1, 8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832261",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412388693"
    }
@@ -1142,7 +1142,7 @@
    "properties": {
     "name": "UNIT 3, 8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832288",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412425187"
    }
@@ -3632,7 +3632,7 @@
    "properties": {
     "name": "UNIT 5, 8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832274",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412438307"
    }
@@ -3955,7 +3955,7 @@
    "properties": {
     "name": "UNIT 2, 8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832274",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412445362"
    }
@@ -4057,7 +4057,7 @@
    "properties": {
     "name": "UNIT 4, 8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832290",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412448950"
    }
@@ -12230,7 +12230,7 @@
    "properties": {
     "name": "20 ALEXANDRA AVENUE SUNSHINE 3020",
     "locID": "LOC000193255683",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419602186"
    }
@@ -14657,10 +14657,9 @@
    "properties": {
     "name": "UNIT 1, 18 COUCH STREET SUNSHINE 3020",
     "locID": "LOC000040276354",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419626828",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419626828"
    }
   },
   {
@@ -27879,8 +27878,9 @@
     "name": "9 CENTRAL AVENUE SUNSHINE 3020",
     "locID": "LOC000092728179",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420217579"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420217579",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -32454,10 +32454,9 @@
    "properties": {
     "name": "14 COUCH STREET SUNSHINE 3020",
     "locID": "LOC000056354582",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420502849",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420502849"
    }
   },
   {
@@ -33846,8 +33845,8 @@
    "properties": {
     "name": "275 HAMPSHIRE ROAD SUNSHINE 3020",
     "locID": "LOC000022044753",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420512117",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44720,9 +44719,10 @@
     "name": "103-105 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000093447592",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420934468",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -45737,10 +45737,9 @@
    "properties": {
     "name": "253 HAMPSHIRE ROAD SUNSHINE 3020",
     "locID": "LOC000097289623",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421094346",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58643,7 +58642,7 @@
    "properties": {
     "name": "8 KEVIN STREET SUNSHINE 3020",
     "locID": "LOC000192832274",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421433858"
    }
@@ -68383,10 +68382,9 @@
    "properties": {
     "name": "18 COUCH STREET SUNSHINE 3020",
     "locID": "LOC000040276354",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422085958",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422085958"
    }
   },
   {
@@ -69496,9 +69494,10 @@
     "name": "80B HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000086961291",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422154024",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -69854,7 +69853,7 @@
    "properties": {
     "name": "21 ALEXANDRA AVENUE SUNSHINE 3020",
     "locID": "LOC000193255696",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422273752"
    }
@@ -72595,10 +72594,9 @@
    "properties": {
     "name": "UNIT 2, 497A BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000038238702",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423621272",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74143,7 +74141,7 @@
    "properties": {
     "name": "6-20 ALEXANDRA AVENUE SUNSHINE 3020",
     "locID": "LOC000193255547",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423760992"
    }
@@ -77004,9 +77002,10 @@
     "name": "UNIT 1, 131 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111615967",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494023",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77022,9 +77021,10 @@
     "name": "UNIT 3, 131 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111615967",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494024",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77040,9 +77040,10 @@
     "name": "UNIT 4, 131 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112497975",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494025",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77058,9 +77059,10 @@
     "name": "133 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112207972",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494028",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77076,9 +77078,10 @@
     "name": "137 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000110945935",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494029",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77094,9 +77097,10 @@
     "name": "141 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111020934",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494030",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77112,9 +77116,10 @@
     "name": "143 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000123094738",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494031",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77130,9 +77135,10 @@
     "name": "147 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112500175",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494032",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -77148,9 +77154,10 @@
     "name": "151 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111397674",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494033",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77166,9 +77173,10 @@
     "name": "153 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112135979",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494034",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77184,9 +77192,10 @@
     "name": "155 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111777412",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494035",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77202,9 +77211,10 @@
     "name": "159 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000113907108",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494036",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77220,9 +77230,10 @@
     "name": "163 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112518742",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424494037",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -77309,9 +77320,10 @@
     "name": "131 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112497975",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424516566",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -78269,9 +78281,10 @@
     "name": "SHOP 2, 131 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000112497975",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424728182",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -93678,6 +93691,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720948338"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.84421103,
+     -37.78933655
+    ]
+   },
+   "properties": {
+    "name": "5 COBREY STREET SUNSHINE 3020",
+    "locID": "LOC000191396464",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720948418"
    }
   },
   {
