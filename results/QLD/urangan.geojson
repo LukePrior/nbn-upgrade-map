@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-04T14:51:02.598294",
+ "generated": "2025-03-24T21:21:56.549694",
  "suburb": "URANGAN",
  "features": [
   {
@@ -2375,11 +2375,12 @@
    "properties": {
     "name": "2 PIER STREET URANGAN 4655",
     "locID": "LOC000045293347",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155914954",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4006,10 +4007,10 @@
    "properties": {
     "name": "1 ALMA COURT URANGAN 4655",
     "locID": "LOC000061166451",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155915940",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -11164,9 +11165,9 @@
     "name": "87 HAMMOND STREET URANGAN 4655",
     "locID": "LOC000024993328",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155925822",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12133,6 +12134,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155926803",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.89296087,
+     -25.30513897
+    ]
+   },
+   "properties": {
+    "name": "57 LADBROKE CRESCENT URANGAN 4655",
+    "locID": "LOC000064436344",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD155926804",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -13871,8 +13892,8 @@
    "properties": {
     "name": "9 RICHARD STREET URANGAN 4655",
     "locID": "LOC000033119874",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155928599",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16261,9 +16282,9 @@
     "name": "63 CUNNINGHAM STREET URANGAN 4655",
     "locID": "LOC000094917402",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155931112",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17796,10 +17817,9 @@
    "properties": {
     "name": "40 MERLIN DRIVE URANGAN 4655",
     "locID": "LOC000105194018",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155931477",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155931477"
    }
   },
   {
@@ -18068,24 +18088,6 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155932146",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.89274352,
-     -25.29465625
-    ]
-   },
-   "properties": {
-    "name": "131 ELIZABETH STREET URANGAN 4655",
-    "locID": "LOC000078349759",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155932147",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -23025,8 +23027,8 @@
    "properties": {
     "name": "10 DAYMAN STREET URANGAN 4655",
     "locID": "LOC000103102961",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155937783",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32132,6 +32134,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.89054198,
+     -25.29541302
+    ]
+   },
+   "properties": {
+    "name": "28 VANDA STREET URANGAN 4655",
+    "locID": "LOC000039295250",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD157210366",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.88787881,
      -25.29565864
     ]
@@ -38233,6 +38253,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157224113",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.89616761,
+     -25.29780014
+    ]
+   },
+   "properties": {
+    "name": "43 TRISTANIA CRESCENT URANGAN 4655",
+    "locID": "LOC000095810647",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD157224115",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -46999,9 +47039,9 @@
     "name": "47 AIMEE DRIVE URANGAN 4655",
     "locID": "LOC000097525723",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157255544",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47990,9 +48030,9 @@
     "name": "51 HIBISCUS STREET URANGAN 4655",
     "locID": "LOC000019973734",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157255733",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48497,10 +48537,9 @@
    "properties": {
     "name": "14 DAYMAN STREET URANGAN 4655",
     "locID": "LOC000050376697",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157255801",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50029,10 +50068,9 @@
    "properties": {
     "name": "196 TRURO STREET URANGAN 4655",
     "locID": "LOC000030756067",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157258799",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53897,10 +53935,9 @@
    "properties": {
     "name": "15 CASSANDRA CRESCENT URANGAN 4655",
     "locID": "LOC000053173360",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157263050",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54490,10 +54527,9 @@
    "properties": {
     "name": "22 WILLIAM STREET URANGAN 4655",
     "locID": "LOC000016582399",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157290683",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56241,11 +56277,12 @@
    "properties": {
     "name": "UNIT 3, 2 PIER STREET URANGAN 4655",
     "locID": "LOC000045075445",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158797555",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58116,7 +58153,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158812924",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59322,11 +59359,12 @@
    "properties": {
     "name": "3 PIER STREET URANGAN 4655",
     "locID": "LOC000006681269",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158822350",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62671,11 +62709,12 @@
    "properties": {
     "name": "SHOP 1, 2 PIER STREET URANGAN 4655",
     "locID": "LOC000045293347",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160285918",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62690,11 +62729,12 @@
    "properties": {
     "name": "SHOP 2, 2 PIER STREET URANGAN 4655",
     "locID": "LOC000045293347",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160285919",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63175,10 +63215,9 @@
    "properties": {
     "name": "11 SONDER STREET URANGAN 4655",
     "locID": "LOC000002498498",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160708146",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66528,8 +66567,8 @@
    "properties": {
     "name": "3 TRILL COURT URANGAN 4655",
     "locID": "LOC000062114458",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161719154",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -67037,10 +67076,9 @@
    "properties": {
     "name": "2 WHIPBIRD COURT URANGAN 4655",
     "locID": "LOC000006657387",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161721556",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74890,10 +74928,9 @@
    "properties": {
     "name": "UNIT 35, 230 PULGUL STREET URANGAN 4655",
     "locID": "LOC000013362770",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162377688",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162377688"
    }
   },
   {
@@ -75838,10 +75875,9 @@
    "properties": {
     "name": "UNIT 84, 230 PULGUL STREET URANGAN 4655",
     "locID": "LOC000013362770",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162377742",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162377742"
    }
   },
   {
@@ -76124,10 +76160,9 @@
    "properties": {
     "name": "UNIT 9, 230 PULGUL STREET URANGAN 4655",
     "locID": "LOC000013572844",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162377758",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162377758"
    }
   },
   {
@@ -79451,7 +79486,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162635259",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82203,10 +82238,9 @@
    "properties": {
     "name": "UNIT 155, 230 PULGUL STREET URANGAN 4655",
     "locID": "LOC000013616716",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162677923",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162677923"
    }
   },
   {
@@ -82311,10 +82345,9 @@
    "properties": {
     "name": "UNIT 160, 230 PULGUL STREET URANGAN 4655",
     "locID": "LOC000013528374",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162677929",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162677929"
    }
   },
   {
@@ -87793,10 +87826,9 @@
    "properties": {
     "name": "UNIT 209, 34-56 ELIZABETH STREET URANGAN 4655",
     "locID": "LOC000157203562",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD163162787",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163162787"
    }
   },
   {
@@ -93211,7 +93243,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424866267",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95362,10 +95394,9 @@
    "properties": {
     "name": "UNIT 37, 34-56 ELIZABETH STREET URANGAN 4655",
     "locID": "LOC000129022475",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425037140",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425037140"
    }
   },
   {
@@ -95738,10 +95769,9 @@
    "properties": {
     "name": "UNIT 57, 34-56 ELIZABETH STREET URANGAN 4655",
     "locID": "LOC000129011532",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425037161",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425037161"
    }
   },
   {
@@ -106029,6 +106059,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.88945663,
+     -25.28136104
+    ]
+   },
+   "properties": {
+    "name": "510 ESPLANADE URANGAN 4655",
+    "locID": "LOC000157212979",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719541803",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.90656029,
      -25.29379771
     ]
@@ -106092,10 +106141,9 @@
    "properties": {
     "name": "667 ESPLANADE URANGAN 4655",
     "locID": "LOC000186384201",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719541807",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -107568,7 +107616,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719542989",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -108769,10 +108817,10 @@
     "name": "UNIT 1, 583 ESPLANADE URANGAN 4655",
     "locID": "LOC000116081488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD719544171",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -111264,12 +111312,12 @@
    "properties": {
     "name": "UNIT 5, 652 ESPLANADE URANGAN 4655",
     "locID": "LOC000161274221",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719547460",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -113328,7 +113376,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719555687",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -113516,10 +113564,10 @@
     "name": "UNIT 4, 583 ESPLANADE URANGAN 4655",
     "locID": "LOC000116081488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD719556309",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -114248,7 +114296,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719561518",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -118117,10 +118165,9 @@
    "properties": {
     "name": "72 BRADMAN WAY URANGAN 4655",
     "locID": "LOC100075590291",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720180648",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -121377,10 +121424,10 @@
     "name": "UNIT 5, 583 ESPLANADE URANGAN 4655",
     "locID": "LOC000116081488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD720663408",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -126407,6 +126454,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721338805"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.89207187,
+     -25.31505767
+    ]
+   },
+   "properties": {
+    "name": "5 BOORAL ROAD URANGAN 4655",
+    "locID": "LOC000049128279",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721338815",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
