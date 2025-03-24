@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-04T01:13:27.047773",
+ "generated": "2025-03-24T12:02:42.938150",
  "suburb": "MAROOCHYDORE",
  "features": [
   {
@@ -568,9 +568,10 @@
     "name": "87 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000039812048",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155517873",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -604,9 +605,10 @@
     "name": "93 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000064981382",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155517876",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -1231,10 +1233,9 @@
    "properties": {
     "name": "21 DALBY STREET MAROOCHYDORE 4558",
     "locID": "LOC000037584674",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155518700",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4953,10 +4954,9 @@
    "properties": {
     "name": "19 TEPEQUAR DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000049609835",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155525859",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10778,6 +10778,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.09196368,
+     -26.65103399
+    ]
+   },
+   "properties": {
+    "name": "52 DUPORTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000019279045",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155530671",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07791419,
      -26.65585846
     ]
@@ -11811,10 +11830,9 @@
    "properties": {
     "name": "137 BROADWATER AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000073295283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155531639",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12829,9 +12847,10 @@
     "name": "70 CENTENARY CRESCENT MAROOCHYDORE 4558",
     "locID": "LOC000027519122",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155532895",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -14845,10 +14864,9 @@
    "properties": {
     "name": "18 EMPEROR AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000025632532",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155534221",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17112,7 +17130,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155536361",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19194,7 +19214,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155537279",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25011,10 +25031,10 @@
    "properties": {
     "name": "100 WRIGLEY STREET MAROOCHYDORE 4558",
     "locID": "LOC000067149038",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155541992",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25032,9 +25052,10 @@
     "name": "101 WRIGLEY STREET MAROOCHYDORE 4558",
     "locID": "LOC000011567259",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155541993",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -25170,7 +25191,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155542001",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26392,7 +26413,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155542911",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27341,10 +27364,9 @@
    "properties": {
     "name": "12 VALENCIA STREET MAROOCHYDORE 4558",
     "locID": "LOC000059770052",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155543102",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28652,9 +28674,10 @@
     "name": "100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399140",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544125",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -28670,9 +28693,10 @@
     "name": "104 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000108444292",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544126",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28688,9 +28712,10 @@
     "name": "52-54 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000177917714",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544131",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28745,9 +28770,10 @@
     "name": "63 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000103138426",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544138",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28763,9 +28789,10 @@
     "name": "64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096527331",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544139",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -28781,9 +28808,10 @@
     "name": "65 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096425928",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544140",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28799,9 +28827,10 @@
     "name": "66 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000038434328",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544141",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28817,9 +28846,10 @@
     "name": "69 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000019274908",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544142",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28835,9 +28865,10 @@
     "name": "71 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000105437245",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544143",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28853,9 +28884,10 @@
     "name": "73 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000105708952",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544145",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28871,9 +28903,10 @@
     "name": "74 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000063064295",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544146",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -28889,9 +28922,10 @@
     "name": "77 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000047949287",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155544147",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -31972,7 +32006,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155546722",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32149,9 +32183,9 @@
     "name": "8 MINTI STREET MAROOCHYDORE 4558",
     "locID": "LOC000015689467",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156031277",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32305,10 +32339,9 @@
    "properties": {
     "name": "86 MAUD STREET MAROOCHYDORE 4558",
     "locID": "LOC000003461402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156046932",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32326,9 +32359,10 @@
     "name": "75 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000060410409",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156046941",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32501,9 +32535,10 @@
     "name": "67 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000031543466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156085397",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32519,9 +32554,10 @@
     "name": "85 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000100599221",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156085398",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32853,9 +32889,10 @@
     "name": "102 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000070104779",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156183579",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32889,9 +32926,10 @@
     "name": "72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000128556403",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185402",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32907,9 +32945,10 @@
     "name": "78-80 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389423",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185406",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32925,9 +32964,10 @@
     "name": "79 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000064244789",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185424",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32943,9 +32983,10 @@
     "name": "91 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000128560561",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185429",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32961,9 +33002,10 @@
     "name": "95 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000005677121",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185431",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32979,9 +33021,10 @@
     "name": "96-98 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000024881529",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185432",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -32997,9 +33040,10 @@
     "name": "97 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000020715442",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185433",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -33015,9 +33059,10 @@
     "name": "99 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000049655227",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156185434",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -35967,10 +36012,10 @@
    "properties": {
     "name": "10 PLYMOUTH QUAY MAROOCHYDORE 4558",
     "locID": "LOC000037986244",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156764963",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50385,7 +50430,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156779272",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53784,10 +53829,9 @@
    "properties": {
     "name": "35 OOGAR STREET MAROOCHYDORE 4558",
     "locID": "LOC000020141528",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156786035",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56737,10 +56781,9 @@
    "properties": {
     "name": "45 DALBY STREET MAROOCHYDORE 4558",
     "locID": "LOC000097302102",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156793035",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64273,10 +64316,9 @@
    "properties": {
     "name": "12 CENTENARY CRESCENT MAROOCHYDORE 4558",
     "locID": "LOC000059965703",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156800020",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78912,7 +78954,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156827751",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81984,10 +82026,9 @@
    "properties": {
     "name": "88 MAROOCHY WATERS DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000031639439",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156831443",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90406,9 +90447,9 @@
     "name": "3 TAU COURT MAROOCHYDORE 4558",
     "locID": "LOC000091141017",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156848988",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90565,10 +90606,9 @@
    "properties": {
     "name": "101 TEPEQUAR DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000102892180",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156848997",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92896,10 +92936,9 @@
    "properties": {
     "name": "22 HILLTOP CRESCENT MAROOCHYDORE 4558",
     "locID": "LOC000048331172",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156852695",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114163,7 +114202,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158244074",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -122212,9 +122253,10 @@
     "name": "89 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000024999009",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158254007",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -129275,9 +129317,10 @@
     "name": "103 WRIGLEY STREET MAROOCHYDORE 4558",
     "locID": "LOC000042109816",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158269773",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -135556,9 +135599,10 @@
     "name": "SHOP 1, 104 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000109946053",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160101531",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -139817,9 +139861,10 @@
     "name": "SHOP 1, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160110820",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -139835,9 +139880,10 @@
     "name": "SHOP 2, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160110821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -149968,9 +150014,10 @@
     "name": "SHOP 1, 54 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000177917714",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160127959",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -150022,9 +150069,10 @@
     "name": "SHOP 3, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160127996",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150040,9 +150088,10 @@
     "name": "SHOP 4, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160127997",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150058,9 +150107,10 @@
     "name": "SHOP 5, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160127998",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150463,9 +150513,10 @@
     "name": "SHOP 6, 48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160130963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150481,9 +150532,10 @@
     "name": "SHOP 2, 54 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000177917714",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160130964",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -151164,9 +151216,10 @@
     "name": "48-50 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160132623",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -157704,9 +157757,10 @@
     "name": "81 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000036377191",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160753176",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -157722,9 +157776,10 @@
     "name": "83 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000059900100",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160753177",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -161663,9 +161718,10 @@
     "name": "UNIT 27, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389475",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161024492",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168788,9 +168844,10 @@
     "name": "UNIT 29, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383571",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320187",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168842,9 +168899,10 @@
     "name": "UNIT 33, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383299",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320190",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168860,9 +168918,10 @@
     "name": "UNIT 34, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389452",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320191",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168896,9 +168955,10 @@
     "name": "UNIT 36, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389468",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320193",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168968,9 +169028,10 @@
     "name": "UNIT 3, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389452",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320197",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -168986,9 +169047,10 @@
     "name": "UNIT 4, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383879",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320198",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -169004,9 +169066,10 @@
     "name": "UNIT 5, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383851",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320199",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -169022,9 +169085,10 @@
     "name": "UNIT 6, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383833",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320200",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -169040,9 +169104,10 @@
     "name": "UNIT 7, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383776",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320201",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -169058,9 +169123,10 @@
     "name": "UNIT 9, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383707",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320202",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -169113,9 +169179,10 @@
     "name": "82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161320206",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -175990,9 +176057,10 @@
     "name": "SHOP 1, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058550804",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176008,9 +176076,10 @@
     "name": "UNIT 1, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000095036485",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716837",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176026,9 +176095,10 @@
     "name": "SHOP 2, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058397940",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716838",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176044,9 +176114,10 @@
     "name": "UNIT 2, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096547790",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716839",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176062,9 +176133,10 @@
     "name": "SHOP 3, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058700572",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716840",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176080,9 +176152,10 @@
     "name": "UNIT 3, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096865848",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716841",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176098,9 +176171,10 @@
     "name": "SHOP 4, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058397940",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716842",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176116,9 +176190,10 @@
     "name": "UNIT 4, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096768717",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716843",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176134,9 +176209,10 @@
     "name": "SHOP 5, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058372703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716844",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176152,9 +176228,10 @@
     "name": "UNIT 5, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000094867011",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716845",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176170,9 +176247,10 @@
     "name": "UNIT 6, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096733622",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716846",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176188,9 +176266,10 @@
     "name": "UNIT 7, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096639574",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716847",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176206,9 +176285,10 @@
     "name": "UNIT 8, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000094928092",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161716848",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -177226,9 +177306,10 @@
     "name": "48 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161798676",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182447,9 +182528,10 @@
     "name": "UNIT 10, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096855736",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197991",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182465,9 +182547,10 @@
     "name": "UNIT 11, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000094929943",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197992",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182483,9 +182566,10 @@
     "name": "UNIT 12, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096994478",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197993",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182501,9 +182585,10 @@
     "name": "UNIT 13, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096820718",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197994",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182519,9 +182604,10 @@
     "name": "UNIT 14, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096914744",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197995",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182537,9 +182623,10 @@
     "name": "UNIT 15, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000095142086",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197996",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -182555,9 +182642,10 @@
     "name": "UNIT 9, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000095160951",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162197997",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -197541,6 +197629,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.09196368,
+     -26.65103399
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 52 DUPORTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000019279045",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162741719",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.08872882,
      -26.64878467
     ]
@@ -198259,9 +198366,10 @@
     "name": "SHOP 7, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058624441",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162751197",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -198277,9 +198385,10 @@
     "name": "SHOP 8, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058619245",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162751198",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -208195,9 +208304,10 @@
     "name": "SHOP 10, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058397940",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162977665",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -208213,9 +208323,10 @@
     "name": "SHOP 9, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058511757",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162977666",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209449,9 +209560,10 @@
     "name": "SHOP 10, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033568494",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042808",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209467,9 +209579,10 @@
     "name": "SHOP 11, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042809",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209485,9 +209598,10 @@
     "name": "SHOP 12, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042810",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209503,9 +209617,10 @@
     "name": "SHOP 13, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042811",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209521,9 +209636,10 @@
     "name": "SHOP 14, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042812",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209539,9 +209655,10 @@
     "name": "SHOP 15, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033369229",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042813",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209557,9 +209674,10 @@
     "name": "SHOP 16, 64 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000096527331",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042814",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209575,9 +209693,10 @@
     "name": "SHOP 16, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033309567",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042815",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209593,9 +209712,10 @@
     "name": "SHOP 17, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042816",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209611,9 +209731,10 @@
     "name": "SHOP 18, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042817",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209629,9 +209750,10 @@
     "name": "SHOP 19, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042818",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209647,9 +209769,10 @@
     "name": "SHOP 1, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033568494",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042819",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209665,9 +209788,10 @@
     "name": "SHOP 20, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042820",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209683,9 +209807,10 @@
     "name": "SHOP 21, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209701,9 +209826,10 @@
     "name": "SHOP 22, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042822",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209719,9 +209845,10 @@
     "name": "SHOP 23, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042823",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209737,9 +209864,10 @@
     "name": "SHOP 24, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042824",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209755,9 +209883,10 @@
     "name": "SHOP 25, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042825",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209773,9 +209902,10 @@
     "name": "SHOP 26, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042826",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209791,9 +209921,10 @@
     "name": "SHOP 27, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042827",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209809,9 +209940,10 @@
     "name": "UNIT 28, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033207939",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042828",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209827,9 +209959,10 @@
     "name": "SHOP 29, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042829",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209845,9 +209978,10 @@
     "name": "SHOP 2, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042830",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209863,9 +209997,10 @@
     "name": "SHOP 30, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042831",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209881,9 +210016,10 @@
     "name": "SHOP 31, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042832",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209899,9 +210035,10 @@
     "name": "SHOP 3, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042833",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209917,9 +210054,10 @@
     "name": "SHOP 4, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033568494",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042834",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209935,9 +210073,10 @@
     "name": "SHOP 5, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042835",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209953,9 +210092,10 @@
     "name": "SHOP 6, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209971,9 +210111,10 @@
     "name": "SHOP 7, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042837",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -209989,9 +210130,10 @@
     "name": "UNIT 8, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033523608",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042838",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210007,9 +210149,10 @@
     "name": "SHOP 9, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164399129",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163042839",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210711,9 +210854,10 @@
     "name": "SHOP 1, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154339472",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146490",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210729,9 +210873,10 @@
     "name": "SHOP 2, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000173329040",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146491",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210747,9 +210892,10 @@
     "name": "SHOP 3, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154339486",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146492",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210765,9 +210911,10 @@
     "name": "SHOP 4, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154343309",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146493",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210783,9 +210930,10 @@
     "name": "SHOP 5, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154339493",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146494",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210801,9 +210949,10 @@
     "name": "SHOP 6, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000128556403",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146495",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210819,9 +210968,10 @@
     "name": "SHOP 7, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154343309",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146496",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210837,9 +210987,10 @@
     "name": "SHOP 8, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154343313",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146497",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -210855,9 +211006,10 @@
     "name": "SHOP 9, 72 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000154343321",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163146498",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -212396,9 +212548,10 @@
     "name": "SHOP 11, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000058454500",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163235720",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -212414,9 +212567,10 @@
     "name": "SHOP 1, 78-80 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000083818429",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163235721",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -212432,9 +212586,10 @@
     "name": "SHOP 2, 78-80 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000083905048",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163235722",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -212450,9 +212605,10 @@
     "name": "SHOP 3, 78-80 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000083641256",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163235723",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -212740,10 +212896,9 @@
    "properties": {
     "name": "9 AMITY AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000111219720",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163292358",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -212941,6 +213096,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163296902",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.08097266,
+     -26.66142218
+    ]
+   },
+   "properties": {
+    "name": "6 LYTTON LANE MAROOCHYDORE 4558",
+    "locID": "LOC000111989055",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163296903",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -215936,9 +216111,10 @@
     "name": "LOT 27 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000033182239",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163319189",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -216491,9 +216667,10 @@
     "name": "SHOP 100, 82 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000112292675",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371342",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -216509,9 +216686,10 @@
     "name": "UNIT 6, 100 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000111460120",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371343",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -225936,9 +226114,10 @@
     "name": "UNIT 42, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000164389447",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425429485",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -250458,10 +250637,10 @@
    "properties": {
     "name": "UNIT 16, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720029503",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -250777,10 +250956,10 @@
    "properties": {
     "name": "UNIT 14, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720029860",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -251401,10 +251580,10 @@
    "properties": {
     "name": "UNIT 17, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720030726",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -251421,10 +251600,10 @@
    "properties": {
     "name": "UNIT 6, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720030727",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -251622,10 +251801,10 @@
    "properties": {
     "name": "UNIT 10, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720031072",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252011,10 +252190,10 @@
    "properties": {
     "name": "UNIT 8, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720031548",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252051,10 +252230,10 @@
    "properties": {
     "name": "UNIT 18, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720031550",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252071,10 +252250,10 @@
    "properties": {
     "name": "UNIT 3, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720031551",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252391,10 +252570,10 @@
    "properties": {
     "name": "UNIT 7, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720031856",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252549,10 +252728,10 @@
    "properties": {
     "name": "UNIT 19, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720032087",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -252869,10 +253048,10 @@
    "properties": {
     "name": "UNIT 9, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720032409",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -255102,10 +255281,10 @@
    "properties": {
     "name": "UNIT 11, 23-25 TOLMAN COURT MAROOCHYDORE 4558",
     "locID": "LOC000170929422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720034891",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -255366,7 +255545,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720036640",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -258052,9 +258231,10 @@
     "name": "UNIT 22, 106 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000153383619",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720123104",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -263632,9 +263812,10 @@
     "name": "SHOP 3, 8 MAROOCHYDORE ROAD MAROOCHYDORE 4558",
     "locID": "LOC000083641256",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720402196",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -279660,9 +279841,10 @@
     "name": "UNIT 2, 83 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000059900100",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720942250",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -288237,9 +288419,10 @@
     "name": "42 SUGAR ROAD NORTH MAROOCHYDORE 4558",
     "locID": "LOC000164389447",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721229959",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -289769,9 +289952,10 @@
     "name": "48 SUGAR ROAD NORTH MAROOCHYDORE 4558",
     "locID": "LOC000164399101",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721234745",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -290309,9 +290493,10 @@
     "name": "16 SUGAR ROAD NORTH MAROOCHYDORE 4558",
     "locID": "LOC000033309567",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721258401",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
