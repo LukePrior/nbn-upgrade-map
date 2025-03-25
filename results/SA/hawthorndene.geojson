@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-05T10:00:13.144504",
+ "generated": "2025-03-25T14:00:06.993229",
  "suburb": "HAWTHORNDENE",
  "features": [
   {
@@ -2013,7 +2013,9 @@
     "locID": "LOC000043027488",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414909262"
+    "gnaf_pid": "GASA_414909262",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9179,9 +9181,12 @@
    "properties": {
     "name": "2 DARWIN AVENUE HAWTHORNDENE 5051",
     "locID": "LOC000078176765",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415104123"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GASA_415104123",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9477,7 +9482,10 @@
     "locID": "LOC000006260339",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415104138"
+    "gnaf_pid": "GASA_415104138",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11158,9 +11166,12 @@
    "properties": {
     "name": "8 WOODBURN AVENUE HAWTHORNDENE 5051",
     "locID": "LOC000076947552",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415115766"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GASA_415115766",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14194,9 +14205,12 @@
    "properties": {
     "name": "2 ST ALICK STREET HAWTHORNDENE 5051",
     "locID": "LOC000044979198",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415219087"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GASA_415219087",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15382,6 +15396,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.63815618,
+     -35.02117781
+    ]
+   },
+   "properties": {
+    "name": "6 GREENOCK ROAD HAWTHORNDENE 5051",
+    "locID": "LOC000043562811",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415325387",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.63785676,
      -35.021144
     ]
@@ -16552,6 +16586,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415334175",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.63220832,
+     -35.01931266
+    ]
+   },
+   "properties": {
+    "name": "4 DENELAND DRIVE HAWTHORNDENE 5051",
+    "locID": "LOC000035902873",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415334176",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
@@ -21190,9 +21244,9 @@
     "name": "5 DEVONSHIRE ROAD HAWTHORNDENE 5051",
     "locID": "LOC000029453155",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415477337",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21309,7 +21363,10 @@
     "locID": "LOC000029200203",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415477343"
+    "gnaf_pid": "GASA_415477343",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
