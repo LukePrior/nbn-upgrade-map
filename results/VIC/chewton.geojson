@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-18T05:24:53.707142",
+ "generated": "2025-04-07T12:49:47.851169",
  "suburb": "CHEWTON",
  "features": [
   {
@@ -315,7 +315,7 @@
     "name": "6 PITMAN STREET CHEWTON 3451",
     "locID": "LOC000056973383",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414320594",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1617,10 +1617,9 @@
    "properties": {
     "name": "9 MANCHESTER STREET CHEWTON 3451",
     "locID": "LOC000067795881",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420346989",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4109,9 +4108,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423107368",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -5857,10 +5854,10 @@
    "properties": {
     "name": "231 MAIN ROAD CHEWTON 3451",
     "locID": "LOC000087135535",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424498021",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6746,8 +6743,8 @@
    "properties": {
     "name": "3 MCCAY RESERVOIR ROAD CHEWTON 3451",
     "locID": "LOC000124911274",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424718972",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -7539,9 +7536,9 @@
     "name": "3 MAIN ROAD CHEWTON 3451",
     "locID": "LOC000154397155",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425681295",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8561,6 +8558,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.25929375,
+     -37.08080144
+    ]
+   },
+   "properties": {
+    "name": "176 MAIN ROAD CHEWTON 3451",
+    "locID": "LOC000195663707",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720912517"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.25895459,
      -37.09128204
     ]
@@ -8702,7 +8716,7 @@
     "gnaf_pid": "GAVIC721187308",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
