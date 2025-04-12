@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-20T23:09:46.989318",
+ "generated": "2025-04-12T17:29:32.686679",
  "suburb": "RAYMOND TERRACE",
  "features": [
   {
@@ -1662,6 +1662,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705751987",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2454,7 +2455,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705752044",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4207,10 +4208,9 @@
    "properties": {
     "name": "31 SHEARMAN AVENUE RAYMOND TERRACE 2324",
     "locID": "LOC000059627587",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705752137",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5351,7 +5351,7 @@
     "name": "103 BENJAMIN LEE DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000008210679",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705752905",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5393,7 +5393,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705752907",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5966,9 +5966,9 @@
     "name": "10 PENNINGTON STREET RAYMOND TERRACE 2324",
     "locID": "LOC000041254541",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705755393",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6833,7 +6833,7 @@
     "name": "8 MUREE STREET RAYMOND TERRACE 2324",
     "locID": "LOC000104043116",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705755790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8801,7 +8801,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705758699",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10394,6 +10394,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.77630189,
+     -32.73931234
+    ]
+   },
+   "properties": {
+    "name": "48 REES JAMES ROAD RAYMOND TERRACE 2324",
+    "locID": "LOC000069823638",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705759012",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.7768319,
      -32.73879697
     ]
@@ -10482,9 +10500,9 @@
     "name": "6A REES JAMES ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000120743763",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705759017",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10717,10 +10735,9 @@
    "properties": {
     "name": "7 VOGELE PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000062607657",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705759036",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11231,7 +11248,7 @@
     "name": "17 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000062989491",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705759072",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11310,10 +11327,9 @@
    "properties": {
     "name": "20 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000019865204",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705759076",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13297,10 +13313,9 @@
    "properties": {
     "name": "130 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000008977506",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705761818",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13376,10 +13391,9 @@
    "properties": {
     "name": "136 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000057698580",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705761824",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13947,10 +13961,9 @@
    "properties": {
     "name": "27 LINKS DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000053846887",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705762020",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15468,7 +15481,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705762275",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18996,7 +19009,7 @@
     "name": "28 KANGAROO STREET RAYMOND TERRACE 2324",
     "locID": "LOC000055531892",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705762615",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20672,7 +20685,7 @@
     "name": "1A TATHRA STREET RAYMOND TERRACE 2324",
     "locID": "LOC000072573991",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705765682",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21695,7 +21708,7 @@
     "name": "84 MOUNT HALL ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000099093585",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705765834",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23139,10 +23152,9 @@
    "properties": {
     "name": "9 GLENDON PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000041999906",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705765997",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23378,10 +23390,10 @@
    "properties": {
     "name": "12 KANWARY CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000086373655",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705766015",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25786,7 +25798,7 @@
     "name": "55 BROWN STREET RAYMOND TERRACE 2324",
     "locID": "LOC000088173305",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705768967",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28336,10 +28348,10 @@
    "properties": {
     "name": "116 ALTON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000012967163",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705769435",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28357,7 +28369,7 @@
     "name": "118 ALTON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000020494042",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705769436",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29105,10 +29117,9 @@
    "properties": {
     "name": "22 NOTTINGHAM CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000042780912",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705771997",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29755,7 +29766,7 @@
     "name": "38 RICHARDSON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000031347421",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705772040",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30207,7 +30218,7 @@
     "name": "112 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000047660629",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705772079",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30226,10 +30237,9 @@
    "properties": {
     "name": "114 WATT STREET RAYMOND TERRACE 2324",
     "locID": "LOC000052506311",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705772080",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32168,7 +32178,7 @@
     "name": "95 HASTINGS DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000042563797",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705772257",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33858,10 +33868,9 @@
    "properties": {
     "name": "2 SALAMANDER PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000007290817",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705772397",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36156,7 +36165,7 @@
     "name": "4 CLARKE CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000080280130",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705775296",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37849,8 +37858,8 @@
    "properties": {
     "name": "14 FURRACABAD CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000078894405",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705775389",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38279,10 +38288,10 @@
    "properties": {
     "name": "24 SHEARMAN AVENUE RAYMOND TERRACE 2324",
     "locID": "LOC000091752444",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705775649",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39326,7 +39335,7 @@
     "name": "33 ESKDALE DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000042583269",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705775878",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41325,7 +41334,7 @@
     "name": "20 GARDEN AVENUE RAYMOND TERRACE 2324",
     "locID": "LOC000010506260",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705776073",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42291,10 +42300,9 @@
    "properties": {
     "name": "7 BENNETT PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000004608742",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705777322",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42411,10 +42419,9 @@
    "properties": {
     "name": "14 JOHNSON CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000102817376",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705778596",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43826,10 +43833,9 @@
    "properties": {
     "name": "13 PORT STEPHENS STREET RAYMOND TERRACE 2324",
     "locID": "LOC000111610994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705778680",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45234,9 +45240,9 @@
     "name": "13 BILMARK DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000001527109",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705778938",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46302,10 +46308,9 @@
    "properties": {
     "name": "117 DAWSON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000013027646",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705779015",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48263,7 +48268,7 @@
     "name": "9 MURULLA CRESCENT RAYMOND TERRACE 2324",
     "locID": "LOC000087991620",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705779548",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48851,7 +48856,7 @@
     "name": "13 WEDGEWOOD CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000055927358",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705779641",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -50594,10 +50599,9 @@
    "properties": {
     "name": "6 ORCHARD PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000047409918",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705782279",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53303,10 +53307,10 @@
    "properties": {
     "name": "11 CARMICHAEL STREET RAYMOND TERRACE 2324",
     "locID": "LOC000055899555",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705782527",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53542,10 +53546,10 @@
    "properties": {
     "name": "4 CARMICHAEL STREET RAYMOND TERRACE 2324",
     "locID": "LOC000062656222",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705782541",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53802,7 +53806,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705782565",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54357,7 +54361,7 @@
     "name": "9 HILLSIDE CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000005524621",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705782594",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56079,7 +56083,7 @@
     "name": "49 CLYDE CIRCUIT RAYMOND TERRACE 2324",
     "locID": "LOC000104094424",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705785607",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56537,7 +56541,7 @@
     "name": "4 MEREDITH CRESCENT RAYMOND TERRACE 2324",
     "locID": "LOC000012974666",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705785870",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -58576,10 +58580,9 @@
    "properties": {
     "name": "UNIT 1, 16 ESKDALE DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000014027334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705786119",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58616,10 +58619,9 @@
    "properties": {
     "name": "16 ESKDALE DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000014027334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705786121",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60254,10 +60256,9 @@
    "properties": {
     "name": "UNIT 1, 14 JOHNSON CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000102817376",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705786210",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62157,7 +62158,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705788888",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62550,10 +62551,9 @@
    "properties": {
     "name": "7 JOSEPH SHEEN DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000043980850",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705788911",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63432,9 +63432,9 @@
     "name": "61 PORT STEPHENS STREET RAYMOND TERRACE 2324",
     "locID": "LOC000053516193",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705789008",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63803,10 +63803,9 @@
    "properties": {
     "name": "47 BILMARK DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000035021591",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705789189",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63942,10 +63941,10 @@
    "properties": {
     "name": "56 BILMARK DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000054475775",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705789197",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63962,10 +63961,10 @@
    "properties": {
     "name": "57 BILMARK DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000062112158",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705789198",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64538,10 +64537,10 @@
    "properties": {
     "name": "97 DALYELL WAY RAYMOND TERRACE 2324",
     "locID": "LOC000015400706",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705789229",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65693,7 +65692,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705789536",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68532,10 +68531,10 @@
    "properties": {
     "name": "1 OSTERLEY CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000014124925",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792529",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68552,10 +68551,10 @@
    "properties": {
     "name": "10 OSTERLEY CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000014124925",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792530",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69145,10 +69144,10 @@
    "properties": {
     "name": "14 ROBERT CAMPBELL DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000100024873",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792561",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69839,7 +69838,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792600",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70035,10 +70034,9 @@
    "properties": {
     "name": "12 YARRAMUNDI STREET RAYMOND TERRACE 2324",
     "locID": "LOC000003100198",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792610",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70274,10 +70272,10 @@
    "properties": {
     "name": "46 ROSEMOUNT DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000023125378",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792622",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70433,7 +70431,7 @@
     "name": "3 CAMBRIDGE AVENUE RAYMOND TERRACE 2324",
     "locID": "LOC000032317238",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705792773",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -71006,9 +71004,9 @@
     "name": "12 BAREENA STREET RAYMOND TERRACE 2324",
     "locID": "LOC000009124422",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705792804",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71244,10 +71242,9 @@
    "properties": {
     "name": "9 EDINBURGH STREET RAYMOND TERRACE 2324",
     "locID": "LOC000002408473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792816",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71519,7 +71516,7 @@
     "name": "9 EDSTEIN PLACE RAYMOND TERRACE 2324",
     "locID": "LOC000009664012",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705792830",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -71817,10 +71814,9 @@
    "properties": {
     "name": "36 CEDERWOOD CRESCENT RAYMOND TERRACE 2324",
     "locID": "LOC000044181374",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705792847",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78019,7 +78015,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705802688",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78528,10 +78524,9 @@
    "properties": {
     "name": "77 DAWSON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000108429533",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705802715",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78768,10 +78763,9 @@
    "properties": {
     "name": "4 HARPER COURT RAYMOND TERRACE 2324",
     "locID": "LOC000001565397",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705802727",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -80254,7 +80248,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705802805",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81298,7 +81292,7 @@
     "name": "6 CEDAR HILL LANE RAYMOND TERRACE 2324",
     "locID": "LOC000107165613",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705803084",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -82251,10 +82245,9 @@
    "properties": {
     "name": "9 ANNE STREET RAYMOND TERRACE 2324",
     "locID": "LOC000042056506",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705803590",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87952,10 +87945,9 @@
    "properties": {
     "name": "12 STURGEON STREET NORTH RAYMOND TERRACE 2324",
     "locID": "LOC000046221062",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711993085",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -89017,7 +89009,7 @@
     "name": "245 ADELAIDE STREET RAYMOND TERRACE 2324",
     "locID": "LOC000087404191",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW711997425",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -89156,10 +89148,10 @@
    "properties": {
     "name": "146 ADELAIDE STREET RAYMOND TERRACE 2324",
     "locID": "LOC000078453045",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711997433",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92264,7 +92256,7 @@
     "name": "82 ADELAIDE STREET RAYMOND TERRACE 2324",
     "locID": "LOC000043502384",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712014279",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -99422,7 +99414,7 @@
     "name": "3A ELWIN ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000177150882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715369082",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -100432,7 +100424,7 @@
     "name": "3 BOOTS CLOSE RAYMOND TERRACE 2324",
     "locID": "LOC000015528598",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715673063",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -101692,10 +101684,9 @@
    "properties": {
     "name": "UNIT 3, 41 GWEN PARADE RAYMOND TERRACE 2324",
     "locID": "LOC000054145003",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716480169",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102228,10 +102219,9 @@
    "properties": {
     "name": "7B FAIRCHILD STREET RAYMOND TERRACE 2324",
     "locID": "LOC000020993233",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630508",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -103302,7 +103292,7 @@
     "name": "1 PHILLIP STREET RAYMOND TERRACE 2324",
     "locID": "LOC000043966741",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716740245",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -103361,7 +103351,7 @@
     "name": "25 PHILLIP STREET RAYMOND TERRACE 2324",
     "locID": "LOC000007402445",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716740248",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -103520,10 +103510,10 @@
    "properties": {
     "name": "42 PHILLIP STREET RAYMOND TERRACE 2324",
     "locID": "LOC000052170851",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716740256",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -105237,7 +105227,7 @@
     "name": "92A RICHARDSON ROAD RAYMOND TERRACE 2324",
     "locID": "LOC000065353149",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716826590",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -105397,7 +105387,7 @@
     "name": "26 PHILLIP STREET RAYMOND TERRACE 2324",
     "locID": "LOC000017543937",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716863786",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -109022,10 +109012,9 @@
    "properties": {
     "name": "71 JOSEPH SHEEN DRIVE RAYMOND TERRACE 2324",
     "locID": "LOC000003737675",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717301627",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -110508,9 +110497,9 @@
     "name": "9 PHILLIP STREET RAYMOND TERRACE 2324",
     "locID": "LOC000010817845",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717360885",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -112077,10 +112066,9 @@
    "properties": {
     "name": "UNIT 3, 17 PORT STEPHENS STREET RAYMOND TERRACE 2324",
     "locID": "LOC000016398646",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717641641",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -120372,7 +120360,7 @@
     "name": "7 OAK CIRCUIT RAYMOND TERRACE 2324",
     "locID": "LOC000146216072",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718771632",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -120728,7 +120716,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718951649",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -125993,7 +125981,7 @@
     "name": "UNIT 2, 13 THOMAS STREET RAYMOND TERRACE 2324",
     "locID": "LOC000165372315",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW720265342",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
