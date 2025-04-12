@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-20T21:43:05.640100",
+ "generated": "2025-04-12T15:21:42.701496",
  "suburb": "TURRAMURRA",
  "features": [
   {
@@ -1169,7 +1169,7 @@
     "name": "31 ROHINI STREET TURRAMURRA 2074",
     "locID": "LOC000101079228",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706082243",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5443,7 +5443,7 @@
     "name": "18 PRINCES STREET TURRAMURRA 2074",
     "locID": "LOC000090378003",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706092167",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5496,7 +5496,7 @@
    "properties": {
     "name": "117 MERRIVALE LANE TURRAMURRA 2074",
     "locID": "LOC000190435217",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706092170"
    }
@@ -21761,6 +21761,23 @@
     "gnaf_pid": "GANSW706116387",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.13443592,
+     -33.73819386
+    ]
+   },
+   "properties": {
+    "name": "1258 PACIFIC HIGHWAY TURRAMURRA 2074",
+    "locID": "LOC000194651557",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706116388"
    }
   },
   {
@@ -45287,10 +45304,9 @@
    "properties": {
     "name": "122A BANNOCKBURN ROAD TURRAMURRA 2074",
     "locID": "LOC000088164763",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706161394",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50429,10 +50445,9 @@
    "properties": {
     "name": "98 BOBBIN HEAD ROAD TURRAMURRA 2074",
     "locID": "LOC000040130315",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706171367",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64944,7 +64959,7 @@
    "properties": {
     "name": "2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025495210",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710681377",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -68814,10 +68829,10 @@
    "properties": {
     "name": "2 ROHINI STREET TURRAMURRA 2074",
     "locID": "LOC000024718392",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715652499",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79508,9 +79523,9 @@
     "name": "UNIT 10, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025486318",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004872",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -79526,10 +79541,11 @@
     "name": "UNIT 11, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000156859964",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004873",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79544,7 +79560,7 @@
    "properties": {
     "name": "UNIT 12, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000156859972",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004874",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -79564,10 +79580,11 @@
     "name": "UNIT 13, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025965833",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004875",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79602,10 +79619,11 @@
     "name": "UNIT 15, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025868222",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004877",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79620,7 +79638,7 @@
    "properties": {
     "name": "UNIT 1, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025452660",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004881",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -79639,7 +79657,7 @@
    "properties": {
     "name": "UNIT 2, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025495210",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004882",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -79658,7 +79676,7 @@
    "properties": {
     "name": "UNIT 3, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025495210",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004883",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -79677,11 +79695,12 @@
    "properties": {
     "name": "UNIT 4, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025526215",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718004884",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79696,7 +79715,7 @@
    "properties": {
     "name": "UNIT 5, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025885296",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004885",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -79716,10 +79735,11 @@
     "name": "UNIT 6, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025403348",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004886",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79735,10 +79755,11 @@
     "name": "UNIT 7, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025577537",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004887",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79754,10 +79775,11 @@
     "name": "UNIT 8, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025372304",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718004888",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79772,7 +79794,7 @@
    "properties": {
     "name": "UNIT 9, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025489160",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718004889",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -94201,7 +94223,7 @@
    "properties": {
     "name": "UNIT 19, 2A WOMERAH STREET TURRAMURRA 2074",
     "locID": "LOC000025495210",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720614788",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -94313,7 +94335,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW720686977",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95457,6 +95479,40 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721353620"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.13430736,
+     -33.73806901
+    ]
+   },
+   "properties": {
+    "name": "1260 PACIFIC HIGHWAY TURRAMURRA 2074",
+    "locID": "LOC000194651561",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721495865"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.13417784,
+     -33.73794353
+    ]
+   },
+   "properties": {
+    "name": "1260A PACIFIC HIGHWAY TURRAMURRA 2074",
+    "locID": "LOC000194651574",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721500859"
    }
   },
   {
