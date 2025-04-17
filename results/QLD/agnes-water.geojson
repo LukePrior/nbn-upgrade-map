@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-24T19:08:39.870068",
+ "generated": "2025-04-17T14:25:21.945811",
  "suburb": "AGNES WATER",
  "features": [
   {
@@ -1613,26 +1613,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.90425645,
-     -24.23317146
-    ]
-   },
-   "properties": {
-    "name": "132 ANDERSON WAY AGNES WATER 4677",
-    "locID": "LOC000068620236",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD154921616",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.91103881,
      -24.23244943
     ]
@@ -2856,9 +2836,9 @@
     "name": "262 LADY ELLIOT DRIVE AGNES WATER 4677",
     "locID": "LOC000015835499",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD154922117",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -5407,26 +5387,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.88375431,
-     -24.23292448
-    ]
-   },
-   "properties": {
-    "name": "178 LADY ELLIOT DRIVE AGNES WATER 4677",
-    "locID": "LOC000034196195",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156162245",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.89673719,
      -24.22973675
     ]
@@ -5557,26 +5517,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156162302",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.89878452,
-     -24.22632644
-    ]
-   },
-   "properties": {
-    "name": "35 ANDERSON WAY AGNES WATER 4677",
-    "locID": "LOC000029838538",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156162304",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -5977,26 +5917,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156163274",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.88151815,
-     -24.24175007
-    ]
-   },
-   "properties": {
-    "name": "41 MCGHEE CRESCENT AGNES WATER 4677",
-    "locID": "LOC000008406255",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156163275",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -10389,7 +10309,7 @@
     "name": "6 SHADY LANE AGNES WATER 4677",
     "locID": "LOC000007726020",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157409083",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11325,7 +11245,7 @@
     "name": "28 WOODROW DRIVE AGNES WATER 4677",
     "locID": "LOC000043949645",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157409476",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12197,7 +12117,7 @@
     "name": "12 GRAHAME COLYER DRIVE AGNES WATER 4677",
     "locID": "LOC000109024038",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160285604",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13193,10 +13113,10 @@
    "properties": {
     "name": "9 SHADY LANE AGNES WATER 4677",
     "locID": "LOC000042768244",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160289378",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15935,10 +15855,9 @@
    "properties": {
     "name": "13 JEFFERY COURT AGNES WATER 4677",
     "locID": "LOC000007474287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160311444",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22262,26 +22181,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162005220",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.90977786,
-     -24.24076676
-    ]
-   },
-   "properties": {
-    "name": "300 ANDERSON WAY AGNES WATER 4677",
-    "locID": "LOC000029988549",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162005221",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -30040,9 +29939,9 @@
     "name": "42 WOODROW DRIVE AGNES WATER 4677",
     "locID": "LOC000128890980",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162526893",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37443,26 +37342,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.89276586,
-     -24.24063966
-    ]
-   },
-   "properties": {
-    "name": "90 ALLINGHAM WAY AGNES WATER 4677",
-    "locID": "LOC000128898123",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163157486",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.8989026,
      -24.19951873
     ]
@@ -38823,7 +38702,7 @@
     "name": "4 THE PROMENADE AGNES WATER 4677",
     "locID": "LOC000128887683",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163285832",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39467,10 +39346,9 @@
    "properties": {
     "name": "UNIT 2, 15 WATERFRONT DRIVE AGNES WATER 4677",
     "locID": "LOC000157298486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424946315",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43184,26 +43062,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.8946009,
-     -24.24688778
-    ]
-   },
-   "properties": {
-    "name": "158 ALLINGHAM WAY AGNES WATER 4677",
-    "locID": "LOC100055351244",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425652328",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.88706714,
      -24.22964747
     ]
@@ -46200,6 +46058,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91123831,
+     -24.24653028
+    ]
+   },
+   "properties": {
+    "name": "360 ANDERSON WAY AGNES WATER 4677",
+    "locID": "LOC000128904458",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719340435",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.88414977,
      -24.20060635
     ]
@@ -47705,6 +47581,24 @@
     "gnaf_pid": "GAQLD719850172",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.89543937,
+     -24.25238845
+    ]
+   },
+   "properties": {
+    "name": "24 WATKINS ROAD AGNES WATER 4677",
+    "locID": "LOC000128863177",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719929173",
+    "tech_change_status": "Not Planned"
    }
   },
   {
