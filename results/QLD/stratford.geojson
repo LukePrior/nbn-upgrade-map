@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-24T12:05:45.059956",
+ "generated": "2025-04-17T08:04:38.902805",
  "suburb": "STRATFORD",
  "features": [
   {
@@ -1655,7 +1655,7 @@
     "name": "7 FITCH COURT STRATFORD 4870",
     "locID": "LOC000076578265",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155851351",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1715,7 +1715,7 @@
     "name": "21 HARDWICK STREET STRATFORD 4870",
     "locID": "LOC000050824951",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155854196",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1755,7 +1755,7 @@
     "name": "27 HARDWICK STREET STRATFORD 4870",
     "locID": "LOC000026566116",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155854218",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2349,7 +2349,7 @@
     "name": "101 AEROGLEN DRIVE STRATFORD 4870",
     "locID": "LOC000026563939",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156162220",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2467,10 +2467,10 @@
    "properties": {
     "name": "32 ALAMEIN STREET STRATFORD 4870",
     "locID": "LOC000040349950",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157132939",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2508,7 +2508,7 @@
     "name": "36 ALAMEIN STREET STRATFORD 4870",
     "locID": "LOC000001650668",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157132941",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3611,10 +3611,10 @@
    "properties": {
     "name": "39 KAMERUNGA ROAD STRATFORD 4870",
     "locID": "LOC000036927550",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157164980",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4008,10 +4008,10 @@
    "properties": {
     "name": "30 MASON STREET STRATFORD 4870",
     "locID": "LOC000061262923",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157169135",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7029,7 +7029,7 @@
     "name": "30 DALZIEL STREET STRATFORD 4870",
     "locID": "LOC000099691354",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157196913",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11975,7 +11975,7 @@
     "name": "35 MASON STREET STRATFORD 4870",
     "locID": "LOC000129773260",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162959123",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12173,7 +12173,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162959427",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13459,6 +13459,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72690088,
+     -16.87641114
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 67 KAMERUNGA ROAD STRATFORD 4870",
+    "locID": "LOC000196463564",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721515000"
    }
   }
  ]
