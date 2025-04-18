@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-25T06:10:57.807926",
+ "generated": "2025-04-18T00:15:40.011824",
  "suburb": "SALISBURY",
  "features": [
   {
@@ -2456,7 +2456,7 @@
     "name": "8 POST AVENUE SALISBURY 5108",
     "locID": "LOC000093302439",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414956410",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2475,10 +2475,10 @@
    "properties": {
     "name": "10 POST AVENUE SALISBURY 5108",
     "locID": "LOC000066847196",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414956411",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3143,10 +3143,10 @@
    "properties": {
     "name": "3 RHYNE AVENUE SALISBURY 5108",
     "locID": "LOC000040643917",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414977777",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3341,10 +3341,9 @@
    "properties": {
     "name": "8 GILBERT COURT SALISBURY 5108",
     "locID": "LOC000045036159",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414978451",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8639,7 +8638,7 @@
     "name": "30 BANKS STREET SALISBURY 5108",
     "locID": "LOC000005924752",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415148429",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16679,23 +16678,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415249474"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.63472761,
-     -34.76220795
-    ]
-   },
-   "properties": {
-    "name": "41 GOODALL CRESCENT SALISBURY 5108",
-    "locID": "LOC000017858632",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415249475"
    }
   },
   {
@@ -26153,10 +26135,9 @@
    "properties": {
     "name": "21 EVAN AVENUE SALISBURY 5108",
     "locID": "LOC000041435845",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415354153",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26303,10 +26284,10 @@
    "properties": {
     "name": "2 PAT STREET SALISBURY 5108",
     "locID": "LOC000079326062",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415356891",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29196,8 +29177,8 @@
    "properties": {
     "name": "39 EVAN AVENUE SALISBURY 5108",
     "locID": "LOC000034861902",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415396662",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33694,10 +33675,9 @@
    "properties": {
     "name": "2 WILTSHIRE STREET SALISBURY 5108",
     "locID": "LOC000009236259",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_415414123",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415414123"
    }
   },
   {
@@ -58715,6 +58695,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.63500179,
+     -34.76222761
+    ]
+   },
+   "properties": {
+    "name": "39 GOODALL CRESCENT SALISBURY 5108",
+    "locID": "LOC000196531181",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416837418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.62465709,
      -34.76525953
     ]
@@ -60770,7 +60767,7 @@
     "gnaf_pid": "GASA_422052740",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -61228,10 +61225,9 @@
    "properties": {
     "name": "6 BANKS STREET SALISBURY 5108",
     "locID": "LOC000024223816",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422259268",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62523,7 +62519,7 @@
     "gnaf_pid": "GASA_423118333",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -70929,10 +70925,9 @@
    "properties": {
     "name": "UNIT 5, 26 YORK TERRACE SALISBURY 5108",
     "locID": "LOC000116148851",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424644745",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71007,10 +71002,9 @@
    "properties": {
     "name": "UNIT 7, 26 YORK TERRACE SALISBURY 5108",
     "locID": "LOC000116148879",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424644749",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82510,6 +82504,40 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721513763"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.63472761,
+     -34.76220795
+    ]
+   },
+   "properties": {
+    "name": "41B GOODALL CRESCENT SALISBURY 5108",
+    "locID": "LOC000196531168",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538765"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.63486345,
+     -34.76221771
+    ]
+   },
+   "properties": {
+    "name": "41A GOODALL CRESCENT SALISBURY 5108",
+    "locID": "LOC000196531175",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539166"
    }
   },
   {
