@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-26T19:12:32.150457",
+ "generated": "2025-04-19T11:08:17.780255",
  "suburb": "CANNINGTON",
  "features": [
   {
@@ -52,10 +52,10 @@
    "properties": {
     "name": "18 LIEGE STREET CANNINGTON 6107",
     "locID": "LOC000105865770",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146711057",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1504,7 +1504,7 @@
     "name": "21 CIVIC GARDENS CANNINGTON 6107",
     "locID": "LOC000092591759",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146734627",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3332,10 +3332,10 @@
    "properties": {
     "name": "42 HAMILTON STREET CANNINGTON 6107",
     "locID": "LOC000078056050",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146736609",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3800,7 +3800,7 @@
     "gnaf_pid": "GAWA_146736739",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -3895,10 +3895,10 @@
    "properties": {
     "name": "23 DERISLEIGH STREET CANNINGTON 6107",
     "locID": "LOC000019082612",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146736745",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3977,26 +3977,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146736934",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92966829,
-     -32.01143494
-    ]
-   },
-   "properties": {
-    "name": "24 MALLARD WAY CANNINGTON 6107",
-    "locID": "LOC000011162936",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146736935",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -5399,7 +5379,7 @@
     "name": "3 TARUN COURT CANNINGTON 6107",
     "locID": "LOC000039950173",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146738142",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8145,10 +8125,10 @@
    "properties": {
     "name": "32 DERISLEIGH STREET CANNINGTON 6107",
     "locID": "LOC000047941271",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146742214",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9538,7 +9518,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146747228",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10835,7 +10815,7 @@
     "name": "3 KALIAMBA COURT CANNINGTON 6107",
     "locID": "LOC000039005559",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146749462",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12768,6 +12748,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090695",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146955389",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.93407711,
      -32.01633068
     ]
@@ -13966,10 +13964,9 @@
    "properties": {
     "name": "6 HOLTON WAY CANNINGTON 6107",
     "locID": "LOC000035692015",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147166155",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14304,9 +14301,9 @@
     "name": "42 GREY STREET CANNINGTON 6107",
     "locID": "LOC000068337081",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147182170",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18576,7 +18573,7 @@
     "name": "8A HOGARTH STREET CANNINGTON 6107",
     "locID": "LOC000056937718",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147273087",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20950,7 +20947,7 @@
     "name": "9A BRINKLEY STREET CANNINGTON 6107",
     "locID": "LOC000102185875",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147296680",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27340,7 +27337,7 @@
     "gnaf_pid": "GAWA_147561303",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -27379,7 +27376,7 @@
     "gnaf_pid": "GAWA_147561309",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -27806,7 +27803,7 @@
     "gnaf_pid": "GAWA_147562302",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -31376,7 +31373,7 @@
     "name": "33 EUDANDA PLACE CANNINGTON 6107",
     "locID": "LOC000052736287",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147568847",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40298,7 +40295,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_160921211",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59420,7 +59417,7 @@
     "name": "16A PURKISS STREET CANNINGTON 6107",
     "locID": "LOC000112049114",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163202731",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -75465,9 +75462,9 @@
     "name": "UNIT 5, 4 MARRIOT STREET CANNINGTON 6107",
     "locID": "LOC000177944179",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_719200011",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81732,6 +81729,456 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 409, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088089975",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720714963",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 715, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091120",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720714997",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 105, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090023",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715003",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 407, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090449",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715031",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 613, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090364",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715046",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 404, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091080",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715116",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 511, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091067",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715133",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 518, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090075",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715142",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 301, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090338",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715148",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 508, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090871",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715150",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091149",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715171",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 308, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090301",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715201",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 714, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091177",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715210",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 203, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090150",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715242",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 818, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090340",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715303",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090695",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715405",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 610, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090178",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715408",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 815, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088089981",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715504",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091154",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715554",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 716, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090483",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715577",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 507, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091033",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715581",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 506, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090816",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715649",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 401, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090925",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715660",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 611, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090918",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715686",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 718, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091022",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715697",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.94481188,
      -32.0223529
     ]
@@ -81745,6 +82192,420 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 106, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090006",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715740",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 204, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090837",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715775",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 405, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090522",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720715957",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 801, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090052",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716014",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 702, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090109",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716105",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 306, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090372",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716133",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 807, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090113",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716146",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 206, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090329",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716156",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 205, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090580",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716183",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 617, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090790",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716220",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 502, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090243",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716224",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 806, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090885",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716256",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 816, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090682",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716259",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 609, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090863",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716288",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 201, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090289",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716326",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 813, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090408",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716327",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 612, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090719",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716341",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 706, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090099",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716400",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 517, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088089999",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716461",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 605, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090514",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716471",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 316, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091203",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716491",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 608, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090465",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716504",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 707, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090892",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716532",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -81772,6 +82633,672 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 712, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090956",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716549",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 510, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090431",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716554",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 318, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090630",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716616",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 503, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090145",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716689",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 606, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091165",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716727",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 703, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091014",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716728",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 803, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090270",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716794",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 607, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090579",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716833",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 717, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090258",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716914",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 402, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090533",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716963",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 317, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091183",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720716968",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 408, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090047",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717043",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 307, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090987",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717062",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 309, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090393",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717097",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 418, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090166",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717189",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 501, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091112",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717224",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 313, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090546",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717341",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 804, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091196",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717344",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 314, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090788",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717430",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 512, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090624",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717488",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 514, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090859",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717492",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 403, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091051",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717529",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 406, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090317",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717546",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 802, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090121",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717549",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 305, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090412",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717609",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 604, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090960",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717648",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 809, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090132",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717659",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 509, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090236",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717693",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 713, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091046",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717716",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 711, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090204",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717725",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 708, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090197",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717792",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 705, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090742",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717876",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091235",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717882",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 602, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090774",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720717959",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 102, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090068",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718021",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 312, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090496",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718077",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 811, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091131",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718089",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92855621,
      -32.00917533
     ]
@@ -81782,6 +83309,42 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720718126"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 411, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090941",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718159",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 302, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090010",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718201",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -81809,6 +83372,132 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 808, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090567",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718277",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 311, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090607",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718361",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 417, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090828",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718371",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 310, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090757",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718374",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 812, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091108",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718446",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 101, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090653",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718475",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 810, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090844",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718485",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.94453003,
      -32.02212599
     ]
@@ -81829,6 +83518,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 410, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090420",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718527",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 505, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090761",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718597",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92863854,
      -32.00910592
     ]
@@ -81839,6 +83564,528 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720718603"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 704, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090215",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718610",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 614, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090081",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718642",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 817, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090735",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718650",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 513, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090676",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718690",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 416, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090800",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718706",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 202, FLOOR 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090939",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718729",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 413, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090291",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718758",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 615, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090726",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718759",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 701, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090454",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718780",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 103, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091005",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718808",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 412, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090262",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718909",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 603, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090598",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718917",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 710, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090648",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720718998",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 814, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090611",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719136",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 616, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090505",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719210",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 601, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090227",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719300",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 104, FLOOR 1, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090477",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719307",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 805, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090994",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719336",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 504, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090034",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719362",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 315, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090902",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719391",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 709, FLOOR 7, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090973",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719402",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 304, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091098",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719465",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 618, FLOOR 6, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090551",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719482",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 303, FLOOR 3, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088091079",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719488",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 415, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090355",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719521",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 516, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090669",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719523",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090184",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719528",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 414, FLOOR 4, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090703",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719597",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.93628401,
+     -32.01623583
+    ]
+   },
+   "properties": {
+    "name": "UNIT 515, FLOOR 5, 17 PATTIE STREET CANNINGTON 6107",
+    "locID": "LOC100088090386",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720719603",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -83682,86 +85929,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.92952407,
-     -32.01136273
-    ]
-   },
-   "properties": {
-    "name": "24D MALLARD WAY CANNINGTON 6107",
-    "locID": "LOC000011162936",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721194864",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92989837,
-     -32.01158298
-    ]
-   },
-   "properties": {
-    "name": "24A MALLARD WAY CANNINGTON 6107",
-    "locID": "LOC000011162936",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721197222",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92978433,
-     -32.01151378
-    ]
-   },
-   "properties": {
-    "name": "24B MALLARD WAY CANNINGTON 6107",
-    "locID": "LOC000011162936",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721197227",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92966829,
-     -32.01143494
-    ]
-   },
-   "properties": {
-    "name": "24C MALLARD WAY CANNINGTON 6107",
-    "locID": "LOC000011162936",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721198155",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.93811848,
      -32.02469719
     ]
@@ -84094,6 +86261,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.92877165,
+     -32.01052137
+    ]
+   },
+   "properties": {
+    "name": "4B BRINKLEY STREET CANNINGTON 6107",
+    "locID": "LOC000193308711",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721530312"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92822091,
      -32.01800804
     ]
@@ -84114,6 +86298,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.9289229,
+     -32.01065245
+    ]
+   },
+   "properties": {
+    "name": "4A BRINKLEY STREET CANNINGTON 6107",
+    "locID": "LOC000193308707",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721530534"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92880112,
      -32.01075525
     ]
@@ -84124,6 +86325,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721532098"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92862275,
+     -32.01042071
+    ]
+   },
+   "properties": {
+    "name": "4C BRINKLEY STREET CANNINGTON 6107",
+    "locID": "LOC000193308724",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721532912"
    }
   },
   {
