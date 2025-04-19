@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-03-26T12:10:58.809707",
+ "generated": "2025-04-19T04:40:08.372833",
  "suburb": "TUART HILL",
  "features": [
   {
@@ -133,7 +133,7 @@
     "name": "66 ELDORADO STREET TUART HILL 6060",
     "locID": "LOC000034278677",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146592944",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -409,7 +409,7 @@
     "name": "223 WATERLOO STREET TUART HILL 6060",
     "locID": "LOC000045685957",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146594832",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2609,7 +2609,7 @@
     "name": "163 WANNEROO ROAD TUART HILL 6060",
     "locID": "LOC000081637055",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146601630",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5582,7 +5582,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146609348",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6822,7 +6822,7 @@
     "name": "1 HUCKLE STREET TUART HILL 6060",
     "locID": "LOC000021067643",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146612431",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7097,7 +7097,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146612484",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8747,10 +8747,9 @@
    "properties": {
     "name": "268 HECTOR STREET TUART HILL 6060",
     "locID": "LOC000027001097",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146643779",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146643779"
    }
   },
   {
@@ -8784,7 +8783,7 @@
     "name": "270 HECTOR STREET TUART HILL 6060",
     "locID": "LOC000024462593",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146643781",
     "tech_change_status": "Eligible to Order"
    }
@@ -9322,10 +9321,11 @@
     "name": "250 CAPE STREET TUART HILL 6060",
     "locID": "LOC000132167364",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146646084",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17546,7 +17546,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147195722",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23680,7 +23680,7 @@
     "name": "29 WATTLE STREET TUART HILL 6060",
     "locID": "LOC000015423063",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147268657",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31322,26 +31322,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.83736,
-     -31.89736
-    ]
-   },
-   "properties": {
-    "name": "186A FRENCH STREET TUART HILL 6060",
-    "locID": "LOC000096157250",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_148138164",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.84262287,
      -31.90257761
     ]
@@ -33824,7 +33804,7 @@
     "name": "152B BANKSIA STREET TUART HILL 6060",
     "locID": "LOC000048536873",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148144333",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34557,7 +34537,7 @@
     "name": "98A LAWLEY STREET TUART HILL 6060",
     "locID": "LOC000050833537",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148147226",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35701,10 +35681,9 @@
    "properties": {
     "name": "UNIT 2, 10 HAIG STREET TUART HILL 6060",
     "locID": "LOC000049901835",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148148342",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44649,10 +44628,9 @@
    "properties": {
     "name": "63 LAWLEY STREET TUART HILL 6060",
     "locID": "LOC000049595642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148164274",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44907,6 +44885,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.83736,
+     -31.89736
+    ]
+   },
+   "properties": {
+    "name": "186B FRENCH STREET TUART HILL 6060",
+    "locID": "LOC000196433130",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148164322"
    }
   },
   {
@@ -49316,10 +49311,9 @@
    "properties": {
     "name": "43 WATTLE STREET TUART HILL 6060",
     "locID": "LOC000012838694",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148172843",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50898,10 +50892,9 @@
    "properties": {
     "name": "UNIT 3, 20 HAIG STREET TUART HILL 6060",
     "locID": "LOC000073308546",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148175406",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54864,10 +54857,9 @@
    "properties": {
     "name": "268B HECTOR STREET TUART HILL 6060",
     "locID": "LOC000026874183",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_148182467",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148182467"
    }
   },
   {
@@ -56510,7 +56502,7 @@
     "name": "187 NORTH BEACH DRIVE TUART HILL 6060",
     "locID": "LOC000048234288",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148186222",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -60757,7 +60749,7 @@
     "name": "101C WATTLE STREET TUART HILL 6060",
     "locID": "LOC000031481572",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148193871",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -62876,10 +62868,9 @@
    "properties": {
     "name": "317B HECTOR STREET TUART HILL 6060",
     "locID": "LOC000076986113",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148578529",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66753,7 +66744,7 @@
     "name": "65B ELDORADO STREET TUART HILL 6060",
     "locID": "LOC000100160040",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161890848",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -67440,7 +67431,7 @@
     "name": "105 BANKSIA STREET TUART HILL 6060",
     "locID": "LOC000070914677",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161894896",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -68139,10 +68130,10 @@
    "properties": {
     "name": "32B HODGSON STREET TUART HILL 6060",
     "locID": "LOC000022096556",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162252606",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68565,10 +68556,9 @@
    "properties": {
     "name": "113B LAWLEY STREET TUART HILL 6060",
     "locID": "LOC000043025576",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162330508",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68586,7 +68576,7 @@
     "name": "60A LAWLEY STREET TUART HILL 6060",
     "locID": "LOC000036265182",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162330509",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -78846,10 +78836,11 @@
     "name": "250A CAPE STREET TUART HILL 6060",
     "locID": "LOC000132167340",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_718345569",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78865,10 +78856,11 @@
     "name": "250B CAPE STREET TUART HILL 6060",
     "locID": "LOC000132167355",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_718345570",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78884,10 +78876,11 @@
     "name": "250C CAPE STREET TUART HILL 6060",
     "locID": "LOC000132167364",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_718345571",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78903,10 +78896,11 @@
     "name": "250D CAPE STREET TUART HILL 6060",
     "locID": "LOC000132167372",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_718345572",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79408,10 +79402,9 @@
    "properties": {
     "name": "60A ROYAL STREET TUART HILL 6060",
     "locID": "LOC000175729714",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718552449",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86445,9 +86438,9 @@
     "name": "32C ROYAL STREET TUART HILL 6060",
     "locID": "LOC000190169933",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720888994",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
