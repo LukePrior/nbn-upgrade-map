@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-02T20:15:21.021592",
+ "generated": "2025-04-26T07:04:15.114105",
  "suburb": "BURONGA",
  "features": [
   {
@@ -35,8 +35,8 @@
    "properties": {
     "name": "8 TURNER AVENUE BURONGA 2739",
     "locID": "LOC000087850336",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704234379",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -98,7 +98,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704246753",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -215,10 +215,10 @@
    "properties": {
     "name": "28 CRANE DRIVE BURONGA 2739",
     "locID": "LOC000105041414",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704246772",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11358,6 +11358,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.18562881,
+     -34.16025233
+    ]
+   },
+   "properties": {
+    "name": "104 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC100016468347",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718190411",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.18707305,
      -34.17409971
     ]
@@ -12783,6 +12801,26 @@
     "gnaf_pid": "GANSW720381236",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18001257,
+     -34.16946395
+    ]
+   },
+   "properties": {
+    "name": "2 SHORT STREET BURONGA 2739",
+    "locID": "LOC000182198715",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720528364",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
