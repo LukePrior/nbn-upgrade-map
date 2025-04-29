@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-06T06:36:08.213449",
+ "generated": "2025-04-29T19:38:10.909568",
  "suburb": "WAMURAN",
  "features": [
   {
@@ -1649,10 +1649,10 @@
    "properties": {
     "name": "40 STATION ROAD WAMURAN 4512",
     "locID": "LOC000082548380",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155937283",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2028,10 +2028,10 @@
    "properties": {
     "name": "44 WALDRON COURT WAMURAN 4512",
     "locID": "LOC000104061007",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155940140",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6917,11 +6917,11 @@
     "name": "77 BODEN ROAD WAMURAN 4512",
     "locID": "LOC000072255937",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158819834",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8881,8 +8881,8 @@
    "properties": {
     "name": "6 GLENARBA COURT WAMURAN 4512",
     "locID": "LOC000040092604",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158831586",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11543,8 +11543,8 @@
    "properties": {
     "name": "43 GLENARBA COURT WAMURAN 4512",
     "locID": "LOC000040092604",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160059644",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13293,10 +13293,9 @@
    "properties": {
     "name": "140-142 ALEXANDRA PARADE WAMURAN 4512",
     "locID": "LOC000050955757",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161424241",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14718,9 +14717,9 @@
     "name": "24-28 KOPPEN DRIVE WAMURAN 4512",
     "locID": "LOC000128290300",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161443070",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15196,10 +15195,9 @@
    "properties": {
     "name": "27 NEWHAVEN COURT WAMURAN 4512",
     "locID": "LOC000029829877",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161450265",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15221,26 +15219,6 @@
     "gnaf_pid": "GAQLD161450266",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.87572985,
-     -27.01289757
-    ]
-   },
-   "properties": {
-    "name": "320 NEWLANDS ROAD WAMURAN 4512",
-    "locID": "LOC000035541231",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161450295",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -15349,26 +15327,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.87172194,
-     -27.02104079
-    ]
-   },
-   "properties": {
-    "name": "2 O'SHEA ROAD WAMURAN 4512",
-    "locID": "LOC000106870010",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161451801",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.87131291,
      -27.02124267
     ]
@@ -15399,26 +15357,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161451804",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.86055318,
-     -27.01836886
-    ]
-   },
-   "properties": {
-    "name": "63-81 O'SHEA ROAD WAMURAN 4512",
-    "locID": "LOC000106870010",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161451806",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -15481,26 +15419,6 @@
     "gnaf_pid": "GAQLD161453521",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.88805579,
-     -27.02014423
-    ]
-   },
-   "properties": {
-    "name": "140 POWELL ROAD WAMURAN 4512",
-    "locID": "LOC000050475790",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161453886",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -15795,10 +15713,9 @@
    "properties": {
     "name": "8-9 VERA COURT WAMURAN 4512",
     "locID": "LOC000045457212",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161462358",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
