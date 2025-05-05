@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-09T20:13:28.519187",
+ "generated": "2025-05-05T15:27:41.274124",
  "suburb": "DUNDAS VALLEY",
  "features": [
   {
@@ -4616,23 +4616,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.05596518,
-     -33.78829973
-    ]
-   },
-   "properties": {
-    "name": "1 CHARLOTTE STREET DUNDAS VALLEY 2117",
-    "locID": "LOC000033661544",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704625684"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.05664874,
      -33.78893559
     ]
@@ -7345,6 +7328,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704630116"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.05204185,
+     -33.79021986
+    ]
+   },
+   "properties": {
+    "name": "23 HART STREET DUNDAS VALLEY 2117",
+    "locID": "LOC000196416213",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704630117"
    }
   },
   {
@@ -10557,7 +10557,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706524084",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11691,9 +11691,9 @@
     "name": "4 KING STREET DUNDAS VALLEY 2117",
     "locID": "LOC000088331712",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706534309",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12709,10 +12709,10 @@
    "properties": {
     "name": "56 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000046641324",
-    "tech": "FTTN",
-    "upgrade": "FTTC",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706551352",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17407,8 +17407,9 @@
     "name": "38 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000042217467",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706616142",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18215,9 +18216,9 @@
     "name": "23 RYAN STREET DUNDAS VALLEY 2117",
     "locID": "LOC000078000681",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW707490890",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20572,7 +20573,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW707538484",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20812,10 +20813,9 @@
    "properties": {
     "name": "41 MOFFATTS DRIVE DUNDAS VALLEY 2117",
     "locID": "LOC000185502732",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW707538864",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW707538864"
    }
   },
   {
@@ -35160,10 +35160,10 @@
    "properties": {
     "name": "UNIT 4, 52 BAIN PLACE DUNDAS VALLEY 2117",
     "locID": "LOC000165139588",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718349288",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
