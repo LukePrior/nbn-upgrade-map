@@ -227,7 +227,7 @@ def update_historical_tech_and_upgrade_breakdown():
             breakdowns[date_key] = get_tech_and_upgrade_breakdown(checkout_dir)
             breakdown_suburbs[date_key] = breakdowns[date_key].pop("suburb_tech")
             utils.write_json_file(breakdown_file, breakdowns)  # save each time
-            utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs)  # save each time
+            utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs, indent=None)  # save each time
         co_date += timedelta(days=7)
 
     # print tech+upgrade breakdown
@@ -331,7 +331,7 @@ def fix_fw_tech_type_breakdowns():
         for state, suburb_list in date_info.items():
             for suburb, breakdown in suburb_list.items():
                 fix_tech_breakdown(breakdown)
-    utils.write_json_file("results/breakdown-suburbs.json", breakdowns)
+    utils.write_json_file("results/breakdown-suburbs.json", breakdowns, indent=None)
 
     # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
     generate_state_breakdown()
@@ -378,7 +378,7 @@ def update_breakdown():
         breakdowns[date_key] = get_tech_and_upgrade_breakdown()
         breakdown_suburbs[date_key] = breakdowns[date_key].pop("suburb_tech")
         utils.write_json_file(breakdown_file, breakdowns)
-        utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs)
+        utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs, indent=None)
 
     return breakdowns
 
