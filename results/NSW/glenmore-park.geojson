@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-14T00:23:54.501049",
+ "generated": "2025-05-07T06:15:44.468494",
  "suburb": "GLENMORE PARK",
  "features": [
   {
@@ -153,10 +153,10 @@
    "properties": {
     "name": "22 DUNNA PLACE GLENMORE PARK 2745",
     "locID": "LOC000074396049",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704796922",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -852,6 +852,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704810158",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67331164,
+     -33.78853514
+    ]
+   },
+   "properties": {
+    "name": "11 GUNARA TERRACE GLENMORE PARK 2745",
+    "locID": "LOC000002371553",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704810159",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -2955,9 +2973,12 @@
    "properties": {
     "name": "8 SUNBIRD TERRACE GLENMORE PARK 2745",
     "locID": "LOC000021400584",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704810292"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704810292",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4928,9 +4949,9 @@
     "name": "97 MURU DRIVE GLENMORE PARK 2745",
     "locID": "LOC000040245370",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704810667",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6184,7 +6205,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704810947",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -6577,8 +6598,11 @@
     "name": "12 WATERFORD WAY GLENMORE PARK 2745",
     "locID": "LOC000082714486",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704810969"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704810969",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7043,10 +7067,9 @@
    "properties": {
     "name": "71 SURVEYORS CREEK ROAD GLENMORE PARK 2745",
     "locID": "LOC000065070410",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704810999",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7063,9 +7086,12 @@
    "properties": {
     "name": "73 SURVEYORS CREEK ROAD GLENMORE PARK 2745",
     "locID": "LOC000009990755",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704811000"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704811000",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9553,7 +9579,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704812594",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9944,10 +9970,10 @@
    "properties": {
     "name": "3 JIMBUCK CLOSE GLENMORE PARK 2745",
     "locID": "LOC000036934791",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704813196",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10504,7 +10530,9 @@
     "locID": "LOC000054416761",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704813226"
+    "gnaf_pid": "GANSW704813226",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10939,6 +10967,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704813248",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67735111,
+     -33.78328896
+    ]
+   },
+   "properties": {
+    "name": "6 JIRRAMBA COURT GLENMORE PARK 2745",
+    "locID": "LOC000014181001",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704813249",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12189,7 +12236,7 @@
     "name": "12 WARI AVENUE GLENMORE PARK 2745",
     "locID": "LOC000080998193",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704813359",
     "tech_change_status": "Eligible to Order"
    }
@@ -12298,9 +12345,12 @@
    "properties": {
     "name": "19 WARI AVENUE GLENMORE PARK 2745",
     "locID": "LOC000087219536",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704813365"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704813365",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15959,7 +16009,9 @@
     "locID": "LOC000012220241",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704815148"
+    "gnaf_pid": "GANSW704815148",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16392,7 +16444,8 @@
     "locID": "LOC000072334389",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704815184"
+    "gnaf_pid": "GANSW704815184",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17354,7 +17407,7 @@
     "name": "23 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000003102707",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815505",
     "tech_change_status": "Eligible to Order"
    }
@@ -17807,9 +17860,9 @@
     "name": "63 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000014072294",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815530",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -19005,7 +19058,7 @@
     "name": "28 MURU DRIVE GLENMORE PARK 2745",
     "locID": "LOC000081911135",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815608",
     "tech_change_status": "Eligible to Order"
    }
@@ -19773,7 +19826,7 @@
     "name": "23 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000081236347",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815856",
     "tech_change_status": "Eligible to Order"
    }
@@ -19898,7 +19951,7 @@
     "name": "3 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000073485938",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815863",
     "tech_change_status": "Eligible to Order"
    }
@@ -19936,7 +19989,7 @@
     "name": "31 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000047107211",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815865",
     "tech_change_status": "Eligible to Order"
    }
@@ -20011,7 +20064,7 @@
     "name": "5 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000088053497",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815869",
     "tech_change_status": "Eligible to Order"
    }
@@ -20047,7 +20100,7 @@
     "name": "7 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000054416023",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704815871",
     "tech_change_status": "Eligible to Order"
    }
@@ -21062,9 +21115,12 @@
    "properties": {
     "name": "7 STEIN PLACE GLENMORE PARK 2745",
     "locID": "LOC000086135150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704815927"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704815927",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21103,6 +21159,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67757715,
+     -33.78006844
+    ]
+   },
+   "properties": {
+    "name": "15 WALLAN AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000086754603",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704815930",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21251,9 +21325,12 @@
    "properties": {
     "name": "19 STAPLES PLACE GLENMORE PARK 2745",
     "locID": "LOC000033924010",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704815938"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704815938",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21383,6 +21460,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704815946",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67475895,
+     -33.78890276
+    ]
+   },
+   "properties": {
+    "name": "10 WARGON CRESCENT GLENMORE PARK 2745",
+    "locID": "LOC000071311845",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704815947",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -21810,7 +21905,9 @@
     "locID": "LOC000102970048",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704815971"
+    "gnaf_pid": "GANSW704815971",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23652,7 +23749,9 @@
     "locID": "LOC000064521532",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704816357"
+    "gnaf_pid": "GANSW704816357",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23944,7 +24043,9 @@
     "locID": "LOC000008831275",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704816391"
+    "gnaf_pid": "GANSW704816391",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24275,10 +24376,10 @@
    "properties": {
     "name": "37 FRIARBIRD CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000076142812",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704816474",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24883,7 +24984,9 @@
     "locID": "LOC000096059820",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704816509"
+    "gnaf_pid": "GANSW704816509",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26652,7 +26755,9 @@
     "locID": "LOC000083946191",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704816620"
+    "gnaf_pid": "GANSW704816620",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27945,9 +28050,9 @@
     "name": "19 TORQUAY TERRACE GLENMORE PARK 2745",
     "locID": "LOC000083992814",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704817388",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28329,10 +28434,9 @@
    "properties": {
     "name": "37 DARA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000069381725",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704817720",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30202,10 +30306,10 @@
    "properties": {
     "name": "6 JESSUP PLACE GLENMORE PARK 2745",
     "locID": "LOC000100213375",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704818164",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30498,7 +30602,10 @@
     "locID": "LOC000038107776",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704818392"
+    "gnaf_pid": "GANSW704818392",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31537,7 +31644,7 @@
     "name": "11 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000063003021",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704818453",
     "tech_change_status": "Eligible to Order"
    }
@@ -32101,10 +32208,10 @@
    "properties": {
     "name": "19 PINEHURST AVENUE GLENMORE PARK 2745",
     "locID": "LOC000031731106",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704818486",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -32889,7 +32996,9 @@
     "locID": "LOC000085222808",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704818528"
+    "gnaf_pid": "GANSW704818528",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33488,7 +33597,7 @@
     "name": "8 WARI AVENUE GLENMORE PARK 2745",
     "locID": "LOC000091231078",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704818560",
     "tech_change_status": "Eligible to Order"
    }
@@ -33506,8 +33615,9 @@
     "name": "9 WARI AVENUE GLENMORE PARK 2745",
     "locID": "LOC000053372273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704818561"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704818561",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -35048,7 +35158,9 @@
     "locID": "LOC000097616310",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704818888"
+    "gnaf_pid": "GANSW704818888",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36727,7 +36839,9 @@
     "locID": "LOC000053466728",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704819018"
+    "gnaf_pid": "GANSW704819018",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36951,8 +37065,9 @@
     "name": "6 KALUA PLACE GLENMORE PARK 2745",
     "locID": "LOC000033790714",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704819084"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704819084",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -37931,9 +38046,12 @@
    "properties": {
     "name": "141 SIR JOHN JAMISON CIRCUIT GLENMORE PARK 2745",
     "locID": "LOC000065004811",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704819217"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704819217",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38066,7 +38184,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704819224",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38163,9 +38281,12 @@
    "properties": {
     "name": "18 ORMONDE CLOSE GLENMORE PARK 2745",
     "locID": "LOC000042948568",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704819229"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704819229",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39029,7 +39150,9 @@
     "locID": "LOC000105272946",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704819983"
+    "gnaf_pid": "GANSW704819983",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39067,6 +39190,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704819985",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66202902,
+     -33.79068536
+    ]
+   },
+   "properties": {
+    "name": "15 YELLOW GUM CLOSE GLENMORE PARK 2745",
+    "locID": "LOC000073453069",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704819986",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39331,7 +39474,47 @@
     "locID": "LOC000001509802",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704820945"
+    "gnaf_pid": "GANSW704820945",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67068429,
+     -33.7857214
+    ]
+   },
+   "properties": {
+    "name": "1 DEVANEY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000030884817",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704820946",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.6702412,
+     -33.78647581
+    ]
+   },
+   "properties": {
+    "name": "10 DEVANEY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000030884817",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704820947",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42871,10 +43054,10 @@
    "properties": {
     "name": "47 SUNNINGDALE DRIVE GLENMORE PARK 2745",
     "locID": "LOC000017355463",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704821148",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43703,10 +43886,10 @@
    "properties": {
     "name": "27 JILLAK CLOSE GLENMORE PARK 2745",
     "locID": "LOC000096033670",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704821406",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43939,10 +44122,9 @@
    "properties": {
     "name": "16 LADY JAMISON DRIVE GLENMORE PARK 2745",
     "locID": "LOC000074160117",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704821418",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44257,10 +44439,9 @@
    "properties": {
     "name": "4 JIMBI PLACE GLENMORE PARK 2745",
     "locID": "LOC000071096594",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704821438",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44734,7 +44915,9 @@
     "locID": "LOC000041198182",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704821465"
+    "gnaf_pid": "GANSW704821465",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45046,7 +45229,9 @@
     "locID": "LOC000050027256",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704821481"
+    "gnaf_pid": "GANSW704821481",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46960,6 +47145,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.68725469,
+     -33.79806205
+    ]
+   },
+   "properties": {
+    "name": "24 WATERFORD WAY GLENMORE PARK 2745",
+    "locID": "LOC000101688753",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704821808",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.68681052,
      -33.79824751
     ]
@@ -47258,9 +47463,10 @@
    "properties": {
     "name": "15 WATTLEBIRD CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000072570941",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704821841"
+    "gnaf_pid": "GANSW704821841",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -47423,10 +47629,9 @@
    "properties": {
     "name": "46 WOMRA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000035701678",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704822237",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48809,9 +49014,12 @@
    "properties": {
     "name": "23 CAMELLIA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000090473065",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704823307"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704823307",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49968,8 +50176,8 @@
    "properties": {
     "name": "39 BIJA DRIVE GLENMORE PARK 2745",
     "locID": "LOC000038111550",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704823707",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51214,7 +51422,9 @@
     "locID": "LOC000109990557",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704824596"
+    "gnaf_pid": "GANSW704824596",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53358,9 +53568,12 @@
    "properties": {
     "name": "9 ACACIA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000096352593",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704825669"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704825669",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54039,10 +54252,9 @@
    "properties": {
     "name": "25 ALSTON STREET GLENMORE PARK 2745",
     "locID": "LOC000101625880",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704825711",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55122,10 +55334,9 @@
    "properties": {
     "name": "32 DURALI ROAD GLENMORE PARK 2745",
     "locID": "LOC000087218270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704825766",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55479,10 +55690,10 @@
    "properties": {
     "name": "14 DUNNA PLACE GLENMORE PARK 2745",
     "locID": "LOC000075826555",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704825979",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55539,9 +55750,12 @@
    "properties": {
     "name": "13 HARRIETT CLOSE GLENMORE PARK 2745",
     "locID": "LOC000099490132",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704825982"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704825982",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -55596,10 +55810,9 @@
    "properties": {
     "name": "18 HARRIETT CLOSE GLENMORE PARK 2745",
     "locID": "LOC000010053382",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704825985",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55996,8 +56209,9 @@
     "name": "13 KOOKABURRA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000059082514",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704826007"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704826007",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -56012,10 +56226,9 @@
    "properties": {
     "name": "14 KOOKABURRA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000028629291",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704826008",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704826008"
    }
   },
   {
@@ -56962,8 +57175,11 @@
     "name": "UNIT 11, 39 REGENTVILLE ROAD GLENMORE PARK 2745",
     "locID": "LOC000007396062",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704826724"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704826724",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58784,8 +59000,9 @@
     "name": "3 TALARA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000086779119",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704826847"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704826847",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -59337,10 +59554,9 @@
    "properties": {
     "name": "17 WINDORRA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000075793935",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704826883",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59555,7 +59771,9 @@
     "locID": "LOC000003800857",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704826907"
+    "gnaf_pid": "GANSW704826907",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59670,7 +59888,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704826914",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60122,10 +60340,9 @@
    "properties": {
     "name": "4 CARNOUSTIE PLACE GLENMORE PARK 2745",
     "locID": "LOC000046884795",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704826953",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62267,10 +62484,9 @@
    "properties": {
     "name": "18 BUJAN STREET GLENMORE PARK 2745",
     "locID": "LOC000083173213",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828017",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62364,9 +62580,12 @@
    "properties": {
     "name": "23 BUJAN STREET GLENMORE PARK 2745",
     "locID": "LOC000093930054",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704828022"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704828022",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62445,6 +62664,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704828026",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66276063,
+     -33.78230828
+    ]
+   },
+   "properties": {
+    "name": "14 BUDGE CLOSE GLENMORE PARK 2745",
+    "locID": "LOC000009635635",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704828027",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62780,7 +63018,9 @@
     "locID": "LOC000043794013",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704828044"
+    "gnaf_pid": "GANSW704828044",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63563,7 +63803,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828288",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63584,6 +63824,25 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828289",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68308297,
+     -33.79393118
+    ]
+   },
+   "properties": {
+    "name": "14 BUNA CLOSE GLENMORE PARK 2745",
+    "locID": "LOC000026477184",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704828290",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64068,6 +64327,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.67765333,
+     -33.78706256
+    ]
+   },
+   "properties": {
+    "name": "10 BURRA CLOSE GLENMORE PARK 2745",
+    "locID": "LOC000088115230",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704828348",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.67758337,
      -33.78728906
     ]
@@ -64134,10 +64413,9 @@
    "properties": {
     "name": "4 AVALON CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000004034164",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828353",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64807,10 +65085,10 @@
    "properties": {
     "name": "22 BURSARIA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000086351835",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828387",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64886,10 +65164,9 @@
    "properties": {
     "name": "27 BURSARIA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000057629598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704828391",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65143,7 +65420,9 @@
     "locID": "LOC000062231734",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704828833"
+    "gnaf_pid": "GANSW704828833",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65921,7 +66200,10 @@
     "locID": "LOC000011548168",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704828995"
+    "gnaf_pid": "GANSW704828995",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -66911,9 +67193,12 @@
    "properties": {
     "name": "51 BURSARIA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000110161613",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829055"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704829055",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -67180,9 +67465,9 @@
     "name": "8 KOOKABURRA CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000063253499",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829292",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -67906,7 +68191,9 @@
     "locID": "LOC000093966738",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829333"
+    "gnaf_pid": "GANSW704829333",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68079,8 +68366,8 @@
    "properties": {
     "name": "20A KULAMAN CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000007302303",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704829342",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -68194,7 +68481,7 @@
     "name": "10 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000064689087",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829357",
     "tech_change_status": "Eligible to Order"
    }
@@ -68212,7 +68499,7 @@
     "name": "11 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000032398186",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829358",
     "tech_change_status": "Eligible to Order"
    }
@@ -68266,7 +68553,7 @@
     "name": "14 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000101000478",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829361",
     "tech_change_status": "Eligible to Order"
    }
@@ -68302,7 +68589,7 @@
     "name": "16 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000087249905",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829363",
     "tech_change_status": "Eligible to Order"
    }
@@ -68799,10 +69086,9 @@
    "properties": {
     "name": "4 MONTERAY TERRACE GLENMORE PARK 2745",
     "locID": "LOC000092350972",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704829402",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69185,10 +69471,9 @@
    "properties": {
     "name": "10 TALARA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000028207185",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704829423",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704829423"
    }
   },
   {
@@ -69222,9 +69507,9 @@
     "name": "9 REGENTVILLE ROAD GLENMORE PARK 2745",
     "locID": "LOC000107330354",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829425",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69500,6 +69785,25 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704829440",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.6705634,
+     -33.77973025
+    ]
+   },
+   "properties": {
+    "name": "8 RICHARDSON PLACE GLENMORE PARK 2745",
+    "locID": "LOC000052703915",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704829441",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70866,8 +71170,9 @@
     "name": "14 COCO DRIVE GLENMORE PARK 2745",
     "locID": "LOC000082119220",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829608"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704829608",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -71909,8 +72214,9 @@
     "name": "19 SORENSON CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000074146659",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829689"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704829689",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -72094,7 +72400,10 @@
     "locID": "LOC000043216825",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829699"
+    "gnaf_pid": "GANSW704829699",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72676,9 +72985,12 @@
    "properties": {
     "name": "11 YUROKA STREET GLENMORE PARK 2745",
     "locID": "LOC000064686916",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829746"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704829746",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72715,7 +73027,9 @@
     "locID": "LOC000088583960",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704829748"
+    "gnaf_pid": "GANSW704829748",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72849,9 +73163,12 @@
    "properties": {
     "name": "16 TANGLEWOOD PLACE GLENMORE PARK 2745",
     "locID": "LOC000066558335",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704830104"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704830104",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -73024,9 +73341,9 @@
     "name": "8 TANGLEWOOD PLACE GLENMORE PARK 2745",
     "locID": "LOC000088605568",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704830113",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74697,6 +75014,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704830610",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68388648,
+     -33.79326146
+    ]
+   },
+   "properties": {
+    "name": "14 BUJAN STREET GLENMORE PARK 2745",
+    "locID": "LOC000086766046",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704830611",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -76568,10 +76905,9 @@
    "properties": {
     "name": "4 TURNBERRY CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000046498805",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704831335",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -76668,8 +77004,11 @@
     "name": "9 TURNBERRY CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000166637304",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704831340"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704831340",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -76834,7 +77173,7 @@
     "name": "6 BOLDERO CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000081150876",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704831426",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -78227,10 +78566,10 @@
    "properties": {
     "name": "56 KENNETH SLESSOR DRIVE GLENMORE PARK 2745",
     "locID": "LOC000110088220",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704831515",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79082,9 +79421,12 @@
    "properties": {
     "name": "8 ORMONDE CLOSE GLENMORE PARK 2745",
     "locID": "LOC000044448320",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704831568"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704831568",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -81116,9 +81458,12 @@
    "properties": {
     "name": "26 BUTCHERBIRD PLACE GLENMORE PARK 2745",
     "locID": "LOC000096588270",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704831684"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704831684",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -81697,7 +82042,9 @@
     "locID": "LOC000048565831",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704831896"
+    "gnaf_pid": "GANSW704831896",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -82751,7 +83098,7 @@
     "name": "33 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000030542794",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704831963",
     "tech_change_status": "Eligible to Order"
    }
@@ -83083,7 +83430,7 @@
     "name": "7 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000076702439",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704831981",
     "tech_change_status": "Eligible to Order"
    }
@@ -83119,7 +83466,7 @@
     "name": "9 KUMBARA CLOSE GLENMORE PARK 2745",
     "locID": "LOC000023932304",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704831983",
     "tech_change_status": "Eligible to Order"
    }
@@ -84347,7 +84694,9 @@
     "locID": "LOC000041738932",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704832243"
+    "gnaf_pid": "GANSW704832243",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -85714,10 +86063,10 @@
    "properties": {
     "name": "45 PARDALOTE PLACE GLENMORE PARK 2745",
     "locID": "LOC000031380564",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704832319",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86686,9 +87035,12 @@
    "properties": {
     "name": "12 TARRABUNDI DRIVE GLENMORE PARK 2745",
     "locID": "LOC000007912726",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704832714"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704832714",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -87567,9 +87919,12 @@
    "properties": {
     "name": "12 WITTAMA DRIVE GLENMORE PARK 2745",
     "locID": "LOC000002249427",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704832763"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704832763",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -87624,9 +87979,12 @@
    "properties": {
     "name": "15 WITTAMA DRIVE GLENMORE PARK 2745",
     "locID": "LOC000058212379",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704832766"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704832766",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -87973,10 +88331,9 @@
    "properties": {
     "name": "10 WOLARA AVENUE GLENMORE PARK 2745",
     "locID": "LOC000028735037",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704832790",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87996,6 +88353,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704832791",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68236316,
+     -33.78275326
+    ]
+   },
+   "properties": {
+    "name": "12 WOLARA AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000013108248",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704832792",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -88113,7 +88490,9 @@
     "locID": "LOC000066668045",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704832806"
+    "gnaf_pid": "GANSW704832806",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -88520,10 +88899,10 @@
    "properties": {
     "name": "74 SIR JOHN JAMISON CIRCUIT GLENMORE PARK 2745",
     "locID": "LOC000064960485",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704832882",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88615,6 +88994,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704833205",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67375934,
+     -33.78966635
+    ]
+   },
+   "properties": {
+    "name": "14 BULU DRIVE GLENMORE PARK 2745",
+    "locID": "LOC000014165075",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704833206",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -89643,8 +90040,9 @@
     "name": "6 DORRINGTON PLACE GLENMORE PARK 2745",
     "locID": "LOC000013200710",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704833263"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704833263",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -89884,10 +90282,10 @@
    "properties": {
     "name": "5 HARPUR CLOSE GLENMORE PARK 2745",
     "locID": "LOC000075734585",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704833276",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90309,7 +90707,8 @@
     "locID": "LOC000086218808",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834026"
+    "gnaf_pid": "GANSW704834026",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -91105,7 +91504,29 @@
     "locID": "LOC000043513188",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834102"
+    "gnaf_pid": "GANSW704834102",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66797608,
+     -33.79544708
+    ]
+   },
+   "properties": {
+    "name": "10 CORVUS CLOSE GLENMORE PARK 2745",
+    "locID": "LOC000094102535",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704834103",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -91711,9 +92132,12 @@
    "properties": {
     "name": "9 GERANIUM CLOSE GLENMORE PARK 2745",
     "locID": "LOC000088166183",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834134"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704834134",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -92317,9 +92741,12 @@
    "properties": {
     "name": "8 BANGU PLACE GLENMORE PARK 2745",
     "locID": "LOC000043743557",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834249"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704834249",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -92821,9 +93248,12 @@
    "properties": {
     "name": "14 BUTCHERBIRD PLACE GLENMORE PARK 2745",
     "locID": "LOC000046458573",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834278"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704834278",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -92877,10 +93307,9 @@
    "properties": {
     "name": "17 BUTCHERBIRD PLACE GLENMORE PARK 2745",
     "locID": "LOC000093659566",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704834281",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94237,8 +94666,9 @@
     "name": "8 BEAL PLACE GLENMORE PARK 2745",
     "locID": "LOC000061809415",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834454"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704834454",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -95874,8 +96304,9 @@
     "name": "3 COCO DRIVE GLENMORE PARK 2745",
     "locID": "LOC000058985324",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834714"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704834714",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -96022,9 +96453,11 @@
    "properties": {
     "name": "UNIT 4, 5 GILMORE CLOSE GLENMORE PARK 2745",
     "locID": "LOC000047705119",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704834797"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704834797",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -98160,8 +98593,8 @@
    "properties": {
     "name": "7 BUNDA PLACE GLENMORE PARK 2745",
     "locID": "LOC000071607251",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704835852",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -98240,9 +98673,12 @@
    "properties": {
     "name": "11 BUNDELUK CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000036853775",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704836495"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704836495",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -99215,7 +99651,9 @@
     "locID": "LOC000015502467",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704836557"
+    "gnaf_pid": "GANSW704836557",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -100760,8 +101198,9 @@
     "name": "9 VIOLA PLACE GLENMORE PARK 2745",
     "locID": "LOC000072493104",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704838321"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704838321",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -100948,7 +101387,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704838331",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -101505,7 +101944,9 @@
     "locID": "LOC000029606716",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704845827"
+    "gnaf_pid": "GANSW704845827",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101904,8 +102345,9 @@
     "name": "10 VIOLA PLACE GLENMORE PARK 2745",
     "locID": "LOC000026381022",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704849118"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704849118",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -102401,10 +102843,9 @@
    "properties": {
     "name": "17 FITZGERALD PLACE GLENMORE PARK 2745",
     "locID": "LOC100057571670",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW707495906",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW707495906"
    }
   },
   {
@@ -103473,10 +103914,9 @@
    "properties": {
     "name": "2 SMALL CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000009652852",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712759114",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -104504,7 +104944,9 @@
     "locID": "LOC000040326975",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712776342"
+    "gnaf_pid": "GANSW712776342",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -104676,9 +105118,12 @@
    "properties": {
     "name": "27 WOODLANDS DRIVE GLENMORE PARK 2745",
     "locID": "LOC000008146169",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712782855"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW712782855",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -105028,7 +105473,9 @@
     "locID": "LOC000008978503",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712788817"
+    "gnaf_pid": "GANSW712788817",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -105658,7 +106105,9 @@
     "locID": "LOC000094518808",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712804241"
+    "gnaf_pid": "GANSW712804241",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -105751,10 +106200,9 @@
    "properties": {
     "name": "17B FITZGERALD PLACE GLENMORE PARK 2745",
     "locID": "LOC100057571670",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW712804819",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712804819"
    }
   },
   {
@@ -106355,9 +106803,12 @@
    "properties": {
     "name": "8B SCRUBWREN PLACE GLENMORE PARK 2745",
     "locID": "LOC000040115435",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712820855"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW712820855",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106451,8 +106902,8 @@
    "properties": {
     "name": "14 GILES CLOSE GLENMORE PARK 2745",
     "locID": "LOC000097477338",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712821336",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -109169,9 +109620,12 @@
    "properties": {
     "name": "6 WOODBROOK GROVE GLENMORE PARK 2745",
     "locID": "LOC000077699485",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715693000"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW715693000",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109343,10 +109797,10 @@
    "properties": {
     "name": "1 LAUREL COURT GLENMORE PARK 2745",
     "locID": "LOC000083994090",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715943912",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109562,6 +110016,25 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716292660",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66633702,
+     -33.79061602
+    ]
+   },
+   "properties": {
+    "name": "51 CANDLEBARK CIRCUIT GLENMORE PARK 2745",
+    "locID": "LOC000029764705",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716301657",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109900,7 +110373,7 @@
     "name": "9 MARI CLOSE GLENMORE PARK 2745",
     "locID": "LOC000014576998",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716334683",
     "tech_change_status": "Eligible to Order"
    }
@@ -110304,9 +110777,12 @@
    "properties": {
     "name": "142 RIDGETOP DRIVE GLENMORE PARK 2745",
     "locID": "LOC000005012961",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716352139"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW716352139",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -112408,8 +112884,9 @@
     "name": "20 PARAKEET GROVE GLENMORE PARK 2745",
     "locID": "LOC000051448916",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716447684"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW716447684",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -113320,9 +113797,12 @@
    "properties": {
     "name": "9 FAIRWATER COURT GLENMORE PARK 2745",
     "locID": "LOC000021407936",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716732094"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW716732094",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -114600,9 +115080,9 @@
     "name": "19 CARTWRIGHT PLACE GLENMORE PARK 2745",
     "locID": "LOC000033963004",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716871464",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115036,10 +115516,9 @@
    "properties": {
     "name": "18 LEHMANN AVENUE GLENMORE PARK 2745",
     "locID": "LOC000033159011",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716878792",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716878792"
    }
   },
   {
@@ -117645,10 +118124,9 @@
    "properties": {
     "name": "14 BERRIL PLACE GLENMORE PARK 2745",
     "locID": "LOC000097973269",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716890683",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -117856,9 +118334,11 @@
    "properties": {
     "name": "UNIT 13, 113 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166635766",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716942427"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW716942427",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -118679,7 +119159,7 @@
     "name": "10 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166635628",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942471",
     "tech_change_status": "Eligible to Order"
    }
@@ -118891,7 +119371,7 @@
     "name": "14 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166636085",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942482",
     "tech_change_status": "Eligible to Order"
    }
@@ -118929,7 +119409,7 @@
     "name": "16 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000022875452",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942484",
     "tech_change_status": "Eligible to Order"
    }
@@ -118967,7 +119447,7 @@
     "name": "18 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166636118",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942486",
     "tech_change_status": "Eligible to Order"
    }
@@ -119468,7 +119948,7 @@
     "name": "4 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166636295",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942514",
     "tech_change_status": "Eligible to Order"
    }
@@ -119783,7 +120263,9 @@
     "locID": "LOC000166636586",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716942530"
+    "gnaf_pid": "GANSW716942530",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -119839,7 +120321,7 @@
     "name": "6 THE LAKES DRIVE GLENMORE PARK 2745",
     "locID": "LOC000166636501",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716942533",
     "tech_change_status": "Eligible to Order"
    }
@@ -122410,9 +122892,12 @@
    "properties": {
     "name": "143 RIDGETOP DRIVE GLENMORE PARK 2745",
     "locID": "LOC000057759815",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717629537"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717629537",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -122840,6 +123325,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717633547",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66653113,
+     -33.78799918
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 47 CAMELLIA AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000009674871",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717633548",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -123352,6 +123856,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717668044",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.66682467,
+     -33.78729072
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 47 CAMELLIA AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000009674871",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717668045",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -125243,9 +125766,12 @@
    "properties": {
     "name": "27-29 WOODLANDS DRIVE GLENMORE PARK 2745",
     "locID": "LOC000008146169",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717839841"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717839841",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -125627,10 +126153,10 @@
    "properties": {
     "name": "7 KUMA PLACE GLENMORE PARK 2745",
     "locID": "LOC000093176650",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717907212",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126557,10 +127083,9 @@
    "properties": {
     "name": "UNIT 2, 17B FITZGERALD PLACE GLENMORE PARK 2745",
     "locID": "LOC100057571670",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718193105",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718193105"
    }
   },
   {
@@ -132074,9 +132599,12 @@
    "properties": {
     "name": "11 GALLINULLA PLACE GLENMORE PARK 2745",
     "locID": "LOC000166624243",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718494403"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW718494403",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -132516,6 +133044,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718494865"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68115723,
+     -33.80063026
+    ]
+   },
+   "properties": {
+    "name": "119 GLENMORE RIDGE DRIVE GLENMORE PARK 2745",
+    "locID": "LOC000117491926",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718494866"
    }
   },
   {
@@ -134269,6 +134814,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718495963"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68628149,
+     -33.80582793
+    ]
+   },
+   "properties": {
+    "name": "20 HIGHDALE TERRACE GLENMORE PARK 2745",
+    "locID": "LOC000117954802",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718495964"
    }
   },
   {
@@ -137545,7 +138107,9 @@
     "locID": "LOC000121947274",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718505111"
+    "gnaf_pid": "GANSW718505111",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -141400,9 +141964,11 @@
    "properties": {
     "name": "UNIT 20, 380 GLENMORE PARKWAY GLENMORE PARK 2745",
     "locID": "LOC000166625146",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718664092"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718664092",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -141707,6 +142273,23 @@
     "gnaf_pid": "GANSW718664108",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67851496,
+     -33.80534801
+    ]
+   },
+   "properties": {
+    "name": "154 BLUESTONE DRIVE GLENMORE PARK 2745",
+    "locID": "LOC000137915519",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718684836"
    }
   },
   {
@@ -147802,10 +148385,9 @@
    "properties": {
     "name": "UNIT 2, 2 SMALL CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000009652852",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719153107",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -147917,10 +148499,9 @@
    "properties": {
     "name": "UNIT 1, 2 SMALL CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000009652852",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719153114",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -148302,8 +148883,11 @@
     "name": "UNIT 2, 9 TURNBERRY CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000166637304",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719162356"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719162356",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -148395,8 +148979,11 @@
     "name": "UNIT 1, 9 TURNBERRY CRESCENT GLENMORE PARK 2745",
     "locID": "LOC000166637304",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719162362"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719162362",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -148679,6 +149266,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719167017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.70064705,
+     -33.78708073
+    ]
+   },
+   "properties": {
+    "name": "13 GARSWOOD ROAD GLENMORE PARK 2745",
+    "locID": "LOC000166618754",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719167018"
    }
   },
   {
@@ -151652,6 +152256,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.68233637,
+     -33.80405033
+    ]
+   },
+   "properties": {
+    "name": "19 PARKWAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC000136187513",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719354891"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.69220647,
      -33.80588375
     ]
@@ -154530,9 +155151,11 @@
    "properties": {
     "name": "SHOP 6, 19-31 TOWN TERRACE GLENMORE PARK 2745",
     "locID": "LOC000166637169",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719843069"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719843069",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -156269,6 +156892,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720086622"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67114668,
+     -33.80441579
+    ]
+   },
+   "properties": {
+    "name": "144 FORESTWOOD DRIVE GLENMORE PARK 2745",
+    "locID": "LOC000178767214",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720086963"
    }
   },
   {
@@ -160357,6 +160997,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.68623768,
+     -33.80899746
+    ]
+   },
+   "properties": {
+    "name": "6 SHORTHORN AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729591",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720999420"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.66158142,
      -33.78892983
     ]
@@ -160483,6 +161140,142 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721359996"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68856839,
+     -33.80889075
+    ]
+   },
+   "properties": {
+    "name": "6 PINEWOOD AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729570",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721437277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68812903,
+     -33.80894311
+    ]
+   },
+   "properties": {
+    "name": "27 CHARBRAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729543",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721441884"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68850462,
+     -33.80901182
+    ]
+   },
+   "properties": {
+    "name": "8 PINEWOOD AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729618",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721441977"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68861499,
+     -33.80866095
+    ]
+   },
+   "properties": {
+    "name": "2 PINEWOOD AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729618",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721442164"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68808919,
+     -33.8093348
+    ]
+   },
+   "properties": {
+    "name": "24 CHARBRAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729558",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721442218"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.688301,
+     -33.80894513
+    ]
+   },
+   "properties": {
+    "name": "29 CHARBRAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729562",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721444579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.6879274,
+     -33.80932815
+    ]
+   },
+   "properties": {
+    "name": "22 CHARBRAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729543",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721448845"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68742032,
+     -33.80911242
+    ]
+   },
+   "properties": {
+    "name": "2 CHARBRAY AVENUE GLENMORE PARK 2745",
+    "locID": "LOC100089729543",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721458961"
    }
   },
   {
