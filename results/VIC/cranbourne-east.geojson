@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-13T12:18:24.252827",
+ "generated": "2025-05-07T02:00:46.703205",
  "suburb": "CRANBOURNE EAST",
  "features": [
   {
@@ -788,8 +788,9 @@
     "name": "1635 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000107759823",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419684521"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419684521",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -878,9 +879,12 @@
    "properties": {
     "name": "11 JAGGER CIRCUIT CRANBOURNE EAST 3977",
     "locID": "LOC000052040546",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419714577"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419714577",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1902,9 +1906,12 @@
    "properties": {
     "name": "2 WOODCHASE COURT CRANBOURNE EAST 3977",
     "locID": "LOC000066843835",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419762091"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC419762091",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1959,9 +1966,12 @@
    "properties": {
     "name": "7 WOODCHASE COURT CRANBOURNE EAST 3977",
     "locID": "LOC000073406614",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419762094"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC419762094",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2765,9 +2775,12 @@
    "properties": {
     "name": "15 GATEHOUSE PARADE CRANBOURNE EAST 3977",
     "locID": "LOC000056293503",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419888628"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419888628",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3554,6 +3567,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420038631",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.292794,
+     -38.116933
+    ]
+   },
+   "properties": {
+    "name": "18 SINATRA WAY CRANBOURNE EAST 3977",
+    "locID": "LOC000029309175",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420038632",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4837,6 +4869,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29752,
+     -38.103443
+    ]
+   },
+   "properties": {
+    "name": "9 MANOR COURT CRANBOURNE EAST 3977",
+    "locID": "LOC000011177305",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420193673",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.299167,
      -38.101446
     ]
@@ -5193,7 +5245,9 @@
     "locID": "LOC000071653606",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420317687"
+    "gnaf_pid": "GAVIC420317687",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6391,10 +6445,10 @@
    "properties": {
     "name": "25 HORSHAM DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000032912961",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420361272",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6961,10 +7015,10 @@
    "properties": {
     "name": "9 CROMWELL LANE CRANBOURNE EAST 3977",
     "locID": "LOC000067744968",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420481609",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7123,7 +7177,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420490706",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8724,10 +8778,10 @@
    "properties": {
     "name": "4 FOXWOOD DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000028926212",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420778975",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9394,9 +9448,12 @@
    "properties": {
     "name": "14 BUTTERWICK TERRACE CRANBOURNE EAST 3977",
     "locID": "LOC000073446233",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420927642"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420927642",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9513,7 +9570,9 @@
     "locID": "LOC000162756445",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420941173"
+    "gnaf_pid": "GAVIC420941173",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10738,8 +10797,8 @@
    "properties": {
     "name": "29 SCOTSDALE DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000049089892",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421074819",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10817,10 +10876,10 @@
    "properties": {
     "name": "6 MANOR COURT CRANBOURNE EAST 3977",
     "locID": "LOC000080895276",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421081179",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11109,10 +11168,9 @@
    "properties": {
     "name": "2 JAGGER CIRCUIT CRANBOURNE EAST 3977",
     "locID": "LOC000050548644",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421210218",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12873,9 +12931,10 @@
    "properties": {
     "name": "15 GARDEN STREET CRANBOURNE EAST 3977",
     "locID": "LOC000058131933",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421297951"
+    "gnaf_pid": "GAVIC421297951",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13735,10 +13794,9 @@
    "properties": {
     "name": "5 GATWICK COURT CRANBOURNE EAST 3977",
     "locID": "LOC000027609445",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421483570",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14908,6 +14966,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.296094,
+     -38.101497
+    ]
+   },
+   "properties": {
+    "name": "2 SADDLE CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC000098045981",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421573942",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.298659,
      -38.097412
     ]
@@ -15034,8 +15112,9 @@
     "name": "1360 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000020196773",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421589330"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421589330",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -15388,8 +15467,8 @@
    "properties": {
     "name": "16 FETLOCK LANE CRANBOURNE EAST 3977",
     "locID": "LOC000062785087",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421671996",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16221,10 +16300,10 @@
    "properties": {
     "name": "45 DARTMOOR DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000096941850",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421861715",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17855,9 +17934,12 @@
    "properties": {
     "name": "2 ASTON GLADE CRANBOURNE EAST 3977",
     "locID": "LOC000069805940",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422028683"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC422028683",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17973,7 +18055,9 @@
     "locID": "LOC000007676267",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422031589"
+    "gnaf_pid": "GAVIC422031589",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18970,10 +19054,10 @@
    "properties": {
     "name": "44 HUNT CLUB BOULEVARD CRANBOURNE EAST 3977",
     "locID": "LOC000067997208",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422096462",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19267,7 +19351,9 @@
     "locID": "LOC000017565218",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422097799"
+    "gnaf_pid": "GAVIC422097799",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19282,9 +19368,12 @@
    "properties": {
     "name": "1 KENNELS LANE CRANBOURNE EAST 3977",
     "locID": "LOC000106881842",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422097917"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422097917",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19417,7 +19506,9 @@
     "locID": "LOC000109831399",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422118922"
+    "gnaf_pid": "GAVIC422118922",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19589,10 +19680,10 @@
    "properties": {
     "name": "6 ASTON GLADE CRANBOURNE EAST 3977",
     "locID": "LOC000028531373",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422124591",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19767,8 +19858,8 @@
    "properties": {
     "name": "16 BRIARCREST DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000057237082",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422130697",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19809,6 +19900,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422130699",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29487808,
+     -38.10744125
+    ]
+   },
+   "properties": {
+    "name": "22 BRIARCREST DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC000077119769",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC422130700",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -20166,7 +20277,10 @@
     "locID": "LOC000022054564",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422132946"
+    "gnaf_pid": "GAVIC422132946",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20904,8 +21018,8 @@
    "properties": {
     "name": "7 FIANDER CLOSE CRANBOURNE EAST 3977",
     "locID": "LOC000040089281",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422146376",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21940,6 +22054,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30485211,
+     -38.1007934
+    ]
+   },
+   "properties": {
+    "name": "8 BARNBY GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC000011971455",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422276251",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30452224,
      -38.10060349
     ]
@@ -21967,9 +22100,11 @@
    "properties": {
     "name": "105 BERWICK-CRANBOURNE ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000176618824",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422277744"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422277744",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22220,9 +22355,12 @@
    "properties": {
     "name": "13 DUNLAVIN WAY CRANBOURNE EAST 3977",
     "locID": "LOC000088766984",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422288336"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422288336",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22237,9 +22375,12 @@
    "properties": {
     "name": "15 DUNLAVIN WAY CRANBOURNE EAST 3977",
     "locID": "LOC000007102982",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422288337"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC422288337",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22532,7 +22673,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422289807",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23048,6 +23189,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422290790",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30117085,
+     -38.09811473
+    ]
+   },
+   "properties": {
+    "name": "1A FIANDER CLOSE CRANBOURNE EAST 3977",
+    "locID": "LOC000046601960",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422290876",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23655,7 +23815,9 @@
     "locID": "LOC000006025082",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422325910"
+    "gnaf_pid": "GAVIC422325910",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24536,9 +24698,12 @@
    "properties": {
     "name": "16 THURVASTON CRESCENT CRANBOURNE EAST 3977",
     "locID": "LOC000059295467",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422328934"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422328934",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24753,7 +24918,9 @@
     "locID": "LOC000030241115",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422332965"
+    "gnaf_pid": "GAVIC422332965",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24768,9 +24935,12 @@
    "properties": {
     "name": "17 WEATHERTOP WAY CRANBOURNE EAST 3977",
     "locID": "LOC000023454805",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422332966"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422332966",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24826,7 +24996,9 @@
     "locID": "LOC000020161098",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422332969"
+    "gnaf_pid": "GAVIC422332969",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24920,10 +25092,10 @@
    "properties": {
     "name": "3 WINTON RETREAT CRANBOURNE EAST 3977",
     "locID": "LOC000048000232",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422334692",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25000,7 +25172,9 @@
     "locID": "LOC000071174469",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422334696"
+    "gnaf_pid": "GAVIC422334696",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25055,10 +25229,9 @@
    "properties": {
     "name": "5 ARMOY CLOSE CRANBOURNE EAST 3977",
     "locID": "LOC000007843173",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422377133",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28727,9 +28900,11 @@
    "properties": {
     "name": "11 MADDIE COURT CRANBOURNE EAST 3977",
     "locID": "LOC000095875961",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423555653"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423555653",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -28839,9 +29014,11 @@
    "properties": {
     "name": "1 MADDIE COURT CRANBOURNE EAST 3977",
     "locID": "LOC000004647507",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423555659"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423555659",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -29756,9 +29933,12 @@
    "properties": {
     "name": "12 WOODHENGE CLOSE CRANBOURNE EAST 3977",
     "locID": "LOC000049076966",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423715385"
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC423715385",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31222,6 +31402,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30297655,
+     -38.1119437
+    ]
+   },
+   "properties": {
+    "name": "9 MADDOCK DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC000022571887",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC423754028",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30234695,
      -38.11035995
     ]
@@ -31808,7 +32008,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423758122",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32557,10 +32757,9 @@
    "properties": {
     "name": "23 BRADFORD DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000053897810",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423788006",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40841,6 +41040,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30075041,
+     -38.10807469
+    ]
+   },
+   "properties": {
+    "name": "87 BROAD OAK DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC000089662897",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424021915",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30072444,
      -38.10818326
     ]
@@ -48704,6 +48923,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31390158,
+     -38.10080699
+    ]
+   },
+   "properties": {
+    "name": "7 YAMMERBOOK WAY CRANBOURNE EAST 3977",
+    "locID": "LOC000002820220",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424370824"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31400563,
      -38.100528
     ]
@@ -50228,7 +50464,8 @@
     "locID": "LOC000060088281",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424444175"
+    "gnaf_pid": "GAVIC424444175",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -52103,6 +52340,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424454815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.32202028,
+     -38.09851551
+    ]
+   },
+   "properties": {
+    "name": "14 STARLIGHT RISE CRANBOURNE EAST 3977",
+    "locID": "LOC000008556379",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424454816"
    }
   },
   {
@@ -54651,7 +54905,8 @@
     "locID": "LOC000113002277",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424483920"
+    "gnaf_pid": "GAVIC424483920",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -54687,6 +54942,24 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424483922",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30850104,
+     -38.10418666
+    ]
+   },
+   "properties": {
+    "name": "16 AQUITANE DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714211",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424483923",
     "tech_change_status": "Not Planned"
    }
   },
@@ -54776,7 +55049,8 @@
     "locID": "LOC000047526246",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424483943"
+    "gnaf_pid": "GAVIC424483943",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -55557,6 +55831,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.307611,
+     -38.10557421
+    ]
+   },
+   "properties": {
+    "name": "12 CARNAVON STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714461",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424487385",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.3075883,
      -38.10586311
     ]
@@ -55620,7 +55912,8 @@
     "locID": "LOC000102191953",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424487389"
+    "gnaf_pid": "GAVIC424487389",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -60762,6 +61055,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30865055,
+     -38.10367611
+    ]
+   },
+   "properties": {
+    "name": "15 WILTSHIRE AVENUE CRANBOURNE EAST 3977",
+    "locID": "LOC000125918508",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424634505",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30898484,
      -38.10398146
     ]
@@ -63631,9 +63942,11 @@
    "properties": {
     "name": "10 JAKARA STREET CRANBOURNE EAST 3977",
     "locID": "LOC000163206917",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424686975"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424686975",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63736,6 +64049,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31822704,
+     -38.11981061
+    ]
+   },
+   "properties": {
+    "name": "1 LEONGATHA COURT CRANBOURNE EAST 3977",
+    "locID": "LOC000163206993",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424687156",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31840479,
      -38.11982907
     ]
@@ -63819,9 +64151,11 @@
    "properties": {
     "name": "1 LOUIE COURT CRANBOURNE EAST 3977",
     "locID": "LOC000163207093",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424687204"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424687204",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63931,9 +64265,11 @@
    "properties": {
     "name": "10 OCEAN STREET CRANBOURNE EAST 3977",
     "locID": "LOC000163207436",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424687644"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424687644",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -66446,7 +66782,8 @@
     "locID": "LOC000125926594",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424712597"
+    "gnaf_pid": "GAVIC424712597",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -67860,6 +68197,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.32263558,
+     -38.09751958
+    ]
+   },
+   "properties": {
+    "name": "87 DONOHUE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC000125908898",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424748207"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.32281589,
      -38.09754099
     ]
@@ -68349,6 +68703,204 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30867955,
+     -38.10893653
+    ]
+   },
+   "properties": {
+    "name": "10 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714230",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778524",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30883382,
+     -38.10895507
+    ]
+   },
+   "properties": {
+    "name": "12 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714248",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778525",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30934861,
+     -38.1090169
+    ]
+   },
+   "properties": {
+    "name": "16 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714276",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778526",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30953135,
+     -38.10903885
+    ]
+   },
+   "properties": {
+    "name": "18 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714282",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778527",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30847,
+     -38.10920299
+    ]
+   },
+   "properties": {
+    "name": "25 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714295",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778529",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30863698,
+     -38.10922304
+    ]
+   },
+   "properties": {
+    "name": "27 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714314",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778530",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3087921,
+     -38.10924168
+    ]
+   },
+   "properties": {
+    "name": "29 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714333",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778531",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30894469,
+     -38.10926
+    ]
+   },
+   "properties": {
+    "name": "31 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714322",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778532",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30908151,
+     -38.10927644
+    ]
+   },
+   "properties": {
+    "name": "33 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714351",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778533",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30921145,
+     -38.10929205
+    ]
+   },
+   "properties": {
+    "name": "35 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714346",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778534",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30933462,
+     -38.10930684
+    ]
+   },
+   "properties": {
+    "name": "37 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714367",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778535",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30948117,
      -38.10932444
     ]
@@ -68359,6 +68911,42 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424778536",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30963585,
+     -38.1093977
+    ]
+   },
+   "properties": {
+    "name": "41 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714379",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778537",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30851268,
+     -38.10891649
+    ]
+   },
+   "properties": {
+    "name": "8 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714253",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424778538",
     "tech_change_status": "Not Planned"
    }
   },
@@ -71839,6 +72427,132 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31059963,
+     -38.10492738
+    ]
+   },
+   "properties": {
+    "name": "228 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714529",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874725",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31057321,
+     -38.10505177
+    ]
+   },
+   "properties": {
+    "name": "230 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714555",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874726",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31054678,
+     -38.10517615
+    ]
+   },
+   "properties": {
+    "name": "232 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714540",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874727",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31051846,
+     -38.10530942
+    ]
+   },
+   "properties": {
+    "name": "234 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714564",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874728",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31049015,
+     -38.1054427
+    ]
+   },
+   "properties": {
+    "name": "236 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714572",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874729",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31046372,
+     -38.10556708
+    ]
+   },
+   "properties": {
+    "name": "238 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714586",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874730",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3104373,
+     -38.10569147
+    ]
+   },
+   "properties": {
+    "name": "240 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714593",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424874731",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30990013,
      -38.10821979
     ]
@@ -72037,6 +72751,114 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30974376,
+     -38.10507875
+    ]
+   },
+   "properties": {
+    "name": "3 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714604",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875081",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3096721,
+     -38.10536159
+    ]
+   },
+   "properties": {
+    "name": "4 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714627",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875082",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30996027,
+     -38.10510747
+    ]
+   },
+   "properties": {
+    "name": "5 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714615",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875083",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30987782,
+     -38.10538888
+    ]
+   },
+   "properties": {
+    "name": "6 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714636",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875084",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31017962,
+     -38.10508176
+    ]
+   },
+   "properties": {
+    "name": "7 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714643",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875085",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31008575,
+     -38.10547127
+    ]
+   },
+   "properties": {
+    "name": "8 CHIEF COURT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714658",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424875086",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31502874,
      -38.11689193
     ]
@@ -72211,6 +73033,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30926601,
+     -38.10586506
+    ]
+   },
+   "properties": {
+    "name": "23 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC000125891222",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878058",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30921613,
      -38.10568885
     ]
@@ -72221,6 +73061,168 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424878059",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30918582,
+     -38.10549844
+    ]
+   },
+   "properties": {
+    "name": "27 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715027",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878060",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30918361,
+     -38.10531491
+    ]
+   },
+   "properties": {
+    "name": "29 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715043",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878061",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30924372,
+     -38.1049943
+    ]
+   },
+   "properties": {
+    "name": "31 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715036",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878063",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30931285,
+     -38.10482003
+    ]
+   },
+   "properties": {
+    "name": "33 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715058",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878064",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30940323,
+     -38.10422969
+    ]
+   },
+   "properties": {
+    "name": "34 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715089",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878065",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30951454,
+     -38.1045368
+    ]
+   },
+   "properties": {
+    "name": "35 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715062",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878066",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3096091,
+     -38.104257
+    ]
+   },
+   "properties": {
+    "name": "36 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715091",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878068",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30972859,
+     -38.10456519
+    ]
+   },
+   "properties": {
+    "name": "37 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715070",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878069",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30980593,
+     -38.10428311
+    ]
+   },
+   "properties": {
+    "name": "38 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715101",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424878070",
     "tech_change_status": "Not Planned"
    }
   },
@@ -73378,6 +74380,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.32283373,
+     -38.09998731
+    ]
+   },
+   "properties": {
+    "name": "37 MAEVE CIRCUIT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715309",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424883756"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31029973,
      -38.10640402
     ]
@@ -74228,7 +75247,8 @@
     "locID": "LOC000125875518",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424891172"
+    "gnaf_pid": "GAVIC424891172",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -78037,7 +79057,8 @@
     "locID": "LOC000125919368",
     "tech": "NULL",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424963018"
+    "gnaf_pid": "GAVIC424963018",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -81261,6 +82282,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30710049,
+     -38.10155367
+    ]
+   },
+   "properties": {
+    "name": "10 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714749",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081852",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30673541,
      -38.10180143
     ]
@@ -81279,6 +82318,258 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30694711,
+     -38.10153524
+    ]
+   },
+   "properties": {
+    "name": "12 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714754",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081854",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30657465,
+     -38.10178212
+    ]
+   },
+   "properties": {
+    "name": "13 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714783",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081855",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30680591,
+     -38.10151828
+    ]
+   },
+   "properties": {
+    "name": "14 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714765",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081856",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30635948,
+     -38.10174476
+    ]
+   },
+   "properties": {
+    "name": "15 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714777",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081857",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30662273,
+     -38.10149627
+    ]
+   },
+   "properties": {
+    "name": "16 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714796",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081858",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30619811,
+     -38.10166085
+    ]
+   },
+   "properties": {
+    "name": "17 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714810",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081859",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30627501,
+     -38.10130106
+    ]
+   },
+   "properties": {
+    "name": "18 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714806",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081860",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30606827,
+     -38.10156662
+    ]
+   },
+   "properties": {
+    "name": "19 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714823",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081861",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30640085,
+     -38.10119279
+    ]
+   },
+   "properties": {
+    "name": "20 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714847",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081862",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30593593,
+     -38.10147057
+    ]
+   },
+   "properties": {
+    "name": "21 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714834",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081863",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3065254,
+     -38.10108563
+    ]
+   },
+   "properties": {
+    "name": "22 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714868",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081864",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30682859,
+     -38.1007184
+    ]
+   },
+   "properties": {
+    "name": "23 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714852",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081865",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30663972,
+     -38.10098727
+    ]
+   },
+   "properties": {
+    "name": "24 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714881",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081866",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30792384,
+     -38.10165258
+    ]
+   },
+   "properties": {
+    "name": "2 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714670",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081867",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30738695,
      -38.10187971
     ]
@@ -81289,6 +82580,276 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425081868",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30777214,
+     -38.10163436
+    ]
+   },
+   "properties": {
+    "name": "4 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714691",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081869",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30720566,
+     -38.10185793
+    ]
+   },
+   "properties": {
+    "name": "5 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714689",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081870",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30762876,
+     -38.10161713
+    ]
+   },
+   "properties": {
+    "name": "6 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714708",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081871",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30703695,
+     -38.10183766
+    ]
+   },
+   "properties": {
+    "name": "7 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714720",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081872",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30747197,
+     -38.1015983
+    ]
+   },
+   "properties": {
+    "name": "8 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714712",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081873",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30688797,
+     -38.10181976
+    ]
+   },
+   "properties": {
+    "name": "9 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714731",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425081874",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30796114,
+     -38.10242224
+    ]
+   },
+   "properties": {
+    "name": "69 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715753",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091710",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30771277,
+     -38.10208923
+    ]
+   },
+   "properties": {
+    "name": "70 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715776",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091711",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30805058,
+     -38.10228068
+    ]
+   },
+   "properties": {
+    "name": "71 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715805",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091712",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30779809,
+     -38.10194952
+    ]
+   },
+   "properties": {
+    "name": "72 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715795",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091713",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30811782,
+     -38.10217368
+    ]
+   },
+   "properties": {
+    "name": "73 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715782",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091714",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30818271,
+     -38.10206486
+    ]
+   },
+   "properties": {
+    "name": "75 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715814",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091715",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30823977,
+     -38.10196272
+    ]
+   },
+   "properties": {
+    "name": "77 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715822",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091716",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30829489,
+     -38.10185722
+    ]
+   },
+   "properties": {
+    "name": "79 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715867",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091717",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30835169,
+     -38.10174002
+    ]
+   },
+   "properties": {
+    "name": "81 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715851",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091718",
     "tech_change_status": "Not Planned"
    }
   },
@@ -81428,6 +82989,42 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425168118"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30918798,
+     -38.10899761
+    ]
+   },
+   "properties": {
+    "name": "14 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714269",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425221983",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30972321,
+     -38.10900722
+    ]
+   },
+   "properties": {
+    "name": "20 ARROW ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714305",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425221984",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -82217,6 +83814,168 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30705286,
+     -38.10075585
+    ]
+   },
+   "properties": {
+    "name": "25 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714899",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225078",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30700486,
+     -38.10104627
+    ]
+   },
+   "properties": {
+    "name": "26 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714875",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225079",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30719262,
+     -38.10079084
+    ]
+   },
+   "properties": {
+    "name": "27 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714913",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225080",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3072096,
+     -38.10109752
+    ]
+   },
+   "properties": {
+    "name": "28 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714932",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225081",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30733622,
+     -38.10082678
+    ]
+   },
+   "properties": {
+    "name": "29 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714909",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225082",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30773713,
+     -38.1007923
+    ]
+   },
+   "properties": {
+    "name": "31 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714921",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225083",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30768025,
+     -38.10090517
+    ]
+   },
+   "properties": {
+    "name": "33 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714950",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225084",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30763267,
+     -38.10101662
+    ]
+   },
+   "properties": {
+    "name": "35 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714945",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225085",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30758885,
+     -38.10114138
+    ]
+   },
+   "properties": {
+    "name": "37 DASH DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714966",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425225086",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30753721,
      -38.10129839
     ]
@@ -82779,6 +84538,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30858196,
+     -38.10121114
+    ]
+   },
+   "properties": {
+    "name": "1 SAMSON GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715585",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425232055",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30846063,
+     -38.10148388
+    ]
+   },
+   "properties": {
+    "name": "2 SAMSON GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715603",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425232056",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.3087495,
      -38.10126892
     ]
@@ -82789,6 +84584,96 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425232057",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30862465,
+     -38.10154043
+    ]
+   },
+   "properties": {
+    "name": "4 SAMSON GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715626",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425232058",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30808554,
+     -38.10134254
+    ]
+   },
+   "properties": {
+    "name": "76 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715846",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425234174",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30813035,
+     -38.1012142
+    ]
+   },
+   "properties": {
+    "name": "78 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715833",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425234175",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30818285,
+     -38.10107853
+    ]
+   },
+   "properties": {
+    "name": "80 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715879",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425234176",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3082407,
+     -38.10096171
+    ]
+   },
+   "properties": {
+    "name": "82 STATELY DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715880",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425234177",
     "tech_change_status": "Not Planned"
    }
   },
@@ -86049,6 +87934,132 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30991649,
+     -38.10229666
+    ]
+   },
+   "properties": {
+    "name": "10 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715275",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313293",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30960897,
+     -38.10196808
+    ]
+   },
+   "properties": {
+    "name": "3 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715193",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313294",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30941927,
+     -38.10223694
+    ]
+   },
+   "properties": {
+    "name": "4 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715206",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313295",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30977889,
+     -38.10198849
+    ]
+   },
+   "properties": {
+    "name": "5 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715210",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313296",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30957601,
+     -38.10225576
+    ]
+   },
+   "properties": {
+    "name": "6 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715234",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313297",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30993661,
+     -38.10200744
+    ]
+   },
+   "properties": {
+    "name": "7 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715223",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313298",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3097444,
+     -38.10227599
+    ]
+   },
+   "properties": {
+    "name": "8 HEADLAND WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715247",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425313299",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30550711,
      -38.12209862
     ]
@@ -86410,6 +88421,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30880316,
+     -38.10160126
+    ]
+   },
+   "properties": {
+    "name": "6 SAMSON GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715635",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425319686",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30909523,
      -38.10138739
     ]
@@ -86420,6 +88449,312 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425319687",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30897092,
+     -38.10165911
+    ]
+   },
+   "properties": {
+    "name": "8 SAMSON GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715642",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425319688",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30901915,
+     -38.10235201
+    ]
+   },
+   "properties": {
+    "name": "15 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715898",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321569",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30865991,
+     -38.1022793
+    ]
+   },
+   "properties": {
+    "name": "16 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715908",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321570",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30909178,
+     -38.10222067
+    ]
+   },
+   "properties": {
+    "name": "17 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715912",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321571",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30872883,
+     -38.10215802
+    ]
+   },
+   "properties": {
+    "name": "18 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715920",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321572",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30924044,
+     -38.10191737
+    ]
+   },
+   "properties": {
+    "name": "19 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715949",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321573",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30880288,
+     -38.10201739
+    ]
+   },
+   "properties": {
+    "name": "20 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715931",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321574",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30930772,
+     -38.10177078
+    ]
+   },
+   "properties": {
+    "name": "21 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715954",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321575",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30885988,
+     -38.10190039
+    ]
+   },
+   "properties": {
+    "name": "22 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715965",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321576",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30936577,
+     -38.10164431
+    ]
+   },
+   "properties": {
+    "name": "23 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715977",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321577",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30942186,
+     -38.10152209
+    ]
+   },
+   "properties": {
+    "name": "25 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715983",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321578",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30947789,
+     -38.10140002
+    ]
+   },
+   "properties": {
+    "name": "27 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715996",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321579",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30979813,
+     -38.1015044
+    ]
+   },
+   "properties": {
+    "name": "29 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716003",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321580",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30995564,
+     -38.10154648
+    ]
+   },
+   "properties": {
+    "name": "31 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716035",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321581",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31012663,
+     -38.10158421
+    ]
+   },
+   "properties": {
+    "name": "33 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716019",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321582",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31029703,
+     -38.10161388
+    ]
+   },
+   "properties": {
+    "name": "35 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716026",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321583",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31026225,
+     -38.10189849
+    ]
+   },
+   "properties": {
+    "name": "37 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716042",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321584",
     "tech_change_status": "Not Planned"
    }
   },
@@ -86446,6 +88781,78 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.3106864,
+     -38.1015727
+    ]
+   },
+   "properties": {
+    "name": "40 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716061",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321586",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31024396,
+     -38.10235182
+    ]
+   },
+   "properties": {
+    "name": "41 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716074",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321587",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31064863,
+     -38.10175696
+    ]
+   },
+   "properties": {
+    "name": "42 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716088",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321588",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31024428,
+     -38.10248642
+    ]
+   },
+   "properties": {
+    "name": "43 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716100",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321589",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31063057,
      -38.10188105
     ]
@@ -86456,6 +88863,60 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425321590",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31061824,
+     -38.10200734
+    ]
+   },
+   "properties": {
+    "name": "46 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716116",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321591",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31061189,
+     -38.10213414
+    ]
+   },
+   "properties": {
+    "name": "48 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716137",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321592",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31061006,
+     -38.1022591
+    ]
+   },
+   "properties": {
+    "name": "50 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716163",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425321593",
     "tech_change_status": "Not Planned"
    }
   },
@@ -87539,6 +90000,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29866177,
+     -38.10846183
+    ]
+   },
+   "properties": {
+    "name": "96 SCOTSDALE DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC000141475261",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425365273"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29883003,
      -38.10848206
     ]
@@ -87931,6 +90409,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30970156,
+     -38.10301481
+    ]
+   },
+   "properties": {
+    "name": "11 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714419",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398949",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30991437,
      -38.10273899
     ]
@@ -87941,6 +90437,42 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425398950",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30984161,
+     -38.10302363
+    ]
+   },
+   "properties": {
+    "name": "13 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714435",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398951",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31000498,
+     -38.10303688
+    ]
+   },
+   "properties": {
+    "name": "15 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714442",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398952",
     "tech_change_status": "Not Planned"
    }
   },
@@ -87967,6 +90499,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30920094,
+     -38.10297676
+    ]
+   },
+   "properties": {
+    "name": "5 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714403",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398954",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30943804,
      -38.10270899
     ]
@@ -87977,6 +90527,60 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425398955",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30939856,
+     -38.10299573
+    ]
+   },
+   "properties": {
+    "name": "7 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714398",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398956",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30958742,
+     -38.1027184
+    ]
+   },
+   "properties": {
+    "name": "8 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC000114101486",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398957",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30954138,
+     -38.10300472
+    ]
+   },
+   "properties": {
+    "name": "9 BARTER CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089714426",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425398958",
     "tech_change_status": "Not Planned"
    }
   },
@@ -88182,6 +90786,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425399576"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29339551,
+     -38.12404485
+    ]
+   },
+   "properties": {
+    "name": "23 CANOPY GROVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714457",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425399577"
    }
   },
   {
@@ -88920,6 +91541,168 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31025163,
+     -38.10262581
+    ]
+   },
+   "properties": {
+    "name": "45 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716090",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404400",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31026977,
+     -38.10278503
+    ]
+   },
+   "properties": {
+    "name": "47 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716128",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404402",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3103245,
+     -38.10308233
+    ]
+   },
+   "properties": {
+    "name": "49 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716159",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404403",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31033702,
+     -38.10322706
+    ]
+   },
+   "properties": {
+    "name": "51 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716144",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404404",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31061873,
+     -38.10264142
+    ]
+   },
+   "properties": {
+    "name": "56 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716185",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404405",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31063427,
+     -38.10276618
+    ]
+   },
+   "properties": {
+    "name": "58 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716192",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404406",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31065656,
+     -38.10289
+    ]
+   },
+   "properties": {
+    "name": "60 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716205",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404407",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3106845,
+     -38.10303293
+    ]
+   },
+   "properties": {
+    "name": "62 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716246",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404408",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31069948,
+     -38.10317179
+    ]
+   },
+   "properties": {
+    "name": "64 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716214",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425404409",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31070243,
      -38.10328877
     ]
@@ -89023,6 +91806,114 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31076339,
+     -38.10415659
+    ]
+   },
+   "properties": {
+    "name": "216 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714474",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462737",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31073838,
+     -38.10427431
+    ]
+   },
+   "properties": {
+    "name": "218 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714488",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462738",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31071054,
+     -38.10440537
+    ]
+   },
+   "properties": {
+    "name": "220 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714501",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462739",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31068081,
+     -38.1045453
+    ]
+   },
+   "properties": {
+    "name": "222 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714490",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462740",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3106506,
+     -38.10468746
+    ]
+   },
+   "properties": {
+    "name": "224 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714538",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462741",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31062229,
+     -38.10482074
+    ]
+   },
+   "properties": {
+    "name": "226 CASEY FIELDS BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC100089714517",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425462742",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30991974,
      -38.10459053
     ]
@@ -89033,6 +91924,132 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425464590",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30988091,
+     -38.10395703
+    ]
+   },
+   "properties": {
+    "name": "40 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715129",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464591",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31009965,
+     -38.10461439
+    ]
+   },
+   "properties": {
+    "name": "41 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715138",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464592",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31028891,
+     -38.10463949
+    ]
+   },
+   "properties": {
+    "name": "43 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715140",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464594",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31017068,
+     -38.10433452
+    ]
+   },
+   "properties": {
+    "name": "45 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715172",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464596",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31019868,
+     -38.10420273
+    ]
+   },
+   "properties": {
+    "name": "47 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715155",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464597",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3102237,
+     -38.104085
+    ]
+   },
+   "properties": {
+    "name": "49 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715164",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464598",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31024871,
+     -38.10396728
+    ]
+   },
+   "properties": {
+    "name": "51 FABLE WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715186",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425464599",
     "tech_change_status": "Not Planned"
    }
   },
@@ -89595,6 +92612,204 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425470000"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31062463,
+     -38.10388469
+    ]
+   },
+   "properties": {
+    "name": "10 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715711",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470275",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31080444,
+     -38.10390854
+    ]
+   },
+   "properties": {
+    "name": "12 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715769",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470276",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31067404,
+     -38.10356236
+    ]
+   },
+   "properties": {
+    "name": "13 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715724",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470277",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31086207,
+     -38.1035873
+    ]
+   },
+   "properties": {
+    "name": "15 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715730",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470278",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30942386,
+     -38.10376456
+    ]
+   },
+   "properties": {
+    "name": "2 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715657",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470279",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30944932,
+     -38.10344078
+    ]
+   },
+   "properties": {
+    "name": "3 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715661",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470280",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3095958,
+     -38.10377545
+    ]
+   },
+   "properties": {
+    "name": "4 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715674",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470281",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30963152,
+     -38.10345233
+    ]
+   },
+   "properties": {
+    "name": "5 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715688",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470282",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30980242,
+     -38.10346315
+    ]
+   },
+   "properties": {
+    "name": "7 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715707",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470283",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.30996191,
+     -38.10347325
+    ]
+   },
+   "properties": {
+    "name": "9 SARGENT STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715690",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425470284",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31033398,
+     -38.10336792
+    ]
+   },
+   "properties": {
+    "name": "53 TANKARD DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089716171",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425471214",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -99751,6 +102966,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29981222,
+     -38.12487158
+    ]
+   },
+   "properties": {
+    "name": "11 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715384",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425681224"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29979638,
+     -38.12495169
+    ]
+   },
+   "properties": {
+    "name": "13 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715397",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425681225"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.299911,
      -38.12438884
     ]
@@ -99795,6 +103044,40 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425681228"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29984304,
+     -38.12471581
+    ]
+   },
+   "properties": {
+    "name": "7 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715332",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425681229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29982719,
+     -38.12479592
+    ]
+   },
+   "properties": {
+    "name": "9 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715366",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425681230"
    }
   },
   {
@@ -100873,6 +104156,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29211398,
+     -38.12538001
+    ]
+   },
+   "properties": {
+    "name": "19 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715460",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687889"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29229114,
      -38.12540346
     ]
@@ -100941,6 +104241,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29258077,
+     -38.1254418
+    ]
+   },
+   "properties": {
+    "name": "25 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715494",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687894"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29189784,
+     -38.12564373
+    ]
+   },
+   "properties": {
+    "name": "26 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715487",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687895"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.2927298,
      -38.12546152
     ]
@@ -100992,6 +104326,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29228027,
+     -38.12569435
+    ]
+   },
+   "properties": {
+    "name": "30 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715500",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29310098,
+     -38.12551065
+    ]
+   },
+   "properties": {
+    "name": "31 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715516",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.2924771,
      -38.1257204
     ]
@@ -101002,6 +104370,40 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425687901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29328966,
+     -38.12553484
+    ]
+   },
+   "properties": {
+    "name": "33A ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715571",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687902"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29331791,
+     -38.12539208
+    ]
+   },
+   "properties": {
+    "name": "33B ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715563",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687903"
    }
   },
   {
@@ -101036,6 +104438,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425687905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29295795,
+     -38.12578405
+    ]
+   },
+   "properties": {
+    "name": "36A ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715592",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687906"
    }
   },
   {
@@ -101104,6 +104523,74 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425687910"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.2937933,
+     -38.12583274
+    ]
+   },
+   "properties": {
+    "name": "44 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715537",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687911"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29374151,
+     -38.12563227
+    ]
+   },
+   "properties": {
+    "name": "46 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715544",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687912"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29366445,
+     -38.1255076
+    ]
+   },
+   "properties": {
+    "name": "48 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715528",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29369074,
+     -38.12537474
+    ]
+   },
+   "properties": {
+    "name": "50 ROYALOAK CRESCENT CRANBOURNE EAST 3977",
+    "locID": "LOC100089715559",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425687914"
    }
   },
   {
@@ -102284,6 +105771,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31110326,
+     -38.09827189
+    ]
+   },
+   "properties": {
+    "name": "11 KINKADE CLOSE CRANBOURNE EAST 3977",
+    "locID": "LOC000144021096",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425736061"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31128603,
      -38.09829613
     ]
@@ -103314,6 +106818,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425736696"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29977751,
+     -38.12503149
+    ]
+   },
+   "properties": {
+    "name": "15 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715418",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425737991"
    }
   },
   {
@@ -104495,6 +108016,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31092267,
+     -38.10086623
+    ]
+   },
+   "properties": {
+    "name": "44 SERPELLS WAY CRANBOURNE EAST 3977",
+    "locID": "LOC100089715748",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425742263",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30991742,
      -38.09888117
     ]
@@ -105260,6 +108799,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.2989059,
+     -38.12493642
+    ]
+   },
+   "properties": {
+    "name": "54 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714102",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772641"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29829114,
+     -38.12512649
+    ]
+   },
+   "properties": {
+    "name": "55 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714139",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772642"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29896885,
      -38.12482221
     ]
@@ -105294,6 +108867,91 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29901257,
+     -38.12472246
+    ]
+   },
+   "properties": {
+    "name": "58 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714141",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772645"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29840836,
+     -38.12491377
+    ]
+   },
+   "properties": {
+    "name": "59 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714156",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772646"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29903679,
+     -38.12463421
+    ]
+   },
+   "properties": {
+    "name": "60 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714160",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772647"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.2984721,
+     -38.12479812
+    ]
+   },
+   "properties": {
+    "name": "61 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714173",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772648"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29905266,
+     -38.1245541
+    ]
+   },
+   "properties": {
+    "name": "62 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714187",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772649"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29855149,
      -38.12465274
     ]
@@ -105304,6 +108962,57 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425772650"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29906765,
+     -38.12447844
+    ]
+   },
+   "properties": {
+    "name": "64 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714207",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29859194,
+     -38.12449039
+    ]
+   },
+   "properties": {
+    "name": "65 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714194",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29908352,
+     -38.12439834
+    ]
+   },
+   "properties": {
+    "name": "66 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714224",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425772653"
    }
   },
   {
@@ -106844,6 +110553,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31032226,
+     -38.09962948
+    ]
+   },
+   "properties": {
+    "name": "23 GENEVIEVE CIRCUIT CRANBOURNE EAST 3977",
+    "locID": "LOC000146899969",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425779940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30945777,
      -38.10020905
     ]
@@ -108306,6 +112032,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29827807,
+     -38.12416443
+    ]
+   },
+   "properties": {
+    "name": "74 LINEHAM DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715268",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425782673"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29843583,
      -38.1241839
     ]
@@ -108316,6 +112059,57 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425782674"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29862819,
+     -38.12420765
+    ]
+   },
+   "properties": {
+    "name": "78 LINEHAM DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715299",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425782675"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29938774,
+     -38.12431964
+    ]
+   },
+   "properties": {
+    "name": "82 LINEHAM DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715281",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425782676"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29943885,
+     -38.12487743
+    ]
+   },
+   "properties": {
+    "name": "10 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715378",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425783099"
    }
   },
   {
@@ -108340,6 +112134,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29975526,
+     -38.12514397
+    ]
+   },
+   "properties": {
+    "name": "17 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715402",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425783101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29954544,
+     -38.1243395
+    ]
+   },
+   "properties": {
+    "name": "2 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715313",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425783102"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29951708,
+     -38.12448263
+    ]
+   },
+   "properties": {
+    "name": "4 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715345",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425783103"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29949084,
      -38.12461503
     ]
@@ -108350,6 +112195,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425783104"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29946615,
+     -38.12473963
+    ]
+   },
+   "properties": {
+    "name": "8 MAGGIE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715350",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425783105"
    }
   },
   {
@@ -113102,6 +116964,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30337738,
+     -38.12114286
+    ]
+   },
+   "properties": {
+    "name": "107 NELSON STREET CRANBOURNE EAST 3977",
+    "locID": "LOC000144965809",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425826592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.303601,
      -38.12252313
     ]
@@ -114720,6 +118599,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29846989,
+     -38.12611552
+    ]
+   },
+   "properties": {
+    "name": "42 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714125",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719001771"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30359708,
      -38.1200532
     ]
@@ -115291,6 +119187,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719013243"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29844165,
+     -38.12625827
+    ]
+   },
+   "properties": {
+    "name": "40 ADRIAN STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089714118",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719014012"
    }
   },
   {
@@ -117252,6 +121165,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719101425"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29594431,
+     -38.09427128
+    ]
+   },
+   "properties": {
+    "name": "8 MARSHY AVENUE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715425",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719101449"
    }
   },
   {
@@ -119349,6 +123279,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719113786"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31661931,
+     -38.10991038
+    ]
+   },
+   "properties": {
+    "name": "97 FIORELLI BOULEVARD CRANBOURNE EAST 3977",
+    "locID": "LOC000172830696",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719113791"
    }
   },
   {
@@ -129243,7 +133190,8 @@
     "locID": "LOC000175622345",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719534817"
+    "gnaf_pid": "GAVIC719534817",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -136180,6 +140128,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29271435,
+     -38.11839871
+    ]
+   },
+   "properties": {
+    "name": "143 ELMSLIE DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089714978",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719972242",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30479021,
      -38.12811013
     ]
@@ -136650,6 +140616,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29003152,
+     -38.11804428
+    ]
+   },
+   "properties": {
+    "name": "171 ELMSLIE DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715004",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719976652",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29948041,
      -38.100528
     ]
@@ -137051,6 +141035,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29210338,
+     -38.11884968
+    ]
+   },
+   "properties": {
+    "name": "11 REDDING STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715473",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719982280",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30500928,
      -38.12756291
     ]
@@ -137085,23 +141087,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.29299948,
-     -38.11948182
-    ]
-   },
-   "properties": {
-    "name": "58 ANNABELLA STREET CRANBOURNE EAST 3977",
-    "locID": "LOC000195688421",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719983259"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.30345361,
      -38.12787428
     ]
@@ -137112,6 +141097,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719983704"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29204694,
+     -38.11904564
+    ]
+   },
+   "properties": {
+    "name": "10 MERCURY ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089715441",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719983998",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -137607,6 +141610,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.29017217,
+     -38.11806271
+    ]
+   },
+   "properties": {
+    "name": "169 ELMSLIE DRIVE CRANBOURNE EAST 3977",
+    "locID": "LOC100089715015",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719988913",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29941917,
      -38.10081735
     ]
@@ -137671,6 +141692,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719989602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.2913364,
+     -38.11875877
+    ]
+   },
+   "properties": {
+    "name": "9 HENDRIX STREET CRANBOURNE EAST 3977",
+    "locID": "LOC100089715252",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719989660",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -137792,6 +141831,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719991806"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.29049463,
+     -38.1188547
+    ]
+   },
+   "properties": {
+    "name": "26 MERCURY ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089715439",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719991929",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -139511,6 +143568,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.2990304,
+     -38.09281881
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 26 BALES ROAD CRANBOURNE EAST 3977",
+    "locID": "LOC100089328771",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720055149"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.30768334,
      -38.13068052
     ]
@@ -140558,6 +144632,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720062367"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3093031,
+     -38.12874692
+    ]
+   },
+   "properties": {
+    "name": "9 MAIDEN MEWS CRANBOURNE EAST 3977",
+    "locID": "LOC000191754211",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720062368"
    }
   },
   {
@@ -145095,6 +149186,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.31408293,
+     -38.12885883
+    ]
+   },
+   "properties": {
+    "name": "18 SUNSTONE STREET CRANBOURNE EAST 3977",
+    "locID": "LOC000184506259",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720355751"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.31337739,
      -38.13048591
     ]
@@ -149152,6 +153260,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720762175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.31000538,
+     -38.1283957
+    ]
+   },
+   "properties": {
+    "name": "8 NEWMARKET STREET CRANBOURNE EAST 3977",
+    "locID": "LOC000191754398",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720762443"
    }
   },
   {
@@ -154992,6 +159117,23 @@
     "gnaf_pid": "GAVIC721040176",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.28998004,
+     -38.12134491
+    ]
+   },
+   "properties": {
+    "name": "UNIT 166, 45 ANNABELLA STREET CRANBOURNE EAST 3977",
+    "locID": "LOC000134171597",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721040190"
    }
   },
   {

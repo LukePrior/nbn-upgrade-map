@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-13T15:14:25.585408",
+ "generated": "2025-05-07T02:42:25.814579",
  "suburb": "NEWTOWN",
  "features": [
   {
@@ -1001,7 +1001,7 @@
     "name": "84 SAFFRON STREET NEWTOWN 3220",
     "locID": "LOC000044836483",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411994873",
     "tech_change_status": "Eligible to Order"
    }
@@ -15022,10 +15022,9 @@
    "properties": {
     "name": "123 ABERDEEN STREET NEWTOWN 3220",
     "locID": "LOC000059639646",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423054877",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19606,7 +19605,7 @@
     "name": "66 CLARKE STREET NEWTOWN 3220",
     "locID": "LOC000085376965",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423064871",
     "tech_change_status": "Eligible to Order"
    }
@@ -23962,7 +23961,7 @@
     "name": "306A PAKINGTON STREET NEWTOWN 3220",
     "locID": "LOC000030983087",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423085763",
     "tech_change_status": "Eligible to Order"
    }
@@ -24547,8 +24546,9 @@
     "name": "25 PESCOTT STREET NEWTOWN 3220",
     "locID": "LOC000086607774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423087084"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC423087084",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27431,7 +27431,9 @@
     "locID": "LOC000083387652",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423091157"
+    "gnaf_pid": "GAVIC423091157",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27954,10 +27956,9 @@
    "properties": {
     "name": "UNIT 2, 2 STINTON AVENUE NEWTOWN 3220",
     "locID": "LOC000013603414",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423093469",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27996,7 +27997,10 @@
     "locID": "LOC000073910025",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423093471"
+    "gnaf_pid": "GAVIC423093471",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28031,10 +28035,9 @@
    "properties": {
     "name": "2 STINTON AVENUE NEWTOWN 3220",
     "locID": "LOC000013603414",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423093473",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36940,10 +36943,10 @@
    "properties": {
     "name": "20 AUSTIN STREET NEWTOWN 3220",
     "locID": "LOC000011083657",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423437477",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38158,26 +38161,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423437540",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.32214469,
-     -38.14004481
-    ]
-   },
-   "properties": {
-    "name": "365 AUTUMN STREET NEWTOWN 3220",
-    "locID": "LOC000066680732",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC423437541",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44457,10 +44440,9 @@
    "properties": {
     "name": "29 CAMDEN ROAD NEWTOWN 3220",
     "locID": "LOC000048228897",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423443223",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423443223"
    }
   },
   {
@@ -46931,7 +46913,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423446772",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51990,10 +51972,9 @@
    "properties": {
     "name": "39 FAIRVIEW AVENUE NEWTOWN 3220",
     "locID": "LOC000060687739",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423454587",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423454587"
    }
   },
   {
@@ -54397,10 +54378,9 @@
    "properties": {
     "name": "10 GAYLARD AVENUE NEWTOWN 3220",
     "locID": "LOC000076910373",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC423458053",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423458053"
    }
   },
   {
@@ -59312,10 +59292,9 @@
    "properties": {
     "name": "32 MARSHALL STREET NEWTOWN 3220",
     "locID": "LOC000030254679",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423473947",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423473947"
    }
   },
   {
@@ -59330,10 +59309,9 @@
    "properties": {
     "name": "34 MARSHALL STREET NEWTOWN 3220",
     "locID": "LOC000021885684",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423473948",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423473948"
    }
   },
   {
@@ -61687,10 +61665,10 @@
    "properties": {
     "name": "30 NANTES STREET NEWTOWN 3220",
     "locID": "LOC000039118803",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423477225",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63190,10 +63168,9 @@
    "properties": {
     "name": "59 NICHOLAS STREET NEWTOWN 3220",
     "locID": "LOC000036836889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423478225",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66104,9 +66081,9 @@
     "name": "65 NOBLE STREET NEWTOWN 3220",
     "locID": "LOC000065654326",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423478635",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66981,7 +66958,7 @@
     "name": "292 PAKINGTON STREET NEWTOWN 3220",
     "locID": "LOC000090797305",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423479907",
     "tech_change_status": "Eligible to Order"
    }
@@ -71281,10 +71258,9 @@
    "properties": {
     "name": "41 RETREAT ROAD NEWTOWN 3220",
     "locID": "LOC000102049768",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423484567",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423484567"
    }
   },
   {
@@ -71584,10 +71560,9 @@
    "properties": {
     "name": "9 RETREAT ROAD NEWTOWN 3220",
     "locID": "LOC000080465190",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423484584",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423484584"
    }
   },
   {
@@ -75722,10 +75697,9 @@
    "properties": {
     "name": "356 SHANNON AVENUE NEWTOWN 3220",
     "locID": "LOC000032758822",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC423487244",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423487244"
    }
   },
   {
@@ -80844,8 +80818,8 @@
    "properties": {
     "name": "49 STINTON AVENUE NEWTOWN 3220",
     "locID": "LOC000057199814",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423491576",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -85088,10 +85062,9 @@
    "properties": {
     "name": "20 WEST FYANS STREET NEWTOWN 3220",
     "locID": "LOC000021840608",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423499844",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423499844"
    }
   },
   {
@@ -90481,10 +90454,10 @@
    "properties": {
     "name": "227 PITFIELD-SCARSDALE ROAD NEWTOWN 3351",
     "locID": "LOC000100269131",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423892059",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -90753,9 +90726,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423928800",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -106099,10 +106070,9 @@
    "properties": {
     "name": "391A AUTUMN STREET NEWTOWN 3220",
     "locID": "LOC000181794555",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720051141",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -108995,6 +108965,74 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.32209987,
+     -38.14003982
+    ]
+   },
+   "properties": {
+    "name": "365B AUTUMN STREET NEWTOWN 3220",
+    "locID": "LOC000196576357",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544898"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.32617864,
+     -38.15656848
+    ]
+   },
+   "properties": {
+    "name": "5A CRAIGIE ROAD NEWTOWN 3220",
+    "locID": "LOC000196257620",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547875"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.32218542,
+     -38.14005194
+    ]
+   },
+   "properties": {
+    "name": "365A AUTUMN STREET NEWTOWN 3220",
+    "locID": "LOC000196576342",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551104"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.32608749,
+     -38.15655763
+    ]
+   },
+   "properties": {
+    "name": "5B CRAIGIE ROAD NEWTOWN 3220",
+    "locID": "LOC000196257631",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551148"
    }
   }
  ]
