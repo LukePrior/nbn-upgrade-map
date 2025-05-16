@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-16T04:42:34.976014",
+ "generated": "2025-05-16T11:28:20.140384",
  "suburb": "ST ALBANS",
  "features": [
   {
@@ -5466,7 +5466,7 @@
     "name": "9 MOONSTONE CIRCUIT ST ALBANS 3021",
     "locID": "LOC000096530316",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412358474",
     "tech_change_status": "Eligible to Order"
    }
@@ -13546,10 +13546,9 @@
    "properties": {
     "name": "18 MOONSTONE CIRCUIT ST ALBANS 3021",
     "locID": "LOC000021945440",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC412377632",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412377632"
    }
   },
   {
@@ -14061,7 +14060,7 @@
     "name": "23 MOONSTONE CIRCUIT ST ALBANS 3021",
     "locID": "LOC000056867396",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412378897",
     "tech_change_status": "Eligible to Order"
    }
@@ -18449,10 +18448,10 @@
    "properties": {
     "name": "22A NEWCOMBE DRIVE ST ALBANS 3021",
     "locID": "LOC000111613839",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412820751",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54887,6 +54886,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419869430"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.807933,
+     -37.735307
+    ]
+   },
+   "properties": {
+    "name": "16 HENRY STREET ST ALBANS 3021",
+    "locID": "LOC000196369640",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419869432"
    }
   },
   {
@@ -95177,7 +95193,7 @@
     "name": "133 MOONSTONE CIRCUIT ST ALBANS 3021",
     "locID": "LOC000036665713",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420450346",
     "tech_change_status": "Eligible to Order"
    }
@@ -96999,23 +97015,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420452208"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.80366119,
-     -37.74204129
-    ]
-   },
-   "properties": {
-    "name": "8 MCIVOR ROAD ST ALBANS 3021",
-    "locID": "LOC000103608133",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420452209"
    }
   },
   {
@@ -140141,10 +140140,9 @@
    "properties": {
     "name": "16 SCOTT AVENUE ST ALBANS 3021",
     "locID": "LOC000029631124",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420816434",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -157501,23 +157499,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.80315959,
-     -37.74365408
-    ]
-   },
-   "properties": {
-    "name": "8 ERICA AVENUE ST ALBANS 3021",
-    "locID": "LOC000085210194",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421084454"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.803228,
      -37.743249
     ]
@@ -166417,10 +166398,9 @@
    "properties": {
     "name": "2 GLENDENNING STREET ST ALBANS 3021",
     "locID": "LOC000066315610",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421115452",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -167000,10 +166980,10 @@
    "properties": {
     "name": "83 MAIN ROAD WEST ST ALBANS 3021",
     "locID": "LOC000002845781",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421117874",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -167807,10 +167787,9 @@
    "properties": {
     "name": "6 SCOTT AVENUE ST ALBANS 3021",
     "locID": "LOC000090809588",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421120089",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -197653,10 +197632,9 @@
    "properties": {
     "name": "14 JANE AVENUE ST ALBANS 3021",
     "locID": "LOC000074060399",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421537400",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -199358,10 +199336,9 @@
    "properties": {
     "name": "14 FELDSPAR CLOSE ST ALBANS 3021",
     "locID": "LOC000032771998",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421619958",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421619958"
    }
   },
   {
@@ -199448,7 +199425,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421624644",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -219027,7 +219004,7 @@
     "name": "12 TURQUOISE CLOSE ST ALBANS 3021",
     "locID": "LOC000079362775",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421743714",
     "tech_change_status": "Eligible to Order"
    }
@@ -225227,8 +225204,8 @@
    "properties": {
     "name": "16A RAFTER DRIVE ST ALBANS 3021",
     "locID": "LOC000111376984",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421875400",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -241215,7 +241192,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423938793",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -249824,10 +249801,9 @@
    "properties": {
     "name": "3 EDGERUNNER CIRCUIT ST ALBANS 3021",
     "locID": "LOC000096854006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424465270",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -249888,6 +249864,23 @@
     "gnaf_pid": "GAVIC424465273",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7982232,
+     -37.75821666
+    ]
+   },
+   "properties": {
+    "name": "9 EDGERUNNER CIRCUIT ST ALBANS 3021",
+    "locID": "LOC000196593700",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424465274"
    }
   },
   {
@@ -252138,6 +252131,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424501093"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.83071869,
+     -37.7489383
+    ]
+   },
+   "properties": {
+    "name": "53 SUNSHINE AVENUE ST ALBANS 3021",
+    "locID": "LOC000196130429",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424506007"
    }
   },
   {
@@ -260004,9 +260014,9 @@
     "name": "UNIT 2, 39 GLENDENNING STREET ST ALBANS 3021",
     "locID": "LOC000122819011",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424911516",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -268076,23 +268086,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425631725"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.80315959,
-     -37.74365408
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 8 ERICA AVENUE ST ALBANS 3021",
-    "locID": "LOC000085210194",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425631927"
    }
   },
   {
@@ -289108,6 +289101,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.80419537,
+     -37.73035776
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 92 POWER STREET ST ALBANS 3021",
+    "locID": "LOC000190361790",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720836866"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.78142018,
      -37.7386794
     ]
@@ -290698,40 +290708,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.80366119,
-     -37.74204129
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 8 MCIVOR ROAD ST ALBANS 3021",
-    "locID": "LOC000103608133",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720959737"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.80366119,
-     -37.74204129
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 8 MCIVOR ROAD ST ALBANS 3021",
-    "locID": "LOC000103608133",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720962958"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.78249971,
      -37.73718264
     ]
@@ -290963,23 +290939,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720983665"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.80366119,
-     -37.74204129
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 8 MCIVOR ROAD ST ALBANS 3021",
-    "locID": "LOC000103608133",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720983837"
    }
   },
   {
@@ -294912,6 +294871,57 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721513339"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.80796529,
+     -37.73529972
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 16 HENRY STREET ST ALBANS 3021",
+    "locID": "LOC000196369629",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721540862"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.80803905,
+     -37.73499593
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 16 HENRY STREET ST ALBANS 3021",
+    "locID": "LOC000196369640",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721541959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.80802775,
+     -37.73512491
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 16 HENRY STREET ST ALBANS 3021",
+    "locID": "LOC000196369638",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721542246"
    }
   },
   {
