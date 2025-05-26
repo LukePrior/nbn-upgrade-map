@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-25T23:28:16.267637",
+ "generated": "2025-05-26T10:37:15.445174",
  "suburb": "MOAMA",
  "features": [
   {
@@ -1118,7 +1118,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705373857",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5929,10 +5929,10 @@
    "properties": {
     "name": "3 DORWARD PLACE MOAMA 2731",
     "locID": "LOC000071194161",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705379229",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13193,10 +13193,10 @@
    "properties": {
     "name": "4 BERRY STREET MOAMA 2731",
     "locID": "LOC000047103946",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705386832",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17371,7 +17371,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705392574",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -21035,7 +21035,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705395831",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -26994,9 +26994,11 @@
     "name": "101 CHANTER STREET MOAMA 2731",
     "locID": "LOC000098288724",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712798990",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -33832,7 +33834,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716861497",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -34511,7 +34513,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717004212",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -37261,8 +37263,8 @@
    "properties": {
     "name": "7 KINROSS COURT MOAMA 2731",
     "locID": "LOC000076457685",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717336915",
     "tech_change_status": "Eligible to Order"
    }
@@ -41913,8 +41915,8 @@
    "properties": {
     "name": "14 AVIEMORE COURT MOAMA 2731",
     "locID": "LOC000122037743",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717885573",
     "tech_change_status": "Eligible to Order"
    }
@@ -42663,8 +42665,8 @@
    "properties": {
     "name": "UNIT 1, 7 KINROSS COURT MOAMA 2731",
     "locID": "LOC000076457685",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717956445",
     "tech_change_status": "Eligible to Order"
    }
@@ -44560,6 +44562,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71334398,
+     -35.98341421
+    ]
+   },
+   "properties": {
+    "name": "442 ANDERSON ROAD MOAMA 2731",
+    "locID": "LOC000122060275",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718063996",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -46948,6 +46968,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.87492077,
+     -35.99233774
+    ]
+   },
+   "properties": {
+    "name": "79 RUSHY ROAD MOAMA 2731",
+    "locID": "LOC000121831523",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718075347",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.72161458,
      -36.05498061
     ]
@@ -47248,9 +47286,10 @@
     "name": "141 TWENTY FOUR LANE MOAMA 2731",
     "locID": "LOC000122037801",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718077712",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
@@ -48669,10 +48708,10 @@
    "properties": {
     "name": "2-4 DORWARD PLACE MOAMA 2731",
     "locID": "LOC000071194161",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718407006",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49430,6 +49469,66 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718463361",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.96143289,
+     -36.02988659
+    ]
+   },
+   "properties": {
+    "name": "3 OLD MOLOGA ROAD MOAMA 2731",
+    "locID": "LOC100020188813",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718463362",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.961883,
+     -36.02976695
+    ]
+   },
+   "properties": {
+    "name": "4 OLD MOLOGA ROAD MOAMA 2731",
+    "locID": "LOC100031268621",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718463363",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.96109104,
+     -36.02929406
+    ]
+   },
+   "properties": {
+    "name": "7 OLD MOLOGA ROAD MOAMA 2731",
+    "locID": "LOC100018386803",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718463366",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -51795,6 +51894,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.70290401,
+     -35.91121377
+    ]
+   },
+   "properties": {
+    "name": "10 WOMBOOTA ROAD MOAMA 2731",
+    "locID": "LOC000148383112",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718537063",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.76125328,
      -36.10274029
     ]
@@ -52487,6 +52604,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718578027",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.72650241,
+     -36.04716155
+    ]
+   },
+   "properties": {
+    "name": "206 TANDARRA ROAD MOAMA 2731",
+    "locID": "LOC100020188821",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718578768",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -62626,8 +62763,8 @@
    "properties": {
     "name": "6 BANKSIA COURT MOAMA 2731",
     "locID": "LOC000189103465",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719026446",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -65613,8 +65750,8 @@
    "properties": {
     "name": "4 BOTTLEBRUSH DRIVE MOAMA 2731",
     "locID": "LOC000185846428",
-    "tech": "WIRELESS",
-    "upgrade": "FTTN",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719236836",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -71516,10 +71653,9 @@
    "properties": {
     "name": "23A CHANTER STREET MOAMA 2731",
     "locID": "LOC000180161796",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720009728",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75472,26 +75608,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720530169",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.79542158,
-     -36.11152439
-    ]
-   },
-   "properties": {
-    "name": "UNIT 20, 96 OLD BARMAH ROAD MOAMA 2731",
-    "locID": "LOC000196118389",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720530484",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -89612,6 +89728,46 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721566981"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7640607,
+     -36.11140639
+    ]
+   },
+   "properties": {
+    "name": "52B SHAW STREET MOAMA 2731",
+    "locID": "LOC000193095854",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721567583",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.76396402,
+     -36.11145175
+    ]
+   },
+   "properties": {
+    "name": "52A SHAW STREET MOAMA 2731",
+    "locID": "LOC000193095849",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721567811",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
