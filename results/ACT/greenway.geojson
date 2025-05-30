@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-04-30T08:56:36.189857",
+ "generated": "2025-05-30T12:05:39.896669",
  "suburb": "GREENWAY",
  "features": [
   {
@@ -592,10 +592,10 @@
    "properties": {
     "name": "15 CLAMP PLACE GREENWAY 2900",
     "locID": "LOC000111359603",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714907482",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1245,10 +1245,9 @@
    "properties": {
     "name": "101 DE LITTLE CIRCUIT GREENWAY 2900",
     "locID": "LOC000110534663",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714915159",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2460,9 +2459,9 @@
     "name": "10 GROUNDS CRESCENT GREENWAY 2900",
     "locID": "LOC000112315407",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT714916936",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4136,7 +4135,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAACT714922082",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4915,10 +4914,10 @@
    "properties": {
     "name": "71 MORTIMER LEWIS DRIVE GREENWAY 2900",
     "locID": "LOC000122372064",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714924572",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5440,10 +5439,9 @@
    "properties": {
     "name": "6 JOHN YOUNG CRESCENT GREENWAY 2900",
     "locID": "LOC000110913170",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714951888",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6960,10 +6958,9 @@
    "properties": {
     "name": "UNIT 7, 83 MORTIMER LEWIS DRIVE GREENWAY 2900",
     "locID": "LOC000111865200",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715010932",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14150,9 +14147,9 @@
     "name": "56 EILEEN GOOD STREET GREENWAY 2900",
     "locID": "LOC000110419469",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT716457565",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15433,9 +15430,9 @@
     "name": "60 EILEEN GOOD STREET GREENWAY 2900",
     "locID": "LOC000110347972",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT716721037",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40523,6 +40520,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.073486,
+     -35.42203937
+    ]
+   },
+   "properties": {
+    "name": "38 OAKDEN STREET GREENWAY 2900",
+    "locID": "LOC000196664279",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT719252020",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.07315913,
      -35.42174749
     ]
@@ -48804,6 +48819,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.073486,
+     -35.42203937
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 38 OAKDEN STREET GREENWAY 2900",
+    "locID": "LOC000196664279",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT719938757",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.07412687,
      -35.42255122
     ]
@@ -48957,6 +48990,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.073486,
+     -35.42203937
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 38 OAKDEN STREET GREENWAY 2900",
+    "locID": "LOC000196664279",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT719938958",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.07412687,
      -35.42255122
     ]
@@ -49018,6 +49069,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT719938986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.073486,
+     -35.42203937
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 38 OAKDEN STREET GREENWAY 2900",
+    "locID": "LOC000196664279",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT719939023",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -57731,6 +57800,24 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT720987602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.07379215,
+     -35.42195298
+    ]
+   },
+   "properties": {
+    "name": "UNIT 317, 38 OAKDEN STREET GREENWAY 2900",
+    "locID": "LOC000196664279",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT720987605",
+    "tech_change_status": "Not Planned"
    }
   },
   {
