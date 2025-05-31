@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-01T14:31:54.192961",
+ "generated": "2025-05-31T16:24:42.111025",
  "suburb": "SAN REMO",
  "features": [
   {
@@ -2018,8 +2018,8 @@
    "properties": {
     "name": "59 BACK BEACH ROAD SAN REMO 3925",
     "locID": "LOC000051017495",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419769543",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2639,7 +2639,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419776725",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3742,8 +3742,8 @@
    "properties": {
     "name": "6 GENISTA STREET SAN REMO 3925",
     "locID": "LOC000073060938",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420061465",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6559,7 +6559,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420640783",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10998,9 +10998,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421281024",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14397,10 +14395,9 @@
    "properties": {
     "name": "28 PANORAMA DRIVE SAN REMO 3925",
     "locID": "LOC000013512527",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421867371",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30544,6 +30541,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.38678775,
+     -38.52933669
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 6 SAPPHIRE VIEW SAN REMO 3925",
+    "locID": "LOC000181024798",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720231536",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.37549936,
      -38.53162718
     ]
@@ -30690,6 +30706,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720232888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.37690086,
+     -38.52263284
+    ]
+   },
+   "properties": {
+    "name": "20 LONGFIN CRESCENT SAN REMO 3925",
+    "locID": "LOC000196585065",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720233382"
    }
   },
   {
