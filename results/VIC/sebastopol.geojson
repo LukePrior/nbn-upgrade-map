@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-07T14:11:01.732479",
+ "generated": "2025-06-04T06:35:15.073847",
  "suburb": "SEBASTOPOL",
  "features": [
   {
@@ -495,10 +495,9 @@
    "properties": {
     "name": "34 JENKINS DRIVE SEBASTOPOL 3356",
     "locID": "LOC000072036502",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412258267",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1035,10 +1034,9 @@
    "properties": {
     "name": "3 ALFRED STREET SEBASTOPOL 3356",
     "locID": "LOC000044574465",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC412265737",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412265737"
    }
   },
   {
@@ -2574,8 +2572,11 @@
     "name": "107A RUBICON STREET SEBASTOPOL 3356",
     "locID": "LOC000047282437",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412273838"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412273838",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9409,10 +9410,9 @@
    "properties": {
     "name": "28 ALBION STREET SEBASTOPOL 3356",
     "locID": "LOC000056852601",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419704821",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11539,8 +11539,8 @@
    "properties": {
     "name": "13 NELSON STREET SEBASTOPOL 3356",
     "locID": "LOC000045900128",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419714105",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12131,7 +12131,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419715070",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15041,10 +15041,9 @@
    "properties": {
     "name": "42 VICTORIA STREET SEBASTOPOL 3356",
     "locID": "LOC000070986898",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419994715",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17509,10 +17508,10 @@
    "properties": {
     "name": "3 BEDGGOOD COURT SEBASTOPOL 3356",
     "locID": "LOC000011966634",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420014024",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20030,8 +20029,8 @@
    "properties": {
     "name": "296 ALBERT STREET SEBASTOPOL 3356",
     "locID": "LOC000081181014",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420026927",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23188,10 +23187,10 @@
    "properties": {
     "name": "123 GRANT STREET SEBASTOPOL 3356",
     "locID": "LOC000001882219",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420295172",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24291,6 +24290,25 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.8385117,
+     -37.58699994
+    ]
+   },
+   "properties": {
+    "name": "9 SPENCER STREET SEBASTOPOL 3356",
+    "locID": "LOC000160939347",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420298658",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -25615,10 +25633,9 @@
    "properties": {
     "name": "10 BEVTRE STREET SEBASTOPOL 3356",
     "locID": "LOC000044446070",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420304868",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32325,8 +32342,8 @@
    "properties": {
     "name": "50 ROWLANDS STREET SEBASTOPOL 3356",
     "locID": "LOC000075328763",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420602834",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38736,10 +38753,10 @@
    "properties": {
     "name": "29 BONSHAW DRIVE SEBASTOPOL 3356",
     "locID": "LOC000084627702",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420888174",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41700,7 +41717,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420918311",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53456,10 +53473,9 @@
    "properties": {
     "name": "137 WALKER STREET SEBASTOPOL 3356",
     "locID": "LOC000027760115",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421489993",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53992,10 +54008,10 @@
    "properties": {
     "name": "4 LYNBRAE COURT SEBASTOPOL 3356",
     "locID": "LOC000095377034",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421490997",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54879,10 +54895,11 @@
     "name": "40 SPENCER STREET SEBASTOPOL 3356",
     "locID": "LOC000046956548",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421497993",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57099,7 +57116,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421512831",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60080,10 +60097,9 @@
    "properties": {
     "name": "187 ALBERT STREET SEBASTOPOL 3356",
     "locID": "LOC000059453087",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421616702",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65923,10 +65939,9 @@
    "properties": {
     "name": "44 EDWARDS STREET SEBASTOPOL 3356",
     "locID": "LOC000017757152",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421813239",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66496,10 +66511,9 @@
    "properties": {
     "name": "21 MORGAN STREET SEBASTOPOL 3356",
     "locID": "LOC000088554326",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421832668",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69102,7 +69116,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC422025336",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71061,10 +71077,9 @@
    "properties": {
     "name": "UNIT 3, 3 ALFRED STREET SEBASTOPOL 3356",
     "locID": "LOC000044574465",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422122698",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422122698"
    }
   },
   {
@@ -71193,10 +71208,9 @@
    "properties": {
     "name": "13 DOMAIN GARDENS SEBASTOPOL 3356",
     "locID": "LOC000054133840",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422142310",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422142310"
    }
   },
   {
@@ -82906,10 +82920,10 @@
    "properties": {
     "name": "23 MOUNTVIEW DRIVE SEBASTOPOL 3356",
     "locID": "LOC000107944778",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423940755",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82926,10 +82940,10 @@
    "properties": {
     "name": "24 MOUNTVIEW DRIVE SEBASTOPOL 3356",
     "locID": "LOC000090995833",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423940756",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82946,10 +82960,10 @@
    "properties": {
     "name": "25 MOUNTVIEW DRIVE SEBASTOPOL 3356",
     "locID": "LOC000056859236",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423940757",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85480,9 +85494,9 @@
     "name": "3 LUKA COURT SEBASTOPOL 3356",
     "locID": "LOC000107818978",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424096146",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90992,7 +91006,7 @@
     "gnaf_pid": "GAVIC424579811",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -91523,10 +91537,9 @@
    "properties": {
     "name": "29 YARRA PARK DRIVE SEBASTOPOL 3356",
     "locID": "LOC000092874502",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424591413",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -97659,10 +97672,9 @@
    "properties": {
     "name": "201 WALKER STREET SEBASTOPOL 3356",
     "locID": "LOC000115803335",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424892205",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98397,10 +98409,9 @@
    "properties": {
     "name": "12 TUPPEN DRIVE SEBASTOPOL 3356",
     "locID": "LOC000124470646",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424973146",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100995,10 +101006,11 @@
     "name": "UNIT 1, 40 SPENCER STREET SEBASTOPOL 3356",
     "locID": "LOC000160933731",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425169529",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101014,10 +101026,11 @@
     "name": "UNIT 2, 40 SPENCER STREET SEBASTOPOL 3356",
     "locID": "LOC000160934178",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425169530",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101033,10 +101046,11 @@
     "name": "UNIT 3, 40 SPENCER STREET SEBASTOPOL 3356",
     "locID": "LOC000160934166",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425169531",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -104799,10 +104813,10 @@
    "properties": {
     "name": "9 SASHA COURT SEBASTOPOL 3356",
     "locID": "LOC000160939525",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425365184",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -117035,7 +117049,7 @@
    "properties": {
     "name": "11 ALMA STREET SEBASTOPOL 3356",
     "locID": "LOC000196119692",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721211770"
    }
@@ -117085,6 +117099,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     143.82567657,
+     -37.59982031
+    ]
+   },
+   "properties": {
+    "name": "23 AURUM WAY SEBASTOPOL 3356",
+    "locID": "LOC000196119811",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721213694"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.82530015,
+     -37.60009855
+    ]
+   },
+   "properties": {
+    "name": "10 AURUM WAY SEBASTOPOL 3356",
+    "locID": "LOC000196119766",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721214287"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      143.82476343,
      -37.60039584
     ]
@@ -117115,6 +117163,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.82583967,
+     -37.59983307
+    ]
+   },
+   "properties": {
+    "name": "25 AURUM WAY SEBASTOPOL 3356",
+    "locID": "LOC000196119811",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721214891"
    }
   },
   {
@@ -117163,7 +117228,7 @@
    "properties": {
     "name": "9 ALMA STREET SEBASTOPOL 3356",
     "locID": "LOC000196119671",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721221958"
    }
@@ -117180,7 +117245,7 @@
    "properties": {
     "name": "15 ALMA STREET SEBASTOPOL 3356",
     "locID": "LOC000196119732",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721223035"
    }
@@ -117217,7 +117282,7 @@
    "properties": {
     "name": "13 ALMA STREET SEBASTOPOL 3356",
     "locID": "LOC000196119713",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721224536"
    }
@@ -117234,7 +117299,7 @@
    "properties": {
     "name": "159 TAIT STREET SEBASTOPOL 3356",
     "locID": "LOC000196119616",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721226973"
    }
