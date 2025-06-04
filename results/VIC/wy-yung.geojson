@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-07T15:02:16.130168",
+ "generated": "2025-06-04T07:20:21.087300",
  "suburb": "WY YUNG",
  "features": [
   {
@@ -3356,8 +3356,8 @@
    "properties": {
     "name": "33 TIERNEY STREET WY YUNG 3875",
     "locID": "LOC000006909912",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420548902",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6381,10 +6381,10 @@
    "properties": {
     "name": "2 MARRAH DRIVE WY YUNG 3875",
     "locID": "LOC000059811033",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421465352",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6581,10 +6581,10 @@
    "properties": {
     "name": "11A THE BOULEVARDE WY YUNG 3875",
     "locID": "LOC000101002487",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421479762",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7299,10 +7299,10 @@
    "properties": {
     "name": "4 COUNIHAN STREET WY YUNG 3875",
     "locID": "LOC000068090299",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421746561",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7460,7 +7460,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421757638",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11659,8 +11659,8 @@
    "properties": {
     "name": "23 WY YUNG HEIGHTS WY YUNG 3875",
     "locID": "LOC000056685096",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424038341",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18769,6 +18769,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.61790721,
+     -37.80736034
+    ]
+   },
+   "properties": {
+    "name": "121A BULLUMWAAL ROAD WY YUNG 3875",
+    "locID": "LOC000187936164",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC720820965",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.61183108,
      -37.80341697
     ]
@@ -19596,6 +19616,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.61394401,
+     -37.80003352
+    ]
+   },
+   "properties": {
+    "name": "200A BULLUMWAAL ROAD WY YUNG 3875",
+    "locID": "LOC000192954522",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721287478",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.61406642,
      -37.7835766
     ]
@@ -20241,7 +20281,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721545702",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
