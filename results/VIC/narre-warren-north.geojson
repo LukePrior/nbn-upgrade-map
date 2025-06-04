@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-08T00:10:15.389650",
+ "generated": "2025-06-04T14:17:36.669671",
  "suburb": "NARRE WARREN NORTH",
  "features": [
   {
@@ -1174,7 +1174,7 @@
     "name": "19 CANTWELL ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000028445313",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414612660",
     "tech_change_status": "Eligible to Order"
    }
@@ -3978,7 +3978,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419799015",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8192,7 +8192,7 @@
     "name": "21-22 BRANCA COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000106032479",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420105957",
     "tech_change_status": "Eligible to Order"
    }
@@ -11014,10 +11014,9 @@
    "properties": {
     "name": "10 CASDAR COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000059125083",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420383846",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420383846"
    }
   },
   {
@@ -15302,10 +15301,9 @@
    "properties": {
     "name": "1-3 FONTAINE TERRACE NARRE WARREN NORTH 3804",
     "locID": "LOC000053912449",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420700547",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15420,10 +15418,10 @@
    "properties": {
     "name": "34 ABECKETT ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000095337536",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420701171",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18335,9 +18333,9 @@
     "name": "12 CASDAR COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000104648152",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420995787",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -22816,10 +22814,9 @@
    "properties": {
     "name": "243 BELGRAVE-HALLAM ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000054319570",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421310677",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23528,7 +23525,7 @@
     "name": "1-2 BRANCA COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000092797195",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421337200",
     "tech_change_status": "Eligible to Order"
    }
@@ -23751,10 +23748,9 @@
    "properties": {
     "name": "7-8 JARRANG RETREAT NARRE WARREN NORTH 3804",
     "locID": "LOC000030111145",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421414383",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25023,10 +25019,9 @@
    "properties": {
     "name": "13-15 RADE MACUT COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000022124962",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421559120",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25731,6 +25726,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.28297151,
+     -37.98976698
+    ]
+   },
+   "properties": {
+    "name": "78 BELGRAVE-HALLAM ROAD NARRE WARREN NORTH 3804",
+    "locID": "LOC000089618704",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421607423",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.314502,
      -37.979744
     ]
@@ -26018,10 +26033,10 @@
    "properties": {
     "name": "3-4 MALANIE CLOSE NARRE WARREN NORTH 3804",
     "locID": "LOC000048790982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421620054",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29689,7 +29704,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421908669",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30909,7 +30924,7 @@
     "name": "21 CANTWELL ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000047317557",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422082799",
     "tech_change_status": "Eligible to Order"
    }
@@ -32188,7 +32203,7 @@
     "name": "10 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000026740384",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155129",
     "tech_change_status": "Eligible to Order"
    }
@@ -32224,7 +32239,7 @@
     "name": "14 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000009695055",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155132",
     "tech_change_status": "Eligible to Order"
    }
@@ -32349,7 +32364,7 @@
     "name": "25 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000015354311",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155141",
     "tech_change_status": "Eligible to Order"
    }
@@ -32420,7 +32435,7 @@
     "name": "5 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000035732646",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155145",
     "tech_change_status": "Eligible to Order"
    }
@@ -32438,7 +32453,7 @@
     "name": "6 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000022715717",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155146",
     "tech_change_status": "Eligible to Order"
    }
@@ -32473,7 +32488,7 @@
     "name": "8 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000106454616",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423155148",
     "tech_change_status": "Eligible to Order"
    }
@@ -32510,10 +32525,9 @@
    "properties": {
     "name": "243A BELGRAVE-HALLAM ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000054377760",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423206586",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32586,7 +32600,7 @@
     "name": "9 ROSE GARDEN COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000081962562",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423233517",
     "tech_change_status": "Eligible to Order"
    }
@@ -33563,10 +33577,10 @@
    "properties": {
     "name": "26 ROCKLEIGH PARK ROAD NARRE WARREN NORTH 3804",
     "locID": "LOC000114023539",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423712262",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34411,10 +34425,9 @@
    "properties": {
     "name": "15 ROSELEA PLACE NARRE WARREN NORTH 3804",
     "locID": "LOC000103660723",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423836113",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423836113"
    }
   },
   {
@@ -35412,10 +35425,9 @@
    "properties": {
     "name": "34 WEST VISTA PLACE NARRE WARREN NORTH 3804",
     "locID": "LOC000056954638",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423900268",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36009,10 +36021,9 @@
    "properties": {
     "name": "7-8 MIRRING COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000125532754",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424031839",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424031839"
    }
   },
   {
@@ -36577,10 +36588,9 @@
    "properties": {
     "name": "14 AVENVIEW DRIVE NARRE WARREN NORTH 3804",
     "locID": "LOC000114860074",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424442085",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39254,10 +39264,9 @@
    "properties": {
     "name": "9 KOSTIC BOULEVARD NARRE WARREN NORTH 3804",
     "locID": "LOC000125541257",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424717828",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424717828"
    }
   },
   {
@@ -39835,10 +39844,9 @@
    "properties": {
     "name": "2-6 GARDEN VIEW COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000125485804",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425016868",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425016868"
    }
   },
   {
@@ -42286,10 +42294,10 @@
    "properties": {
     "name": "19 MILFULL COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000147626970",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425467811",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42424,10 +42432,9 @@
    "properties": {
     "name": "25 MILFULL COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000147626123",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425467818",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43673,8 +43680,8 @@
    "properties": {
     "name": "36 MONTBRAE CIRCUIT NARRE WARREN NORTH 3804",
     "locID": "LOC000147631051",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425467960",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -49288,10 +49295,9 @@
    "properties": {
     "name": "6 GARDEN VIEW COURT NARRE WARREN NORTH 3804",
     "locID": "LOC000125485804",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC720962326",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720962326"
    }
   },
   {
@@ -49348,6 +49354,25 @@
     "gnaf_pid": "GAVIC721053407",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.28173174,
+     -37.99127595
+    ]
+   },
+   "properties": {
+    "name": "10 LATINA COURT NARRE WARREN NORTH 3804",
+    "locID": "LOC000012014040",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721090319",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
