@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-17T15:10:59.866849",
+ "generated": "2025-06-12T12:11:01.559151",
  "suburb": "BAHRS SCRUB",
  "features": [
   {
@@ -667,8 +667,8 @@
    "properties": {
     "name": "11 LAGOVISTA TERRACE BAHRS SCRUB 4207",
     "locID": "LOC000093522603",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154982696",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -985,8 +985,8 @@
    "properties": {
     "name": "13 PARK LANE BAHRS SCRUB 4207",
     "locID": "LOC000073815433",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154983673",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1105,7 +1105,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154983679",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1142,8 +1142,8 @@
    "properties": {
     "name": "22 PARK LANE BAHRS SCRUB 4207",
     "locID": "LOC000050837536",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154983681",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1653,9 +1653,9 @@
     "name": "21 ALBERT VALLEY DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000016596926",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154984418",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2133,6 +2133,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.17439801,
+     -27.73960041
+    ]
+   },
+   "properties": {
+    "name": "181 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000097335149",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD154984563",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.16652599,
      -27.74237865
     ]
@@ -2527,8 +2547,8 @@
    "properties": {
     "name": "11 CARMEN COURT BAHRS SCRUB 4207",
     "locID": "LOC000103237437",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154985429",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2567,8 +2587,8 @@
    "properties": {
     "name": "15 CARMEN COURT BAHRS SCRUB 4207",
     "locID": "LOC000089595538",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154985431",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3190,6 +3210,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.16753414,
+     -27.73812237
+    ]
+   },
+   "properties": {
+    "name": "254 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000005016804",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD154986311",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.16662189,
+     -27.73710292
+    ]
+   },
+   "properties": {
+    "name": "258 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000005016804",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD154986313",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.16481283,
      -27.73954241
     ]
@@ -3217,9 +3277,29 @@
    "properties": {
     "name": "284 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
     "locID": "LOC000040233945",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154986315",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.15925878,
+     -27.73688228
+    ]
+   },
+   "properties": {
+    "name": "292 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000142303347",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD154986316",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -3415,10 +3495,10 @@
    "properties": {
     "name": "5 CARMEN COURT BAHRS SCRUB 4207",
     "locID": "LOC000106949036",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154987252",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3435,8 +3515,8 @@
    "properties": {
     "name": "7 CARMEN COURT BAHRS SCRUB 4207",
     "locID": "LOC000102621291",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154987254",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3634,8 +3714,8 @@
    "properties": {
     "name": "10 FORESTGLEN CRESCENT BAHRS SCRUB 4207",
     "locID": "LOC000109741530",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154987266",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3946,7 +4026,7 @@
    "properties": {
     "name": "5 HILARY STREET BAHRS SCRUB 4207",
     "locID": "LOC000103270007",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154987314",
     "tech_change_status": "Not Planned",
@@ -4275,6 +4355,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.16980667,
+     -27.74155474
+    ]
+   },
+   "properties": {
+    "name": "225 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000105244632",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155006487",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.18915078,
      -27.7362123
     ]
@@ -4362,8 +4462,8 @@
    "properties": {
     "name": "18 PARK LANE BAHRS SCRUB 4207",
     "locID": "LOC000086957211",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156021027",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4869,8 +4969,8 @@
    "properties": {
     "name": "276 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
     "locID": "LOC000049460139",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156055245",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5205,8 +5305,8 @@
    "properties": {
     "name": "1-3 NEW HORIZON AVENUE BAHRS SCRUB 4207",
     "locID": "LOC000019849760",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156236936",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5364,8 +5464,8 @@
    "properties": {
     "name": "17 JANINE DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000055036131",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156242202",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5504,8 +5604,8 @@
    "properties": {
     "name": "7 JANINE DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000046994700",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156242210",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5563,8 +5663,8 @@
    "properties": {
     "name": "29-33 NEW HORIZON AVENUE BAHRS SCRUB 4207",
     "locID": "LOC000127317677",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156243087",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5623,8 +5723,8 @@
    "properties": {
     "name": "46-48 NEW HORIZON AVENUE BAHRS SCRUB 4207",
     "locID": "LOC000008266130",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156243091",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5643,8 +5743,8 @@
    "properties": {
     "name": "47-49 NEW HORIZON AVENUE BAHRS SCRUB 4207",
     "locID": "LOC000011772663",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156243092",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5702,8 +5802,8 @@
    "properties": {
     "name": "16 PARK LANE BAHRS SCRUB 4207",
     "locID": "LOC000083842748",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156243165",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6236,8 +6336,8 @@
    "properties": {
     "name": "2 CARMEN COURT BAHRS SCRUB 4207",
     "locID": "LOC000018346354",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157503231",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6354,7 +6454,7 @@
    "properties": {
     "name": "296 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
     "locID": "LOC000013619685",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161056118",
     "tech_change_status": "Not Planned",
@@ -6554,10 +6654,10 @@
    "properties": {
     "name": "176 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000025775857",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062160",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6574,8 +6674,8 @@
    "properties": {
     "name": "180 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000028415831",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062161",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6634,8 +6734,8 @@
    "properties": {
     "name": "276 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000049460139",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062164",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6674,8 +6774,8 @@
    "properties": {
     "name": "290 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000067076299",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062166",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6714,10 +6814,10 @@
    "properties": {
     "name": "LOT 993 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000025775857",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062170",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6734,10 +6834,10 @@
    "properties": {
     "name": "LOT 994 BEAUDESERT - BEENLEIGH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000025775857",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161062171",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7040,6 +7140,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.17373145,
+     -27.73819246
+    ]
+   },
+   "properties": {
+    "name": "302 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000148613431",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161946188",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.18353421,
      -27.73960934
     ]
@@ -7265,10 +7384,10 @@
    "properties": {
     "name": "14 PARKVIEW STREET BAHRS SCRUB 4207",
     "locID": "LOC000091138448",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162831026",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7463,10 +7582,10 @@
    "properties": {
     "name": "7 PARKVIEW STREET BAHRS SCRUB 4207",
     "locID": "LOC000028166732",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162831039",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7503,8 +7622,8 @@
    "properties": {
     "name": "12 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000036586390",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162832873",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7543,8 +7662,8 @@
    "properties": {
     "name": "16 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000078126820",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162832875",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7603,8 +7722,8 @@
    "properties": {
     "name": "19 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000109041833",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162832878",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7642,10 +7761,9 @@
    "properties": {
     "name": "21 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000059823091",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162832880",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8211,10 +8329,9 @@
    "properties": {
     "name": "22 BELIVAH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000081562389",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162933863",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8977,8 +9094,8 @@
    "properties": {
     "name": "44 BELIVAH ROAD BAHRS SCRUB 4207",
     "locID": "LOC000033491877",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163183451",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9335,8 +9452,8 @@
    "properties": {
     "name": "31 SUNRIDGE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000026569509",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163192973",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9375,10 +9492,9 @@
    "properties": {
     "name": "33 SUNRIDGE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000103191374",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163192975",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9513,8 +9629,8 @@
    "properties": {
     "name": "41 SUNRIDGE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000078643907",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163192983",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10833,8 +10949,8 @@
    "properties": {
     "name": "10 HIGHVALE COURT BAHRS SCRUB 4207",
     "locID": "LOC000110884074",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163295692",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10853,8 +10969,8 @@
    "properties": {
     "name": "11 HIGHVALE COURT BAHRS SCRUB 4207",
     "locID": "LOC000111031108",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163295693",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11052,10 +11168,10 @@
    "properties": {
     "name": "27 HIGHVALE COURT BAHRS SCRUB 4207",
     "locID": "LOC000111100979",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163295703",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11112,8 +11228,8 @@
    "properties": {
     "name": "4 HIGHVALE COURT BAHRS SCRUB 4207",
     "locID": "LOC000112608197",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163295706",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11410,8 +11526,8 @@
    "properties": {
     "name": "6 CRESTWOOD STREET BAHRS SCRUB 4207",
     "locID": "LOC000127348418",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163305080",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11570,8 +11686,8 @@
    "properties": {
     "name": "33 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000127337551",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424945438",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11786,8 +11902,8 @@
    "properties": {
     "name": "45 SKYLINE CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000127317864",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD424945449",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11942,8 +12058,8 @@
    "properties": {
     "name": "20 SUMMIT PARADE BAHRS SCRUB 4207",
     "locID": "LOC000127330467",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD424945696",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12101,8 +12217,8 @@
    "properties": {
     "name": "32 SUMMIT PARADE BAHRS SCRUB 4207",
     "locID": "LOC000127334129",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD424945704",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12243,7 +12359,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424945711",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12280,8 +12396,8 @@
    "properties": {
     "name": "41 SUMMIT PARADE BAHRS SCRUB 4207",
     "locID": "LOC000127311123",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424945713",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12300,8 +12416,8 @@
    "properties": {
     "name": "42 SUMMIT PARADE BAHRS SCRUB 4207",
     "locID": "LOC000127311286",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424945714",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13109,10 +13225,10 @@
    "properties": {
     "name": "16 NEVRON DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000148607574",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425427919",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13129,8 +13245,8 @@
    "properties": {
     "name": "17 NEVRON DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000148607400",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425427920",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15451,7 +15567,7 @@
    "properties": {
     "name": "14 HONEYEATER STREET BAHRS SCRUB 4207",
     "locID": "LOC000177345417",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719540047",
     "tech_change_status": "Not Planned",
@@ -16316,7 +16432,7 @@
    "properties": {
     "name": "6 HONEYEATER STREET BAHRS SCRUB 4207",
     "locID": "LOC000179202687",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719545781",
     "tech_change_status": "Not Planned",
@@ -16784,7 +16900,7 @@
    "properties": {
     "name": "25 HONEYEATER STREET BAHRS SCRUB 4207",
     "locID": "LOC000178944827",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719562279",
     "tech_change_status": "Not Planned",
@@ -19244,7 +19360,7 @@
    "properties": {
     "name": "9 FEATHERTAIL STREET BAHRS SCRUB 4207",
     "locID": "LOC000180473410",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719728263",
     "tech_change_status": "Not Planned",
@@ -19488,7 +19604,7 @@
    "properties": {
     "name": "157 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC000180297459",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719729407",
     "tech_change_status": "Not Planned",
@@ -21508,7 +21624,7 @@
    "properties": {
     "name": "31 ENCLAVE DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000182792908",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719928418",
     "tech_change_status": "Not Planned",
@@ -21545,7 +21661,7 @@
    "properties": {
     "name": "3 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029120",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719928581",
     "tech_change_status": "Not Planned",
@@ -21585,7 +21701,7 @@
    "properties": {
     "name": "3 KINGFISHER COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029108",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719928703",
     "tech_change_status": "Not Planned",
@@ -21744,7 +21860,7 @@
    "properties": {
     "name": "12 KINGFISHER COURT BAHRS SCRUB 4207",
     "locID": "LOC000183074755",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719929179",
     "tech_change_status": "Not Planned",
@@ -21764,7 +21880,7 @@
    "properties": {
     "name": "3 ENCLAVE DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000182792908",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719929545",
     "tech_change_status": "Not Planned",
@@ -21869,7 +21985,7 @@
    "properties": {
     "name": "22 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029079",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719930081",
     "tech_change_status": "Not Planned",
@@ -21940,7 +22056,7 @@
    "properties": {
     "name": "17 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029120",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719930518",
     "tech_change_status": "Not Planned",
@@ -22222,7 +22338,7 @@
    "properties": {
     "name": "18 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100071921170",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719932038",
     "tech_change_status": "Not Planned",
@@ -22259,7 +22375,7 @@
    "properties": {
     "name": "13 KINGFISHER COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029080",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719932154",
     "tech_change_status": "Not Planned",
@@ -22279,7 +22395,7 @@
    "properties": {
     "name": "20 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029098",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719932405",
     "tech_change_status": "Not Planned",
@@ -22316,7 +22432,7 @@
    "properties": {
     "name": "11 KINGFISHER COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029108",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719932491",
     "tech_change_status": "Not Planned",
@@ -22594,7 +22710,7 @@
    "properties": {
     "name": "14 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC000183432045",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719933928",
     "tech_change_status": "Not Planned",
@@ -23627,7 +23743,7 @@
    "properties": {
     "name": "5 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000182113164",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720040778",
     "tech_change_status": "Not Planned",
@@ -24192,7 +24308,7 @@
    "properties": {
     "name": "1 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000183162771",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720042665",
     "tech_change_status": "Not Planned",
@@ -24450,7 +24566,7 @@
    "properties": {
     "name": "16 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000183162771",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720043317",
     "tech_change_status": "Not Planned",
@@ -24657,7 +24773,7 @@
    "properties": {
     "name": "3 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004608",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720043983",
     "tech_change_status": "Not Planned",
@@ -24847,7 +24963,7 @@
    "properties": {
     "name": "58 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029196",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720044968",
     "tech_change_status": "Not Planned",
@@ -24935,7 +25051,7 @@
    "properties": {
     "name": "52 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000182113164",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720045463",
     "tech_change_status": "Not Planned",
@@ -25183,7 +25299,7 @@
    "properties": {
     "name": "51 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029154",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720112055",
     "tech_change_status": "Not Planned",
@@ -25271,7 +25387,7 @@
    "properties": {
     "name": "45 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029177",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720112543",
     "tech_change_status": "Not Planned",
@@ -25411,7 +25527,7 @@
    "properties": {
     "name": "47 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029165",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720113608",
     "tech_change_status": "Not Planned",
@@ -25721,7 +25837,7 @@
    "properties": {
     "name": "37 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100087417376",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720115412",
     "tech_change_status": "Not Planned",
@@ -25758,7 +25874,7 @@
    "properties": {
     "name": "43 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029196",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720115476",
     "tech_change_status": "Not Planned",
@@ -29693,7 +29809,7 @@
    "properties": {
     "name": "21 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417115",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720208442",
     "tech_change_status": "Not Planned",
@@ -29713,7 +29829,7 @@
    "properties": {
     "name": "19 REGENT COURT BAHRS SCRUB 4207",
     "locID": "LOC100078029112",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720208549",
     "tech_change_status": "Not Planned",
@@ -29733,7 +29849,7 @@
    "properties": {
     "name": "20 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087351808",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720209285",
     "tech_change_status": "Not Planned",
@@ -29753,7 +29869,7 @@
    "properties": {
     "name": "24 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087417640",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720209418",
     "tech_change_status": "Not Planned",
@@ -29773,7 +29889,7 @@
    "properties": {
     "name": "26 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100075813087",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720210052",
     "tech_change_status": "Not Planned",
@@ -29793,7 +29909,7 @@
    "properties": {
     "name": "30 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087351820",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720210688",
     "tech_change_status": "Not Planned",
@@ -31414,7 +31530,7 @@
    "properties": {
     "name": "30 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004612",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720480536",
     "tech_change_status": "Not Planned",
@@ -31485,7 +31601,7 @@
    "properties": {
     "name": "17 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100076774731",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720480906",
     "tech_change_status": "Not Planned",
@@ -31593,7 +31709,7 @@
    "properties": {
     "name": "15 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417617",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481083",
     "tech_change_status": "Not Planned",
@@ -31630,7 +31746,7 @@
    "properties": {
     "name": "34 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079106801",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481130",
     "tech_change_status": "Not Planned",
@@ -31701,7 +31817,7 @@
    "properties": {
     "name": "44 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004631",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481407",
     "tech_change_status": "Not Planned",
@@ -31738,7 +31854,7 @@
    "properties": {
     "name": "40 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087417324",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481561",
     "tech_change_status": "Not Planned",
@@ -31758,7 +31874,7 @@
    "properties": {
     "name": "40 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC000190167366",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481562",
     "tech_change_status": "Not Planned",
@@ -31778,7 +31894,7 @@
    "properties": {
     "name": "44 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004608",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720481563",
     "tech_change_status": "Not Planned",
@@ -31954,7 +32070,7 @@
    "properties": {
     "name": "36 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087417158",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482004",
     "tech_change_status": "Not Planned",
@@ -32025,7 +32141,7 @@
    "properties": {
     "name": "32 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004581",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482262",
     "tech_change_status": "Not Planned",
@@ -32099,7 +32215,7 @@
    "properties": {
     "name": "34 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087351831",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482419",
     "tech_change_status": "Not Planned",
@@ -32119,7 +32235,7 @@
    "properties": {
     "name": "36 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004599",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482420",
     "tech_change_status": "Not Planned",
@@ -32173,7 +32289,7 @@
    "properties": {
     "name": "21 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100077777722",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482855",
     "tech_change_status": "Not Planned",
@@ -32193,7 +32309,7 @@
    "properties": {
     "name": "58 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087417330",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482858",
     "tech_change_status": "Not Planned",
@@ -32213,7 +32329,7 @@
    "properties": {
     "name": "42 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100075813087",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720482879",
     "tech_change_status": "Not Planned",
@@ -32253,7 +32369,7 @@
    "properties": {
     "name": "38 FALCO DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004608",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483139",
     "tech_change_status": "Not Planned",
@@ -32273,7 +32389,7 @@
    "properties": {
     "name": "27 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100079004654",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483200",
     "tech_change_status": "Not Planned",
@@ -32293,7 +32409,7 @@
    "properties": {
     "name": "25 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417395",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483292",
     "tech_change_status": "Not Planned",
@@ -32313,7 +32429,7 @@
    "properties": {
     "name": "15 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC000180297459",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483293",
     "tech_change_status": "Not Planned",
@@ -32333,7 +32449,7 @@
    "properties": {
     "name": "42 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100078029149",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483296",
     "tech_change_status": "Not Planned",
@@ -32370,7 +32486,7 @@
    "properties": {
     "name": "32 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100078029131",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483405",
     "tech_change_status": "Not Planned",
@@ -32390,7 +32506,7 @@
    "properties": {
     "name": "23 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC000187328222",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483502",
     "tech_change_status": "Not Planned",
@@ -32410,7 +32526,7 @@
    "properties": {
     "name": "9 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100085168077",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483559",
     "tech_change_status": "Not Planned",
@@ -32430,7 +32546,7 @@
    "properties": {
     "name": "28 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079004620",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483587",
     "tech_change_status": "Not Planned",
@@ -32487,7 +32603,7 @@
    "properties": {
     "name": "13 KOOKABURRA COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417400",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483746",
     "tech_change_status": "Not Planned",
@@ -36538,6 +36654,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.17805986,
+     -27.73790502
+    ]
+   },
+   "properties": {
+    "name": "124 BAHRS SCRUB ROAD BAHRS SCRUB 4207",
+    "locID": "LOC000064634092",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD720734241",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.16086115,
      -27.73388308
     ]
@@ -39266,7 +39402,7 @@
    "properties": {
     "name": "8 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417714",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721062244",
     "tech_change_status": "Not Planned",
@@ -39530,7 +39666,7 @@
    "properties": {
     "name": "10 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087351934",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721064255",
     "tech_change_status": "Not Planned",
@@ -39618,7 +39754,7 @@
    "properties": {
     "name": "2 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087352130",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721064597",
     "tech_change_status": "Not Planned",
@@ -39655,7 +39791,7 @@
    "properties": {
     "name": "1-3 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087351746",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721064812",
     "tech_change_status": "Not Planned",
@@ -39692,7 +39828,7 @@
    "properties": {
     "name": "12 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417767",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721065000",
     "tech_change_status": "Not Planned",
@@ -39987,7 +40123,7 @@
    "properties": {
     "name": "9-11 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417751",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721065924",
     "tech_change_status": "Not Planned",
@@ -40262,7 +40398,7 @@
    "properties": {
     "name": "14-16 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417780",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721068011",
     "tech_change_status": "Not Planned",
@@ -40370,7 +40506,7 @@
    "properties": {
     "name": "4 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100083417539",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721068830",
     "tech_change_status": "Not Planned",
@@ -40526,7 +40662,7 @@
    "properties": {
     "name": "6 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417705",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721069989",
     "tech_change_status": "Not Planned",
@@ -40563,7 +40699,7 @@
    "properties": {
     "name": "13-15 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100083417539",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721070032",
     "tech_change_status": "Not Planned",
@@ -40688,7 +40824,7 @@
    "properties": {
     "name": "5 CANOPY COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417693",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721070868",
     "tech_change_status": "Not Planned",
@@ -41017,7 +41153,7 @@
    "properties": {
     "name": "11 HILARY STREET BAHRS SCRUB 4207",
     "locID": "LOC000103270007",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721079842",
     "tech_change_status": "Not Planned",
@@ -41105,7 +41241,7 @@
    "properties": {
     "name": "1 HILARY STREET BAHRS SCRUB 4207",
     "locID": "LOC000103270007",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721080319",
     "tech_change_status": "Not Planned",
@@ -41556,7 +41692,7 @@
    "properties": {
     "name": "25-27 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417883",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721114003",
     "tech_change_status": "Not Planned",
@@ -41667,7 +41803,7 @@
    "properties": {
     "name": "13-15 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417865",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721115475",
     "tech_change_status": "Not Planned",
@@ -41721,7 +41857,7 @@
    "properties": {
     "name": "21-23 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087352273",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721115793",
     "tech_change_status": "Not Planned",
@@ -41741,7 +41877,7 @@
    "properties": {
     "name": "1-3 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417896",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721116178",
     "tech_change_status": "Not Planned",
@@ -41849,7 +41985,7 @@
    "properties": {
     "name": "5-7 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417854",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721117493",
     "tech_change_status": "Not Planned",
@@ -41886,7 +42022,7 @@
    "properties": {
     "name": "33-35 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087666292",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721117709",
     "tech_change_status": "Not Planned",
@@ -41923,7 +42059,7 @@
    "properties": {
     "name": "29-31 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417896",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721117844",
     "tech_change_status": "Not Planned",
@@ -41960,7 +42096,7 @@
    "properties": {
     "name": "6-8 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417831",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721117891",
     "tech_change_status": "Not Planned",
@@ -42014,7 +42150,7 @@
    "properties": {
     "name": "30-32 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417812",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721118126",
     "tech_change_status": "Not Planned",
@@ -42102,7 +42238,7 @@
    "properties": {
     "name": "9-11 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087417877",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721118512",
     "tech_change_status": "Not Planned",
@@ -42122,7 +42258,7 @@
    "properties": {
     "name": "34-36 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087352218",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721118685",
     "tech_change_status": "Not Planned",
@@ -42176,7 +42312,7 @@
    "properties": {
     "name": "26-28 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087666302",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721119128",
     "tech_change_status": "Not Planned",
@@ -42247,7 +42383,7 @@
    "properties": {
     "name": "37-39 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087352260",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721120077",
     "tech_change_status": "Not Planned",
@@ -42287,7 +42423,7 @@
    "properties": {
     "name": "2-4 WHITE OAK COURT BAHRS SCRUB 4207",
     "locID": "LOC100087352273",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721120468",
     "tech_change_status": "Not Planned",
@@ -42772,7 +42908,7 @@
    "properties": {
     "name": "50 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100079106801",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721145565",
     "tech_change_status": "Not Planned",
@@ -43254,7 +43390,7 @@
    "properties": {
     "name": "48 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087417330",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721147003",
     "tech_change_status": "Not Planned",
@@ -44576,8 +44712,8 @@
    "properties": {
     "name": "44 BANGALOW CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000033491877",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721150790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44630,7 +44766,7 @@
    "properties": {
     "name": "52 LAPWING DRIVE BAHRS SCRUB 4207",
     "locID": "LOC100087351883",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721151290",
     "tech_change_status": "Not Planned",
@@ -44846,7 +44982,7 @@
    "properties": {
     "name": "42 BANGALOW CIRCUIT BAHRS SCRUB 4207",
     "locID": "LOC000013619685",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721151883",
     "tech_change_status": "Not Planned",
@@ -44900,7 +45036,7 @@
    "properties": {
     "name": "5 BROOKHAVEN BOULEVARD BAHRS SCRUB 4207",
     "locID": "LOC100078029154",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721151998",
     "tech_change_status": "Not Planned",
