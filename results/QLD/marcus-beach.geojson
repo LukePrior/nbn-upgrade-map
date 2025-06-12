@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-17T11:35:24.224596",
+ "generated": "2025-06-12T09:10:42.816520",
  "suburb": "MARCUS BEACH",
  "features": [
   {
@@ -376,7 +376,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155525776",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1525,9 +1525,9 @@
     "name": "17 MAHOGANY DRIVE MARCUS BEACH 4573",
     "locID": "LOC000097758955",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155532183",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1782,10 +1782,10 @@
    "properties": {
     "name": "28 HAWTHORN GROVE MARCUS BEACH 4573",
     "locID": "LOC000096363213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155539250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3186,10 +3186,9 @@
    "properties": {
     "name": "37 MAHOGANY DRIVE MARCUS BEACH 4573",
     "locID": "LOC000017410106",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156778745",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8343,6 +8342,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10071007,
+     -26.45324339
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 DAVID LOW WAY MARCUS BEACH 4573",
+    "locID": "LOC000012498498",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161123181",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.09605494,
      -26.45689254
     ]
@@ -8376,6 +8395,25 @@
     "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09910715,
+     -26.45610843
+    ]
+   },
+   "properties": {
+    "name": "LOT 4 DAVID LOW WAY MARCUS BEACH 4573",
+    "locID": "LOC000034503967",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161433584",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
