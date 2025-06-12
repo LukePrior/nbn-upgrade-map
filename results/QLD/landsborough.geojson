@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-17T07:22:01.015100",
+ "generated": "2025-06-12T04:55:06.371906",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -287,7 +287,7 @@
    "properties": {
     "name": "3 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501916",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155474083"
    }
@@ -357,7 +357,7 @@
    "properties": {
     "name": "8 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501971",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155474102"
    }
@@ -744,7 +744,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155474993",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1054,7 +1054,7 @@
    "properties": {
     "name": "6 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501959",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155475104"
    }
@@ -1091,10 +1091,9 @@
    "properties": {
     "name": "26 CALOUNDRA STREET LANDSBOROUGH 4550",
     "locID": "LOC000002554726",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155476049",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1701,10 +1700,9 @@
    "properties": {
     "name": "10 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000067989989",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155486820",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3730,8 +3728,9 @@
     "name": "1 GATTERA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000098784525",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155494150"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155494150",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -4812,7 +4811,7 @@
    "properties": {
     "name": "38 AMIGH ROAD LANDSBOROUGH 4550",
     "locID": "LOC000089566701",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155496043",
     "tech_change_status": "Not Planned"
@@ -5728,7 +5727,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155497828",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7039,8 +7038,8 @@
    "properties": {
     "name": "15A WILLIAM STREET LANDSBOROUGH 4550",
     "locID": "LOC000053422682",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155500666",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7219,6 +7218,26 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155500851",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96709935,
+     -26.811437
+    ]
+   },
+   "properties": {
+    "name": "10 BEERWAH STREET LANDSBOROUGH 4550",
+    "locID": "LOC000058747013",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155501735",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9287,9 +9306,9 @@
     "name": "14 GRAHAM DRIVE LANDSBOROUGH 4550",
     "locID": "LOC000020787670",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156769172",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9991,8 +10010,8 @@
    "properties": {
     "name": "17 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000106772010",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156775826",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10485,10 +10504,10 @@
    "properties": {
     "name": "4 SILVERBIRCH COURT LANDSBOROUGH 4550",
     "locID": "LOC000003341121",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156776158",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11430,7 +11449,7 @@
    "properties": {
     "name": "1 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501890",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156782931"
    }
@@ -11629,7 +11648,7 @@
    "properties": {
     "name": "2 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501900",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156782969"
    }
@@ -11715,7 +11734,7 @@
    "properties": {
     "name": "4 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501928",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156782976"
    }
@@ -11733,8 +11752,9 @@
     "name": "48 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000036622073",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156782977"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD156782977",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11749,7 +11769,7 @@
    "properties": {
     "name": "7 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501963",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156782993"
    }
@@ -12190,10 +12210,10 @@
    "properties": {
     "name": "25 GYMPIE STREET SOUTH LANDSBOROUGH 4550",
     "locID": "LOC000029067438",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156783197",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17898,10 +17918,9 @@
    "properties": {
     "name": "9 OLIVIA COURT LANDSBOROUGH 4550",
     "locID": "LOC000033321858",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158178384",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18110,10 +18129,9 @@
    "properties": {
     "name": "38 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000096008171",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD158178964",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158178964"
    }
   },
   {
@@ -18328,10 +18346,9 @@
    "properties": {
     "name": "11 MELLUM STREET LANDSBOROUGH 4550",
     "locID": "LOC000105453091",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158181670",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21864,10 +21881,9 @@
    "properties": {
     "name": "3 LAYT COURT LANDSBOROUGH 4550",
     "locID": "LOC000068797034",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160953642",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160953642"
    }
   },
   {
@@ -22248,8 +22264,8 @@
    "properties": {
     "name": "35 TIVERTON PLACE LANDSBOROUGH 4550",
     "locID": "LOC000025744847",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160962863",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22347,7 +22363,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160994894",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22480,7 +22496,7 @@
    "properties": {
     "name": "5 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501937",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161000828"
    }
@@ -23341,7 +23357,7 @@
    "properties": {
     "name": "LOT 555 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501900",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161251037"
    }
@@ -23358,7 +23374,7 @@
    "properties": {
     "name": "LOT 999 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000188501900",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161251038"
    }
@@ -25924,10 +25940,9 @@
    "properties": {
     "name": "38B MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000096008171",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162091108",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162091108"
    }
   },
   {
@@ -33305,8 +33320,8 @@
    "properties": {
     "name": "11 BUCKLEY STREET LANDSBOROUGH 4550",
     "locID": "LOC100074890394",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719446898",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35478,8 +35493,8 @@
    "properties": {
     "name": "UNIT 1, 11 BUCKLEY STREET LANDSBOROUGH 4550",
     "locID": "LOC100074890394",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719731897",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39216,8 +39231,8 @@
    "properties": {
     "name": "UNIT 2, 11 BUCKLEY STREET LANDSBOROUGH 4550",
     "locID": "LOC100074890394",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720880138",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41613,6 +41628,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721398139"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9528282,
+     -26.80984695
+    ]
+   },
+   "properties": {
+    "name": "15 WHITES ROAD LANDSBOROUGH 4550",
+    "locID": "LOC000061061712",
+    "tech": "SATELLITE",
+    "upgrade": "WIRELESS",
+    "gnaf_pid": "GAQLD721432706",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
