@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-17T04:27:29.712904",
+ "generated": "2025-06-12T01:58:56.867037",
  "suburb": "GLADSTONE CENTRAL",
  "features": [
   {
@@ -3308,8 +3308,9 @@
     "name": "78 CENTRAL LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000075340582",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162502389"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162502389",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -3757,10 +3758,10 @@
    "properties": {
     "name": "1 CHAPPLE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000029336917",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162502443",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4631,9 +4632,9 @@
     "name": "9 DREWE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000062663159",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162504677",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8222,9 +8223,9 @@
     "name": "4 GOONDOON STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000022456892",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162508479",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8764,8 +8765,8 @@
    "properties": {
     "name": "1 GRAY STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000019133739",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162508782",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9526,8 +9527,8 @@
    "properties": {
     "name": "88 HANSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC100022786752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162509269",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11014,10 +11015,9 @@
    "properties": {
     "name": "20 LORD STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000066261873",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162512591",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162512591"
    }
   },
   {
@@ -12935,8 +12935,9 @@
     "name": "22 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000095672697",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162516998"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162516998",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -16562,6 +16563,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.26402918,
+     -23.84848141
+    ]
+   },
+   "properties": {
+    "name": "19 TOOLOOA STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000162097787",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162524957",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2628494,
+     -23.84755466
+    ]
+   },
+   "properties": {
+    "name": "1 TOOLOOA STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000005799943",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162524958",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.26330566,
+     -23.84711551
+    ]
+   },
+   "properties": {
+    "name": "2 TOOLOOA STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000005879228",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162524959",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.24127954,
      -23.83857038
     ]
@@ -18572,6 +18629,24 @@
     ]
    },
    "properties": {
+    "name": "42 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000162744844",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162536787",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2551455,
+     -23.84425564
+    ]
+   },
+   "properties": {
     "name": "56 CENTRAL LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000094995477",
     "tech": "FTTC",
@@ -20527,8 +20602,8 @@
    "properties": {
     "name": "SHOP 1, 88 HANSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC100022786752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162540618",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20771,8 +20846,8 @@
    "properties": {
     "name": "SHOP 2, 88 HANSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC100022786752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162540631",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20957,8 +21032,8 @@
    "properties": {
     "name": "SHOP 3, 88 HANSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC100022786752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162540641",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21364,6 +21439,26 @@
     "gnaf_pid": "GAQLD162540768",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25912662,
+     -23.84675273
+    ]
+   },
+   "properties": {
+    "name": "17 HERBERT STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000028186471",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162540769",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23991,6 +24086,26 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162550449"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25542165,
+     -23.84442772
+    ]
+   },
+   "properties": {
+    "name": "29 WILLIAM STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000099402468",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162550451",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30221,6 +30336,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.26112642,
+     -23.84824885
+    ]
+   },
+   "properties": {
+    "name": "11 TANK STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000008119782",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD162551479",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.25711566,
      -23.84172913
     ]
@@ -33676,6 +33811,86 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163189181",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25055266,
+     -23.8452748
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 31 SIDE STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000177879080",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163192613",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25055266,
+     -23.8452748
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 31 SIDE STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000177879080",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163192615",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25055266,
+     -23.8452748
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 31 SIDE STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000177879080",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163192616",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25055266,
+     -23.8452748
+    ]
+   },
+   "properties": {
+    "name": "31 SIDE STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000116086131",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163192619",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38361,6 +38576,139 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.25689078,
+     -23.84666681
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000095030168",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173034",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25686099,
+     -23.84661969
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000097007882",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173035",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25682747,
+     -23.84657264
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000096820424",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173036",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25679985,
+     -23.84652206
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000095428898",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173037",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25669454,
+     -23.84638939
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000096679994",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173038",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25673487,
+     -23.84635413
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000096893348",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173039",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.25695731,
+     -23.84625903
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 94 CENTRAL LANE GLADSTONE CENTRAL 4680",
+    "locID": "LOC000096679994",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425173042",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.25241353,
      -23.83689007
     ]
@@ -41932,6 +42280,26 @@
     "gnaf_pid": "GAQLD425328694",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.24645658,
+     -23.84312018
+    ]
+   },
+   "properties": {
+    "name": "3 GRAY STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000048984257",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425343378",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
