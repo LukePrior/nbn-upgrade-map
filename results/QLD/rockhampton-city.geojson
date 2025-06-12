@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-17T19:42:51.664130",
+ "generated": "2025-06-12T16:14:58.556374",
  "suburb": "ROCKHAMPTON CITY",
  "features": [
   {
@@ -1768,8 +1768,11 @@
     "name": "111 KENT STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000074210848",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155753191"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155753191",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3722,10 +3725,10 @@
    "properties": {
     "name": "230 GEORGE STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000079330692",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155755927",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4411,10 +4414,9 @@
    "properties": {
     "name": "66 ARCHER STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000136025440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155757188",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6454,7 +6456,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155759420",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6529,8 +6533,8 @@
    "properties": {
     "name": "326 QUAY STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000023144611",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155759434",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7656,10 +7660,9 @@
    "properties": {
     "name": "5 BOLSOVER STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000008185073",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155761512",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8547,6 +8550,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.5083851,
+     -23.3755908
+    ]
+   },
+   "properties": {
+    "name": "34 ARCHER STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000004889542",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155763023",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.50713468,
      -23.37750744
     ]
@@ -9364,9 +9387,9 @@
     "name": "324 CAMPBELL STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000087316271",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155764926",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11015,26 +11038,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.50305506,
-     -23.37689063
-    ]
-   },
-   "properties": {
-    "name": "34 CAMBRIDGE STREET ROCKHAMPTON CITY 4700",
-    "locID": "LOC000017842359",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155766073",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.50019211,
      -23.37430048
     ]
@@ -11436,10 +11439,9 @@
    "properties": {
     "name": "98 VICTORIA PARADE ROCKHAMPTON CITY 4700",
     "locID": "LOC000136021076",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155766744",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12190,9 +12192,9 @@
     "name": "127 EAST STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000026635208",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155771045",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12921,10 +12923,9 @@
    "properties": {
     "name": "146 KENT STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000044682380",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155772779",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13140,10 +13141,9 @@
    "properties": {
     "name": "259 CAMPBELL STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000068707899",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155773771",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14479,9 +14479,9 @@
     "name": "233 ALMA STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000103541707",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157039423",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15885,6 +15885,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.50955663,
+     -23.38793053
+    ]
+   },
+   "properties": {
+    "name": "108 STANLEY STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000032810783",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157044067",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51036622,
      -23.38809212
     ]
@@ -16426,8 +16445,8 @@
    "properties": {
     "name": "28 SOUTH STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000081390146",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157047027",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16646,10 +16665,9 @@
    "properties": {
     "name": "253 MURRAY STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000104811232",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157047077",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17690,10 +17708,9 @@
    "properties": {
     "name": "100 BOLSOVER STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000099316207",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157053221",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19001,8 +19018,11 @@
     "name": "154 DENISON STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000003306743",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157061295"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157061295",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19901,7 +19921,7 @@
     "name": "222 GEORGE STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000072355393",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157064393",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20318,10 +20338,9 @@
    "properties": {
     "name": "18 ALMA STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000028571722",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157064520",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21873,8 +21892,11 @@
     "name": "107 KENT STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000136029327",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157075140"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157075140",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25878,10 +25900,9 @@
    "properties": {
     "name": "UNIT 1, 66 ARCHER STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000136025440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158572826",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26231,6 +26252,26 @@
     "gnaf_pid": "GAQLD158574740",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.50179917,
+     -23.37515748
+    ]
+   },
+   "properties": {
+    "name": "35 GEORGE STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000078509628",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158574745",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26984,6 +27025,26 @@
     "gnaf_pid": "GAQLD158581330",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51142676,
+     -23.37915158
+    ]
+   },
+   "properties": {
+    "name": "26 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000032491239",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158581348",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29080,6 +29141,26 @@
     ]
    },
    "properties": {
+    "name": "18 BOLSOVER STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000039045818",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160325384",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51173841,
+     -23.37814279
+    ]
+   },
+   "properties": {
     "name": "20 BOLSOVER STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000180424351",
     "tech": "FTTN",
@@ -29124,6 +29205,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160325492",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51422134,
+     -23.38039991
+    ]
+   },
+   "properties": {
+    "name": "16 EAST LANE ROCKHAMPTON CITY 4700",
+    "locID": "LOC000135961088",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160325869",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -29427,6 +29528,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.51224031,
+     -23.38444783
+    ]
+   },
+   "properties": {
+    "name": "41 DERBY STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000084990222",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160330899",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51122983,
      -23.38213863
     ]
@@ -29646,10 +29767,10 @@
    "properties": {
     "name": "31 GEORGE STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000079330692",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160334342",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29672,6 +29793,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51473075,
+     -23.38283971
+    ]
+   },
+   "properties": {
+    "name": "11 DERBY STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000149678129",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160334570",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -30279,6 +30418,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160337147",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51323864,
+     -23.38382753
+    ]
+   },
+   "properties": {
+    "name": "23 DERBY STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000149678247",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160339217",
     "tech_change_status": "Not Planned"
    }
   },
@@ -31047,6 +31204,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.51067168,
+     -23.3796818
+    ]
+   },
+   "properties": {
+    "name": "42 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000136305374",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160340750",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51062293,
      -23.37971071
     ]
@@ -31077,6 +31254,26 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160340755",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.50939428,
+     -23.38000936
+    ]
+   },
+   "properties": {
+    "name": "58 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000096105767",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160340761",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32573,6 +32770,26 @@
     ]
    },
    "properties": {
+    "name": "35 EAST STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000059606598",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160348671",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51475799,
+     -23.38006308
+    ]
+   },
+   "properties": {
     "name": "41 EAST STREET ROCKHAMPTON CITY 4700",
     "locID": "LOC000149816683",
     "tech": "FTTN",
@@ -33684,6 +33901,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.50955663,
+     -23.38793053
+    ]
+   },
+   "properties": {
+    "name": "108A STANLEY STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000032521143",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160349539",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51170446,
      -23.37519605
     ]
@@ -33965,6 +34202,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.5114642,
+     -23.37912829
+    ]
+   },
+   "properties": {
+    "name": "20 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000083767726",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160350127",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51293078,
      -23.37891852
     ]
@@ -33978,6 +34235,46 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51145172,
+     -23.37913605
+    ]
+   },
+   "properties": {
+    "name": "22 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000029076288",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160350129",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51143924,
+     -23.37914382
+    ]
+   },
+   "properties": {
+    "name": "24 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000053523589",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160350131",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -34894,6 +35191,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.5142815,
+     -23.37995021
+    ]
+   },
+   "properties": {
+    "name": "20 WILLIAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000069967231",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD160353383",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51415656,
      -23.38002813
     ]
@@ -35286,6 +35603,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.50496907,
+     -23.37394558
+    ]
+   },
+   "properties": {
+    "name": "38 DENISON STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000050244783",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160354342",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.50922857,
      -23.3785634
     ]
@@ -35429,6 +35766,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160355149",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51141428,
+     -23.37915935
+    ]
+   },
+   "properties": {
+    "name": "28 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000001766946",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160355150",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -36200,6 +36557,23 @@
     "gnaf_pid": "GAQLD160359271",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51148916,
+     -23.37911276
+    ]
+   },
+   "properties": {
+    "name": "16 DENHAM STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000184891456",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160359275"
    }
   },
   {
@@ -37310,6 +37684,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.512941,
+     -23.38041338
+    ]
+   },
+   "properties": {
+    "name": "218 BOLSOVER STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000196845450",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160364323"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51173841,
      -23.37814279
     ]
@@ -37498,6 +37889,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160364360",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.50759846,
+     -23.37194932
+    ]
+   },
+   "properties": {
+    "name": "37 BOLSOVER STREET ROCKHAMPTON CITY 4700",
+    "locID": "LOC000094243287",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160364363",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -41352,6 +41763,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.51422134,
+     -23.38039991
+    ]
+   },
+   "properties": {
+    "name": "252 EAST LANE ROCKHAMPTON CITY 4700",
+    "locID": "LOC000049532397",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161469259",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.50573578,
      -23.37938838
     ]
@@ -42578,26 +43008,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.5094564,
-     -23.37346487
-    ]
-   },
-   "properties": {
-    "name": "1-3 CAMBRIDGE STREET ROCKHAMPTON CITY 4700",
-    "locID": "LOC000017842359",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD162015435",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -55291,7 +55701,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721145181",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
