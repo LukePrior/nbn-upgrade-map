@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-18T15:50:35.441780",
+ "generated": "2025-06-13T11:29:25.805692",
  "suburb": "ATHOL PARK",
  "features": [
   {
@@ -1306,10 +1306,9 @@
    "properties": {
     "name": "4 BATHURST STREET ATHOL PARK 5012",
     "locID": "LOC000036210385",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415112192",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1948,10 +1947,10 @@
    "properties": {
     "name": "9 ALISON STREET ATHOL PARK 5012",
     "locID": "LOC000077796282",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415134711",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7986,10 +7985,10 @@
    "properties": {
     "name": "1 EMMA STREET ATHOL PARK 5012",
     "locID": "LOC000082182998",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415406642",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8724,9 +8723,9 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415409427",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13776,10 +13775,9 @@
    "properties": {
     "name": "39 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654067",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_424530320",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424530320"
    }
   },
   {
@@ -15685,6 +15683,42 @@
     "gnaf_pid": "GASA_424811712",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54708152,
+     -34.86144203
+    ]
+   },
+   "properties": {
+    "name": "171A HANSON ROAD ATHOL PARK 5012",
+    "locID": "LOC000166104828",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_424811713",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54708152,
+     -34.86144203
+    ]
+   },
+   "properties": {
+    "name": "171C HANSON ROAD ATHOL PARK 5012",
+    "locID": "LOC000166104844",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_424811714",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17677,26 +17711,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.53892823,
-     -34.85622007
-    ]
-   },
-   "properties": {
-    "name": "6-8 MILLICENT STREET ATHOL PARK 5012",
-    "locID": "LOC000154770240",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_425444938",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.5395215,
      -34.8520175
     ]
@@ -19532,6 +19546,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.54417261,
+     -34.85541363
+    ]
+   },
+   "properties": {
+    "name": "53A MILLICENT STREET ATHOL PARK 5012",
+    "locID": "LOC000196887888",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721351273"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54423195,
+     -34.85541081
+    ]
+   },
+   "properties": {
+    "name": "LOT 742 MILLICENT STREET ATHOL PARK 5012",
+    "locID": "LOC000196887888",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721410772"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.54559851,
      -34.85504483
     ]
@@ -19581,6 +19629,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54539186,
+     -34.85200387
+    ]
+   },
+   "properties": {
+    "name": "LOT 21 ATHOL STREET ATHOL PARK 5012",
+    "locID": "LOC000114504832",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721537104",
+    "tech_change_status": "Eligible to Order"
    }
   }
  ]
