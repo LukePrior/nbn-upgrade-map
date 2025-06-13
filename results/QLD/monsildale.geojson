@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-18T08:56:18.436240",
+ "generated": "2025-06-13T04:51:37.356342",
  "suburb": "MONSILDALE",
  "features": [
   {
@@ -162,7 +162,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161199773",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -620,6 +622,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.39377465,
+     -26.72508527
+    ]
+   },
+   "properties": {
+    "name": "LOT 8 MONSILDALE ROAD MONSILDALE 4515",
+    "locID": "LOC000073483948",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161240944",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.40059354,
      -26.71466333
     ]
@@ -774,8 +794,11 @@
     "name": "LOT 23 TABLELANDS ROAD MONSILDALE 4515",
     "locID": "LOC000103128597",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163059799"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163059799",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
