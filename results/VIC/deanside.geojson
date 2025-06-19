@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-23T04:32:20.963351",
+ "generated": "2025-06-19T00:56:45.050161",
  "suburb": "DEANSIDE",
  "features": [
   {
@@ -622,7 +622,7 @@
    "properties": {
     "name": "104-110 VERE COURT DEANSIDE 3336",
     "locID": "LOC000011840580",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719434498",
     "tech_change_status": "Not Planned",
@@ -24687,7 +24687,7 @@
    "properties": {
     "name": "59 LITORIA DRIVE DEANSIDE 3336",
     "locID": "LOC100085788664",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720571107",
     "tech_change_status": "Not Planned",
@@ -24930,7 +24930,7 @@
    "properties": {
     "name": "5 MUTTONWOOD CRESCENT DEANSIDE 3336",
     "locID": "LOC100085589146",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720572542",
     "tech_change_status": "Not Planned",
@@ -25651,7 +25651,7 @@
    "properties": {
     "name": "105 VERE COURT DEANSIDE 3336",
     "locID": "LOC100085012458",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720575726",
     "tech_change_status": "Not Planned",
@@ -36527,7 +36527,7 @@
    "properties": {
     "name": "104 VERE COURT DEANSIDE 3336",
     "locID": "LOC000011840580",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720757646",
     "tech_change_status": "Not Planned",
@@ -51097,9 +51097,9 @@
     "name": "5 ALISMA AVENUE DEANSIDE 3336",
     "locID": "LOC000006198661",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC720925910",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51442,7 +51442,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720952708",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51892,9 +51894,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720955895",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -52405,7 +52405,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720959004",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53059,7 +53061,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720964778",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71359,7 +71363,7 @@
    "properties": {
     "name": "11 VERE COURT DEANSIDE 3336",
     "locID": "LOC000011840580",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721187428",
     "tech_change_status": "Not Planned",
@@ -71450,7 +71454,7 @@
    "properties": {
     "name": "1 VERE COURT DEANSIDE 3336",
     "locID": "LOC000011840580",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721187619",
     "tech_change_status": "Not Planned",
@@ -73637,6 +73641,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.68278515,
+     -37.73472024
+    ]
+   },
+   "properties": {
+    "name": "6 SHIVAY STREET DEANSIDE 3336",
+    "locID": "LOC000196173198",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721223913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.70905136,
      -37.73241956
     ]
@@ -74058,6 +74079,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721226928"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.68272688,
+     -37.73500478
+    ]
+   },
+   "properties": {
+    "name": "5 SHIVAY STREET DEANSIDE 3336",
+    "locID": "LOC000196173179",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721227045"
    }
   },
   {
@@ -75240,6 +75278,74 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71114089,
+     -37.72502594
+    ]
+   },
+   "properties": {
+    "name": "6 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941611",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721283815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7126165,
+     -37.72469697
+    ]
+   },
+   "properties": {
+    "name": "35 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941364",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721284202"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71142918,
+     -37.72454696
+    ]
+   },
+   "properties": {
+    "name": "19 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941289",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721284635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71324948,
+     -37.72506885
+    ]
+   },
+   "properties": {
+    "name": "38 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941454",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721284750"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.71321172,
      -37.72406504
     ]
@@ -75257,6 +75363,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71112399,
+     -37.72450841
+    ]
+   },
+   "properties": {
+    "name": "15 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941262",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721285433"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71190254,
+     -37.72489868
+    ]
+   },
+   "properties": {
+    "name": "20 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941546",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721285458"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.71246808,
      -37.72467822
     ]
@@ -75264,9 +75404,128 @@
    "properties": {
     "name": "33 TRIESTE CRESCENT DEANSIDE 3336",
     "locID": "LOC000195941630",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721285544"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71106961,
+     -37.72520931
+    ]
+   },
+   "properties": {
+    "name": "2 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941630",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721286100"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71115515,
+     -37.72495476
+    ]
+   },
+   "properties": {
+    "name": "8 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941607",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721286953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71306174,
+     -37.72475322
+    ]
+   },
+   "properties": {
+    "name": "41 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941393",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721287244"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71223699,
+     -37.7258752
+    ]
+   },
+   "properties": {
+    "name": "31 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941828",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721287738"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71140857,
+     -37.72483627
+    ]
+   },
+   "properties": {
+    "name": "14 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941579",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721287785"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71321016,
+     -37.72477197
+    ]
+   },
+   "properties": {
+    "name": "43 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941408",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721287895"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71335017,
+     -37.72478966
+    ]
+   },
+   "properties": {
+    "name": "45 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941412",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721288083"
    }
   },
   {
@@ -75291,6 +75550,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71267262,
+     -37.72499597
+    ]
+   },
+   "properties": {
+    "name": "30 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941496",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721288216"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71233099,
+     -37.7249528
+    ]
+   },
+   "properties": {
+    "name": "26 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941514",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721288314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.7136458,
      -37.72411985
     ]
@@ -75301,6 +75594,159 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721289221"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71220862,
+     -37.72573283
+    ]
+   },
+   "properties": {
+    "name": "29 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941816",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721289223"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71202284,
+     -37.72462197
+    ]
+   },
+   "properties": {
+    "name": "27 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941329",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721289317"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71187443,
+     -37.72460322
+    ]
+   },
+   "properties": {
+    "name": "25 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941317",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721289516"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71202566,
+     -37.72531055
+    ]
+   },
+   "properties": {
+    "name": "25 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941682",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290390"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71310106,
+     -37.7250501
+    ]
+   },
+   "properties": {
+    "name": "36 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941465",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71218863,
+     -37.72558296
+    ]
+   },
+   "properties": {
+    "name": "27 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941800",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71175413,
+     -37.72487993
+    ]
+   },
+   "properties": {
+    "name": "18 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941551",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71275651,
+     -37.72471466
+    ]
+   },
+   "properties": {
+    "name": "37 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941372",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721291191"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71184474,
+     -37.72528769
+    ]
+   },
+   "properties": {
+    "name": "23 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941676",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721291782"
    }
   },
   {
@@ -75325,6 +75771,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71296105,
+     -37.72503241
+    ]
+   },
+   "properties": {
+    "name": "34 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941477",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721292547"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71148798,
+     -37.72524261
+    ]
+   },
+   "properties": {
+    "name": "19 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941653",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721292665"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.71243878,
      -37.72396744
     ]
@@ -75342,6 +75822,159 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71290493,
+     -37.72473341
+    ]
+   },
+   "properties": {
+    "name": "39 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941386",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721293008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71355471,
+     -37.72510741
+    ]
+   },
+   "properties": {
+    "name": "42 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941431",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721293538"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7134063,
+     -37.72508866
+    ]
+   },
+   "properties": {
+    "name": "40 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941449",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721293919"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7115692,
+     -37.72456465
+    ]
+   },
+   "properties": {
+    "name": "21 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941291",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295193"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71115459,
+     -37.72478612
+    ]
+   },
+   "properties": {
+    "name": "12 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941580",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295684"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71158135,
+     -37.7248581
+    ]
+   },
+   "properties": {
+    "name": "16 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941567",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721296352"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7111694,
+     -37.72488359
+    ]
+   },
+   "properties": {
+    "name": "10 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941598",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721298284"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71216285,
+     -37.72463966
+    ]
+   },
+   "properties": {
+    "name": "29 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941338",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721298578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71349018,
+     -37.72480735
+    ]
+   },
+   "properties": {
+    "name": "47 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941420",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721298831"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.70832957,
      -37.73341389
     ]
@@ -75352,6 +75985,57 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721299212"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71112441,
+     -37.72510824
+    ]
+   },
+   "properties": {
+    "name": "4 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941624",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721299374"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71282104,
+     -37.72501472
+    ]
+   },
+   "properties": {
+    "name": "32 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941483",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721299399"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71133116,
+     -37.7252228
+    ]
+   },
+   "properties": {
+    "name": "17 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941648",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721300206"
    }
   },
   {
@@ -75393,6 +76077,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71128077,
+     -37.72452821
+    ]
+   },
+   "properties": {
+    "name": "17 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941270",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721301198"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71231127,
+     -37.72465841
+    ]
+   },
+   "properties": {
+    "name": "31 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941340",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721301199"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.71292327,
      -37.72402862
     ]
@@ -75427,6 +76145,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.71171761,
+     -37.7245834
+    ]
+   },
+   "properties": {
+    "name": "23 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941301",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721302012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.7125018,
+     -37.72497439
+    ]
+   },
+   "properties": {
+    "name": "28 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941505",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721302051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.71307169,
      -37.72404736
     ]
@@ -75437,6 +76189,57 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721302254"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71204256,
+     -37.72491637
+    ]
+   },
+   "properties": {
+    "name": "22 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941533",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721302277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71218257,
+     -37.72493405
+    ]
+   },
+   "properties": {
+    "name": "24 TRIESTE CRESCENT DEANSIDE 3336",
+    "locID": "LOC000195941522",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721303574"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71166076,
+     -37.72526444
+    ]
+   },
+   "properties": {
+    "name": "21 AMALFI PARADE DEANSIDE 3336",
+    "locID": "LOC000195941669",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721303832"
    }
   },
   {
