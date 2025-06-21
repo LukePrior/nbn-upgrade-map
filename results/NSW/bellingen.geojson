@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-26T03:22:34.243891",
+ "generated": "2025-06-21T21:34:19.395142",
  "suburb": "BELLINGEN",
  "features": [
   {
@@ -568,7 +568,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704059557",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -618,10 +618,9 @@
    "properties": {
     "name": "3 BOWRA STREET BELLINGEN 2454",
     "locID": "LOC000006385564",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704059560",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704059560"
    }
   },
   {
@@ -1066,10 +1065,9 @@
    "properties": {
     "name": "40 HYDE STREET BELLINGEN 2454",
     "locID": "LOC000069418198",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704063716",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704063716"
    }
   },
   {
@@ -1717,10 +1715,9 @@
    "properties": {
     "name": "15 FORD STREET BELLINGEN 2454",
     "locID": "LOC000012292465",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704067025",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704067025"
    }
   },
   {
@@ -2288,8 +2285,9 @@
     "name": "22 PRINCE STREET BELLINGEN 2454",
     "locID": "LOC000068419410",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704067958"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704067958",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -2856,10 +2854,9 @@
    "properties": {
     "name": "13 HALPIN STREET BELLINGEN 2454",
     "locID": "LOC000003173825",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704069619",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704069619"
    }
   },
   {
@@ -3687,7 +3684,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704071165",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -4532,8 +4529,9 @@
     "name": "12 BRINER STREET BELLINGEN 2454",
     "locID": "LOC000023211432",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704074457"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704074457",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -4549,8 +4547,9 @@
     "name": "2 BRINER STREET BELLINGEN 2454",
     "locID": "LOC000070911456",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704074458"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704074458",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -4584,8 +4583,9 @@
     "name": "4 BRINER STREET BELLINGEN 2454",
     "locID": "LOC000033122150",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704074460"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704074460",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17050,6 +17050,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.91531557,
+     -30.46451906
+    ]
+   },
+   "properties": {
+    "name": "981 WATERFALL WAY BELLINGEN 2454",
+    "locID": "LOC000072392243",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW708587274",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.89790158,
      -30.45271022
     ]
@@ -17165,7 +17183,7 @@
    "properties": {
     "name": "65 HYDE STREET BELLINGEN 2454",
     "locID": "LOC000196566668",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712158550"
    }
@@ -17441,6 +17459,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.89989492,
+     -30.4529382
+    ]
+   },
+   "properties": {
+    "name": "18 HYDE STREET BELLINGEN 2454",
+    "locID": "LOC000076712393",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712189202",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.89937833,
      -30.45226159
     ]
@@ -17537,8 +17575,9 @@
     "name": "121 HYDE STREET BELLINGEN 2454",
     "locID": "LOC000069032425",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712192190"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW712192190",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -18026,10 +18065,9 @@
    "properties": {
     "name": "12 MCNALLY STREET BELLINGEN 2454",
     "locID": "LOC000049761156",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW712208039",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712208039"
    }
   },
   {
@@ -19205,8 +19243,8 @@
    "properties": {
     "name": "2 WHEATLEY STREET BELLINGEN 2454",
     "locID": "LOC000033927091",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712219037",
     "tech_change_status": "Eligible to Order"
    }
@@ -21462,10 +21500,9 @@
    "properties": {
     "name": "12 HAMMOND STREET BELLINGEN 2454",
     "locID": "LOC000091977701",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW713171182",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW713171182"
    }
   },
   {
@@ -21972,9 +22009,9 @@
     "name": "22 WATSON STREET BELLINGEN 2454",
     "locID": "LOC000018852683",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716642840",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -25876,8 +25913,9 @@
     "name": "15 LYON STREET BELLINGEN 2454",
     "locID": "LOC000099018362",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717083730"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717083730",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -25910,8 +25948,9 @@
     "name": "17 LYON STREET BELLINGEN 2454",
     "locID": "LOC000099724414",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717083732"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717083732",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -28022,10 +28061,10 @@
    "properties": {
     "name": "1 VIEW STREET BELLINGEN 2454",
     "locID": "LOC000074350658",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717090711",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -28149,8 +28188,8 @@
    "properties": {
     "name": "116 WHEATLEY STREET BELLINGEN 2454",
     "locID": "LOC000033927091",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717091382",
     "tech_change_status": "Eligible to Order"
    }
@@ -29289,8 +29328,9 @@
     "name": "7 LYON STREET BELLINGEN 2454",
     "locID": "LOC000099018362",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717103968"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717103968",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -29734,6 +29774,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.87469382,
+     -30.4324234
+    ]
+   },
+   "properties": {
+    "name": "60 ROSES ROAD BELLINGEN 2454",
+    "locID": "LOC000121029459",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717119330",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.86240784,
      -30.49569958
     ]
@@ -29761,10 +29819,10 @@
    "properties": {
     "name": "19 VIEW STREET BELLINGEN 2454",
     "locID": "LOC000074350658",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717120070",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -31661,6 +31719,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717544093",
     "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.88963588,
+     -30.4652313
+    ]
+   },
+   "properties": {
+    "name": "LOT 11 BOWRAVILLE ROAD BELLINGEN 2454",
+    "locID": "LOC000020689974",
+    "tech": "SATELLITE",
+    "upgrade": "WIRELESS",
+    "gnaf_pid": "GANSW717549346",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -36529,6 +36607,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.89937826,
+     -30.45226111
+    ]
+   },
+   "properties": {
+    "name": "27 HYDE STREET BELLINGEN 2454",
+    "locID": "LOC000052779800",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720156500",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.89581112,
      -30.45206709
     ]
@@ -37010,6 +37108,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721317434"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.8995752,
+     -30.46086394
+    ]
+   },
+   "properties": {
+    "name": "2C EVANS STREET BELLINGEN 2454",
+    "locID": "LOC000062165078",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721317646"
    }
   },
   {
