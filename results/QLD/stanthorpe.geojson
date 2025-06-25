@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-29T23:35:44.010345",
+ "generated": "2025-06-25T17:12:44.940186",
  "suburb": "STANTHORPE",
  "features": [
   {
@@ -1332,10 +1332,10 @@
    "properties": {
     "name": "44 DENHAM STREET STANTHORPE 4380",
     "locID": "LOC000097378643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155826081",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6091,10 +6091,10 @@
    "properties": {
     "name": "65 SUGARLOAF ROAD STANTHORPE 4380",
     "locID": "LOC000037310143",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155836847",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8914,7 +8914,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155839623",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8990,10 +8990,9 @@
    "properties": {
     "name": "9 TORRISI TERRACE STANTHORPE 4380",
     "locID": "LOC000046858337",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155839627",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9979,6 +9978,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.90969315,
+     -28.64363014
+    ]
+   },
+   "properties": {
+    "name": "LOT 11 AMIENS ROAD STANTHORPE 4380",
+    "locID": "LOC000025741303",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155840160",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.90904094,
      -28.64397077
     ]
@@ -10359,8 +10378,8 @@
    "properties": {
     "name": "3 WILSON STREET STANTHORPE 4380",
     "locID": "LOC000001647736",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155840223",
     "tech_change_status": "Eligible to Order"
    }
@@ -10515,10 +10534,10 @@
    "properties": {
     "name": "10 GRANITE STREET STANTHORPE 4380",
     "locID": "LOC000107272044",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155840233",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11947,8 +11966,9 @@
     "name": "30 PIKE STREET STANTHORPE 4380",
     "locID": "LOC000082551082",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155840715"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155840715",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -13964,8 +13984,9 @@
     "name": "68 AMOSFIELD ROAD STANTHORPE 4380",
     "locID": "LOC000064585930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155842010"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155842010",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -13999,8 +14020,9 @@
     "name": "70 AMOSFIELD ROAD STANTHORPE 4380",
     "locID": "LOC000045861017",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155842012"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155842012",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -14462,10 +14484,9 @@
    "properties": {
     "name": "50 ARCHIBALD STREET STANTHORPE 4380",
     "locID": "LOC000088334374",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155842424",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155842424"
    }
   },
   {
@@ -17098,8 +17119,9 @@
     "name": "5 PLANT STREET STANTHORPE 4380",
     "locID": "LOC000053286699",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155844288"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155844288",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -18380,10 +18402,9 @@
    "properties": {
     "name": "137 HIGH STREET STANTHORPE 4380",
     "locID": "LOC000038430001",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155845330",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19250,8 +19271,9 @@
     "name": "2 RECREATION CRESCENT STANTHORPE 4380",
     "locID": "LOC000094579529",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155845396"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155845396",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21881,8 +21903,9 @@
     "name": "49 HIGH STREET STANTHORPE 4380",
     "locID": "LOC000049955405",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155848979"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155848979",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -25563,10 +25586,9 @@
    "properties": {
     "name": "45 GRANITE STREET STANTHORPE 4380",
     "locID": "LOC000192762598",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155852457",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26394,10 +26416,9 @@
    "properties": {
     "name": "6 O'MARA TERRACE STANTHORPE 4380",
     "locID": "LOC000052091287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155852528",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29923,7 +29944,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155853772",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35606,8 +35627,9 @@
     "name": "4 RECREATION CRESCENT STANTHORPE 4380",
     "locID": "LOC000106975000",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156094355"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD156094355",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -36109,7 +36131,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156097130",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36865,10 +36887,10 @@
    "properties": {
     "name": "48 DENHAM STREET STANTHORPE 4380",
     "locID": "LOC000063938148",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157125993",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39688,10 +39710,9 @@
    "properties": {
     "name": "12 MATTHEW STREET STANTHORPE 4380",
     "locID": "LOC000084272341",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157196854",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157196854"
    }
   },
   {
@@ -40291,8 +40312,9 @@
     "name": "7 PLANT STREET STANTHORPE 4380",
     "locID": "LOC000085775519",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158646011"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158646011",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -42633,6 +42655,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.954467,
+     -28.64860919
+    ]
+   },
+   "properties": {
+    "name": "33 AMOSFIELD ROAD STANTHORPE 4380",
+    "locID": "LOC000060415471",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158673275",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.94100644,
      -28.67102585
     ]
@@ -44263,8 +44305,9 @@
     "name": "45 HIGH STREET STANTHORPE 4380",
     "locID": "LOC000023655955",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158680121"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158680121",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -46342,8 +46385,9 @@
     "name": "7A PLANT STREET STANTHORPE 4380",
     "locID": "LOC000085509682",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159926543"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD159926543",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -48854,8 +48898,9 @@
     "name": "23 BRITANNIA STREET STANTHORPE 4380",
     "locID": "LOC000049132826",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159963978"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD159963978",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -49944,7 +49989,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161174519",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50703,6 +50748,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91687129,
+     -28.65304257
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 TEXAS ROAD STANTHORPE 4380",
+    "locID": "LOC000046309375",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161327649",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -52037,10 +52100,9 @@
    "properties": {
     "name": "35 MATTHEW STREET STANTHORPE 4380",
     "locID": "LOC000127922071",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161849730",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54402,8 +54464,9 @@
     "name": "28A PIKE STREET STANTHORPE 4380",
     "locID": "LOC000077716402",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162058572"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162058572",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -54773,7 +54836,7 @@
     "tech": "WIRELESS",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162061731",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -54963,6 +55026,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162066939",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.93352675,
+     -28.6634663
+    ]
+   },
+   "properties": {
+    "name": "106 SUGARLOAF ROAD STANTHORPE 4380",
+    "locID": "LOC000158400847",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162068319",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -57724,6 +57807,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91799396,
+     -28.6478307
+    ]
+   },
+   "properties": {
+    "name": "14 AMIENS ROAD STANTHORPE 4380",
+    "locID": "LOC000015805209",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162698646",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91669827,
+     -28.64521936
+    ]
+   },
+   "properties": {
+    "name": "40 AMIENS ROAD STANTHORPE 4380",
+    "locID": "LOC000027527331",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162698647",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91274451,
      -28.64427327
     ]
@@ -57754,6 +57877,46 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162698649",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91212418,
+     -28.64411099
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 AMIENS ROAD STANTHORPE 4380",
+    "locID": "LOC000009135464",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162698650",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91242309,
+     -28.64385406
+    ]
+   },
+   "properties": {
+    "name": "LOT 7 AMIENS ROAD STANTHORPE 4380",
+    "locID": "LOC000088069810",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162698651",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -62791,6 +62954,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719547599",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.94680049,
+     -28.67326903
+    ]
+   },
+   "properties": {
+    "name": "68 SUGARLOAF ROAD STANTHORPE 4380",
+    "locID": "LOC100090007056",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719555929",
+    "tech_change_status": "Not Planned"
    }
   },
   {

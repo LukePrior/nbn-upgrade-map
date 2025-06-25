@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-29T23:31:50.615169",
+ "generated": "2025-06-25T17:08:51.807329",
  "suburb": "ST GEORGE",
  "features": [
   {
@@ -5234,9 +5234,9 @@
     "name": "206 VICTORIA STREET ST GEORGE 4487",
     "locID": "LOC000005823363",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155837501",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8973,10 +8973,9 @@
    "properties": {
     "name": "53 KENNY LANE ST GEORGE 4487",
     "locID": "LOC000044880788",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157097722",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9642,10 +9641,9 @@
    "properties": {
     "name": "6 ANNE STREET ST GEORGE 4487",
     "locID": "LOC000107269200",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157104555",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10548,10 +10546,10 @@
    "properties": {
     "name": "25 ALFRED STREET ST GEORGE 4487",
     "locID": "LOC000085185413",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157108360",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15609,8 +15607,8 @@
    "properties": {
     "name": "24 CHARLES STREET ST GEORGE 4487",
     "locID": "LOC000076421863",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157196617",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20880,7 +20878,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160710357",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31512,9 +31510,9 @@
     "name": "260 BUCKINBAH ROAD ST GEORGE 4487",
     "locID": "LOC000091249740",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD162663978",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -36897,10 +36895,12 @@
    "properties": {
     "name": "610 BUNDORAN ROAD ST GEORGE 4487",
     "locID": "LOC000150200297",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425406044",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38400,6 +38400,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.49409008,
+     -27.79238081
+    ]
+   },
+   "properties": {
+    "name": "13724 MITCHELL SAINT GEORGE ROAD ST GEORGE 4487",
+    "locID": "LOC000127990526",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720120756",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.59605779,
      -28.03628228
     ]
@@ -38542,6 +38560,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720592284",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.43063756,
+     -27.68779482
+    ]
+   },
+   "properties": {
+    "name": "LOT 2 MITCHELL - ST. GEORGE ROAD ST GEORGE 4487",
+    "locID": "LOC100087286222",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720592285",
     "tech_change_status": "Not Planned"
    }
   },
