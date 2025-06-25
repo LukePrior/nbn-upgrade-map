@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-29T17:03:23.324671",
+ "generated": "2025-06-25T10:41:57.071428",
  "suburb": "NANANGO",
  "features": [
   {
@@ -1742,7 +1742,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155626837",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4051,10 +4051,10 @@
    "properties": {
     "name": "3 LEE COURT NANANGO 4615",
     "locID": "LOC000106089237",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155630284",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -4069,10 +4069,9 @@
    "properties": {
     "name": "4 LEE COURT NANANGO 4615",
     "locID": "LOC000007498266",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155630285",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155630285"
    }
   },
   {
@@ -6010,10 +6009,9 @@
    "properties": {
     "name": "44 BUNKER AVENUE NANANGO 4615",
     "locID": "LOC000034980095",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155633806",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7865,10 +7863,9 @@
    "properties": {
     "name": "8 CONROY STREET NANANGO 4615",
     "locID": "LOC000008551964",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155643390",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25898,6 +25895,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.00538668,
+     -26.68418482
+    ]
+   },
+   "properties": {
+    "name": "8 SOUTH STREET NANANGO 4615",
+    "locID": "LOC000064445227",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160233271",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.00602165,
      -26.67686464
     ]
@@ -26060,6 +26075,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00538668,
+     -26.68418482
+    ]
+   },
+   "properties": {
+    "name": "12 SOUTH STREET NANANGO 4615",
+    "locID": "LOC000035839422",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD160242626",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -26772,6 +26805,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160713129",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00357203,
+     -26.66038754
+    ]
+   },
+   "properties": {
+    "name": "60 PHIPPS STREET EAST NANANGO 4615",
+    "locID": "LOC000128649830",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160713130",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -33680,6 +33733,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.00126783,
+     -26.6626127
+    ]
+   },
+   "properties": {
+    "name": "272 BURNETT HIGHWAY NANANGO 4615",
+    "locID": "LOC000041710303",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161812800",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00126783,
+     -26.6626127
+    ]
+   },
+   "properties": {
+    "name": "366 BURNETT HIGHWAY NANANGO 4615",
+    "locID": "LOC000095413585",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161812802",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.96458549,
      -26.6717243
     ]
@@ -34582,6 +34675,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161962764"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00815912,
+     -26.65924098
+    ]
+   },
+   "properties": {
+    "name": "108 PHIPPS STREET EAST NANANGO 4615",
+    "locID": "LOC000009487759",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161963660",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42696,6 +42809,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.94363138,
+     -26.6753412
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 MCNAMARA ROAD NANANGO 4615",
+    "locID": "LOC000087845074",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425151189",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.99559472,
      -26.67509545
     ]
@@ -42993,6 +43126,26 @@
     ]
    },
    "properties": {
+    "name": "70 CAFFERYS ROAD NANANGO 4615",
+    "locID": "LOC000030810578",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425237552",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.97886022,
+     -26.66074579
+    ]
+   },
+   "properties": {
     "name": "LOT 2 CAFFERYS ROAD NANANGO 4615",
     "locID": "LOC000128678379",
     "tech": "WIRELESS",
@@ -43128,6 +43281,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.01146076,
+     -26.67797196
+    ]
+   },
+   "properties": {
+    "name": "LOT 25 APPIN STREET EAST NANANGO 4615",
+    "locID": "LOC000012490347",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425584986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.99792184,
      -26.68226405
     ]
@@ -43202,6 +43372,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.99939384,
+     -26.68241991
+    ]
+   },
+   "properties": {
+    "name": "13 ARTHUR STREET EAST NANANGO 4615",
+    "locID": "LOC000028518780",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425600608",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.99896348,
+     -26.68243834
+    ]
+   },
+   "properties": {
+    "name": "15 ARTHUR STREET EAST NANANGO 4615",
+    "locID": "LOC000096076832",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425600609",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.99963522,
      -26.68126345
     ]
@@ -43212,6 +43422,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425600610",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.99948955,
+     -26.68110362
+    ]
+   },
+   "properties": {
+    "name": "22 ARTHUR STREET EAST NANANGO 4615",
+    "locID": "LOC000098984423",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425600611",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -43351,6 +43581,44 @@
     "gnaf_pid": "GAQLD425603349",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.9991685,
+     -26.68154655
+    ]
+   },
+   "properties": {
+    "name": "30 ARTHUR STREET EAST NANANGO 4615",
+    "locID": "LOC000089103665",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425603843",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.9991685,
+     -26.68154655
+    ]
+   },
+   "properties": {
+    "name": "40 ARTHUR STREET EAST NANANGO 4615",
+    "locID": "LOC000055250394",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425603844",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -45073,6 +45341,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.00623059,
+     -26.67551688
+    ]
+   },
+   "properties": {
+    "name": "48-50 APPIN STREET EAST NANANGO 4615",
+    "locID": "LOC100087633650",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721064884",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.95211959,
      -26.68167897
     ]
@@ -45261,6 +45549,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721309767",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00205935,
+     -26.68462285
+    ]
+   },
+   "properties": {
+    "name": "49 SOUTH STREET NANANGO 4615",
+    "locID": "LOC000107018070",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721313532",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
