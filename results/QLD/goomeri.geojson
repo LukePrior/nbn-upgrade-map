@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-29T10:14:05.076800",
+ "generated": "2025-06-25T03:58:27.859184",
  "suburb": "GOOMERI",
  "features": [
   {
@@ -175,8 +175,8 @@
    "properties": {
     "name": "45 BARNES STREET GOOMERI 4601",
     "locID": "LOC000076532826",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155342874",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -235,12 +235,12 @@
    "properties": {
     "name": "3 BOOUBYJAN STREET GOOMERI 4601",
     "locID": "LOC000171616982",
-    "tech": "FTTP",
+    "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155342914",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -439,26 +439,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155343946",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.07215661,
-     -26.18645785
-    ]
-   },
-   "properties": {
-    "name": "1 BOOUBYJAN STREET GOOMERI 4601",
-    "locID": "LOC000171616768",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155343950",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2025,10 +2005,9 @@
    "properties": {
     "name": "13 BARNES STREET GOOMERI 4601",
     "locID": "LOC000062208911",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156602170",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3123,7 +3102,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156609134",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3975,8 +3954,8 @@
    "properties": {
     "name": "22 JONES STREET GOOMERI 4601",
     "locID": "LOC000051990079",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156614130",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4573,9 +4552,11 @@
     "name": "72 LAIRD STREET GOOMERI 4601",
     "locID": "LOC000007773307",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157951531",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -4591,9 +4572,11 @@
     "name": "70 LAIRD STREET GOOMERI 4601",
     "locID": "LOC000050823510",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157951537",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -5372,7 +5355,7 @@
    "properties": {
     "name": "381 GOOMERI WEST ROAD GOOMERI 4601",
     "locID": "LOC000029023037",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157991616",
     "tech_change_status": "Not Planned"
@@ -6311,6 +6294,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.06550108,
+     -26.18104956
+    ]
+   },
+   "properties": {
+    "name": "11 TANSEY STREET GOOMERI 4601",
+    "locID": "LOC000105224968",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160217414",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.07182145,
      -26.18568659
     ]
@@ -6934,9 +6936,11 @@
     "name": "19 LAIRD STREET GOOMERI 4601",
     "locID": "LOC000050823510",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160223740",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -8169,8 +8173,8 @@
    "properties": {
     "name": "55 LAIRD STREET GOOMERI 4601",
     "locID": "LOC000085106270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160731915",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8309,6 +8313,24 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160757720",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.06916797,
+     -26.19564672
+    ]
+   },
+   "properties": {
+    "name": "5224 BURNETT HIGHWAY GOOMERI 4601",
+    "locID": "LOC000038662633",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160945093",
     "tech_change_status": "Not Planned"
    }
   },
@@ -8643,6 +8665,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.09147453,
+     -26.15240859
+    ]
+   },
+   "properties": {
+    "name": "LOT 3 BURNETT HIGHWAY GOOMERI 4601",
+    "locID": "LOC000099156893",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161088172",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.05892982,
      -26.12974246
     ]
@@ -8801,6 +8843,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161200669",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.1123984,
+     -26.22379592
+    ]
+   },
+   "properties": {
+    "name": "LOT 2 KINBOMBI ROAD GOOMERI 4601",
+    "locID": "LOC000002495902",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161200670",
     "tech_change_status": "Not Planned"
    }
   },
@@ -9524,26 +9584,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.07182145,
-     -26.18568659
-    ]
-   },
-   "properties": {
-    "name": "2 BOOUBYJAN STREET GOOMERI 4601",
-    "locID": "LOC000171616976",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161738404",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.06916797,
      -26.19564672
     ]
@@ -9890,9 +9930,11 @@
     "name": "12 FULTON STREET GOOMERI 4601",
     "locID": "LOC000015754156",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953709",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9908,9 +9950,11 @@
     "name": "13-15 FULTON STREET GOOMERI 4601",
     "locID": "LOC000102958839",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953710",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9926,9 +9970,11 @@
     "name": "14-16 FULTON STREET GOOMERI 4601",
     "locID": "LOC000047924741",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953711",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9944,9 +9990,11 @@
     "name": "17-19 FULTON STREET GOOMERI 4601",
     "locID": "LOC000019129116",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953712",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9962,9 +10010,11 @@
     "name": "30-32 FULTON STREET GOOMERI 4601",
     "locID": "LOC000097612268",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953718",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9980,9 +10030,11 @@
     "name": "3-5 FULTON STREET GOOMERI 4601",
     "locID": "LOC000017494670",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161953719",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -9998,9 +10050,11 @@
     "name": "1 FULTON STREET GOOMERI 4601",
     "locID": "LOC000047924741",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162145867",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10016,9 +10070,11 @@
     "name": "25 FULTON STREET GOOMERI 4601",
     "locID": "LOC000128502373",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162145868",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10034,9 +10090,11 @@
     "name": "2 FULTON STREET GOOMERI 4601",
     "locID": "LOC000128502373",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162145869",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10052,9 +10110,11 @@
     "name": "4 FULTON STREET GOOMERI 4601",
     "locID": "LOC000019129116",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162145870",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10406,9 +10466,11 @@
     "name": "13 FULTON STREET GOOMERI 4601",
     "locID": "LOC000102958839",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162349693",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10424,9 +10486,11 @@
     "name": "14 FULTON STREET GOOMERI 4601",
     "locID": "LOC000047924741",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162349694",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10442,9 +10506,11 @@
     "name": "3 FULTON STREET GOOMERI 4601",
     "locID": "LOC000017494670",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162349702",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10460,9 +10526,11 @@
     "name": "7 FULTON STREET GOOMERI 4601",
     "locID": "LOC000097612268",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162349704",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10632,9 +10700,11 @@
     "name": "15 FULTON STREET GOOMERI 4601",
     "locID": "LOC000102958839",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162507370",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10650,9 +10720,11 @@
     "name": "16 FULTON STREET GOOMERI 4601",
     "locID": "LOC000128502373",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162507371",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10668,9 +10740,11 @@
     "name": "19 FULTON STREET GOOMERI 4601",
     "locID": "LOC000019129116",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162507372",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10686,9 +10760,11 @@
     "name": "5 FULTON STREET GOOMERI 4601",
     "locID": "LOC000017494670",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162507378",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -10995,9 +11071,11 @@
     "name": "10 FULTON STREET GOOMERI 4601",
     "locID": "LOC000128498627",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162826579",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -11668,9 +11746,11 @@
     "name": "17 FULTON STREET GOOMERI 4601",
     "locID": "LOC000019129116",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163262224",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -11686,9 +11766,11 @@
     "name": "32 FULTON STREET GOOMERI 4601",
     "locID": "LOC000097612268",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163262225",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -12060,9 +12142,11 @@
     "name": "18 FULTON STREET GOOMERI 4601",
     "locID": "LOC000128498627",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163307547",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -12496,26 +12580,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720466550",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.07214714,
-     -26.18490282
-    ]
-   },
-   "properties": {
-    "name": "15 BOOUBYJAN STREET GOOMERI 4601",
-    "locID": "LOC000171616768",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD720466734",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
