@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-31T00:12:27.550062",
+ "generated": "2025-06-26T19:34:31.917228",
  "suburb": "JAMESTOWN",
  "features": [
   {
@@ -93,10 +93,10 @@
    "properties": {
     "name": "32 CLIFTON ROAD JAMESTOWN 5491",
     "locID": "LOC000018711343",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414958621",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6550,12 +6550,12 @@
    "properties": {
     "name": "5 MARGARET STREET JAMESTOWN 5491",
     "locID": "LOC000007599942",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415517270",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7371,11 +7371,11 @@
     "name": "23 CUMNOCK STREET JAMESTOWN 5491",
     "locID": "LOC000085539443",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415521553",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7390,12 +7390,12 @@
    "properties": {
     "name": "21 CUMNOCK STREET JAMESTOWN 5491",
     "locID": "LOC000074033031",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415521554",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10427,11 +10427,11 @@
     "name": "UNIT 28, 1-7 CUMNOCK STREET JAMESTOWN 5491",
     "locID": "LOC000061546729",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_417055763",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10672,11 +10672,11 @@
     "name": "10 CUMNOCK STREET JAMESTOWN 5491",
     "locID": "LOC000061546729",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_417059677",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11054,9 +11054,9 @@
     "name": "68 AYR STREET JAMESTOWN 5491",
     "locID": "LOC000047988412",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_417075300",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12697,11 +12697,11 @@
     "name": "UNIT 33, 1-7 CUMNOCK STREET JAMESTOWN 5491",
     "locID": "LOC000061546729",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424005365",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15472,6 +15472,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.64218906,
+     -33.19905602
+    ]
+   },
+   "properties": {
+    "name": "111 BELALIE NORTH ROAD JAMESTOWN 5491",
+    "locID": "LOC000131288065",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425105461",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.61745305,
      -33.20660803
     ]
@@ -16891,6 +16911,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.54488729,
+     -33.20426828
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 WILKINS HIGHWAY JAMESTOWN 5491",
+    "locID": "LOC000142383312",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425511119",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.5857841,
      -33.20613682
     ]
@@ -17074,11 +17112,11 @@
     "name": "12 OXFORD STREET JAMESTOWN 5491",
     "locID": "LOC000131302149",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425583245",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18757,6 +18795,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.61102,
+     -33.192503
+    ]
+   },
+   "properties": {
+    "name": "15 OD5 ROAD JAMESTOWN 5491",
+    "locID": "LOC100055457870",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719648794",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.61012029,
      -33.19283399
     ]
@@ -19215,6 +19273,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.609905,
+     -33.190927
+    ]
+   },
+   "properties": {
+    "name": "6731 R M WILLIAMS WAY JAMESTOWN 5491",
+    "locID": "LOC000131510133",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720416618",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.6237314,
      -33.21026173
     ]
@@ -19228,6 +19304,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.604565,
+     -33.110405
+    ]
+   },
+   "properties": {
+    "name": "798 THREE CHAIN ROAD JAMESTOWN 5491",
+    "locID": "LOC100071966412",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720492332",
+    "tech_change_status": "Not Planned"
    }
   },
   {

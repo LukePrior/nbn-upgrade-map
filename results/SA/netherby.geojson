@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-31T00:36:14.518066",
+ "generated": "2025-06-26T19:56:00.081301",
  "suburb": "NETHERBY",
  "features": [
   {
@@ -475,10 +475,9 @@
    "properties": {
     "name": "11 NETHERBY AVENUE NETHERBY 5062",
     "locID": "LOC000096677632",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414997402",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2323,8 +2322,9 @@
     "name": "11 PULLEINE AVENUE NETHERBY 5062",
     "locID": "LOC000043706101",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415145693"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415145693",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -10647,6 +10647,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425584017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.61879833,
+     -34.97270097
+    ]
+   },
+   "properties": {
+    "name": "31 SMITH-DORRIEN STREET NETHERBY 5062",
+    "locID": "LOC000032539258",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425599991"
    }
   },
   {
