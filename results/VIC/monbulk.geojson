@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-31T14:41:56.015440",
+ "generated": "2025-06-27T18:45:39.061215",
  "suburb": "MONBULK",
  "features": [
   {
@@ -1358,8 +1358,9 @@
     "name": "135 INVERMAY ROAD MONBULK 3793",
     "locID": "LOC000038394484",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411885301"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC411885301",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -2115,10 +2116,10 @@
    "properties": {
     "name": "20 BURNS WAY MONBULK 3793",
     "locID": "LOC000067847119",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411885796",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3693,10 +3694,9 @@
    "properties": {
     "name": "1 JELLICOE AVENUE MONBULK 3793",
     "locID": "LOC000050590237",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411896043",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4995,23 +4995,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.41582313,
-     -37.85890511
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 425 MONBULK ROAD MONBULK 3793",
-    "locID": "LOC000051799116",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC414568863"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.40798774,
      -37.8709962
     ]
@@ -5527,8 +5510,8 @@
    "properties": {
     "name": "401 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000114351060",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC414608348",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6568,10 +6551,10 @@
    "properties": {
     "name": "10 MCALLISTER ROAD MONBULK 3793",
     "locID": "LOC000092983901",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419572592",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7438,10 +7421,10 @@
    "properties": {
     "name": "214 EMERALD-MONBULK ROAD MONBULK 3793",
     "locID": "LOC000039074070",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419597244",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8810,8 +8793,8 @@
    "properties": {
     "name": "501 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000006083930",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419869034",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10210,8 +10193,8 @@
    "properties": {
     "name": "190 EMERALD-MONBULK ROAD MONBULK 3793",
     "locID": "LOC000003637102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419900823",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10641,8 +10624,8 @@
    "properties": {
     "name": "22 MOXHAMS ROAD MONBULK 3793",
     "locID": "LOC000004466306",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419907293",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12283,7 +12266,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420169159",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13627,6 +13610,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.414,
+     -37.878705
+    ]
+   },
+   "properties": {
+    "name": "22-24 VICTORIA AVENUE MONBULK 3793",
+    "locID": "LOC000057714519",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC420192859",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.399505,
      -37.874931
     ]
@@ -14596,10 +14597,9 @@
    "properties": {
     "name": "11 HAIG AVENUE MONBULK 3793",
     "locID": "LOC000085936560",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420477984",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14750,8 +14750,8 @@
    "properties": {
     "name": "1 MENIN ROAD MONBULK 3793",
     "locID": "LOC000014739526",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420481723",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16309,10 +16309,9 @@
    "properties": {
     "name": "244 EMERALD-MONBULK ROAD MONBULK 3793",
     "locID": "LOC000079333155",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420503444",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17257,10 +17256,10 @@
    "properties": {
     "name": "485 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000081317888",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420768837",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19084,7 +19083,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420816732",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21254,10 +21253,9 @@
    "properties": {
     "name": "232 EMERALD-MONBULK ROAD MONBULK 3793",
     "locID": "LOC000045127806",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421117455",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23374,10 +23372,10 @@
    "properties": {
     "name": "497 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000057915988",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421407641",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23511,8 +23509,8 @@
    "properties": {
     "name": "4 DOUGLAS CRESCENT MONBULK 3793",
     "locID": "LOC000027572703",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421416975",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24303,10 +24301,9 @@
    "properties": {
     "name": "6 MOXHAMS ROAD MONBULK 3793",
     "locID": "LOC000085280237",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421422756",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25836,10 +25833,9 @@
    "properties": {
     "name": "16 DOUGLAS CRESCENT MONBULK 3793",
     "locID": "LOC000062859259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421677363",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26150,7 +26146,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421684318",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26980,10 +26976,10 @@
    "properties": {
     "name": "52 DAVID HILL ROAD MONBULK 3793",
     "locID": "LOC000033406092",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421707741",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27000,10 +26996,10 @@
    "properties": {
     "name": "289 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000022983846",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421711154",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27266,10 +27262,10 @@
    "properties": {
     "name": "4 ROBINA ROAD MONBULK 3793",
     "locID": "LOC000032995970",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421720825",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27306,10 +27302,10 @@
    "properties": {
     "name": "6 BAYNES PARK ROAD MONBULK 3793",
     "locID": "LOC000085499539",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421725395",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27424,8 +27420,8 @@
    "properties": {
     "name": "13 MOXHAMS ROAD MONBULK 3793",
     "locID": "LOC000074764535",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421752790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29080,6 +29076,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39836429,
+     -37.87565513
+    ]
+   },
+   "properties": {
+    "name": "279-281 MONBULK ROAD MONBULK 3793",
+    "locID": "LOC000071591368",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423476098",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.4202644,
      -37.85454247
     ]
@@ -29265,6 +29281,26 @@
     "gnaf_pid": "GAVIC423484544",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.42663853,
+     -37.88091395
+    ]
+   },
+   "properties": {
+    "name": "65 SPRING ROAD MONBULK 3793",
+    "locID": "LOC000052041647",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423489355",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -29899,8 +29935,8 @@
    "properties": {
     "name": "513 MONBULK ROAD MONBULK 3793",
     "locID": "LOC000125505702",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424085483",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30211,10 +30247,9 @@
    "properties": {
     "name": "23 RESERVOIR ROAD MONBULK 3793",
     "locID": "LOC000125493219",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424587404",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
