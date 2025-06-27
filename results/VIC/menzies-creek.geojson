@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-31T14:22:33.804198",
+ "generated": "2025-06-27T18:07:32.044299",
  "suburb": "MENZIES CREEK",
  "features": [
   {
@@ -439,10 +439,10 @@
    "properties": {
     "name": "20 CARDINIA COURT MENZIES CREEK 3159",
     "locID": "LOC000101249612",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC413674196",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -832,10 +832,9 @@
    "properties": {
     "name": "20 JACKSONS HILL ROAD MENZIES CREEK 3159",
     "locID": "LOC000097395326",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419596963",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2743,6 +2742,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.41643795,
+     -37.92288346
+    ]
+   },
+   "properties": {
+    "name": "88 MENZIES ROAD MENZIES CREEK 3159",
+    "locID": "LOC000017702204",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420492512"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.40552231,
      -37.93545868
     ]
@@ -3886,7 +3902,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421052718",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3959,8 +3977,8 @@
    "properties": {
     "name": "10 JACKSONS HILL ROAD MENZIES CREEK 3159",
     "locID": "LOC000041172486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421110536",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
