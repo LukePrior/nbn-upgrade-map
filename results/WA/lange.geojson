@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-05-31T22:23:33.358074",
+ "generated": "2025-06-28T08:42:59.886255",
  "suburb": "LANGE",
  "features": [
   {
@@ -451,11 +451,11 @@
     "name": "83 CATALINA ROAD LANGE 6330",
     "locID": "LOC000023753389",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_161420609",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -471,11 +471,11 @@
     "name": "86 CATALINA ROAD LANGE 6330",
     "locID": "LOC000078301324",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_161420610",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -895,9 +895,11 @@
     "name": "48 MERCER ROAD LANGE 6330",
     "locID": "LOC000035373595",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161518995",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -4540,6 +4542,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88955402,
+     -34.98531122
+    ]
+   },
+   "properties": {
+    "name": "333 MERCER ROAD LANGE 6330",
+    "locID": "LOC000039218879",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718877895",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.87933564,
      -34.98689181
     ]
@@ -5030,10 +5050,10 @@
    "properties": {
     "name": "UNIT 2, 12 STIRLING VIEW DRIVE LANGE 6330",
     "locID": "LOC100074607311",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_720247977",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
