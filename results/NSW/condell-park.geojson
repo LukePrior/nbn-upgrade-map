@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-02T10:26:48.807698",
+ "generated": "2025-06-30T08:21:30.596665",
  "suburb": "CONDELL PARK",
  "features": [
   {
@@ -12571,10 +12571,10 @@
    "properties": {
     "name": "UNIT 12, 35 BIRCH STREET CONDELL PARK 2200",
     "locID": "LOC000052752114",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704456759",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -18486,9 +18486,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704459826",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30227,7 +30226,7 @@
     "name": "25 MONS STREET CONDELL PARK 2200",
     "locID": "LOC000026503549",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704469325",
     "tech_change_status": "Eligible to Order"
    }
@@ -36827,9 +36826,9 @@
     "name": "99 ELDRIDGE ROAD CONDELL PARK 2200",
     "locID": "LOC000120329945",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706592250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45126,10 +45125,9 @@
    "properties": {
     "name": "75A ELDRIDGE ROAD CONDELL PARK 2200",
     "locID": "LOC000001374982",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706640777",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46253,10 +46251,9 @@
    "properties": {
     "name": "7 JELLICOE STREET CONDELL PARK 2200",
     "locID": "LOC000003235188",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706644016",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46532,8 +46529,8 @@
    "properties": {
     "name": "23A JELLICOE STREET CONDELL PARK 2200",
     "locID": "LOC000061425221",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706644047",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51158,10 +51155,10 @@
    "properties": {
     "name": "100 ELDRIDGE ROAD CONDELL PARK 2200",
     "locID": "LOC000109697535",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706667988",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58928,6 +58925,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.02174799,
+     -33.92589728
+    ]
+   },
+   "properties": {
+    "name": "25 AUGUSTA STREET CONDELL PARK 2200",
+    "locID": "LOC000063094006",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711418154"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.01762187,
      -33.92523144
     ]
@@ -60563,6 +60577,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.01383451,
+     -33.93119339
+    ]
+   },
+   "properties": {
+    "name": "92 ELDRIDGE ROAD CONDELL PARK 2200",
+    "locID": "LOC000040802244",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW715244384",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.01768186,
      -33.93175837
     ]
@@ -61485,6 +61519,65 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW715677408",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.01383451,
+     -33.93119339
+    ]
+   },
+   "properties": {
+    "name": "84 ELDRIDGE ROAD CONDELL PARK 2200",
+    "locID": "LOC000101936771",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW715677409",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.01383451,
+     -33.93119339
+    ]
+   },
+   "properties": {
+    "name": "86 ELDRIDGE ROAD CONDELL PARK 2200",
+    "locID": "LOC000046351031",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW715677410",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.01383451,
+     -33.93119339
+    ]
+   },
+   "properties": {
+    "name": "89 ELDRIDGE ROAD CONDELL PARK 2200",
+    "locID": "LOC000065139641",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715677412",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63481,6 +63574,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717074859"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.02245622,
+     -33.91788836
+    ]
+   },
+   "properties": {
+    "name": "1A CLARENCE STREET CONDELL PARK 2200",
+    "locID": "LOC000120317651",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717077472"
    }
   },
   {
@@ -65807,6 +65917,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717364308"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.01757971,
+     -33.92121529
+    ]
+   },
+   "properties": {
+    "name": "37 WILLIAM STREET CONDELL PARK 2200",
+    "locID": "LOC000095649023",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717364309"
    }
   },
   {
@@ -72333,6 +72460,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.01740675,
+     -33.92414928
+    ]
+   },
+   "properties": {
+    "name": "19 WILLIAM STREET CONDELL PARK 2200",
+    "locID": "LOC000100132298",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718428884"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.01734565,
      -33.9203124
     ]
@@ -78266,6 +78410,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.02186917,
+     -33.92591374
+    ]
+   },
+   "properties": {
+    "name": "25B AUGUSTA STREET CONDELL PARK 2200",
+    "locID": "LOC000152663603",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718968829"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.02174799,
+     -33.92589728
+    ]
+   },
+   "properties": {
+    "name": "25C AUGUSTA STREET CONDELL PARK 2200",
+    "locID": "LOC000152663592",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718968830"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.00452729,
      -33.92681686
     ]
@@ -78754,6 +78932,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719079683"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.01227802,
+     -33.91605248
+    ]
+   },
+   "properties": {
+    "name": "288A MARION STREET CONDELL PARK 2200",
+    "locID": "LOC000152668238",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719153269"
    }
   },
   {
