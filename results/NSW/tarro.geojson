@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-02T02:30:28.116307",
+ "generated": "2025-06-30T01:10:07.276392",
  "suburb": "TARRO",
  "features": [
   {
@@ -543,8 +543,8 @@
    "properties": {
     "name": "15 BURBANK CLOSE TARRO 2322",
     "locID": "LOC000064435176",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706028050",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -640,10 +640,10 @@
    "properties": {
     "name": "10 BURGESS PARADE TARRO 2322",
     "locID": "LOC000082541580",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706028055",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5700,10 +5700,10 @@
    "properties": {
     "name": "62 NEW ENGLAND HIGHWAY TARRO 2322",
     "locID": "LOC000063119898",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706051556",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7497,8 +7497,8 @@
    "properties": {
     "name": "27 NORTHERN AVENUE TARRO 2322",
     "locID": "LOC000013121581",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706061863",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8540,6 +8540,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.66707828,
+     -32.80325027
+    ]
+   },
+   "properties": {
+    "name": "16 WOODBERRY ROAD TARRO 2322",
+    "locID": "LOC000027799080",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706065112",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.66904862,
      -32.80987521
     ]
@@ -9193,10 +9213,10 @@
    "properties": {
     "name": "54 ANDERSON DRIVE TARRO 2322",
     "locID": "LOC000024693421",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706082864",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10547,10 +10567,10 @@
    "properties": {
     "name": "1 EMERALD STREET TARRO 2322",
     "locID": "LOC000026848129",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711984000",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13491,7 +13511,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717469397",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

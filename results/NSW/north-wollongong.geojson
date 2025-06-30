@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-02T03:11:22.873672",
+ "generated": "2025-06-30T01:32:03.341236",
  "suburb": "NORTH WOLLONGONG",
  "features": [
   {
@@ -9509,7 +9509,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706364381",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -9894,7 +9894,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706364486",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -11063,7 +11063,7 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706371312",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -12684,10 +12684,9 @@
    "properties": {
     "name": "27 BOURKE STREET NORTH WOLLONGONG 2500",
     "locID": "LOC000108714647",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706423225",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14054,9 +14053,9 @@
     "name": "35 BOURKE STREET NORTH WOLLONGONG 2500",
     "locID": "LOC000048275429",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706440353",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26714,7 +26713,7 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717983669",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -28124,6 +28123,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.89750344,
+     -34.40128562
+    ]
+   },
+   "properties": {
+    "name": "6 PUCKEY AVENUE NORTH WOLLONGONG 2500",
+    "locID": "LOC000168190461",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718508489",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.89270711,
      -34.40914487
     ]
@@ -29373,6 +29392,46 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718745374",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.89651569,
+     -34.40194452
+    ]
+   },
+   "properties": {
+    "name": "1 PUCKEY AVENUE NORTH WOLLONGONG 2500",
+    "locID": "LOC000168190461",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718749675",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8978176,
+     -34.40207123
+    ]
+   },
+   "properties": {
+    "name": "2 PUCKEY AVENUE NORTH WOLLONGONG 2500",
+    "locID": "LOC000168190461",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718749676",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -31377,6 +31436,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.89199573,
+     -34.41189637
+    ]
+   },
+   "properties": {
+    "name": "2 STATION STREET NORTH WOLLONGONG 2500",
+    "locID": "LOC000072933150",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719190915"
    }
   },
   {
