@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-02T23:36:25.081595",
+ "generated": "2025-06-30T20:34:18.975282",
  "suburb": "CROYDON PARK",
  "features": [
   {
@@ -1436,8 +1436,8 @@
    "properties": {
     "name": "55 BLENHEIM STREET CROYDON PARK 2133",
     "locID": "LOC000071529696",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704518077",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31284,10 +31284,9 @@
    "properties": {
     "name": "29 WALSH AVENUE CROYDON PARK 2133",
     "locID": "LOC000103777358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704537961",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31561,8 +31560,8 @@
    "properties": {
     "name": "56 WALSH AVENUE CROYDON PARK 2133",
     "locID": "LOC000082418797",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704537975",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34557,6 +34556,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704538419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.11442187,
+     -33.89167713
+    ]
+   },
+   "properties": {
+    "name": "49 CARSHALTON STREET CROYDON PARK 2133",
+    "locID": "LOC000191868906",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704538420"
    }
   },
   {
@@ -39162,10 +39178,10 @@
    "properties": {
     "name": "10 WALSH AVENUE CROYDON PARK 2133",
     "locID": "LOC000083959226",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704540565",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48842,9 +48858,9 @@
     "name": "123 KEMBLA STREET CROYDON PARK 2133",
     "locID": "LOC000071176076",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704546829",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49819,10 +49835,9 @@
    "properties": {
     "name": "35 LINTHORN AVENUE CROYDON PARK 2133",
     "locID": "LOC000052059446",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704546886",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704546886"
    }
   },
   {
@@ -58432,7 +58447,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706513815",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
