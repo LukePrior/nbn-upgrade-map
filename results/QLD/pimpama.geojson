@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-11T21:43:58.843039",
+ "generated": "2025-07-03T18:28:09.636814",
  "suburb": "PIMPAMA",
  "features": [
   {
@@ -1698,10 +1698,10 @@
    "properties": {
     "name": "6 KYEWONG COURT PIMPAMA 4209",
     "locID": "LOC000101716089",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155710875",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2606,6 +2606,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29219182,
+     -27.83593682
+    ]
+   },
+   "properties": {
+    "name": "101 NAMBUCCA CRESCENT PIMPAMA 4209",
+    "locID": "LOC000173962129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155722537"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.29199003,
      -27.83288492
     ]
@@ -2667,6 +2684,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155722548"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.29715424,
+     -27.8336356
+    ]
+   },
+   "properties": {
+    "name": "67 NAMBUCCA CRESCENT PIMPAMA 4209",
+    "locID": "LOC000173961695",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155722549"
    }
   },
   {
@@ -5062,10 +5096,10 @@
    "properties": {
     "name": "14 DEWRANG DRIVE PIMPAMA 4209",
     "locID": "LOC000096033765",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157015415",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -5326,10 +5360,9 @@
    "properties": {
     "name": "11 ANEMBO AVENUE PIMPAMA 4209",
     "locID": "LOC000094300748",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157015783",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157015783"
    }
   },
   {
@@ -5362,10 +5395,10 @@
    "properties": {
     "name": "14 ANEMBO AVENUE PIMPAMA 4209",
     "locID": "LOC000059614564",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157015785",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -8766,6 +8799,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29360887,
+     -27.81158212
+    ]
+   },
+   "properties": {
+    "name": "LOT 83 PIMPAMA JACOBS WELL ROAD PIMPAMA 4209",
+    "locID": "LOC000053534909",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161277731",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.2946379,
      -27.81323057
     ]
@@ -9376,8 +9429,8 @@
    "properties": {
     "name": "22 ARMANI AVENUE PIMPAMA 4209",
     "locID": "LOC000027522370",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162006313",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13363,10 +13416,9 @@
    "properties": {
     "name": "25 JAXSON TERRACE PIMPAMA 4209",
     "locID": "LOC000010774014",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162287292",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16833,7 +16885,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162504339",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21285,8 +21337,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163098549",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21737,10 +21790,9 @@
    "properties": {
     "name": "9 BIDMEAD CIRCUIT PIMPAMA 4209",
     "locID": "LOC000080921895",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163099031",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29027,8 +29079,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163372536",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29103,8 +29156,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163372540",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29122,8 +29176,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163372541",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29160,8 +29215,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163372543",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31141,8 +31197,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981082",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31179,8 +31236,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981084",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31217,8 +31275,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981086",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31255,8 +31314,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981088",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31293,8 +31353,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981090",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31331,8 +31392,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981092",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31369,8 +31431,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981094",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31426,8 +31489,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981097",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31445,8 +31509,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981098",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31464,8 +31529,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981099",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31502,8 +31568,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981101",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31521,8 +31588,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981102",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31559,8 +31627,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981104",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31597,8 +31666,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981106",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31635,8 +31705,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981108",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31673,8 +31744,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981110",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31711,8 +31783,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981112",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31749,8 +31822,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981114",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31787,8 +31861,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981116",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31825,8 +31900,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424981118",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33590,10 +33666,9 @@
    "properties": {
     "name": "11 NICKEL STREET PIMPAMA 4209",
     "locID": "LOC000127216457",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424991960",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34302,10 +34377,9 @@
    "properties": {
     "name": "3 PYRITE STREET PIMPAMA 4209",
     "locID": "LOC000127237405",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424993793",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35676,10 +35750,9 @@
    "properties": {
     "name": "35 BULL ROAD PIMPAMA 4209",
     "locID": "LOC000127244402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425001724",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35835,8 +35908,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425005814",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46548,8 +46622,8 @@
    "properties": {
     "name": "5 JUSTIN STREET PIMPAMA 4209",
     "locID": "LOC100074896946",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425476461",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48739,10 +48813,9 @@
    "properties": {
     "name": "48 PERGER STREET PIMPAMA 4209",
     "locID": "LOC000173297530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425545886",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49368,10 +49441,9 @@
    "properties": {
     "name": "52 TRUMP STREET PIMPAMA 4209",
     "locID": "LOC000187816275",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425547516",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52526,8 +52598,9 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425595796",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56838,10 +56911,10 @@
    "properties": {
     "name": "UNIT 1, 2 KAY STREET PIMPAMA 4209",
     "locID": "LOC000160297958",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425657074",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -69021,6 +69094,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32223437,
+     -27.83478113
+    ]
+   },
+   "properties": {
+    "name": "180 DIXON DRIVE PIMPAMA 4209",
+    "locID": "LOC000145932250",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425793610"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31850641,
      -27.83410886
     ]
@@ -69089,6 +69179,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32266124,
+     -27.83485034
+    ]
+   },
+   "properties": {
+    "name": "186 DIXON DRIVE PIMPAMA 4209",
+    "locID": "LOC000145932284",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425793615"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31891337,
      -27.83408584
     ]
@@ -69133,6 +69240,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425793618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.3230063,
+     -27.83494323
+    ]
+   },
+   "properties": {
+    "name": "190 DIXON DRIVE PIMPAMA 4209",
+    "locID": "LOC000145932307",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425793619"
    }
   },
   {
@@ -84611,9 +84735,9 @@
     "name": "UNIT 2, 2 STEVEN CRESCENT PIMPAMA 4209",
     "locID": "LOC000177898506",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD719085554",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95550,6 +95674,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.28848796,
+     -27.81322261
+    ]
+   },
+   "properties": {
+    "name": "46 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000144605036",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719265703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.28879088,
      -27.81396355
     ]
@@ -95580,6 +95721,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.28904202,
+     -27.81457984
+    ]
+   },
+   "properties": {
+    "name": "30 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000144604909",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719265807"
    }
   },
   {
@@ -96952,6 +97110,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.28930994,
+     -27.81523737
+    ]
+   },
+   "properties": {
+    "name": "16 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000144604978",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719273604"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.28861271,
      -27.81333898
     ]
@@ -97438,6 +97613,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.28646077,
+     -27.81488178
+    ]
+   },
+   "properties": {
+    "name": "88 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000146877816",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719276281"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30811253,
      -27.83541254
     ]
@@ -97467,6 +97659,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719276283"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.28733125,
+     -27.81531006
+    ]
+   },
+   "properties": {
+    "name": "106 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000146877726",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719276284"
    }
   },
   {
@@ -97538,6 +97747,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719277361"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.28765984,
+     -27.8136807
+    ]
+   },
+   "properties": {
+    "name": "66 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000146877338",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719277546"
    }
   },
   {
@@ -97733,6 +97959,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719278201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.28935315,
+     -27.81534342
+    ]
+   },
+   "properties": {
+    "name": "14 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000144604984",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719278236"
    }
   },
   {
@@ -97982,6 +98225,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719279541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.28747977,
+     -27.81534124
+    ]
+   },
+   "properties": {
+    "name": "108 FOUNTAIN STREET PIMPAMA 4209",
+    "locID": "LOC000146877719",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719279543"
    }
   },
   {
@@ -108957,6 +109217,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.33028875,
+     -27.82916639
+    ]
+   },
+   "properties": {
+    "name": "12 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225460",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719562609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.32900097,
      -27.82408387
     ]
@@ -109341,6 +109618,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719564329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.33010099,
+     -27.82923522
+    ]
+   },
+   "properties": {
+    "name": "10 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225473",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719564347"
    }
   },
   {
@@ -109888,6 +110182,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719566038"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.33028,
+     -27.82962365
+    ]
+   },
+   "properties": {
+    "name": "9 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225425",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719566101"
    }
   },
   {
@@ -110541,6 +110852,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.33043677,
+     -27.82956619
+    ]
+   },
+   "properties": {
+    "name": "11 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225439",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719567993"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.32992329,
      -27.82780635
     ]
@@ -110813,6 +111141,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32953444,
+     -27.8294422
+    ]
+   },
+   "properties": {
+    "name": "2 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225537",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719568887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.33013005,
      -27.82773561
     ]
@@ -110944,6 +111289,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719569592",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.33063907,
+     -27.82950457
+    ]
+   },
+   "properties": {
+    "name": "13 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225441",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719569679"
    }
   },
   {
@@ -111131,6 +111493,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719570268"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.33048803,
+     -27.82908219
+    ]
+   },
+   "properties": {
+    "name": "14 SIBLEY STREET PIMPAMA 4209",
+    "locID": "LOC000171225456",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719570296"
    }
   },
   {
@@ -148848,6 +149227,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29952502,
+     -27.83647207
+    ]
+   },
+   "properties": {
+    "name": "13 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184763",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720308491"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30047139,
      -27.8166327
     ]
@@ -149307,6 +149703,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29998422,
+     -27.83674186
+    ]
+   },
+   "properties": {
+    "name": "8 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184841",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720309860"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30020748,
      -27.83665507
     ]
@@ -149521,6 +149934,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720310806"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.30009472,
+     -27.8362506
+    ]
+   },
+   "properties": {
+    "name": "3 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184716",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720310809"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.29976096,
+     -27.83682865
+    ]
+   },
+   "properties": {
+    "name": "12 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184825",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720310813"
    }
   },
   {
@@ -150072,6 +150519,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29963663,
+     -27.83642868
+    ]
+   },
+   "properties": {
+    "name": "11 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184759",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720312850"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30424969,
      -27.8259891
     ]
@@ -150157,6 +150621,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29954055,
+     -27.83691828
+    ]
+   },
+   "properties": {
+    "name": "16 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184802",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720313266"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30058909,
      -27.81657322
     ]
@@ -150191,6 +150672,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29964933,
+     -27.83687205
+    ]
+   },
+   "properties": {
+    "name": "14 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184818",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720313475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30401144,
      -27.82562067
     ]
@@ -150201,6 +150699,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720313485"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.2994134,
+     -27.83651546
+    ]
+   },
+   "properties": {
+    "name": "15 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184771",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720313488"
    }
   },
   {
@@ -150480,6 +150995,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.29942439,
+     -27.83697797
+    ]
+   },
+   "properties": {
+    "name": "18 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184792",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720314428"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30397402,
      -27.82557908
     ]
@@ -150541,6 +151073,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720314531"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.29986219,
+     -27.83634099
+    ]
+   },
+   "properties": {
+    "name": "7 O'CONNELL COURT PIMPAMA 4209",
+    "locID": "LOC000179184737",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720314546"
    }
   },
   {
@@ -157263,6 +157812,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32502977,
+     -27.82783593
+    ]
+   },
+   "properties": {
+    "name": "3 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399556",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720500306"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31578071,
      -27.82520441
     ]
@@ -157705,6 +158271,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32530426,
+     -27.82878436
+    ]
+   },
+   "properties": {
+    "name": "2 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399491",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720501155"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30690879,
      -27.81540806
     ]
@@ -158031,6 +158614,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32501467,
+     -27.82873724
+    ]
+   },
+   "properties": {
+    "name": "6 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399525",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720501915"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31576444,
      -27.82528412
     ]
@@ -158252,6 +158852,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.32482714,
+     -27.82870789
+    ]
+   },
+   "properties": {
+    "name": "8 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399539",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720502487"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31515404,
      -27.82361341
     ]
@@ -158262,6 +158879,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720502577"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.32492906,
+     -27.82815028
+    ]
+   },
+   "properties": {
+    "name": "5 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399541",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720502579"
    }
   },
   {
@@ -159027,6 +159661,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720504778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.32515947,
+     -27.8287608
+    ]
+   },
+   "properties": {
+    "name": "4 DOBSON PLACE PIMPAMA 4209",
+    "locID": "LOC000180399518",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720504808"
    }
   },
   {
