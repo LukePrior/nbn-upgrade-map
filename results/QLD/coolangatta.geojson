@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-12T17:37:15.058243",
+ "generated": "2025-07-04T11:42:37.509157",
  "suburb": "COOLANGATTA",
  "features": [
   {
@@ -3705,7 +3705,7 @@
    "properties": {
     "name": "4 MUSGRAVE STREET COOLANGATTA 4225",
     "locID": "LOC000196173817",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155205630"
    }
@@ -4096,10 +4096,10 @@
    "properties": {
     "name": "67C RUTLEDGE STREET COOLANGATTA 4225",
     "locID": "LOC000109094818",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155206562",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6904,9 +6904,11 @@
     "name": "30 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000007737327",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156060935",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7413,6 +7415,26 @@
     "gnaf_pid": "GAQLD156453918",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.52347514,
+     -28.16832416
+    ]
+   },
+   "properties": {
+    "name": "69 COOLANGATTA ROAD COOLANGATTA 4225",
+    "locID": "LOC000061088469",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156453929",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -8276,9 +8298,9 @@
     "name": "30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156454724",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8889,9 +8911,11 @@
     "name": "64 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000041822471",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156455647",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12016,6 +12040,26 @@
     "gnaf_pid": "GAQLD156460949",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.52427515,
+     -28.16959189
+    ]
+   },
+   "properties": {
+    "name": "52 COOLANGATTA ROAD COOLANGATTA 4225",
+    "locID": "LOC000006632245",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156460950",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15340,10 +15384,9 @@
    "properties": {
     "name": "43A RUTLEDGE STREET COOLANGATTA 4225",
     "locID": "LOC000018324364",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156471214",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16384,6 +16427,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.53268886,
+     -28.17164971
+    ]
+   },
+   "properties": {
+    "name": "61 GARRICK STREET COOLANGATTA 4225",
+    "locID": "LOC000068920576",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156474735",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22732,6 +22794,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157777059",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.52712884,
+     -28.168329
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 7 DOUGLAS STREET COOLANGATTA 4225",
+    "locID": "LOC000044869624",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157777060",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -38159,10 +38240,9 @@
    "properties": {
     "name": "UNIT 2, 9 EDEN AVENUE COOLANGATTA 4225",
     "locID": "LOC000051164134",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157791720",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47311,9 +47391,9 @@
     "name": "UNIT 5, 28 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157796191",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48008,9 +48088,11 @@
     "name": "8 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000029364322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157796679",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -52401,9 +52483,9 @@
     "name": "UNIT 7, 28 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212914",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157799718",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56467,7 +56549,7 @@
    "properties": {
     "name": "70 MUSGRAVE STREET COOLANGATTA 4225",
     "locID": "LOC000196173893",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159753160"
    }
@@ -58153,9 +58235,11 @@
     "name": "26 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000021639181",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159762011",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61822,10 +61906,9 @@
    "properties": {
     "name": "206 MARINE PARADE COOLANGATTA 4225",
     "locID": "LOC000156360696",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159779580",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63168,9 +63251,11 @@
     "name": "SHOP 1, 64 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000041822471",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160696329",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65270,9 +65355,11 @@
     "name": "8-12 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000127385466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161169332",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -86110,10 +86197,9 @@
    "properties": {
     "name": "UNIT 3, 206 MARINE PARADE COOLANGATTA 4225",
     "locID": "LOC000156360696",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162513955",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -91300,9 +91386,11 @@
     "name": "UNIT 3, 8 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000029364322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162673828",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -97744,9 +97832,11 @@
     "name": "SHOP 1, 26 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000021639181",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162939160",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -97762,9 +97852,11 @@
     "name": "SHOP 2, 26 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000021639181",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162939161",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -97780,9 +97872,11 @@
     "name": "SHOP 2, 64 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000041600355",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162939162",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -97798,9 +97892,11 @@
     "name": "UNIT 4, 8 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000029364322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162939163",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -98425,6 +98521,26 @@
     "gnaf_pid": "GAQLD162992766",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.52336305,
+     -28.16817591
+    ]
+   },
+   "properties": {
+    "name": "71 COOLANGATTA ROAD COOLANGATTA 4225",
+    "locID": "LOC000129365781",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162992768",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -113382,9 +113498,9 @@
     "name": "UNIT 10, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719539845",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -113578,9 +113694,11 @@
     "name": "UNIT 3, 4 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000029364322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719539919",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -113683,9 +113801,9 @@
     "name": "UNIT 1, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719539942",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114002,9 +114120,11 @@
     "name": "UNIT 8, 4 GRIFFITH STREET COOLANGATTA 4225",
     "locID": "LOC000029364322",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719541025",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -114164,9 +114284,9 @@
     "name": "UNIT 12, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719542171",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114455,9 +114575,9 @@
     "name": "UNIT 5, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719543304",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114618,9 +114738,9 @@
     "name": "UNIT 2, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719543355",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114693,9 +114813,9 @@
     "name": "UNIT 6, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719543359",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114856,9 +114976,9 @@
     "name": "UNIT 3, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719543391",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115228,9 +115348,9 @@
     "name": "UNIT 8, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719545617",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115423,9 +115543,9 @@
     "name": "UNIT 9, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719545646",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115729,9 +115849,9 @@
     "name": "UNIT 11, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719546766",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115889,9 +116009,9 @@
     "name": "UNIT 4, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212882",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719547801",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115964,9 +116084,9 @@
     "name": "UNIT 7, 30 LANHAM STREET COOLANGATTA 4225",
     "locID": "LOC000160212914",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719547830",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
