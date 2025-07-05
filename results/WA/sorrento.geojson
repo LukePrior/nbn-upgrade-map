@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-14T04:14:58.518742",
+ "generated": "2025-07-05T19:17:17.527305",
  "suburb": "SORRENTO",
  "features": [
   {
@@ -1520,9 +1520,9 @@
     "name": "98 CLIFF STREET SORRENTO 6020",
     "locID": "LOC000003690489",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146552084",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5138,10 +5138,9 @@
    "properties": {
     "name": "48 ROSS AVENUE SORRENTO 6020",
     "locID": "LOC000090816470",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146553673",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146553673"
    }
   },
   {
@@ -7710,9 +7709,27 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146554372",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.75392235,
+     -31.83229827
+    ]
+   },
+   "properties": {
+    "name": "18 COWPER ROAD SORRENTO 6020",
+    "locID": "LOC000192935607",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146554373",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -10590,9 +10607,9 @@
     "name": "129 HIGH STREET SORRENTO 6020",
     "locID": "LOC000100906240",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146555779",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -15882,10 +15899,10 @@
    "properties": {
     "name": "39 MARINE TERRACE SORRENTO 6020",
     "locID": "LOC000068065347",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146563342",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16518,10 +16535,9 @@
    "properties": {
     "name": "65 HIGH STREET SORRENTO 6020",
     "locID": "LOC000026956561",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146564695",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16584,23 +16600,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75563219,
-     -31.83745084
-    ]
-   },
-   "properties": {
-    "name": "61 MARINE TERRACE SORRENTO 6020",
-    "locID": "LOC100089912609",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146564699"
    }
   },
   {
@@ -22349,7 +22348,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146573510",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -23190,6 +23190,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.7477864,
+     -31.82870963
+    ]
+   },
+   "properties": {
+    "name": "9 HOCKING PARADE SORRENTO 6020",
+    "locID": "LOC000051621503",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_146574579",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.74779,
      -31.82624
     ]
@@ -23779,7 +23797,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146574804",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -27433,10 +27452,10 @@
    "properties": {
     "name": "34 KEMPENFELDT AVENUE SORRENTO 6020",
     "locID": "LOC000074682547",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146576870",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37153,7 +37172,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147119466",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37443,8 +37463,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147120980",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37462,8 +37483,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147120981",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37600,8 +37622,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147127554",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37619,8 +37642,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147127555",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37808,8 +37832,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131149",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37827,8 +37852,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131150",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37846,8 +37872,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131151",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37865,8 +37892,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131152",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37884,8 +37912,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131153",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37903,8 +37932,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131167",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37922,8 +37952,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131168",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -37941,8 +37972,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147131169",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38096,8 +38128,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135469",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38115,8 +38148,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135470",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38134,8 +38168,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135471",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38153,8 +38188,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135472",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38172,8 +38208,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135473",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38191,8 +38228,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135474",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38210,8 +38248,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135475",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38229,8 +38268,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135476",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38248,8 +38288,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135477",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38267,8 +38308,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135478",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38286,8 +38328,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135479",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38305,8 +38348,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135480",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38324,8 +38368,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135481",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38343,8 +38388,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135482",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38362,8 +38408,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135483",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38381,8 +38428,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135484",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38400,8 +38448,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147135485",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38946,8 +38995,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147147234",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38965,8 +39015,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147147235",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -38984,8 +39035,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147147236",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39021,8 +39073,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147147238",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39040,8 +39093,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147147239",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39059,8 +39113,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147149409",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39078,8 +39133,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147149410",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39097,8 +39153,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147149411",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39116,8 +39173,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153081",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39135,8 +39193,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153082",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39154,8 +39213,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153083",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39173,8 +39233,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153084",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39192,8 +39253,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153085",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39211,8 +39273,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153101",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39230,8 +39293,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153102",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39249,8 +39313,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147153103",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39268,8 +39333,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156125",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39287,8 +39353,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156126",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39306,8 +39373,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156127",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39325,8 +39393,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156128",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39344,8 +39413,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156129",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39363,8 +39433,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156130",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39382,8 +39453,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156131",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39401,8 +39473,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156132",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39420,8 +39493,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156133",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39439,8 +39513,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156134",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39458,8 +39533,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156135",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39477,8 +39553,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147156136",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39598,8 +39675,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168155",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39617,8 +39695,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168156",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39636,8 +39715,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168157",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39655,8 +39735,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168158",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39674,8 +39755,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168159",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39693,8 +39775,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168160",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39712,8 +39795,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168161",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39731,8 +39815,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168162",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39750,8 +39835,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147168163",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39769,8 +39855,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147174002",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39788,8 +39875,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147174003",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39807,8 +39895,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176271",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39826,8 +39915,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176272",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39845,8 +39935,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176274",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39932,8 +40023,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176988",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39951,8 +40043,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176989",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39970,8 +40063,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176990",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -39989,8 +40083,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176991",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40008,8 +40103,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176992",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40027,8 +40123,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147176993",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40421,7 +40518,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199371",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40440,7 +40538,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199372",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40459,7 +40558,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199373",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40478,7 +40578,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199374",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40497,7 +40598,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199375",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40516,7 +40618,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199376",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40535,7 +40638,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199377",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40554,7 +40658,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199378",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40573,7 +40678,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199379",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40592,7 +40698,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199380",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40611,7 +40718,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147199381",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40718,7 +40826,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147204897",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40737,7 +40846,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147204898",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40846,7 +40956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207248",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40883,7 +40994,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207750",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40902,7 +41014,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207751",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40921,7 +41034,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207752",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40940,7 +41054,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207753",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -40977,7 +41092,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147207755",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41140,7 +41256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210712",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41177,7 +41294,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210714",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41214,7 +41332,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210716",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41251,7 +41370,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210718",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41288,7 +41408,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210720",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41325,7 +41446,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147210722",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41362,7 +41484,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218056",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41417,7 +41540,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218249",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41454,7 +41578,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218251",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41473,7 +41598,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218252",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41492,7 +41618,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218253",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41511,7 +41638,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147218254",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41548,7 +41676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220319",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41567,7 +41696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220353",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41604,7 +41734,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220355",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41641,7 +41772,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220645",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41660,7 +41792,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220646",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41679,7 +41812,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220647",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41698,7 +41832,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220648",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41717,7 +41852,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220649",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41736,7 +41872,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220650",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41755,7 +41892,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220651",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41774,7 +41912,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220652",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41793,7 +41932,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220653",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41812,7 +41952,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147220654",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41849,7 +41990,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147221015",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41868,7 +42010,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147221016",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41905,7 +42048,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147221018",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41944,7 +42088,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223636",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41963,7 +42108,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223637",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41982,7 +42128,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223638",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42001,7 +42148,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223639",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42020,7 +42168,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223640",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42039,7 +42188,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223641",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42058,7 +42208,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223642",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42095,7 +42246,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223878",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42132,7 +42284,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223880",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42151,7 +42304,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225467",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42188,7 +42342,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225469",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42225,7 +42380,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225471",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42244,7 +42400,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225472",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42263,7 +42420,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225473",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42282,7 +42440,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147225474",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42321,7 +42480,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226244",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42358,7 +42518,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226246",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42395,7 +42556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226248",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42432,7 +42594,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226250",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42451,7 +42614,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226251",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42470,7 +42634,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226252",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42507,7 +42672,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226254",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42526,7 +42692,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226856",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42545,7 +42712,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226857",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42582,7 +42750,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226859",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42619,7 +42788,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226861",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42638,7 +42808,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147231649",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42837,7 +43008,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233006",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42856,7 +43028,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233007",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42893,7 +43066,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233009",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42930,7 +43104,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233011",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42949,7 +43124,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233012",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42986,7 +43162,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233014",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43023,7 +43200,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233016",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43042,7 +43220,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147233017",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43098,7 +43277,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238400",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43117,7 +43297,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238401",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43154,7 +43335,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238403",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43191,7 +43373,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238973",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43228,7 +43411,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238975",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43265,7 +43449,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147238977",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43444,7 +43629,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147242269",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43481,7 +43667,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147242271",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43500,7 +43687,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147242272",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43708,7 +43896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251043",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43727,7 +43916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251044",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43746,7 +43936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251045",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43801,7 +43992,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251049",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43838,7 +44030,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251051",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -43875,7 +44068,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251053",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -46535,7 +46729,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147329553",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -47126,8 +47321,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148073546",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -48685,8 +48881,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148092830",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -49895,8 +50092,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148101034",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51302,7 +51500,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148403227",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51357,7 +51556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406532",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51376,7 +51576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406533",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51395,7 +51596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406600",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51414,7 +51616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406601",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51433,7 +51636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406602",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51452,7 +51656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406605",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51471,7 +51676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148406606",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51635,7 +51841,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_148412522",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -51902,6 +52109,24 @@
     "gnaf_pid": "GAWA_160938125",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.74692421,
+     -31.82939652
+    ]
+   },
+   "properties": {
+    "name": "UNIT 50, 5 HOCKING PARADE SORRENTO 6020",
+    "locID": "LOC000051767294",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_161030280",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -55700,7 +55925,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163273168",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56519,8 +56745,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825828",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56538,8 +56765,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825829",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56557,8 +56785,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825830",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56576,8 +56805,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825831",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56595,8 +56825,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825832",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56614,8 +56845,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825833",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56633,8 +56865,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825834",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56652,8 +56885,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825835",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56671,8 +56905,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718825836",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56690,8 +56925,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828609",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56709,8 +56945,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828611",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56728,8 +56965,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828612",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56747,8 +56985,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828613",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56766,8 +57005,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828614",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56785,8 +57025,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828615",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56804,8 +57045,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828616",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56823,8 +57065,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718828617",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56859,8 +57102,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718871885",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56935,8 +57179,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718913649",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56954,8 +57199,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718913650",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -56973,8 +57219,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718915433",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
