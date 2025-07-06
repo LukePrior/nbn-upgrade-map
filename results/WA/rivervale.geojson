@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-14T09:39:28.396894",
+ "generated": "2025-07-06T00:21:03.175150",
  "suburb": "RIVERVALE",
  "features": [
   {
@@ -1049,23 +1049,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146662626"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.91852394,
-     -31.96812194
-    ]
-   },
-   "properties": {
-    "name": "175 SURREY ROAD RIVERVALE 6103",
-    "locID": "LOC000012862763",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146662627"
    }
   },
   {
@@ -5040,8 +5023,8 @@
    "properties": {
     "name": "209 ACTON AVENUE RIVERVALE 6103",
     "locID": "LOC000103302588",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146664563",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5080,10 +5063,10 @@
    "properties": {
     "name": "42 WICCA STREET RIVERVALE 6103",
     "locID": "LOC000095672451",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146664565",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13336,6 +13319,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146670634"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92410975,
+     -31.9672873
+    ]
+   },
+   "properties": {
+    "name": "185 ARMADALE ROAD RIVERVALE 6103",
+    "locID": "LOC000196885914",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146670635"
    }
   },
   {
@@ -22087,8 +22087,8 @@
    "properties": {
     "name": "204 ACTON AVENUE RIVERVALE 6103",
     "locID": "LOC000042698790",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146677750",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24825,23 +24825,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146682824"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92224,
-     -31.96855
-    ]
-   },
-   "properties": {
-    "name": "209 KOOYONG ROAD RIVERVALE 6103",
-    "locID": "LOC000003739106",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146682825"
    }
   },
   {
@@ -37465,6 +37448,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.91791,
+     -31.97032
+    ]
+   },
+   "properties": {
+    "name": "6 ALEXANDER ROAD RIVERVALE 6103",
+    "locID": "LOC000194056925",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147239130"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.90144,
      -31.95474
     ]
@@ -45037,8 +45037,8 @@
    "properties": {
     "name": "25 HUTCHISON STREET RIVERVALE 6103",
     "locID": "LOC000092353510",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148055173",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -61493,9 +61493,11 @@
     "name": "UNIT 1, 194 ST KILDA ROAD RIVERVALE 6103",
     "locID": "LOC000090328346",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161506379",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -61602,9 +61604,11 @@
     "name": "UNIT 2, 194 ST KILDA ROAD RIVERVALE 6103",
     "locID": "LOC000090328346",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161506386",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -65218,9 +65222,11 @@
     "name": "194 ST KILDA ROAD RIVERVALE 6103",
     "locID": "LOC000090328346",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161507707",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -110264,6 +110270,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.91174484,
+     -31.95805759
+    ]
+   },
+   "properties": {
+    "name": "41B FITZROY ROAD RIVERVALE 6103",
+    "locID": "LOC000196992668",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719149602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.91988672,
      -31.96597642
     ]
@@ -126231,6 +126254,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.90809718,
+     -31.96163164
+    ]
+   },
+   "properties": {
+    "name": "62C GLADSTONE ROAD RIVERVALE 6103",
+    "locID": "LOC000192282819",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721108552"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.91585737,
      -31.95547176
     ]
@@ -126307,6 +126347,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.92403471,
+     -31.96722285
+    ]
+   },
+   "properties": {
+    "name": "185A ARMADALE ROAD RIVERVALE 6103",
+    "locID": "LOC000196885914",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721204639"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92695109,
      -31.96346711
     ]
@@ -126320,6 +126377,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92410975,
+     -31.9672873
+    ]
+   },
+   "properties": {
+    "name": "185B ARMADALE ROAD RIVERVALE 6103",
+    "locID": "LOC000196885905",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721206770"
    }
   },
   {
@@ -126427,6 +126501,91 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721280364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92274248,
+     -31.96910315
+    ]
+   },
+   "properties": {
+    "name": "217 KOOYONG ROAD RIVERVALE 6103",
+    "locID": "LOC000191854148",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721405006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.9230299,
+     -31.96903377
+    ]
+   },
+   "properties": {
+    "name": "69 SYDENHAM STREET RIVERVALE 6103",
+    "locID": "LOC000191854370",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721406269"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92294156,
+     -31.96926834
+    ]
+   },
+   "properties": {
+    "name": "221 KOOYONG ROAD RIVERVALE 6103",
+    "locID": "LOC000191854195",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721406383"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92295749,
+     -31.96909547
+    ]
+   },
+   "properties": {
+    "name": "67 SYDENHAM STREET RIVERVALE 6103",
+    "locID": "LOC000191854225",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407191"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92310644,
+     -31.96897038
+    ]
+   },
+   "properties": {
+    "name": "71 SYDENHAM STREET RIVERVALE 6103",
+    "locID": "LOC000191854391",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407650"
    }
   },
   {
