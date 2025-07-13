@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-22T04:11:07.687538",
+ "generated": "2025-07-13T09:29:26.682946",
  "suburb": "KYOGLE",
  "features": [
   {
@@ -845,10 +845,10 @@
    "properties": {
     "name": "16 GENEVA STREET KYOGLE 2474",
     "locID": "LOC000064888007",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705141151",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4788,8 +4788,8 @@
    "properties": {
     "name": "11 CHAUVEL STREET KYOGLE 2474",
     "locID": "LOC000021535344",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705152447",
     "tech_change_status": "Eligible to Order"
    }
@@ -9949,10 +9949,9 @@
    "properties": {
     "name": "40 MCDOUGALL STREET KYOGLE 2474",
     "locID": "LOC000012219061",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW712225852",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712225852"
    }
   },
   {
@@ -14926,10 +14925,9 @@
    "properties": {
     "name": "43 MCDOUGALL STREET KYOGLE 2474",
     "locID": "LOC000089457106",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW713155994",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW713155994"
    }
   },
   {
@@ -16320,8 +16318,8 @@
    "properties": {
     "name": "25 ANZAC DRIVE KYOGLE 2474",
     "locID": "LOC000190538621",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716645039",
     "tech_change_status": "Eligible to Order"
    }
@@ -17743,10 +17741,9 @@
    "properties": {
     "name": "6-8 WILLIS STREET KYOGLE 2474",
     "locID": "LOC000091986223",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716840821",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716840821"
    }
   },
   {
@@ -18205,10 +18202,9 @@
    "properties": {
     "name": "1-5 GEORGE STREET KYOGLE 2474",
     "locID": "LOC000028763687",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716994255",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716994255"
    }
   },
   {
@@ -22101,8 +22097,8 @@
    "properties": {
     "name": "292 SUMMERLAND WAY KYOGLE 2474",
     "locID": "LOC000167987389",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718425686",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25745,10 +25741,12 @@
    "properties": {
     "name": "81A SUMMERLAND WAY KYOGLE 2474",
     "locID": "LOC100090074274",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719590988",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26583,6 +26581,44 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720809778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00642401,
+     -28.62237019
+    ]
+   },
+   "properties": {
+    "name": "4C WARRAZAMBIL STREET KYOGLE 2474",
+    "locID": "LOC000185439115",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720996792",
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00628922,
+     -28.62229229
+    ]
+   },
+   "properties": {
+    "name": "4A WARRAZAMBIL STREET KYOGLE 2474",
+    "locID": "LOC000185439104",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720997453",
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple"
    }
   },
   {
