@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-23T10:32:03.025758",
+ "generated": "2025-07-14T18:31:10.265683",
  "suburb": "WILTON",
  "features": [
   {
@@ -1272,8 +1272,8 @@
    "properties": {
     "name": "10 CONDELL PARK ROAD WILTON 2571",
     "locID": "LOC000121413570",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706301251",
     "tech_change_status": "Eligible to Order"
    }
@@ -1537,12 +1537,29 @@
    "properties": {
     "name": "30 HORNBY STREET WEST WILTON 2571",
     "locID": "LOC000115517258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706304498",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.69219611,
+     -34.23709636
+    ]
+   },
+   "properties": {
+    "name": "100 HORNBY STREET WILTON 2571",
+    "locID": "LOC000196865000",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706304501"
    }
   },
   {
@@ -2943,10 +2960,9 @@
    "properties": {
     "name": "70 CONDELL PARK ROAD WILTON 2571",
     "locID": "LOC000089198631",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706311237",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706311237"
    }
   },
   {
@@ -4317,7 +4333,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706321475",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6713,7 +6729,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706338655",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6770,8 +6786,8 @@
    "properties": {
     "name": "19 TYSON ROAD WILTON 2571",
     "locID": "LOC000090770180",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706338658",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6931,7 +6947,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706338666",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7068,8 +7084,8 @@
    "properties": {
     "name": "34 TYSON ROAD WILTON 2571",
     "locID": "LOC000061479994",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706338673",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7226,6 +7242,24 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706338688",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.72355404,
+     -34.23996633
+    ]
+   },
+   "properties": {
+    "name": "124 WILTON ROAD WILTON 2571",
+    "locID": "LOC000032393553",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706338689",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -7575,10 +7609,9 @@
    "properties": {
     "name": "27 BROUGHTON STREET WILTON 2571",
     "locID": "LOC000025101051",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706345235",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8790,6 +8823,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.72886497,
+     -34.23247914
+    ]
+   },
+   "properties": {
+    "name": "125 DOUGLAS PARK DRIVE WILTON 2571",
+    "locID": "LOC100078096447",
+    "tech": "SATELLITE",
+    "upgrade": "WIRELESS",
+    "gnaf_pid": "GANSW707687838",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.72886497,
+     -34.23247914
+    ]
+   },
+   "properties": {
+    "name": "95 DOUGLAS PARK DRIVE WILTON 2571",
+    "locID": "LOC100078658021",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW707687841",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.69274854,
      -34.2366
     ]
@@ -8946,10 +9019,10 @@
    "properties": {
     "name": "30 HORNBY STREET WILTON 2571",
     "locID": "LOC000115517258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712588377",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9260,7 +9333,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW713166045",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12236,10 +12309,10 @@
    "properties": {
     "name": "15 HORNBY STREET WEST WILTON 2571",
     "locID": "LOC000115517258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717704084",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26300,6 +26373,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.69529716,
+     -34.22819947
+    ]
+   },
+   "properties": {
+    "name": "20 STRINGYBARK DRIVE WILTON 2571",
+    "locID": "LOC100088364308",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721041101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.67945286,
      -34.20047405
     ]
@@ -31252,10 +31342,9 @@
    "properties": {
     "name": "5 BUTLER DRIVE WILTON 2571",
     "locID": "LOC000003543469",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721240787",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35636,10 +35725,9 @@
    "properties": {
     "name": "10C TYSON ROAD WILTON 2571",
     "locID": "LOC100087244701",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721573051",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
