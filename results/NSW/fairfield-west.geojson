@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-23T03:41:17.599646",
+ "generated": "2025-07-14T10:47:11.108660",
  "suburb": "FAIRFIELD WEST",
  "features": [
   {
@@ -2342,10 +2342,10 @@
    "properties": {
     "name": "313 POLDING STREET FAIRFIELD WEST 2165",
     "locID": "LOC000069037177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704717414",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2382,10 +2382,10 @@
    "properties": {
     "name": "321 POLDING STREET FAIRFIELD WEST 2165",
     "locID": "LOC000015940141",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704717417",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63522,6 +63522,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.92565574,
+     -33.86508119
+    ]
+   },
+   "properties": {
+    "name": "51A PALMERSTON ROAD FAIRFIELD WEST 2165",
+    "locID": "LOC000047779372",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719360478"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.92290687,
      -33.86001019
     ]
@@ -63529,10 +63546,10 @@
    "properties": {
     "name": "UNIT 3, 313 POLDING STREET FAIRFIELD WEST 2165",
     "locID": "LOC000069037177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719378549",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
