@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-25T09:33:39.689474",
+ "generated": "2025-07-16T21:16:51.916840",
  "suburb": "MOUNT MORGAN",
  "features": [
   {
@@ -511,8 +511,8 @@
    "properties": {
     "name": "33 THOMPSON AVENUE MOUNT MORGAN 4714",
     "locID": "LOC000058532543",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155593089",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2507,8 +2507,8 @@
    "properties": {
     "name": "52 PATTISON STREET MOUNT MORGAN 4714",
     "locID": "LOC000015032666",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155602022",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5345,7 +5345,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155617324",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6941,10 +6941,10 @@
    "properties": {
     "name": "6 DEE ESPLANADE MOUNT MORGAN 4714",
     "locID": "LOC000082966116",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156875257",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9589,6 +9589,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.37977067,
+     -23.64815517
+    ]
+   },
+   "properties": {
+    "name": "6 O'DEA LANE MOUNT MORGAN 4714",
+    "locID": "LOC000079218804",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156888485",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.38630258,
      -23.64867069
     ]
@@ -9636,10 +9654,9 @@
    "properties": {
     "name": "30 PATTISON STREET MOUNT MORGAN 4714",
     "locID": "LOC000050035421",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156888501",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12379,10 +12396,10 @@
    "properties": {
     "name": "43 HALL STREET MOUNT MORGAN 4714",
     "locID": "LOC000047509992",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156913192",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13891,9 +13908,9 @@
     "name": "22 WEST STREET MOUNT MORGAN 4714",
     "locID": "LOC000024109003",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156920182",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14336,10 +14353,9 @@
    "properties": {
     "name": "53 MORGAN STREET MOUNT MORGAN 4714",
     "locID": "LOC000008643517",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156923441",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21982,6 +21998,42 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.39260368,
+     -23.63916506
+    ]
+   },
+   "properties": {
+    "name": "11 GANTER STREET MOUNT MORGAN 4714",
+    "locID": "LOC100056396177",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425037461",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.39268413,
+     -23.64070217
+    ]
+   },
+   "properties": {
+    "name": "8 GANTER STREET MOUNT MORGAN 4714",
+    "locID": "LOC100056396165",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425037472",
+    "tech_change_status": "Not Planned"
    }
   },
   {
