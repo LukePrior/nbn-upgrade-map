@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-25T03:50:37.220205",
+ "generated": "2025-07-16T14:59:59.760447",
  "suburb": "GOLDSBOROUGH",
  "features": [
   {
@@ -15,8 +15,8 @@
    "properties": {
     "name": "LOT 121 ORE CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000193146333",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158937205",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1480,8 +1480,8 @@
    "properties": {
     "name": "10-12 DRIFT CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000007510154",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162845593",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1914,8 +1914,8 @@
    "properties": {
     "name": "37-39 GOLDEN STREET GOLDSBOROUGH 4865",
     "locID": "LOC000028217958",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162846248",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2033,8 +2033,8 @@
    "properties": {
     "name": "61-63 GOLDEN STREET GOLDSBOROUGH 4865",
     "locID": "LOC000089371525",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162846255",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2670,8 +2670,8 @@
    "properties": {
     "name": "17-19 STAMP STREET GOLDSBOROUGH 4865",
     "locID": "LOC000003346732",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162850185",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2810,8 +2810,8 @@
    "properties": {
     "name": "145-147 WINDLASS STREET GOLDSBOROUGH 4865",
     "locID": "LOC000063998893",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162851375",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2870,8 +2870,8 @@
    "properties": {
     "name": "22-24 WINDLASS STREET GOLDSBOROUGH 4865",
     "locID": "LOC000059432068",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162851378",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2970,8 +2970,8 @@
    "properties": {
     "name": "33-35 WINDLASS STREET GOLDSBOROUGH 4865",
     "locID": "LOC000032361662",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162851383",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3153,7 +3153,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162851392",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3368,8 +3368,8 @@
    "properties": {
     "name": "9-11 WINDLASS STREET GOLDSBOROUGH 4865",
     "locID": "LOC000022498045",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162851403",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3408,8 +3408,8 @@
    "properties": {
     "name": "5-7 DRIFT CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000038575692",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162924788",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3434,6 +3434,42 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72435087,
+     -17.1499427
+    ]
+   },
+   "properties": {
+    "name": "87 FAIRWEATHER ACCESS GOLDSBOROUGH 4865",
+    "locID": "LOC000047460360",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162937233",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72435087,
+     -17.1499427
+    ]
+   },
+   "properties": {
+    "name": "89 FAIRWEATHER ACCESS GOLDSBOROUGH 4865",
+    "locID": "LOC000047460360",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162937234",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -3622,8 +3658,8 @@
    "properties": {
     "name": "26-28 CLAIM CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000129660043",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162952325",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3981,8 +4017,8 @@
    "properties": {
     "name": "53-55 COSTAIN STREET GOLDSBOROUGH 4865",
     "locID": "LOC000110835408",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162952627",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4120,8 +4156,8 @@
    "properties": {
     "name": "70-72 COSTAIN STREET GOLDSBOROUGH 4865",
     "locID": "LOC000112254633",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162952634",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4319,8 +4355,8 @@
    "properties": {
     "name": "33-35 DRIFT CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000116178958",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162953605",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4493,8 +4529,8 @@
    "properties": {
     "name": "38-40 GOLDEN STREET GOLDSBOROUGH 4865",
     "locID": "LOC000129668790",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162955255",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5461,8 +5497,8 @@
    "properties": {
     "name": "13-15 PROSPECTOR STREET GOLDSBOROUGH 4865",
     "locID": "LOC000103152694",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162962874",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5580,8 +5616,8 @@
    "properties": {
     "name": "5-7 PROSPECTOR STREET GOLDSBOROUGH 4865",
     "locID": "LOC000129673564",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162962880",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5600,8 +5636,8 @@
    "properties": {
     "name": "6-8 PROSPECTOR STREET GOLDSBOROUGH 4865",
     "locID": "LOC000021587066",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162962881",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5678,8 +5714,8 @@
    "properties": {
     "name": "14-16 STAMP STREET GOLDSBOROUGH 4865",
     "locID": "LOC000110693117",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162965231",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5955,10 +5991,9 @@
    "properties": {
     "name": "113-115 WINDLASS STREET GOLDSBOROUGH 4865",
     "locID": "LOC000110235671",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162967220",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6840,8 +6875,8 @@
    "properties": {
     "name": "18-20 PLACER STREET GOLDSBOROUGH 4865",
     "locID": "LOC000184284175",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163018166",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6943,7 +6978,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163018171",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6960,8 +6995,8 @@
    "properties": {
     "name": "27-29 PLACER STREET GOLDSBOROUGH 4865",
     "locID": "LOC000041592500",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163018172",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7811,8 +7846,8 @@
    "properties": {
     "name": "1-3 RAUMER STREET GOLDSBOROUGH 4865",
     "locID": "LOC000129637180",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163316751",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7931,8 +7966,8 @@
    "properties": {
     "name": "1-3 ORE CLOSE GOLDSBOROUGH 4865",
     "locID": "LOC000193146333",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425378895",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7972,6 +8007,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425491370",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72435087,
+     -17.1499427
+    ]
+   },
+   "properties": {
+    "name": "87-89 FAIRWEATHER ACCESS GOLDSBOROUGH 4865",
+    "locID": "LOC000047460360",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425655403",
     "tech_change_status": "Not Planned"
    }
   },
@@ -9101,8 +9154,8 @@
    "properties": {
     "name": "1-3 PROSPECTOR STREET GOLDSBOROUGH 4865",
     "locID": "LOC000103152694",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD720732718",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9798,8 +9851,8 @@
    "properties": {
     "name": "2-6 AURA PLACE GOLDSBOROUGH 4865",
     "locID": "LOC000165667495",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720979452",
     "tech_change_status": "Eligible to Order"
    }
@@ -9986,8 +10039,8 @@
    "properties": {
     "name": "1-3 AURA PLACE GOLDSBOROUGH 4865",
     "locID": "LOC000165667482",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720981472",
     "tech_change_status": "Eligible to Order"
    }
