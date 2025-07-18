@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-27T08:26:14.063094",
+ "generated": "2025-07-18T17:59:51.136921",
  "suburb": "EAGLE POINT",
  "features": [
   {
@@ -556,11 +556,11 @@
     "name": "8 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000098629035",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419765132",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -756,9 +756,9 @@
     "name": "21 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000074385253",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419767907",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1016,11 +1016,11 @@
     "name": "197 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000081238419",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419771764",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1036,11 +1036,11 @@
     "name": "195 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000096029048",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419771765",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1195,10 +1195,9 @@
    "properties": {
     "name": "14 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000084931135",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419775230",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1255,10 +1254,10 @@
    "properties": {
     "name": "101 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000066740207",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419776025",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1513,9 +1512,12 @@
    "properties": {
     "name": "31 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000105802838",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420038087"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420038087",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1531,11 +1533,11 @@
     "name": "29 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000093762185",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420038088",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1852,7 +1854,10 @@
     "locID": "LOC000052515717",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420057824"
+    "gnaf_pid": "GAVIC420057824",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1870,6 +1875,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420057825",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.68327695,
+     -37.90245421
+    ]
+   },
+   "properties": {
+    "name": "1082 PAYNESVILLE ROAD EAGLE POINT 3878",
+    "locID": "LOC000099576288",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420057826",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -2108,11 +2133,11 @@
     "name": "4 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000061335620",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420079845",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2228,8 +2253,11 @@
     "name": "30 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000102546672",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420293131"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420293131",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2585,11 +2613,11 @@
     "name": "193 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000012801639",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420363693",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3206,7 +3234,10 @@
     "locID": "LOC000052376999",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420644030"
+    "gnaf_pid": "GAVIC420644030",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3302,9 +3333,9 @@
     "name": "61 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000049950562",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420652202",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3341,9 +3372,12 @@
    "properties": {
     "name": "18 RILEY STREET EAGLE POINT 3878",
     "locID": "LOC000038171281",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420654934"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420654934",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3378,12 +3412,12 @@
    "properties": {
     "name": "7 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000037077777",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420654936",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3402,6 +3436,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420654937",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.68414251,
+     -37.89401209
+    ]
+   },
+   "properties": {
+    "name": "18 WHITE COURT EAGLE POINT 3878",
+    "locID": "LOC000034470968",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420654939",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3521,7 +3575,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420659415",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3838,10 +3892,9 @@
    "properties": {
     "name": "8 RILEY STREET EAGLE POINT 3878",
     "locID": "LOC000074084009",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420674164",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4421,7 +4474,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420975809",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4714,9 +4767,12 @@
    "properties": {
     "name": "175 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000005139375",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420993600"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420993600",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4991,12 +5047,12 @@
    "properties": {
     "name": "199 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000052991863",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421269290",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5808,9 +5864,12 @@
    "properties": {
     "name": "31 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000009379109",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421548960"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421548960",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5886,11 +5945,11 @@
     "name": "5 SCHOOL ROAD EAGLE POINT 3878",
     "locID": "LOC000101613557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421555777",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5958,6 +6017,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.66375753,
+     -37.89177526
+    ]
+   },
+   "properties": {
+    "name": "60 MATHIESONS ROAD EAGLE POINT 3878",
+    "locID": "LOC000104501949",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421556492",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.67530209,
      -37.89233746
     ]
@@ -5966,11 +6045,11 @@
     "name": "10 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000032915651",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421556493",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6106,9 +6185,9 @@
     "name": "171 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000047913451",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421563205",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6485,10 +6564,10 @@
    "properties": {
     "name": "15 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000025140071",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421651250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6986,11 +7065,11 @@
     "name": "6 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000008701018",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421881474",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7027,7 +7106,10 @@
     "locID": "LOC000063721573",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421911469"
+    "gnaf_pid": "GAVIC421911469",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7063,11 +7145,11 @@
     "name": "12 FORGE CREEK ROAD EAGLE POINT 3878",
     "locID": "LOC000094319481",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421911471",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7762,10 +7844,9 @@
    "properties": {
     "name": "LOT 2 EAGLE BAY DRIVE EAGLE POINT 3878",
     "locID": "LOC000092717181",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423395638",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423395638"
    }
   },
   {
@@ -7921,8 +8002,31 @@
     "name": "182 BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000196709463",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423621662"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423621662",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.69663523,
+     -37.9004332
+    ]
+   },
+   "properties": {
+    "name": "184 BAY ROAD EAGLE POINT 3878",
+    "locID": "LOC000042329459",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423621663",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8532,9 +8636,10 @@
    "properties": {
     "name": "65 EAGLE POINT ROAD EAGLE POINT 3878",
     "locID": "LOC000026963297",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424025254"
+    "gnaf_pid": "GAVIC424025254",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -8647,9 +8752,12 @@
    "properties": {
     "name": "30 RILEY STREET EAGLE POINT 3878",
     "locID": "LOC000031043563",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424034421"
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424034421",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9455,10 +9563,10 @@
    "properties": {
     "name": "2A RILEY STREET EAGLE POINT 3878",
     "locID": "LOC000113247844",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424629068",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9633,10 +9741,9 @@
    "properties": {
     "name": "10 SEAGREEN CLOSE EAGLE POINT 3878",
     "locID": "LOC000183915379",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425090994",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425090994"
    }
   },
   {
@@ -9723,10 +9830,9 @@
    "properties": {
     "name": "6 SEAGREEN CLOSE EAGLE POINT 3878",
     "locID": "LOC000183915351",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425090999",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425090999"
    }
   },
   {
@@ -9741,10 +9847,9 @@
    "properties": {
     "name": "8 SEAGREEN CLOSE EAGLE POINT 3878",
     "locID": "LOC000183915367",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425091000",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425091000"
    }
   },
   {
@@ -9794,10 +9899,9 @@
    "properties": {
     "name": "13 YALCA MEWS EAGLE POINT 3878",
     "locID": "LOC100055388972",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425094084",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425094084"
    }
   },
   {
@@ -9865,10 +9969,9 @@
    "properties": {
     "name": "21 YALCA MEWS EAGLE POINT 3878",
     "locID": "LOC000183915540",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425094089",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425094089"
    }
   },
   {
@@ -9951,10 +10054,9 @@
    "properties": {
     "name": "5 YALCA MEWS EAGLE POINT 3878",
     "locID": "LOC100055389018",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425094094",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425094094"
    }
   },
   {
@@ -10003,10 +10105,9 @@
    "properties": {
     "name": "9A YALCA MEWS EAGLE POINT 3878",
     "locID": "LOC100055389025",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425094097",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425094097"
    }
   },
   {
@@ -10135,9 +10236,9 @@
     "name": "29B BAY ROAD EAGLE POINT 3878",
     "locID": "LOC000156764442",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425308095",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10344,8 +10445,8 @@
    "properties": {
     "name": "8 MARAVITO TERRACE EAGLE POINT 3878",
     "locID": "LOC000153463309",
-    "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425467473",
     "tech_change_status": "Eligible to Order"
    }
@@ -10542,10 +10643,9 @@
    "properties": {
     "name": "5 AQUABELLA DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388098",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425555554",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425555554"
    }
   },
   {
@@ -10649,8 +10749,8 @@
    "properties": {
     "name": "29 WOODMAN ROAD EAGLE POINT 3878",
     "locID": "LOC100055388917",
-    "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425573385",
     "tech_change_status": "Eligible to Order"
    }
@@ -10685,10 +10785,9 @@
    "properties": {
     "name": "13 AQUABELLA DRIVE EAGLE POINT 3878",
     "locID": "LOC100055387909",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425608775",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425608775"
    }
   },
   {
@@ -10703,10 +10802,9 @@
    "properties": {
     "name": "15 AQUABELLA DRIVE EAGLE POINT 3878",
     "locID": "LOC100055387899",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425608776",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425608776"
    }
   },
   {
@@ -10724,6 +10822,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425608777",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.67795478,
+     -37.89591351
+    ]
+   },
+   "properties": {
+    "name": "19 AQUABELLA DRIVE EAGLE POINT 3878",
+    "locID": "LOC100055387932",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425608778",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -10810,8 +10926,8 @@
    "properties": {
     "name": "53 AQUABELLA DRIVE EAGLE POINT 3878",
     "locID": "LOC000154255645",
-    "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425608783",
     "tech_change_status": "Eligible to Order"
    }
@@ -10828,10 +10944,9 @@
    "properties": {
     "name": "57 AQUABELLA DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388080",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425608784",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425608784"
    }
   },
   {
@@ -10997,8 +11112,9 @@
     "name": "11 MARAVITO TERRACE EAGLE POINT 3878",
     "locID": "LOC100055388681",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425619084"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425619084",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11085,8 +11201,9 @@
     "name": "18 MARAVITO TERRACE EAGLE POINT 3878",
     "locID": "LOC100055388718",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425619089"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425619089",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11119,10 +11236,9 @@
    "properties": {
     "name": "2 MARAVITO TERRACE EAGLE POINT 3878",
     "locID": "LOC100055388741",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425619091",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425619091"
    }
   },
   {
@@ -11190,10 +11306,9 @@
    "properties": {
     "name": "9 MARAVITO TERRACE EAGLE POINT 3878",
     "locID": "LOC100055388827",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425619095",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425619095"
    }
   },
   {
@@ -11318,10 +11433,9 @@
    "properties": {
     "name": "19 YALCA MEWS EAGLE POINT 3878",
     "locID": "LOC100055388986",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425626248",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626248"
    }
   },
   {
@@ -11577,8 +11691,9 @@
     "name": "27 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388328",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719505813"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719505813",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11818,8 +11933,9 @@
     "name": "67 EAGLE POINT ROAD EAGLE POINT 3878",
     "locID": "LOC000183780728",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719509905"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719509905",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -12128,10 +12244,9 @@
    "properties": {
     "name": "19 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388235",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719519741",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719519741"
    }
   },
   {
@@ -12252,6 +12367,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719523139"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.67861095,
+     -37.89747917
+    ]
+   },
+   "properties": {
+    "name": "61 EAGLE POINT ROAD EAGLE POINT 3878",
+    "locID": "LOC100055388610",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719524562"
    }
   },
   {
@@ -12772,10 +12904,9 @@
    "properties": {
     "name": "6 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388532",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719531727",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719531727"
    }
   },
   {
@@ -12790,10 +12921,9 @@
    "properties": {
     "name": "22 TAIT STREET EAGLE POINT 3878",
     "locID": "LOC100055388815",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719531856",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719531856"
    }
   },
   {
@@ -12808,10 +12938,9 @@
    "properties": {
     "name": "44 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388469",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719532617",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719532617"
    }
   },
   {
@@ -12964,10 +13093,9 @@
    "properties": {
     "name": "29 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388344",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719535865",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719535865"
    }
   },
   {
@@ -12982,10 +13110,9 @@
    "properties": {
     "name": "42 CARDINAL DRIVE EAGLE POINT 3878",
     "locID": "LOC100055388453",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719535875",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719535875"
    }
   },
   {
@@ -13349,9 +13476,12 @@
    "properties": {
     "name": "11 RIVER GUM CLOSE EAGLE POINT 3878",
     "locID": "LOC000190410127",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719992602"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719992602",
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
