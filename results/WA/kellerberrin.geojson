@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-28T08:11:33.481084",
+ "generated": "2025-07-19T06:49:01.900660",
  "suburb": "KELLERBERRIN",
  "features": [
   {
@@ -52,10 +52,9 @@
    "properties": {
     "name": "39 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000080096455",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146960199",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146960199"
    }
   },
   {
@@ -87,10 +86,9 @@
    "properties": {
     "name": "20 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000024558176",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146960202",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146960202"
    }
   },
   {
@@ -159,10 +157,9 @@
    "properties": {
     "name": "22 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000073753412",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147003930",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147003930"
    }
   },
   {
@@ -284,8 +281,8 @@
    "properties": {
     "name": "31 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000066079796",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147039207",
     "tech_change_status": "Eligible to Order"
    }
@@ -392,7 +389,7 @@
    "properties": {
     "name": "34 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000006958945",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147040528"
    }
@@ -410,8 +407,9 @@
     "name": "33 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000073803583",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147040529"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_147040529",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -623,10 +621,9 @@
    "properties": {
     "name": "9 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000052009688",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147044363",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147044363"
    }
   },
   {
@@ -659,8 +656,8 @@
    "properties": {
     "name": "11 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000028713524",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147044365",
     "tech_change_status": "Eligible to Order"
    }
@@ -943,10 +940,9 @@
    "properties": {
     "name": "42 MASSINGHAM STREET KELLERBERRIN 6410",
     "locID": "LOC000014436887",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147047444",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147047444"
    }
   },
   {
@@ -961,8 +957,8 @@
    "properties": {
     "name": "44 MASSINGHAM STREET KELLERBERRIN 6410",
     "locID": "LOC000006527513",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147047446",
     "tech_change_status": "Eligible to Order"
    }
@@ -979,8 +975,8 @@
    "properties": {
     "name": "43 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000042994067",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147047447",
     "tech_change_status": "Eligible to Order"
    }
@@ -1057,9 +1053,12 @@
    "properties": {
     "name": "88 MASSINGHAM STREET KELLERBERRIN 6410",
     "locID": "LOC000012764160",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147048424"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147048424",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -1077,6 +1076,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147048426",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.72046,
+     -31.63405
+    ]
+   },
+   "properties": {
+    "name": "92 MASSINGHAM STREET KELLERBERRIN 6410",
+    "locID": "LOC000003616286",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147048428",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
@@ -1131,8 +1150,8 @@
    "properties": {
     "name": "38 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000026463511",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147049372",
     "tech_change_status": "Eligible to Order"
    }
@@ -1149,8 +1168,8 @@
    "properties": {
     "name": "37 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000012811725",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147049373",
     "tech_change_status": "Eligible to Order"
    }
@@ -1257,8 +1276,8 @@
    "properties": {
     "name": "1 PRICE STREET KELLERBERRIN 6410",
     "locID": "LOC000107567606",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147051385",
     "tech_change_status": "Eligible to Order"
    }
@@ -1328,8 +1347,8 @@
    "properties": {
     "name": "3 PRICE STREET KELLERBERRIN 6410",
     "locID": "LOC000100466594",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147051390",
     "tech_change_status": "Eligible to Order"
    }
@@ -1435,10 +1454,9 @@
    "properties": {
     "name": "11 KING STREET KELLERBERRIN 6410",
     "locID": "LOC000096077926",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147051837",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147051837"
    }
   },
   {
@@ -1453,8 +1471,8 @@
    "properties": {
     "name": "12 BATH STREET KELLERBERRIN 6410",
     "locID": "LOC000075061838",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147052486",
     "tech_change_status": "Eligible to Order"
    }
@@ -1471,8 +1489,8 @@
    "properties": {
     "name": "14 BATH STREET KELLERBERRIN 6410",
     "locID": "LOC000065163420",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147052487",
     "tech_change_status": "Eligible to Order"
    }
@@ -1489,8 +1507,8 @@
    "properties": {
     "name": "16 BATH STREET KELLERBERRIN 6410",
     "locID": "LOC000044805349",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147052488",
     "tech_change_status": "Eligible to Order"
    }
@@ -1563,10 +1581,9 @@
    "properties": {
     "name": "41 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000007894942",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147054467",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147054467"
    }
   },
   {
@@ -1619,10 +1636,9 @@
    "properties": {
     "name": "81 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000050609082",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147055038",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147055038"
    }
   },
   {
@@ -1657,10 +1673,9 @@
    "properties": {
     "name": "5 MITCHELL STREET KELLERBERRIN 6410",
     "locID": "LOC000070685057",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147055044",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147055044"
    }
   },
   {
@@ -1693,10 +1708,9 @@
    "properties": {
     "name": "16 SEWELL STREET KELLERBERRIN 6410",
     "locID": "LOC000011543155",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147055047",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147055047"
    }
   },
   {
@@ -1711,8 +1725,8 @@
    "properties": {
     "name": "18 SEWELL STREET KELLERBERRIN 6410",
     "locID": "LOC000090346197",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147055048",
     "tech_change_status": "Eligible to Order"
    }
@@ -1859,10 +1873,9 @@
    "properties": {
     "name": "27 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000030694909",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147055698",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147055698"
    }
   },
   {
@@ -1877,9 +1890,10 @@
    "properties": {
     "name": "32 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000084235119",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147055700"
+    "gnaf_pid": "GAWA_147055700",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -2002,10 +2016,9 @@
    "properties": {
     "name": "9 HINCKLEY STREET KELLERBERRIN 6410",
     "locID": "LOC000012374403",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147058663",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147058663"
    }
   },
   {
@@ -2073,9 +2086,10 @@
    "properties": {
     "name": "51 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000083099329",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147058782"
+    "gnaf_pid": "GAWA_147058782",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -2200,10 +2214,9 @@
    "properties": {
     "name": "48 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000094588045",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147061733",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147061733"
    }
   },
   {
@@ -2252,8 +2265,8 @@
    "properties": {
     "name": "50 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000042795601",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147061736",
     "tech_change_status": "Eligible to Order"
    }
@@ -2305,10 +2318,9 @@
    "properties": {
     "name": "56 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000010603195",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147061740",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147061740"
    }
   },
   {
@@ -2323,10 +2335,9 @@
    "properties": {
     "name": "54 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000103141916",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147061741",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147061741"
    }
   },
   {
@@ -2395,10 +2406,9 @@
    "properties": {
     "name": "2 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000108086285",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147062260",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147062260"
    }
   },
   {
@@ -2431,10 +2441,9 @@
    "properties": {
     "name": "64 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000017909936",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147062520",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147062520"
    }
   },
   {
@@ -2539,10 +2548,9 @@
    "properties": {
     "name": "1 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000071635908",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147063126",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147063126"
    }
   },
   {
@@ -2746,8 +2754,8 @@
    "properties": {
     "name": "95 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000059216257",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147064017",
     "tech_change_status": "Eligible to Order"
    }
@@ -2946,8 +2954,8 @@
    "properties": {
     "name": "1 GEORGE STREET KELLERBERRIN 6410",
     "locID": "LOC000056690742",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147065884",
     "tech_change_status": "Eligible to Order"
    }
@@ -3054,10 +3062,9 @@
    "properties": {
     "name": "8 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000074626942",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147066637",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147066637"
    }
   },
   {
@@ -3175,8 +3182,8 @@
    "properties": {
     "name": "16 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000060928305",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147066644",
     "tech_change_status": "Eligible to Order"
    }
@@ -3210,8 +3217,8 @@
    "properties": {
     "name": "18 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000079576824",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147066646",
     "tech_change_status": "Eligible to Order"
    }
@@ -3280,10 +3287,9 @@
    "properties": {
     "name": "26 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000071589667",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147066650",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147066650"
    }
   },
   {
@@ -3425,10 +3431,9 @@
    "properties": {
     "name": "24 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000091563896",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147070532",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147070532"
    }
   },
   {
@@ -3443,8 +3448,8 @@
    "properties": {
     "name": "26 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000038897915",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147070533",
     "tech_change_status": "Eligible to Order"
    }
@@ -3497,10 +3502,9 @@
    "properties": {
     "name": "28 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000088724443",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147071101",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147071101"
    }
   },
   {
@@ -3515,10 +3519,9 @@
    "properties": {
     "name": "19 LEAKE STREET KELLERBERRIN 6410",
     "locID": "LOC000072618333",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147071102",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147071102"
    }
   },
   {
@@ -3533,10 +3536,9 @@
    "properties": {
     "name": "30 JAMES STREET KELLERBERRIN 6410",
     "locID": "LOC000105661142",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147071103",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147071103"
    }
   },
   {
@@ -4361,10 +4363,9 @@
    "properties": {
     "name": "107 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000067951090",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147075962",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147075962"
    }
   },
   {
@@ -4647,10 +4648,9 @@
    "properties": {
     "name": "66 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000017190692",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147080487",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147080487"
    }
   },
   {
@@ -4735,8 +4735,8 @@
    "properties": {
     "name": "22 RIPPER STREET KELLERBERRIN 6410",
     "locID": "LOC000063963182",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147080500",
     "tech_change_status": "Eligible to Order"
    }
@@ -4788,10 +4788,9 @@
    "properties": {
     "name": "73 RASON STREET KELLERBERRIN 6410",
     "locID": "LOC000063919173",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147080506",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147080506"
    }
   },
   {
@@ -4824,10 +4823,9 @@
    "properties": {
     "name": "83 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000083219906",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147080508",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147080508"
    }
   },
   {
@@ -4895,10 +4893,9 @@
    "properties": {
     "name": "21 MITCHELL STREET KELLERBERRIN 6410",
     "locID": "LOC000054189734",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147080513",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147080513"
    }
   },
   {
@@ -5037,10 +5034,9 @@
    "properties": {
     "name": "69 RASON STREET KELLERBERRIN 6410",
     "locID": "LOC000002115003",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147081110",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147081110"
    }
   },
   {
@@ -5232,10 +5228,9 @@
    "properties": {
     "name": "22 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000094756251",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147104973",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147104973"
    }
   },
   {
@@ -5270,8 +5265,8 @@
    "properties": {
     "name": "18 SCOTT STREET KELLERBERRIN 6410",
     "locID": "LOC000036576024",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147177307",
     "tech_change_status": "Eligible to Order"
    }
@@ -5503,8 +5498,8 @@
    "properties": {
     "name": "29 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000094723559",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147247266",
     "tech_change_status": "Eligible to Order"
    }
@@ -5557,10 +5552,9 @@
    "properties": {
     "name": "13 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000069173119",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147247271",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147247271"
    }
   },
   {
@@ -5575,10 +5569,9 @@
    "properties": {
     "name": "7 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000133322143",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147247272",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147247272"
    }
   },
   {
@@ -5719,9 +5712,10 @@
    "properties": {
     "name": "80 CONNELLY STREET KELLERBERRIN 6410",
     "locID": "LOC000020508514",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147247282"
+    "gnaf_pid": "GAWA_147247282",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -5862,10 +5856,9 @@
    "properties": {
     "name": "103 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000067568238",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147258814",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147258814"
    }
   },
   {
@@ -5914,10 +5907,9 @@
    "properties": {
     "name": "87 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000092870756",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147258817",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147258817"
    }
   },
   {
@@ -5950,8 +5942,8 @@
    "properties": {
     "name": "77 RASON STREET KELLERBERRIN 6410",
     "locID": "LOC000003036818",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147258819",
     "tech_change_status": "Eligible to Order"
    }
@@ -6039,8 +6031,8 @@
    "properties": {
     "name": "1 BATH STREET KELLERBERRIN 6410",
     "locID": "LOC000065163420",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147258831",
     "tech_change_status": "Eligible to Order"
    }
@@ -6110,7 +6102,7 @@
    "properties": {
     "name": "35 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000009746841",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147258835"
    }
@@ -6270,10 +6262,9 @@
    "properties": {
     "name": "8 MITCHELL STREET KELLERBERRIN 6410",
     "locID": "LOC000105847020",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147343345",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147343345"
    }
   },
   {
@@ -6288,10 +6279,9 @@
    "properties": {
     "name": "21 LEAKE STREET KELLERBERRIN 6410",
     "locID": "LOC000133322073",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147343371",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147343371"
    }
   },
   {
@@ -6380,9 +6370,10 @@
    "properties": {
     "name": "51 GREGORY STREET KELLERBERRIN 6410",
     "locID": "LOC000102237738",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147814863"
+    "gnaf_pid": "GAWA_147814863",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6397,7 +6388,7 @@
    "properties": {
     "name": "35A HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000009746841",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147815049"
    }
@@ -6559,10 +6550,9 @@
    "properties": {
     "name": "19 KING STREET KELLERBERRIN 6410",
     "locID": "LOC000070394560",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147817250",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147817250"
    }
   },
   {
@@ -6597,9 +6587,10 @@
    "properties": {
     "name": "80A CONNELLY STREET KELLERBERRIN 6410",
     "locID": "LOC000020508514",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147817414"
+    "gnaf_pid": "GAWA_147817414",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6685,10 +6676,9 @@
    "properties": {
     "name": "27 KING STREET KELLERBERRIN 6410",
     "locID": "LOC000002096442",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147820673",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147820673"
    }
   },
   {
@@ -6936,8 +6926,8 @@
    "properties": {
     "name": "8 RIPPER STREET KELLERBERRIN 6410",
     "locID": "LOC000047784881",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147824833",
     "tech_change_status": "Eligible to Order"
    }
@@ -7061,8 +7051,8 @@
    "properties": {
     "name": "1 DAVID COURT KELLERBERRIN 6410",
     "locID": "LOC000033871091",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147827283",
     "tech_change_status": "Eligible to Order"
    }
@@ -7097,10 +7087,9 @@
    "properties": {
     "name": "7 MITCHELL STREET KELLERBERRIN 6410",
     "locID": "LOC000071107751",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147830491",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147830491"
    }
   },
   {
@@ -7172,10 +7161,9 @@
    "properties": {
     "name": "47 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000106604643",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147833221",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147833221"
    }
   },
   {
@@ -7342,10 +7330,9 @@
    "properties": {
     "name": "17 MITCHELL STREET KELLERBERRIN 6410",
     "locID": "LOC000101323156",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149097738",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149097738"
    }
   },
   {
@@ -7467,10 +7454,9 @@
    "properties": {
     "name": "73 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000064335199",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149105549",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149105549"
    }
   },
   {
@@ -7485,10 +7471,9 @@
    "properties": {
     "name": "5 HINCKLEY STREET KELLERBERRIN 6410",
     "locID": "LOC000078508124",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149105575",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149105575"
    }
   },
   {
@@ -7503,10 +7488,9 @@
    "properties": {
     "name": "6 HINCKLEY STREET KELLERBERRIN 6410",
     "locID": "LOC000078508124",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149105576",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149105576"
    }
   },
   {
@@ -7599,10 +7583,9 @@
    "properties": {
     "name": "46 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000095810203",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149109410",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149109410"
    }
   },
   {
@@ -7617,10 +7600,9 @@
    "properties": {
     "name": "52 FORREST STREET KELLERBERRIN 6410",
     "locID": "LOC000092917035",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149109413",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149109413"
    }
   },
   {
@@ -7635,10 +7617,9 @@
    "properties": {
     "name": "60 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000069117358",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149133273",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149133273"
    }
   },
   {
@@ -7653,10 +7634,9 @@
    "properties": {
     "name": "67 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000073533203",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149213167",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_149213167"
    }
   },
   {
@@ -7760,9 +7740,10 @@
    "properties": {
     "name": "26 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000086565608",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_161483405"
+    "gnaf_pid": "GAWA_161483405",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -7923,10 +7904,9 @@
    "properties": {
     "name": "42 BATH STREET KELLERBERRIN 6410",
     "locID": "LOC000002972683",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_161989282",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_161989282"
    }
   },
   {
@@ -8210,10 +8190,9 @@
    "properties": {
     "name": "17440 GREAT EASTERN HIGHWAY KELLERBERRIN 6410",
     "locID": "LOC000050476011",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_161991677",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_161991677"
    }
   },
   {
@@ -8228,8 +8207,8 @@
    "properties": {
     "name": "17450 GREAT EASTERN HIGHWAY KELLERBERRIN 6410",
     "locID": "LOC000107821982",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161991678",
     "tech_change_status": "Eligible to Order"
    }
@@ -8570,8 +8549,8 @@
    "properties": {
     "name": "48 SCADDAN STREET KELLERBERRIN 6410",
     "locID": "LOC000006560405",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161994563",
     "tech_change_status": "Eligible to Order"
    }
@@ -8913,9 +8892,12 @@
    "properties": {
     "name": "56 MASSINGHAM STREET KELLERBERRIN 6410",
     "locID": "LOC000097718286",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162643137"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162643137",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -9144,8 +9126,8 @@
    "properties": {
     "name": "LOT 7420 GREAT EASTERN HIGHWAY KELLERBERRIN 6410",
     "locID": "LOC000107821982",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163090297",
     "tech_change_status": "Eligible to Order"
    }
@@ -9272,10 +9254,9 @@
    "properties": {
     "name": "17 SEWELL STREET KELLERBERRIN 6410",
     "locID": "LOC000133322056",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718302517",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718302517"
    }
   },
   {
@@ -9364,9 +9345,10 @@
    "properties": {
     "name": "LOT 7 MILL ROAD KELLERBERRIN 6410",
     "locID": "LOC000109465413",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718641079"
+    "gnaf_pid": "GAWA_718641079",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -9518,6 +9500,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.73040886,
+     -31.62993097
+    ]
+   },
+   "properties": {
+    "name": "9 MATHER ROAD KELLERBERRIN 6410",
+    "locID": "LOC000155317985",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718716478",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.72492625,
      -31.63127603
     ]
@@ -9651,9 +9651,10 @@
    "properties": {
     "name": "6 BEDFORD STREET KELLERBERRIN 6410",
     "locID": "LOC000155317327",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718820926"
+    "gnaf_pid": "GAWA_718820926",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -9686,8 +9687,8 @@
    "properties": {
     "name": "6 DAVID COURT KELLERBERRIN 6410",
     "locID": "LOC000033871091",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718822937",
     "tech_change_status": "Eligible to Order"
    }
@@ -9793,10 +9794,9 @@
    "properties": {
     "name": "75 HAMMOND STREET KELLERBERRIN 6410",
     "locID": "LOC000155316419",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718871379",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718871379"
    }
   },
   {
@@ -9979,10 +9979,9 @@
    "properties": {
     "name": "65 RASON STREET KELLERBERRIN 6410",
     "locID": "LOC000155316847",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718873176",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718873176"
    }
   },
   {
@@ -9997,10 +9996,9 @@
    "properties": {
     "name": "14 SEWELL STREET KELLERBERRIN 6410",
     "locID": "LOC000155316765",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718873553",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718873553"
    }
   },
   {
@@ -10165,10 +10163,9 @@
    "properties": {
     "name": "25 SCADDAN STREET KELLERBERRIN 6410",
     "locID": "LOC000133326537",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_720247406",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720247406"
    }
   },
   {
@@ -10474,10 +10471,9 @@
    "properties": {
     "name": "17464 GREAT EASTERN HIGHWAY KELLERBERRIN 6410",
     "locID": "LOC000109670667",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721405467",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721405467"
    }
   },
   {
@@ -10492,10 +10488,9 @@
    "properties": {
     "name": "17462 GREAT EASTERN HIGHWAY KELLERBERRIN 6410",
     "locID": "LOC000174260477",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721405468",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721405468"
    }
   },
   {
@@ -10528,10 +10523,9 @@
    "properties": {
     "name": "13 SCADDAN STREET KELLERBERRIN 6410",
     "locID": "LOC000133326537",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_721465287",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721465287"
    }
   }
  ]
