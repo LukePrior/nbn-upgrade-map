@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-06-29T11:03:36.245968",
+ "generated": "2025-07-19T23:03:24.149821",
  "suburb": "CEDAR CREEK",
  "features": [
   {
@@ -1581,10 +1581,10 @@
    "properties": {
     "name": "102 SHAWS POCKET ROAD CEDAR CREEK 4207",
     "locID": "LOC000080012194",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155157399",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -5260,9 +5260,11 @@
     "name": "253 CEDAR CREEK ROAD CEDAR CREEK 4207",
     "locID": "LOC000054712032",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161098205",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -5435,6 +5437,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.20416272,
+     -27.85051677
+    ]
+   },
+   "properties": {
+    "name": "LOT 84 ROWE LANE CEDAR CREEK 4207",
+    "locID": "LOC100022972871",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161296882",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8942,7 +8962,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163066766",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
