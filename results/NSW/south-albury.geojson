@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-01T09:54:53.520313",
+ "generated": "2025-07-21T22:57:04.558559",
  "suburb": "SOUTH ALBURY",
  "features": [
   {
@@ -3241,7 +3241,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706638098",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3340,7 +3340,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638821",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7701,10 +7701,9 @@
    "properties": {
     "name": "547 HOVELL STREET SOUTH ALBURY 2640",
     "locID": "LOC000006358957",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706665110",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12275,9 +12274,9 @@
     "name": "323 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000180932488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710141907",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16689,7 +16688,7 @@
    "properties": {
     "name": "359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000064039682",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716022960",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -19022,10 +19021,11 @@
     "name": "UNIT 1, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000064035868",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716611266",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19157,9 +19157,9 @@
     "name": "UNIT 6, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000063927084",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716611273",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -19196,7 +19196,7 @@
    "properties": {
     "name": "UNIT 2, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000064039682",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716611276",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -19332,7 +19332,7 @@
    "properties": {
     "name": "UNIT 5, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000063789812",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716611283",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -19352,9 +19352,9 @@
     "name": "UNIT 4, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000064143915",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716611284",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -19371,7 +19371,7 @@
    "properties": {
     "name": "UNIT 3, 359 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000064009306",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716611285",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -20802,6 +20802,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.91459874,
+     -36.09030899
+    ]
+   },
+   "properties": {
+    "name": "314 KIEWA STREET SOUTH ALBURY 2640",
+    "locID": "LOC000070145290",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717336270",
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.91243154,
      -36.08797251
     ]
@@ -20986,8 +21006,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717478633",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21024,8 +21045,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717478635",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21043,27 +21065,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717478636",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.91459874,
-     -36.09030899
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 314 KIEWA STREET SOUTH ALBURY 2640",
-    "locID": "LOC000069318514",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717478637",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22359,7 +22363,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717984290",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23897,9 +23901,9 @@
     "name": "UNIT 1, 323 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000180932488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW719945521",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23917,9 +23921,9 @@
     "name": "UNIT 2, 323 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000180932488",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW719949701",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
