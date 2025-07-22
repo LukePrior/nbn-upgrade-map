@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-01T13:36:44.185461",
+ "generated": "2025-07-22T03:00:56.066491",
  "suburb": "CRANBOURNE EAST",
  "features": [
   {
@@ -112,8 +112,8 @@
    "properties": {
     "name": "UNIT 1, 1585 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000016082860",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411188800",
     "tech_change_status": "Eligible to Order"
    }
@@ -130,8 +130,8 @@
    "properties": {
     "name": "UNIT 2, 1585 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000016082860",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411188812",
     "tech_change_status": "Eligible to Order"
    }
@@ -149,9 +149,11 @@
     "name": "185 BERWICK-CRANBOURNE ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000006117759",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411189849",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -798,8 +800,8 @@
    "properties": {
     "name": "1635 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000107759823",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419684521",
     "tech_change_status": "Eligible to Order"
    }
@@ -816,8 +818,8 @@
    "properties": {
     "name": "1275 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000107452498",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419684525",
     "tech_change_status": "Eligible to Order"
    }
@@ -1246,10 +1248,10 @@
    "properties": {
     "name": "11 WATERSIDE DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000089897782",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419738190",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2017,8 +2019,8 @@
    "properties": {
     "name": "25 CORNWELL CRESCENT CRANBOURNE EAST 3977",
     "locID": "LOC000088346198",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419763278",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2095,10 +2097,9 @@
    "properties": {
     "name": "1655 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000125689989",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419778896",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419778896"
    }
   },
   {
@@ -5166,8 +5167,8 @@
    "properties": {
     "name": "23 TRAFALGAR WAY CRANBOURNE EAST 3977",
     "locID": "LOC000041402792",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420310903",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6816,8 +6817,8 @@
    "properties": {
     "name": "1325 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000015948360",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420394524",
     "tech_change_status": "Eligible to Order"
    }
@@ -7253,7 +7254,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420490706",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7610,7 +7611,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420637027",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13008,8 +13009,8 @@
    "properties": {
     "name": "1585 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000016082860",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421297280",
     "tech_change_status": "Eligible to Order"
    }
@@ -13046,8 +13047,8 @@
    "properties": {
     "name": "1645 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000013406068",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421300667",
     "tech_change_status": "Eligible to Order"
    }
@@ -13065,11 +13066,11 @@
     "name": "191 BERWICK-CRANBOURNE ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000163205992",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421303157",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13922,10 +13923,9 @@
    "properties": {
     "name": "2 GATWICK COURT CRANBOURNE EAST 3977",
     "locID": "LOC000086623317",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421483571",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14217,10 +14217,9 @@
    "properties": {
     "name": "10 BUTTERWICK TERRACE CRANBOURNE EAST 3977",
     "locID": "LOC000004805624",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421538598",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14278,11 +14277,11 @@
     "name": "5 COLLISON ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000105785519",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421542345",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14870,7 +14869,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421573143",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15219,8 +15218,8 @@
    "properties": {
     "name": "1360 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000020196773",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421589330",
     "tech_change_status": "Eligible to Order"
    }
@@ -15237,8 +15236,8 @@
    "properties": {
     "name": "1330 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000047430025",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421589331",
     "tech_change_status": "Eligible to Order"
    }
@@ -15331,11 +15330,11 @@
     "name": "181 BERWICK-CRANBOURNE ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000163205963",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421615758",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17047,10 +17046,9 @@
    "properties": {
     "name": "39 MASTERTON PLACE CRANBOURNE EAST 3977",
     "locID": "LOC000048444177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421879836",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17343,8 +17341,8 @@
    "properties": {
     "name": "1575 SOUTH GIPPSLAND HIGHWAY CRANBOURNE EAST 3977",
     "locID": "LOC000081569314",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421893351",
     "tech_change_status": "Eligible to Order"
    }
@@ -17636,10 +17634,9 @@
    "properties": {
     "name": "1280 BALLARTO ROAD CRANBOURNE EAST 3977",
     "locID": "LOC000063477643",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421912369",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421912369"
    }
   },
   {
@@ -19847,8 +19844,8 @@
    "properties": {
     "name": "1 AVELEY PLACE CRANBOURNE EAST 3977",
     "locID": "LOC000077116630",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422124820",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19986,8 +19983,8 @@
    "properties": {
     "name": "16 BRIARCREST DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000057237082",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422130697",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23705,10 +23702,10 @@
    "properties": {
     "name": "8 KEMSLEY GREEN CRANBOURNE EAST 3977",
     "locID": "LOC000061597415",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422301660",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24136,10 +24133,9 @@
    "properties": {
     "name": "30 STONE HILL CIRCUIT CRANBOURNE EAST 3977",
     "locID": "LOC000065806589",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422325921",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24884,10 +24880,9 @@
    "properties": {
     "name": "6 THURVASTON CRESCENT CRANBOURNE EAST 3977",
     "locID": "LOC000010190543",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422328937",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24904,10 +24899,10 @@
    "properties": {
     "name": "7 THURVASTON CRESCENT CRANBOURNE EAST 3977",
     "locID": "LOC000018651136",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422328938",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28241,9 +28236,9 @@
     "name": "1 LAUNTON PLACE CRANBOURNE EAST 3977",
     "locID": "LOC000104502477",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423222305",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30747,10 +30742,10 @@
    "properties": {
     "name": "43 ARCHERS FIELD DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000032861521",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423746077",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31070,8 +31065,8 @@
    "properties": {
     "name": "28 GREENAWAY TERRACE CRANBOURNE EAST 3977",
     "locID": "LOC000066843225",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423750699",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31378,10 +31373,9 @@
    "properties": {
     "name": "15 MADDOCK DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000006111698",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423754010",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31536,10 +31530,9 @@
    "properties": {
     "name": "22 MADDOCK DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000021119553",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423754019",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34302,7 +34295,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423800889",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35057,9 +35050,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836042",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35077,9 +35069,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836043",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35097,9 +35088,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836044",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35117,9 +35107,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836045",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35137,9 +35126,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836046",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35157,9 +35145,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836047",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35177,9 +35164,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836048",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35197,9 +35183,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836049",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35217,9 +35202,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836050",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35237,9 +35221,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836051",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35257,9 +35240,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836052",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35277,9 +35259,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836053",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35297,9 +35278,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836054",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35317,9 +35297,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836055",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35337,9 +35316,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423836056",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36771,9 +36749,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893410",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36791,9 +36768,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893411",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36811,9 +36787,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893412",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36831,9 +36806,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893413",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36851,9 +36825,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893414",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36871,9 +36844,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893415",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36891,9 +36863,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893416",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36911,9 +36882,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893417",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36931,9 +36901,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893418",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36951,9 +36920,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893419",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36971,9 +36939,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893420",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36991,9 +36958,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893421",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37011,9 +36977,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893422",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37031,9 +36996,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893423",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37051,9 +37015,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893424",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37071,9 +37034,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423893425",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37355,9 +37317,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423975817",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37375,9 +37336,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423975818",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37435,9 +37395,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423991984",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37540,9 +37499,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423991990",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37611,9 +37569,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423991994",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37801,9 +37758,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992005",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37991,9 +37947,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992016",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38096,9 +38051,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992022",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38116,9 +38070,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992023",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38136,9 +38089,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992024",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38156,9 +38108,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992025",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38176,9 +38127,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992026",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38196,9 +38146,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992027",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38216,9 +38165,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992028",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38236,9 +38184,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992029",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38256,9 +38203,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992030",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38276,9 +38222,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992031",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38296,9 +38241,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992032",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38316,9 +38260,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992033",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38336,9 +38279,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992034",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38356,9 +38298,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992035",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38376,9 +38317,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992036",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38396,9 +38336,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992037",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38416,9 +38355,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992038",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38436,9 +38374,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992039",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38456,9 +38393,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992040",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38476,9 +38412,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992041",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38496,9 +38431,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992042",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38516,9 +38450,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992043",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38536,9 +38469,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992044",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38556,9 +38488,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992045",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38576,9 +38507,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992046",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38596,9 +38526,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992047",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38616,9 +38545,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992048",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38636,9 +38564,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992049",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38656,9 +38583,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992050",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38676,9 +38602,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992051",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38696,9 +38621,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992052",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38716,9 +38640,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992053",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38736,9 +38659,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992054",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38756,9 +38678,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992055",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38776,9 +38697,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992056",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38796,9 +38716,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992057",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38816,9 +38735,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992058",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38836,9 +38754,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992059",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38856,9 +38773,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992060",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38876,9 +38792,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992061",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38896,9 +38811,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992062",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38916,9 +38830,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992063",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38936,9 +38849,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992064",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38956,9 +38868,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992065",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38976,9 +38887,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992066",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38996,9 +38906,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992067",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39016,9 +38925,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992068",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39036,9 +38944,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992069",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39056,9 +38963,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992070",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39076,9 +38982,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992071",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39096,9 +39001,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992072",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39116,9 +39020,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992073",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39136,9 +39039,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992074",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39156,9 +39058,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992075",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39176,9 +39077,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992076",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39196,9 +39096,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992077",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39216,9 +39115,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992078",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39236,9 +39134,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992079",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39256,9 +39153,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992080",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39276,9 +39172,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992081",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39296,9 +39191,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992082",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39316,9 +39210,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992083",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39336,9 +39229,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992084",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39356,9 +39248,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992085",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39376,9 +39267,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992086",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39396,9 +39286,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992087",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39416,9 +39305,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992088",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39436,9 +39324,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992089",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39456,9 +39343,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992090",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39476,9 +39362,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992091",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39496,9 +39381,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992092",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39516,9 +39400,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992093",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39536,9 +39419,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992094",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39556,9 +39438,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992095",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39576,9 +39457,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992096",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39596,9 +39476,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992097",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39616,9 +39495,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992098",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39636,9 +39514,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992099",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39656,9 +39533,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992100",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39676,9 +39552,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992101",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39696,9 +39571,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992102",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39716,9 +39590,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992103",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39736,9 +39609,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992104",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39756,9 +39628,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992105",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39776,9 +39647,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992106",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39796,9 +39666,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992107",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39816,9 +39685,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992108",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39836,9 +39704,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992109",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39856,9 +39723,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992110",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39876,9 +39742,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992111",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39896,9 +39761,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992112",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39916,9 +39780,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992113",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39936,9 +39799,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992114",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39956,9 +39818,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992115",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39976,9 +39837,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992116",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39996,9 +39856,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992117",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40016,9 +39875,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992118",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40036,9 +39894,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992119",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40056,9 +39913,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992120",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40076,9 +39932,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992121",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40266,9 +40121,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992132",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40456,9 +40310,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992143",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40646,9 +40499,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423992154",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -40981,8 +40833,8 @@
    "properties": {
     "name": "6 AVALON CRESCENT CRANBOURNE EAST 3977",
     "locID": "LOC000095276071",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424020608",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41060,10 +40912,9 @@
    "properties": {
     "name": "31 BROAD OAK DRIVE CRANBOURNE EAST 3977",
     "locID": "LOC000075205729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424021892",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42999,8 +42850,8 @@
    "properties": {
     "name": "10 PIPETRACK CIRCUIT CRANBOURNE EAST 3977",
     "locID": "LOC000050368598",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424033625",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -43059,10 +42910,10 @@
    "properties": {
     "name": "13 PIPETRACK CIRCUIT CRANBOURNE EAST 3977",
     "locID": "LOC000048980980",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424033628",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43122,7 +42973,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424033631",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43782,9 +43633,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424034602",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -61666,7 +61516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683077",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61685,7 +61536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683078",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61704,7 +61556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683079",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61723,7 +61576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683080",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61742,7 +61596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683081",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61761,7 +61616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683082",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61780,7 +61636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683083",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61799,7 +61656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683084",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61818,7 +61676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683085",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61837,7 +61696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683086",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61856,7 +61716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683087",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61875,7 +61736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683088",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61894,7 +61756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683831",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61913,7 +61776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683832",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61932,7 +61796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683833",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61951,7 +61816,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683834",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61970,7 +61836,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683835",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -61989,7 +61856,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683836",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62008,7 +61876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683837",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62027,7 +61896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683838",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62046,7 +61916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683839",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62065,7 +61936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683840",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62084,7 +61956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683841",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62103,7 +61976,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683842",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62122,7 +61996,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683843",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62141,7 +62016,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683844",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62160,7 +62036,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683845",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62179,7 +62056,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683846",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62198,7 +62076,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683847",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62217,7 +62096,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683848",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62236,7 +62116,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683849",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62255,7 +62136,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683850",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62274,7 +62156,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683851",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62293,7 +62176,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683852",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62312,7 +62196,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683853",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62331,7 +62216,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683854",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62350,7 +62236,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683855",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62369,7 +62256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683856",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62388,7 +62276,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683857",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62407,7 +62296,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683858",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62426,7 +62316,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683859",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62445,7 +62336,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683860",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62464,7 +62356,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683861",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62483,7 +62376,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683862",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62502,7 +62396,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683863",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62521,7 +62416,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683864",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62540,7 +62436,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683865",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62559,7 +62456,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683866",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62578,7 +62476,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683867",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62597,7 +62496,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683868",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62616,7 +62516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683869",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62635,7 +62536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683870",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62654,7 +62556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683871",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62673,7 +62576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683872",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62692,7 +62596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683873",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62711,7 +62616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683901",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62730,7 +62636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683902",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62749,7 +62656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683903",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62768,7 +62676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683904",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62787,7 +62696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683905",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62806,7 +62716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683906",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62825,7 +62736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683907",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62844,7 +62756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683908",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62863,7 +62776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683909",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62882,7 +62796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683910",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62901,7 +62816,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683911",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62920,7 +62836,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683912",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62939,7 +62856,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683913",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62958,7 +62876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683914",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62977,7 +62896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683915",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -62996,7 +62916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683916",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63015,7 +62936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683917",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63034,7 +62956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683918",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63053,7 +62976,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683919",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63072,7 +62996,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683920",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63091,7 +63016,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683921",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63110,7 +63036,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683922",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63129,7 +63056,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683923",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63148,7 +63076,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683924",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63167,7 +63096,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683925",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63186,7 +63116,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683926",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63205,7 +63136,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683927",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63224,7 +63156,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683928",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63243,7 +63176,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683929",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63262,7 +63196,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683930",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63281,7 +63216,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683931",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63300,7 +63236,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683932",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63319,7 +63256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683933",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63338,7 +63276,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683934",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63357,7 +63296,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683935",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63376,7 +63316,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683936",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63395,7 +63336,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683937",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63414,7 +63356,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683938",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63433,7 +63376,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683939",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63452,7 +63396,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683940",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63471,7 +63416,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683941",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63490,7 +63436,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683942",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63509,7 +63456,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683943",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63528,7 +63476,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683944",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63547,7 +63496,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683945",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63566,7 +63516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683946",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63585,7 +63536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683947",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63604,7 +63556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683948",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63623,7 +63576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683949",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63642,7 +63596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683950",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63661,7 +63616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683951",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63680,7 +63636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424683952",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63699,7 +63656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684757",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63718,7 +63676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684758",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63737,7 +63696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684759",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63756,7 +63716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684760",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63775,7 +63736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684761",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63794,7 +63756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684762",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63813,7 +63776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684763",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63832,7 +63796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684764",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63851,7 +63816,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684765",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63870,7 +63836,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684766",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63889,7 +63856,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684767",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63908,7 +63876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684768",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63927,7 +63896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684769",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63946,7 +63916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684770",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63965,7 +63936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684771",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63984,7 +63956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684772",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64003,7 +63976,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684773",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64022,7 +63996,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684774",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64041,7 +64016,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684775",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64060,7 +64036,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684776",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64079,7 +64056,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684777",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64098,7 +64076,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684778",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64117,7 +64096,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684779",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64136,7 +64116,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684780",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64155,7 +64136,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684781",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64174,7 +64156,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684782",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64193,7 +64176,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684783",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64212,7 +64196,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684784",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64231,7 +64216,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424684785",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64250,7 +64236,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686632",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64269,7 +64256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686633",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64288,7 +64276,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686634",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64307,7 +64296,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686635",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64326,7 +64316,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686636",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64345,7 +64336,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686637",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64364,7 +64356,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686638",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64383,7 +64376,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686639",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64402,7 +64396,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686640",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64421,7 +64416,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686975",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64440,7 +64436,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686976",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64459,7 +64456,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686977",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64478,7 +64476,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686978",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64497,7 +64496,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686979",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64516,7 +64516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424686980",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64535,7 +64536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687156",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64554,7 +64556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687157",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64573,7 +64576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687158",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64592,7 +64596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687159",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64611,7 +64616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687160",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64630,7 +64636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687204",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64649,7 +64656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687205",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64668,7 +64676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687206",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64687,7 +64696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687207",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64706,7 +64716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687208",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64725,7 +64736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687209",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64744,7 +64756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687644",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64763,7 +64776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687645",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64782,7 +64796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687646",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64801,7 +64816,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687647",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64820,7 +64836,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687648",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64839,7 +64856,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687649",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64858,7 +64876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687650",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64877,7 +64896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687651",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64896,7 +64916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687652",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64915,7 +64936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687653",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64934,7 +64956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687710",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64953,7 +64976,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687711",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64972,7 +64996,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687712",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -64991,7 +65016,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687713",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65010,7 +65036,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687714",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65029,7 +65056,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424687715",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65048,7 +65076,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688226",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65067,7 +65096,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688227",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65086,7 +65116,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688228",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65105,7 +65136,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688229",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65124,7 +65156,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688230",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65143,7 +65176,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688231",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65162,7 +65196,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688232",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65181,7 +65216,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688233",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65200,7 +65236,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688234",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65219,7 +65256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688235",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65238,7 +65276,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688236",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65257,7 +65296,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688237",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65276,7 +65316,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688238",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65295,7 +65336,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688239",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65314,7 +65356,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688240",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65333,7 +65376,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688241",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65352,7 +65396,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688242",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65371,7 +65416,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688243",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65390,7 +65436,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688244",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65409,7 +65456,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688245",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65428,7 +65476,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688246",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65447,7 +65496,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688247",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65466,7 +65516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688248",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65485,7 +65536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688249",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65504,7 +65556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688250",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65523,7 +65576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688251",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65542,7 +65596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688252",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65561,7 +65616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688253",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65580,7 +65636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688254",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65599,7 +65656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688255",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65618,7 +65676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688256",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65637,7 +65696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688257",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65656,7 +65716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688258",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65675,7 +65736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688699",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65694,7 +65756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688700",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65713,7 +65776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688701",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65732,7 +65796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688702",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65751,7 +65816,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688703",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65770,7 +65836,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688704",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65789,7 +65856,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688705",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65808,7 +65876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688706",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65827,7 +65896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688707",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65846,7 +65916,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688708",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65865,7 +65936,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688709",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65884,7 +65956,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688710",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65903,7 +65976,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688711",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65922,7 +65996,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688712",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65941,7 +66016,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688713",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65960,7 +66036,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688714",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65979,7 +66056,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688715",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -65998,7 +66076,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688716",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66017,7 +66096,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688717",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66036,7 +66116,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688718",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66055,7 +66136,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688719",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66074,7 +66156,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688720",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66093,7 +66176,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688721",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66112,7 +66196,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688722",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66131,7 +66216,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688803",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66150,7 +66236,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688804",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66169,7 +66256,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688805",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66188,7 +66276,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688806",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66207,7 +66296,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688807",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66226,7 +66316,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688808",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66245,7 +66336,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688809",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66264,7 +66356,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688810",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66283,7 +66376,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688811",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66302,7 +66396,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424688812",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66321,7 +66416,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689356",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66340,7 +66436,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689357",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66359,7 +66456,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689358",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66378,7 +66476,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689359",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66397,7 +66496,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689360",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66416,7 +66516,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689361",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66435,7 +66536,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689362",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66454,7 +66556,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689363",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66473,7 +66576,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689364",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66492,7 +66596,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689365",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66511,7 +66616,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689366",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66530,7 +66636,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689367",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66549,7 +66656,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689368",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66568,7 +66676,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689369",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66587,7 +66696,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689370",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66606,7 +66716,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689371",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66625,7 +66736,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689372",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66644,7 +66756,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689373",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66663,7 +66776,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689374",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -66682,7 +66796,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424689375",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -74090,8 +74205,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424878335",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -75357,9 +75473,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424888477",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -75377,9 +75492,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424888478",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -83346,7 +83460,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425154172",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -85748,7 +85863,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425274296",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -85767,7 +85883,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425274297",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -85786,7 +85903,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425274298",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -85805,7 +85923,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425274299",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -86306,7 +86425,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425282089",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -86325,7 +86445,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425282090",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -86344,7 +86465,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425282091",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -86363,7 +86485,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425282092",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -88871,9 +88994,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425319312",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -114422,9 +114544,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425787017",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -118490,7 +118611,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425852160",
     "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -138979,9 +139101,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719917919",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -142886,9 +143007,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719995158",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -146368,8 +146488,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720130392",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
