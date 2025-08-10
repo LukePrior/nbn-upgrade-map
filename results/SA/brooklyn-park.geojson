@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-05T01:07:15.906532",
+ "generated": "2025-08-10T08:54:46.381476",
  "suburb": "BROOKLYN PARK",
  "features": [
   {
@@ -4818,7 +4818,7 @@
     "name": "6 EVERETT STREET BROOKLYN PARK 5032",
     "locID": "LOC000060343394",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415090296",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5302,10 +5302,10 @@
    "properties": {
     "name": "4 CARNARVON AVENUE BROOKLYN PARK 5032",
     "locID": "LOC000054381154",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415092198",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6055,7 +6055,7 @@
     "name": "30 WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000100635311",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415094512",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6337,10 +6337,10 @@
    "properties": {
     "name": "101 LIPSETT TERRACE BROOKLYN PARK 5032",
     "locID": "LOC000039030721",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415096888",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9525,7 +9525,7 @@
     "name": "19 HAMPTON STREET BROOKLYN PARK 5032",
     "locID": "LOC000106893248",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415126641",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11477,10 +11477,10 @@
    "properties": {
     "name": "35 WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000022597311",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415146257",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11806,10 +11806,9 @@
    "properties": {
     "name": "19 WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000104193212",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415153406",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20664,7 +20663,7 @@
     "name": "3 BEACHWAY AVENUE BROOKLYN PARK 5032",
     "locID": "LOC000073741534",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415469480",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28950,11 +28949,9 @@
    "properties": {
     "name": "UNIT 8, 65 WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000019217492",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415670335",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415670335"
    }
   },
   {
@@ -30322,11 +30319,9 @@
    "properties": {
     "name": "UNIT 8, 63 WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000060455102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415684983",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415684983"
    }
   },
   {
@@ -31300,40 +31295,6 @@
     "gnaf_pid": "GASA_415898873",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.55043845,
-     -34.92566381
-    ]
-   },
-   "properties": {
-    "name": "UNIT 82, 10 MARION ROAD BROOKLYN PARK 5032",
-    "locID": "LOC000016772517",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415899057"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.55033846,
-     -34.92566889
-    ]
-   },
-   "properties": {
-    "name": "UNIT 83, 10 MARION ROAD BROOKLYN PARK 5032",
-    "locID": "LOC000016688611",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415899058"
    }
   },
   {
@@ -32694,23 +32655,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415902109"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.55043845,
-     -34.92566381
-    ]
-   },
-   "properties": {
-    "name": "UNIT 84, 10 MARION ROAD BROOKLYN PARK 5032",
-    "locID": "LOC000016706641",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415902110"
    }
   },
   {
@@ -34293,10 +34237,9 @@
    "properties": {
     "name": "112A LIPSETT TERRACE BROOKLYN PARK 5032",
     "locID": "LOC000103113964",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415905222",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35430,23 +35373,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415908778"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.54112214,
-     -34.92856329
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 99 MARSHALL TERRACE BROOKLYN PARK 5032",
-    "locID": "LOC000050733944",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415908779"
    }
   },
   {
@@ -40612,9 +40538,9 @@
     "name": "34A WESTERN PARADE BROOKLYN PARK 5032",
     "locID": "LOC000013440052",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_424056420",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
