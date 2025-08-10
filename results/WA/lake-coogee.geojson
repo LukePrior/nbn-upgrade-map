@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-05T07:32:52.390785",
+ "generated": "2025-08-10T16:04:56.005917",
  "suburb": "LAKE COOGEE",
  "features": [
   {
@@ -174,7 +174,7 @@
     "name": "11 HAMELIN DRIVE LAKE COOGEE 6166",
     "locID": "LOC000046381636",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720408860",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1293,11 +1293,11 @@
    "properties": {
     "name": "UNIT 1, 9 MINGA PLACE LAKE COOGEE 6166",
     "locID": "LOC000092530935",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720409009",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1920,10 +1920,11 @@
     "name": "UNIT 2, 9 MINGA PLACE LAKE COOGEE 6166",
     "locID": "LOC000092772787",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720409089",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2116,7 +2117,7 @@
     "name": "6 RAKITNO CLOSE LAKE COOGEE 6166",
     "locID": "LOC000177587877",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720409109",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2211,10 +2212,9 @@
    "properties": {
     "name": "8 INGRILLI COURT LAKE COOGEE 6166",
     "locID": "LOC000016257921",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720409130",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2938,7 +2938,7 @@
     "name": "21B MUSULIN RISE LAKE COOGEE 6166",
     "locID": "LOC000032004766",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720409212",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4566,7 +4566,7 @@
     "name": "33 KOTISINA GARDENS LAKE COOGEE 6166",
     "locID": "LOC000069414468",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720409439",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4688,6 +4688,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720409456",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.78539398,
+     -32.13035791
+    ]
+   },
+   "properties": {
+    "name": "3 CARINE PARADE LAKE COOGEE 6166",
+    "locID": "LOC100084924911",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_720409458",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6318,10 +6338,9 @@
    "properties": {
     "name": "16 MAGNET CLOSE LAKE COOGEE 6166",
     "locID": "LOC000002938043",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720409698",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8227,7 +8246,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720409950",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8552,8 +8573,8 @@
    "properties": {
     "name": "2 AMY COURT LAKE COOGEE 6166",
     "locID": "LOC000077477071",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720409992",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9881,10 +9902,10 @@
    "properties": {
     "name": "16 BROWNING WAY LAKE COOGEE 6166",
     "locID": "LOC000068349151",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410157",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10000,10 +10021,10 @@
    "properties": {
     "name": "7 WADING PLACE LAKE COOGEE 6166",
     "locID": "LOC000166507014",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410195",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10314,7 +10335,7 @@
     "name": "65 WEST CHURCHILL AVENUE LAKE COOGEE 6166",
     "locID": "LOC000095885147",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720410229",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10968,7 +10989,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720410307",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11302,10 +11325,10 @@
    "properties": {
     "name": "17 BROWNING WAY LAKE COOGEE 6166",
     "locID": "LOC000051511897",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410349",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12286,7 +12309,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720410471",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13140,10 +13165,9 @@
    "properties": {
     "name": "7 CAESAR COURT LAKE COOGEE 6166",
     "locID": "LOC000082595998",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410583",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13783,10 +13807,9 @@
    "properties": {
     "name": "69 BARRINGTON STREET LAKE COOGEE 6166",
     "locID": "LOC000085178498",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410682",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14032,10 +14055,9 @@
    "properties": {
     "name": "41 TEMPLETONIA RISE LAKE COOGEE 6166",
     "locID": "LOC100074894026",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410706",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14762,7 +14784,7 @@
     "name": "9 INGRILLI COURT LAKE COOGEE 6166",
     "locID": "LOC000065566719",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720410795",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15736,10 +15758,9 @@
    "properties": {
     "name": "30A KOTISINA GARDENS LAKE COOGEE 6166",
     "locID": "LOC000149822809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720410933",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16365,10 +16386,9 @@
    "properties": {
     "name": "21 APIUM MEWS LAKE COOGEE 6166",
     "locID": "LOC000132979259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411015",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16838,10 +16858,9 @@
    "properties": {
     "name": "6 FROBISHER AVENUE LAKE COOGEE 6166",
     "locID": "LOC000132997332",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411064",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17778,10 +17797,10 @@
    "properties": {
     "name": "12 BROWNING WAY LAKE COOGEE 6166",
     "locID": "LOC000100477263",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411177",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18698,7 +18717,7 @@
     "name": "4 COOGEE ROAD LAKE COOGEE 6166",
     "locID": "LOC000132990376",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720411300",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18889,10 +18908,9 @@
    "properties": {
     "name": "23 FIGTREE AVENUE LAKE COOGEE 6166",
     "locID": "LOC000187508594",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411326",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20713,7 +20731,7 @@
     "name": "53 WEST CHURCHILL AVENUE LAKE COOGEE 6166",
     "locID": "LOC000069415371",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720411565",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20833,7 +20851,7 @@
     "name": "29 RIVERINA PARADE LAKE COOGEE 6166",
     "locID": "LOC000028652120",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720411586",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21030,10 +21048,10 @@
    "properties": {
     "name": "17 BECKETT CLOSE LAKE COOGEE 6166",
     "locID": "LOC000059635570",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411612",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23033,10 +23051,9 @@
    "properties": {
     "name": "4 APIUM MEWS LAKE COOGEE 6166",
     "locID": "LOC000132990369",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411867",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23113,10 +23130,11 @@
     "name": "UNIT 3, 9 MINGA PLACE LAKE COOGEE 6166",
     "locID": "LOC000092723591",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720411877",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23366,10 +23384,9 @@
    "properties": {
     "name": "15 FIGTREE AVENUE LAKE COOGEE 6166",
     "locID": "LOC000149825709",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720411906",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24764,8 +24781,8 @@
    "properties": {
     "name": "11 LAWSON PLACE LAKE COOGEE 6166",
     "locID": "LOC000077421136",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720412107",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24845,7 +24862,7 @@
     "name": "28 FRANCOIS LANE LAKE COOGEE 6166",
     "locID": "LOC000093810433",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720412122",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26106,10 +26123,9 @@
    "properties": {
     "name": "30 TURFAN WAY LAKE COOGEE 6166",
     "locID": "LOC000019478822",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720412308",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26221,10 +26237,10 @@
    "properties": {
     "name": "6 FRANCOIS LANE LAKE COOGEE 6166",
     "locID": "LOC000065190485",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720412324",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28814,7 +28830,7 @@
     "name": "32 KOTISINA GARDENS LAKE COOGEE 6166",
     "locID": "LOC000060102854",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720412665",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29203,10 +29219,9 @@
    "properties": {
     "name": "3 CAESAR COURT LAKE COOGEE 6166",
     "locID": "LOC000010377442",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720412705",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29810,10 +29825,10 @@
    "properties": {
     "name": "16 BERSON COURT LAKE COOGEE 6166",
     "locID": "LOC000056735392",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720412786",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31551,10 +31566,9 @@
    "properties": {
     "name": "526 ROCKINGHAM ROAD LAKE COOGEE 6166",
     "locID": "LOC000036437202",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413006",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31572,7 +31586,7 @@
     "name": "173 FAWCETT ROAD LAKE COOGEE 6166",
     "locID": "LOC000007438945",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720413007",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32103,7 +32117,7 @@
     "name": "2 CARBINE WAY LAKE COOGEE 6166",
     "locID": "LOC000049266888",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720413070",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32633,10 +32647,9 @@
    "properties": {
     "name": "13 SANDFORD AVENUE LAKE COOGEE 6166",
     "locID": "LOC000018695479",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413136",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32889,10 +32902,9 @@
    "properties": {
     "name": "3B GICHA CLOSE LAKE COOGEE 6166",
     "locID": "LOC000132990353",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413171",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33204,7 +33216,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413225",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35152,10 +35164,9 @@
    "properties": {
     "name": "42 RIVERINA PARADE LAKE COOGEE 6166",
     "locID": "LOC000026956849",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413493",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35230,10 +35241,9 @@
    "properties": {
     "name": "9 CARBINE WAY LAKE COOGEE 6166",
     "locID": "LOC000025377884",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413498",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36391,7 +36401,7 @@
     "name": "1 HAMELIN DRIVE LAKE COOGEE 6166",
     "locID": "LOC000031972029",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720413641",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37337,7 +37347,7 @@
     "name": "47 COOGEE ROAD LAKE COOGEE 6166",
     "locID": "LOC000113507144",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720413749",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37664,10 +37674,9 @@
    "properties": {
     "name": "452 ROCKINGHAM ROAD LAKE COOGEE 6166",
     "locID": "LOC000037229546",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720413782",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38115,6 +38124,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.78119934,
+     -32.12291417
+    ]
+   },
+   "properties": {
+    "name": "35 LESCHENAULT BOULEVARD LAKE COOGEE 6166",
+    "locID": "LOC000197250543",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720413826"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.78429706,
      -32.12419899
     ]
@@ -38283,9 +38309,9 @@
     "name": "4 PETAL COURT LAKE COOGEE 6166",
     "locID": "LOC000021588425",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_720413849",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38752,10 +38778,11 @@
     "name": "9 MINGA PLACE LAKE COOGEE 6166",
     "locID": "LOC000092772787",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720435209",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40211,10 +40238,9 @@
    "properties": {
     "name": "22 FAWCETT ROAD LAKE COOGEE 6166",
     "locID": "LOC000190843448",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720819682",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40966,6 +40992,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721282082"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.78606839,
+     -32.12918989
+    ]
+   },
+   "properties": {
+    "name": "585 ROCKINGHAM ROAD LAKE COOGEE 6166",
+    "locID": "LOC000197235893",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721346629"
    }
   },
   {
