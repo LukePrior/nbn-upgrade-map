@@ -26,22 +26,14 @@ jobs:
         run: |
           python code/export_locids_csv.py --output results/locids.csv --no-progress
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
+      - name: Release
+        uses: softprops/action-gh-release@v2
         with:
+          files: results/locids.csv
           tag_name: "export-locids-$(date +'%Y%m%d')"
-          release_name: "Export LOCIDs CSV $(date +'%Y-%m-%d')"
+          name: "Export LOCIDs CSV $(date +'%Y-%m-%d')"
           body: "Automated export of LOCIDs CSV."
           draft: false
           prerelease: false
-
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: "${{ steps.create_release.outputs.upload_url }}"
-          asset_path: "results/locids.csv"
-          asset_name: "locids.csv"
-          asset_content_type: "text/csv"
 
 
