@@ -24,7 +24,7 @@ jobs:
 
       - name: Export LOCIDs CSV
         run: |
-          python code/export_locids_csv.py --results-dir results --output results/locids.csv --no-progress
+          python code/export_locids_csv.py --output results/locids.csv --no-progress
 
       - name: Commit CSV
         uses: EndBug/add-and-commit@v9
