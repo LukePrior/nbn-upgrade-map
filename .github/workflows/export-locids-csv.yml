@@ -26,20 +26,10 @@ jobs:
         run: |
           python code/export_locids_csv.py --output results/locids.csv --no-progress
 
-      - name: Verify File Creation
+      - name: Configure Git User
         run: |
-          if [ ! -f results/locids.csv ]; then
-            echo "Error: results/locids.csv not found!";
-            exit 1;
-          fi
-
-      - name: Commit CSV
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: 'results/locids.csv'
-          message: Export LOCIDs CSV
-          default_author: github_actions
-          pull: '--rebase --autostash'
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
 
       - name: Force Add and Push if Necessary
         run: |
