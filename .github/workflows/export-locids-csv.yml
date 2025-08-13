@@ -1,0 +1,35 @@
+name: "Export LOCIDs CSV"
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 2 * * 3' # 02:00 every Wednesday
+
+jobs:
+  export-locids:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r code/requirements.txt
+
+      - name: Export LOCIDs CSV
+        run: |
+          python code/export_locids_csv.py --results-dir results --output results/locids.csv --no-progress
+
+      - name: Commit CSV
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'results/locids.csv'
+          message: Export LOCIDs CSV
+          default_author: github_actions
+          pull: '--rebase --autostash'
