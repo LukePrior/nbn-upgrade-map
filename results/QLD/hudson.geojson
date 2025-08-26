@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-16T16:23:59.887474",
+ "generated": "2025-08-26T05:04:27.019832",
  "suburb": "HUDSON",
  "features": [
   {
@@ -76,7 +76,7 @@
     "name": "73 LAURIE STREET HUDSON 4860",
     "locID": "LOC000061346513",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155409294",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -512,7 +512,7 @@
     "name": "61 LAURIE STREET HUDSON 4860",
     "locID": "LOC000085821312",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156676228",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -551,7 +551,7 @@
     "name": "63 LAURIE STREET HUDSON 4860",
     "locID": "LOC000064626355",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156676230",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -591,7 +591,7 @@
     "name": "74 LAURIE STREET HUDSON 4860",
     "locID": "LOC000005030305",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156677942",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -886,8 +886,8 @@
    "properties": {
     "name": "4 BADILLA STREET HUDSON 4860",
     "locID": "LOC000106652623",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156679222",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -966,7 +966,7 @@
     "name": "8 BADILLA STREET HUDSON 4860",
     "locID": "LOC000088718523",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156679226",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1165,7 +1165,7 @@
     "name": "3 PINDAR STREET HUDSON 4860",
     "locID": "LOC000103568707",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156680985",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1184,10 +1184,9 @@
    "properties": {
     "name": "31 PINDAR STREET HUDSON 4860",
     "locID": "LOC000106602161",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156680986",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1205,7 +1204,7 @@
     "name": "5 PINDAR STREET HUDSON 4860",
     "locID": "LOC000099134583",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156680989",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1405,7 +1404,7 @@
     "name": "13 VIDAR STREET HUDSON 4860",
     "locID": "LOC000006530417",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156682747",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1425,7 +1424,7 @@
     "name": "15 VIDAR STREET HUDSON 4860",
     "locID": "LOC000029920528",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156682748",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1759,10 +1758,9 @@
    "properties": {
     "name": "UNIT 1, 31 PINDAR STREET HUDSON 4860",
     "locID": "LOC000106602161",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161863053",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2006,6 +2004,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.99696083,
+     -17.52292728
+    ]
+   },
+   "properties": {
+    "name": "LOT 100 VIDAR STREET HUDSON 4860",
+    "locID": "LOC100028747888",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162966411",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.00245964,
      -17.52439924
     ]
@@ -2034,7 +2050,7 @@
     "name": "LOT 3 VIDAR STREET HUDSON 4860",
     "locID": "LOC000006530417",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163356323",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
