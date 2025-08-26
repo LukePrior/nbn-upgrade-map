@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-16T14:38:37.759993",
+ "generated": "2025-08-26T03:23:12.606279",
  "suburb": "FOREST HILL",
  "features": [
   {
@@ -135,7 +135,7 @@
     "name": "23 WILLIAM STREET FOREST HILL 4342",
     "locID": "LOC000089662464",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155298551",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -193,7 +193,7 @@
     "name": "16 GORDON STREET FOREST HILL 4342",
     "locID": "LOC000053167859",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155298869",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -435,7 +435,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302461",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -512,8 +512,8 @@
    "properties": {
     "name": "5 DYER STREET FOREST HILL 4342",
     "locID": "LOC000062130667",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302605",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1803,10 +1803,10 @@
    "properties": {
     "name": "42 VICTORIA STREET FOREST HILL 4342",
     "locID": "LOC000030690583",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155309412",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2182,9 +2182,11 @@
     "name": "5 HARVEY ROAD FOREST HILL 4342",
     "locID": "LOC000108685606",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156565812",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -4918,10 +4920,10 @@
    "properties": {
     "name": "14 GORDON STREET FOREST HILL 4342",
     "locID": "LOC000109141038",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156577950",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5064,6 +5066,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38862969,
+     -27.58519351
+    ]
+   },
+   "properties": {
+    "name": "35 HARVEY ROAD FOREST HILL 4342",
+    "locID": "LOC000127664377",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156577959",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -5337,8 +5357,8 @@
    "properties": {
     "name": "9 DYER STREET FOREST HILL 4342",
     "locID": "LOC000097868411",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156582003",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5753,9 +5773,11 @@
     "name": "34 FOREST HILL - FERNVALE ROAD FOREST HILL 4342",
     "locID": "LOC000006882679",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157932655",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -5811,9 +5833,11 @@
     "name": "32 FOREST HILL - FERNVALE ROAD FOREST HILL 4342",
     "locID": "LOC000055644579",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157934219",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -6527,9 +6551,11 @@
     "name": "30 FOREST HILL - FERNVALE ROAD FOREST HILL 4342",
     "locID": "LOC000021862011",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157946868",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -7704,9 +7730,11 @@
     "name": "LOT 5 HARVEY ROAD FOREST HILL 4342",
     "locID": "LOC000108685606",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161174816",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -7866,7 +7894,7 @@
     "gnaf_pid": "GAQLD161783969",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -8300,9 +8328,11 @@
     "name": "LOT 462 FOREST HILL - FERNVALE ROAD FOREST HILL 4342",
     "locID": "LOC000035334970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163056463",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -8358,9 +8388,11 @@
     "name": "10 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000001735122",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057930",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8376,9 +8408,11 @@
     "name": "11 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000085185466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057931",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8394,9 +8428,11 @@
     "name": "2 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000060465994",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057932",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8412,9 +8448,11 @@
     "name": "3 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000025659416",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057933",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8430,9 +8468,11 @@
     "name": "4 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000060465994",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057934",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8448,9 +8488,11 @@
     "name": "5 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000010756157",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057935",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8466,9 +8508,11 @@
     "name": "6 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000087759724",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057936",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8484,9 +8528,11 @@
     "name": "7 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000021580514",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057937",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8502,9 +8548,11 @@
     "name": "8 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000093467873",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057938",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8520,9 +8568,11 @@
     "name": "9 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000093618313",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163057939",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8542,7 +8592,7 @@
     "gnaf_pid": "GAQLD163058143",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -8616,9 +8666,11 @@
     "name": "36 WADDINGTON PARADE FOREST HILL 4342",
     "locID": "LOC000004999989",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163072160",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8954,9 +9006,11 @@
     "name": "11 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127686459",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988870",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8972,9 +9026,11 @@
     "name": "12 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127689646",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988871",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -8990,9 +9046,11 @@
     "name": "13 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127689740",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988872",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9008,9 +9066,11 @@
     "name": "14 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127692744",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988873",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9026,9 +9086,11 @@
     "name": "15 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127692841",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988874",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9044,9 +9106,11 @@
     "name": "16 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127643808",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988875",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9062,9 +9126,11 @@
     "name": "17 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127643910",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988876",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9080,9 +9146,11 @@
     "name": "1 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127683316",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988877",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9098,9 +9166,11 @@
     "name": "2 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127647334",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988878",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9116,9 +9186,11 @@
     "name": "3 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127661166",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988879",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9134,9 +9206,11 @@
     "name": "4 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127668063",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988880",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9152,9 +9226,11 @@
     "name": "5 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127674016",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988881",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9170,9 +9246,11 @@
     "name": "6 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127677180",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988882",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9188,9 +9266,11 @@
     "name": "7 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127680361",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988883",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9206,9 +9286,11 @@
     "name": "8 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127683652",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988884",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9224,9 +9306,11 @@
     "name": "9 KERRY VIEW COURT FOREST HILL 4342",
     "locID": "LOC000127686638",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424988885",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9242,9 +9326,11 @@
     "name": "15 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000127692873",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424990725",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9284,7 +9370,7 @@
     "gnaf_pid": "GAQLD425211388",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -9484,7 +9570,7 @@
     "gnaf_pid": "GAQLD425543606",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -9504,7 +9590,7 @@
     "gnaf_pid": "GAQLD425543607",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -9600,9 +9686,11 @@
     "name": "LOT 5 HARVEY ROAD NORTH FOREST HILL 4342",
     "locID": "LOC000108685606",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425601659",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9658,9 +9746,11 @@
     "name": "12 MALABAR DRIVE FOREST HILL 4342",
     "locID": "LOC000184334366",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719831873",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -9700,7 +9790,7 @@
     "gnaf_pid": "GAQLD720031333",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
