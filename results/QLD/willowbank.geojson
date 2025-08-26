@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-17T09:02:10.550783",
+ "generated": "2025-08-26T22:27:50.303291",
  "suburb": "WILLOWBANK",
  "features": [
   {
@@ -55,7 +55,7 @@
     "name": "14 SHAWFIELD STREET WILLOWBANK 4306",
     "locID": "LOC000096292517",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155958668",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1604,7 +1604,7 @@
     "name": "19 GLEDHOW STREET WILLOWBANK 4306",
     "locID": "LOC000050864557",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155964073",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2130,10 +2130,9 @@
    "properties": {
     "name": "30 SANCROFT STREET WILLOWBANK 4306",
     "locID": "LOC000083413172",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155971622",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2448,7 +2447,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155972089",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2505,10 +2504,10 @@
    "properties": {
     "name": "21 TINWORTH STREET WILLOWBANK 4306",
     "locID": "LOC000093736356",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155972106",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3494,10 +3493,9 @@
    "properties": {
     "name": "36 RUBY CRESCENT WILLOWBANK 4306",
     "locID": "LOC000085203742",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157281803",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4137,10 +4135,9 @@
    "properties": {
     "name": "61-63 WILLOWBANK DRIVE WILLOWBANK 4306",
     "locID": "LOC000017543225",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157295970",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157295970"
    }
   },
   {
@@ -5479,10 +5476,9 @@
    "properties": {
     "name": "77-83 WILLOWBANK DRIVE WILLOWBANK 4306",
     "locID": "LOC000004971690",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161773414",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161773414"
    }
   },
   {
@@ -6802,6 +6798,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.67963758,
+     -27.68435051
+    ]
+   },
+   "properties": {
+    "name": "21-25 CLARRIE HALLS ROAD WILLOWBANK 4306",
+    "locID": "LOC000127618303",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163304456",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.67926134,
+     -27.68515828
+    ]
+   },
+   "properties": {
+    "name": "27-37 CLARRIE HALLS ROAD WILLOWBANK 4306",
+    "locID": "LOC000127618613",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163304457",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.6760409,
      -27.68867973
     ]
@@ -7097,8 +7129,8 @@
    "properties": {
     "name": "120 WILLOWBANK DRIVE WILLOWBANK 4306",
     "locID": "LOC000127605028",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424998062",
     "tech_change_status": "Eligible to Order"
    }

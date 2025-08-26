@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-17T09:24:37.707131",
+ "generated": "2025-08-26T22:49:32.464436",
  "suburb": "WOODFORD",
  "features": [
   {
@@ -349,9 +349,11 @@
     "name": "14 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000102850115",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155972778",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -367,9 +369,11 @@
     "name": "24 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000081653706",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155972779",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -462,7 +466,7 @@
    "properties": {
     "name": "117 ARCHER STREET WOODFORD 4514",
     "locID": "LOC000076758216",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155974487"
    }
@@ -633,7 +637,7 @@
    "properties": {
     "name": "129 ARCHER STREET WOODFORD 4514",
     "locID": "LOC000128237386",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155974497"
    }
@@ -804,9 +808,11 @@
     "name": "38 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000105929969",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155974513",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -1003,6 +1009,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.76348373,
+     -26.96699204
+    ]
+   },
+   "properties": {
+    "name": "219-221 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128259498",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155979988",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78011196,
      -26.97273097
     ]
@@ -1130,10 +1154,9 @@
    "properties": {
     "name": "18 KIRBY STREET WOODFORD 4514",
     "locID": "LOC000006598609",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155980003",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1171,7 +1194,7 @@
     "name": "26 KIRBY STREET WOODFORD 4514",
     "locID": "LOC000098730661",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155981793",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1506,8 +1529,8 @@
    "properties": {
     "name": "27 PETERSON ROAD WOODFORD 4514",
     "locID": "LOC000037221819",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155983365",
     "tech_change_status": "Eligible to Order"
    }
@@ -1559,10 +1582,9 @@
    "properties": {
     "name": "43 PETERSON ROAD WOODFORD 4514",
     "locID": "LOC000045293334",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155983371",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155983371"
    }
   },
   {
@@ -1902,7 +1924,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155984627",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2598,7 +2620,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155990098",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2782,7 +2804,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155990225",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2960,9 +2982,11 @@
     "name": "104 DURUNDUR STREET WOODFORD 4514",
     "locID": "LOC000007466175",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155990242",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -3391,9 +3415,11 @@
     "name": "114 DURUNDUR STREET WOODFORD 4514",
     "locID": "LOC000108389581",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155991976",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -3434,6 +3460,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76643609,
+     -26.96460431
+    ]
+   },
+   "properties": {
+    "name": "27-29 HALDANE STREET WOODFORD 4514",
+    "locID": "LOC000128220441",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155992926",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -3778,10 +3822,10 @@
    "properties": {
     "name": "23 DURUNDUR STREET WOODFORD 4514",
     "locID": "LOC000085128023",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155993071",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4252,9 +4296,11 @@
     "name": "8 DUWIRRI STREET WOODFORD 4514",
     "locID": "LOC000096794868",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155994865",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -4286,8 +4332,8 @@
    "properties": {
     "name": "3 ELIZABETH STREET WOODFORD 4514",
     "locID": "LOC000072957735",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155994874",
     "tech_change_status": "Eligible to Order"
    }
@@ -4739,6 +4785,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77260316,
+     -26.96900395
+    ]
+   },
+   "properties": {
+    "name": "122-124 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128234912",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155995819",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.77145058,
      -26.97039837
     ]
@@ -4986,7 +5050,7 @@
     "name": "44 GEORGE STREET WOODFORD 4514",
     "locID": "LOC000095714291",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155997771",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5125,7 +5189,7 @@
     "name": "53 GEORGE STREET WOODFORD 4514",
     "locID": "LOC000067409160",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155997782",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5205,9 +5269,11 @@
     "name": "13 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000012510063",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998403",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5223,9 +5289,11 @@
     "name": "14-18 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000112069854",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998404",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5241,9 +5309,11 @@
     "name": "15 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000097505746",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998405",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5259,9 +5329,11 @@
     "name": "23 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000075471570",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998407",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5277,9 +5349,11 @@
     "name": "29 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000039397467",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998418",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5295,9 +5369,11 @@
     "name": "31 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000034334296",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155998419",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -5639,9 +5715,11 @@
     "name": "19 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000028329686",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156098741",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6439,9 +6517,11 @@
     "name": "33 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000029031986",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290375",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6457,9 +6537,11 @@
     "name": "39 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000088521580",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290376",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6475,9 +6557,11 @@
     "name": "51 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000102717960",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290377",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6493,9 +6577,11 @@
     "name": "53 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000047223699",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290378",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6511,9 +6597,11 @@
     "name": "55 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000051248150",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290379",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -6529,9 +6617,11 @@
     "name": "57 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000020804746",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157290380",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -7302,9 +7392,11 @@
     "name": "17 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000061336240",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157304663",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -7759,7 +7851,7 @@
     "name": "130 ARCHER STREET WOODFORD 4514",
     "locID": "LOC000076192491",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157318677",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7799,9 +7891,11 @@
     "name": "36 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000033230796",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157318708",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -8260,9 +8354,11 @@
     "name": "1 DUWIRRI STREET WOODFORD 4514",
     "locID": "LOC000051069044",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157357646",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -8323,6 +8419,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.77378406,
+     -26.96478587
+    ]
+   },
+   "properties": {
+    "name": "47-49 FIDDLEWOOD COURT WOODFORD 4514",
+    "locID": "LOC000005772956",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157364625",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8810,9 +8924,11 @@
     "name": "16 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000062510324",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158866375",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -10128,9 +10244,11 @@
     "name": "20 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000039419447",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158885512",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -10284,6 +10402,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158886307",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.75150806,
+     -26.97367045
+    ]
+   },
+   "properties": {
+    "name": "290 KROPP ROAD WOODFORD 4514",
+    "locID": "LOC000089576838",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158886309",
     "tech_change_status": "Not Planned"
    }
   },
@@ -10993,9 +11129,11 @@
     "name": "21 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000103028076",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158890104",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -11169,9 +11307,11 @@
     "name": "3 DUWIRRI STREET WOODFORD 4514",
     "locID": "LOC000018360119",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158891651",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -11609,9 +11749,11 @@
     "name": "25 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000050909218",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158898370",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -11627,9 +11769,11 @@
     "name": "59 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000096217606",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158900887",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -12550,6 +12694,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.78585031,
+     -26.97058598
+    ]
+   },
+   "properties": {
+    "name": "1-5 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128226242",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160037113",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.77374029,
      -26.97006016
     ]
@@ -12710,9 +12872,11 @@
     "name": "4-6 DUWIRRI STREET WOODFORD 4514",
     "locID": "LOC000006672960",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160040278",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -12747,10 +12911,10 @@
    "properties": {
     "name": "131 HEATHER COURT WOODFORD 4514",
     "locID": "LOC000016647695",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160042109",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -13306,6 +13470,24 @@
     ]
    },
    "properties": {
+    "name": "98 HALDANE STREET WOODFORD 4514",
+    "locID": "LOC000128220441",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160055740",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76725619,
+     -26.96509001
+    ]
+   },
+   "properties": {
     "name": "99 HALDANE STREET WOODFORD 4514",
     "locID": "LOC000055418690",
     "tech": "WIRELESS",
@@ -13329,9 +13511,11 @@
     "name": "26 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000084364422",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160056931",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -13347,9 +13531,11 @@
     "name": "30 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000032540511",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160056932",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -13365,9 +13551,11 @@
     "name": "18 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000030693653",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160056934",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -13596,10 +13784,10 @@
    "properties": {
     "name": "16 LEICHHARDT STREET WOODFORD 4514",
     "locID": "LOC000035140872",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160711678",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13987,8 +14175,8 @@
    "properties": {
     "name": "2 ELIZABETH STREET WOODFORD 4514",
     "locID": "LOC000072957735",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161013007",
     "tech_change_status": "Eligible to Order"
    }
@@ -14394,6 +14582,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.76589046,
+     -26.96537216
+    ]
+   },
+   "properties": {
+    "name": "17-19 HALDANE STREET WOODFORD 4514",
+    "locID": "LOC000032639056",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161376532",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.7674133,
      -26.96628013
     ]
@@ -14407,6 +14613,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.77312525,
+     -26.97073334
+    ]
+   },
+   "properties": {
+    "name": "119 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128232230",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161376966",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14714,9 +14938,11 @@
     "name": "20-24 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000112176773",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161429871",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -14732,9 +14958,11 @@
     "name": "28-38 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000110709878",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161429872",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -14750,9 +14978,11 @@
     "name": "40 CANANDO STREET WOODFORD 4514",
     "locID": "LOC000020838756",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161429874",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -15058,9 +15288,11 @@
     "name": "110 DURUNDUR STREET WOODFORD 4514",
     "locID": "LOC000009992055",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161434715",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -15421,6 +15653,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.78552029,
+     -26.94982065
+    ]
+   },
+   "properties": {
+    "name": "37-41 GOLF COURSE ROAD WOODFORD 4514",
+    "locID": "LOC000128232346",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161437860",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.78556951,
+     -26.94921028
+    ]
+   },
+   "properties": {
+    "name": "43-49 GOLF COURSE ROAD WOODFORD 4514",
+    "locID": "LOC000128237757",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161437861",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78575892,
      -26.9479491
     ]
@@ -15588,10 +15856,10 @@
    "properties": {
     "name": "36-40 HEATHER COURT WOODFORD 4514",
     "locID": "LOC000016647695",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161439560",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -15701,6 +15969,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77312525,
+     -26.97073334
+    ]
+   },
+   "properties": {
+    "name": "117-119 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128232230",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161440785",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.7704408,
      -26.97028115
     ]
@@ -15754,6 +16040,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76770102,
+     -26.96957792
+    ]
+   },
+   "properties": {
+    "name": "167-169 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128245458",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161440791",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -15859,6 +16163,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77632744,
+     -26.9699877
+    ]
+   },
+   "properties": {
+    "name": "78-92 IRONBARK DRIVE WOODFORD 4514",
+    "locID": "LOC000128259943",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161440798",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.76621968,
      -26.96289195
     ]
@@ -15872,6 +16194,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76773778,
+     -26.96159715
+    ]
+   },
+   "properties": {
+    "name": "21-23 KAURI COURT WOODFORD 4514",
+    "locID": "LOC000064182430",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161441955",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16363,9 +16703,11 @@
     "name": "22 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000088952247",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161450163",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -16381,9 +16723,11 @@
     "name": "42 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000078644842",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161450168",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -16399,9 +16743,11 @@
     "name": "44 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000128237828",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161450169",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -16478,6 +16824,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.78530233,
+     -26.96494965
+    ]
+   },
+   "properties": {
+    "name": "2-16 PETERSON ROAD WOODFORD 4514",
+    "locID": "LOC000128253651",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161453025",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16744,9 +17108,11 @@
     "name": "1 WOUWA STREET WOODFORD 4514",
     "locID": "LOC000128226131",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161464557",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -17012,6 +17378,60 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77592134,
+     -26.97857089
+    ]
+   },
+   "properties": {
+    "name": "79 MONTANUS DRIVE WOODFORD 4514",
+    "locID": "LOC000128220753",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161703818",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.77592134,
+     -26.97857089
+    ]
+   },
+   "properties": {
+    "name": "91 MONTANUS DRIVE WOODFORD 4514",
+    "locID": "LOC000128220753",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161703819",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76725619,
+     -26.96509001
+    ]
+   },
+   "properties": {
+    "name": "96 HALDANE STREET WOODFORD 4514",
+    "locID": "LOC000032639056",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161739425",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78375068,
      -26.96088397
     ]
@@ -17242,6 +17662,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.77592134,
+     -26.97857089
+    ]
+   },
+   "properties": {
+    "name": "79-91 MONTANUS DRIVE WOODFORD 4514",
+    "locID": "LOC000128220753",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161792247",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -21309,6 +21747,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77961916,
+     -26.98035492
+    ]
+   },
+   "properties": {
+    "name": "101 MONTANUS DRIVE WOODFORD 4514",
+    "locID": "LOC100020963855",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425417211",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78073157,
      -26.95721032
     ]
@@ -22053,9 +22509,11 @@
     "name": "337-393 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000165448832",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425812126",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -22071,9 +22529,11 @@
     "name": "34 NEURUM STREET WOODFORD 4514",
     "locID": "LOC000165448832",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425812127",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -22130,6 +22590,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD425857481",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76048158,
+     -26.95762414
+    ]
+   },
+   "properties": {
+    "name": "73 COCHRAN STREET WOODFORD 4514",
+    "locID": "LOC100056471771",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719067140",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -22577,6 +23055,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.76083747,
+     -26.95744991
+    ]
+   },
+   "properties": {
+    "name": "77 COCHRAN STREET WOODFORD 4514",
+    "locID": "LOC100056471792",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719072014",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.7628523,
      -26.96104805
     ]
@@ -22590,6 +23086,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.76154481,
+     -26.95710362
+    ]
+   },
+   "properties": {
+    "name": "85 COCHRAN STREET WOODFORD 4514",
+    "locID": "LOC100056471825",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719072445",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -25498,12 +26012,12 @@
    "properties": {
     "name": "2A GLOUCESTER STREET WOODFORD 4514",
     "locID": "LOC000192649810",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721389283",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
