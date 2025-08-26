@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-16T18:55:39.715180",
+ "generated": "2025-08-26T07:42:38.887619",
  "suburb": "MALANDA",
  "features": [
   {
@@ -75,7 +75,7 @@
     "name": "33 HEALE STREET MALANDA 4885",
     "locID": "LOC000062883397",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155503459",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -414,7 +414,7 @@
     "name": "9 PARK AVENUE MALANDA 4885",
     "locID": "LOC000064077314",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155504400",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1194,7 +1194,7 @@
     "name": "34 ANN STREET MALANDA 4885",
     "locID": "LOC000091310772",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155511601",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2110,7 +2110,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155522537",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5738,10 +5738,10 @@
    "properties": {
     "name": "8 GEORGE STREET MALANDA 4885",
     "locID": "LOC000088723568",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156791712",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6238,7 +6238,7 @@
     "name": "44 ANN STREET MALANDA 4885",
     "locID": "LOC000055641377",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156792052",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6976,7 +6976,7 @@
     "name": "18 HEALE STREET MALANDA 4885",
     "locID": "LOC000053789247",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156805702",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7774,7 +7774,7 @@
     "name": "1 BURTON CLOSE MALANDA 4885",
     "locID": "LOC000030654039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158202518",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15456,7 +15456,7 @@
     "name": "LOT 1 BURTON CLOSE MALANDA 4885",
     "locID": "LOC000030654039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160691088",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19401,7 +19401,7 @@
     "name": "15 MONASH AVENUE MALANDA 4885",
     "locID": "LOC000023577283",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162969584",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19959,7 +19959,7 @@
     "name": "28 BERNARD STREET MALANDA 4885",
     "locID": "LOC000184026559",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163158755",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20358,10 +20358,9 @@
    "properties": {
     "name": "2-10 ENGLISH STREET MALANDA 4885",
     "locID": "LOC000116139826",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163162914",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23425,6 +23424,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.61848626,
+     -17.33936767
+    ]
+   },
+   "properties": {
+    "name": "903 LAKE BARRINE ROAD MALANDA 4885",
+    "locID": "LOC000129827954",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720122024",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.61633282,
      -17.344138
     ]
@@ -24065,6 +24082,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.58293116,
+     -17.35235001
+    ]
+   },
+   "properties": {
+    "name": "143 MALANDA - ATHERTON ROAD MALANDA 4885",
+    "locID": "LOC000130089899",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721078783",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.64143309,
      -17.32821251
     ]
@@ -24583,7 +24618,7 @@
     "name": "31 MILLAA MILLAA-MALANDA ROAD MALANDA 4885",
     "locID": "LOC000189678754",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721231974",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24603,7 +24638,7 @@
     "name": "9 MILLAA MILLAA-MALANDA ROAD MALANDA 4885",
     "locID": "LOC000191510717",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721233340",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
