@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-18T12:44:14.075272",
+ "generated": "2025-08-28T01:04:54.037968",
  "suburb": "SNUG",
  "features": [
   {
@@ -1340,10 +1340,9 @@
    "properties": {
     "name": "2249 CHANNEL HIGHWAY SNUG 7054",
     "locID": "LOC000060078194",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702219066",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2066,8 +2065,8 @@
    "properties": {
     "name": "42 ESPLANADE SNUG 7054",
     "locID": "LOC000051252719",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702239553",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2167,7 +2166,7 @@
     "name": "12 FROST STREET SNUG 7054",
     "locID": "LOC000026278438",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702239710",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2562,7 +2561,7 @@
     "name": "16 ESPLANADE SNUG 7054",
     "locID": "LOC000032128212",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702242871",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2623,7 +2622,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702245524",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2720,10 +2719,9 @@
    "properties": {
     "name": "13 GILLIES STREET SNUG 7054",
     "locID": "LOC000006753529",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702248132",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3199,7 +3197,7 @@
     "name": "6-8 PYBUS STREET SNUG 7054",
     "locID": "LOC000094609870",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702309433",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3557,7 +3555,7 @@
     "name": "2A PYBUS STREET SNUG 7054",
     "locID": "LOC000102687339",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702322018",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3776,10 +3774,9 @@
    "properties": {
     "name": "97 SNUG TIERS ROAD SNUG 7054",
     "locID": "LOC000009227405",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702323342",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4055,9 +4052,9 @@
     "name": "24 SNUG TIERS ROAD SNUG 7054",
     "locID": "LOC000036083991",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702341298",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7234,10 +7231,9 @@
    "properties": {
     "name": "17 SNOW GUM DRIVE SNUG 7054",
     "locID": "LOC000056018898",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717649419",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8607,6 +8603,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.25565759,
+     -43.06250539
+    ]
+   },
+   "properties": {
+    "name": "2183 CHANNEL HIGHWAY SNUG 7054",
+    "locID": "LOC000138156087",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS718752525",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.22480595,
      -43.09056126
     ]
@@ -9848,7 +9864,7 @@
     "name": "17 SUNSAIL STREET SNUG 7054",
     "locID": "LOC100074899096",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS719066193",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9906,10 +9922,9 @@
    "properties": {
     "name": "8 SPACE COURT SNUG 7054",
     "locID": "LOC100074899065",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS719066330",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
