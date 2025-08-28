@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-18T16:40:40.205572",
+ "generated": "2025-08-28T04:52:51.392584",
  "suburb": "COBDEN",
  "features": [
   {
@@ -1577,7 +1577,7 @@
     "name": "40 MITCHELL STREET COBDEN 3266",
     "locID": "LOC000013472218",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414134507",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2373,10 +2373,10 @@
    "properties": {
     "name": "14 CLARKE STREET COBDEN 3266",
     "locID": "LOC000035260654",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419538187",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3170,8 +3170,8 @@
    "properties": {
     "name": "77 NEYLON STREET COBDEN 3266",
     "locID": "LOC000011948488",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419661245",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4087,10 +4087,9 @@
    "properties": {
     "name": "62 CURDIE STREET COBDEN 3266",
     "locID": "LOC000106307491",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419737818",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7231,7 +7230,7 @@
     "name": "9 MITCHELL STREET COBDEN 3266",
     "locID": "LOC000097176481",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420314629",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8866,10 +8865,10 @@
    "properties": {
     "name": "60 MITCHELL STREET COBDEN 3266",
     "locID": "LOC000106310374",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420575845",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9067,7 +9066,7 @@
     "name": "21 CURDIE STREET COBDEN 3266",
     "locID": "LOC000100400964",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420611608",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11223,7 +11222,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420915840",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13373,10 +13372,10 @@
    "properties": {
     "name": "40 SHENFIELD STREET COBDEN 3266",
     "locID": "LOC000076132332",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421359876",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14832,7 +14831,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421628879",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15508,7 +15507,7 @@
     "name": "36 MITCHELL STREET COBDEN 3266",
     "locID": "LOC000095140124",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421804187",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18408,6 +18407,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     143.05617194,
+     -38.35485468
+    ]
+   },
+   "properties": {
+    "name": "220 COBDEN-PORT CAMPBELL ROAD COBDEN 3266",
+    "locID": "LOC000106618450",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423980405",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      143.08063,
      -38.329471
     ]
@@ -19035,8 +19054,8 @@
    "properties": {
     "name": "47 MCKENZIE STREET COBDEN 3266",
     "locID": "LOC000124311525",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424065910",
     "tech_change_status": "Eligible to Order"
    }
@@ -19058,6 +19077,26 @@
     "gnaf_pid": "GAVIC424066246",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.08286045,
+     -38.32899149
+    ]
+   },
+   "properties": {
+    "name": "23-25 OLD PORT CAMPBELL ROAD COBDEN 3266",
+    "locID": "LOC000115759916",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424067006",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -20435,6 +20474,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     143.07301685,
+     -38.32951975
+    ]
+   },
+   "properties": {
+    "name": "45 PARROTT STREET COBDEN 3266",
+    "locID": "LOC000190195441",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720962814",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      143.08290047,
      -38.31894798
     ]
@@ -20605,6 +20662,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.0817675,
+     -38.31512486
+    ]
+   },
+   "properties": {
+    "name": "21 SMITHS ROAD COBDEN 3266",
+    "locID": "LOC100090268463",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721223581",
+    "tech_change_status": "Not Planned"
    }
   },
   {
