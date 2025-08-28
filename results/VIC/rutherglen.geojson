@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-19T00:43:03.305550",
+ "generated": "2025-08-28T13:17:31.428005",
  "suburb": "RUTHERGLEN",
  "features": [
   {
@@ -296,7 +296,7 @@
     "name": "70B MAIN STREET RUTHERGLEN 3685",
     "locID": "LOC000047727773",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412239825",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -411,11 +411,11 @@
     "name": "1A CULBERTSON STREET RUTHERGLEN 3685",
     "locID": "LOC000094898239",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412240005",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1429,8 +1429,8 @@
    "properties": {
     "name": "9 NASHS ROAD RUTHERGLEN 3685",
     "locID": "LOC000025099953",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "tech": "WIRELESS",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412259590",
     "tech_change_status": "Eligible to Order"
    }
@@ -1775,10 +1775,10 @@
    "properties": {
     "name": "183 MURRAY STREET RUTHERGLEN 3685",
     "locID": "LOC000050226697",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC414509142",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1914,10 +1914,9 @@
    "properties": {
     "name": "210 HIGH STREET RUTHERGLEN 3685",
     "locID": "LOC000010581375",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC414514375",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC414514375"
    }
   },
   {
@@ -2391,6 +2390,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.45730662,
+     -36.05179181
+    ]
+   },
+   "properties": {
+    "name": "92 REID STREET RUTHERGLEN 3685",
+    "locID": "LOC000195682684",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC414569926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.45675292,
      -36.05172042
     ]
@@ -2401,6 +2417,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC414569930"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.45658303,
+     -36.05169851
+    ]
+   },
+   "properties": {
+    "name": "104 REID STREET RUTHERGLEN 3685",
+    "locID": "LOC000195682553",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC414569931"
    }
   },
   {
@@ -2471,8 +2504,8 @@
    "properties": {
     "name": "213 HIGH STREET RUTHERGLEN 3685",
     "locID": "LOC000102555015",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419654943",
     "tech_change_status": "Eligible to Order"
    }
@@ -2507,7 +2540,7 @@
     "name": "31 DOUGLAS STREET RUTHERGLEN 3685",
     "locID": "LOC000105938103",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419654946",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2933,7 +2966,7 @@
     "name": "61 READY STREET RUTHERGLEN 3685",
     "locID": "LOC000097164032",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419693432",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3071,10 +3104,9 @@
    "properties": {
     "name": "43 MURRAY STREET RUTHERGLEN 3685",
     "locID": "LOC000040474618",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419693439",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4614,7 +4646,7 @@
     "name": "46 MURPHY STREET RUTHERGLEN 3685",
     "locID": "LOC000082568788",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419975490",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6619,8 +6651,8 @@
    "properties": {
     "name": "1723 CHILTERN-RUTHERGLEN ROAD RUTHERGLEN 3685",
     "locID": "LOC000102205728",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "tech": "WIRELESS",
+    "upgrade": "FTTC",
     "gnaf_pid": "GAVIC420248058",
     "tech_change_status": "Eligible to Order"
    }
@@ -7811,8 +7843,8 @@
    "properties": {
     "name": "12 MUSCAT COURT RUTHERGLEN 3685",
     "locID": "LOC000071192039",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420308236",
     "tech_change_status": "Eligible to Order"
    }
@@ -8824,8 +8856,8 @@
    "properties": {
     "name": "42 MOODEMERE STREET RUTHERGLEN 3685",
     "locID": "LOC000035052459",
-    "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420594131",
     "tech_change_status": "Eligible to Order"
    }
@@ -9194,8 +9226,8 @@
    "properties": {
     "name": "30 MEEHAN STREET RUTHERGLEN 3685",
     "locID": "LOC000125044006",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420602208",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9252,10 +9284,9 @@
    "properties": {
     "name": "27 WILLIAM STREET RUTHERGLEN 3685",
     "locID": "LOC000103955398",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420602212",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9525,7 +9556,7 @@
     "name": "206 HIGH STREET RUTHERGLEN 3685",
     "locID": "LOC000086322177",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420606599",
     "tech_change_status": "Eligible to Order"
    }
@@ -10092,7 +10123,7 @@
     "name": "24 BARKLY STREET RUTHERGLEN 3685",
     "locID": "LOC000033488087",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420652575",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10597,8 +10628,8 @@
    "properties": {
     "name": "6 MOODEMERE STREET RUTHERGLEN 3685",
     "locID": "LOC000092510201",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420875136",
     "tech_change_status": "Eligible to Order"
    }
@@ -10930,8 +10961,8 @@
    "properties": {
     "name": "5 SHERIDANS BRIDGE ROAD RUTHERGLEN 3685",
     "locID": "LOC000088703757",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420877598",
     "tech_change_status": "Eligible to Order"
    }
@@ -11162,11 +11193,11 @@
     "name": "8 MAUNAYNE COURT RUTHERGLEN 3685",
     "locID": "LOC000091888418",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420880196",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11512,11 +11543,11 @@
     "name": "1 CULBERTSON STREET RUTHERGLEN 3685",
     "locID": "LOC000094571127",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420883690",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11588,7 +11619,7 @@
     "name": "216 MAIN STREET RUTHERGLEN 3685",
     "locID": "LOC000107810957",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420883845",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12453,7 +12484,7 @@
     "name": "24 WILLIAM STREET RUTHERGLEN 3685",
     "locID": "LOC000077094329",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420924774",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13001,8 +13032,11 @@
     "name": "22 CULBERTSON STREET RUTHERGLEN 3685",
     "locID": "LOC000060672997",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421171594"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421171594",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13863,10 +13897,10 @@
    "properties": {
     "name": "43 HOPETOUN ROAD RUTHERGLEN 3685",
     "locID": "LOC000037038687",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421214147",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14445,7 +14479,7 @@
     "name": "12 WILLIAM STREET RUTHERGLEN 3685",
     "locID": "LOC000089985635",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421235684",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14971,7 +15005,7 @@
     "name": "120 MAIN STREET RUTHERGLEN 3685",
     "locID": "LOC000098146851",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421443972",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16077,10 +16111,9 @@
    "properties": {
     "name": "40 MOODEMERE STREET RUTHERGLEN 3685",
     "locID": "LOC000026173174",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421507681",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421507681"
    }
   },
   {
@@ -16414,7 +16447,7 @@
     "name": "59 HIGH STREET RUTHERGLEN 3685",
     "locID": "LOC000082176004",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421518668",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16572,10 +16605,10 @@
    "properties": {
     "name": "121 MURRAY STREET RUTHERGLEN 3685",
     "locID": "LOC000083056458",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421522710",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17328,8 +17361,8 @@
    "properties": {
     "name": "1 SCOTT STREET RUTHERGLEN 3685",
     "locID": "LOC000059179138",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421774359",
     "tech_change_status": "Eligible to Order"
    }
@@ -18221,7 +18254,7 @@
     "name": "184 HIGH STREET RUTHERGLEN 3685",
     "locID": "LOC000066939630",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421805980",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20240,8 +20273,8 @@
    "properties": {
     "name": "1717 CHILTERN-RUTHERGLEN ROAD RUTHERGLEN 3685",
     "locID": "LOC000010275359",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "tech": "WIRELESS",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423393534",
     "tech_change_status": "Eligible to Order"
    }
@@ -20438,8 +20471,8 @@
    "properties": {
     "name": "25 NASHS ROAD RUTHERGLEN 3685",
     "locID": "LOC000104846363",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "tech": "WIRELESS",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423709875",
     "tech_change_status": "Eligible to Order"
    }
@@ -20490,8 +20523,8 @@
    "properties": {
     "name": "51 NASHS ROAD RUTHERGLEN 3685",
     "locID": "LOC000085936310",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423709878",
     "tech_change_status": "Eligible to Order"
    }
@@ -20893,8 +20926,8 @@
    "properties": {
     "name": "81 NASHS ROAD RUTHERGLEN 3685",
     "locID": "LOC000049782145",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424032427",
     "tech_change_status": "Eligible to Order"
    }
@@ -21743,10 +21776,9 @@
    "properties": {
     "name": "46 KILLEENS ROAD RUTHERGLEN 3685",
     "locID": "LOC000080295790",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424083859",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424083859"
    }
   },
   {
@@ -23658,8 +23690,8 @@
    "properties": {
     "name": "43 MEEHAN STREET RUTHERGLEN 3685",
     "locID": "LOC000152840483",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425325966",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24820,8 +24852,8 @@
    "properties": {
     "name": "256 MAIN STREET WEST RUTHERGLEN 3685",
     "locID": "LOC100056430209",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719509846",
     "tech_change_status": "Eligible to Order"
    }
@@ -25209,8 +25241,8 @@
    "properties": {
     "name": "3 CARLYLE COURT RUTHERGLEN 3685",
     "locID": "LOC000175905171",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719759473",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26289,10 +26321,10 @@
    "properties": {
     "name": "UNIT 2, 44 REID STREET RUTHERGLEN 3685",
     "locID": "LOC000114817715",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720472528",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27209,6 +27241,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721295277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.4526843,
+     -36.05150037
+    ]
+   },
+   "properties": {
+    "name": "6 BUTLER STREET RUTHERGLEN 3685",
+    "locID": "LOC000193398569",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295413"
    }
   },
   {
