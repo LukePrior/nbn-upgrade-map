@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-19T08:02:42.992906",
+ "generated": "2025-09-03T04:01:26.232046",
  "suburb": "MOUNT MELVILLE",
  "features": [
   {
@@ -277,7 +277,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146949679",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -475,8 +475,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146954139",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -514,8 +515,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146956947",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -1289,8 +1291,8 @@
    "properties": {
     "name": "234 SERPENTINE ROAD MOUNT MELVILLE 6330",
     "locID": "LOC000044667033",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146968338",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1509,7 +1511,7 @@
     "name": "7 DURMAN PLACE MOUNT MELVILLE 6330",
     "locID": "LOC000107624256",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146969224",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1548,10 +1550,9 @@
    "properties": {
     "name": "6 DURMAN PLACE MOUNT MELVILLE 6330",
     "locID": "LOC000084264359",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146969226",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2767,9 +2768,9 @@
     "name": "260 SERPENTINE ROAD MOUNT MELVILLE 6330",
     "locID": "LOC000104307252",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146971438",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2846,8 +2847,8 @@
    "properties": {
     "name": "7 SHERRATT STREET MOUNT MELVILLE 6330",
     "locID": "LOC000006178169",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146973317",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3051,7 +3052,7 @@
     "gnaf_pid": "GAWA_146974056",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -3244,7 +3245,7 @@
     "name": "8 BOURKE STREET MOUNT MELVILLE 6330",
     "locID": "LOC000098027617",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146974494",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3263,10 +3264,9 @@
    "properties": {
     "name": "7 RANFORD STREET MOUNT MELVILLE 6330",
     "locID": "LOC000066186653",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146975617",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3443,9 +3443,9 @@
     "name": "6 RANFORD STREET MOUNT MELVILLE 6330",
     "locID": "LOC000056136640",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146975626",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3488,26 +3488,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.8638,
-     -35.00533
-    ]
-   },
-   "properties": {
-    "name": "371 SERPENTINE ROAD MOUNT MELVILLE 6330",
-    "locID": "LOC000082385736",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146975846",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -4180,9 +4160,9 @@
     "name": "8 HARRY STREET MOUNT MELVILLE 6330",
     "locID": "LOC000031182776",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146982573",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4322,8 +4302,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146982592",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4341,8 +4322,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146982593",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4360,8 +4342,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146982594",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4461,7 +4444,7 @@
     "gnaf_pid": "GAWA_146982603",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -4481,27 +4464,7 @@
     "gnaf_pid": "GAWA_146982604",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.86512908,
-     -35.0072524
-    ]
-   },
-   "properties": {
-    "name": "359 SERPENTINE ROAD MOUNT MELVILLE 6330",
-    "locID": "LOC000056152805",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146982605",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -4539,8 +4502,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146982649",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4555,10 +4519,9 @@
    "properties": {
     "name": "2 RANFORD STREET MOUNT MELVILLE 6330",
     "locID": "LOC000040311983",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146982650",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4794,8 +4757,8 @@
    "properties": {
     "name": "18 JEFFRIES STREET MOUNT MELVILLE 6330",
     "locID": "LOC000028617039",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146982662",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4837,8 +4800,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146983671",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4856,8 +4820,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146983672",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5034,8 +4999,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987064",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5053,8 +5019,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987066",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5072,8 +5039,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987068",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5091,8 +5059,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987070",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5110,8 +5079,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987073",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5129,8 +5099,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987074",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5148,8 +5119,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987076",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5267,8 +5239,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987088",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5326,8 +5299,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987125",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5345,8 +5319,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146987126",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5622,7 +5597,7 @@
     "name": "13 ASHWELL STREET MOUNT MELVILLE 6330",
     "locID": "LOC000103756465",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146987900",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6676,9 +6651,9 @@
     "name": "328 SERPENTINE ROAD MOUNT MELVILLE 6330",
     "locID": "LOC000012070087",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146988706",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6877,8 +6852,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146991970",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7529,7 +7505,7 @@
     "name": "14 STANLEY STREET MOUNT MELVILLE 6330",
     "locID": "LOC000021498216",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146997062",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7611,8 +7587,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146998691",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7650,8 +7627,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146998693",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7669,8 +7647,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146998694",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7708,8 +7687,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146998697",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7844,10 +7824,9 @@
    "properties": {
     "name": "18 STANLEY STREET MOUNT MELVILLE 6330",
     "locID": "LOC000107701445",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147000092",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7927,8 +7906,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147000142",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -8005,8 +7985,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147000148",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -8121,7 +8102,7 @@
     "name": "3 ALICIA STREET MOUNT MELVILLE 6330",
     "locID": "LOC000049035195",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147001634",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8260,7 +8241,7 @@
     "name": "6 ALICIA STREET MOUNT MELVILLE 6330",
     "locID": "LOC000032642507",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147001643",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8464,7 +8445,7 @@
     "gnaf_pid": "GAWA_147003193",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -8604,7 +8585,7 @@
     "gnaf_pid": "GAWA_147003200",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -8644,7 +8625,7 @@
     "gnaf_pid": "GAWA_147003202",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -8779,7 +8760,7 @@
     "name": "67 FESTING STREET MOUNT MELVILLE 6330",
     "locID": "LOC000078081506",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147003226",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8939,7 +8920,7 @@
     "name": "6 JOHNSTON STREET MOUNT MELVILLE 6330",
     "locID": "LOC000032031752",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147069447",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8978,10 +8959,9 @@
    "properties": {
     "name": "5 MEYERS WAY MOUNT MELVILLE 6330",
     "locID": "LOC000090437811",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147083185",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9023,7 +9003,7 @@
     "gnaf_pid": "GAWA_147093696",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9203,7 +9183,7 @@
     "gnaf_pid": "GAWA_147139929",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9223,7 +9203,7 @@
     "gnaf_pid": "GAWA_147139930",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9243,7 +9223,7 @@
     "gnaf_pid": "GAWA_147139931",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9263,7 +9243,7 @@
     "gnaf_pid": "GAWA_147139932",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9283,7 +9263,7 @@
     "gnaf_pid": "GAWA_147139933",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9303,7 +9283,7 @@
     "gnaf_pid": "GAWA_147139934",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9323,7 +9303,7 @@
     "gnaf_pid": "GAWA_147139935",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9343,7 +9323,7 @@
     "gnaf_pid": "GAWA_147139938",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9363,7 +9343,7 @@
     "gnaf_pid": "GAWA_147139939",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9383,7 +9363,7 @@
     "gnaf_pid": "GAWA_147139940",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9403,7 +9383,7 @@
     "gnaf_pid": "GAWA_147139941",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9423,7 +9403,7 @@
     "gnaf_pid": "GAWA_147139942",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9443,7 +9423,7 @@
     "gnaf_pid": "GAWA_147142931",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9463,7 +9443,7 @@
     "gnaf_pid": "GAWA_147142932",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9483,7 +9463,7 @@
     "gnaf_pid": "GAWA_147142933",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9503,7 +9483,7 @@
     "gnaf_pid": "GAWA_147142934",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9543,7 +9523,7 @@
     "gnaf_pid": "GAWA_147162124",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9563,7 +9543,7 @@
     "gnaf_pid": "GAWA_147162125",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -9738,10 +9718,9 @@
    "properties": {
     "name": "1 MEYERS WAY MOUNT MELVILLE 6330",
     "locID": "LOC000108027731",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147175589",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10079,28 +10058,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147251475",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.86523,
-     -35.00761
-    ]
-   },
-   "properties": {
-    "name": "351 SERPENTINE ROAD MOUNT MELVILLE 6330",
-    "locID": "LOC000077628060",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_147252140",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -10275,10 +10235,9 @@
    "properties": {
     "name": "176 SERPENTINE ROAD MOUNT MELVILLE 6330",
     "locID": "LOC000014617270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147253446",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10395,10 +10354,9 @@
    "properties": {
     "name": "7 JOHNSTON STREET MOUNT MELVILLE 6330",
     "locID": "LOC000107943789",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147258256",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10560,7 +10518,7 @@
     "gnaf_pid": "GAWA_147267229",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -10695,7 +10653,7 @@
     "name": "12 VERDI STREET MOUNT MELVILLE 6330",
     "locID": "LOC000055080482",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147337561",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11216,7 +11174,7 @@
     "gnaf_pid": "GAWA_147944676",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -11252,7 +11210,7 @@
     "name": "172 SERPENTINE ROAD MOUNT MELVILLE 6330",
     "locID": "LOC000149613587",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147946122",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11335,7 +11293,7 @@
     "gnaf_pid": "GAWA_147953727",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -11726,7 +11684,7 @@
     "gnaf_pid": "GAWA_147964753",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -11746,7 +11704,7 @@
     "gnaf_pid": "GAWA_147964754",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -11821,8 +11779,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147967698",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -11921,7 +11880,7 @@
     "gnaf_pid": "GAWA_147970773",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -11941,7 +11900,7 @@
     "gnaf_pid": "GAWA_147971368",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -12278,7 +12237,7 @@
     "gnaf_pid": "GAWA_149064778",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -12298,7 +12257,7 @@
     "gnaf_pid": "GAWA_149064779",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -12335,8 +12294,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_149073327",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -12532,8 +12492,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_149118622",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -12653,7 +12614,7 @@
     "gnaf_pid": "GAWA_160939378",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -12770,8 +12731,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161613926",
-    "tech_change_status": "Planned",
-    "program_type": "On-Demand N2P SDU/MDU Simple"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -13246,7 +13208,7 @@
     "gnaf_pid": "GAWA_162990814",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13422,7 +13384,7 @@
     "name": "23A CROSSMAN STREET MOUNT MELVILLE 6330",
     "locID": "LOC000133419881",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163197435",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13713,7 +13675,7 @@
     "gnaf_pid": "GAWA_718215844",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13733,7 +13695,7 @@
     "gnaf_pid": "GAWA_718215845",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13753,7 +13715,7 @@
     "gnaf_pid": "GAWA_718215846",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13773,7 +13735,7 @@
     "gnaf_pid": "GAWA_718215847",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13793,7 +13755,7 @@
     "gnaf_pid": "GAWA_718215848",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -13849,7 +13811,7 @@
     "gnaf_pid": "GAWA_718245757",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {
@@ -14122,7 +14084,7 @@
     "gnaf_pid": "GAWA_719348248",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "target_eligibility_quarter": "Mar 2026"
    }
   },
   {

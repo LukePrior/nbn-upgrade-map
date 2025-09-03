@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-19T08:45:38.253504",
+ "generated": "2025-09-03T04:28:39.479794",
  "suburb": "ORANGE GROVE",
  "features": [
   {
@@ -421,9 +421,10 @@
    "properties": {
     "name": "111 RESERVOIR ROAD ORANGE GROVE 6109",
     "locID": "LOC000068583644",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146745029"
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAWA_146745029",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -1281,8 +1282,8 @@
    "properties": {
     "name": "16 DALE PLACE ORANGE GROVE 6109",
     "locID": "LOC000006522782",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146751693",
     "tech_change_status": "Eligible to Order"
    }
@@ -1582,7 +1583,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146755454",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1880,8 +1881,8 @@
    "properties": {
     "name": "87 RESERVOIR ROAD ORANGE GROVE 6109",
     "locID": "LOC000104370866",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146817728"
    }
   },
@@ -2371,8 +2372,8 @@
    "properties": {
     "name": "15 STANILAND STREET ORANGE GROVE 6109",
     "locID": "LOC000026219628",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147158584",
     "tech_change_status": "Eligible to Order"
    }
@@ -2442,10 +2443,9 @@
    "properties": {
     "name": "17 STANILAND STREET ORANGE GROVE 6109",
     "locID": "LOC000101823819",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147162173",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147162173"
    }
   },
   {
@@ -2672,10 +2672,9 @@
    "properties": {
     "name": "59 RESERVOIR ROAD ORANGE GROVE 6109",
     "locID": "LOC000042478496",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147179760",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147179760"
    }
   },
   {
@@ -3344,8 +3343,8 @@
    "properties": {
     "name": "155 RESERVOIR ROAD ORANGE GROVE 6109",
     "locID": "LOC000102360043",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_160919186",
     "tech_change_status": "Eligible to Order"
    }
@@ -4256,10 +4255,9 @@
    "properties": {
     "name": "380 MADDINGTON ROAD ORANGE GROVE 6109",
     "locID": "LOC000110981870",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_163274588",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_163274588"
    }
   },
   {
@@ -7532,9 +7530,11 @@
     "name": "125 HAYWARD ROAD ORANGE GROVE 6109",
     "locID": "LOC000193352855",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_721408356",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
    }
   }
  ]
