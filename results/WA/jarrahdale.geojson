@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-19T06:32:43.525377",
+ "generated": "2025-09-03T02:21:55.129514",
  "suburb": "JARRAHDALE",
  "features": [
   {
@@ -36,7 +36,7 @@
     "name": "9 BERWICK STREET JARRAHDALE 6124",
     "locID": "LOC000008015700",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146828425",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -231,7 +231,7 @@
     "name": "5 HARRIS PLACE JARRAHDALE 6124",
     "locID": "LOC000051861214",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146840729",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -250,8 +250,8 @@
    "properties": {
     "name": "4 HARRIS PLACE JARRAHDALE 6124",
     "locID": "LOC000082168375",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146842359",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -564,10 +564,10 @@
    "properties": {
     "name": "10 HARRIS PLACE JARRAHDALE 6124",
     "locID": "LOC000002908741",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146843560",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1923,7 +1923,7 @@
     "name": "53 ATKINS STREET JARRAHDALE 6124",
     "locID": "LOC000069817990",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146849399",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3153,10 +3153,9 @@
    "properties": {
     "name": "11 GEORGE STREET JARRAHDALE 6124",
     "locID": "LOC000034466344",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146854990",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3865,10 +3864,10 @@
    "properties": {
     "name": "6 COOK CLOSE JARRAHDALE 6124",
     "locID": "LOC000063320073",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147090156",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4701,6 +4700,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.06777,
+     -32.33751
+    ]
+   },
+   "properties": {
+    "name": "9 MCNEIL GROVE JARRAHDALE 6124",
+    "locID": "LOC000197452698",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147163701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      116.05407,
      -32.34196
     ]
@@ -4786,10 +4802,9 @@
    "properties": {
     "name": "25 POWDERBARK CLOSE JARRAHDALE 6124",
     "locID": "LOC000007068441",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147165541",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4885,8 +4900,8 @@
    "properties": {
     "name": "18 MCNEIL GROVE JARRAHDALE 6124",
     "locID": "LOC000082374668",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147165735",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5041,9 +5056,9 @@
     "name": "17 MARGINATA PARADE JARRAHDALE 6124",
     "locID": "LOC000063284270",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147168624",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5199,10 +5214,10 @@
    "properties": {
     "name": "4 MCNEIL GROVE JARRAHDALE 6124",
     "locID": "LOC000102439729",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147168782",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5619,9 +5634,9 @@
     "name": "18 POWDERBARK CLOSE JARRAHDALE 6124",
     "locID": "LOC000035483238",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147180037",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6170,8 +6185,8 @@
    "properties": {
     "name": "701 JARRAHDALE ROAD JARRAHDALE 6124",
     "locID": "LOC000037593907",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147328717",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7186,7 +7201,7 @@
     "name": "12B WANLISS STREET JARRAHDALE 6124",
     "locID": "LOC000058274857",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147800421",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7356,7 +7371,7 @@
     "name": "12 WANLISS STREET JARRAHDALE 6124",
     "locID": "LOC000058274857",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_160674229",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7416,7 +7431,7 @@
     "name": "60 JARRAHDALE ROAD JARRAHDALE 6124",
     "locID": "LOC000017306956",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_160798615",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7936,10 +7951,9 @@
    "properties": {
     "name": "LOT 362 GEORGE STREET JARRAHDALE 6124",
     "locID": "LOC000034466344",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161601270",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8632,10 +8646,9 @@
    "properties": {
     "name": "23 BULLICH RETREAT JARRAHDALE 6124",
     "locID": "LOC000089753551",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162485517",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9049,10 +9062,10 @@
    "properties": {
     "name": "1 GHOST GUM HEIGHTS JARRAHDALE 6124",
     "locID": "LOC000132742951",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162566591",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9345,10 +9358,9 @@
    "properties": {
     "name": "7 HIBBERTIA COURT JARRAHDALE 6124",
     "locID": "LOC000073326900",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163002328",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9424,10 +9436,10 @@
    "properties": {
     "name": "17 GHOST GUM HEIGHTS JARRAHDALE 6124",
     "locID": "LOC000132742951",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163078523",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9563,7 +9575,7 @@
     "name": "10 KUNZEA RISE JARRAHDALE 6124",
     "locID": "LOC000116457865",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163080765",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10053,10 +10065,10 @@
    "properties": {
     "name": "1 HONEYBUSH VISTA JARRAHDALE 6124",
     "locID": "LOC000163509746",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718628121",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10288,7 +10300,7 @@
     "name": "7 ATKINS STREET JARRAHDALE 6124",
     "locID": "LOC000153862072",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718944998",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
