@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-20T09:56:11.526219",
+ "generated": "2025-09-04T09:28:13.470592",
  "suburb": "NEWCASTLE",
  "features": [
   {
@@ -1006,11 +1006,11 @@
     "name": "279 KING STREET NEWCASTLE 2300",
     "locID": "LOC000034564891",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705484346",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1064,11 +1064,11 @@
     "name": "287 KING STREET NEWCASTLE 2300",
     "locID": "LOC000017028832",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705484350",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1083,12 +1083,12 @@
    "properties": {
     "name": "289 KING STREET NEWCASTLE 2300",
     "locID": "LOC000098694135",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705484351",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2100,7 +2100,7 @@
     "name": "165 KING STREET NEWCASTLE 2300",
     "locID": "LOC000072423534",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705494864",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2332,9 +2332,9 @@
     "name": "203-205 HUNTER STREET NEWCASTLE 2300",
     "locID": "LOC000098149902",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705497021",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8072,10 +8072,9 @@
    "properties": {
     "name": "517 HUNTER STREET NEWCASTLE 2300",
     "locID": "LOC000083489468",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705505598",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8635,10 +8634,9 @@
    "properties": {
     "name": "8 CHURCH STREET NEWCASTLE 2300",
     "locID": "LOC000023908060",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705507086",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8719,6 +8717,23 @@
     "gnaf_pid": "GANSW705507123",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.78155064,
+     -32.92732469
+    ]
+   },
+   "properties": {
+    "name": "111 HUNTER STREET NEWCASTLE 2300",
+    "locID": "LOC000193777955",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705507124"
    }
   },
   {
@@ -12545,11 +12560,12 @@
    "properties": {
     "name": "UNIT 2, 5 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000153048370",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708255623",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15060,7 +15076,7 @@
     "name": "158 KING STREET NEWCASTLE 2300",
     "locID": "LOC000113793584",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW709816692",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15531,12 +15547,12 @@
    "properties": {
     "name": "285 KING STREET NEWCASTLE 2300",
     "locID": "LOC000034096838",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709850726",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16539,10 +16555,9 @@
    "properties": {
     "name": "21 DARBY STREET NEWCASTLE 2300",
     "locID": "LOC000056898905",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711897234",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16709,10 +16724,9 @@
    "properties": {
     "name": "23 DARBY STREET NEWCASTLE 2300",
     "locID": "LOC000056898905",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711901547",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19139,7 +19153,7 @@
     "name": "237 HUNTER STREET NEWCASTLE 2300",
     "locID": "LOC000048341368",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW711913505",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22426,9 +22440,9 @@
     "name": "UNIT 1, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000051774487",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW711930126",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -22445,10 +22459,10 @@
    "properties": {
     "name": "UNIT 2, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000120662594",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711930127",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -22465,11 +22479,12 @@
    "properties": {
     "name": "UNIT 3, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000051683025",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711930128",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23911,9 +23926,9 @@
     "name": "UNIT 4, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000051304279",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW711938429",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -24507,6 +24522,40 @@
     "gnaf_pid": "GANSW711943488",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.78155064,
+     -32.92732469
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 111 HUNTER STREET NEWCASTLE 2300",
+    "locID": "LOC000193777955",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711943489"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.78155064,
+     -32.92732469
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 111 HUNTER STREET NEWCASTLE 2300",
+    "locID": "LOC000193777955",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711943490"
    }
   },
   {
@@ -26077,10 +26126,9 @@
    "properties": {
     "name": "368 KING STREET NEWCASTLE 2300",
     "locID": "LOC000111684008",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711967975",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26136,10 +26184,10 @@
    "properties": {
     "name": "7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000120662594",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711967982",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -29583,11 +29631,11 @@
     "name": "50 HONEYSUCKLE DRIVE NEWCASTLE 2300",
     "locID": "LOC000008208024",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW715905203",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31043,10 +31091,10 @@
    "properties": {
     "name": "SHOP 5, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000120662594",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716446700",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -31063,11 +31111,12 @@
    "properties": {
     "name": "SHOP 6, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000051466058",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716446702",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32972,8 +33021,8 @@
    "properties": {
     "name": "UNIT 901, 24 BOLTON STREET NEWCASTLE 2300",
     "locID": "LOC000026265205",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716627083",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -40537,63 +40586,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.77953179,
-     -32.92647162
-    ]
-   },
-   "properties": {
-    "name": "UNIT 16, 200-212 HUNTER STREET NEWCASTLE 2300",
-    "locID": "LOC000051549931",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717191307",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.77953179,
-     -32.92647162
-    ]
-   },
-   "properties": {
-    "name": "UNIT 17, 200-212 HUNTER STREET NEWCASTLE 2300",
-    "locID": "LOC000051532757",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717191308",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.77953179,
-     -32.92647162
-    ]
-   },
-   "properties": {
-    "name": "UNIT 18, 200-212 HUNTER STREET NEWCASTLE 2300",
-    "locID": "LOC000051436892",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717191309",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.78289399,
      -32.92779586
     ]
@@ -43185,11 +43177,11 @@
     "name": "1 WRIGHT LANE NEWCASTLE 2300",
     "locID": "LOC000055589997",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717526251",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48821,10 +48813,10 @@
    "properties": {
     "name": "LEVEL 3, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000120662594",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717825078",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -48842,9 +48834,9 @@
     "name": "LEVEL 4, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000051304279",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717825079",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -59930,10 +59922,10 @@
    "properties": {
     "name": "UNIT 7, 7 NEWCOMEN STREET NEWCASTLE 2300",
     "locID": "LOC000120662594",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718158243",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -98552,7 +98544,7 @@
     "name": "UNIT 1, 158 KING STREET NEWCASTLE 2300",
     "locID": "LOC000113793584",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW721060635",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -98572,7 +98564,7 @@
     "name": "UNIT 101, 158 KING STREET NEWCASTLE 2300",
     "locID": "LOC000113793584",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW721061547",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
