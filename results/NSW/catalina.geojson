@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-21T19:32:25.756078",
+ "generated": "2025-09-06T10:40:27.282226",
  "suburb": "CATALINA",
  "features": [
   {
@@ -1410,8 +1410,8 @@
    "properties": {
     "name": "53 RIDGE STREET CATALINA 2536",
     "locID": "LOC000061963559",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704354847",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2404,10 +2404,9 @@
    "properties": {
     "name": "95 COUNTRY CLUB DRIVE CATALINA 2536",
     "locID": "LOC000035582979",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704355236",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2525,7 +2524,7 @@
     "name": "12 CRANE COURT CATALINA 2536",
     "locID": "LOC000065285257",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704355242",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2723,7 +2722,7 @@
     "name": "39 YARRABEE DRIVE CATALINA 2536",
     "locID": "LOC000093579075",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704355252",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3200,7 +3199,7 @@
     "name": "22 BERRIMA STREET CATALINA 2536",
     "locID": "LOC000100201973",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704355615",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4676,7 +4675,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704357851",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5446,8 +5445,11 @@
     "name": "6 DERRIBONG AVENUE CATALINA 2536",
     "locID": "LOC000099754924",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704358570"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704358570",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5522,10 +5524,10 @@
    "properties": {
     "name": "10 FAIRWAY VIEW CATALINA 2536",
     "locID": "LOC000086199618",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704358574",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8669,10 +8671,10 @@
    "properties": {
     "name": "5 RIDGE STREET CATALINA 2536",
     "locID": "LOC000049692960",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704363068",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9394,7 +9396,7 @@
     "name": "12 YARRABEE DRIVE CATALINA 2536",
     "locID": "LOC000074872238",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704363454",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12330,6 +12332,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.18593348,
+     -35.72564604
+    ]
+   },
+   "properties": {
+    "name": "56 COUNTRY CLUB DRIVE CATALINA 2536",
+    "locID": "LOC000196806601",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704366031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.18617699,
      -35.72654486
     ]
@@ -12934,10 +12953,9 @@
    "properties": {
     "name": "33 YARRABEE DRIVE CATALINA 2536",
     "locID": "LOC000043668498",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704366069",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13076,7 +13094,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704366090",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15369,10 +15387,10 @@
    "properties": {
     "name": "17 RIVERVIEW CRESCENT CATALINA 2536",
     "locID": "LOC000090548580",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704368709",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17122,10 +17140,10 @@
    "properties": {
     "name": "9 CATALINA DRIVE CATALINA 2536",
     "locID": "LOC000105118813",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704377294",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17380,7 +17398,7 @@
     "name": "15 VISTA AVENUE CATALINA 2536",
     "locID": "LOC000053434515",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704377320",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21313,7 +21331,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW708844617",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22192,7 +22210,7 @@
     "name": "7 YARRABEE DRIVE CATALINA 2536",
     "locID": "LOC000074872238",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715670389",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22943,10 +22961,9 @@
    "properties": {
     "name": "21A ANGOPHORA PLACE CATALINA 2536",
     "locID": "LOC000028070198",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717124936",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

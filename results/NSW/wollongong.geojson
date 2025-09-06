@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-07-21T18:47:03.245863",
+ "generated": "2025-09-06T10:10:33.595926",
  "suburb": "WOLLONGONG",
  "features": [
   {
@@ -519,10 +519,10 @@
    "properties": {
     "name": "UNIT 9, 28 CLIFF ROAD WOLLONGONG 2500",
     "locID": "LOC000084012273",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706294818",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -12137,7 +12137,7 @@
    "properties": {
     "name": "3 QUEENS PARADE WOLLONGONG 2500",
     "locID": "LOC000194292324",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706299676"
    }
@@ -12154,7 +12154,7 @@
    "properties": {
     "name": "5 QUEENS PARADE WOLLONGONG 2500",
     "locID": "LOC000194292170",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706299677"
    }
@@ -12171,7 +12171,7 @@
    "properties": {
     "name": "7 QUEENS PARADE WOLLONGONG 2500",
     "locID": "LOC000194292297",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706299678"
    }
@@ -14616,23 +14616,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706301775"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.87893198,
-     -34.4213806
-    ]
-   },
-   "properties": {
-    "name": "12 HILLCREST STREET WOLLONGONG 2500",
-    "locID": "LOC000065407485",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706301777"
    }
   },
   {
@@ -20987,7 +20970,7 @@
    "properties": {
     "name": "43 KEMBLA STREET WOLLONGONG 2500",
     "locID": "LOC000196889409",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706303281"
    }
@@ -31179,11 +31162,11 @@
     "name": "UNIT 1, 52 CLIFF ROAD WOLLONGONG 2500",
     "locID": "LOC000064807276",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706308330",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31239,11 +31222,11 @@
     "name": "52 CLIFF ROAD WOLLONGONG 2500",
     "locID": "LOC000064807276",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706308333",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56051,6 +56034,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.89382457,
+     -34.43371664
+    ]
+   },
+   "properties": {
+    "name": "195 CHURCH STREET WOLLONGONG 2500",
+    "locID": "LOC000197152783",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706321575"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.89379701,
      -34.43385223
     ]
@@ -80361,7 +80361,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706336572",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94256,7 +94256,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706345550",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -101333,23 +101333,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707663728"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.87903802,
-     -34.42082
-    ]
-   },
-   "properties": {
-    "name": "4 HILLCREST STREET WOLLONGONG 2500",
-    "locID": "LOC000065407485",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW707663729"
    }
   },
   {
@@ -126572,7 +126555,7 @@
    "properties": {
     "name": "1 QUEENS PARADE WOLLONGONG 2500",
     "locID": "LOC000194292307",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712361861"
    }
@@ -161385,10 +161368,10 @@
    "properties": {
     "name": "UNIT 4, 11-15 CHURCH STREET WOLLONGONG 2500",
     "locID": "LOC000090190513",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716751418",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161428,7 +161411,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716751420",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -269342,7 +269325,7 @@
    "properties": {
     "name": "10 QUEENS PARADE WOLLONGONG 2500",
     "locID": "LOC000194291985",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721061550"
    }
@@ -274497,7 +274480,7 @@
    "properties": {
     "name": "40-46 CROWN STREET WOLLONGONG 2500",
     "locID": "LOC000194292025",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721362757"
    }
