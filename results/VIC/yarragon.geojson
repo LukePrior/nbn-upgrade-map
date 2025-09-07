@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-04T21:48:22.411135",
+ "generated": "2025-09-07T15:33:44.671863",
  "suburb": "YARRAGON",
  "features": [
   {
@@ -1509,9 +1509,11 @@
     "name": "6 MURRAY STREET YARRAGON 3823",
     "locID": "LOC000056307225",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC412700418",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -3806,10 +3808,9 @@
    "properties": {
     "name": "18 WINSTON STREET YARRAGON 3823",
     "locID": "LOC000023418752",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420376974",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4164,9 +4165,9 @@
     "name": "145 PRINCES HIGHWAY YARRAGON 3823",
     "locID": "LOC000067736733",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420682046",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4400,10 +4401,9 @@
    "properties": {
     "name": "5 WINSTON STREET YARRAGON 3823",
     "locID": "LOC000066589198",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420691994",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10729,10 +10729,10 @@
    "properties": {
     "name": "10 THOMAS WESTON COURT YARRAGON 3823",
     "locID": "LOC000056375187",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423839500",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11999,7 +11999,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424354533",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14226,6 +14226,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.07582341,
+     -38.20447906
+    ]
+   },
+   "properties": {
+    "name": "850 PRINCES HIGHWAY YARRAGON 3823",
+    "locID": "LOC000125327139",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424895650",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.06040403,
      -38.21145347
     ]
@@ -15667,6 +15687,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.05652443,
+     -38.21158095
+    ]
+   },
+   "properties": {
+    "name": "13 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125341124",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425626104",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05674008,
+     -38.2116079
+    ]
+   },
+   "properties": {
+    "name": "15 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125341182",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425626106",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.05666567,
      -38.21189057
     ]
@@ -15826,6 +15886,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.05816819,
+     -38.21242
+    ]
+   },
+   "properties": {
+    "name": "34 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000174788332",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626125",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.05805736,
      -38.21273356
     ]
@@ -15871,9 +15951,49 @@
    "properties": {
     "name": "40 WOODLAWN BOULEVARD YARRAGON 3823",
     "locID": "LOC000174788321",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626132",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05755038,
+     -38.21267031
+    ]
+   },
+   "properties": {
+    "name": "42 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125350816",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626134",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.0573448,
+     -38.21264461
+    ]
+   },
+   "properties": {
+    "name": "44 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125355296",
     "tech": "FTTN",
     "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC425626132",
+    "gnaf_pid": "GAVIC425626136",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -15915,6 +16035,25 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425626138",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05839522,
+     -38.2130729
+    ]
+   },
+   "properties": {
+    "name": "49 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000175502901",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626141",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16013,6 +16152,46 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425626146",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05632459,
+     -38.21256998
+    ]
+   },
+   "properties": {
+    "name": "54 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125355518",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425626147",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05610974,
+     -38.2125712
+    ]
+   },
+   "properties": {
+    "name": "56 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125355539",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425626149",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -16134,6 +16313,26 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425626167",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.05539023,
+     -38.21285898
+    ]
+   },
+   "properties": {
+    "name": "79 WOODLAWN BOULEVARD YARRAGON 3823",
+    "locID": "LOC000125360127",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425626168",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
