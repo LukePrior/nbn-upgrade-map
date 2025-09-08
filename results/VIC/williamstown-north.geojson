@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-08T02:23:59.633271",
+ "generated": "2025-09-08T11:39:41.451071",
  "suburb": "WILLIAMSTOWN NORTH",
  "features": [
   {
@@ -4929,10 +4929,9 @@
    "properties": {
     "name": "5 CERBERUS CRESCENT WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000010266077",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419914602",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5109,10 +5108,9 @@
    "properties": {
     "name": "12 FLORENCE STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000033340345",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419917138",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6435,9 +6433,9 @@
     "name": "12 BENTLEY STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000073835985",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420190182",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10913,10 +10911,10 @@
    "properties": {
     "name": "11 VIOLET STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000072002510",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420815675",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13106,9 +13104,9 @@
     "name": "35 CHELMSFORD STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000032149806",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421127265",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16207,7 +16205,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421467118",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16978,10 +16976,10 @@
    "properties": {
     "name": "86 FLORENCE STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000007215427",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421551934",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19216,10 +19214,10 @@
    "properties": {
     "name": "204 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000096000392",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421839702",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24740,6 +24738,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.86421908,
+     -37.85229567
+    ]
+   },
+   "properties": {
+    "name": "21 CHELMSFORD STREET WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197543768",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425157471"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8640371,
+     -37.85223005
+    ]
+   },
+   "properties": {
+    "name": "23 CHELMSFORD STREET WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197543768",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425157472"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.87936902,
      -37.85507282
     ]
@@ -25292,10 +25324,11 @@
     "name": "UNIT 202, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947974",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425679241",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25589,10 +25622,11 @@
     "name": "UNIT 1, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000181877393",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425854216",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25627,10 +25661,11 @@
     "name": "UNIT 3, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000159674633",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425854218",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25721,11 +25756,12 @@
    "properties": {
     "name": "UNIT 5, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947893",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719042628",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25740,11 +25776,12 @@
    "properties": {
     "name": "UNIT 7, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947919",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719042825",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25760,10 +25797,11 @@
     "name": "UNIT 14, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000159674651",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719043039",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25779,10 +25817,11 @@
     "name": "UNIT 12, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000159674646",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719043075",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25797,11 +25836,12 @@
    "properties": {
     "name": "UNIT 11, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947942",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719043077",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25817,10 +25857,11 @@
     "name": "UNIT 16, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947974",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719043132",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25835,11 +25876,12 @@
    "properties": {
     "name": "UNIT 15, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000177452627",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719043779",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25855,10 +25897,11 @@
     "name": "UNIT 18, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000181877393",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719043783",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25874,10 +25917,11 @@
     "name": "UNIT 9, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947926",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719043817",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25911,11 +25955,12 @@
    "properties": {
     "name": "UNIT 17, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000169221929",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719044131",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25931,10 +25976,11 @@
     "name": "UNIT 4, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000159674633",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719044167",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25949,11 +25995,12 @@
    "properties": {
     "name": "UNIT 8, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947935",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719044229",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25968,11 +26015,12 @@
    "properties": {
     "name": "UNIT 13, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947961",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719044374",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25987,11 +26035,12 @@
    "properties": {
     "name": "UNIT 6, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947903",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719044451",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26007,10 +26056,11 @@
     "name": "UNIT 19, 42 KOROROIT CREEK ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC100074947990",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719044633",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26395,10 +26445,9 @@
    "properties": {
     "name": "UNIT 1, 19 MACAULAY STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000182615827",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719414595",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27924,9 +27973,9 @@
     "name": "UNIT 4, 55 CHELMSFORD STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000172605612",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719614108",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34064,7 +34113,7 @@
    "properties": {
     "name": "UNIT 2, 26 LAUNCESTON STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000197135487",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721551010"
    }
