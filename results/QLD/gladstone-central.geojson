@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-09T02:30:14.169102",
+ "generated": "2025-09-09T12:30:14.220621",
  "suburb": "GLADSTONE CENTRAL",
  "features": [
   {
@@ -4247,7 +4247,7 @@
    "properties": {
     "name": "7 DAWSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC000081523269",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162504248"
    }
@@ -4949,8 +4949,8 @@
    "properties": {
     "name": "36 EDEN STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000023955758",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162505086",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7174,7 +7174,7 @@
    "properties": {
     "name": "101 GOONDOON STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000044853782",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162508415"
    }
@@ -7244,7 +7244,7 @@
    "properties": {
     "name": "117 GOONDOON STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000039536116",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162508420"
    }
@@ -12566,7 +12566,7 @@
    "properties": {
     "name": "133 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000087861265",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162516981"
    }
@@ -13182,9 +13182,11 @@
     "name": "66 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000190494901",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162517015",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -13928,10 +13930,9 @@
    "properties": {
     "name": "6 OFF LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000085823540",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162517351",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162517351"
    }
   },
   {
@@ -14230,10 +14231,9 @@
    "properties": {
     "name": "LOT 1 PITT STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000036300559",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162518689",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162518689"
    }
   },
   {
@@ -16467,7 +16467,7 @@
    "properties": {
     "name": "9 TANK STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000008190186",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162523540"
    }
@@ -17382,11 +17382,11 @@
     "name": "44 YARROON STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000081758276",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162527369",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17770,8 +17770,8 @@
    "properties": {
     "name": "17 BECKINSALE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000027670196",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162534606",
     "tech_change_status": "Eligible to Order"
    }
@@ -18558,7 +18558,7 @@
    "properties": {
     "name": "56 CENTRAL LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000094995477",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162536788"
    }
@@ -19135,7 +19135,7 @@
    "properties": {
     "name": "31A CHAPPLE STREET GLADSTONE CENTRAL 4680",
     "locID": "LOC000036536189",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162536895"
    }
@@ -28043,7 +28043,7 @@
    "properties": {
     "name": "106 HANSON ROAD GLADSTONE CENTRAL 4680",
     "locID": "LOC000036547992",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162551055"
    }
@@ -38612,6 +38612,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.25946987,
+     -23.84624064
+    ]
+   },
+   "properties": {
+    "name": "20-22 HERBERT STREET GLADSTONE CENTRAL 4680",
+    "locID": "LOC000011658747",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425174063",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.25149108,
      -23.83954772
     ]
@@ -47566,9 +47586,11 @@
     "name": "UNIT 508, 66 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000189971168",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720986705",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -47622,9 +47644,11 @@
     "name": "UNIT 214, 66 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000190494901",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721258474",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -47674,9 +47698,11 @@
     "name": "UNIT 213, 66 OAKA LANE GLADSTONE CENTRAL 4680",
     "locID": "LOC000193305277",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721398326",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
