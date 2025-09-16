@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-16T00:35:06.155698",
+ "generated": "2025-09-16T20:00:01.955934",
  "suburb": "ESSENDON NORTH",
  "features": [
   {
@@ -33,8 +33,8 @@
    "properties": {
     "name": "UNIT 1, 36 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000093402564",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411352770",
     "tech_change_status": "Eligible to Order"
    }
@@ -423,8 +423,8 @@
    "properties": {
     "name": "UNIT 1, 78 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000031027774",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411375633",
     "tech_change_status": "Eligible to Order"
    }
@@ -531,8 +531,8 @@
    "properties": {
     "name": "19B BIRDWOOD STREET ESSENDON NORTH 3041",
     "locID": "LOC000075871293",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411378850",
     "tech_change_status": "Eligible to Order"
    }
@@ -549,8 +549,8 @@
    "properties": {
     "name": "UNIT 2, 25 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000002902598",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411381019",
     "tech_change_status": "Eligible to Order"
    }
@@ -567,8 +567,8 @@
    "properties": {
     "name": "UNIT 1, 25 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000002902598",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411381020",
     "tech_change_status": "Eligible to Order"
    }
@@ -746,8 +746,8 @@
    "properties": {
     "name": "UNIT 2, 8-12 GILLIES STREET ESSENDON NORTH 3041",
     "locID": "LOC000033517655",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412944840",
     "tech_change_status": "Eligible to Order"
    }
@@ -1223,8 +1223,8 @@
    "properties": {
     "name": "22 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000102353469",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412967779",
     "tech_change_status": "Eligible to Order"
    }
@@ -1295,8 +1295,8 @@
    "properties": {
     "name": "19 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000005252720",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419537678",
     "tech_change_status": "Eligible to Order"
    }
@@ -1314,9 +1314,9 @@
     "name": "2 ELM GROVE ESSENDON NORTH 3041",
     "locID": "LOC000046762579",
     "tech": "FTTC",
-    "upgrade": "FTTP",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419537985",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -1455,8 +1455,8 @@
    "properties": {
     "name": "14 COWPER STREET ESSENDON NORTH 3041",
     "locID": "LOC000048752389",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419538463",
     "tech_change_status": "Eligible to Order"
    }
@@ -1578,8 +1578,8 @@
    "properties": {
     "name": "34 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000104273035",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419538671",
     "tech_change_status": "Eligible to Order"
    }
@@ -1782,6 +1782,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.90501,
+     -37.738525
+    ]
+   },
+   "properties": {
+    "name": "16 ROYAL AVENUE ESSENDON NORTH 3041",
+    "locID": "LOC000197425332",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419539185"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.902219,
      -37.736475
     ]
@@ -1789,8 +1806,8 @@
    "properties": {
     "name": "9A SALISBURY STREET ESSENDON NORTH 3041",
     "locID": "LOC000107615207",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419539190",
     "tech_change_status": "Eligible to Order"
    }
@@ -2390,10 +2407,9 @@
    "properties": {
     "name": "46 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000109499509",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419583576",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419583576"
    }
   },
   {
@@ -2550,8 +2566,8 @@
    "properties": {
     "name": "1A GRACE STREET ESSENDON NORTH 3041",
     "locID": "LOC000106483866",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419623112",
     "tech_change_status": "Eligible to Order"
    }
@@ -2604,8 +2620,8 @@
    "properties": {
     "name": "UNIT 1, 2 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000044807579",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419629329",
     "tech_change_status": "Eligible to Order"
    }
@@ -3106,10 +3122,9 @@
    "properties": {
     "name": "43 ROYAL AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000073728286",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419684825",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419684825"
    }
   },
   {
@@ -3340,8 +3355,8 @@
    "properties": {
     "name": "89A KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000039580401",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419715697",
     "tech_change_status": "Eligible to Order"
    }
@@ -3747,10 +3762,9 @@
    "properties": {
     "name": "4 RENOWN STREET ESSENDON NORTH 3041",
     "locID": "LOC000083134025",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419835480",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419835480"
    }
   },
   {
@@ -3818,8 +3832,8 @@
    "properties": {
     "name": "16 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000083663346",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419839225",
     "tech_change_status": "Eligible to Order"
    }
@@ -3853,8 +3867,8 @@
    "properties": {
     "name": "224 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000006918968",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419840056",
     "tech_change_status": "Eligible to Order"
    }
@@ -4101,8 +4115,8 @@
    "properties": {
     "name": "14 GREVILLE STREET ESSENDON NORTH 3041",
     "locID": "LOC000050685101",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419842963",
     "tech_change_status": "Eligible to Order"
    }
@@ -4173,8 +4187,8 @@
    "properties": {
     "name": "11 THELMA AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000070334439",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419845733",
     "tech_change_status": "Eligible to Order"
    }
@@ -4191,8 +4205,8 @@
    "properties": {
     "name": "13 THELMA AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000048878408",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419845734",
     "tech_change_status": "Eligible to Order"
    }
@@ -5202,8 +5216,8 @@
    "properties": {
     "name": "UNIT 1, 4 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000081615303",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419998806",
     "tech_change_status": "Eligible to Order"
    }
@@ -5327,8 +5341,8 @@
    "properties": {
     "name": "29A RENOWN STREET ESSENDON NORTH 3041",
     "locID": "LOC000044430466",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420023015",
     "tech_change_status": "Eligible to Order"
    }
@@ -5381,10 +5395,9 @@
    "properties": {
     "name": "30 ROYAL AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000066470738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420031510",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420031510"
    }
   },
   {
@@ -5435,8 +5448,8 @@
    "properties": {
     "name": "25 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000002902598",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420050312",
     "tech_change_status": "Eligible to Order"
    }
@@ -5873,8 +5886,8 @@
    "properties": {
     "name": "11A SALISBURY STREET ESSENDON NORTH 3041",
     "locID": "LOC000086307125",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420141678",
     "tech_change_status": "Eligible to Order"
    }
@@ -5927,8 +5940,8 @@
    "properties": {
     "name": "20 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000103856673",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420141936",
     "tech_change_status": "Eligible to Order"
    }
@@ -6123,8 +6136,8 @@
    "properties": {
     "name": "3 RONALD STREET ESSENDON NORTH 3041",
     "locID": "LOC000067263604",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420145436",
     "tech_change_status": "Eligible to Order"
    }
@@ -6336,8 +6349,8 @@
    "properties": {
     "name": "5 GRACE STREET ESSENDON NORTH 3041",
     "locID": "LOC000016177494",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420148958",
     "tech_change_status": "Eligible to Order"
    }
@@ -6566,8 +6579,8 @@
    "properties": {
     "name": "45 GREVILLE STREET ESSENDON NORTH 3041",
     "locID": "LOC000081653591",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420163796",
     "tech_change_status": "Eligible to Order"
    }
@@ -7605,10 +7618,9 @@
    "properties": {
     "name": "67 BULLA ROAD ESSENDON NORTH 3041",
     "locID": "LOC000068005690",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420314426",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420314426"
    }
   },
   {
@@ -7856,8 +7868,8 @@
    "properties": {
     "name": "6A RENOWN STREET ESSENDON NORTH 3041",
     "locID": "LOC000021288003",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420349986",
     "tech_change_status": "Eligible to Order"
    }
@@ -8048,8 +8060,8 @@
    "properties": {
     "name": "11 RONALD STREET ESSENDON NORTH 3041",
     "locID": "LOC000046347420",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420424312",
     "tech_change_status": "Eligible to Order"
    }
@@ -8519,8 +8531,8 @@
    "properties": {
     "name": "23 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000090130217",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420437008",
     "tech_change_status": "Eligible to Order"
    }
@@ -8571,8 +8583,8 @@
    "properties": {
     "name": "264 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000069590039",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420439414",
     "tech_change_status": "Eligible to Order"
    }
@@ -9315,8 +9327,8 @@
    "properties": {
     "name": "UNIT 4, 2 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000045402673",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420528700",
     "tech_change_status": "Eligible to Order"
    }
@@ -9440,8 +9452,8 @@
    "properties": {
     "name": "3 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000085535855",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420540701",
     "tech_change_status": "Eligible to Order"
    }
@@ -9582,8 +9594,8 @@
    "properties": {
     "name": "274 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000076155933",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420588496",
     "tech_change_status": "Eligible to Order"
    }
@@ -10421,8 +10433,8 @@
    "properties": {
     "name": "3 KEAM STREET ESSENDON NORTH 3041",
     "locID": "LOC000081359870",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420740057",
     "tech_change_status": "Eligible to Order"
    }
@@ -10439,8 +10451,8 @@
    "properties": {
     "name": "112 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000016934164",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420740060",
     "tech_change_status": "Eligible to Order"
    }
@@ -10510,8 +10522,8 @@
    "properties": {
     "name": "8 RENOWN STREET ESSENDON NORTH 3041",
     "locID": "LOC000012716256",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420741303",
     "tech_change_status": "Eligible to Order"
    }
@@ -10987,8 +10999,8 @@
    "properties": {
     "name": "10 RONALD STREET ESSENDON NORTH 3041",
     "locID": "LOC000008087096",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420753183",
     "tech_change_status": "Eligible to Order"
    }
@@ -11039,8 +11051,8 @@
    "properties": {
     "name": "20 RONALD STREET ESSENDON NORTH 3041",
     "locID": "LOC000048924855",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420753186",
     "tech_change_status": "Eligible to Order"
    }
@@ -11182,8 +11194,8 @@
    "properties": {
     "name": "34 GREVILLE STREET ESSENDON NORTH 3041",
     "locID": "LOC000041369377",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420754073",
     "tech_change_status": "Eligible to Order"
    }
@@ -11325,8 +11337,8 @@
    "properties": {
     "name": "14 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000095108290",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420757377",
     "tech_change_status": "Eligible to Order"
    }
@@ -11360,8 +11372,8 @@
    "properties": {
     "name": "18 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000094136792",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420759588",
     "tech_change_status": "Eligible to Order"
    }
@@ -11450,8 +11462,8 @@
    "properties": {
     "name": "52-56 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000059179642",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420759593",
     "tech_change_status": "Eligible to Order"
    }
@@ -11468,10 +11480,9 @@
    "properties": {
     "name": "58 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000016022051",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420759594",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420759594"
    }
   },
   {
@@ -11943,8 +11954,8 @@
    "properties": {
     "name": "UNIT 3, 2 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000044439841",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420831583",
     "tech_change_status": "Eligible to Order"
    }
@@ -12246,10 +12257,9 @@
    "properties": {
     "name": "UNIT 1, 1 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000085100945",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC420878150",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420878150"
    }
   },
   {
@@ -12658,10 +12668,9 @@
    "properties": {
     "name": "UNIT 2, 43 ROYAL AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000073728286",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420892021",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420892021"
    }
   },
   {
@@ -12993,8 +13002,8 @@
    "properties": {
     "name": "75 BULLA ROAD ESSENDON NORTH 3041",
     "locID": "LOC000100807280",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420963916",
     "tech_change_status": "Eligible to Order"
    }
@@ -13679,8 +13688,8 @@
    "properties": {
     "name": "67 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000023910555",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421046405",
     "tech_change_status": "Eligible to Order"
    }
@@ -13697,8 +13706,8 @@
    "properties": {
     "name": "73 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000093029427",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421046406",
     "tech_change_status": "Eligible to Order"
    }
@@ -13858,8 +13867,8 @@
    "properties": {
     "name": "19 RENOWN STREET ESSENDON NORTH 3041",
     "locID": "LOC000011094044",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421051499",
     "tech_change_status": "Eligible to Order"
    }
@@ -14071,8 +14080,8 @@
    "properties": {
     "name": "13 SALISBURY STREET ESSENDON NORTH 3041",
     "locID": "LOC000067611544",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421058714",
     "tech_change_status": "Eligible to Order"
    }
@@ -14318,8 +14327,8 @@
    "properties": {
     "name": "UNIT 2, 2 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000044439841",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421132805",
     "tech_change_status": "Eligible to Order"
    }
@@ -14336,8 +14345,8 @@
    "properties": {
     "name": "78 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000031027774",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421139032",
     "tech_change_status": "Eligible to Order"
    }
@@ -15353,8 +15362,8 @@
    "properties": {
     "name": "12 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000104689987",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421322635",
     "tech_change_status": "Eligible to Order"
    }
@@ -15406,8 +15415,8 @@
    "properties": {
     "name": "49 BULLA ROAD ESSENDON NORTH 3041",
     "locID": "LOC000077198393",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421324069",
     "tech_change_status": "Eligible to Order"
    }
@@ -15441,8 +15450,8 @@
    "properties": {
     "name": "77 BULLA ROAD ESSENDON NORTH 3041",
     "locID": "LOC000093747102",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421324072",
     "tech_change_status": "Eligible to Order"
    }
@@ -15723,8 +15732,8 @@
    "properties": {
     "name": "266 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000034897297",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421346607",
     "tech_change_status": "Eligible to Order"
    }
@@ -16288,8 +16297,8 @@
    "properties": {
     "name": "97 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000103619917",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421364228",
     "tech_change_status": "Eligible to Order"
    }
@@ -16484,8 +16493,8 @@
    "properties": {
     "name": "UNIT 1, 22 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000102353469",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421428219",
     "tech_change_status": "Eligible to Order"
    }
@@ -16502,8 +16511,8 @@
    "properties": {
     "name": "32A PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000023062847",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421434889",
     "tech_change_status": "Eligible to Order"
    }
@@ -16983,8 +16992,8 @@
    "properties": {
     "name": "UNIT 1, 26 ROYAL AVENUE ESSENDON NORTH 3041",
     "locID": "LOC000004378491",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421509159",
     "tech_change_status": "Eligible to Order"
    }
@@ -17407,8 +17416,8 @@
    "properties": {
     "name": "UNIT 2, 75 BULLA ROAD ESSENDON NORTH 3041",
     "locID": "LOC000100807280",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421595168",
     "tech_change_status": "Eligible to Order"
    }
@@ -18042,8 +18051,8 @@
    "properties": {
     "name": "81 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000021686762",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421649958",
     "tech_change_status": "Eligible to Order"
    }
@@ -18361,8 +18370,8 @@
    "properties": {
     "name": "18 DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000005134682",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421701978",
     "tech_change_status": "Eligible to Order"
    }
@@ -18450,10 +18459,9 @@
    "properties": {
     "name": "63 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000038738944",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421705649",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421705649"
    }
   },
   {
@@ -18719,8 +18727,8 @@
    "properties": {
     "name": "2 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000044439841",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421721867",
     "tech_change_status": "Eligible to Order"
    }
@@ -20252,10 +20260,9 @@
    "properties": {
     "name": "1 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000085100945",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC422109160",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422109160"
    }
   },
   {
@@ -20749,8 +20756,8 @@
    "properties": {
     "name": "UNIT 2, 34 KERFERD STREET ESSENDON NORTH 3041",
     "locID": "LOC000104273035",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423982363",
     "tech_change_status": "Eligible to Order"
    }
@@ -20999,10 +21006,10 @@
    "properties": {
     "name": "UNIT 5, 74 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000091489720",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424095581",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -22392,8 +22399,8 @@
    "properties": {
     "name": "20A RONALD STREET ESSENDON NORTH 3041",
     "locID": "LOC000048545447",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424555842",
     "tech_change_status": "Eligible to Order"
    }
@@ -23430,8 +23437,8 @@
    "properties": {
     "name": "47A GREVILLE STREET ESSENDON NORTH 3041",
     "locID": "LOC000114910699",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424751761",
     "tech_change_status": "Eligible to Order"
    }
@@ -23483,8 +23490,8 @@
    "properties": {
     "name": "258 KEILOR ROAD ESSENDON NORTH 3041",
     "locID": "LOC000115083864",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424772479",
     "tech_change_status": "Eligible to Order"
    }
@@ -23760,8 +23767,8 @@
    "properties": {
     "name": "8 GRACE STREET ESSENDON NORTH 3041",
     "locID": "LOC000108028120",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424797495",
     "tech_change_status": "Eligible to Order"
    }
@@ -24356,8 +24363,8 @@
    "properties": {
     "name": "UNIT 2, 13 OSHANNASSY STREET ESSENDON NORTH 3041",
     "locID": "LOC000114608794",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424798441",
     "tech_change_status": "Eligible to Order"
    }
@@ -26369,8 +26376,8 @@
    "properties": {
     "name": "6A GRACE STREET ESSENDON NORTH 3041",
     "locID": "LOC000151632323",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425083732",
     "tech_change_status": "Eligible to Order"
    }
@@ -26639,10 +26646,9 @@
    "properties": {
     "name": "19A DUDLEY STREET ESSENDON NORTH 3041",
     "locID": "LOC000151624992",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425246499",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425246499"
    }
   },
   {
@@ -26761,10 +26767,9 @@
    "properties": {
     "name": "UNIT 2, 3 PRINCE STREET ESSENDON NORTH 3041",
     "locID": "LOC000151625521",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425318416",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425318416"
    }
   },
   {
@@ -28825,8 +28830,8 @@
    "properties": {
     "name": "UNIT 12, 2 GILLIES STREET ESSENDON NORTH 3041",
     "locID": "LOC000033517655",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425578509",
     "tech_change_status": "Eligible to Order"
    }
