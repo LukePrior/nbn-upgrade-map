@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-16T08:16:29.761847",
+ "generated": "2025-11-06T17:43:24.949834",
  "suburb": "HUNTINGDALE",
  "features": [
   {
@@ -497,8 +497,8 @@
    "properties": {
     "name": "UNIT 2, 3 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000042160926",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411624611",
     "tech_change_status": "Eligible to Order"
    }
@@ -972,8 +972,8 @@
    "properties": {
     "name": "UNIT 1, 30 CLIFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000013665222",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413702201",
     "tech_change_status": "Eligible to Order"
    }
@@ -1184,10 +1184,27 @@
    "properties": {
     "name": "1283 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000046428575",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413710809",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10447831,
+     -37.91147311
+    ]
+   },
+   "properties": {
+    "name": "1293 NORTH ROAD HUNTINGDALE 3166",
+    "locID": "LOC000087228999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413710811"
    }
   },
   {
@@ -1360,8 +1377,8 @@
    "properties": {
     "name": "244 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000041484236",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413716057",
     "tech_change_status": "Eligible to Order"
    }
@@ -1624,8 +1641,8 @@
    "properties": {
     "name": "1327 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000123800772",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413725077",
     "tech_change_status": "Eligible to Order"
    }
@@ -1781,8 +1798,8 @@
    "properties": {
     "name": "70 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000020456866",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413741949",
     "tech_change_status": "Eligible to Order"
    }
@@ -1799,8 +1816,8 @@
    "properties": {
     "name": "44-60 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000107921782",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413741951",
     "tech_change_status": "Eligible to Order"
    }
@@ -1993,8 +2010,8 @@
    "properties": {
     "name": "68 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000021949358",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419651872",
     "tech_change_status": "Eligible to Order"
    }
@@ -2168,10 +2185,9 @@
    "properties": {
     "name": "19 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000048558986",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419659463",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419659463"
    }
   },
   {
@@ -2257,8 +2273,8 @@
    "properties": {
     "name": "3 HUME STREET HUNTINGDALE 3166",
     "locID": "LOC000088838670",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419664340",
     "tech_change_status": "Eligible to Order"
    }
@@ -2275,10 +2291,9 @@
    "properties": {
     "name": "6 HUME STREET HUNTINGDALE 3166",
     "locID": "LOC000174434498",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC419664529",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419664529"
    }
   },
   {
@@ -2486,10 +2501,10 @@
    "properties": {
     "name": "65 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000070417828",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419666315",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2522,8 +2537,8 @@
    "properties": {
     "name": "21 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000002849900",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419667854",
     "tech_change_status": "Eligible to Order"
    }
@@ -2558,8 +2573,8 @@
    "properties": {
     "name": "11 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000012090215",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419667917",
     "tech_change_status": "Eligible to Order"
    }
@@ -2576,10 +2591,9 @@
    "properties": {
     "name": "23 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000081910627",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419667919",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419667919"
    }
   },
   {
@@ -3033,8 +3047,8 @@
    "properties": {
     "name": "35 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000070286804",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419676665",
     "tech_change_status": "Eligible to Order"
    }
@@ -3103,10 +3117,9 @@
    "properties": {
     "name": "6 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000096401637",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419677068",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419677068"
    }
   },
   {
@@ -3138,8 +3151,8 @@
    "properties": {
     "name": "11 MORTIMER STREET HUNTINGDALE 3166",
     "locID": "LOC000008423516",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419682831",
     "tech_change_status": "Eligible to Order"
    }
@@ -3149,8 +3162,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10684,
-     -37.903625
+     145.10681497,
+     -37.90362196
     ]
    },
    "properties": {
@@ -3244,8 +3257,8 @@
    "properties": {
     "name": "40 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000076164243",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419683689",
     "tech_change_status": "Eligible to Order"
    }
@@ -3262,8 +3275,8 @@
    "properties": {
     "name": "54 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000086202609",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419683690",
     "tech_change_status": "Eligible to Order"
    }
@@ -3325,8 +3338,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -3431,8 +3444,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -3526,8 +3539,8 @@
    "properties": {
     "name": "UNIT 1, 69 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000030959940",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419754338",
     "tech_change_status": "Eligible to Order"
    }
@@ -3669,8 +3682,8 @@
    "properties": {
     "name": "36 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000073934974",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419953083",
     "tech_change_status": "Eligible to Order"
    }
@@ -3721,8 +3734,8 @@
    "properties": {
     "name": "23 HUME STREET HUNTINGDALE 3166",
     "locID": "LOC000097243128",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419957705",
     "tech_change_status": "Eligible to Order"
    }
@@ -3767,8 +3780,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.108693,
-     -37.90854
+     145.10873234,
+     -37.90854213
     ]
    },
    "properties": {
@@ -3791,8 +3804,8 @@
    "properties": {
     "name": "25 HUME STREET HUNTINGDALE 3166",
     "locID": "LOC000070700349",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419960474",
     "tech_change_status": "Eligible to Order"
    }
@@ -3845,8 +3858,8 @@
    "properties": {
     "name": "240B HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000115676220",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419960482",
     "tech_change_status": "Eligible to Order"
    }
@@ -3880,8 +3893,8 @@
    "properties": {
     "name": "256-262 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000059734217",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419960484",
     "tech_change_status": "Eligible to Order"
    }
@@ -3934,10 +3947,9 @@
    "properties": {
     "name": "9 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000032793386",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419961199",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419961199"
    }
   },
   {
@@ -4023,8 +4035,8 @@
    "properties": {
     "name": "14 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000105856276",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419965238",
     "tech_change_status": "Eligible to Order"
    }
@@ -4128,8 +4140,8 @@
    "properties": {
     "name": "53 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000050253727",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419965244",
     "tech_change_status": "Eligible to Order"
    }
@@ -4286,10 +4298,9 @@
    "properties": {
     "name": "33 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000089724482",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419966886",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419966886"
    }
   },
   {
@@ -4340,8 +4351,8 @@
    "properties": {
     "name": "52 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000104771854",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419966889",
     "tech_change_status": "Eligible to Order"
    }
@@ -4622,8 +4633,8 @@
    "properties": {
     "name": "1317 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000123800772",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419975852",
     "tech_change_status": "Eligible to Order"
    }
@@ -4657,8 +4668,8 @@
    "properties": {
     "name": "36 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000078996045",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419975890",
     "tech_change_status": "Eligible to Order"
    }
@@ -4710,8 +4721,8 @@
    "properties": {
     "name": "10 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000068047708",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419976627",
     "tech_change_status": "Eligible to Order"
    }
@@ -4728,8 +4739,8 @@
    "properties": {
     "name": "12 STAFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000123796710",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419976967",
     "tech_change_status": "Eligible to Order"
    }
@@ -4816,8 +4827,8 @@
    "properties": {
     "name": "57 GREVILLE STREET HUNTINGDALE 3166",
     "locID": "LOC000109938465",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419977339",
     "tech_change_status": "Eligible to Order"
    }
@@ -4923,8 +4934,8 @@
    "properties": {
     "name": "8 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC100052169214",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419987017",
     "tech_change_status": "Eligible to Order"
    }
@@ -4958,8 +4969,8 @@
    "properties": {
     "name": "37 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000007711828",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419987019",
     "tech_change_status": "Eligible to Order"
    }
@@ -5115,8 +5126,8 @@
    "properties": {
     "name": "UNIT 2, 37 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000006070880",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420029609",
     "tech_change_status": "Eligible to Order"
    }
@@ -5133,8 +5144,8 @@
    "properties": {
     "name": "UNIT 1, 21 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000123829611",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420030030",
     "tech_change_status": "Eligible to Order"
    }
@@ -5363,9 +5374,9 @@
     "name": "15 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000174433975",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420237461",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5398,9 +5409,9 @@
     "name": "51 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000018545141",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420245248",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5449,8 +5460,8 @@
    "properties": {
     "name": "20 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000076060193",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420247035",
     "tech_change_status": "Eligible to Order"
    }
@@ -5819,8 +5830,8 @@
    "properties": {
     "name": "4 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000016911217",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420268819",
     "tech_change_status": "Eligible to Order"
    }
@@ -5837,10 +5848,9 @@
    "properties": {
     "name": "10 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000009743875",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420268820",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420268820"
    }
   },
   {
@@ -5944,8 +5954,8 @@
    "properties": {
     "name": "40 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000097001555",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420270083",
     "tech_change_status": "Eligible to Order"
    }
@@ -5962,8 +5972,8 @@
    "properties": {
     "name": "1 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000072726435",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420270115",
     "tech_change_status": "Eligible to Order"
    }
@@ -5997,8 +6007,8 @@
    "properties": {
     "name": "15 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000067814760",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420270117",
     "tech_change_status": "Eligible to Order"
    }
@@ -6069,8 +6079,8 @@
    "properties": {
     "name": "44 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000021013514",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420271545",
     "tech_change_status": "Eligible to Order"
    }
@@ -6158,8 +6168,8 @@
    "properties": {
     "name": "16 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000038938485",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420273564",
     "tech_change_status": "Eligible to Order"
    }
@@ -6176,8 +6186,8 @@
    "properties": {
     "name": "17 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000079034101",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420273565",
     "tech_change_status": "Eligible to Order"
    }
@@ -6211,8 +6221,8 @@
    "properties": {
     "name": "23 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000048354152",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420273567",
     "tech_change_status": "Eligible to Order"
    }
@@ -6350,8 +6360,8 @@
    "properties": {
     "name": "204 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000068520207",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420275975",
     "tech_change_status": "Eligible to Order"
    }
@@ -6562,10 +6572,10 @@
    "properties": {
     "name": "15 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000065507537",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420278035",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6580,8 +6590,8 @@
    "properties": {
     "name": "16 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000003494637",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420278036",
     "tech_change_status": "Eligible to Order"
    }
@@ -6634,8 +6644,8 @@
    "properties": {
     "name": "24 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000088819916",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420283300",
     "tech_change_status": "Eligible to Order"
    }
@@ -6784,8 +6794,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -6970,8 +6980,8 @@
    "properties": {
     "name": "38B STAFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000073633210",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420354916",
     "tech_change_status": "Eligible to Order"
    }
@@ -7073,8 +7083,8 @@
    "properties": {
     "name": "1 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000103918269",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420392590",
     "tech_change_status": "Eligible to Order"
    }
@@ -7109,8 +7119,8 @@
    "properties": {
     "name": "UNIT 2, 216 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000102475790",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420398592",
     "tech_change_status": "Eligible to Order"
    }
@@ -7356,8 +7366,8 @@
    "properties": {
     "name": "41 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000022792317",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420567732",
     "tech_change_status": "Eligible to Order"
    }
@@ -7374,8 +7384,8 @@
    "properties": {
     "name": "45 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000062453155",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420567733",
     "tech_change_status": "Eligible to Order"
    }
@@ -7463,8 +7473,8 @@
    "properties": {
     "name": "278A HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000091383796",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420569639",
     "tech_change_status": "Eligible to Order"
    }
@@ -7499,8 +7509,8 @@
    "properties": {
     "name": "9 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000104578386",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420570289",
     "tech_change_status": "Eligible to Order"
    }
@@ -7517,8 +7527,8 @@
    "properties": {
     "name": "23 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000021058194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420570290",
     "tech_change_status": "Eligible to Order"
    }
@@ -7552,8 +7562,8 @@
    "properties": {
     "name": "50 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000048543601",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420570292",
     "tech_change_status": "Eligible to Order"
    }
@@ -7623,8 +7633,8 @@
    "properties": {
     "name": "7 HUME STREET HUNTINGDALE 3166",
     "locID": "LOC000036772579",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420572055",
     "tech_change_status": "Eligible to Order"
    }
@@ -7659,8 +7669,8 @@
    "properties": {
     "name": "280 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000044641754",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420573150",
     "tech_change_status": "Eligible to Order"
    }
@@ -7677,8 +7687,8 @@
    "properties": {
     "name": "280A HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000044689343",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420573151",
     "tech_change_status": "Eligible to Order"
    }
@@ -7695,8 +7705,8 @@
    "properties": {
     "name": "282A HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000007064780",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420573152",
     "tech_change_status": "Eligible to Order"
    }
@@ -7713,8 +7723,8 @@
    "properties": {
     "name": "33 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000079506094",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420573630",
     "tech_change_status": "Eligible to Order"
    }
@@ -7748,8 +7758,8 @@
    "properties": {
     "name": "1295 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000056188549",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420574768",
     "tech_change_status": "Eligible to Order"
    }
@@ -7906,8 +7916,8 @@
    "properties": {
     "name": "44 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000018493992",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420575732",
     "tech_change_status": "Eligible to Order"
    }
@@ -8102,8 +8112,8 @@
    "properties": {
     "name": "12 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000071848865",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420577659",
     "tech_change_status": "Eligible to Order"
    }
@@ -8329,10 +8339,9 @@
    "properties": {
     "name": "29 STAFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000104662556",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420581440",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420581440"
    }
   },
   {
@@ -8364,8 +8373,8 @@
    "properties": {
     "name": "2 GREVILLE STREET HUNTINGDALE 3166",
     "locID": "LOC000101033883",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420582514",
     "tech_change_status": "Eligible to Order"
    }
@@ -8417,8 +8426,8 @@
    "properties": {
     "name": "14 MORTIMER STREET HUNTINGDALE 3166",
     "locID": "LOC000064393252",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420592142",
     "tech_change_status": "Eligible to Order"
    }
@@ -8738,10 +8747,9 @@
    "properties": {
     "name": "2 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000015089620",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420704734",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420704734"
    }
   },
   {
@@ -8808,8 +8816,8 @@
    "properties": {
     "name": "UNIT 2, 6 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000045451490",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420834484",
     "tech_change_status": "Eligible to Order"
    }
@@ -8844,8 +8852,8 @@
    "properties": {
     "name": "11 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000095168498",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420865329",
     "tech_change_status": "Eligible to Order"
    }
@@ -8891,8 +8899,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.107003,
-     -37.906133
+     145.10700575,
+     -37.90613456
     ]
    },
    "properties": {
@@ -8925,8 +8933,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.107793,
-     -37.905939
+     145.10781334,
+     -37.90576974
     ]
    },
    "properties": {
@@ -9122,8 +9130,8 @@
    "properties": {
     "name": "272 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000032136652",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420873350",
     "tech_change_status": "Eligible to Order"
    }
@@ -9387,10 +9395,9 @@
    "properties": {
     "name": "38 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000042680575",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420877673",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420877673"
    }
   },
   {
@@ -9563,8 +9570,8 @@
    "properties": {
     "name": "21 MORTIMER STREET HUNTINGDALE 3166",
     "locID": "LOC000026849704",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420887538",
     "tech_change_status": "Eligible to Order"
    }
@@ -9633,8 +9640,8 @@
    "properties": {
     "name": "1297 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000032894553",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420887900",
     "tech_change_status": "Eligible to Order"
    }
@@ -9686,8 +9693,8 @@
    "properties": {
     "name": "18 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000065572150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420893301",
     "tech_change_status": "Eligible to Order"
    }
@@ -9704,8 +9711,8 @@
    "properties": {
     "name": "46 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000099110043",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420893302",
     "tech_change_status": "Eligible to Order"
    }
@@ -9739,8 +9746,8 @@
    "properties": {
     "name": "7 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000050237755",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420893338",
     "tech_change_status": "Eligible to Order"
    }
@@ -9844,8 +9851,8 @@
    "properties": {
     "name": "9 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000077373115",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420897448",
     "tech_change_status": "Eligible to Order"
    }
@@ -9986,8 +9993,8 @@
    "properties": {
     "name": "27 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000098082132",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420900967",
     "tech_change_status": "Eligible to Order"
    }
@@ -10022,10 +10029,10 @@
    "properties": {
     "name": "34 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000105894457",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420900969",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10103,8 +10110,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -10121,8 +10128,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -10357,8 +10364,8 @@
    "properties": {
     "name": "21 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000123829611",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420991412",
     "tech_change_status": "Eligible to Order"
    }
@@ -10516,8 +10523,8 @@
    "properties": {
     "name": "45 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000100059467",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421166925",
     "tech_change_status": "Eligible to Order"
    }
@@ -10705,10 +10712,9 @@
    "properties": {
     "name": "54 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000083905478",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421174319",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421174319"
    }
   },
   {
@@ -10794,8 +10800,8 @@
    "properties": {
     "name": "51 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000091869355",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421179595",
     "tech_change_status": "Eligible to Order"
    }
@@ -10864,8 +10870,8 @@
    "properties": {
     "name": "15 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000013040592",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421181730",
     "tech_change_status": "Eligible to Order"
    }
@@ -10971,8 +10977,8 @@
    "properties": {
     "name": "17 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000042745308",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421184542",
     "tech_change_status": "Eligible to Order"
    }
@@ -11023,8 +11029,8 @@
    "properties": {
     "name": "24 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000018483686",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421184545",
     "tech_change_status": "Eligible to Order"
    }
@@ -11059,10 +11065,9 @@
    "properties": {
     "name": "34 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000002774542",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421184547",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421184547"
    }
   },
   {
@@ -11128,8 +11133,8 @@
    "properties": {
     "name": "43 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000082322886",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421184551",
     "tech_change_status": "Eligible to Order"
    }
@@ -11322,8 +11327,8 @@
    "properties": {
     "name": "240A HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000115676212",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421189649",
     "tech_change_status": "Eligible to Order"
    }
@@ -11428,8 +11433,8 @@
    "properties": {
     "name": "13 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000070120478",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421191328",
     "tech_change_status": "Eligible to Order"
    }
@@ -11446,8 +11451,8 @@
    "properties": {
     "name": "14 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000020303352",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421191329",
     "tech_change_status": "Eligible to Order"
    }
@@ -11481,8 +11486,8 @@
    "properties": {
     "name": "13 HARGREAVES STREET HUNTINGDALE 3166",
     "locID": "LOC000062442739",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421191412",
     "tech_change_status": "Eligible to Order"
    }
@@ -11551,8 +11556,8 @@
    "properties": {
     "name": "22 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000083253144",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421192136",
     "tech_change_status": "Eligible to Order"
    }
@@ -11603,8 +11608,8 @@
    "properties": {
     "name": "29 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000093943152",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421192139",
     "tech_change_status": "Eligible to Order"
    }
@@ -11709,8 +11714,8 @@
    "properties": {
     "name": "44 GREVILLE STREET HUNTINGDALE 3166",
     "locID": "LOC000032756322",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421193329",
     "tech_change_status": "Eligible to Order"
    }
@@ -11849,8 +11854,8 @@
    "properties": {
     "name": "21A SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000089962899",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421196013",
     "tech_change_status": "Eligible to Order"
    }
@@ -11971,8 +11976,8 @@
    "properties": {
     "name": "19 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000062696784",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421202378",
     "tech_change_status": "Eligible to Order"
    }
@@ -12061,10 +12066,9 @@
    "properties": {
     "name": "45 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000061800143",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421202398",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421202398"
    }
   },
   {
@@ -12079,8 +12083,8 @@
    "properties": {
     "name": "12 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000098826478",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421205755",
     "tech_change_status": "Eligible to Order"
    }
@@ -12148,8 +12152,8 @@
    "properties": {
     "name": "UNIT 1, 1 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000103918269",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421235532",
     "tech_change_status": "Eligible to Order"
    }
@@ -12570,8 +12574,8 @@
    "properties": {
     "name": "20 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000085404493",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421425907",
     "tech_change_status": "Eligible to Order"
    }
@@ -12833,8 +12837,8 @@
    "properties": {
     "name": "19 GREVILLE STREET HUNTINGDALE 3166",
     "locID": "LOC000081566872",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421440338",
     "tech_change_status": "Eligible to Order"
    }
@@ -12905,8 +12909,8 @@
    "properties": {
     "name": "19 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000066051243",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421448235",
     "tech_change_status": "Eligible to Order"
    }
@@ -13009,8 +13013,8 @@
    "properties": {
     "name": "38 GREVILLE STREET HUNTINGDALE 3166",
     "locID": "LOC000005223396",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421455433",
     "tech_change_status": "Eligible to Order"
    }
@@ -13107,8 +13111,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.107695,
-     -37.904459
+     145.10770857,
+     -37.90445596
     ]
    },
    "properties": {
@@ -13166,8 +13170,8 @@
    "properties": {
     "name": "15 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000087600102",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421462654",
     "tech_change_status": "Eligible to Order"
    }
@@ -13546,8 +13550,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -13640,8 +13644,8 @@
    "properties": {
     "name": "28 CLIFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000039544907",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421520443",
     "tech_change_status": "Eligible to Order"
    }
@@ -13658,8 +13662,8 @@
    "properties": {
     "name": "1 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000056188680",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421520444",
     "tech_change_status": "Eligible to Order"
    }
@@ -13797,8 +13801,8 @@
    "properties": {
     "name": "42 VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000002842295",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421525912",
     "tech_change_status": "Eligible to Order"
    }
@@ -13815,8 +13819,8 @@
    "properties": {
     "name": "3 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000042160926",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421526443",
     "tech_change_status": "Eligible to Order"
    }
@@ -13869,10 +13873,9 @@
    "properties": {
     "name": "54 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000063478889",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421531844",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421531844"
    }
   },
   {
@@ -13957,8 +13960,8 @@
    "properties": {
     "name": "UNIT 1, 1 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000056188680",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421555589",
     "tech_change_status": "Eligible to Order"
    }
@@ -14165,15 +14168,15 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10661933,
-     -37.91015965
+     145.10661368,
+     -37.91015328
     ]
    },
    "properties": {
     "name": "27 STAFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000026937791",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421614378",
     "tech_change_status": "Eligible to Order"
    }
@@ -14190,8 +14193,8 @@
    "properties": {
     "name": "69 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000030959940",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421630267",
     "tech_change_status": "Eligible to Order"
    }
@@ -14349,8 +14352,8 @@
    "properties": {
     "name": "12 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000036578357",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421771972",
     "tech_change_status": "Eligible to Order"
    }
@@ -14384,8 +14387,8 @@
    "properties": {
     "name": "32 LEIGH STREET HUNTINGDALE 3166",
     "locID": "LOC000089001654",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421771975",
     "tech_change_status": "Eligible to Order"
    }
@@ -14574,8 +14577,8 @@
    "properties": {
     "name": "67 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000023677554",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421782729",
     "tech_change_status": "Eligible to Order"
    }
@@ -14610,8 +14613,8 @@
    "properties": {
     "name": "32 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000047973212",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421782877",
     "tech_change_status": "Eligible to Order"
    }
@@ -14663,8 +14666,8 @@
    "properties": {
     "name": "49 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000063590667",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421785343",
     "tech_change_status": "Eligible to Order"
    }
@@ -14691,8 +14694,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -14709,8 +14712,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -14727,8 +14730,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.104425,
-     -37.907344
+     145.10442502,
+     -37.9073395
     ]
    },
    "properties": {
@@ -14755,7 +14758,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421792664",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -14965,8 +14968,8 @@
    "properties": {
     "name": "12 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000094342471",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421803701",
     "tech_change_status": "Eligible to Order"
    }
@@ -15141,8 +15144,8 @@
    "properties": {
     "name": "18 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000091641063",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421804336",
     "tech_change_status": "Eligible to Order"
    }
@@ -15176,8 +15179,8 @@
    "properties": {
     "name": "60 SHAFTON STREET HUNTINGDALE 3166",
     "locID": "LOC000007988320",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421807157",
     "tech_change_status": "Eligible to Order"
    }
@@ -15232,7 +15235,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421818204",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15388,8 +15391,8 @@
    "properties": {
     "name": "20 CLIFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000115676208",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421825182",
     "tech_change_status": "Eligible to Order"
    }
@@ -15406,8 +15409,8 @@
    "properties": {
     "name": "5 BEAUFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000018640733",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421825360",
     "tech_change_status": "Eligible to Order"
    }
@@ -15442,8 +15445,8 @@
    "properties": {
     "name": "UNIT 2, 21 FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000123829611",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421830175",
     "tech_change_status": "Eligible to Order"
    }
@@ -15514,10 +15517,9 @@
    "properties": {
     "name": "UNIT 2, 2 ROSS STREET HUNTINGDALE 3166",
     "locID": "LOC000015089620",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421881409",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421881409"
    }
   },
   {
@@ -15602,8 +15604,8 @@
    "properties": {
     "name": "216 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000102475790",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421894979",
     "tech_change_status": "Eligible to Order"
    }
@@ -15620,8 +15622,8 @@
    "properties": {
     "name": "UNIT 1, 216 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000102475790",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421905642",
     "tech_change_status": "Eligible to Order"
    }
@@ -16006,8 +16008,8 @@
    "properties": {
     "name": "UNIT 10, 220 HUNTINGDALE ROAD HUNTINGDALE 3166",
     "locID": "LOC000035899392",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423360147",
     "tech_change_status": "Eligible to Order"
    }
@@ -16071,8 +16073,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.112858,
-     -37.910256
+     145.11274062,
+     -37.91081298
     ]
    },
    "properties": {
@@ -16115,23 +16117,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423507249"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.104565,
-     -37.910293
-    ]
-   },
-   "properties": {
-    "name": "4-42 STAFFORD STREET HUNTINGDALE 3166",
-    "locID": "LOC000185212727",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423511537"
    }
   },
   {
@@ -16427,8 +16412,8 @@
    "properties": {
     "name": "1572 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000006041480",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423703567",
     "tech_change_status": "Eligible to Order"
    }
@@ -16519,7 +16504,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423703572",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16534,8 +16519,8 @@
    "properties": {
     "name": "1584 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000112839955",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423703573",
     "tech_change_status": "Eligible to Order"
    }
@@ -16589,9 +16574,9 @@
     "name": "1590 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000089622812",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423703576",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16694,10 +16679,9 @@
    "properties": {
     "name": "1602 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000042164042",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423703583",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423703583"
    }
   },
   {
@@ -16712,10 +16696,9 @@
    "properties": {
     "name": "1604 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000058236161",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423703584",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423703584"
    }
   },
   {
@@ -17901,8 +17884,8 @@
    "properties": {
     "name": "1317-1327 NORTH ROAD HUNTINGDALE 3166",
     "locID": "LOC000123800772",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423756264",
     "tech_change_status": "Eligible to Order"
    }
@@ -17955,10 +17938,10 @@
    "properties": {
     "name": "23A STAFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000007933812",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423943202",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -18029,6 +18012,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424240208",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10447831,
+     -37.91147311
+    ]
+   },
+   "properties": {
+    "name": "1291-1293 NORTH ROAD HUNTINGDALE 3166",
+    "locID": "LOC000087228999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424243738"
    }
   },
   {
@@ -18587,8 +18587,8 @@
    "properties": {
     "name": "UNIT 1, 20 CLIFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000115676208",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424713995",
     "tech_change_status": "Eligible to Order"
    }
@@ -18605,8 +18605,8 @@
    "properties": {
     "name": "UNIT 2, 20 CLIFFORD STREET HUNTINGDALE 3166",
     "locID": "LOC000115676208",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424713996",
     "tech_change_status": "Eligible to Order"
    }
@@ -18677,8 +18677,8 @@
    "properties": {
     "name": "UNIT 1, 1584 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000112839955",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424796997",
     "tech_change_status": "Eligible to Order"
    }
@@ -18695,8 +18695,8 @@
    "properties": {
     "name": "UNIT 2, 1584 DANDENONG ROAD HUNTINGDALE 3166",
     "locID": "LOC000112839955",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424796998",
     "tech_change_status": "Eligible to Order"
    }
@@ -18979,9 +18979,9 @@
     "name": "UNIT 2, 15 BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000174433975",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425155664",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -19088,24 +19088,6 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425530815",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.104206,
-     -37.910991
-    ]
-   },
-   "properties": {
-    "name": "2-46 HUME STREET HUNTINGDALE 3166",
-    "locID": "LOC000014318413",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425703101",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -19243,8 +19225,8 @@
    "properties": {
     "name": "7 WORCESTER STREET HUNTINGDALE 3166",
     "locID": "LOC000174434759",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425790948",
     "tech_change_status": "Eligible to Order"
    }
@@ -19331,8 +19313,8 @@
    "properties": {
     "name": "30A FENTON STREET HUNTINGDALE 3166",
     "locID": "LOC000174434106",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719004236",
     "tech_change_status": "Eligible to Order"
    }
@@ -19349,8 +19331,8 @@
    "properties": {
     "name": "11B VERNON STREET HUNTINGDALE 3166",
     "locID": "LOC000174434744",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719102001",
     "tech_change_status": "Eligible to Order"
    }
@@ -19387,24 +19369,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719121434"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.1050653,
-     -37.90962272
-    ]
-   },
-   "properties": {
-    "name": "9-11 STAFFORD STREET HUNTINGDALE 3166",
-    "locID": "LOC000003865692",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719215485",
-    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19505,10 +19469,9 @@
    "properties": {
     "name": "41C BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000174433999",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719507380",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719507380"
    }
   },
   {
@@ -19523,10 +19486,9 @@
    "properties": {
     "name": "41B BERKELEY STREET HUNTINGDALE 3166",
     "locID": "LOC000174434008",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719510498",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719510498"
    }
   },
   {
@@ -20897,8 +20859,8 @@
    "properties": {
     "name": "16 GARNETT STREET HUNTINGDALE 3166",
     "locID": "LOC000174434229",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721369449",
     "tech_change_status": "Eligible to Order"
    }
@@ -21010,8 +20972,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10738488,
-     -37.90442241
+     145.10738483,
+     -37.9044223
     ]
    },
    "properties": {
@@ -21028,7 +20990,7 @@
     "type": "Point",
     "coordinates": [
      145.10751893,
-     -37.90443719
+     -37.90443702
     ]
    },
    "properties": {
@@ -21072,6 +21034,516 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC721563484",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11275831,
+     -37.91040854
+    ]
+   },
+   "properties": {
+    "name": "13 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923472",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721697380"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11236106,
+     -37.90971692
+    ]
+   },
+   "properties": {
+    "name": "10 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714917",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721697810"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11197857,
+     -37.90967223
+    ]
+   },
+   "properties": {
+    "name": "16 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714940",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721698420"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.1127782,
+     -37.91030166
+    ]
+   },
+   "properties": {
+    "name": "9 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923312",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721698463"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11250151,
+     -37.90973333
+    ]
+   },
+   "properties": {
+    "name": "8 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714901",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721698490"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11210511,
+     -37.90968702
+    ]
+   },
+   "properties": {
+    "name": "14 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714938",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721698763"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11185469,
+     -37.90965776
+    ]
+   },
+   "properties": {
+    "name": "18 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714955",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721698915"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11152986,
+     -37.90971419
+    ]
+   },
+   "properties": {
+    "name": "19 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714858",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721699013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.1115112,
+     -37.90981445
+    ]
+   },
+   "properties": {
+    "name": "17 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714862",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721699035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10598015,
+     -37.90381401
+    ]
+   },
+   "properties": {
+    "name": "6A MORTIMER STREET HUNTINGDALE 3166",
+    "locID": "LOC000194785894",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721701849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11271515,
+     -37.90984367
+    ]
+   },
+   "properties": {
+    "name": "3 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195715052",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721702121"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11257448,
+     -37.90982724
+    ]
+   },
+   "properties": {
+    "name": "5 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195715047",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721702389"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11278815,
+     -37.91024822
+    ]
+   },
+   "properties": {
+    "name": "7 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923308",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721703465"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11274837,
+     -37.91046199
+    ]
+   },
+   "properties": {
+    "name": "15 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923464",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721704064"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11275746,
+     -37.90976323
+    ]
+   },
+   "properties": {
+    "name": "4 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714889",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721704804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11276826,
+     -37.9103551
+    ]
+   },
+   "properties": {
+    "name": "11 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923486",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721705264"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11229081,
+     -37.9097941
+    ]
+   },
+   "properties": {
+    "name": "9 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195715010",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721705745"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11285398,
+     -37.91011207
+    ]
+   },
+   "properties": {
+    "name": "3 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923308",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721705981"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11289277,
+     -37.90977903
+    ]
+   },
+   "properties": {
+    "name": "2 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714870",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721707045"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.1122288,
+     -37.90970147
+    ]
+   },
+   "properties": {
+    "name": "12 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714929",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721707375"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11243083,
+     -37.90981046
+    ]
+   },
+   "properties": {
+    "name": "7 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195715023",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721707733"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11154852,
+     -37.90961393
+    ]
+   },
+   "properties": {
+    "name": "21 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714843",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721708415"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11157177,
+     -37.90948901
+    ]
+   },
+   "properties": {
+    "name": "23 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714827",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721708463"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11263339,
+     -37.90974873
+    ]
+   },
+   "properties": {
+    "name": "6 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714891",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721709225"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11185776,
+     -37.90974351
+    ]
+   },
+   "properties": {
+    "name": "15 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714964",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721709720"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10608677,
+     -37.90382582
+    ]
+   },
+   "properties": {
+    "name": "6B MORTIMER STREET HUNTINGDALE 3166",
+    "locID": "LOC000194785904",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721709748"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11201137,
+     -37.90976145
+    ]
+   },
+   "properties": {
+    "name": "13 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714986",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721709790"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11286716,
+     -37.90986143
+    ]
+   },
+   "properties": {
+    "name": "1 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195715068",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721710925"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11215571,
+     -37.90977832
+    ]
+   },
+   "properties": {
+    "name": "11 ASSEMBLY CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195714993",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721712296"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.1127384,
+     -37.91051552
+    ]
+   },
+   "properties": {
+    "name": "17 DISTRIBUTION CIRCUIT HUNTINGDALE 3166",
+    "locID": "LOC000195923455",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721712414"
    }
   }
  ]
