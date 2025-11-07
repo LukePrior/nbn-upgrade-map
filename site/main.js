@@ -272,6 +272,9 @@ function getDotType(tech, upgrade, date, status, generated) {
     return dotTypes.Unknown;
 }
 
+// Global variable to store current PixiOverlay layer
+var currentPixiLayer = null;
+
 // load GeoJSON from an external file
 function loadSuburb(state_file, commit, first_load=false) {
     if (state_file == "") {
@@ -286,79 +289,110 @@ function loadSuburb(state_file, commit, first_load=false) {
     fetch(url).then(res => res.json()).then(data => {
         // Update site description
         updateSiteDetailed(default_suburb, default_state, data);
-        // clear existing markers
-        map.eachLayer(function (layer) {
-            if (layer instanceof L.MarkerClusterGroup) {
-                map.removeLayer(layer);
-            }
-        });
-        var markers = L.markerClusterGroup({
-            chunkedLoading: true,
-            chunkInterval: 100,
-            chunkDelay: 20,
-            showCoverageOnHover: false,
-            zoomToBoundsOnClick: false,
-            maxClusterRadius: 0,
-            iconCreateFunction: function(cluster) {
-                children = cluster.getAllChildMarkers();
-                var colours = [];
-
-                for (var child of children) {
-                    colours.push(child.options.fillColor);
-                }
-
-                var color = colours.sort((a, b) =>
-                    colours.filter(v => v === a).length
-                    - colours.filter(v => v === b).length
-                ).pop();
-
-                return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
-            }
-        });
-        markers.on('clustermouseover', function (a) {
-            if (map.getZoom() > 17) {
-                a.layer.spiderfy();
-            }
-        });
-        // add circle marker for each feature
+        
+        // clear existing PixiOverlay layer
+        if (currentPixiLayer) {
+            map.removeLayer(currentPixiLayer);
+            currentPixiLayer = null;
+        }
+        
+        // Prepare marker data and bounds
+        var markers = [];
         var foundDotTypes = new Set();
-        var geojson = L.geoJson(data, {
-            pointToLayer: function (feature, latlng) {
-                var dotType = getDotType(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
-                foundDotTypes.add(dotType);
-                return L.circleMarker(latlng, {
-                    radius: 5,
-                    fillColor: dotType.colour,
-                    color: "#000000",
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.8
-                });
-            },
-            onEachFeature: function (feature, layer) {
-                // popup with place name and upgrade type
-                var s = "<b>" + feature.properties.name + " (" + default_state + ")</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech
-                // legacy FTTP upgrade pre November 2023
-                if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP" && (feature.properties.tech == "FTTN" || feature.properties.tech == "FTTC")) {
-                    s += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : "No"))
-                }
-                if ("tech_change_status" in feature.properties) {
-                    s += "<br>Tech Change Status: " + feature.properties.tech_change_status
-                    if ("upgrade" in feature.properties && feature.properties.upgrade != "NULL_NA") {
-                        s += " (" + feature.properties.upgrade.split("_")[0] + ")"
-                    }
-                }
-                if ("program_type" in feature.properties) {
-                    s += "<br>Program Type: " + feature.properties.program_type
-                }
-                if ("target_eligibility_quarter" in feature.properties) {
-                    s += "<br>Target Eligibility Quarter: " + feature.properties.target_eligibility_quarter
-                }
-
-                layer.bindPopup(s);
+        var bounds = L.latLngBounds();
+        
+        data.features.forEach(function(feature) {
+            var dotType = getDotType(
+                feature.properties.tech, 
+                feature.properties.upgrade, 
+                feature.properties.target_eligibility_quarter, 
+                feature.properties.tech_change_status, 
+                data.generated
+            );
+            foundDotTypes.add(dotType);
+            
+            var coords = feature.geometry.coordinates;
+            var latlng = L.latLng(coords[1], coords[0]);
+            bounds.extend(latlng);
+            
+            // Create popup content
+            var popupContent = "<b>" + feature.properties.name + " (" + default_state + ")</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech;
+            // legacy FTTP upgrade pre November 2023
+            if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP" && (feature.properties.tech == "FTTN" || feature.properties.tech == "FTTC")) {
+                popupContent += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : "No"));
             }
-        })
-
+            if ("tech_change_status" in feature.properties) {
+                popupContent += "<br>Tech Change Status: " + feature.properties.tech_change_status;
+                if ("upgrade" in feature.properties && feature.properties.upgrade != "NULL_NA") {
+                    popupContent += " (" + feature.properties.upgrade.split("_")[0] + ")";
+                }
+            }
+            if ("program_type" in feature.properties) {
+                popupContent += "<br>Program Type: " + feature.properties.program_type;
+            }
+            if ("target_eligibility_quarter" in feature.properties) {
+                popupContent += "<br>Target Eligibility Quarter: " + feature.properties.target_eligibility_quarter;
+            }
+            
+            markers.push({
+                latlng: latlng,
+                color: dotType.colour,
+                popup: popupContent
+            });
+        });
+        
+        // Create PixiOverlay
+        var pixiContainer = new PIXI.Container();
+        var markerGraphics = {};
+        
+        var pixiOverlay = L.pixiOverlay(function(utils) {
+            var container = utils.getContainer();
+            var renderer = utils.getRenderer();
+            var project = utils.latLngToLayerPoint;
+            var scale = utils.getScale();
+            
+            // Clear previous graphics
+            container.removeChildren();
+            markerGraphics = {};
+            
+            markers.forEach(function(marker, index) {
+                var coords = project(marker.latlng);
+                
+                // Create circle graphic
+                var circle = new PIXI.Graphics();
+                circle.lineStyle(1 / scale, 0x000000, 1);
+                circle.beginFill(parseInt(marker.color.replace('#', '0x')), 0.8);
+                circle.drawCircle(0, 0, 5 / scale);
+                circle.endFill();
+                
+                circle.x = coords.x;
+                circle.y = coords.y;
+                circle.interactive = true;
+                circle.buttonMode = true;
+                circle.hitArea = new PIXI.Circle(0, 0, 8 / scale);
+                
+                // Store reference for interaction
+                circle._markerId = index;
+                circle._markerData = marker;
+                
+                // Add click event for popup
+                circle.on('click', function(e) {
+                    L.popup()
+                        .setLatLng(marker.latlng)
+                        .setContent(marker.popup)
+                        .openOn(map);
+                });
+                
+                container.addChild(circle);
+                markerGraphics[index] = circle;
+            });
+            
+            renderer.render(container);
+        }, pixiContainer);
+        
+        currentPixiLayer = pixiOverlay;
+        pixiOverlay.addTo(map);
+        
         // add legend
         var legend = L.control({ position: 'bottomright' });
         legend.onAdd = function (map) {
@@ -385,8 +419,6 @@ function loadSuburb(state_file, commit, first_load=false) {
         }
         legend.addTo(map);
 
-        map.addLayer(markers);
-        markers.addLayer(geojson);
         // Create stats table
         var stats = L.control({ position: 'bottomright' });
         stats.onAdd = function (map) {
@@ -437,10 +469,10 @@ function loadSuburb(state_file, commit, first_load=false) {
 
         if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
             if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
-                map.fitBounds(geojson.getBounds());
+                map.fitBounds(bounds);
             }
         } else {
-            map.fitBounds(geojson.getBounds());
+            map.fitBounds(bounds);
         }
 
         // update url
