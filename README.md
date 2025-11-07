@@ -24,7 +24,7 @@ The results of these checks are stored in [GeoJSON](https://geojson.org/) files 
 
 ![GitHub Screenshot](resources/screenshot-2.png)
 
-To improve the user experience a simple site is available for viewing this data, the website uses Leaflet to display the selected data with colour coded markers and info popups containing additional information for each premise.
+To improve the user experience a simple site is available for viewing this data, the website uses Leaflet with PixiOverlay (WebGL-based rendering) to display the selected data with colour coded markers and info popups containing additional information for each premise. This approach provides significantly better performance compared to traditional DOM-based rendering, especially when displaying suburbs with thousands of addresses.
 
 The updating of data is performed with a GitHub Actions workflow that accepts a target suburb and will automatically fetch and publish all the data.
 
