@@ -233,7 +233,7 @@ function getDotType(tech, upgrade, date, status, generated) {
     }
 
     // Upgraded to FTTP but previous tech not yet disconnected
-    upgrade_type = upgrade.split("_")[0]
+    var upgrade_type = upgrade.split("_")[0]
     if (status == "New Tech Connected" && upgrade_type == "FTTP") {
         return dotTypes.FTTP;
     }
