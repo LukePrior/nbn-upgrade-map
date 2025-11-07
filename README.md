@@ -42,7 +42,7 @@ The map uses colour-coded markers to indicate the NBN technology type and FTTP u
 - **🟢 FTTP Upgrade (Medium Green)** - Address is eligible to order FTTP upgrade immediately
   - Conditions: tech_change_status = "Eligible To Order" AND current tech = FTTN or FTTC
 - **🟢 FTTP Upgrade Soon (Light Green)** - Address will be eligible for FTTP upgrade soon
-  - Conditions: 
+  - Conditions:
     - tech_change_status = "Build Finalised", "MDU Complex Eligible To Apply", or "MDU Complex Premises In Build" AND current tech = FTTN or FTTC, OR
     - target_eligibility_quarter is less than 3 months from the data generation date AND current tech = FTTN or FTTC, OR
     - Legacy records (pre-November 2023) with upgrade = "FTTP_NA"
