@@ -17,7 +17,7 @@ def iter_locid_coords(show_progress: bool = True) -> Iterable[Tuple[str, float, 
             props = f.get("properties", {})
             loc_id = props.get("locID")
             geom = f.get("geometry") or {}
-            coords = (geom.get("coordinates") or [None, None])
+            coords = geom.get("coordinates") or [None, None]
             if not loc_id:
                 continue
             if coords is None or len(coords) < 2 or coords[0] is None or coords[1] is None:

@@ -84,7 +84,7 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
         address.program_type = cached_fttp_address.program_type
         address.target_eligibility_quarter = cached_fttp_address.target_eligibility_quarter
         return address
-    
+
     try:
         if loc_id := GNAF_PID_TO_LOC.get(address.gnaf_pid):
             address.loc_id = loc_id
