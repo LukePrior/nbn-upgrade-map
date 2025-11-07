@@ -286,6 +286,9 @@ var MAX_CLUSTER_RADIUS = 15; // Maximum cluster radius
 var MIN_CLUSTER_FONT_SIZE = 8; // Minimum font size for cluster labels
 var BASE_CLUSTER_FONT_SIZE = 10; // Base font size for cluster labels
 var SPIDERFY_DISTANCE = 30; // Distance between spiderfied markers
+var MIN_SPIDER_POSITIONS = 8; // Minimum positions around circle for spiderfy
+var MARKERS_PER_RING = 8; // Number of markers per ring in spiral
+var RING_DISTANCE_MULTIPLIER = 0.5; // Distance multiplier for additional rings
 
 // Helper function to convert hex color to PIXI format
 function hexToPixiColor(hex) {
@@ -299,15 +302,20 @@ function hexToPixiColor(hex) {
     return parseInt(hex, 16);
 }
 
+// Helper function to create coordinate key for comparison
+function getCoordKey(latlng) {
+    return latlng.lat.toFixed(8) + ',' + latlng.lng.toFixed(8);
+}
+
 // Calculate spiral positions for spiderfied markers
 function calculateSpiderPositions(count, centerX, centerY, scale) {
     var positions = [];
     var distance = SPIDERFY_DISTANCE / scale;
-    var angleStep = (2 * Math.PI) / Math.max(count, 8); // Minimum 8 positions around circle
+    var angleStep = (2 * Math.PI) / Math.max(count, MIN_SPIDER_POSITIONS); // Minimum positions around circle
     
     for (var i = 0; i < count; i++) {
         var angle = i * angleStep;
-        var spiralFactor = 1 + Math.floor(i / 8) * 0.5; // Increase distance for additional rings
+        var spiralFactor = 1 + Math.floor(i / MARKERS_PER_RING) * RING_DISTANCE_MULTIPLIER; // Increase distance for additional rings
         positions.push({
             x: centerX + Math.cos(angle) * distance * spiralFactor,
             y: centerY + Math.sin(angle) * distance * spiralFactor
@@ -454,8 +462,7 @@ function loadSuburb(state_file, commit, first_load=false) {
             clusters.forEach(function(cluster, clusterIndex) {
                 // Check if this cluster is currently spiderfied
                 var isSpiderfied = spiderfiedCluster && 
-                                   spiderfiedCluster.latlng.lat === cluster.latlng.lat && 
-                                   spiderfiedCluster.latlng.lng === cluster.latlng.lng;
+                                   getCoordKey(spiderfiedCluster.latlng) === getCoordKey(cluster.latlng);
                 
                 if (cluster.markers.length === 1) {
                     // Single marker - render as individual
@@ -570,6 +577,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                         // Set this cluster as spiderfied
                         spiderfiedCluster = cluster;
                         // Force redraw to show spiderfied markers
+                        // Note: using utils.getMap() as map variable is not in scope here
                         utils.getMap().fire('moveend');
                     });
                     
