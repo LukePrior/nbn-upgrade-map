@@ -468,7 +468,8 @@ function loadSuburb(state_file, commit, first_load=false) {
                     
                     // Draw cluster circle
                     var clusterCircle = new PIXI.Graphics();
-                    var radius = Math.min(CLUSTER_RADIUS_BASE / scale, MAX_CLUSTER_RADIUS / scale);
+                    // Ensure radius stays within reasonable bounds as we zoom
+                    var radius = Math.max(CLUSTER_RADIUS_BASE / scale, MAX_CLUSTER_RADIUS / scale);
                     clusterCircle.lineStyle(1 / scale, 0x000000, 1);
                     clusterCircle.beginFill(hexToPixiColor(clusterColor), 0.8);
                     clusterCircle.drawCircle(0, 0, radius);
@@ -482,7 +483,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                     
                     // Add text showing count
                     var text = new PIXI.Text(cluster.markers.length.toString(), {
-                        fontSize: Math.max(MIN_CLUSTER_FONT_SIZE / scale, BASE_CLUSTER_FONT_SIZE),
+                        fontSize: Math.max(MIN_CLUSTER_FONT_SIZE, BASE_CLUSTER_FONT_SIZE / scale),
                         fill: 0x000000,
                         align: 'center'
                     });
