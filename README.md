@@ -1,5 +1,8 @@
 # NBN FTTP Upgrade Map
 
+[![Tests](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/test.yml/badge.svg)](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/test.yml)
+[![MegaLinter](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/mega-linter.yml/badge.svg)](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/mega-linter.yml)
+
 ![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
 ![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
 ![Updated](https://img.shields.io/badge/dynamic/json?label=Oldest%20Suburb&query=last_updated.all.TOTAL.days&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%20days)
