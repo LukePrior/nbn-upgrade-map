@@ -4,7 +4,7 @@ This is a cut-down version of the [minus34/gnaf-loader](https://github.com/minus
 
 ## What is this?
 
-The [NBN FTTP Upgrade Map](https://github.com/LukePrior/nbn-upgrade-map) project uses this database to check which Australian premises are eligible for NBN FTTP upgrades. This Docker image contains just the address data needed for the project, making it much smaller and faster to use.
+The [NBN FTTP Upgrade Map](https://github.com/LukePrior/nbn-upgrade-map) project uses this database to check which Australian premises are eligible for NBN Fibre to the Premises (FTTP) upgrades. This Docker image contains just the address data needed for the project, making it much smaller and faster to use.
 
 **Size comparison:**
 - Original gnaf-loader image: **32GB**
@@ -70,7 +70,7 @@ The image is built from the [nbn-upgrade-map repository](https://github.com/Luke
 
 ## Data Source
 
-The address data comes from the [Geocoded National Address File (GNAF)](https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf), an authoritative dataset of Australian addresses maintained by the Australian government.
+The address data comes from the [Geocoded National Address File (GNAF)](https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf), an authoritative dataset of Australian addresses maintained by the Australian government. The GNAF dataset is updated quarterly with new releases, and this Docker image is rebuilt to include the latest data when new versions are available.
 
 ## Related Projects
 
