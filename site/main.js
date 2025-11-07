@@ -275,6 +275,10 @@ function getDotType(tech, upgrade, date, status, generated) {
 // Global variable to store current PixiOverlay layer
 var currentPixiLayer = null;
 
+// Marker display constants
+var MARKER_RADIUS = 5;
+var MARKER_HIT_RADIUS = 8;
+
 // Helper function to convert hex color to PIXI format
 function hexToPixiColor(hex) {
     // Remove # if present
@@ -283,8 +287,8 @@ function hexToPixiColor(hex) {
     if (hex.length === 3) {
         hex = hex.split('').map(function(char) { return char + char; }).join('');
     }
-    // Convert to integer with 0x prefix
-    return parseInt('0x' + hex);
+    // Convert to integer using base 16
+    return parseInt(hex, 16);
 }
 
 // load GeoJSON from an external file
@@ -374,14 +378,14 @@ function loadSuburb(state_file, commit, first_load=false) {
                 var circle = new PIXI.Graphics();
                 circle.lineStyle(1 / scale, 0x000000, 1);
                 circle.beginFill(hexToPixiColor(marker.color), 0.8);
-                circle.drawCircle(0, 0, 5 / scale);
+                circle.drawCircle(0, 0, MARKER_RADIUS / scale);
                 circle.endFill();
                 
                 circle.x = coords.x;
                 circle.y = coords.y;
                 circle.interactive = true;
                 circle.buttonMode = true;
-                circle.hitArea = new PIXI.Circle(0, 0, 8 / scale);
+                circle.hitArea = new PIXI.Circle(0, 0, MARKER_HIT_RADIUS / scale);
                 
                 // Store reference for interaction
                 circle._markerId = index;
