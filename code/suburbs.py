@@ -70,6 +70,9 @@ def update_processed_dates():
             elif this_suburb.processed_date is None or (generated - this_suburb.processed_date).total_seconds() > 0:
                 logging.info("   Updating %s/%s processed date %s", state, this_suburb.name, generated)
                 this_suburb.processed_date = generated
+                # Update address_count to match the actual number of features in the GeoJSON file
+                this_geojson = utils.read_json_file(file)
+                this_suburb.address_count = len(this_geojson["features"])
                 changed = True
     if changed:
         write_all_suburbs(all_suburbs)
@@ -85,6 +88,12 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
     found_suburb.processed_date = get_geojson_file_generated_from_name(suburb, state)
     if found_suburb.processed_date is None:
         found_suburb.processed_date = datetime.now()
+    
+    # Update address_count to match the actual number of features in the GeoJSON file
+    geojson_data = read_geojson_file(suburb, state)
+    if geojson_data:
+        found_suburb.address_count = len(geojson_data["features"])
+    
     write_all_suburbs(all_suburbs)
 
     update_progress()

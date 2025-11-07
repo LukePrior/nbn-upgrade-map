@@ -109,14 +109,26 @@ def test_update_processed_dates(monkeypatch):
 
     def dummy_write_json_file(filename: str, data: dict, indent=4):
         SAVED_JSON[filename] = data
+    
+    def _dummy_read_json_file(filename: str) -> dict:
+        """Fake combined-suburbs.json and geojson files."""
+        if filename == "results/combined-suburbs.json":
+            return testutils.read_test_data_json("combined-suburbs.json")
+        elif filename.endswith("acton.geojson"):
+            return testutils.read_test_data_json("sample2.geojson")
+        raise NotImplementedError
 
-    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
+    monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file)
+    monkeypatch.setattr("suburbs.utils.read_json_file", _dummy_read_json_file)
     monkeypatch.setattr("suburbs.glob.glob", _dummy_glob)
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
 
     suburbs.update_processed_dates()
     assert len(SAVED_JSON) == 1, "Should only be one file"
-    assert SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]["processed_date"] == "2023-07-07T03:54:25.154530"
+    acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
+    assert acton_suburb["processed_date"] == "2023-07-07T03:54:25.154530"
+    # Verify that address_count is updated to match the GeoJSON features count
+    assert acton_suburb["address_count"] == 3  # sample2.geojson has 3 features
 
 
 def test_update_suburb_in_all_suburbs(monkeypatch):
@@ -132,16 +144,24 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
     def dummy_get_geojson_file_generated_none(filename) -> datetime:
         assert filename == "results/ACT/acton.geojson"
         return None  # simulate no file
+    
+    def dummy_read_geojson_file(suburb: str, state: str) -> dict:
+        if suburb.lower() == "acton" and state.upper() == "ACT":
+            return testutils.read_test_data_json("sample2.geojson")
+        return None
 
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
     monkeypatch.setattr("geojson.get_geojson_file_generated", dummy_get_geojson_file_generated)
+    monkeypatch.setattr("suburbs.read_geojson_file", dummy_read_geojson_file)
 
     suburbs.update_suburb_in_all_suburbs("ACTON", "ACT")
     assert len(SAVED_JSON) == 2, "progress and combined-suburbs should be written"
     acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
     assert acton_suburb["name"] == "Acton"
     assert acton_suburb["processed_date"] == "2023-07-07T03:54:25.154530"
+    # Verify that address_count is updated to match the GeoJSON features count
+    assert acton_suburb["address_count"] == 3  # sample2.geojson has 3 features
 
     monkeypatch.setattr("geojson.get_geojson_file_generated", dummy_get_geojson_file_generated_none)
     suburbs.update_suburb_in_all_suburbs("ACTON", "ACT")
