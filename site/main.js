@@ -275,6 +275,18 @@ function getDotType(tech, upgrade, date, status, generated) {
 // Global variable to store current PixiOverlay layer
 var currentPixiLayer = null;
 
+// Helper function to convert hex color to PIXI format
+function hexToPixiColor(hex) {
+    // Remove # if present
+    hex = hex.replace('#', '');
+    // Expand shorthand hex (e.g., '03F' -> '0033FF')
+    if (hex.length === 3) {
+        hex = hex.split('').map(function(char) { return char + char; }).join('');
+    }
+    // Convert to integer with 0x prefix
+    return parseInt('0x' + hex);
+}
+
 // load GeoJSON from an external file
 function loadSuburb(state_file, commit, first_load=false) {
     if (state_file == "") {
@@ -361,7 +373,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                 // Create circle graphic
                 var circle = new PIXI.Graphics();
                 circle.lineStyle(1 / scale, 0x000000, 1);
-                circle.beginFill(parseInt(marker.color.replace('#', '0x')), 0.8);
+                circle.beginFill(hexToPixiColor(marker.color), 0.8);
                 circle.drawCircle(0, 0, 5 / scale);
                 circle.endFill();
                 
