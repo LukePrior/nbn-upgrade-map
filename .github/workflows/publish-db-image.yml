@@ -1,6 +1,9 @@
 name: Publish Docker DB image
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 1 * *' # 02:00 on the 1st of every month
 
 jobs:
   push_to_registry:
