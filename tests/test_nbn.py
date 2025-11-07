@@ -51,3 +51,18 @@ def test_get_address(monkeypatch):
     assert loc_id is None
 
     nbn.close()
+
+
+def test_mixed_google_and_loc_ids(monkeypatch):
+    """Test that the API correctly filters Google Place IDs and returns LOC IDs."""
+    monkeypatch.setattr("nbn.requests.Session.get", requests_session_get)
+
+    nbn = NBNApi()
+    CACHE.clear()
+
+    # Test mixed results where Google Place ID comes first
+    # Should return the LOC ID, not the Google Place ID
+    loc_id = nbn.get_nbn_loc_id("X3", "TEST MIXED RESULTS")
+    assert loc_id == "LOC000999999999", f"Expected LOC ID but got: {loc_id}"
+
+    nbn.close()

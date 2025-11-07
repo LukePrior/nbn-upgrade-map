@@ -46,7 +46,7 @@ class NBNApi:
             reverse=True,
         )
         if suggestions:
-            loc_id = result["suggestions"][0]["id"]
+            loc_id = suggestions[0]["id"]
             CACHE[key] = loc_id  # cache indefinitely
             return loc_id
         else:
