@@ -279,6 +279,9 @@ var currentPixiLayer = null;
 var MARKER_RADIUS = 5;
 var MARKER_HIT_RADIUS = 8;
 var CLUSTER_RADIUS_BASE = 20; // Base radius for cluster circles
+var MAX_CLUSTER_RADIUS = 15; // Maximum cluster radius
+var MIN_CLUSTER_FONT_SIZE = 8; // Minimum font size for cluster labels
+var BASE_CLUSTER_FONT_SIZE = 10; // Base font size for cluster labels
 
 // Helper function to convert hex color to PIXI format
 function hexToPixiColor(hex) {
@@ -293,6 +296,8 @@ function hexToPixiColor(hex) {
 }
 
 // Simple clustering function based on distance
+// Note: O(n²) complexity. For very large datasets (>5000 markers), 
+// consider optimizing with spatial data structures (quadtree/grid)
 function clusterMarkers(markers, project, clusterDistance) {
     var clusters = [];
     var clustered = new Set();
@@ -519,7 +524,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                         
                         // Draw cluster circle
                         var clusterCircle = new PIXI.Graphics();
-                        var radius = Math.min(CLUSTER_RADIUS_BASE / scale, 15 / scale);
+                        var radius = Math.min(CLUSTER_RADIUS_BASE / scale, MAX_CLUSTER_RADIUS / scale);
                         clusterCircle.lineStyle(1 / scale, 0x000000, 1);
                         clusterCircle.beginFill(hexToPixiColor(clusterColor), 0.8);
                         clusterCircle.drawCircle(0, 0, radius);
@@ -533,7 +538,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                         
                         // Add text showing count
                         var text = new PIXI.Text(cluster.markers.length.toString(), {
-                            fontSize: Math.max(8 / scale, 10),
+                            fontSize: Math.max(MIN_CLUSTER_FONT_SIZE / scale, BASE_CLUSTER_FONT_SIZE),
                             fill: 0x000000,
                             align: 'center'
                         });
