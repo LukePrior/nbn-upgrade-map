@@ -176,7 +176,7 @@ def test_fttp_address_caching(monkeypatch):
     monkeypatch.setattr(nbn, "get_nbn_loc_details", track_api_calls)
     
     # Process the address
-    result = main.get_address(nbn, test_address, get_status=True)
+    result = main.get_address(nbn, copy.copy(test_address), get_status=True)
     
     # Verify cached data was used
     assert result.tech == "FTTP"
