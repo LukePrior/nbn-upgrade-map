@@ -74,8 +74,6 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
     """Return an Address for the given db address, probably augmented with data from the NBN API."""
-    global GNAF_PID_TO_LOC, GNAF_PID_TO_FTTP_ADDRESS
-    
     # Check if we have cached FTTP data for this address
     if cached_fttp_address := GNAF_PID_TO_FTTP_ADDRESS.get(address.gnaf_pid):
         # Return the cached FTTP address data (FTTP tech won't change)
