@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-16T14:53:02.012319",
+ "generated": "2025-11-06T23:45:48.818008",
  "suburb": "MAIDSTONE",
  "features": [
   {
@@ -208,8 +208,8 @@
    "properties": {
     "name": "UNIT 1, 5 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000087684960",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411748723",
     "tech_change_status": "Eligible to Order"
    }
@@ -614,8 +614,8 @@
    "properties": {
     "name": "UNIT 3, 52 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000171499978",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411755178",
     "tech_change_status": "Eligible to Order"
    }
@@ -948,10 +948,10 @@
    "properties": {
     "name": "19 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000054908012",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411763408",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -966,8 +966,8 @@
    "properties": {
     "name": "35 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000102047470",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411764112",
     "tech_change_status": "Eligible to Order"
    }
@@ -1213,8 +1213,8 @@
    "properties": {
     "name": "6 RAGLAN STREET MAIDSTONE 3012",
     "locID": "LOC000013885947",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411764527",
     "tech_change_status": "Eligible to Order"
    }
@@ -1371,8 +1371,9 @@
     "name": "115 ROSAMOND ROAD MAIDSTONE 3012",
     "locID": "LOC000157803873",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411765786"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411765786",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1455,8 +1456,8 @@
    "properties": {
     "name": "UNIT 2, 3 GREENHAM STREET MAIDSTONE 3012",
     "locID": "LOC000021195832",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411766233",
     "tech_change_status": "Eligible to Order"
    }
@@ -2014,8 +2015,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86443816,
-     -37.78772311
+     144.86440557,
+     -37.7876649
     ]
    },
    "properties": {
@@ -2376,24 +2377,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87266571,
-     -37.78383948
-    ]
-   },
-   "properties": {
-    "name": "17 PULLAR STREET MAIDSTONE 3012",
-    "locID": "LOC000171500032",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411774885",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.86884454,
      -37.78471032
     ]
@@ -2419,8 +2402,8 @@
    "properties": {
     "name": "UNIT 1, 52 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000171499754",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411775331",
     "tech_change_status": "Eligible to Order"
    }
@@ -2509,9 +2492,9 @@
     "name": "72C RICHELIEU STREET MAIDSTONE 3012",
     "locID": "LOC000014359381",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411776157",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -3201,23 +3184,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.8784825,
-     -37.788893
-    ]
-   },
-   "properties": {
-    "name": "44 HOWARD STREET MAIDSTONE 3012",
-    "locID": "LOC000040683056",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412745837"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.870698,
      -37.781162
     ]
@@ -3503,24 +3469,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87315051,
-     -37.78949328
-    ]
-   },
-   "properties": {
-    "name": "1 BAIRD STREET MAIDSTONE 3012",
-    "locID": "LOC000061763735",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC412750680",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.87405138,
      -37.7834292
     ]
@@ -3795,8 +3743,8 @@
    "properties": {
     "name": "UNIT 1, 9 ROONEY STREET MAIDSTONE 3012",
     "locID": "LOC000012176956",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412752736",
     "tech_change_status": "Eligible to Order"
    }
@@ -4163,7 +4111,7 @@
    "properties": {
     "name": "UNIT 3, 7 MONTGOMERY STREET MAIDSTONE 3012",
     "locID": "LOC000073984141",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419583296",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -4251,8 +4199,8 @@
    "properties": {
     "name": "20 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000073762792",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419593065",
     "tech_change_status": "Eligible to Order"
    }
@@ -4322,8 +4270,8 @@
    "properties": {
     "name": "17 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000094516100",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419593220",
     "tech_change_status": "Eligible to Order"
    }
@@ -4358,8 +4306,8 @@
    "properties": {
     "name": "30 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000082073699",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419593222",
     "tech_change_status": "Eligible to Order"
    }
@@ -4465,10 +4413,9 @@
    "properties": {
     "name": "30 INKERMAN STREET MAIDSTONE 3012",
     "locID": "LOC000063593956",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419593269",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419593269"
    }
   },
   {
@@ -4552,8 +4499,8 @@
    "properties": {
     "name": "7 HUTTON STREET MAIDSTONE 3012",
     "locID": "LOC000019598325",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419593397",
     "tech_change_status": "Eligible to Order"
    }
@@ -4669,8 +4616,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.864951,
-     -37.787876
+     144.86493783,
+     -37.78768599
     ]
    },
    "properties": {
@@ -4926,8 +4873,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.881953,
-     -37.782595
+     144.88194968,
+     -37.78259352
     ]
    },
    "properties": {
@@ -4986,8 +4933,8 @@
    "properties": {
     "name": "82 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000089788197",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419597573",
     "tech_change_status": "Eligible to Order"
    }
@@ -5039,8 +4986,8 @@
    "properties": {
     "name": "111 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000004342150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419597576",
     "tech_change_status": "Eligible to Order"
    }
@@ -5180,10 +5127,9 @@
    "properties": {
     "name": "5 WINSTON STREET MAIDSTONE 3012",
     "locID": "LOC000066698400",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419597600",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419597600"
    }
   },
   {
@@ -5285,8 +5231,8 @@
    "properties": {
     "name": "2 HOLLAND COURT MAIDSTONE 3012",
     "locID": "LOC000094100917",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419597786",
     "tech_change_status": "Eligible to Order"
    }
@@ -5375,8 +5321,8 @@
    "properties": {
     "name": "42 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000016150374",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419598300",
     "tech_change_status": "Eligible to Order"
    }
@@ -5445,8 +5391,8 @@
    "properties": {
     "name": "1 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000110574840",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419598667",
     "tech_change_status": "Eligible to Order"
    }
@@ -5569,8 +5515,8 @@
    "properties": {
     "name": "23 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000094469322",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419599354",
     "tech_change_status": "Eligible to Order"
    }
@@ -6193,8 +6139,8 @@
    "properties": {
     "name": "168 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000071765139",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419601941",
     "tech_change_status": "Eligible to Order"
    }
@@ -6229,8 +6175,8 @@
    "properties": {
     "name": "193 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000157803479",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419601943",
     "tech_change_status": "Eligible to Order"
    }
@@ -6247,8 +6193,8 @@
    "properties": {
     "name": "195 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000039204215",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419601944",
     "tech_change_status": "Eligible to Order"
    }
@@ -6368,8 +6314,8 @@
    "properties": {
     "name": "3 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000107816017",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419602332",
     "tech_change_status": "Eligible to Order"
    }
@@ -6396,8 +6342,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.866155,
-     -37.784698
+     144.86613701,
+     -37.78469292
     ]
    },
    "properties": {
@@ -6813,8 +6759,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.878781,
-     -37.785134
+     144.8787707,
+     -37.78512895
     ]
    },
    "properties": {
@@ -7173,8 +7119,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86938342,
-     -37.7893501
+     144.86938958,
+     -37.78939154
     ]
    },
    "properties": {
@@ -7631,8 +7577,8 @@
    "properties": {
     "name": "84A SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000004266455",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419612912",
     "tech_change_status": "Eligible to Order"
    }
@@ -7770,10 +7716,9 @@
    "properties": {
     "name": "43 RICHELIEU STREET MAIDSTONE 3012",
     "locID": "LOC000014323413",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419616612",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419616612"
    }
   },
   {
@@ -7799,8 +7744,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87157985,
-     -37.78855131
+     144.87182483,
+     -37.78852872
     ]
    },
    "properties": {
@@ -8556,8 +8501,8 @@
    "properties": {
     "name": "10 SPURLING STREET MAIDSTONE 3012",
     "locID": "LOC000071789151",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419722530",
     "tech_change_status": "Eligible to Order"
    }
@@ -8764,8 +8709,8 @@
    "properties": {
     "name": "8 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000157806028",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419737637",
     "tech_change_status": "Eligible to Order"
    }
@@ -8800,8 +8745,8 @@
    "properties": {
     "name": "UNIT 2, 38 RICHELIEU STREET MAIDSTONE 3012",
     "locID": "LOC000099347648",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419741255",
     "tech_change_status": "Eligible to Order"
    }
@@ -9028,8 +8973,8 @@
    "properties": {
     "name": "31 JACKSON STREET MAIDSTONE 3012",
     "locID": "LOC000037777108",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419758840",
     "tech_change_status": "Eligible to Order"
    }
@@ -9150,9 +9095,9 @@
     "name": "24 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000036063387",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419763814",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9185,8 +9130,8 @@
    "properties": {
     "name": "78 SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000003545948",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419814379",
     "tech_change_status": "Eligible to Order"
    }
@@ -9422,8 +9367,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.870751,
-     -37.780852
+     144.8707593,
+     -37.78084903
     ]
    },
    "properties": {
@@ -9480,10 +9425,9 @@
    "properties": {
     "name": "23 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000074035692",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419894133",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419894133"
    }
   },
   {
@@ -9515,8 +9459,8 @@
    "properties": {
     "name": "11 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000011934765",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419894178",
     "tech_change_status": "Eligible to Order"
    }
@@ -9533,8 +9477,8 @@
    "properties": {
     "name": "12 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000070194165",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419894179",
     "tech_change_status": "Eligible to Order"
    }
@@ -9568,8 +9512,8 @@
    "properties": {
     "name": "12 BERNARD STREET MAIDSTONE 3012",
     "locID": "LOC000157804705",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419894452",
     "tech_change_status": "Eligible to Order"
    }
@@ -9604,8 +9548,8 @@
    "properties": {
     "name": "25 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000038669984",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419895019",
     "tech_change_status": "Eligible to Order"
    }
@@ -9639,10 +9583,9 @@
    "properties": {
     "name": "42 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000042354115",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419895021",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419895021"
    }
   },
   {
@@ -9982,8 +9925,8 @@
    "properties": {
     "name": "28 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000008914328",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419896960",
     "tech_change_status": "Eligible to Order"
    }
@@ -10054,7 +9997,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419898786",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10138,8 +10081,8 @@
    "properties": {
     "name": "3 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000101443756",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419901250",
     "tech_change_status": "Eligible to Order"
    }
@@ -10218,8 +10161,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87829917,
-     -37.7901979
+     144.87830102,
+     -37.79019623
     ]
    },
    "properties": {
@@ -10835,10 +10778,9 @@
    "properties": {
     "name": "25 RADIO STREET MAIDSTONE 3012",
     "locID": "LOC000107192002",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419904201",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419904201"
    }
   },
   {
@@ -11341,8 +11283,8 @@
    "properties": {
     "name": "45 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000038222101",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419906306",
     "tech_change_status": "Eligible to Order"
    }
@@ -11430,8 +11372,8 @@
    "properties": {
     "name": "17 ALMA STREET MAIDSTONE 3012",
     "locID": "LOC000054339223",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419906388",
     "tech_change_status": "Eligible to Order"
    }
@@ -11954,8 +11896,8 @@
    "properties": {
     "name": "2 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000082073699",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419911685",
     "tech_change_status": "Eligible to Order"
    }
@@ -11990,8 +11932,8 @@
    "properties": {
     "name": "27 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000095313809",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419911687",
     "tech_change_status": "Eligible to Order"
    }
@@ -12147,27 +12089,9 @@
    "properties": {
     "name": "28 CURTIN STREET MAIDSTONE 3012",
     "locID": "LOC000185185215",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419911910",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.868406,
-     -37.786595
-    ]
-   },
-   "properties": {
-    "name": "30 CURTIN STREET MAIDSTONE 3012",
-    "locID": "LOC000056677439",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419911911",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC419911910",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -12355,8 +12279,8 @@
    "properties": {
     "name": "191 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000066685648",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419912422",
     "tech_change_status": "Eligible to Order"
    }
@@ -12390,8 +12314,8 @@
    "properties": {
     "name": "8 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000171494532",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419912427",
     "tech_change_status": "Eligible to Order"
    }
@@ -12408,8 +12332,8 @@
    "properties": {
     "name": "10 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000082887512",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419912428",
     "tech_change_status": "Eligible to Order"
    }
@@ -12496,8 +12420,8 @@
    "properties": {
     "name": "5 GREENHAM STREET MAIDSTONE 3012",
     "locID": "LOC000102653601",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419913513",
     "tech_change_status": "Eligible to Order"
    }
@@ -12532,8 +12456,8 @@
    "properties": {
     "name": "13 INKERMAN STREET MAIDSTONE 3012",
     "locID": "LOC000093119863",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419913518",
     "tech_change_status": "Eligible to Order"
    }
@@ -12550,8 +12474,8 @@
    "properties": {
     "name": "14 INKERMAN STREET MAIDSTONE 3012",
     "locID": "LOC000007631930",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419913519",
     "tech_change_status": "Eligible to Order"
    }
@@ -12744,8 +12668,8 @@
    "properties": {
     "name": "20 RICHARDS STREET MAIDSTONE 3012",
     "locID": "LOC000111439730",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419913664",
     "tech_change_status": "Eligible to Order"
    }
@@ -12850,8 +12774,8 @@
    "properties": {
     "name": "38 DUNEDIN STREET MAIDSTONE 3012",
     "locID": "LOC000050791479",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419913718",
     "tech_change_status": "Eligible to Order"
    }
@@ -13219,8 +13143,8 @@
    "properties": {
     "name": "69 ROSAMOND ROAD MAIDSTONE 3012",
     "locID": "LOC000077754851",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419920037",
     "tech_change_status": "Eligible to Order"
    }
@@ -13691,10 +13615,10 @@
    "properties": {
     "name": "5 SCULLIN STREET MAIDSTONE 3012",
     "locID": "LOC000041519872",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420027147",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -13779,8 +13703,8 @@
    "properties": {
     "name": "UNIT 3, 13 POWELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000043656397",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420033666",
     "tech_change_status": "Eligible to Order"
    }
@@ -13974,8 +13898,8 @@
    "properties": {
     "name": "UNIT 2, 10 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000077119954",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420045579",
     "tech_change_status": "Eligible to Order"
    }
@@ -14218,8 +14142,8 @@
    "properties": {
     "name": "UNIT 1, 4 WHITTAKER STREET MAIDSTONE 3012",
     "locID": "LOC000020192855",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420078637",
     "tech_change_status": "Eligible to Order"
    }
@@ -14288,10 +14212,9 @@
    "properties": {
     "name": "16 WIRILDA WAY MAIDSTONE 3012",
     "locID": "LOC000105858977",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420109544",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420109544"
    }
   },
   {
@@ -14440,8 +14363,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87841798,
-     -37.78552401
+     144.87840546,
+     -37.78558837
     ]
    },
    "properties": {
@@ -14806,6 +14729,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.875685,
+     -37.785781
+    ]
+   },
+   "properties": {
+    "name": "45 THOMSON STREET MAIDSTONE 3012",
+    "locID": "LOC000197398195",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420189241"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.87877165,
      -37.78869572
     ]
@@ -14831,9 +14771,8 @@
     "name": "1 PULLAR STREET MAIDSTONE 3012",
     "locID": "LOC000055305818",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420191110",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420191110"
    }
   },
   {
@@ -15042,8 +14981,8 @@
    "properties": {
     "name": "18 PULLAR STREET MAIDSTONE 3012",
     "locID": "LOC000030136282",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420196513",
     "tech_change_status": "Eligible to Order"
    }
@@ -15063,7 +15002,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420196518",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15479,8 +15418,8 @@
    "properties": {
     "name": "110 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000102888796",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420207608",
     "tech_change_status": "Eligible to Order"
    }
@@ -15497,8 +15436,8 @@
    "properties": {
     "name": "156 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000002781508",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420207609",
     "tech_change_status": "Eligible to Order"
    }
@@ -15532,8 +15471,8 @@
    "properties": {
     "name": "33 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000107661490",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420207611",
     "tech_change_status": "Eligible to Order"
    }
@@ -15637,8 +15576,8 @@
    "properties": {
     "name": "14 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000056837508",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420208190",
     "tech_change_status": "Eligible to Order"
    }
@@ -15655,10 +15594,9 @@
    "properties": {
     "name": "27 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000012180882",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420208191",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420208191"
    }
   },
   {
@@ -15813,8 +15751,8 @@
    "properties": {
     "name": "25 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000070565633",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420208244",
     "tech_change_status": "Eligible to Order"
    }
@@ -15831,8 +15769,8 @@
    "properties": {
     "name": "31 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000171495925",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420208246",
     "tech_change_status": "Eligible to Order"
    }
@@ -16009,8 +15947,8 @@
    "properties": {
     "name": "26 ALMA STREET MAIDSTONE 3012",
     "locID": "LOC000083562820",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420209879",
     "tech_change_status": "Eligible to Order"
    }
@@ -16055,8 +15993,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86756808,
-     -37.78612198
+     144.86768391,
+     -37.78590084
     ]
    },
    "properties": {
@@ -16108,8 +16046,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.869094,
-     -37.785968
+     144.86927694,
+     -37.78612814
     ]
    },
    "properties": {
@@ -16219,10 +16157,10 @@
    "properties": {
     "name": "53 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000026215942",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420211065",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16290,10 +16228,9 @@
    "properties": {
     "name": "30 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000069778779",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420211129",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420211129"
    }
   },
   {
@@ -16386,23 +16323,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.867811,
-     -37.780808
-    ]
-   },
-   "properties": {
-    "name": "27 DUNEDIN STREET MAIDSTONE 3012",
-    "locID": "LOC000035430731",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420211212"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.866823,
      -37.78043
     ]
@@ -16446,8 +16366,8 @@
    "properties": {
     "name": "49 DUNEDIN STREET MAIDSTONE 3012",
     "locID": "LOC000051061999",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420211215",
     "tech_change_status": "Eligible to Order"
    }
@@ -16525,8 +16445,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.88130854,
-     -37.77995256
+     144.88136341,
+     -37.77995902
     ]
    },
    "properties": {
@@ -16686,9 +16606,8 @@
     "name": "4 YARDLEY STREET MAIDSTONE 3012",
     "locID": "LOC000022607192",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420215399",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420215399"
    }
   },
   {
@@ -16963,8 +16882,8 @@
    "properties": {
     "name": "35 CATHCART STREET MAIDSTONE 3012",
     "locID": "LOC000107282571",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420216526",
     "tech_change_status": "Eligible to Order"
    }
@@ -16999,8 +16918,8 @@
    "properties": {
     "name": "76 SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000058701560",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420216939",
     "tech_change_status": "Eligible to Order"
    }
@@ -17193,10 +17112,9 @@
    "properties": {
     "name": "16 DESMOND STREET MAIDSTONE 3012",
     "locID": "LOC000031697269",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420217994",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420217994"
    }
   },
   {
@@ -17214,6 +17132,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420218043"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.881656,
+     -37.788213
+    ]
+   },
+   "properties": {
+    "name": "23 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000197295120",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420218098"
    }
   },
   {
@@ -17296,8 +17231,8 @@
    "properties": {
     "name": "7 VERDUN STREET MAIDSTONE 3012",
     "locID": "LOC000060386122",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420218863",
     "tech_change_status": "Eligible to Order"
    }
@@ -17314,8 +17249,8 @@
    "properties": {
     "name": "14 VERDUN STREET MAIDSTONE 3012",
     "locID": "LOC000012106067",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420218864",
     "tech_change_status": "Eligible to Order"
    }
@@ -17332,8 +17267,8 @@
    "properties": {
     "name": "15 VERDUN STREET MAIDSTONE 3012",
     "locID": "LOC000089621148",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420218865",
     "tech_change_status": "Eligible to Order"
    }
@@ -17489,9 +17424,8 @@
     "name": "180 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000047704503",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420219778",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420219778"
    }
   },
   {
@@ -17989,8 +17923,8 @@
    "properties": {
     "name": "7 WATTLE ROAD MAIDSTONE 3012",
     "locID": "LOC000098174130",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420221631",
     "tech_change_status": "Eligible to Order"
    }
@@ -18914,8 +18848,8 @@
    "properties": {
     "name": "UNIT 1, 10 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000077119954",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420344654",
     "tech_change_status": "Eligible to Order"
    }
@@ -19195,8 +19129,8 @@
    "properties": {
     "name": "4 WHITTAKER STREET MAIDSTONE 3012",
     "locID": "LOC000020192855",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420359206",
     "tech_change_status": "Eligible to Order"
    }
@@ -19419,9 +19353,9 @@
     "name": "UNIT 1, 24 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000036063387",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420368575",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -19585,24 +19519,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86994902,
-     -37.78907083
-    ]
-   },
-   "properties": {
-    "name": "13 YARDLEY STREET MAIDSTONE 3012",
-    "locID": "LOC000165547647",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420414344",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.884352,
      -37.780481
     ]
@@ -19610,8 +19526,8 @@
    "properties": {
     "name": "95A ROSAMOND ROAD MAIDSTONE 3012",
     "locID": "LOC000071372638",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420417983",
     "tech_change_status": "Eligible to Order"
    }
@@ -19621,8 +19537,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87679892,
-     -37.788497
+     144.87678113,
+     -37.78847167
     ]
    },
    "properties": {
@@ -19733,23 +19649,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420444972"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.87724585,
-     -37.7747358
-    ]
-   },
-   "properties": {
-    "name": "61-71 HAMPSTEAD ROAD MAIDSTONE 3012",
-    "locID": "LOC100070468200",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420447748"
    }
   },
   {
@@ -19990,9 +19889,9 @@
     "name": "UNIT 1, 7 MONTGOMERY STREET MAIDSTONE 3012",
     "locID": "LOC000073440520",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420496088",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20007,7 +19906,7 @@
    "properties": {
     "name": "UNIT 2, 7 MONTGOMERY STREET MAIDSTONE 3012",
     "locID": "LOC000073984141",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420496089",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -20845,8 +20744,8 @@
    "properties": {
     "name": "76 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000050264392",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420503276",
     "tech_change_status": "Eligible to Order"
    }
@@ -21331,8 +21230,8 @@
    "properties": {
     "name": "14 ALMA STREET MAIDSTONE 3012",
     "locID": "LOC000005969512",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420505986",
     "tech_change_status": "Eligible to Order"
    }
@@ -21574,8 +21473,8 @@
    "properties": {
     "name": "20 CURTIN STREET MAIDSTONE 3012",
     "locID": "LOC000050800406",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420508708",
     "tech_change_status": "Eligible to Order"
    }
@@ -21678,8 +21577,8 @@
    "properties": {
     "name": "16 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000056593192",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420511381",
     "tech_change_status": "Eligible to Order"
    }
@@ -21767,10 +21666,9 @@
    "properties": {
     "name": "21 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000157794170",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420512110",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420512110"
    }
   },
   {
@@ -21973,8 +21871,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.878881,
-     -37.789975
+     144.8788825,
+     -37.78997188
     ]
    },
    "properties": {
@@ -21997,8 +21895,8 @@
    "properties": {
     "name": "8 HARRY STREET MAIDSTONE 3012",
     "locID": "LOC000045284463",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420513072",
     "tech_change_status": "Eligible to Order"
    }
@@ -22362,10 +22260,9 @@
    "properties": {
     "name": "8 DUNEDIN STREET MAIDSTONE 3012",
     "locID": "LOC000044916717",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420516637",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420516637"
    }
   },
   {
@@ -22432,8 +22329,8 @@
    "properties": {
     "name": "3 VERDUN STREET MAIDSTONE 3012",
     "locID": "LOC000060607715",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420516977",
     "tech_change_status": "Eligible to Order"
    }
@@ -22760,10 +22657,9 @@
    "properties": {
     "name": "138 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000020043384",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420521243",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420521243"
    }
   },
   {
@@ -24069,8 +23965,8 @@
    "properties": {
     "name": "UNIT 1, 11 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000043411518",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420650331",
     "tech_change_status": "Eligible to Order"
    }
@@ -24139,10 +24035,9 @@
    "properties": {
     "name": "20 BAIRD STREET MAIDSTONE 3012",
     "locID": "LOC000047474564",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420659021",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420659021"
    }
   },
   {
@@ -24281,8 +24176,8 @@
    "properties": {
     "name": "UNIT 3, 20 HOLLAND COURT MAIDSTONE 3012",
     "locID": "LOC000094100917",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420669485",
     "tech_change_status": "Eligible to Order"
    }
@@ -24352,8 +24247,8 @@
    "properties": {
     "name": "UNIT 2, 12 SPURLING STREET MAIDSTONE 3012",
     "locID": "LOC000019388353",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420670112",
     "tech_change_status": "Eligible to Order"
    }
@@ -24676,23 +24571,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87014,
-     -37.781959
-    ]
-   },
-   "properties": {
-    "name": "9 OMAR STREET MAIDSTONE 3012",
-    "locID": "LOC000193500120",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420726573"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.870452,
      -37.789437
     ]
@@ -24752,8 +24630,8 @@
    "properties": {
     "name": "135 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000067830812",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420735144",
     "tech_change_status": "Eligible to Order"
    }
@@ -24858,8 +24736,8 @@
    "properties": {
     "name": "42 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000045196365",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420781926",
     "tech_change_status": "Eligible to Order"
    }
@@ -24894,8 +24772,8 @@
    "properties": {
     "name": "1 KEITH STREET MAIDSTONE 3012",
     "locID": "LOC000101988876",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420782138",
     "tech_change_status": "Eligible to Order"
    }
@@ -25499,8 +25377,8 @@
    "properties": {
     "name": "37 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000139623167",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420798597",
     "tech_change_status": "Eligible to Order"
    }
@@ -26041,10 +25919,9 @@
    "properties": {
     "name": "8 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000056502245",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420804378",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420804378"
    }
   },
   {
@@ -26059,8 +25936,8 @@
    "properties": {
     "name": "28 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000038863283",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420804379",
     "tech_change_status": "Eligible to Order"
    }
@@ -26206,8 +26083,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.878363,
-     -37.789398
+     144.87836697,
+     -37.78939824
     ]
    },
    "properties": {
@@ -26577,8 +26454,8 @@
    "properties": {
     "name": "1 HUTTON STREET MAIDSTONE 3012",
     "locID": "LOC000030105303",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420809241",
     "tech_change_status": "Eligible to Order"
    }
@@ -26817,8 +26694,8 @@
    "properties": {
     "name": "18 DUNEDIN STREET MAIDSTONE 3012",
     "locID": "LOC000026243897",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420809521",
     "tech_change_status": "Eligible to Order"
    }
@@ -27497,8 +27374,8 @@
    "properties": {
     "name": "18 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000071518684",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420817687",
     "tech_change_status": "Eligible to Order"
    }
@@ -27674,8 +27551,8 @@
    "properties": {
     "name": "96 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000036998763",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420819861",
     "tech_change_status": "Eligible to Order"
    }
@@ -27692,8 +27569,8 @@
    "properties": {
     "name": "108 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000171493193",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420819863",
     "tech_change_status": "Eligible to Order"
    }
@@ -27744,8 +27621,8 @@
    "properties": {
     "name": "14 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000061775334",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420819976",
     "tech_change_status": "Eligible to Order"
    }
@@ -27762,10 +27639,10 @@
    "properties": {
     "name": "23 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000036781627",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420819977",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -27780,8 +27657,8 @@
    "properties": {
     "name": "26 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000058271427",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420819978",
     "tech_change_status": "Eligible to Order"
    }
@@ -27966,23 +27843,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87856545,
-     -37.78979258
-    ]
-   },
-   "properties": {
-    "name": "13 STUDLEY STREET MAIDSTONE 3012",
-    "locID": "LOC000191331150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420820813"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.875201,
      -37.782861
     ]
@@ -28077,8 +27937,8 @@
    "properties": {
     "name": "113 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000157801521",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420820860",
     "tech_change_status": "Eligible to Order"
    }
@@ -28105,8 +27965,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.876326,
-     -37.78244
+     144.87632613,
+     -37.78243814
     ]
    },
    "properties": {
@@ -28370,8 +28230,8 @@
    "properties": {
     "name": "194 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000023039640",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420821568",
     "tech_change_status": "Eligible to Order"
    }
@@ -28652,8 +28512,8 @@
    "properties": {
     "name": "19 BAIRD STREET MAIDSTONE 3012",
     "locID": "LOC000077261674",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420830499",
     "tech_change_status": "Eligible to Order"
    }
@@ -28895,8 +28755,8 @@
    "properties": {
     "name": "35B DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000102047470",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420917588",
     "tech_change_status": "Eligible to Order"
    }
@@ -28913,8 +28773,8 @@
    "properties": {
     "name": "UNIT 1, 9 CAMBRIDGE STREET MAIDSTONE 3012",
     "locID": "LOC000002731194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420922080",
     "tech_change_status": "Eligible to Order"
    }
@@ -29212,8 +29072,8 @@
    "properties": {
     "name": "186 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000078102043",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420942340",
     "tech_change_status": "Eligible to Order"
    }
@@ -29318,10 +29178,10 @@
    "properties": {
     "name": "UNIT 1, 19 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000054908012",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420948014",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -30330,8 +30190,8 @@
    "properties": {
     "name": "110 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000085255484",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421094689",
     "tech_change_status": "Eligible to Order"
    }
@@ -30662,10 +30522,9 @@
    "properties": {
     "name": "45 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000105868680",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421096695",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421096695"
    }
   },
   {
@@ -31049,8 +30908,8 @@
    "properties": {
     "name": "1 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000081114569",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421103041",
     "tech_change_status": "Eligible to Order"
    }
@@ -31135,8 +30994,8 @@
    "properties": {
     "name": "5 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000067196577",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421104082",
     "tech_change_status": "Eligible to Order"
    }
@@ -31449,8 +31308,8 @@
    "properties": {
     "name": "13 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000024234045",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421107290",
     "tech_change_status": "Eligible to Order"
    }
@@ -31485,8 +31344,8 @@
    "properties": {
     "name": "23 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000091469637",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421107292",
     "tech_change_status": "Eligible to Order"
    }
@@ -31835,8 +31694,8 @@
    "properties": {
     "name": "120 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000067869008",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421109280",
     "tech_change_status": "Eligible to Order"
    }
@@ -32049,7 +31908,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421111910",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -32274,9 +32133,8 @@
     "name": "2 KEITH STREET MAIDSTONE 3012",
     "locID": "LOC000157800184",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421116277",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421116277"
    }
   },
   {
@@ -32379,8 +32237,8 @@
    "properties": {
     "name": "19 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000171495150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421118669",
     "tech_change_status": "Eligible to Order"
    }
@@ -32450,8 +32308,8 @@
    "properties": {
     "name": "84 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000171499712",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421119166",
     "tech_change_status": "Eligible to Order"
    }
@@ -32468,8 +32326,8 @@
    "properties": {
     "name": "25 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000080948501",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421119778",
     "tech_change_status": "Eligible to Order"
    }
@@ -32504,7 +32362,7 @@
    "properties": {
     "name": "7 MONTGOMERY STREET MAIDSTONE 3012",
     "locID": "LOC000073984141",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421120062",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -32677,10 +32535,10 @@
    "properties": {
     "name": "24 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000027559858",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421122432",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -32712,8 +32570,8 @@
    "properties": {
     "name": "31 RADIO STREET MAIDSTONE 3012",
     "locID": "LOC000050872211",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421123979",
     "tech_change_status": "Eligible to Order"
    }
@@ -33058,8 +32916,8 @@
    "properties": {
     "name": "37 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000026182432",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421133436",
     "tech_change_status": "Eligible to Order"
    }
@@ -33164,8 +33022,8 @@
    "properties": {
     "name": "6 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000094933853",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421136166",
     "tech_change_status": "Eligible to Order"
    }
@@ -33182,10 +33040,10 @@
    "properties": {
     "name": "9 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000050375007",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421136167",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -34159,8 +34017,8 @@
    "properties": {
     "name": "95 ROSAMOND ROAD MAIDSTONE 3012",
     "locID": "LOC000071607734",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421263216",
     "tech_change_status": "Eligible to Order"
    }
@@ -34361,8 +34219,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87982038,
-     -37.77752885
+     144.87972735,
+     -37.77810079
     ]
    },
    "properties": {
@@ -34968,10 +34826,9 @@
    "properties": {
     "name": "7 COLEMAN COURT MAIDSTONE 3012",
     "locID": "LOC000122809001",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421375828",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421375828"
    }
   },
   {
@@ -35337,8 +35194,8 @@
    "properties": {
     "name": "34 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000104717840",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421386774",
     "tech_change_status": "Eligible to Order"
    }
@@ -35818,8 +35675,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.870333,
-     -37.780773
+     144.8703581,
+     -37.78075836
     ]
    },
    "properties": {
@@ -36071,10 +35928,9 @@
    "properties": {
     "name": "1 CAMBRIDGE STREET MAIDSTONE 3012",
     "locID": "LOC000030194559",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421401307",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421401307"
    }
   },
   {
@@ -36125,8 +35981,8 @@
    "properties": {
     "name": "84 SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000004869320",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421401698",
     "tech_change_status": "Eligible to Order"
    }
@@ -36231,8 +36087,8 @@
    "properties": {
     "name": "UNIT 1, 6 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000094933853",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421405388",
     "tech_change_status": "Eligible to Order"
    }
@@ -36294,8 +36150,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.879837,
-     -37.787099
+     144.87989257,
+     -37.78696462
     ]
    },
    "properties": {
@@ -36386,10 +36242,10 @@
    "properties": {
     "name": "6 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000171494513",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421405657",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -36598,27 +36454,10 @@
    "properties": {
     "name": "10 PULLAR STREET MAIDSTONE 3012",
     "locID": "LOC000050729812",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421411484",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.872547,
-     -37.783543
-    ]
-   },
-   "properties": {
-    "name": "14 PULLAR STREET MAIDSTONE 3012",
-    "locID": "LOC000193940566",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421411485"
    }
   },
   {
@@ -36736,8 +36575,8 @@
    "properties": {
     "name": "11 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000157807786",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421412149",
     "tech_change_status": "Eligible to Order"
    }
@@ -37000,8 +36839,8 @@
    "properties": {
     "name": "2 SMITH STREET MAIDSTONE 3012",
     "locID": "LOC000038565117",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421418966",
     "tech_change_status": "Eligible to Order"
    }
@@ -37194,8 +37033,8 @@
    "properties": {
     "name": "17 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000071920061",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421419534",
     "tech_change_status": "Eligible to Order"
    }
@@ -37298,8 +37137,8 @@
    "properties": {
     "name": "11 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000110574840",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421423110",
     "tech_change_status": "Eligible to Order"
    }
@@ -37334,8 +37173,8 @@
    "properties": {
     "name": "22 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000060607817",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421423112",
     "tech_change_status": "Eligible to Order"
    }
@@ -37614,8 +37453,8 @@
    "properties": {
     "name": "41 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000030142745",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421433837",
     "tech_change_status": "Eligible to Order"
    }
@@ -37818,8 +37657,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.884151,
-     -37.78158
+     144.88415095,
+     -37.78157708
     ]
    },
    "properties": {
@@ -38002,10 +37841,9 @@
    "properties": {
     "name": "30 ALMA STREET MAIDSTONE 3012",
     "locID": "LOC000122788602",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421448478",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421448478"
    }
   },
   {
@@ -38249,8 +38087,8 @@
    "properties": {
     "name": "3 GREENHAM STREET MAIDSTONE 3012",
     "locID": "LOC000021195832",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421463564",
     "tech_change_status": "Eligible to Order"
    }
@@ -38389,8 +38227,8 @@
    "properties": {
     "name": "2 HARRY STREET MAIDSTONE 3012",
     "locID": "LOC000083643484",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421494741",
     "tech_change_status": "Eligible to Order"
    }
@@ -38757,8 +38595,8 @@
    "properties": {
     "name": "UNIT 2, 11 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000044339362",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421539738",
     "tech_change_status": "Eligible to Order"
    }
@@ -38968,8 +38806,8 @@
    "properties": {
     "name": "UNIT 2, 3 BABB STREET MAIDSTONE 3012",
     "locID": "LOC000088872479",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421548380",
     "tech_change_status": "Eligible to Order"
    }
@@ -39978,8 +39816,8 @@
    "properties": {
     "name": "5 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000087684960",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421697911",
     "tech_change_status": "Eligible to Order"
    }
@@ -39996,8 +39834,8 @@
    "properties": {
     "name": "14 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000058078845",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421697913",
     "tech_change_status": "Eligible to Order"
    }
@@ -40136,10 +39974,9 @@
    "properties": {
     "name": "18 WIRILDA WAY MAIDSTONE 3012",
     "locID": "LOC000013880244",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421702143",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421702143"
    }
   },
   {
@@ -40314,8 +40151,8 @@
    "properties": {
     "name": "3 MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000094035623",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421708683",
     "tech_change_status": "Eligible to Order"
    }
@@ -40725,8 +40562,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87848176,
-     -37.79023969
+     144.87848072,
+     -37.79024929
     ]
    },
    "properties": {
@@ -40766,8 +40603,8 @@
    "properties": {
     "name": "14 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000095078319",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421720419",
     "tech_change_status": "Eligible to Order"
    }
@@ -40801,8 +40638,8 @@
    "properties": {
     "name": "28 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000031107409",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421720421",
     "tech_change_status": "Eligible to Order"
    }
@@ -41050,10 +40887,9 @@
    "properties": {
     "name": "1 COLEMAN COURT MAIDSTONE 3012",
     "locID": "LOC000098307915",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421723900",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421723900"
    }
   },
   {
@@ -41228,8 +41064,8 @@
    "properties": {
     "name": "7 POWELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000157802639",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421727459",
     "tech_change_status": "Eligible to Order"
    }
@@ -41734,10 +41570,9 @@
    "properties": {
     "name": "3 SMITH STREET MAIDSTONE 3012",
     "locID": "LOC000074479446",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421738508",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421738508"
    }
   },
   {
@@ -42138,8 +41973,8 @@
    "properties": {
     "name": "12 INKERMAN STREET MAIDSTONE 3012",
     "locID": "LOC000088589328",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421745229",
     "tech_change_status": "Eligible to Order"
    }
@@ -42253,8 +42088,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.882445,
-     -37.786425
+     144.88246846,
+     -37.78642715
     ]
    },
    "properties": {
@@ -42313,8 +42148,8 @@
    "properties": {
     "name": "4 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000098384571",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421745366",
     "tech_change_status": "Eligible to Order"
    }
@@ -42832,8 +42667,8 @@
    "properties": {
     "name": "1 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000094933853",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421756603",
     "tech_change_status": "Eligible to Order"
    }
@@ -42867,8 +42702,8 @@
    "properties": {
     "name": "29 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000011057842",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421756605",
     "tech_change_status": "Eligible to Order"
    }
@@ -43018,23 +42853,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87987071,
-     -37.78387917
-    ]
-   },
-   "properties": {
-    "name": "19 HAVELOCK STREET MAIDSTONE 3012",
-    "locID": "LOC000024359705",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421763381"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.875788,
      -37.786539
     ]
@@ -43059,8 +42877,8 @@
    "properties": {
     "name": "UNIT 1, 22 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000095102761",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421767417",
     "tech_change_status": "Eligible to Order"
    }
@@ -43094,8 +42912,8 @@
    "properties": {
     "name": "22 SCOVELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000038652330",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421770828",
     "tech_change_status": "Eligible to Order"
    }
@@ -43791,9 +43609,9 @@
     "name": "UNIT 2, 24 CHURCHILL AVENUE MAIDSTONE 3012",
     "locID": "LOC000036063387",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421856089",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -43860,8 +43678,8 @@
    "properties": {
     "name": "3 WHITTAKER STREET MAIDSTONE 3012",
     "locID": "LOC000077342848",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421861910",
     "tech_change_status": "Eligible to Order"
    }
@@ -44124,8 +43942,8 @@
    "properties": {
     "name": "UNIT 2, 19 EMU ROAD MAIDSTONE 3012",
     "locID": "LOC000055241098",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421880959",
     "tech_change_status": "Eligible to Order"
    }
@@ -44212,8 +44030,8 @@
    "properties": {
     "name": "UNIT 2, 20 HOLLAND COURT MAIDSTONE 3012",
     "locID": "LOC000094100917",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421885657",
     "tech_change_status": "Eligible to Order"
    }
@@ -44334,8 +44152,8 @@
    "properties": {
     "name": "7 RAGLAN STREET MAIDSTONE 3012",
     "locID": "LOC000089726696",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421925705",
     "tech_change_status": "Eligible to Order"
    }
@@ -44473,10 +44291,9 @@
    "properties": {
     "name": "UNIT 1, 25 RADIO STREET MAIDSTONE 3012",
     "locID": "LOC000107192002",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421985387",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421985387"
    }
   },
   {
@@ -44719,8 +44536,8 @@
    "properties": {
     "name": "UNIT 1, 120 SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000080921797",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421989623",
     "tech_change_status": "Eligible to Order"
    }
@@ -44824,10 +44641,9 @@
    "properties": {
     "name": "47 LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000095392421",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421999268",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421999268"
    }
   },
   {
@@ -45378,8 +45194,8 @@
    "properties": {
     "name": "10 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000077119954",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422084686",
     "tech_change_status": "Eligible to Order"
    }
@@ -45396,8 +45212,8 @@
    "properties": {
     "name": "11 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000044339362",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422084687",
     "tech_change_status": "Eligible to Order"
    }
@@ -45575,8 +45391,8 @@
    "properties": {
     "name": "20 HOLLAND COURT MAIDSTONE 3012",
     "locID": "LOC000094100917",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422095875",
     "tech_change_status": "Eligible to Order"
    }
@@ -46149,8 +45965,8 @@
    "properties": {
     "name": "75 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000045651068",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422412227",
     "tech_change_status": "Eligible to Order"
    }
@@ -46655,10 +46471,9 @@
    "properties": {
     "name": "UNIT 1, 56 SUFFOLK STREET MAIDSTONE 3012",
     "locID": "LOC000004328035",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423288979",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423288979"
    }
   },
   {
@@ -46708,10 +46523,9 @@
    "properties": {
     "name": "UNIT 2, 21 BAIRD STREET MAIDSTONE 3012",
     "locID": "LOC000018490069",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423350013",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423350013"
    }
   },
   {
@@ -48122,8 +47936,8 @@
    "properties": {
     "name": "UNIT 2, 2A BARRETT STREET MAIDSTONE 3012",
     "locID": "LOC000001924078",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423767402",
     "tech_change_status": "Eligible to Order"
    }
@@ -48158,8 +47972,8 @@
    "properties": {
     "name": "UNIT 2, 29 COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000011057842",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768207",
     "tech_change_status": "Eligible to Order"
    }
@@ -48246,8 +48060,8 @@
    "properties": {
     "name": "5 FINCH WALK MAIDSTONE 3012",
     "locID": "LOC000058074811",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768862",
     "tech_change_status": "Eligible to Order"
    }
@@ -48333,8 +48147,8 @@
    "properties": {
     "name": "11 FOREMAN WAY MAIDSTONE 3012",
     "locID": "LOC000020947811",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768993",
     "tech_change_status": "Eligible to Order"
    }
@@ -48351,8 +48165,8 @@
    "properties": {
     "name": "12 FOREMAN WAY MAIDSTONE 3012",
     "locID": "LOC000069569545",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768994",
     "tech_change_status": "Eligible to Order"
    }
@@ -48369,8 +48183,8 @@
    "properties": {
     "name": "14 FOREMAN WAY MAIDSTONE 3012",
     "locID": "LOC000069526094",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768995",
     "tech_change_status": "Eligible to Order"
    }
@@ -48387,8 +48201,8 @@
    "properties": {
     "name": "16 FOREMAN WAY MAIDSTONE 3012",
     "locID": "LOC000094606035",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423768996",
     "tech_change_status": "Eligible to Order"
    }
@@ -48787,8 +48601,8 @@
    "properties": {
     "name": "5 LOMAS WAY MAIDSTONE 3012",
     "locID": "LOC000022603062",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423770427",
     "tech_change_status": "Eligible to Order"
    }
@@ -48823,8 +48637,8 @@
    "properties": {
     "name": "UNIT 1, 75 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000045651068",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423770882",
     "tech_change_status": "Eligible to Order"
    }
@@ -48892,10 +48706,9 @@
    "properties": {
     "name": "UNIT 1, 83 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000053800609",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423770886",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423770886"
    }
   },
   {
@@ -49280,8 +49093,8 @@
    "properties": {
     "name": "15 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000027756615",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423771578",
     "tech_change_status": "Eligible to Order"
    }
@@ -49545,10 +49358,9 @@
    "properties": {
     "name": "29 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000004430561",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423771593",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423771593"
    }
   },
   {
@@ -49563,8 +49375,8 @@
    "properties": {
     "name": "2 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000056594842",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423771594",
     "tech_change_status": "Eligible to Order"
    }
@@ -49617,10 +49429,9 @@
    "properties": {
     "name": "32 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000039240841",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423771597",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423771597"
    }
   },
   {
@@ -50027,10 +49838,9 @@
    "properties": {
     "name": "6 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000010343430",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423771620",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423771620"
    }
   },
   {
@@ -50133,8 +49943,8 @@
    "properties": {
     "name": "9 RINGTAIL CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000057515210",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423771626",
     "tech_change_status": "Eligible to Order"
    }
@@ -50151,8 +49961,8 @@
    "properties": {
     "name": "61 ROSAMOND ROAD MAIDSTONE 3012",
     "locID": "LOC000073884135",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423771663",
     "tech_change_status": "Eligible to Order"
    }
@@ -51096,8 +50906,8 @@
    "properties": {
     "name": "UNIT 1, 14 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000058078845",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423904640",
     "tech_change_status": "Eligible to Order"
    }
@@ -51114,8 +50924,8 @@
    "properties": {
     "name": "UNIT 2, 14 OMAR STREET MAIDSTONE 3012",
     "locID": "LOC000058078845",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423904641",
     "tech_change_status": "Eligible to Order"
    }
@@ -51185,9 +50995,9 @@
     "name": "4 PULLAR STREET MAIDSTONE 3012",
     "locID": "LOC000097089627",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423904866",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -51969,8 +51779,8 @@
    "properties": {
     "name": "10 CORREA VIEW MAIDSTONE 3012",
     "locID": "LOC000025184194",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423986970",
     "tech_change_status": "Eligible to Order"
    }
@@ -52040,9 +51850,9 @@
     "name": "4 CORREA VIEW MAIDSTONE 3012",
     "locID": "LOC000069303836",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423986974",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -52160,10 +51970,10 @@
    "properties": {
     "name": "13 KANOOKA DRIVE MAIDSTONE 3012",
     "locID": "LOC000015006025",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423989037",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -52178,10 +51988,9 @@
    "properties": {
     "name": "15 KANOOKA DRIVE MAIDSTONE 3012",
     "locID": "LOC000081384286",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423989038",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423989038"
    }
   },
   {
@@ -52393,8 +52202,8 @@
    "properties": {
     "name": "18 LOMANDRA DRIVE MAIDSTONE 3012",
     "locID": "LOC000060090602",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423989712",
     "tech_change_status": "Eligible to Order"
    }
@@ -52431,6 +52240,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423989714"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87295365,
+     -37.7761776
+    ]
+   },
+   "properties": {
+    "name": "21 LOMANDRA DRIVE MAIDSTONE 3012",
+    "locID": "LOC000197688329",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423989715"
    }
   },
   {
@@ -52534,8 +52360,8 @@
    "properties": {
     "name": "3 LOMANDRA DRIVE MAIDSTONE 3012",
     "locID": "LOC000068523710",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423989721",
     "tech_change_status": "Eligible to Order"
    }
@@ -52677,8 +52503,8 @@
    "properties": {
     "name": "2 MAPLE STREET MAIDSTONE 3012",
     "locID": "LOC000022071027",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423990135",
     "tech_change_status": "Eligible to Order"
    }
@@ -52812,6 +52638,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.87172141,
+     -37.77477881
+    ]
+   },
+   "properties": {
+    "name": "10 MYRTLE DRIVE MAIDSTONE 3012",
+    "locID": "LOC000197599658",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423990799"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.8731884,
      -37.77490221
     ]
@@ -52819,8 +52662,8 @@
    "properties": {
     "name": "11 MYRTLE DRIVE MAIDSTONE 3012",
     "locID": "LOC000034192567",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423990800",
     "tech_change_status": "Eligible to Order"
    }
@@ -52837,8 +52680,8 @@
    "properties": {
     "name": "12 MYRTLE DRIVE MAIDSTONE 3012",
     "locID": "LOC000104617139",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423990801",
     "tech_change_status": "Eligible to Order"
    }
@@ -52995,8 +52838,8 @@
    "properties": {
     "name": "20 MYRTLE DRIVE MAIDSTONE 3012",
     "locID": "LOC000084825224",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423990810",
     "tech_change_status": "Eligible to Order"
    }
@@ -53133,10 +52976,10 @@
    "properties": {
     "name": "6 MYRTLE DRIVE MAIDSTONE 3012",
     "locID": "LOC000060879114",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423990818",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -53467,8 +53310,8 @@
    "properties": {
     "name": "UNIT 17, 61 WATTLE ROAD MAIDSTONE 3012",
     "locID": "LOC000008652273",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424042226",
     "tech_change_status": "Eligible to Order"
    }
@@ -53589,10 +53432,9 @@
    "properties": {
     "name": "UNIT 23, 61 WATTLE ROAD MAIDSTONE 3012",
     "locID": "LOC000008542307",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424042233",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424042233"
    }
   },
   {
@@ -53976,8 +53818,8 @@
    "properties": {
     "name": "UNIT 1, 25 DEAKIN STREET MAIDSTONE 3012",
     "locID": "LOC000094055800",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424237153",
     "tech_change_status": "Eligible to Order"
    }
@@ -54029,8 +53871,8 @@
    "properties": {
     "name": "UNIT 1, 167 BALLARAT ROAD MAIDSTONE 3012",
     "locID": "LOC000009251088",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424249900",
     "tech_change_status": "Eligible to Order"
    }
@@ -54380,10 +54222,9 @@
    "properties": {
     "name": "22 KANOOKA DRIVE MAIDSTONE 3012",
     "locID": "LOC000027687599",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424256137",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424256137"
    }
   },
   {
@@ -54415,10 +54256,9 @@
    "properties": {
     "name": "26 KANOOKA DRIVE MAIDSTONE 3012",
     "locID": "LOC000078125602",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424256139",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424256139"
    }
   },
   {
@@ -54451,8 +54291,8 @@
    "properties": {
     "name": "30 KANOOKA DRIVE MAIDSTONE 3012",
     "locID": "LOC000049043626",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424256141",
     "tech_change_status": "Eligible to Order"
    }
@@ -54816,8 +54656,8 @@
    "properties": {
     "name": "UNIT 1, 5 GREENHAM STREET MAIDSTONE 3012",
     "locID": "LOC000102532865",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424273328",
     "tech_change_status": "Eligible to Order"
    }
@@ -54837,7 +54677,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424273329",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -54852,8 +54692,8 @@
    "properties": {
     "name": "UNIT 3, 5 GREENHAM STREET MAIDSTONE 3012",
     "locID": "LOC000102653601",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424273330",
     "tech_change_status": "Eligible to Order"
    }
@@ -54888,8 +54728,8 @@
    "properties": {
     "name": "UNIT 1, 111 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000004342150",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424274075",
     "tech_change_status": "Eligible to Order"
    }
@@ -55757,8 +55597,8 @@
    "properties": {
     "name": "1 GREVILLEA CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000029680299",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424279402",
     "tech_change_status": "Eligible to Order"
    }
@@ -55863,8 +55703,8 @@
    "properties": {
     "name": "2 GREVILLEA CIRCUIT MAIDSTONE 3012",
     "locID": "LOC000034708082",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424279408",
     "tech_change_status": "Eligible to Order"
    }
@@ -56004,8 +55844,8 @@
    "properties": {
     "name": "14 LIGHTWOOD WAY MAIDSTONE 3012",
     "locID": "LOC000065719520",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424280822",
     "tech_change_status": "Eligible to Order"
    }
@@ -56256,8 +56096,8 @@
    "properties": {
     "name": "10 ULMARA PARKWAY MAIDSTONE 3012",
     "locID": "LOC000171500362",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424285060",
     "tech_change_status": "Eligible to Order"
    }
@@ -56448,8 +56288,8 @@
    "properties": {
     "name": "25 YELLOW BOX STREET MAIDSTONE 3012",
     "locID": "LOC000050725181",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424285757",
     "tech_change_status": "Eligible to Order"
    }
@@ -56466,8 +56306,8 @@
    "properties": {
     "name": "26 YELLOW BOX STREET MAIDSTONE 3012",
     "locID": "LOC000083198157",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424285758",
     "tech_change_status": "Eligible to Order"
    }
@@ -56501,8 +56341,8 @@
    "properties": {
     "name": "72-80 HAMPSTEAD ROAD MAIDSTONE 3012",
     "locID": "LOC000013847984",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424357190",
     "tech_change_status": "Eligible to Order"
    }
@@ -56539,7 +56379,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424372021",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -57992,10 +57832,9 @@
    "properties": {
     "name": "UNIT 2, 32 CATHCART STREET MAIDSTONE 3012",
     "locID": "LOC000085173996",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424462479",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424462479"
    }
   },
   {
@@ -58651,10 +58490,9 @@
    "properties": {
     "name": "33 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000016960591",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424494071",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424494071"
    }
   },
   {
@@ -58801,8 +58639,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87841798,
-     -37.78552401
+     144.87879107,
+     -37.78560675
     ]
    },
    "properties": {
@@ -59647,10 +59485,9 @@
    "properties": {
     "name": "UNIT 2, 44 HAMPSTEAD ROAD MAIDSTONE 3012",
     "locID": "LOC000171498433",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC424538349",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424538349"
    }
   },
   {
@@ -59856,8 +59693,8 @@
    "properties": {
     "name": "UNIT 1, 9 HUTTON STREET MAIDSTONE 3012",
     "locID": "LOC000074118279",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424549612",
     "tech_change_status": "Eligible to Order"
    }
@@ -59908,8 +59745,8 @@
    "properties": {
     "name": "UNIT 2, 22 SCOVELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000038652330",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424550410",
     "tech_change_status": "Eligible to Order"
    }
@@ -59926,8 +59763,8 @@
    "properties": {
     "name": "UNIT 3, 22 SCOVELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000038969088",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424550411",
     "tech_change_status": "Eligible to Order"
    }
@@ -60135,8 +59972,8 @@
    "properties": {
     "name": "25 ROONEY STREET MAIDSTONE 3012",
     "locID": "LOC000026799571",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424592811",
     "tech_change_status": "Eligible to Order"
    }
@@ -60754,8 +60591,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87844086,
-     -37.78915235
+     144.87836697,
+     -37.78939824
     ]
    },
    "properties": {
@@ -61232,8 +61069,8 @@
    "properties": {
     "name": "UNIT 1, 30 SCOVELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000110232618",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424678292",
     "tech_change_status": "Eligible to Order"
    }
@@ -61528,8 +61365,8 @@
    "properties": {
     "name": "15 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000113850778",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424715222",
     "tech_change_status": "Eligible to Order"
    }
@@ -61546,8 +61383,8 @@
    "properties": {
     "name": "UNIT 1, 11 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000110574840",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424716697",
     "tech_change_status": "Eligible to Order"
    }
@@ -61564,8 +61401,8 @@
    "properties": {
     "name": "UNIT 2, 11 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000113617205",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424716698",
     "tech_change_status": "Eligible to Order"
    }
@@ -61582,8 +61419,8 @@
    "properties": {
     "name": "UNIT 3, 11 HAVELOCK STREET MAIDSTONE 3012",
     "locID": "LOC000111058429",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424716699",
     "tech_change_status": "Eligible to Order"
    }
@@ -61740,8 +61577,8 @@
    "properties": {
     "name": "UNIT 4, 170 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000112242520",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424719375",
     "tech_change_status": "Eligible to Order"
    }
@@ -63453,7 +63290,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424752856",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -63488,7 +63325,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424752858",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -65418,10 +65255,9 @@
    "properties": {
     "name": "UNIT 1, 30 ALMA STREET MAIDSTONE 3012",
     "locID": "LOC000122788602",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424926153",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424926153"
    }
   },
   {
@@ -65490,10 +65326,9 @@
    "properties": {
     "name": "UNIT 1, 7 COLEMAN COURT MAIDSTONE 3012",
     "locID": "LOC000122809001",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424927207",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424927207"
    }
   },
   {
@@ -66776,8 +66611,8 @@
    "properties": {
     "name": "15A LINDENOW STREET MAIDSTONE 3012",
     "locID": "LOC000122772562",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424975325",
     "tech_change_status": "Eligible to Order"
    }
@@ -67220,8 +67055,8 @@
    "properties": {
     "name": "26 EUCALYPTUS DRIVE MAIDSTONE 3012",
     "locID": "LOC000122780739",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425015748",
     "tech_change_status": "Eligible to Order"
    }
@@ -67395,8 +67230,8 @@
    "properties": {
     "name": "UNIT 2, 54 RICHELIEU STREET MAIDSTONE 3012",
     "locID": "LOC000122801128",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425026933",
     "tech_change_status": "Eligible to Order"
    }
@@ -67535,8 +67370,8 @@
    "properties": {
     "name": "UNIT 2, 12 CLARENDON STREET MAIDSTONE 3012",
     "locID": "LOC000157805685",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425080873",
     "tech_change_status": "Eligible to Order"
    }
@@ -68089,8 +67924,8 @@
    "properties": {
     "name": "3 EUCALYPTUS DRIVE MAIDSTONE 3012",
     "locID": "LOC000137575515",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425082895",
     "tech_change_status": "Eligible to Order"
    }
@@ -68177,8 +68012,8 @@
    "properties": {
     "name": "8 EUCALYPTUS DRIVE MAIDSTONE 3012",
     "locID": "LOC000137575396",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425082900",
     "tech_change_status": "Eligible to Order"
    }
@@ -72495,10 +72330,9 @@
    "properties": {
     "name": "UNIT 1, 21 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000157794170",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425292749",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425292749"
    }
   },
   {
@@ -72513,10 +72347,9 @@
    "properties": {
     "name": "UNIT 2, 21 FISHER STREET MAIDSTONE 3012",
     "locID": "LOC000157794170",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425292750",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425292750"
    }
   },
   {
@@ -72565,8 +72398,8 @@
    "properties": {
     "name": "37A COMMERCIAL STREET MAIDSTONE 3012",
     "locID": "LOC000139623167",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425294244",
     "tech_change_status": "Eligible to Order"
    }
@@ -72965,8 +72798,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86762177,
-     -37.78588715
+     144.8676292,
+     -37.78588675
     ]
    },
    "properties": {
@@ -72982,15 +72815,15 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86767631,
-     -37.78590109
+     144.86768391,
+     -37.78590084
     ]
    },
    "properties": {
     "name": "UNIT 2, 4 HOLLAND COURT MAIDSTONE 3012",
     "locID": "LOC000157799612",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425313799",
     "tech_change_status": "Eligible to Order"
    }
@@ -73000,8 +72833,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86756808,
-     -37.78612198
+     144.86757324,
+     -37.78612156
     ]
    },
    "properties": {
@@ -73017,8 +72850,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86751205,
-     -37.78604836
+     144.86751851,
+     -37.78604755
     ]
    },
    "properties": {
@@ -73162,8 +72995,8 @@
    "properties": {
     "name": "UNIT 2, 18 YARDLEY STREET MAIDSTONE 3012",
     "locID": "LOC000157806461",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425324151",
     "tech_change_status": "Eligible to Order"
    }
@@ -73180,8 +73013,8 @@
    "properties": {
     "name": "UNIT 3, 18 YARDLEY STREET MAIDSTONE 3012",
     "locID": "LOC000157806488",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425324152",
     "tech_change_status": "Eligible to Order"
    }
@@ -73406,10 +73239,9 @@
    "properties": {
     "name": "UNIT 1, 5 POWELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000157802589",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425371697",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425371697"
    }
   },
   {
@@ -73754,9 +73586,9 @@
     "name": "22 JANSON STREET MAIDSTONE 3012",
     "locID": "LOC000157800006",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425420201",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -73998,8 +73830,8 @@
    "properties": {
     "name": "113B MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000157801521",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425495941",
     "tech_change_status": "Eligible to Order"
    }
@@ -74050,8 +73882,8 @@
    "properties": {
     "name": "9A RAGLAN STREET MAIDSTONE 3012",
     "locID": "LOC000157802845",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425496350",
     "tech_change_status": "Eligible to Order"
    }
@@ -74191,8 +74023,8 @@
    "properties": {
     "name": "7A POWELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000157802639",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425531988",
     "tech_change_status": "Eligible to Order"
    }
@@ -75118,10 +74950,9 @@
    "properties": {
     "name": "UNIT 3, 15 POWELL CRESCENT MAIDSTONE 3012",
     "locID": "LOC000157802562",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC425686311",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425686311"
    }
   },
   {
@@ -75852,8 +75683,8 @@
    "properties": {
     "name": "UNIT 1, 31 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000171495925",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425778447",
     "tech_change_status": "Eligible to Order"
    }
@@ -75870,8 +75701,8 @@
    "properties": {
     "name": "UNIT 2, 31 DELACEY STREET MAIDSTONE 3012",
     "locID": "LOC000171495925",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425778448",
     "tech_change_status": "Eligible to Order"
    }
@@ -76134,8 +75965,8 @@
    "properties": {
     "name": "UNIT 1, 11 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000157807786",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425820215",
     "tech_change_status": "Eligible to Order"
    }
@@ -76152,8 +75983,8 @@
    "properties": {
     "name": "UNIT 2, 11 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000157807803",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425820216",
     "tech_change_status": "Eligible to Order"
    }
@@ -76170,8 +76001,8 @@
    "properties": {
     "name": "UNIT 3, 11 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000157807786",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425820217",
     "tech_change_status": "Eligible to Order"
    }
@@ -76188,8 +76019,8 @@
    "properties": {
     "name": "UNIT 4, 11 EDMUND STREET MAIDSTONE 3012",
     "locID": "LOC000157807842",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425820218",
     "tech_change_status": "Eligible to Order"
    }
@@ -76752,10 +76583,9 @@
    "properties": {
     "name": "UNIT 4, 16 YARDLEY STREET MAIDSTONE 3012",
     "locID": "LOC000157806435",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719049014",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719049014"
    }
   },
   {
@@ -77158,8 +76988,8 @@
    "properties": {
     "name": "22 WHITTAKER STREET MAIDSTONE 3012",
     "locID": "LOC000157806211",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719053567",
     "tech_change_status": "Eligible to Order"
    }
@@ -77702,8 +77532,8 @@
    "properties": {
     "name": "18B MARSH STREET MAIDSTONE 3012",
     "locID": "LOC000171499708",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719206462",
     "tech_change_status": "Eligible to Order"
    }
@@ -78000,10 +77830,10 @@
    "properties": {
     "name": "UNIT 6, 6 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000171494513",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719309906",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78018,8 +77848,8 @@
    "properties": {
     "name": "UNIT 4, 108 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000171493223",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719310304",
     "tech_change_status": "Eligible to Order"
    }
@@ -78071,8 +77901,8 @@
    "properties": {
     "name": "UNIT 8, 6 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000171494532",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719311188",
     "tech_change_status": "Eligible to Order"
    }
@@ -78124,8 +77954,8 @@
    "properties": {
     "name": "UNIT 3, 108 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000171493210",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719313953",
     "tech_change_status": "Eligible to Order"
    }
@@ -78349,8 +78179,8 @@
    "properties": {
     "name": "84-88 MITCHELL STREET MAIDSTONE 3012",
     "locID": "LOC000171499712",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719320437",
     "tech_change_status": "Eligible to Order"
    }
@@ -78385,10 +78215,10 @@
    "properties": {
     "name": "UNIT 3, 6 BOSQUET STREET MAIDSTONE 3012",
     "locID": "LOC000171494513",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719321556",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78612,8 +78442,8 @@
    "properties": {
     "name": "UNIT 1, 108 ASHLEY STREET MAIDSTONE 3012",
     "locID": "LOC000171493193",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719326279",
     "tech_change_status": "Eligible to Order"
    }
@@ -78766,8 +78596,8 @@
    "properties": {
     "name": "31A WATTLE ROAD MAIDSTONE 3012",
     "locID": "LOC000171500447",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719346979",
     "tech_change_status": "Eligible to Order"
    }
@@ -79098,8 +78928,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87982038,
-     -37.77752885
+     144.87970358,
+     -37.77827101
     ]
    },
    "properties": {
@@ -79588,10 +79418,9 @@
    "properties": {
     "name": "UNIT 3, 6 INKERMAN STREET MAIDSTONE 3012",
     "locID": "LOC100074213780",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719510690",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719510690"
    }
   },
   {
@@ -79633,8 +79462,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.88225552,
-     -37.78844602
+     144.88227472,
+     -37.78845975
     ]
    },
    "properties": {
@@ -79722,8 +79551,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.88229766,
-     -37.78846311
+     144.88227472,
+     -37.78845975
     ]
    },
    "properties": {
@@ -80815,8 +80644,8 @@
    "properties": {
     "name": "40B OMAR STREET MAIDSTONE 3012",
     "locID": "LOC100074203014",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719768058",
     "tech_change_status": "Eligible to Order"
    }
@@ -81454,8 +81283,8 @@
    "properties": {
     "name": "28B ALMA STREET MAIDSTONE 3012",
     "locID": "LOC100074203177",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719923714",
     "tech_change_status": "Eligible to Order"
    }
@@ -81523,8 +81352,8 @@
    "properties": {
     "name": "3B BARRETT STREET MAIDSTONE 3012",
     "locID": "LOC100074203288",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719924430",
     "tech_change_status": "Eligible to Order"
    }
@@ -82304,8 +82133,8 @@
    "properties": {
     "name": "11 RENOWN STREET MAIDSTONE 3012",
     "locID": "LOC100074578628",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC720126567",
     "tech_change_status": "Eligible to Order"
    }
@@ -82953,8 +82782,8 @@
    "properties": {
     "name": "UNIT 1, 5 MONTGOMERY STREET MAIDSTONE 3012",
     "locID": "LOC100074222491",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC720227600",
     "tech_change_status": "Eligible to Order"
    }
@@ -86876,8 +86705,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.878781,
-     -37.785134
+     144.87872333,
+     -37.78517379
     ]
    },
    "properties": {
@@ -87388,8 +87217,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.88136065,
-     -37.78016059
+     144.87927208,
+     -37.78797736
+    ]
+   },
+   "properties": {
+    "name": "32B STUDLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000192763093",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721109066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8812334,
+     -37.7802596
     ]
    },
    "properties": {
@@ -87422,8 +87268,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.88136065,
-     -37.78016059
+     144.87925789,
+     -37.78805141
+    ]
+   },
+   "properties": {
+    "name": "32A STUDLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000192763086",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721109677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88129168,
+     -37.77995271
     ]
    },
    "properties": {
@@ -88119,8 +87982,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.876326,
-     -37.78244
+     144.87632613,
+     -37.78243814
     ]
    },
    "properties": {
@@ -88136,8 +87999,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.876326,
-     -37.78244
+     144.87632613,
+     -37.78243814
     ]
    },
    "properties": {
@@ -88187,8 +88050,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.876326,
-     -37.78244
+     144.87632613,
+     -37.78243814
     ]
    },
    "properties": {
@@ -88272,8 +88135,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.868406,
-     -37.786595
+     144.86842832,
+     -37.78632882
     ]
    },
    "properties": {
@@ -88290,8 +88153,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.868406,
-     -37.786595
+     144.86846005,
+     -37.7866095
     ]
    },
    "properties": {
@@ -88307,8 +88170,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.868406,
-     -37.786595
+     144.86839185,
+     -37.78660193
     ]
    },
    "properties": {
@@ -88324,8 +88187,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.868406,
-     -37.786595
+     144.86851019,
+     -37.78635922
     ]
    },
    "properties": {
@@ -88342,8 +88205,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.86938342,
-     -37.7893501
+     144.86938958,
+     -37.78939154
     ]
    },
    "properties": {
@@ -88359,8 +88222,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87157985,
-     -37.78855131
+     144.87182483,
+     -37.78852872
     ]
    },
    "properties": {
@@ -88376,8 +88239,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87157985,
-     -37.78855131
+     144.87193123,
+     -37.78861499
     ]
    },
    "properties": {
@@ -88393,8 +88256,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87157985,
-     -37.78855131
+     144.87158909,
+     -37.78854564
     ]
    },
    "properties": {
@@ -88410,8 +88273,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.881953,
-     -37.782595
+     144.88194968,
+     -37.78259352
     ]
    },
    "properties": {
@@ -88512,8 +88375,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87679892,
-     -37.788497
+     144.87677102,
+     -37.78876705
     ]
    },
    "properties": {
@@ -88529,8 +88392,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.87259167,
-     -37.78354829
+     144.87247829,
+     -37.78353831
     ]
    },
    "properties": {
@@ -88631,8 +88494,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.869914,
-     -37.78072
+     144.87006283,
+     -37.78072669
     ]
    },
    "properties": {
@@ -88682,8 +88545,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.869914,
-     -37.78072
+     144.87023887,
+     -37.78074326
     ]
    },
    "properties": {
@@ -88699,8 +88562,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.869914,
-     -37.78072
+     144.87014495,
+     -37.78073442
     ]
    },
    "properties": {
@@ -88733,8 +88596,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.876466,
-     -37.77545067
+     144.87764981,
+     -37.77674341
     ]
    },
    "properties": {
@@ -88784,8 +88647,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.866951,
-     -37.780729
+     144.86690866,
+     -37.78095049
     ]
    },
    "properties": {
@@ -88801,8 +88664,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.866951,
-     -37.780729
+     144.8669553,
+     -37.7807173
     ]
    },
    "properties": {
@@ -88818,8 +88681,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.866951,
-     -37.780729
+     144.86689067,
+     -37.78086906
     ]
    },
    "properties": {
@@ -88828,6 +88691,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721556648"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592045",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721562615"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592066",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721562680"
    }
   },
   {
@@ -88852,6 +88749,91 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592021",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721562854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592013",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721563049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197591999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721563228"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592032",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721563257"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592009",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721563536"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.87675125,
      -37.79054434
     ]
@@ -88862,6 +88844,805 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721563564"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874464,
+     -37.783208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 12 BOSQUET STREET MAIDSTONE 3012",
+    "locID": "LOC000197592050",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721563585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87094,
+     -37.779792
+    ]
+   },
+   "properties": {
+    "name": "26B OMAR STREET MAIDSTONE 3012",
+    "locID": "LOC000196838704",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721645833"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87094,
+     -37.779792
+    ]
+   },
+   "properties": {
+    "name": "26A OMAR STREET MAIDSTONE 3012",
+    "locID": "LOC000196838696",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721646881"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87836697,
+     -37.78939824
+    ]
+   },
+   "properties": {
+    "name": "45B HOWARD STREET MAIDSTONE 3012",
+    "locID": "LOC000191616121",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721709841"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473235",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713410"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818672",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713415"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88398938,
+     -37.78248608
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 73 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195566558",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713449"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473288",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713478"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818767",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713588"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473274",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713686"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.882469,
+     -37.779243
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 19 LINDENOW STREET MAIDSTONE 3012",
+    "locID": "LOC000195087995",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713736"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.882469,
+     -37.779243
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 19 LINDENOW STREET MAIDSTONE 3012",
+    "locID": "LOC000195088012",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713845"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.870104,
+     -37.78951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 9 YARDLEY COURT MAIDSTONE 3012",
+    "locID": "LOC000196791608",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473261",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713915"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818746",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713920"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8837891,
+     -37.78243087
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 73 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195566591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713974"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818686",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713979"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818664",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714047"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.870104,
+     -37.78951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 9 YARDLEY COURT MAIDSTONE 3012",
+    "locID": "LOC000196791599",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714109"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818722",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714115"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818733",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714116"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818705",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714171"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818655",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714178"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473242",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714184"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473257",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714305"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818714",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714351"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.870104,
+     -37.78951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 9 YARDLEY COURT MAIDSTONE 3012",
+    "locID": "LOC000196791581",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714476"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.870104,
+     -37.78951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 9 YARDLEY COURT MAIDSTONE 3012",
+    "locID": "LOC000196791612",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883552,
+     -37.785057
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 39 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195473196",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714588"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818693",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714594"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8836417,
+     -37.78242436
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 73 ROSAMOND ROAD MAIDSTONE 3012",
+    "locID": "LOC000195566602",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86820936,
+     -37.78238379
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 212 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195818751",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714655"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.864497,
+     -37.787462
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 100 ASHLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000196806561",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777048"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.867917,
+     -37.78227
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 214 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195072856",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777299"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.867917,
+     -37.78227
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 214 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195072887",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.867917,
+     -37.78227
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 214 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195072841",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.867917,
+     -37.78227
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 214 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195072873",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777802"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.864497,
+     -37.787462
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 100 ASHLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000196806535",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721777956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.864497,
+     -37.787462
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 100 ASHLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000196806574",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778188"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.864497,
+     -37.787462
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 100 ASHLEY STREET MAIDSTONE 3012",
+    "locID": "LOC000196806485",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778421"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88093439,
+     -37.78528095
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 30 DELACEY STREET MAIDSTONE 3012",
+    "locID": "LOC000197520325",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778433"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88093439,
+     -37.78528095
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 30 DELACEY STREET MAIDSTONE 3012",
+    "locID": "LOC000197520318",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778610"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88093439,
+     -37.78528095
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 30 DELACEY STREET MAIDSTONE 3012",
+    "locID": "LOC000197520216",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778611"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.867917,
+     -37.78227
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 214 BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000195072860",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721778653"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88169944,
+     -37.78822076
+    ]
+   },
+   "properties": {
+    "name": "23A BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000197295120",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791467"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88163559,
+     -37.78819487
+    ]
+   },
+   "properties": {
+    "name": "23B BALLARAT ROAD MAIDSTONE 3012",
+    "locID": "LOC000197295131",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721793697"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87093567,
+     -37.78494363
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2B, 6 JANSON STREET MAIDSTONE 3012",
+    "locID": "LOC000034971341",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721824578"
    }
   }
  ]
