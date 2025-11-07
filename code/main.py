@@ -27,6 +27,8 @@ from utils import print_progress_bar
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
 GNAF_PID_TO_LOC: dict[str, str] = {}
+# a cache of gnaf_pid -> Address for FTTP addresses (which won't change)
+GNAF_PID_TO_FTTP_ADDRESS: dict[str, Address] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
 # map the 'upgrade' value ending with _CT to a new 'tech' status
@@ -72,7 +74,19 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
     """Return an Address for the given db address, probably augmented with data from the NBN API."""
-    global GNAF_PID_TO_LOC
+    global GNAF_PID_TO_LOC, GNAF_PID_TO_FTTP_ADDRESS
+    
+    # Check if we have cached FTTP data for this address
+    if cached_fttp_address := GNAF_PID_TO_FTTP_ADDRESS.get(address.gnaf_pid):
+        # Return the cached FTTP address data (FTTP tech won't change)
+        address.loc_id = cached_fttp_address.loc_id
+        address.tech = cached_fttp_address.tech
+        address.upgrade = cached_fttp_address.upgrade
+        address.tech_change_status = cached_fttp_address.tech_change_status
+        address.program_type = cached_fttp_address.program_type
+        address.target_eligibility_quarter = cached_fttp_address.target_eligibility_quarter
+        return address
+    
     try:
         if loc_id := GNAF_PID_TO_LOC.get(address.gnaf_pid):
             address.loc_id = loc_id
@@ -168,7 +182,7 @@ def process_suburb(
     logging.info("Fetched %d addresses from database", len(db_addresses))
 
     # if the output file exists already the use it to cache locid lookup
-    global GNAF_PID_TO_LOC
+    global GNAF_PID_TO_LOC, GNAF_PID_TO_FTTP_ADDRESS
     if results := geojson.read_geojson_file(suburb, state):
         file_generated = datetime.fromisoformat(results["generated"])
         if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
@@ -176,6 +190,14 @@ def process_suburb(
             GNAF_PID_TO_LOC = {
                 feature["properties"]["gnaf_pid"]: feature["properties"]["locID"] for feature in results["features"]
             }
+            # Cache FTTP addresses since they won't change
+            GNAF_PID_TO_FTTP_ADDRESS = {
+                feature["properties"]["gnaf_pid"]: geojson.feature_to_address(feature)
+                for feature in results["features"]
+                if feature["properties"].get("tech") == "FTTP"
+            }
+            if GNAF_PID_TO_FTTP_ADDRESS:
+                logging.info("Cached %d FTTP addresses (will skip rechecking)", len(GNAF_PID_TO_FTTP_ADDRESS))
     # get NBN data for addresses
     addresses = get_all_addresses(db_addresses, max_threads, progress_bar=progress_bar)
     addresses = remove_duplicate_addresses(addresses)
