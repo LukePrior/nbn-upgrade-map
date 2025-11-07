@@ -295,44 +295,34 @@ function hexToPixiColor(hex) {
     return parseInt(hex, 16);
 }
 
-// Simple clustering function based on distance
-// Note: O(n²) complexity. For very large datasets (>5000 markers), 
-// consider optimizing with spatial data structures (quadtree/grid)
-function clusterMarkers(markers, project, clusterDistance) {
+// Clustering function based on exact coordinate matching
+// Clusters markers that have identical lat/lng coordinates
+function clusterMarkers(markers) {
+    var coordMap = {};
     var clusters = [];
-    var clustered = new Set();
     
+    // Group markers by exact coordinates
     markers.forEach(function(marker, index) {
-        if (clustered.has(index)) return;
+        var key = marker.latlng.lat.toFixed(8) + ',' + marker.latlng.lng.toFixed(8);
         
-        var cluster = {
-            markers: [marker],
-            indices: [index],
-            colors: [marker.color]
-        };
+        if (!coordMap[key]) {
+            coordMap[key] = {
+                markers: [],
+                indices: [],
+                colors: [],
+                latlng: marker.latlng
+            };
+        }
         
-        var coords1 = project(marker.latlng);
-        
-        // Find nearby markers to cluster
-        markers.forEach(function(other, otherIndex) {
-            if (otherIndex <= index || clustered.has(otherIndex)) return;
-            
-            var coords2 = project(other.latlng);
-            var dx = coords1.x - coords2.x;
-            var dy = coords1.y - coords2.y;
-            var distance = Math.sqrt(dx * dx + dy * dy);
-            
-            if (distance < clusterDistance) {
-                cluster.markers.push(other);
-                cluster.indices.push(otherIndex);
-                cluster.colors.push(other.color);
-                clustered.add(otherIndex);
-            }
-        });
-        
-        clustered.add(index);
-        clusters.push(cluster);
+        coordMap[key].markers.push(marker);
+        coordMap[key].indices.push(index);
+        coordMap[key].colors.push(marker.color);
     });
+    
+    // Convert map to array of clusters
+    for (var key in coordMap) {
+        clusters.push(coordMap[key]);
+    }
     
     return clusters;
 }
@@ -436,16 +426,15 @@ function loadSuburb(state_file, commit, first_load=false) {
             container.removeChildren();
             markerGraphics = {};
             
-            // Determine cluster distance based on zoom level
-            // At higher zoom levels, reduce clustering (more individual markers)
-            var clusterDistance = zoom >= 17 ? 0 : zoom >= 15 ? 30 : zoom >= 13 ? 50 : 80;
+            // Cluster markers by exact coordinates
+            var clusters = clusterMarkers(markers);
             
-            if (clusterDistance === 0) {
-                // No clustering at high zoom - show individual markers
-                markers.forEach(function(marker, index) {
+            clusters.forEach(function(cluster, clusterIndex) {
+                if (cluster.markers.length === 1) {
+                    // Single marker - render as individual
+                    var marker = cluster.markers[0];
                     var coords = project(marker.latlng);
                     
-                    // Create circle graphic
                     var circle = new PIXI.Graphics();
                     circle.lineStyle(1 / scale, 0x000000, 1);
                     circle.beginFill(hexToPixiColor(marker.color), 0.8);
@@ -458,11 +447,9 @@ function loadSuburb(state_file, commit, first_load=false) {
                     circle.buttonMode = true;
                     circle.hitArea = new PIXI.Circle(0, 0, MARKER_HIT_RADIUS / scale);
                     
-                    // Store reference for interaction
-                    circle._markerId = index;
+                    circle._markerId = cluster.indices[0];
                     circle._markerData = marker;
                     
-                    // Add click event for popup
                     circle.on('click', function(e) {
                         L.popup()
                             .setLatLng(marker.latlng)
@@ -471,96 +458,59 @@ function loadSuburb(state_file, commit, first_load=false) {
                     });
                     
                     container.addChild(circle);
-                    markerGraphics[index] = circle;
-                });
-            } else {
-                // Cluster markers
-                var clusters = clusterMarkers(markers, project, clusterDistance);
-                
-                clusters.forEach(function(cluster, clusterIndex) {
-                    if (cluster.markers.length === 1) {
-                        // Single marker - render as individual
-                        var marker = cluster.markers[0];
-                        var coords = project(marker.latlng);
-                        
-                        var circle = new PIXI.Graphics();
-                        circle.lineStyle(1 / scale, 0x000000, 1);
-                        circle.beginFill(hexToPixiColor(marker.color), 0.8);
-                        circle.drawCircle(0, 0, MARKER_RADIUS / scale);
-                        circle.endFill();
-                        
-                        circle.x = coords.x;
-                        circle.y = coords.y;
-                        circle.interactive = true;
-                        circle.buttonMode = true;
-                        circle.hitArea = new PIXI.Circle(0, 0, MARKER_HIT_RADIUS / scale);
-                        
-                        circle._markerId = cluster.indices[0];
-                        circle._markerData = marker;
-                        
-                        circle.on('click', function(e) {
-                            L.popup()
-                                .setLatLng(marker.latlng)
-                                .setContent(marker.popup)
-                                .openOn(map);
-                        });
-                        
-                        container.addChild(circle);
-                    } else {
-                        // Cluster - render as cluster circle with count
-                        var centerLat = 0, centerLng = 0;
-                        cluster.markers.forEach(function(m) {
-                            centerLat += m.latlng.lat;
-                            centerLng += m.latlng.lng;
-                        });
-                        centerLat /= cluster.markers.length;
-                        centerLng /= cluster.markers.length;
-                        
-                        var clusterLatLng = L.latLng(centerLat, centerLng);
-                        var coords = project(clusterLatLng);
-                        
-                        // Get most common color for cluster
-                        var clusterColor = getMostCommonColor(cluster.colors);
-                        
-                        // Draw cluster circle
-                        var clusterCircle = new PIXI.Graphics();
-                        var radius = Math.min(CLUSTER_RADIUS_BASE / scale, MAX_CLUSTER_RADIUS / scale);
-                        clusterCircle.lineStyle(1 / scale, 0x000000, 1);
-                        clusterCircle.beginFill(hexToPixiColor(clusterColor), 0.8);
-                        clusterCircle.drawCircle(0, 0, radius);
-                        clusterCircle.endFill();
-                        
-                        clusterCircle.x = coords.x;
-                        clusterCircle.y = coords.y;
-                        clusterCircle.interactive = true;
-                        clusterCircle.buttonMode = true;
-                        clusterCircle.hitArea = new PIXI.Circle(0, 0, radius * 1.5);
-                        
-                        // Add text showing count
-                        var text = new PIXI.Text(cluster.markers.length.toString(), {
-                            fontSize: Math.max(MIN_CLUSTER_FONT_SIZE / scale, BASE_CLUSTER_FONT_SIZE),
-                            fill: 0x000000,
-                            align: 'center'
-                        });
-                        text.anchor.set(0.5);
-                        text.x = coords.x;
-                        text.y = coords.y;
-                        
-                        // Click handler for clusters - show popup with count
-                        clusterCircle.on('click', function(e) {
-                            var popupContent = '<b>' + cluster.markers.length + ' markers</b><br>';
-                            popupContent += 'Zoom in to see individual markers';
-                            L.popup()
-                                .setLatLng(clusterLatLng)
-                                .setContent(popupContent)
-                                .openOn(map);
-                        });
-                        
-                        container.addChild(clusterCircle);
-                        container.addChild(text);
-                    }
-                });
-            }
+                } else {
+                    // Cluster - render as cluster circle with count
+                    // Use the stored latlng from the cluster (same for all markers in cluster)
+                    var coords = project(cluster.latlng);
+                    
+                    // Get most common color for cluster
+                    var clusterColor = getMostCommonColor(cluster.colors);
+                    
+                    // Draw cluster circle
+                    var clusterCircle = new PIXI.Graphics();
+                    var radius = Math.min(CLUSTER_RADIUS_BASE / scale, MAX_CLUSTER_RADIUS / scale);
+                    clusterCircle.lineStyle(1 / scale, 0x000000, 1);
+                    clusterCircle.beginFill(hexToPixiColor(clusterColor), 0.8);
+                    clusterCircle.drawCircle(0, 0, radius);
+                    clusterCircle.endFill();
+                    
+                    clusterCircle.x = coords.x;
+                    clusterCircle.y = coords.y;
+                    clusterCircle.interactive = true;
+                    clusterCircle.buttonMode = true;
+                    clusterCircle.hitArea = new PIXI.Circle(0, 0, radius * 1.5);
+                    
+                    // Add text showing count
+                    var text = new PIXI.Text(cluster.markers.length.toString(), {
+                        fontSize: Math.max(MIN_CLUSTER_FONT_SIZE / scale, BASE_CLUSTER_FONT_SIZE),
+                        fill: 0x000000,
+                        align: 'center'
+                    });
+                    text.anchor.set(0.5);
+                    text.x = coords.x;
+                    text.y = coords.y;
+                    
+                    // Click handler for clusters - show popup with list of markers
+                    clusterCircle.on('click', function(e) {
+                        var popupContent = '<b>' + cluster.markers.length + ' markers at this location</b><br>';
+                        // Show first few markers in the popup
+                        var maxShow = Math.min(5, cluster.markers.length);
+                        for (var i = 0; i < maxShow; i++) {
+                            popupContent += cluster.markers[i].popup.split('<br>')[0] + '<br>';
+                        }
+                        if (cluster.markers.length > maxShow) {
+                            popupContent += '... and ' + (cluster.markers.length - maxShow) + ' more';
+                        }
+                        L.popup()
+                            .setLatLng(cluster.latlng)
+                            .setContent(popupContent)
+                            .openOn(map);
+                    });
+                    
+                    container.addChild(clusterCircle);
+                    container.addChild(text);
+                }
+            });
             
             renderer.render(container);
         }, pixiContainer);
