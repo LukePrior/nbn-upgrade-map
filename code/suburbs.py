@@ -88,7 +88,7 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
     found_suburb.processed_date = get_geojson_file_generated_from_name(suburb, state)
     if found_suburb.processed_date is None:
         found_suburb.processed_date = datetime.now()
-    
+
     # Update address_count to match the actual number of features in the GeoJSON file
     geojson_data = read_geojson_file(suburb, state)
     if geojson_data:
@@ -97,7 +97,7 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
         # If GeoJSON file doesn't exist, set address_count to 0
         logging.warning("GeoJSON file not found for %s, %s - setting address_count to 0", suburb, state)
         found_suburb.address_count = 0
-    
+
     write_all_suburbs(all_suburbs)
 
     update_progress()

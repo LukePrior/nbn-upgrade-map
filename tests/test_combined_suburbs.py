@@ -109,7 +109,7 @@ def test_update_processed_dates(monkeypatch):
 
     def dummy_write_json_file(filename: str, data: dict, indent=4):
         SAVED_JSON[filename] = data
-    
+
     def _dummy_read_json_file(filename: str) -> dict:
         """Fake combined-suburbs.json and geojson files."""
         if filename == "results/combined-suburbs.json":
@@ -144,12 +144,12 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
     def dummy_get_geojson_file_generated_none(filename) -> datetime:
         assert filename == "results/ACT/acton.geojson"
         return None  # simulate no file
-    
+
     def dummy_read_geojson_file(suburb: str, state: str) -> dict:
         if suburb.lower() == "acton" and state.upper() == "ACT":
             return testutils.read_test_data_json("sample2.geojson")
         return None
-    
+
     def dummy_read_geojson_file_none(suburb: str, state: str) -> dict:
         return None  # simulate file doesn't exist
 
