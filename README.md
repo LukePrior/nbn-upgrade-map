@@ -54,7 +54,7 @@ The map uses colour-coded markers to indicate the NBN technology type and FTTP u
 - **🟡 HFC (Yellow)** - Address currently has HFC (Hybrid Fibre Coaxial) technology
 - **🟠 FTTC (Orange)** - Address currently has FTTC (Fibre to the Curb) technology
 - **🔴 FTTN/FTTB (Red)** - Address currently has FTTN (Fibre to the Node) or FTTB (Fibre to the Building) technology
-  - **Note**: Addresses with FTTN/FTTC and a target_eligibility_quarter more than 3 months in the future will show as red until they are within 3 months of the target date
+  - **Note**: Addresses with FTTN or FTTB and a target_eligibility_quarter more than 3 months in the future will show as red until they are within 3 months of the target date
 - **🔴 FW/SAT (Dark Red)** - Address uses Fixed Wireless or Satellite technology
 - **⚫ Unknown (Gray)** - Technology information not available
 

@@ -221,9 +221,9 @@ github.addTo(map);
  * 
  * @param {string} tech - Current NBN technology (e.g., "FTTP", "FTTN", "FTTC")
  * @param {string} upgrade - Upgrade type (e.g., "FTTP_SA", "FTTP_NA")
- * @param {string} date - Target eligibility quarter (e.g., "Jun 2024")
+ * @param {string|null} date - Target eligibility quarter (e.g., "Jun 2024") or null
  * @param {string} status - Tech change status (e.g., "Eligible To Order", "Build Finalised")
- * @param {string} generated - Date when the data was generated
+ * @param {string} generated - Date string when the data was generated (converted to Date object internally)
  * @returns {Object} Dot type object with label and colour properties
  */
 function getDotType(tech, upgrade, date, status, generated) {
