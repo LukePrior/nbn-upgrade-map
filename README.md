@@ -30,6 +30,39 @@ The updating of data is performed with a GitHub Actions workflow that accepts a 
 
 If you would like to see an additional suburb added please open an issue.
 
+## Map Legend
+
+The map uses colour-coded markers to indicate the NBN technology type and FTTP upgrade eligibility status for each address. The colours are determined by the following conditions (in order of priority):
+
+### FTTP Technologies (Green)
+- **🟢 FTTP (Dark Green)** - Address already has FTTP technology, or has been upgraded to FTTP (tech_change_status = "New Tech Connected")
+- **🟢 FTTP Upgrade (Medium Green)** - Address is eligible to order FTTP upgrade immediately
+  - Conditions: tech_change_status = "Eligible To Order" AND current tech = FTTN or FTTC
+- **🟢 FTTP Upgrade Soon (Light Green)** - Address will be eligible for FTTP upgrade soon
+  - Conditions: 
+    - tech_change_status = "Build Finalised", "MDU Complex Eligible To Apply", or "MDU Complex Premises In Build" AND current tech = FTTN or FTTC, OR
+    - target_eligibility_quarter is less than 3 months from the data generation date AND current tech = FTTN or FTTC, OR
+    - Legacy records (pre-November 2023) with upgrade = "FTTP_NA"
+
+### Other Upgrade Technologies (Blue/Cyan)
+- **🔵 Other Upgrade (Blue)** - Address is eligible to order non-FTTP upgrade immediately
+  - Conditions: tech_change_status = "Eligible To Order" AND upgrade to non-FTTP technology
+- **🔵 Other Upgrade Soon (Cyan)** - Address will be eligible for non-FTTP upgrade soon
+  - Conditions: Similar to "FTTP Upgrade Soon" but for non-FTTP technologies
+
+### Current Technologies (No Upgrade Available)
+- **🟡 HFC (Yellow)** - Address currently has HFC (Hybrid Fibre Coaxial) technology
+- **🟠 FTTC (Orange)** - Address currently has FTTC (Fibre to the Curb) technology
+- **🔴 FTTN/FTTB (Red)** - Address currently has FTTN (Fibre to the Node) or FTTB (Fibre to the Building) technology
+  - **Note**: Addresses with FTTN/FTTC and a target_eligibility_quarter more than 3 months in the future will show as red until they are within 3 months of the target date
+- **🔴 FW/SAT (Dark Red)** - Address uses Fixed Wireless or Satellite technology
+- **⚫ Unknown (Gray)** - Technology information not available
+
+### Important Notes
+- The "red" colour for FTTN/FTTB addresses can be counter-intuitive: even if an address has a committed upgrade date in the future (e.g., mid next year), it will show as red until the target date is within 3 months
+- The colour coding prioritizes immediate eligibility over future commitments
+- For the most accurate information, check the popup details for each address which includes the tech_change_status and target_eligibility_quarter fields
+
 ## Running locally
 
 To run the code on your local machine you will first need to setup the PostgreSQL database with the GNAF dataset.
