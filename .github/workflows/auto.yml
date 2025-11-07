@@ -44,6 +44,7 @@ jobs:
           message: Updated regions & results
           default_author: github_actions
           fetch: false
+          tag_push: '--force'
 
       - name: Push sitemap
         if: success()
