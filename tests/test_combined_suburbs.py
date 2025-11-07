@@ -149,6 +149,9 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
         if suburb.lower() == "acton" and state.upper() == "ACT":
             return testutils.read_test_data_json("sample2.geojson")
         return None
+    
+    def dummy_read_geojson_file_none(suburb: str, state: str) -> dict:
+        return None  # simulate file doesn't exist
 
     monkeypatch.setattr("utils.read_json_file", _dummy_read_json_file_combined_suburbs)
     monkeypatch.setattr("suburbs.utils.write_json_file", dummy_write_json_file)
@@ -164,11 +167,14 @@ def test_update_suburb_in_all_suburbs(monkeypatch):
     assert acton_suburb["address_count"] == 3  # sample2.geojson has 3 features
 
     monkeypatch.setattr("geojson.get_geojson_file_generated", dummy_get_geojson_file_generated_none)
+    monkeypatch.setattr("suburbs.read_geojson_file", dummy_read_geojson_file_none)
     suburbs.update_suburb_in_all_suburbs("ACTON", "ACT")
     assert len(SAVED_JSON) == 2, "progress and combined-suburbs should be written"
     acton_suburb = SAVED_JSON["results/combined-suburbs.json"]["ACT"][0]
     assert acton_suburb["name"] == "Acton"
     assert datetime.fromisoformat(acton_suburb["processed_date"]).date() == datetime.now().date()
+    # When GeoJSON file doesn't exist, address_count should be set to 0
+    assert acton_suburb["address_count"] == 0
 
 
 def test_get_technology_breakdown(monkeypatch):

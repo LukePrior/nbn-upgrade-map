@@ -93,6 +93,10 @@ def update_suburb_in_all_suburbs(suburb: str, state: str) -> data.SuburbsByState
     geojson_data = read_geojson_file(suburb, state)
     if geojson_data:
         found_suburb.address_count = len(geojson_data["features"])
+    else:
+        # If GeoJSON file doesn't exist, set address_count to 0
+        logging.warning("GeoJSON file not found for %s, %s - setting address_count to 0", suburb, state)
+        found_suburb.address_count = 0
     
     write_all_suburbs(all_suburbs)
 
