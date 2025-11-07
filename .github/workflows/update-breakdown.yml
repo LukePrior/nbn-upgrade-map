@@ -1,6 +1,7 @@
 name: "Update Breakdown"
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 1 * * 2' # 01:00 every Tuesday
 
@@ -12,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -30,4 +31,5 @@ jobs:
         with:
           message: Update tech/upgrade breakdown
           default_author: github_actions
-          pull: '--rebase --autostash'
+          fetch: false
+          tag_push: '--force'

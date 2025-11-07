@@ -22,7 +22,7 @@ jobs:
           docker run -d --publish=5433:5432 lukeprior/nbn-upgrade-map-db:latest
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -40,4 +40,5 @@ jobs:
         with:
           message: Updated region & results
           default_author: github_actions
-          pull: '--rebase --autostash'
+          fetch: false
+          tag_push: '--force'

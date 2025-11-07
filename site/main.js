@@ -205,6 +205,27 @@ github.onAdd = function (map) {
 }
 github.addTo(map);
 
+/**
+ * Determines the dot type (color and label) for an address based on its NBN technology and upgrade status.
+ * 
+ * Priority order (higher checks take precedence):
+ * 1. Already has FTTP (Dark Green)
+ * 2. Eligible to order upgrade immediately (Medium Green/Blue)
+ * 3. Build finalized or upgrade available soon (Light Green/Cyan)
+ * 4. Target date within 3 months (Light Green/Cyan)
+ * 5. Legacy upgrade records (pre-Nov 2023)
+ * 6. Current technology with no upgrade (Yellow/Orange/Red/Dark Red/Gray)
+ * 
+ * Note: Addresses with future target dates >3 months away will show as their current technology
+ * color (e.g., red for FTTN) until the target date is within 3 months.
+ * 
+ * @param {string} tech - Current NBN technology (e.g., "FTTP", "FTTN", "FTTC")
+ * @param {string} upgrade - Upgrade type (e.g., "FTTP_SA", "FTTP_NA")
+ * @param {string|null} date - Target eligibility quarter (e.g., "Jun 2024") or null
+ * @param {string} status - Tech change status (e.g., "Eligible To Order", "Build Finalised")
+ * @param {string} generated - Date string when the data was generated (converted to Date object internally)
+ * @returns {Object} Dot type object with label and colour properties
+ */
 function getDotType(tech, upgrade, date, status, generated) {
     // Already have FTTP
     if (tech == "FTTP") {
@@ -212,7 +233,7 @@ function getDotType(tech, upgrade, date, status, generated) {
     }
 
     // Upgraded to FTTP but previous tech not yet disconnected
-    upgrade_type = upgrade.split("_")[0]
+    var upgrade_type = upgrade.split("_")[0]
     if (status == "New Tech Connected" && upgrade_type == "FTTP") {
         return dotTypes.FTTP;
     }
@@ -222,7 +243,7 @@ function getDotType(tech, upgrade, date, status, generated) {
         return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgrade : dotTypes.OtherUpgrade;
     }
 
-    // Eligible for upgrade soon
+    // Eligible for upgrade soon (build complete or in progress)
     if (status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") {
         return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgradeSoon : dotTypes.OtherUpgradeSoon;
     }
@@ -237,6 +258,7 @@ function getDotType(tech, upgrade, date, status, generated) {
     var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
 
     // Upgrade available in 3 months or less
+    // Note: Dates >3 months away will fall through to current tech color below
     if (diff < 3 && diff >= 0) {
         return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgradeSoon : dotTypes.OtherUpgradeSoon;
 
