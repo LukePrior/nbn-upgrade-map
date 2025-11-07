@@ -1,6 +1,7 @@
 name: "Update Breakdown"
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 1 * * 2' # 01:00 every Tuesday
 
