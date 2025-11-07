@@ -1,12 +1,7 @@
 # NBN FTTP Upgrade Map
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/LukePrior/nbn-upgrade-map)](https://github.com/LukePrior/nbn-upgrade-map/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12-blue)](https://www.python.org/)
 [![Tests](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/test.yml/badge.svg)](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/test.yml)
 [![MegaLinter](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/mega-linter.yml/badge.svg)](https://github.com/LukePrior/nbn-upgrade-map/actions/workflows/mega-linter.yml)
-[![Docker Image Size](https://img.shields.io/docker/image-size/lukeprior/nbn-upgrade-map-db/latest)](https://hub.docker.com/r/lukeprior/nbn-upgrade-map-db)
-[![Docker Pulls](https://img.shields.io/docker/pulls/lukeprior/nbn-upgrade-map-db)](https://hub.docker.com/r/lukeprior/nbn-upgrade-map-db)
 
 ![Progress](https://img.shields.io/badge/dynamic/json?label=Suburb%20Progress&query=%24.suburbs.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
 ![Progress](https://img.shields.io/badge/dynamic/json?label=Address%20Progress&query=%24.addresses.all.TOTAL.percent&url=https%3A%2F%2Fraw.githubusercontent.com%2FLukePrior%2Fnbn-upgrade-map%2Fmain%2Fresults%2Fprogress.json&suffix=%25)
