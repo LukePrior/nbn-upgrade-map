@@ -275,6 +275,9 @@ function getDotType(tech, upgrade, date, status, generated) {
 // Global variable to store current PixiOverlay layer
 var currentPixiLayer = null;
 
+// Global variable to track spiderfied cluster
+var spiderfiedCluster = null;
+
 // Marker display constants
 var MARKER_RADIUS = 5;
 var MARKER_HIT_RADIUS = 8;
@@ -282,6 +285,7 @@ var CLUSTER_RADIUS_BASE = 20; // Base radius for cluster circles
 var MAX_CLUSTER_RADIUS = 15; // Maximum cluster radius
 var MIN_CLUSTER_FONT_SIZE = 8; // Minimum font size for cluster labels
 var BASE_CLUSTER_FONT_SIZE = 10; // Base font size for cluster labels
+var SPIDERFY_DISTANCE = 30; // Distance between spiderfied markers
 
 // Helper function to convert hex color to PIXI format
 function hexToPixiColor(hex) {
@@ -293,6 +297,24 @@ function hexToPixiColor(hex) {
     }
     // Convert to integer using base 16
     return parseInt(hex, 16);
+}
+
+// Calculate spiral positions for spiderfied markers
+function calculateSpiderPositions(count, centerX, centerY, scale) {
+    var positions = [];
+    var distance = SPIDERFY_DISTANCE / scale;
+    var angleStep = (2 * Math.PI) / Math.max(count, 8); // Minimum 8 positions around circle
+    
+    for (var i = 0; i < count; i++) {
+        var angle = i * angleStep;
+        var spiralFactor = 1 + Math.floor(i / 8) * 0.5; // Increase distance for additional rings
+        positions.push({
+            x: centerX + Math.cos(angle) * distance * spiralFactor,
+            y: centerY + Math.sin(angle) * distance * spiralFactor
+        });
+    }
+    
+    return positions;
 }
 
 // Clustering function based on exact coordinate matching
@@ -430,6 +452,11 @@ function loadSuburb(state_file, commit, first_load=false) {
             var clusters = clusterMarkers(markers);
             
             clusters.forEach(function(cluster, clusterIndex) {
+                // Check if this cluster is currently spiderfied
+                var isSpiderfied = spiderfiedCluster && 
+                                   spiderfiedCluster.latlng.lat === cluster.latlng.lat && 
+                                   spiderfiedCluster.latlng.lng === cluster.latlng.lng;
+                
                 if (cluster.markers.length === 1) {
                     // Single marker - render as individual
                     var marker = cluster.markers[0];
@@ -451,6 +478,8 @@ function loadSuburb(state_file, commit, first_load=false) {
                     circle._markerData = marker;
                     
                     circle.on('click', function(e) {
+                        // Unspiderfy any existing cluster
+                        spiderfiedCluster = null;
                         L.popup()
                             .setLatLng(marker.latlng)
                             .setContent(marker.popup)
@@ -458,9 +487,50 @@ function loadSuburb(state_file, commit, first_load=false) {
                     });
                     
                     container.addChild(circle);
+                } else if (isSpiderfied) {
+                    // Spiderfied cluster - render individual markers in spiral
+                    var centerCoords = project(cluster.latlng);
+                    var positions = calculateSpiderPositions(cluster.markers.length, centerCoords.x, centerCoords.y, scale);
+                    
+                    cluster.markers.forEach(function(marker, idx) {
+                        var pos = positions[idx];
+                        
+                        // Draw line from center to marker position
+                        var line = new PIXI.Graphics();
+                        line.lineStyle(1 / scale, 0x888888, 0.5);
+                        line.moveTo(centerCoords.x, centerCoords.y);
+                        line.lineTo(pos.x, pos.y);
+                        container.addChild(line);
+                        
+                        // Draw individual marker
+                        var circle = new PIXI.Graphics();
+                        circle.lineStyle(1 / scale, 0x000000, 1);
+                        circle.beginFill(hexToPixiColor(marker.color), 0.8);
+                        circle.drawCircle(0, 0, MARKER_RADIUS / scale);
+                        circle.endFill();
+                        
+                        circle.x = pos.x;
+                        circle.y = pos.y;
+                        circle.interactive = true;
+                        circle.buttonMode = true;
+                        circle.hitArea = new PIXI.Circle(0, 0, MARKER_HIT_RADIUS / scale);
+                        
+                        circle._markerId = cluster.indices[idx];
+                        circle._markerData = marker;
+                        
+                        // Each spiderfied marker is individually clickable
+                        circle.on('click', function(e) {
+                            e.stopPropagation();
+                            L.popup()
+                                .setLatLng(marker.latlng)
+                                .setContent(marker.popup)
+                                .openOn(map);
+                        });
+                        
+                        container.addChild(circle);
+                    });
                 } else {
                     // Cluster - render as cluster circle with count
-                    // Use the stored latlng from the cluster (same for all markers in cluster)
                     var coords = project(cluster.latlng);
                     
                     // Get most common color for cluster
@@ -481,6 +551,9 @@ function loadSuburb(state_file, commit, first_load=false) {
                     clusterCircle.buttonMode = true;
                     clusterCircle.hitArea = new PIXI.Circle(0, 0, radius * 1.5);
                     
+                    // Store cluster reference for spiderfy
+                    clusterCircle._cluster = cluster;
+                    
                     // Add text showing count
                     var text = new PIXI.Text(cluster.markers.length.toString(), {
                         fontSize: Math.max(MIN_CLUSTER_FONT_SIZE, BASE_CLUSTER_FONT_SIZE / scale),
@@ -491,21 +564,13 @@ function loadSuburb(state_file, commit, first_load=false) {
                     text.x = coords.x;
                     text.y = coords.y;
                     
-                    // Click handler for clusters - show popup with list of markers
+                    // Click handler for clusters - spiderfy the markers
                     clusterCircle.on('click', function(e) {
-                        var popupContent = '<b>' + cluster.markers.length + ' markers at this location</b><br>';
-                        // Show first few markers in the popup
-                        var maxShow = Math.min(5, cluster.markers.length);
-                        for (var i = 0; i < maxShow; i++) {
-                            popupContent += cluster.markers[i].popup.split('<br>')[0] + '<br>';
-                        }
-                        if (cluster.markers.length > maxShow) {
-                            popupContent += '... and ' + (cluster.markers.length - maxShow) + ' more';
-                        }
-                        L.popup()
-                            .setLatLng(cluster.latlng)
-                            .setContent(popupContent)
-                            .openOn(map);
+                        e.stopPropagation();
+                        // Set this cluster as spiderfied
+                        spiderfiedCluster = cluster;
+                        // Force redraw to show spiderfied markers
+                        utils.getMap().fire('moveend');
                     });
                     
                     container.addChild(clusterCircle);
@@ -518,6 +583,14 @@ function loadSuburb(state_file, commit, first_load=false) {
         
         currentPixiLayer = pixiOverlay;
         pixiOverlay.addTo(map);
+        
+        // Add map click handler to unspiderfy when clicking on empty space
+        map.on('click', function(e) {
+            if (spiderfiedCluster) {
+                spiderfiedCluster = null;
+                map.fire('moveend'); // Force redraw
+            }
+        });
         
         // add legend
         var legend = L.control({ position: 'bottomright' });
