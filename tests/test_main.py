@@ -185,3 +185,40 @@ def test_fttp_address_caching(monkeypatch):
     
     # Verify API was NOT called (FTTP addresses should skip API calls)
     assert len(api_calls) == 0, "API should not be called for cached FTTP addresses"
+
+
+def test_non_fttp_address_still_fetched(monkeypatch):
+    """Test that non-FTTP addresses are still fetched from API even if cache exists"""
+    monkeypatch.setattr("nbn.NBNApi.get_nbn_data_json", get_nbn_data_json)
+    
+    # Clear caches
+    CACHE.clear()
+    main.GNAF_PID_TO_FTTP_ADDRESS = {}
+    
+    nbn = NBNApi()
+    
+    # Create an FTTN address (non-FTTP) - should NOT be cached
+    address = Address(
+        name="1 BLUEGUM RISE ANSTEAD 4070",
+        gnaf_pid="GAQLD425035994",
+        longitude=-27.56300033,
+        latitude=152.85904758,
+    )
+    
+    # Track if API was called
+    api_calls = []
+    original_get_details = nbn.get_nbn_loc_details
+    
+    def track_api_calls(loc_id):
+        api_calls.append(loc_id)
+        return original_get_details(loc_id)
+    
+    monkeypatch.setattr(nbn, "get_nbn_loc_details", track_api_calls)
+    
+    # Process the address
+    result = main.get_address(nbn, copy.copy(address), get_status=True)
+    
+    # Verify API WAS called (non-FTTP addresses should still fetch from API)
+    assert len(api_calls) == 1, "API should be called for non-FTTP addresses"
+    assert result.tech == "FTTN"
+    assert result.upgrade == "FTTP_SA"
