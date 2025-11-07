@@ -587,7 +587,9 @@ function loadSuburb(state_file, commit, first_load=false) {
             });
             
             renderer.render(container);
-        }, pixiContainer);
+        }, pixiContainer, {
+            autoPreventDefault: false
+        });
         
         currentPixiLayer = pixiOverlay;
         pixiOverlay.addTo(map);
