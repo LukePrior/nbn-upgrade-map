@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-18T10:50:25.151180",
+ "generated": "2025-11-08T15:53:31.230686",
  "suburb": "SPRINGFIELD",
  "features": [
   {
@@ -278,24 +278,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     114.956135,
-     -29.284421
-    ]
-   },
-   "properties": {
-    "name": "6 ILLYARRIE ROAD SPRINGFIELD 6525",
-    "locID": "LOC000069451383",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162001056",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      114.951493,
      -29.283824
     ]
@@ -468,9 +450,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162002433",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -701,12 +682,12 @@
    "properties": {
     "name": "241 SPRINGFIELD DRIVE SPRINGFIELD 6525",
     "locID": "LOC000084131604",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162002448",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1226,11 +1207,11 @@
     "name": "183 SPRINGFIELD DRIVE SPRINGFIELD 6525",
     "locID": "LOC000104025330",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_162253780",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1317,12 +1298,12 @@
    "properties": {
     "name": "30 SPRINGFIELD DRIVE SPRINGFIELD 6525",
     "locID": "LOC000004591730",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162586775",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1330,8 +1311,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     114.9435851,
-     -29.25936654
+     114.94248128,
+     -29.2624318
     ]
    },
    "properties": {
@@ -1492,8 +1473,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     114.94992711,
-     -29.26183817
+     114.9499271,
+     -29.26183814
     ]
    },
    "properties": {
@@ -1824,9 +1805,11 @@
     "name": "128 SPRINGFIELD DRIVE SPRINGFIELD 6525",
     "locID": "LOC000195712963",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_719148260",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2004,11 +1987,11 @@
     "name": "LOT 71 SHEOAK ROAD SPRINGFIELD 6525",
     "locID": "LOC000070927653",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_720725055",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2135,6 +2118,62 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721532311",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.95115631,
+     -29.26744217
+    ]
+   },
+   "properties": {
+    "name": "14 MALLEE ROAD SPRINGFIELD 6525",
+    "locID": "LOC000154966447",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721718674",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.95968451,
+     -29.28259322
+    ]
+   },
+   "properties": {
+    "name": "49 SHEOAK ROAD SPRINGFIELD 6525",
+    "locID": "LOC000133378064",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721720479",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.94886545,
+     -29.27547181
+    ]
+   },
+   "properties": {
+    "name": "118 SPRINGFIELD DRIVE SPRINGFIELD 6525",
+    "locID": "LOC000068554473",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_721721401",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
