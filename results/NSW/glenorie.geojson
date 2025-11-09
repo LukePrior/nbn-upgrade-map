@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-19T19:39:06.731226",
+ "generated": "2025-11-09T16:50:12.380406",
  "suburb": "GLENORIE",
  "features": [
   {
@@ -841,10 +841,9 @@
    "properties": {
     "name": "904 OLD NORTHERN ROAD GLENORIE 2157",
     "locID": "LOC000007346615",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704811525",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704811525"
    }
   },
   {
@@ -1665,10 +1664,10 @@
    "properties": {
     "name": "24 HARRISONS LANE GLENORIE 2157",
     "locID": "LOC000078599825",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704811802",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1771,10 +1770,9 @@
    "properties": {
     "name": "6 HARRISONS LANE GLENORIE 2157",
     "locID": "LOC000069817654",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704811815",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704811815"
    }
   },
   {
@@ -1952,7 +1950,7 @@
    "properties": {
     "name": "110 CATTAI RIDGE ROAD GLENORIE 2157",
     "locID": "LOC000109934802",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704812217",
     "tech_change_status": "Not Planned"
@@ -2450,10 +2448,10 @@
    "properties": {
     "name": "3 PARKVIEW AVENUE GLENORIE 2157",
     "locID": "LOC000052089103",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704814811",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2839,9 +2837,8 @@
     "name": "18 CASUARINA AVENUE GLENORIE 2157",
     "locID": "LOC000053259448",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704816027",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW704816027"
    }
   },
   {
@@ -3405,10 +3402,9 @@
    "properties": {
     "name": "29 POST OFFICE ROAD GLENORIE 2157",
     "locID": "LOC000108550749",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704816582",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704816582"
    }
   },
   {
@@ -5111,10 +5107,9 @@
    "properties": {
     "name": "53 CATTAI RIDGE ROAD GLENORIE 2157",
     "locID": "LOC000009643717",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704819289",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704819289"
    }
   },
   {
@@ -5878,10 +5873,9 @@
    "properties": {
     "name": "17 CATTAI RIDGE ROAD GLENORIE 2157",
     "locID": "LOC000101139207",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704821848",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704821848"
    }
   },
   {
@@ -7561,10 +7555,9 @@
    "properties": {
     "name": "55 TECOMA DRIVE GLENORIE 2157",
     "locID": "LOC000080533158",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704829784",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704829784"
    }
   },
   {
@@ -8677,7 +8670,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704832821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9381,12 +9376,10 @@
    "properties": {
     "name": "13 PERTARINGA WAY GLENORIE 2157",
     "locID": "LOC000110044152",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704833579",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -10594,8 +10587,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01277111,
-     -33.59577201
+     151.01277088,
+     -33.59577188
     ]
    },
    "properties": {
@@ -10728,7 +10721,7 @@
    "properties": {
     "name": "16 CAIRNES ROAD GLENORIE 2157",
     "locID": "LOC000077440152",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704846504",
     "tech_change_status": "Not Planned"
@@ -10915,23 +10908,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704846521",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.99113103,
-     -33.62081771
-    ]
-   },
-   "properties": {
-    "name": "12 SMITHS LANE GLENORIE 2157",
-    "locID": "LOC000016786933",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704846523"
    }
   },
   {
@@ -12899,10 +12875,9 @@
    "properties": {
     "name": "54 CAIRNES ROAD GLENORIE 2157",
     "locID": "LOC000019728307",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704849171",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704849171"
    }
   },
   {
@@ -13693,10 +13668,9 @@
    "properties": {
     "name": "19 TECOMA DRIVE GLENORIE 2157",
     "locID": "LOC000089156169",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704849221",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704849221"
    }
   },
   {
@@ -14291,8 +14265,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95462599,
-     -33.55882538
+     150.9546258,
+     -33.55882527
     ]
    },
    "properties": {
@@ -14364,8 +14338,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97004457,
-     -33.58878343
+     150.97004435,
+     -33.5887833
     ]
    },
    "properties": {
@@ -14382,8 +14356,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.00731701,
-     -33.5464661
+     151.00731685,
+     -33.54646602
     ]
    },
    "properties": {
@@ -14402,8 +14376,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
+     151.01711089,
+     -33.56470092
     ]
    },
    "properties": {
@@ -14422,8 +14396,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
+     151.01711089,
+     -33.56470092
     ]
    },
    "properties": {
@@ -14573,8 +14547,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0218723,
-     -33.59085343
+     151.02187206,
+     -33.59085332
     ]
    },
    "properties": {
@@ -14593,8 +14567,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0218723,
-     -33.59085343
+     151.02187206,
+     -33.59085332
     ]
    },
    "properties": {
@@ -14860,8 +14834,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01940477,
-     -33.59227854
+     151.01940453,
+     -33.59227842
     ]
    },
    "properties": {
@@ -15044,8 +15018,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.02160131,
-     -33.59502451
+     151.02160108,
+     -33.59502439
     ]
    },
    "properties": {
@@ -15079,8 +15053,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.02618072,
-     -33.60276763
+     151.02618049,
+     -33.6027675
     ]
    },
    "properties": {
@@ -15114,28 +15088,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.00403234,
-     -33.57513199
-    ]
-   },
-   "properties": {
-    "name": "2 MOUNT VIEW ROAD GLENORIE 2157",
-    "locID": "LOC000053459318",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711190160",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.02285943,
-     -33.60792666
+     151.0228592,
+     -33.60792652
     ]
    },
    "properties": {
@@ -15196,10 +15150,12 @@
    "properties": {
     "name": "8 MILLER ROAD GLENORIE 2157",
     "locID": "LOC000035737618",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711192177",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15267,8 +15223,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95386329,
-     -33.5684271
+     150.95386308,
+     -33.56842699
     ]
    },
    "properties": {
@@ -15345,8 +15301,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0051845,
-     -33.60964408
+     151.00518428,
+     -33.60964394
     ]
    },
    "properties": {
@@ -15524,26 +15480,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
-    ]
-   },
-   "properties": {
-    "name": "69 MERIDEN AVENUE GLENORIE 2157",
-    "locID": "LOC000020639138",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711197457",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.00341173,
      -33.61844541
     ]
@@ -15668,8 +15604,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9914374,
-     -33.62233664
+     150.99143821,
+     -33.62233242
     ]
    },
    "properties": {
@@ -15755,8 +15691,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
+     151.01711089,
+     -33.56470092
     ]
    },
    "properties": {
@@ -15900,8 +15836,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01163253,
-     -33.56273956
+     151.01163229,
+     -33.56273945
     ]
    },
    "properties": {
@@ -15961,10 +15897,9 @@
    "properties": {
     "name": "876 OLD NORTHERN ROAD GLENORIE 2157",
     "locID": "LOC000120163292",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW711202721",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711202721"
    }
   },
   {
@@ -15989,8 +15924,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0051845,
-     -33.60964408
+     151.00518428,
+     -33.60964394
     ]
    },
    "properties": {
@@ -16044,8 +15979,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.99468769,
-     -33.61135378
+     150.99468748,
+     -33.61135365
     ]
    },
    "properties": {
@@ -16982,8 +16917,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97922892,
-     -33.60219343
+     150.97922871,
+     -33.60219332
     ]
    },
    "properties": {
@@ -17144,8 +17079,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95386329,
-     -33.5684271
+     150.95386308,
+     -33.56842699
     ]
    },
    "properties": {
@@ -18046,7 +17981,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716636473",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18074,8 +18011,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01940477,
-     -33.59227854
+     151.01940453,
+     -33.59227842
     ]
    },
    "properties": {
@@ -18094,8 +18031,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.00134063,
-     -33.60026549
+     151.00134041,
+     -33.60026536
     ]
    },
    "properties": {
@@ -18114,28 +18051,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
-    ]
-   },
-   "properties": {
-    "name": "1 MERIDEN AVENUE GLENORIE 2157",
-    "locID": "LOC000009207974",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716675029",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.00403234,
-     -33.57513199
+     151.00403209,
+     -33.57513188
     ]
    },
    "properties": {
@@ -18154,8 +18071,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.99779975,
-     -33.59897279
+     150.99779953,
+     -33.59897266
     ]
    },
    "properties": {
@@ -18174,8 +18091,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.00731701,
-     -33.5464661
+     151.00731685,
+     -33.54646602
     ]
    },
    "properties": {
@@ -18239,44 +18156,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716739321",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96049228,
-     -33.59918866
-    ]
-   },
-   "properties": {
-    "name": "5 KEMP PLACE GLENORIE 2157",
-    "locID": "LOC100090005149",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716804387",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.95462599,
-     -33.55882538
-    ]
-   },
-   "properties": {
-    "name": "1-41 SMALLWOOD ROAD GLENORIE 2157",
-    "locID": "LOC000024183129",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716901960",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18757,26 +18636,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95386329,
-     -33.5684271
-    ]
-   },
-   "properties": {
-    "name": "32 HALCROWS ROAD GLENORIE 2157",
-    "locID": "LOC000067206300",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717016580",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96077729,
      -33.59420785
     ]
@@ -18797,8 +18656,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97004457,
-     -33.58878343
+     150.97004435,
+     -33.5887833
     ]
    },
    "properties": {
@@ -18935,8 +18794,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01163253,
-     -33.56273956
+     151.01163229,
+     -33.56273945
     ]
    },
    "properties": {
@@ -19006,23 +18865,6 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.99677798,
-     -33.61814168
-    ]
-   },
-   "properties": {
-    "name": "50 CATTAI RIDGE ROAD GLENORIE 2157",
-    "locID": "LOC000076157218",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717208684"
    }
   },
   {
@@ -19548,8 +19390,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0051845,
-     -33.60964408
+     151.00518428,
+     -33.60964394
     ]
    },
    "properties": {
@@ -19565,8 +19407,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0051845,
-     -33.60964408
+     151.00518428,
+     -33.60964394
     ]
    },
    "properties": {
@@ -19582,8 +19424,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0051845,
-     -33.60964408
+     151.00518428,
+     -33.60964394
     ]
    },
    "properties": {
@@ -19727,8 +19569,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01711113,
-     -33.56470101
+     151.01711089,
+     -33.56470092
     ]
    },
    "properties": {
@@ -19840,8 +19682,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.99468769,
-     -33.61135378
+     150.99468748,
+     -33.61135365
     ]
    },
    "properties": {
@@ -19851,26 +19693,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717639424",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.94134859,
-     -33.57631854
-    ]
-   },
-   "properties": {
-    "name": "2 NEWMAN ROAD GLENORIE 2157",
-    "locID": "LOC000074982196",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717640430",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20180,8 +20002,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01970747,
-     -33.50573839
+     151.01970728,
+     -33.50573831
     ]
    },
    "properties": {
@@ -20311,10 +20133,9 @@
    "properties": {
     "name": "3 KNOCK FARRELL ROAD GLENORIE 2157",
     "locID": "LOC000014776350",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717850756",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717850756"
    }
   },
   {
@@ -20393,8 +20214,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01554037,
-     -33.60987563
+     151.01554015,
+     -33.60987549
     ]
    },
    "properties": {
@@ -20429,8 +20250,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.00102714,
-     -33.61173355
+     151.00102692,
+     -33.61173341
     ]
    },
    "properties": {
@@ -20447,17 +20268,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.01554037,
-     -33.60987563
+     151.01554015,
+     -33.60987549
     ]
    },
    "properties": {
     "name": "LOT 3 KNOCK FARRELL ROAD GLENORIE 2157",
     "locID": "LOC000014776350",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717875520",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717875520"
    }
   },
   {
@@ -20893,8 +20713,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.98630119,
-     -33.60590571
+     150.98664389,
+     -33.60578859
     ]
    },
    "properties": {
@@ -21599,10 +21419,9 @@
    "properties": {
     "name": "2 APPLEBERRY CLOSE GLENORIE 2157",
     "locID": "LOC000184998239",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW719019370",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719019370"
    }
   },
   {
@@ -21926,8 +21745,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96448688,
-     -33.5950394
+     150.96448667,
+     -33.59503928
     ]
    },
    "properties": {
@@ -21986,8 +21805,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.99126314,
-     -33.61496233
+     150.99122785,
+     -33.61501661
     ]
    },
    "properties": {
@@ -22380,7 +22199,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.02398374,
+     151.02398375,
      -33.51861612
     ]
    },
@@ -22929,10 +22748,12 @@
    "properties": {
     "name": "2 POSSUM PLACE GLENORIE 2157",
     "locID": "LOC100071972624",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719694451",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23007,12 +22828,9 @@
    "properties": {
     "name": "37 ENDEAVOUR VIEW GLENORIE 2157",
     "locID": "LOC100078083582",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720003819",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "gnaf_pid": "GANSW720003819"
    }
   },
   {
@@ -23063,7 +22881,7 @@
    "properties": {
     "name": "29 ENDEAVOUR VIEW GLENORIE 2157",
     "locID": "LOC000185797117",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720011848",
     "tech_change_status": "Not Planned",
@@ -23789,8 +23607,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.025869,
-     -33.61963465
+     151.02586876,
+     -33.61963449
     ]
    },
    "properties": {
@@ -23859,8 +23677,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.025869,
-     -33.61963465
+     151.02586876,
+     -33.61963449
     ]
    },
    "properties": {
@@ -23912,8 +23730,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96655707,
-     -33.60111029
+     150.96655687,
+     -33.60111018
     ]
    },
    "properties": {
@@ -24913,7 +24731,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721354302",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24982,6 +24802,128 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721523088"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.9695135,
+     -33.59503072
+    ]
+   },
+   "properties": {
+    "name": "2 VESPERMAN ROAD GLENORIE 2157",
+    "locID": "LOC100056322209",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721624225",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00831408,
+     -33.60285158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 215, 4 POST OFFICE ROAD GLENORIE 2157",
+    "locID": "LOC000192766826",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721641836"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00831408,
+     -33.60285158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 217, 4 POST OFFICE ROAD GLENORIE 2157",
+    "locID": "LOC000185266707",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721689953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00831408,
+     -33.60285158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 212, 4 POST OFFICE ROAD GLENORIE 2157",
+    "locID": "LOC000192766793",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721690713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00831408,
+     -33.60285158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 214, 4 POST OFFICE ROAD GLENORIE 2157",
+    "locID": "LOC000192766819",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721759758"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.02488864,
+     -33.62156373
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 1403 OLD NORTHERN ROAD GLENORIE 2157",
+    "locID": "LOC100055413676",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721760620"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00831408,
+     -33.60285158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 211, 4 POST OFFICE ROAD GLENORIE 2157",
+    "locID": "LOC000192766786",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721813866"
    }
   }
  ]
