@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-21T00:46:11.979949",
+ "generated": "2025-11-10T14:23:58.099940",
  "suburb": "ROSEDALE",
  "features": [
   {
@@ -42,8 +42,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.21463373,
-     -35.82391659
+     150.21463387,
+     -35.82391635
     ]
    },
    "properties": {
@@ -72,7 +72,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705813217",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -397,10 +399,10 @@
    "properties": {
     "name": "4 ROSEBY DRIVE ROSEDALE 2536",
     "locID": "LOC000013225325",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705815899",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -577,9 +579,11 @@
     "name": "12 TALLWOOD CRESCENT ROSEDALE 2536",
     "locID": "LOC000079520614",
     "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705815920",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -613,9 +617,11 @@
     "name": "15 TALLWOOD CRESCENT ROSEDALE 2536",
     "locID": "LOC000101473277",
     "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705815923",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -900,9 +906,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705826142",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -1117,9 +1121,11 @@
     "name": "17 TRANQUIL BAY PLACE ROSEDALE 2536",
     "locID": "LOC000091876404",
     "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705826154",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1468,10 +1474,9 @@
    "properties": {
     "name": "52 TRANQUIL BAY PLACE ROSEDALE 2536",
     "locID": "LOC000038028972",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705826176",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705826176"
    }
   },
   {
@@ -1884,23 +1889,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705836435",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.22249916,
-     -35.81640953
-    ]
-   },
-   "properties": {
-    "name": "16 TRANQUIL BAY PLACE ROSEDALE 2536",
-    "locID": "LOC000101340260",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705836436"
    }
   },
   {
@@ -3256,6 +3244,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.22228946,
+     -35.81328558
+    ]
+   },
+   "properties": {
+    "name": "21 ROSE COURT ROSEDALE 2536",
+    "locID": "LOC000197341877",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705853310"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.22382335,
      -35.81222782
     ]
@@ -4479,23 +4484,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22300152,
-     -35.8112425
-    ]
-   },
-   "properties": {
-    "name": "19 YOWANI ROAD ROSEDALE 2536",
-    "locID": "LOC000001551103",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW710038080"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.22390332,
      -35.81694775
     ]
@@ -4513,8 +4501,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.21463373,
-     -35.82391659
+     150.21463387,
+     -35.82391635
     ]
    },
    "properties": {
@@ -4523,7 +4511,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW710038550",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4797,41 +4787,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22592169,
-     -35.81736251
-    ]
-   },
-   "properties": {
-    "name": "27 COOKS CRESCENT ROSEDALE 2536",
-    "locID": "LOC000100161395",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715601854"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.22433294,
-     -35.81644277
-    ]
-   },
-   "properties": {
-    "name": "4 COOKS CRESCENT ROSEDALE 2536",
-    "locID": "LOC000080124344",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW715601855",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.21514805,
      -35.82296174
     ]
@@ -4904,23 +4859,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22477553,
-     -35.81556048
-    ]
-   },
-   "properties": {
-    "name": "31 KNOWLMAN ROAD ROSEDALE 2536",
-    "locID": "LOC000089633313",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715626654"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.2252303,
      -35.8162092
     ]
@@ -4977,8 +4915,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22082968,
-     -35.81450562
+     150.22078151,
+     -35.81448199
     ]
    },
    "properties": {
@@ -4995,8 +4933,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22158963,
-     -35.81742201
+     150.22158971,
+     -35.81742177
     ]
    },
    "properties": {
@@ -5012,24 +4950,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22307698,
-     -35.81717491
-    ]
-   },
-   "properties": {
-    "name": "20 TRANQUIL BAY PLACE ROSEDALE 2536",
-    "locID": "LOC000035569803",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW715691215",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.22338534,
      -35.81728341
     ]
@@ -5038,9 +4958,11 @@
     "name": "22 TRANQUIL BAY PLACE ROSEDALE 2536",
     "locID": "LOC000091876404",
     "tech": "WIRELESS",
-    "upgrade": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715691216",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5048,8 +4970,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22196245,
-     -35.81675679
+     150.22196253,
+     -35.81675656
     ]
    },
    "properties": {
@@ -5562,8 +5484,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.22022063,
-     -35.81050966
+     150.22022068,
+     -35.81050947
     ]
    },
    "properties": {
