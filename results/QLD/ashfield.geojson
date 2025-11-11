@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-08-25T11:43:19.050852",
+ "generated": "2025-11-11T02:27:45.724385",
  "suburb": "ASHFIELD",
  "features": [
   {
@@ -76,11 +76,11 @@
     "name": "159 ELLIOTT HEADS ROAD ASHFIELD 4670",
     "locID": "LOC000094287997",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD154972861",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -256,6 +256,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156348555",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.41058565,
+     -24.87323583
+    ]
+   },
+   "properties": {
+    "name": "302-314 ASHFIELD ROAD ASHFIELD 4670",
+    "locID": "LOC000128860737",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156348558",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -614,7 +634,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161425008",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -880,46 +902,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.40779136,
-     -24.86685673
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 ASHFIELD ROAD ASHFIELD 4670",
-    "locID": "LOC000027366165",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162313511",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.40779136,
-     -24.86685673
-    ]
-   },
-   "properties": {
-    "name": "LOT 3 ASHFIELD ROAD ASHFIELD 4670",
-    "locID": "LOC000062011918",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162313512",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.40265448,
      -24.86234788
     ]
@@ -930,6 +912,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162349221",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.41058565,
+     -24.87323583
+    ]
+   },
+   "properties": {
+    "name": "302 ASHFIELD ROAD ASHFIELD 4670",
+    "locID": "LOC000128860737",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162533882",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -1145,10 +1147,9 @@
    "properties": {
     "name": "6 HIGGINS COURT ASHFIELD 4670",
     "locID": "LOC000014063093",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162604170",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1482,10 +1483,10 @@
    "properties": {
     "name": "5 CORRIGAN COURT ASHFIELD 4670",
     "locID": "LOC000090275280",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162654906",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2552,10 +2553,9 @@
    "properties": {
     "name": "26 LONGVIEW STREET ASHFIELD 4670",
     "locID": "LOC000043474089",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163057891",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3579,10 +3579,9 @@
    "properties": {
     "name": "2 WEDGELEAF PLACE ASHFIELD 4670",
     "locID": "LOC000073954433",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163119122",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4335,10 +4334,9 @@
    "properties": {
     "name": "7 LONGVIEW STREET ASHFIELD 4670",
     "locID": "LOC000111881369",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163312269",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4433,10 +4431,9 @@
    "properties": {
     "name": "2 VILLA COURT ASHFIELD 4670",
     "locID": "LOC000113495822",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163320677",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4453,8 +4450,8 @@
    "properties": {
     "name": "4 VILLA COURT ASHFIELD 4670",
     "locID": "LOC000111400785",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163320678",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4514,11 +4511,11 @@
     "name": "LOT 12 ELLIOTT HEADS ROAD ASHFIELD 4670",
     "locID": "LOC000073115023",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD425120384",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4711,10 +4708,9 @@
    "properties": {
     "name": "18 BEECH LINKS DRIVE ASHFIELD 4670",
     "locID": "LOC000141904821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425198466",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5163,10 +5159,9 @@
    "properties": {
     "name": "5 GUM NUT DRIVE ASHFIELD 4670",
     "locID": "LOC000141904687",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425206053",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5360,10 +5355,9 @@
    "properties": {
     "name": "36 SIENNA BOULEVARD ASHFIELD 4670",
     "locID": "LOC000141904455",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425217265",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5539,10 +5533,9 @@
    "properties": {
     "name": "52 SIENNA BOULEVARD ASHFIELD 4670",
     "locID": "LOC000141904543",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425217274",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5949,10 +5942,10 @@
    "properties": {
     "name": "28 PALERMO AVENUE ASHFIELD 4670",
     "locID": "LOC000142724202",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425428272",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6087,10 +6080,10 @@
    "properties": {
     "name": "8 PALERMO AVENUE ASHFIELD 4670",
     "locID": "LOC000142724107",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425428279",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6490,10 +6483,9 @@
    "properties": {
     "name": "40 SANCTUARY DRIVE ASHFIELD 4670",
     "locID": "LOC000166552785",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425753955",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6568,10 +6560,9 @@
    "properties": {
     "name": "44 SANCTUARY DRIVE ASHFIELD 4670",
     "locID": "LOC000166553438",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425753959",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7327,11 +7318,11 @@
     "name": "LOT 15 ELLIOTT HEADS ROAD ASHFIELD 4670",
     "locID": "LOC000094287997",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719334157",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8314,25 +8305,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.39008133,
-     -24.87593407
-    ]
-   },
-   "properties": {
-    "name": "2 ST CLAIR STREET ASHFIELD 4670",
-    "locID": "LOC000187683313",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720981828"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.3902508,
-     -24.87655792
+     152.39046621,
+     -24.87670828
     ]
    },
    "properties": {
@@ -8619,6 +8593,924 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39008133,
+     -24.87593407
+    ]
+   },
+   "properties": {
+    "name": "9 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000187683313",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721629090"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38887603,
+     -24.87694158
+    ]
+   },
+   "properties": {
+    "name": "17 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446767",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721679717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39021116,
+     -24.87639236
+    ]
+   },
+   "properties": {
+    "name": "3 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446812",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721680746"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38980199,
+     -24.87599126
+    ]
+   },
+   "properties": {
+    "name": "4 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446693",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682576"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.3888315,
+     -24.87639048
+    ]
+   },
+   "properties": {
+    "name": "14 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446746",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682923"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38902094,
+     -24.87631255
+    ]
+   },
+   "properties": {
+    "name": "12 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446733",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721683030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38940435,
+     -24.87615483
+    ]
+   },
+   "properties": {
+    "name": "8 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446714",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721683531"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39002172,
+     -24.87647029
+    ]
+   },
+   "properties": {
+    "name": "5 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446820",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721683733"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38960281,
+     -24.87607319
+    ]
+   },
+   "properties": {
+    "name": "6 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446705",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721683826"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38921039,
+     -24.87623462
+    ]
+   },
+   "properties": {
+    "name": "10 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446722",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721684077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38906547,
+     -24.87686365
+    ]
+   },
+   "properties": {
+    "name": "15 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446779",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721684922"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38925492,
+     -24.87678573
+    ]
+   },
+   "properties": {
+    "name": "13 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446780",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721685308"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38864205,
+     -24.87646841
+    ]
+   },
+   "properties": {
+    "name": "16 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446751",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721685490"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38944437,
+     -24.87670779
+    ]
+   },
+   "properties": {
+    "name": "11 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446798",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721686549"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38963832,
+     -24.876628
+    ]
+   },
+   "properties": {
+    "name": "9 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446808",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721687526"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38983228,
+     -24.87654822
+    ]
+   },
+   "properties": {
+    "name": "7 ST CLAIR STREET ASHFIELD 4670",
+    "locID": "LOC000194446812",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721687732"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38964938,
+     -24.87568261
+    ]
+   },
+   "properties": {
+    "name": "3 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261711",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721724742"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39616104,
+     -24.8701648
+    ]
+   },
+   "properties": {
+    "name": "99 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661584",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721725722"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38863437,
+     -24.87553079
+    ]
+   },
+   "properties": {
+    "name": "12 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261626",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721725966"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38905779,
+     -24.87592603
+    ]
+   },
+   "properties": {
+    "name": "9 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261688",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726089"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39610718,
+     -24.87067554
+    ]
+   },
+   "properties": {
+    "name": "98 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661545",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726321"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38945021,
+     -24.87576461
+    ]
+   },
+   "properties": {
+    "name": "5 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261707",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38825548,
+     -24.87568665
+    ]
+   },
+   "properties": {
+    "name": "16 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261642",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726528"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39589489,
+     -24.87070766
+    ]
+   },
+   "properties": {
+    "name": "96 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661532",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726576"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38901778,
+     -24.87537307
+    ]
+   },
+   "properties": {
+    "name": "8 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261603",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39676849,
+     -24.87001427
+    ]
+   },
+   "properties": {
+    "name": "105 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661610",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721727110"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39636644,
+     -24.87012074
+    ]
+   },
+   "properties": {
+    "name": "101 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661597",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721727133"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38848945,
+     -24.87615982
+    ]
+   },
+   "properties": {
+    "name": "15 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261657",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721727685"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39595651,
+     -24.87019969
+    ]
+   },
+   "properties": {
+    "name": "97 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661578",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721727847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38882381,
+     -24.87545286
+    ]
+   },
+   "properties": {
+    "name": "10 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261619",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721728075"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38925175,
+     -24.87584624
+    ]
+   },
+   "properties": {
+    "name": "7 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261690",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721728678"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38886835,
+     -24.87600396
+    ]
+   },
+   "properties": {
+    "name": "11 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261674",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721728896"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.3886789,
+     -24.87608189
+    ]
+   },
+   "properties": {
+    "name": "13 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261661",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721728921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38844493,
+     -24.87560872
+    ]
+   },
+   "properties": {
+    "name": "14 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261635",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721728926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38921624,
+     -24.87529144
+    ]
+   },
+   "properties": {
+    "name": "6 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261592",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721729108"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39655435,
+     -24.87052605
+    ]
+   },
+   "properties": {
+    "name": "102 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661566",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721729798"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39632244,
+     -24.87067977
+    ]
+   },
+   "properties": {
+    "name": "100 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661550",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721730830"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.39656896,
+     -24.87006952
+    ]
+   },
+   "properties": {
+    "name": "103 SIENNA BOULEVARD ASHFIELD 4670",
+    "locID": "LOC000191661606",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721731300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38941541,
+     -24.8752095
+    ]
+   },
+   "properties": {
+    "name": "4 RANNOCH STREET ASHFIELD 4670",
+    "locID": "LOC000194261585",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721731417"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38926281,
+     -24.87490094
+    ]
+   },
+   "properties": {
+    "name": "21 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194444015",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721817729"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38848163,
+     -24.87522228
+    ]
+   },
+   "properties": {
+    "name": "29 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443972",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721818484"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38843582,
+     -24.87466285
+    ]
+   },
+   "properties": {
+    "name": "34 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443917",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721818506"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38920806,
+     -24.87434673
+    ]
+   },
+   "properties": {
+    "name": "26 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443870",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721818525"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38863,
+     -24.87458337
+    ]
+   },
+   "properties": {
+    "name": "32 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443901",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721818677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38810282,
+     -24.87537818
+    ]
+   },
+   "properties": {
+    "name": "33 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443955",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721819032"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.3888651,
+     -24.87506454
+    ]
+   },
+   "properties": {
+    "name": "25 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443993",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721819815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38829215,
+     -24.87530022
+    ]
+   },
+   "properties": {
+    "name": "31 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443964",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721820607"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38824615,
+     -24.87474049
+    ]
+   },
+   "properties": {
+    "name": "36 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443929",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721820612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38901386,
+     -24.87442625
+    ]
+   },
+   "properties": {
+    "name": "28 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443889",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821338"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38882419,
+     -24.87450389
+    ]
+   },
+   "properties": {
+    "name": "30 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443891",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821365"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38867111,
+     -24.87514433
+    ]
+   },
+   "properties": {
+    "name": "27 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443986",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.3890636,
+     -24.87498289
+    ]
+   },
+   "properties": {
+    "name": "23 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194444004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721823422"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.38805647,
+     -24.87481812
+    ]
+   },
+   "properties": {
+    "name": "38 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443938",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721823577"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.3878658,
+     -24.87489616
+    ]
+   },
+   "properties": {
+    "name": "40 LUGANO STREET ASHFIELD 4670",
+    "locID": "LOC000194443940",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721823783"
    }
   }
  ]
