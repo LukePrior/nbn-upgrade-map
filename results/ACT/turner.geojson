@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-07T14:11:48.677562",
+ "generated": "2025-11-16T19:49:17.879352",
  "suburb": "TURNER",
  "features": [
   {
@@ -2697,6 +2697,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.12249591,
+     -35.26963862
+    ]
+   },
+   "properties": {
+    "name": "42 MASSON STREET TURNER 2612",
+    "locID": "LOC000197464766",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT714901754"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.12297132,
      -35.27058585
     ]
@@ -3300,14 +3317,14 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.12882574,
-     -35.26537147
+     149.12883984,
+     -35.26527212
     ]
    },
    "properties": {
     "name": "60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312135",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714903641"
    }
@@ -3324,7 +3341,7 @@
    "properties": {
     "name": "62 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312135",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714903642"
    }
@@ -3669,11 +3686,12 @@
    "properties": {
     "name": "74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714905214",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3749,46 +3767,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714905219",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.12978982,
-     -35.26529149
-    ]
-   },
-   "properties": {
-    "name": "27 FORBES STREET TURNER 2612",
-    "locID": "LOC000136250167",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT714905220",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.12970698,
-     -35.26383644
-    ]
-   },
-   "properties": {
-    "name": "5 TOWNS CRESCENT TURNER 2612",
-    "locID": "LOC000136064662",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT714905221",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3806,25 +3787,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714905222",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13005025,
-     -35.26367554
-    ]
-   },
-   "properties": {
-    "name": "45 FORBES STREET TURNER 2612",
-    "locID": "LOC000136079886",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT714905223",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -5221,10 +5183,11 @@
     "name": "60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000111875014",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT714907848",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5756,6 +5719,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAACT714908621",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12135916,
+     -35.27199343
+    ]
+   },
+   "properties": {
+    "name": "5 HACKETT GARDENS TURNER 2612",
+    "locID": "LOC000112265912",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAACT714908622",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -7910,10 +7893,9 @@
    "properties": {
     "name": "3 KNIBBS STREET TURNER 2612",
     "locID": "LOC000170402790",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714911092",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13272,11 +13254,12 @@
    "properties": {
     "name": "UNIT 1, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113671201",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715078360",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13292,10 +13275,11 @@
     "name": "UNIT 17, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000111808068",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715078361",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13330,10 +13314,11 @@
     "name": "UNIT 2, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000111875014",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715078363",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13349,10 +13334,11 @@
     "name": "UNIT 18, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113793741",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715078364",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13368,10 +13354,11 @@
     "name": "UNIT 19, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000112122862",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715078365",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13387,10 +13374,11 @@
     "name": "UNIT 20, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000112575519",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715078366",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16263,11 +16251,12 @@
    "properties": {
     "name": "UNIT 12, 2 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065571",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715086297",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16929,11 +16918,12 @@
    "properties": {
     "name": "UNIT 3, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000110942242",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715086919",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17462,10 +17452,11 @@
     "name": "UNIT 15, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113473455",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715087210",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17481,10 +17472,11 @@
     "name": "UNIT 16, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113372888",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715087211",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18511,10 +18503,11 @@
     "name": "UNIT 4, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000111088024",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715088970",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18529,11 +18522,12 @@
    "properties": {
     "name": "UNIT 5, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000111637238",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715088971",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18586,11 +18580,12 @@
    "properties": {
     "name": "UNIT 6, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000110483173",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715088974",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18605,11 +18600,12 @@
    "properties": {
     "name": "UNIT 7, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000110751815",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715088975",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18682,10 +18678,11 @@
     "name": "UNIT 8, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000112685477",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715089150",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18816,10 +18813,11 @@
     "name": "UNIT 9, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113696956",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715089157",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18834,11 +18832,12 @@
    "properties": {
     "name": "UNIT 10, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113671201",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715089158",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18854,10 +18853,11 @@
     "name": "UNIT 11, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000110385238",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT715089159",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19298,11 +19298,12 @@
    "properties": {
     "name": "UNIT 14, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000112507291",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715091591",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19436,10 +19437,10 @@
    "properties": {
     "name": "UNIT 14, 38 WATSON STREET TURNER 2612",
     "locID": "LOC000135958965",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715091650",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -21210,11 +21211,12 @@
    "properties": {
     "name": "UNIT 12, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000113445490",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715094189",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21229,11 +21231,12 @@
    "properties": {
     "name": "UNIT 13, 60 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000110740566",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT715094190",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22089,11 +22092,12 @@
    "properties": {
     "name": "UNIT 7, 2 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715095433",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24249,10 +24253,9 @@
    "properties": {
     "name": "UNIT 3, 14 GOULD STREET TURNER 2612",
     "locID": "LOC000136423460",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715160705",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24309,10 +24312,10 @@
    "properties": {
     "name": "10 WATSON STREET TURNER 2612",
     "locID": "LOC000169473097",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715218965",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26357,10 +26360,10 @@
    "properties": {
     "name": "UNIT 102, 155 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000136081078",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT716583250",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -28844,10 +28847,10 @@
    "properties": {
     "name": "UNIT 22, 24 FORBES STREET TURNER 2612",
     "locID": "LOC000136079506",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT716721116",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -28864,10 +28867,10 @@
    "properties": {
     "name": "UNIT 23, 24 FORBES STREET TURNER 2612",
     "locID": "LOC000136079510",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT716721117",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -36799,8 +36802,8 @@
    "properties": {
     "name": "2 HALE CRESCENT TURNER 2612",
     "locID": "LOC000111240954",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717055376",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37183,8 +37186,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230063",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37221,8 +37225,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230065",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37240,8 +37245,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230066",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37278,8 +37284,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230068",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37335,8 +37342,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230071",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37354,8 +37362,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230072",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37449,8 +37458,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230077",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37506,8 +37516,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230080",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37525,8 +37536,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230081",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37544,8 +37556,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230082",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37582,8 +37595,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230084",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37601,8 +37615,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230085",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37639,8 +37654,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230087",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37696,8 +37712,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717230090",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38249,11 +38266,12 @@
    "properties": {
     "name": "72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065366",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717231862",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39012,10 +39030,11 @@
     "name": "UNIT 10, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065559",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414652",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39031,10 +39050,11 @@
     "name": "UNIT 11, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065563",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414653",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39049,11 +39069,12 @@
    "properties": {
     "name": "UNIT 12, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065571",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414654",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39069,10 +39090,11 @@
     "name": "UNIT 13, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065585",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414655",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39087,11 +39109,12 @@
    "properties": {
     "name": "UNIT 14, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065592",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414656",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39107,10 +39130,11 @@
     "name": "UNIT 15, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065603",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414657",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39125,11 +39149,12 @@
    "properties": {
     "name": "UNIT 16, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065350",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717414658",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39144,11 +39169,12 @@
    "properties": {
     "name": "UNIT 17, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065366",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414659",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39164,10 +39190,11 @@
     "name": "UNIT 18, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065378",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414660",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39183,10 +39210,11 @@
     "name": "UNIT 19, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065384",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414661",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39201,11 +39229,12 @@
    "properties": {
     "name": "UNIT 1, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065571",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414662",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39220,11 +39249,12 @@
    "properties": {
     "name": "UNIT 20, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065397",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717414663",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39239,11 +39269,12 @@
    "properties": {
     "name": "UNIT 21, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717414664",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39258,11 +39289,12 @@
    "properties": {
     "name": "UNIT 22, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065418",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717414665",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39278,10 +39310,11 @@
     "name": "UNIT 23, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065425",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414666",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39296,11 +39329,12 @@
    "properties": {
     "name": "UNIT 24, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065439",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414667",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39316,10 +39350,11 @@
     "name": "UNIT 25, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065441",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414668",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39334,7 +39369,7 @@
    "properties": {
     "name": "UNIT 26, 72 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065456",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414669",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -39353,11 +39388,12 @@
    "properties": {
     "name": "UNIT 2, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414670",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39372,11 +39408,12 @@
    "properties": {
     "name": "UNIT 3, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065487",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414671",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39391,11 +39428,12 @@
    "properties": {
     "name": "UNIT 4, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414672",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39410,11 +39448,12 @@
    "properties": {
     "name": "UNIT 5, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065500",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414673",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39430,10 +39469,11 @@
     "name": "UNIT 6, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065516",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414674",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39448,11 +39488,12 @@
    "properties": {
     "name": "UNIT 7, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717414675",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39468,10 +39509,11 @@
     "name": "UNIT 8, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065537",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414676",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39487,10 +39529,11 @@
     "name": "UNIT 9, 74 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065544",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT717414677",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41693,25 +41736,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT717645896",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.129825,
-     -35.26726514
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, LEVEL 8, 2 FORBES STREET TURNER 2612",
-    "locID": "LOC000136065043",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT717645907",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -46464,6 +46488,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.129825,
+     -35.26726514
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 2 FORBES STREET TURNER 2612",
+    "locID": "LOC000136080154",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT718446049",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.12653025,
      -35.27284027
     ]
@@ -48482,10 +48525,10 @@
    "properties": {
     "name": "85 MACLEAY STREET TURNER 2612",
     "locID": "LOC000166865110",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT718876428",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -48522,8 +48565,8 @@
    "properties": {
     "name": "89 MACLEAY STREET TURNER 2612",
     "locID": "LOC000166865147",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT718876430",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -49772,10 +49815,9 @@
    "properties": {
     "name": "26 HOLDER STREET TURNER 2612",
     "locID": "LOC000169353222",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT719083243",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50982,8 +51024,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -50999,8 +51041,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51072,8 +51114,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51125,8 +51167,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51147,7 +51189,7 @@
     ]
    },
    "properties": {
-    "name": "SHOP 1, 219 NORTHBOURNE AVENUE TURNER 2612",
+    "name": "UNIT 1, 219 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000170031436",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -51218,8 +51260,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51252,8 +51294,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51269,8 +51311,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51380,8 +51422,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51416,8 +51458,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51562,8 +51604,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51579,8 +51621,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51596,8 +51638,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51651,8 +51693,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51721,8 +51763,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51738,8 +51780,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -51755,8 +51797,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52020,8 +52062,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52037,8 +52079,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52073,8 +52115,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52095,7 +52137,7 @@
     ]
    },
    "properties": {
-    "name": "SHOP 2, 219 NORTHBOURNE AVENUE TURNER 2612",
+    "name": "UNIT 2, 219 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000170031436",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -52107,8 +52149,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13106418,
-     -35.26064087
+     149.13132535,
+     -35.26060556
     ]
    },
    "properties": {
@@ -52125,8 +52167,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52328,8 +52370,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52345,8 +52387,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52362,8 +52404,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52381,8 +52423,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52398,8 +52440,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -52415,8 +52457,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13080413,
-     -35.26056
+     149.13074909,
+     -35.26090936
     ]
    },
    "properties": {
@@ -56846,11 +56888,12 @@
    "properties": {
     "name": "UNIT 2, 12 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065571",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT720638733",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56884,11 +56927,12 @@
    "properties": {
     "name": "UNIT 1, 12 MACLEAY STREET TURNER 2612",
     "locID": "LOC000136065571",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT720639193",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57505,7 +57549,7 @@
    "properties": {
     "name": "UNIT 10, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312220",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721534437"
    }
@@ -57522,7 +57566,7 @@
    "properties": {
     "name": "UNIT 6, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312188",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721534472"
    }
@@ -57539,7 +57583,7 @@
    "properties": {
     "name": "UNIT 9, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312212",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721534566"
    }
@@ -57556,7 +57600,7 @@
    "properties": {
     "name": "UNIT 3, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312157",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721534707"
    }
@@ -57573,28 +57617,9 @@
    "properties": {
     "name": "UNIT 2, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312135",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721534827"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.12953584,
-     -35.27280343
-    ]
-   },
-   "properties": {
-    "name": "3 GOULD STREET TURNER 2612",
-    "locID": "LOC000136423321",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT721534889",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57609,7 +57634,7 @@
    "properties": {
     "name": "UNIT 4, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312161",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535026"
    }
@@ -57626,7 +57651,7 @@
    "properties": {
     "name": "UNIT 8, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312208",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535166"
    }
@@ -57643,7 +57668,7 @@
    "properties": {
     "name": "UNIT 5, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312174",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535202"
    }
@@ -57660,7 +57685,7 @@
    "properties": {
     "name": "UNIT 7, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312190",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535209"
    }
@@ -57677,7 +57702,7 @@
    "properties": {
     "name": "UNIT 11, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312231",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535336"
    }
@@ -57694,7 +57719,7 @@
    "properties": {
     "name": "UNIT 1, 60 MACLEAY STREET TURNER 2612",
     "locID": "LOC000196312135",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721535380"
    }
@@ -57704,18 +57729,230 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13074909,
-     -35.26090936
+     149.12953584,
+     -35.27280343
     ]
    },
    "properties": {
-    "name": "UNIT 34, 2 DAVID STREET TURNER 2612",
-    "locID": "LOC000136063068",
+    "name": "1 GOULD STREET TURNER 2612",
+    "locID": "LOC000136585579",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT721557876",
+    "gnaf_pid": "GAACT721596799",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100087888803",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721655263",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100087888803",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721655290",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100087888803",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721655935",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 26, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100089934177",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721655936",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100087888803",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721656161",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 56, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100089934177",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721656323",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 33, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100087888803",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721656338",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.13132535,
+     -35.26060556
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 122 MACARTHUR AVENUE TURNER 2612",
+    "locID": "LOC100089934177",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721656519",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12851976,
+     -35.26754044
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 44 MACLEAY STREET TURNER 2612",
+    "locID": "LOC000183979254",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721757550"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12851976,
+     -35.26754044
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 44 MACLEAY STREET TURNER 2612",
+    "locID": "LOC000183979265",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721757602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12851976,
+     -35.26754044
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 44 MACLEAY STREET TURNER 2612",
+    "locID": "LOC000183979249",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721757644"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12851976,
+     -35.26754044
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 44 MACLEAY STREET TURNER 2612",
+    "locID": "LOC000183979231",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721757665"
    }
   }
  ]
