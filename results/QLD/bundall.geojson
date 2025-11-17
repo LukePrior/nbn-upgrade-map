@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-09T01:39:00.799581",
+ "generated": "2025-11-17T18:54:11.035517",
  "suburb": "BUNDALL",
  "features": [
   {
@@ -5458,8 +5458,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.40778144,
-     -27.999673
+     153.40779331,
+     -27.99962152
     ]
    },
    "properties": {
@@ -9813,7 +9813,7 @@
    "properties": {
     "name": "41 CAMPBELL STREET BUNDALL 4217",
     "locID": "LOC000074872841",
-    "tech": "HFC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155818047"
    }
@@ -26670,10 +26670,10 @@
    "properties": {
     "name": "3 DAIMLER DRIVE BUNDALL 4217",
     "locID": "LOC000055676462",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156355043",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42224,7 +42224,7 @@
    "properties": {
     "name": "144 CAMPBELL STREET BUNDALL 4217",
     "locID": "LOC000074872841",
-    "tech": "HFC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160730279"
    }
@@ -43153,6 +43153,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161053525",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40342491,
+     -28.00220674
+    ]
+   },
+   "properties": {
+    "name": "2-10 ASCOT COURT BUNDALL 4217",
+    "locID": "LOC000127419549",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161053527",
     "tech_change_status": "Not Planned"
    }
   },
@@ -47015,23 +47033,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162545942"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.40467787,
-     -28.02786627
-    ]
-   },
-   "properties": {
-    "name": "4 SAINT MORITZ TERRACE BUNDALL 4217",
-    "locID": "LOC000127419434",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162546943"
    }
   },
   {
@@ -51622,40 +51623,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.40778144,
-     -27.999673
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 14 RAYMOND AVENUE BUNDALL 4217",
-    "locID": "LOC000068902782",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425770328"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.40778144,
-     -27.999673
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 14 RAYMOND AVENUE BUNDALL 4217",
-    "locID": "LOC000068902782",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425770329"
    }
   },
   {
@@ -57106,8 +57073,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.40778144,
-     -27.999673
+     153.40772873,
+     -27.99967042
     ]
    },
    "properties": {
@@ -57422,6 +57389,125 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721580811"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40397285,
+     -28.01041847
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 144 CAMPBELL STREET BUNDALL 4217",
+    "locID": "LOC000192083329",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721644413"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40784194,
+     -27.99969241
+    ]
+   },
+   "properties": {
+    "name": "14A RAYMOND AVENUE BUNDALL 4217",
+    "locID": "LOC000161956602",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721644863"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40379483,
+     -28.01031349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 82 ASHMORE ROAD BUNDALL 4217",
+    "locID": "LOC000192261625",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721761364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40379483,
+     -28.01031349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 82 ASHMORE ROAD BUNDALL 4217",
+    "locID": "LOC000192261618",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721761452"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40379483,
+     -28.01031349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 82 ASHMORE ROAD BUNDALL 4217",
+    "locID": "LOC000192261589",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721761483"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40379483,
+     -28.01031349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 82 ASHMORE ROAD BUNDALL 4217",
+    "locID": "LOC000192261602",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721762337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40379483,
+     -28.01031349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 82 ASHMORE ROAD BUNDALL 4217",
+    "locID": "LOC000192261591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721762595"
    }
   }
  ]

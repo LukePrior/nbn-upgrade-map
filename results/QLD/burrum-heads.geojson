@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-09T01:34:37.342577",
+ "generated": "2025-11-17T18:50:14.005300",
  "suburb": "BURRUM HEADS",
  "features": [
   {
@@ -483,8 +483,8 @@
    "properties": {
     "name": "42 BURRUM STREET BURRUM HEADS 4659",
     "locID": "LOC000022712506",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155108428",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1792,10 +1792,10 @@
    "properties": {
     "name": "14 WARRINGAL COURT BURRUM HEADS 4659",
     "locID": "LOC000067875846",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155112406",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3025,10 +3025,9 @@
    "properties": {
     "name": "4 DAWSON COURT BURRUM HEADS 4659",
     "locID": "LOC000051358547",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155117802",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155117802"
    }
   },
   {
@@ -3819,6 +3818,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60455609,
+     -25.18594787
+    ]
+   },
+   "properties": {
+    "name": "98 RIVERVIEW DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000197749221",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155120338"
    }
   },
   {
@@ -5408,7 +5424,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156358603",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5822,10 +5840,10 @@
    "properties": {
     "name": "87 BURRUM STREET BURRUM HEADS 4659",
     "locID": "LOC000077963327",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156358636",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6918,10 +6936,10 @@
    "properties": {
     "name": "35 BURRUM STREET BURRUM HEADS 4659",
     "locID": "LOC000007429232",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156364391",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7353,9 +7371,9 @@
     "name": "43 BURRUM STREET BURRUM HEADS 4659",
     "locID": "LOC000079706322",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156365406",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10139,10 +10157,9 @@
    "properties": {
     "name": "39 BURRUM HEADS ROAD BURRUM HEADS 4659",
     "locID": "LOC000074286428",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156375362",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13145,26 +13162,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61745482,
-     -25.18674755
-    ]
-   },
-   "properties": {
-    "name": "98 BURRUM STREET BURRUM HEADS 4659",
-    "locID": "LOC000077378132",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157667389",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.63394565,
      -25.2117133
     ]
@@ -14046,10 +14043,9 @@
    "properties": {
     "name": "10 KRISTA COURT BURRUM HEADS 4659",
     "locID": "LOC000039979631",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161377306",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14285,10 +14281,10 @@
    "properties": {
     "name": "8 KRISTA COURT BURRUM HEADS 4659",
     "locID": "LOC000038158245",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161377318",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22179,7 +22175,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162348098",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22654,10 +22650,9 @@
    "properties": {
     "name": "UNIT 1, 4 PILBARA WAY BURRUM HEADS 4659",
     "locID": "LOC000075477619",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162457580",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25415,10 +25410,9 @@
    "properties": {
     "name": "11 FULMAR COURT BURRUM HEADS 4659",
     "locID": "LOC000039571308",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162626040",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162626040"
    }
   },
   {
@@ -25590,6 +25584,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162626050"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60175224,
+     -25.19231239
+    ]
+   },
+   "properties": {
+    "name": "10 HONEY MYRTLE CLOSE BURRUM HEADS 4659",
+    "locID": "LOC000197594901",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162628749"
    }
   },
   {
@@ -26585,10 +26596,9 @@
    "properties": {
     "name": "36 SIRENIA DRIVE BURRUM HEADS 4659",
     "locID": "LOC000023168639",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162634061",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162634061"
    }
   },
   {
@@ -27411,9 +27421,9 @@
     "name": "6 COCKLE COURT BURRUM HEADS 4659",
     "locID": "LOC000078631661",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162853315",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -28218,10 +28228,9 @@
    "properties": {
     "name": "40 HONEY MYRTLE CLOSE BURRUM HEADS 4659",
     "locID": "LOC000063064662",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162974264",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162974264"
    }
   },
   {
@@ -28516,10 +28525,9 @@
    "properties": {
     "name": "58 SIRENIA DRIVE BURRUM HEADS 4659",
     "locID": "LOC000071897816",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD162977380",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162977380"
    }
   },
   {
@@ -28920,10 +28928,9 @@
    "properties": {
     "name": "36 TULIPWOOD DRIVE BURRUM HEADS 4659",
     "locID": "LOC000076416012",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162977990",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162977990"
    }
   },
   {
@@ -29044,10 +29051,10 @@
    "properties": {
     "name": "9 TULIPWOOD DRIVE BURRUM HEADS 4659",
     "locID": "LOC000024953198",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162977997",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -29608,26 +29615,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163178144",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.58970255,
-     -25.23696753
-    ]
-   },
-   "properties": {
-    "name": "10 MILLER CRESCENT BURRUM HEADS 4659",
-    "locID": "LOC000025688709",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163234431",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -30277,24 +30264,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60492906,
-     -25.19293159
-    ]
-   },
-   "properties": {
-    "name": "LOT 202 IVOR DRIVE BURRUM HEADS 4659",
-    "locID": "LOC000004970222",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425750995",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.63040033,
      -25.20369207
     ]
@@ -30522,8 +30491,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60498681,
-     -25.19978414
+     152.60506226,
+     -25.19985399
     ]
    },
    "properties": {
@@ -31431,6 +31400,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.61600937,
+     -25.18535724
+    ]
+   },
+   "properties": {
+    "name": "7 TORBANLEA STREET BURRUM HEADS 4659",
+    "locID": "LOC000060744036",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720731104",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.63251087,
      -25.21429594
     ]
@@ -31910,8 +31899,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.59928467,
-     -25.19355997
+     152.59930324,
+     -25.19348209
     ]
    },
    "properties": {
@@ -32369,8 +32358,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59910519,
+     -25.19509362
     ]
    },
    "properties": {
@@ -32403,8 +32392,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.60015137,
+     -25.19464157
     ]
    },
    "properties": {
@@ -32420,8 +32409,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59904826,
+     -25.19545098
     ]
    },
    "properties": {
@@ -32488,8 +32477,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59977601,
+     -25.19417872
     ]
    },
    "properties": {
@@ -32522,8 +32511,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59937826,
+     -25.19428398
     ]
    },
    "properties": {
@@ -32607,8 +32596,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59956788,
+     -25.1942196
     ]
    },
    "properties": {
@@ -32675,8 +32664,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59919002,
+     -25.19454937
     ]
    },
    "properties": {
@@ -32692,8 +32681,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59916385,
+     -25.19473603
     ]
    },
    "properties": {
@@ -32760,8 +32749,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.60051505,
+     -25.1954594
     ]
    },
    "properties": {
@@ -32777,8 +32766,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.59972174,
+     -25.19550573
     ]
    },
    "properties": {
@@ -32828,8 +32817,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.59995139,
+     -25.19502182
     ]
    },
    "properties": {
@@ -32845,8 +32834,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59988975,
+     -25.19466821
     ]
    },
    "properties": {
@@ -32913,8 +32902,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59916802,
+     -25.19428995
     ]
    },
    "properties": {
@@ -32930,8 +32919,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59967042,
+     -25.19491815
     ]
    },
    "properties": {
@@ -33032,8 +33021,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.59992101,
+     -25.19551039
     ]
    },
    "properties": {
@@ -33049,8 +33038,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.60031936,
+     -25.19548904
     ]
    },
    "properties": {
@@ -33083,8 +33072,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59999203,
+     -25.19416321
     ]
    },
    "properties": {
@@ -33134,8 +33123,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59907673,
+     -25.1952723
     ]
    },
    "properties": {
@@ -33151,8 +33140,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.60012055,
+     -25.19550584
     ]
    },
    "properties": {
@@ -33321,8 +33310,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59952022,
+     -25.19548406
     ]
    },
    "properties": {
@@ -33372,8 +33361,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59913366,
+     -25.19491495
     ]
    },
    "properties": {
@@ -33389,8 +33378,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60155674,
-     -25.19364758
+     152.59968352,
+     -25.19470118
     ]
    },
    "properties": {
@@ -33406,8 +33395,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.60040621,
+     -25.1949832
     ]
    },
    "properties": {
@@ -33440,8 +33429,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60239952,
-     -25.19569298
+     152.60020908,
+     -25.19499689
     ]
    },
    "properties": {
@@ -33552,23 +33541,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721430282"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.63201121,
-     -25.21326009
-    ]
-   },
-   "properties": {
-    "name": "LOT 46 MUSTANG WAY BURRUM HEADS 4659",
-    "locID": "LOC000191287765",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721430325"
    }
   },
   {
@@ -33712,8 +33684,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.62981083,
+     -25.2123516
     ]
    },
    "properties": {
@@ -33729,8 +33701,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63315496,
-     -25.21408401
+     152.62957451,
+     -25.2131821
     ]
    },
    "properties": {
@@ -33746,8 +33718,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63315496,
-     -25.21408401
+     152.62950682,
+     -25.21285345
     ]
    },
    "properties": {
@@ -33797,8 +33769,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63149423,
+     -25.21229858
     ]
    },
    "properties": {
@@ -33814,8 +33786,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63127687,
+     -25.21312586
     ]
    },
    "properties": {
@@ -33831,8 +33803,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63100073,
+     -25.21180637
     ]
    },
    "properties": {
@@ -33848,8 +33820,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61272576,
+     -25.18851304
     ]
    },
    "properties": {
@@ -33865,8 +33837,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63091552,
+     -25.2127017
     ]
    },
    "properties": {
@@ -33882,8 +33854,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61356036,
+     -25.18852627
     ]
    },
    "properties": {
@@ -33899,8 +33871,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63157968,
+     -25.21190069
     ]
    },
    "properties": {
@@ -33916,8 +33888,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63021438,
+     -25.21170724
     ]
    },
    "properties": {
@@ -33933,8 +33905,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61333503,
+     -25.18908902
     ]
    },
    "properties": {
@@ -33950,8 +33922,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61278269,
+     -25.18833069
     ]
    },
    "properties": {
@@ -33967,8 +33939,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63054806,
+     -25.21244456
     ]
    },
    "properties": {
@@ -33984,8 +33956,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61285982,
+     -25.18957063
     ]
    },
    "properties": {
@@ -34001,8 +33973,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63139642,
+     -25.21185262
     ]
    },
    "properties": {
@@ -34018,8 +33990,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61244109,
+     -25.18942483
     ]
    },
    "properties": {
@@ -34035,8 +34007,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61249532,
+     -25.18925115
     ]
    },
    "properties": {
@@ -34052,8 +34024,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63080412,
+     -25.2117816
     ]
    },
    "properties": {
@@ -34069,8 +34041,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60453489,
-     -25.22187839
+     152.6123945,
+     -25.18860681
     ]
    },
    "properties": {
@@ -34089,8 +34061,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63119733,
+     -25.21183117
     ]
    },
    "properties": {
@@ -34106,8 +34078,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61344347,
+     -25.18874167
     ]
    },
    "properties": {
@@ -34123,8 +34095,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61317118,
+     -25.18841982
     ]
    },
    "properties": {
@@ -34140,8 +34112,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61298496,
+     -25.18918622
     ]
    },
    "properties": {
@@ -34157,8 +34129,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61336866,
+     -25.18846895
     ]
    },
    "properties": {
@@ -34174,8 +34146,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61266991,
+     -25.18868507
     ]
    },
    "properties": {
@@ -34191,8 +34163,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.6130934,
+     -25.18883887
     ]
    },
    "properties": {
@@ -34208,8 +34180,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.6300566,
+     -25.21238259
     ]
    },
    "properties": {
@@ -34225,8 +34197,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61293074,
+     -25.1893599
     ]
    },
    "properties": {
@@ -34242,8 +34214,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61210421,
+     -25.18952867
     ]
    },
    "properties": {
@@ -34259,8 +34231,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61323649,
+     -25.18933959
     ]
    },
    "properties": {
@@ -34276,8 +34248,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63091418,
+     -25.21233165
     ]
    },
    "properties": {
@@ -34293,8 +34265,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.6300178,
+     -25.21168245
     ]
    },
    "properties": {
@@ -34310,8 +34282,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61314762,
+     -25.1886652
     ]
    },
    "properties": {
@@ -34327,8 +34299,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63041096,
+     -25.21173203
     ]
    },
    "properties": {
@@ -34344,8 +34316,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63182631,
+     -25.21294273
     ]
    },
    "properties": {
@@ -34361,8 +34333,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61284297,
+     -25.1881379
     ]
    },
    "properties": {
@@ -34378,8 +34350,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63060755,
+     -25.21175682
     ]
    },
    "properties": {
@@ -34395,8 +34367,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61238524,
+     -25.18959685
     ]
    },
    "properties": {
@@ -34412,8 +34384,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61338925,
+     -25.18891534
     ]
    },
    "properties": {
@@ -34429,8 +34401,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.6298212,
+     -25.21165768
     ]
    },
    "properties": {
@@ -34446,8 +34418,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61260898,
+     -25.18904796
     ]
    },
    "properties": {
@@ -34463,8 +34435,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63030233,
+     -25.21241358
     ]
    },
    "properties": {
@@ -34480,8 +34452,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.61279866,
-     -25.18899474
+     152.61303918,
+     -25.18901254
     ]
    },
    "properties": {
@@ -34497,8 +34469,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.63052824,
-     -25.21199832
+     152.63163057,
+     -25.21263886
     ]
    },
    "properties": {
@@ -34514,8 +34486,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34531,8 +34503,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -34548,8 +34520,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34565,8 +34537,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34582,8 +34554,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34599,8 +34571,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34616,8 +34588,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34633,8 +34605,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34650,8 +34622,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34667,8 +34639,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34684,8 +34656,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34701,8 +34673,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34718,8 +34690,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -34735,8 +34707,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34752,8 +34724,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34769,8 +34741,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34786,8 +34758,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34803,8 +34775,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34820,8 +34792,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34837,8 +34809,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34854,8 +34826,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34871,8 +34843,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34888,8 +34860,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34905,8 +34877,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34922,8 +34894,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34939,8 +34911,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34956,8 +34928,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34973,8 +34945,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -34990,8 +34962,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35007,8 +34979,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35024,8 +34996,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35041,8 +35013,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35058,8 +35030,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35075,8 +35047,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35092,8 +35064,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35109,8 +35081,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35126,8 +35098,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35143,8 +35115,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35160,8 +35132,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35177,8 +35149,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35194,8 +35166,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35211,8 +35183,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35228,8 +35200,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35245,8 +35217,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35262,8 +35234,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35279,8 +35251,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35296,8 +35268,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35313,8 +35285,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35330,8 +35302,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35347,8 +35319,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35364,8 +35336,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35381,8 +35353,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35398,8 +35370,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35415,8 +35387,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35432,8 +35404,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35449,8 +35421,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35466,8 +35438,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35483,8 +35455,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35500,8 +35472,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35517,8 +35489,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35534,8 +35506,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35551,8 +35523,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35568,8 +35540,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35585,8 +35557,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35602,8 +35574,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35619,8 +35591,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35636,8 +35608,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35653,8 +35625,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35670,8 +35642,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35687,8 +35659,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.59928467,
-     -25.19355997
+     152.59926462,
+     -25.19356865
     ]
    },
    "properties": {
@@ -35704,8 +35676,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35721,8 +35693,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35738,8 +35710,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60352958,
-     -25.19276902
+     152.60443863,
+     -25.19296113
     ]
    },
    "properties": {
@@ -35755,8 +35727,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35772,8 +35744,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35789,8 +35761,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.60254848,
-     -25.19298297
+     152.60443922,
+     -25.1929613
     ]
    },
    "properties": {
@@ -35806,8 +35778,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.59928467,
-     -25.19355997
+     152.59926462,
+     -25.19356865
     ]
    },
    "properties": {
@@ -35816,6 +35788,426 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721587803"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61216059,
+     -25.18934771
+    ]
+   },
+   "properties": {
+    "name": "10 BURRUM HEADS ROAD BURRUM HEADS 4659",
+    "locID": "LOC000191415865",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721628052"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61249933,
+     -25.18826077
+    ]
+   },
+   "properties": {
+    "name": "7 BURRUM HEADS ROAD BURRUM HEADS 4659",
+    "locID": "LOC000179745294",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721628326",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.63201121,
+     -25.21326009
+    ]
+   },
+   "properties": {
+    "name": "3 MUSTANG WAY BURRUM HEADS 4659",
+    "locID": "LOC000188885623",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721630903"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61243731,
+     -25.18843774
+    ]
+   },
+   "properties": {
+    "name": "5 BURRUM HEADS ROAD BURRUM HEADS 4659",
+    "locID": "LOC000109815729",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721632382",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61241767,
+     -25.18899611
+    ]
+   },
+   "properties": {
+    "name": "4 OCEAN EDGE ROAD BURRUM HEADS 4659",
+    "locID": "LOC000191415981",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721632518"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61256175,
+     -25.1880608
+    ]
+   },
+   "properties": {
+    "name": "9 BURRUM HEADS ROAD BURRUM HEADS 4659",
+    "locID": "LOC000128620195",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721632763",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.59907673,
+     -25.1952723
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 59 LILLY PILLY DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000194986278",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721692506"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61547517,
+     -25.18624359
+    ]
+   },
+   "properties": {
+    "name": "28 TORBANLEA STREET BURRUM HEADS 4659",
+    "locID": "LOC000192394349",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721764015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6136082,
+     -25.18526701
+    ]
+   },
+   "properties": {
+    "name": "34 HOWARD STREET BURRUM HEADS 4659",
+    "locID": "LOC000022712506",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721764318",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60155674,
+     -25.19364758
+    ]
+   },
+   "properties": {
+    "name": "65 LILLY PILLY DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000020208445",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721764696"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60113562,
+     -25.19592384
+    ]
+   },
+   "properties": {
+    "name": "12 KEEL STREET BURRUM HEADS 4659",
+    "locID": "LOC000192930029",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721765524"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60113562,
+     -25.19592384
+    ]
+   },
+   "properties": {
+    "name": "14 KEEL STREET BURRUM HEADS 4659",
+    "locID": "LOC000197414335",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721765525"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60155674,
+     -25.19364758
+    ]
+   },
+   "properties": {
+    "name": "67 LILLY PILLY DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000192929533",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721765739"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61547517,
+     -25.18624359
+    ]
+   },
+   "properties": {
+    "name": "29 TORBANLEA STREET BURRUM HEADS 4659",
+    "locID": "LOC000192394320",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721766397"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60113562,
+     -25.19592384
+    ]
+   },
+   "properties": {
+    "name": "16 KEEL STREET BURRUM HEADS 4659",
+    "locID": "LOC000197414342",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721766592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60113562,
+     -25.19592384
+    ]
+   },
+   "properties": {
+    "name": "29 KEEL STREET BURRUM HEADS 4659",
+    "locID": "LOC000197732717",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721766950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61905148,
+     -25.19227075
+    ]
+   },
+   "properties": {
+    "name": "13 WINDFLOWER ROAD BURRUM HEADS 4659",
+    "locID": "LOC000192825587",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721767192"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60155674,
+     -25.19364758
+    ]
+   },
+   "properties": {
+    "name": "63 LILLY PILLY DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000197689527",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721767929"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60113562,
+     -25.19592384
+    ]
+   },
+   "properties": {
+    "name": "25 KEEL STREET BURRUM HEADS 4659",
+    "locID": "LOC000197069426",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721768362"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.61957032,
+     -25.19289772
+    ]
+   },
+   "properties": {
+    "name": "36A STARDUST CRESCENT BURRUM HEADS 4659",
+    "locID": "LOC000197335481",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.63052824,
+     -25.21199832
+    ]
+   },
+   "properties": {
+    "name": "1 MUSTANG WAY BURRUM HEADS 4659",
+    "locID": "LOC000191194078",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721827511"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60239952,
+     -25.19569298
+    ]
+   },
+   "properties": {
+    "name": "26 WINDWARD WAY BURRUM HEADS 4659",
+    "locID": "LOC000192929624",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721827887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.59913366,
+     -25.19491495
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 55 LILLY PILLY DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000194986245",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721829540"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.60443863,
+     -25.19296113
+    ]
+   },
+   "properties": {
+    "name": "14 FLAME TREE DRIVE BURRUM HEADS 4659",
+    "locID": "LOC000192442833",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721829547"
    }
   }
  ]
