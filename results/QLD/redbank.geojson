@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-10T11:20:32.943958",
+ "generated": "2025-11-18T15:08:29.580512",
  "suburb": "REDBANK",
  "features": [
   {
@@ -67,10 +67,10 @@
    "properties": {
     "name": "4 AUSTER STREET REDBANK 4301",
     "locID": "LOC000000567305",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155722835",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1399,8 +1399,8 @@
    "properties": {
     "name": "1 JOHN STREET REDBANK 4301",
     "locID": "LOC000006791063",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155735445",
     "tech_change_status": "Eligible to Order"
    }
@@ -1446,8 +1446,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.86974582,
-     -27.60222059
+     152.86986616,
+     -27.60214747
     ]
    },
    "properties": {
@@ -3214,8 +3214,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8669885,
-     -27.60178936
+     152.86699836,
+     -27.60178502
     ]
    },
    "properties": {
@@ -3492,23 +3492,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.86385448,
-     -27.605209
-    ]
-   },
-   "properties": {
-    "name": "3 DONALD STREET REDBANK 4301",
-    "locID": "LOC000188856898",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156999942"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.8634912,
      -27.60517783
     ]
@@ -3521,23 +3504,6 @@
     "gnaf_pid": "GAQLD156999943",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.86385448,
-     -27.605209
-    ]
-   },
-   "properties": {
-    "name": "5 DONALD STREET REDBANK 4301",
-    "locID": "LOC000188856912",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156999944"
    }
   },
   {
@@ -4821,8 +4787,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8669885,
-     -27.60178936
+     152.86699836,
+     -27.60178502
     ]
    },
    "properties": {
@@ -5346,23 +5312,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.86385448,
-     -27.605209
-    ]
-   },
-   "properties": {
-    "name": "7 DONALD STREET REDBANK 4301",
-    "locID": "LOC000188856931",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157031575"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.86139895,
      -27.60957979
     ]
@@ -5371,9 +5320,11 @@
     "name": "28 DUNLOP STREET REDBANK 4301",
     "locID": "LOC000081891323",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157031581",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -10287,8 +10238,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8669885,
-     -27.60178936
+     152.86699836,
+     -27.60178502
     ]
    },
    "properties": {
@@ -10304,8 +10255,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8669885,
-     -27.60178936
+     152.86699836,
+     -27.60178502
     ]
    },
    "properties": {
@@ -10315,26 +10266,6 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159823288",
     "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.8669885,
-     -27.60178936
-    ]
-   },
-   "properties": {
-    "name": "19 BRISBANE ROAD REDBANK 4301",
-    "locID": "LOC000102904366",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD159823294",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10525,9 +10456,11 @@
     "name": "16-18 DUNLOP STREET REDBANK 4301",
     "locID": "LOC000127724215",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161751269",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -12315,8 +12248,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8696227,
-     -27.59900291
+     152.86974154,
+     -27.5991038
     ]
    },
    "properties": {
@@ -12863,6 +12796,26 @@
     "gnaf_pid": "GAQLD163128608",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.86463676,
+     -27.61090756
+    ]
+   },
+   "properties": {
+    "name": "61 DUNCAN STREET REDBANK 4301",
+    "locID": "LOC000173442000",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163134890",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -14309,9 +14262,11 @@
     "name": "LOT 4 DUNLOP STREET REDBANK 4301",
     "locID": "LOC000081891323",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163358896",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -14625,8 +14580,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.8669885,
-     -27.60178936
+     152.86699836,
+     -27.60178502
     ]
    },
    "properties": {
@@ -15013,9 +14968,11 @@
     "name": "18 CHRIS STREET REDBANK 4301",
     "locID": "LOC000095034193",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425118273",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -15254,23 +15211,6 @@
     "coordinates": [
      152.87882805,
      -27.5857999
-    ]
-   },
-   "properties": {
-    "name": "41 MONASH ROAD REDBANK 4301",
-    "locID": "LOC000188700083",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425592022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.87893423,
-     -27.58480614
     ]
    },
    "properties": {
@@ -27419,8 +27359,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.87114771,
-     -27.59729011
+     152.87122233,
+     -27.59738673
     ]
    },
    "properties": {
@@ -28622,6 +28562,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721587804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.86921659,
+     -27.59858833
+    ]
+   },
+   "properties": {
+    "name": "20 RIVER ROAD REDBANK 4301",
+    "locID": "LOC000190827723",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721628072"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.86974582,
+     -27.60222059
+    ]
+   },
+   "properties": {
+    "name": "18 JOHN STREET REDBANK 4301",
+    "locID": "LOC000196332063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821186"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.868611,
+     -27.62195787
+    ]
+   },
+   "properties": {
+    "name": "UNIT A, 52 ELIJAH CRESCENT REDBANK 4301",
+    "locID": "LOC000195675475",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721828825"
    }
   }
  ]
