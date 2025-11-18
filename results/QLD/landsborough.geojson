@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-09T15:52:02.713548",
+ "generated": "2025-11-18T04:23:41.197602",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -503,10 +503,11 @@
     "name": "25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000111945979",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155474980",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -521,10 +522,10 @@
    "properties": {
     "name": "26 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000021680220",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155474981",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1749,8 +1750,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96227557,
-     -26.8065877
+     152.96227924,
+     -26.80659155
     ]
    },
    "properties": {
@@ -2146,10 +2147,10 @@
    "properties": {
     "name": "18 CALOUNDRA STREET LANDSBOROUGH 4550",
     "locID": "LOC000078408011",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487858",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3039,8 +3040,8 @@
    "properties": {
     "name": "118 HARDWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000104932900",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155491529",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4060,10 +4061,9 @@
    "properties": {
     "name": "4 WILLIAM STREET LANDSBOROUGH 4550",
     "locID": "LOC000047169295",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155494314",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155494314"
    }
   },
   {
@@ -4811,7 +4811,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155496043",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5185,8 +5187,8 @@
    "properties": {
     "name": "7 ANNIE STREET LANDSBOROUGH 4550",
     "locID": "LOC000012404601",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155496064",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5482,10 +5484,9 @@
    "properties": {
     "name": "8 ANNIE STREET LANDSBOROUGH 4550",
     "locID": "LOC000035927616",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155497064",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7509,8 +7510,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96360313,
-     -26.80874173
+     152.96361305,
+     -26.80879285
     ]
    },
    "properties": {
@@ -8467,10 +8468,10 @@
    "properties": {
     "name": "36 GATTERA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000053647072",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156762072",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9614,10 +9615,9 @@
    "properties": {
     "name": "20 WILLIAM STREET LANDSBOROUGH 4550",
     "locID": "LOC000106907097",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156772822",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9924,9 +9924,9 @@
     "name": "6 WOODWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000033289840",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156772858",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10040,7 +10040,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156775827",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10859,24 +10859,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96365032,
-     -26.79303687
-    ]
-   },
-   "properties": {
-    "name": "48 CALDERWOOD ROAD LANDSBOROUGH 4550",
-    "locID": "LOC000039352867",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD156779503",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.9631237,
      -26.80827796
     ]
@@ -11434,10 +11416,9 @@
    "properties": {
     "name": "3 MOOLOOLAH STREET LANDSBOROUGH 4550",
     "locID": "LOC000014448579",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156782930",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11546,10 +11527,9 @@
    "properties": {
     "name": "13 MYLA ROAD LANDSBOROUGH 4550",
     "locID": "LOC000062764330",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156782963",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156782963"
    }
   },
   {
@@ -12054,10 +12034,9 @@
    "properties": {
     "name": "17 GYMPIE STREET SOUTH LANDSBOROUGH 4550",
     "locID": "LOC000041398846",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156783188",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12714,10 +12693,10 @@
    "properties": {
     "name": "17 WILLIAM STREET LANDSBOROUGH 4550",
     "locID": "LOC000031680364",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156786610",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13794,10 +13773,9 @@
    "properties": {
     "name": "6 VIDLER COURT LANDSBOROUGH 4550",
     "locID": "LOC000033333276",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156797312",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156797312"
    }
   },
   {
@@ -13887,10 +13865,9 @@
    "properties": {
     "name": "4 WEEGEN COURT LANDSBOROUGH 4550",
     "locID": "LOC000014945976",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156797319",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13984,10 +13961,10 @@
    "properties": {
     "name": "34 BEERBURRUM STREET LANDSBOROUGH 4550",
     "locID": "LOC000023193277",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156800992",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14630,10 +14607,9 @@
    "properties": {
     "name": "6 RAILWAY STREET LANDSBOROUGH 4550",
     "locID": "LOC000106978907",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156807663",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14753,26 +14729,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156807685",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96722308,
-     -26.81103501
-    ]
-   },
-   "properties": {
-    "name": "1 BEERWAH STREET LANDSBOROUGH 4550",
-    "locID": "LOC000031724225",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD156807959",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15067,10 +15023,9 @@
    "properties": {
     "name": "17 REDWOOD COURT LANDSBOROUGH 4550",
     "locID": "LOC000029899430",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156810986",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15618,10 +15573,10 @@
    "properties": {
     "name": "6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158154721",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -16774,9 +16729,9 @@
     "name": "47 LOWER MOUNT MELLUM ROAD LANDSBOROUGH 4550",
     "locID": "LOC000050946286",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158163175",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18791,10 +18746,10 @@
    "properties": {
     "name": "11 CALDERWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000039352867",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158194065",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -19740,9 +19695,9 @@
     "name": "14 WATTLEBIRD PLACE LANDSBOROUGH 4550",
     "locID": "LOC000103161417",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160681756",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20112,10 +20067,9 @@
    "properties": {
     "name": "3320 OLD GYMPIE ROAD LANDSBOROUGH 4550",
     "locID": "LOC000015753454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160685704",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20897,26 +20851,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96640033,
-     -26.8108369
-    ]
-   },
-   "properties": {
-    "name": "2 RAILWAY STREET LANDSBOROUGH 4550",
-    "locID": "LOC000038364709",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160732568",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.96472633,
      -26.80796766
     ]
@@ -21574,10 +21508,9 @@
    "properties": {
     "name": "9 BOWERBIRD PLACE LANDSBOROUGH 4550",
     "locID": "LOC000050398460",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160944241",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160944241"
    }
   },
   {
@@ -22926,24 +22859,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9631146,
-     -26.80521592
-    ]
-   },
-   "properties": {
-    "name": "LOT 24 GYMPIE STREET NORTH LANDSBOROUGH 4550",
-    "locID": "LOC000085862239",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161171141",
-    "tech_change_status": "Previous Tech Disconnected"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.97483717,
      -26.80234717
     ]
@@ -22951,10 +22866,10 @@
    "properties": {
     "name": "LOT 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161171144",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -24586,10 +24501,9 @@
    "properties": {
     "name": "5 EDWIN DRIVE LANDSBOROUGH 4550",
     "locID": "LOC000049513584",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161781847",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161781847"
    }
   },
   {
@@ -26896,9 +26810,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162453477",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -28250,9 +28162,9 @@
     "name": "91 WHITES ROAD LANDSBOROUGH 4550",
     "locID": "LOC000072663397",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162612210",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28309,10 +28221,10 @@
    "properties": {
     "name": "15 CALDERWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000011677628",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162614012",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -28525,26 +28437,6 @@
     "gnaf_pid": "GAQLD162751791",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96576394,
-     -26.81303889
-    ]
-   },
-   "properties": {
-    "name": "1 MELLUM STREET LANDSBOROUGH 4550",
-    "locID": "LOC000101919997",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162942436",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -29554,10 +29446,11 @@
     "name": "UNIT 1, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000112764661",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290371",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29573,10 +29466,11 @@
     "name": "UNIT 2, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000111945979",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290372",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29592,10 +29486,11 @@
     "name": "UNIT 3, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000111945979",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290373",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29611,10 +29506,11 @@
     "name": "UNIT 4, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000112095921",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290374",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29630,10 +29526,11 @@
     "name": "UNIT 5, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000110734504",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290375",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29648,11 +29545,12 @@
    "properties": {
     "name": "UNIT 6, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000112404518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163290376",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29668,10 +29566,11 @@
     "name": "UNIT 7, 25 MALENY STREET LANDSBOROUGH 4550",
     "locID": "LOC000112386157",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163290377",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30468,9 +30367,9 @@
     "name": "10 LOWER MOUNT MELLUM ROAD LANDSBOROUGH 4550",
     "locID": "LOC100059279828",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425125642",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30821,10 +30720,9 @@
    "properties": {
     "name": "13 ELOUERA CLOSE LANDSBOROUGH 4550",
     "locID": "LOC100016974595",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425238690",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31000,10 +30898,9 @@
    "properties": {
     "name": "27 ELOUERA CLOSE LANDSBOROUGH 4550",
     "locID": "LOC100037925483",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425238699",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31177,10 +31074,9 @@
    "properties": {
     "name": "3317 OLD GYMPIE ROAD LANDSBOROUGH 4550",
     "locID": "LOC000172018796",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425492619",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31843,8 +31739,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97317554,
-     -26.81322306
+     152.97271319,
+     -26.81319617
     ]
    },
    "properties": {
@@ -31891,9 +31787,9 @@
     "name": "24 BLUEGUM STREET LANDSBOROUGH 4550",
     "locID": "LOC000081828473",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425746637",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32259,9 +32155,9 @@
     "name": "16 ANNIE STREET LANDSBOROUGH 4550",
     "locID": "LOC000083935442",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD719068813",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32380,9 +32276,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719092708",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -32655,7 +32549,7 @@
     "gnaf_pid": "GAQLD719264632",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -32835,7 +32729,7 @@
     "gnaf_pid": "GAQLD719270842",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -33135,7 +33029,7 @@
     "gnaf_pid": "GAQLD719278453",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -33230,10 +33124,10 @@
    "properties": {
     "name": "UNIT 5, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719445193",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33250,10 +33144,10 @@
    "properties": {
     "name": "UNIT 4, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719445195",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33270,10 +33164,10 @@
    "properties": {
     "name": "UNIT 6, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719446011",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33447,10 +33341,10 @@
    "properties": {
     "name": "UNIT 2, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719447964",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33527,10 +33421,10 @@
    "properties": {
     "name": "UNIT 3, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719448899",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33724,10 +33618,10 @@
    "properties": {
     "name": "UNIT 1, 6 GYMPIE STREET NORTH LANDSBOROUGH 4550",
     "locID": "LOC000181709747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719450681",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33862,7 +33756,7 @@
    "properties": {
     "name": "17 ALLAMBIE PLACE LANDSBOROUGH 4550",
     "locID": "LOC000178309500",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719477180",
     "tech_change_status": "Not Planned"
@@ -33985,7 +33879,7 @@
     "gnaf_pid": "GAQLD719478440",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -35433,8 +35327,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95329528,
-     -26.80403706
+     152.9532803,
+     -26.80415203
     ]
    },
    "properties": {
@@ -35671,10 +35565,10 @@
    "properties": {
     "name": "UNIT 2, 38 BUCKLEY STREET LANDSBOROUGH 4550",
     "locID": "LOC000178702329",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719897280",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39477,8 +39371,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9719561,
-     -26.80542322
+     152.97200967,
+     -26.80549824
     ]
    },
    "properties": {
@@ -39681,8 +39575,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9711678,
-     -26.80446395
+     152.97116122,
+     -26.80454478
     ]
    },
    "properties": {
@@ -39766,8 +39660,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97251119,
-     -26.80530227
+     152.97254199,
+     -26.80538078
     ]
    },
    "properties": {
@@ -40075,8 +39969,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96360313,
-     -26.80874173
+     152.96351388,
+     -26.8087849
     ]
    },
    "properties": {
@@ -41113,8 +41007,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97264004,
-     -26.81208338
+     152.97340815,
+     -26.81322476
     ]
    },
    "properties": {
@@ -41252,8 +41146,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97264004,
-     -26.81208338
+     152.97378278,
+     -26.81321234
     ]
    },
    "properties": {
@@ -41357,8 +41251,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97264004,
-     -26.81208338
+     152.97322907,
+     -26.81325715
     ]
    },
    "properties": {
@@ -41462,8 +41356,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96360313,
-     -26.80874173
+     152.96366592,
+     -26.80870692
     ]
    },
    "properties": {
@@ -41499,8 +41393,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97264004,
-     -26.81208338
+     152.97300459,
+     -26.81322946
     ]
    },
    "properties": {
@@ -41713,8 +41607,8 @@
    "properties": {
     "name": "15 WHITES ROAD LANDSBOROUGH 4550",
     "locID": "LOC000061061712",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721432706",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -42147,6 +42041,210 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721520868"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9719052,
+     -26.80539139
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214731",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721628053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97205468,
+     -26.80533002
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214754",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721629381"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9718031,
+     -26.80534148
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214777",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721629637"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97216146,
+     -26.80534785
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214765",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721630607"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97183365,
+     -26.80543344
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214720",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721632991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97197668,
+     -26.80535558
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 14 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194214749",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721634586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9631146,
+     -26.80521592
+    ]
+   },
+   "properties": {
+    "name": "25A MILL STREET LANDSBOROUGH 4550",
+    "locID": "LOC000197916440",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682850"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97087586,
+     -26.8044772
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 29 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000195091678",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721731087"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97107772,
+     -26.80443823
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 29 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000195091697",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721731301"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97355892,
+     -26.80972634
+    ]
+   },
+   "properties": {
+    "name": "48B PLANTATION CIRCUIT LANDSBOROUGH 4550",
+    "locID": "LOC000187099010",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721761956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96240338,
+     -26.80573364
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 29 MILL STREET LANDSBOROUGH 4550",
+    "locID": "LOC000196086323",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721762659"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96240338,
+     -26.80573364
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 29 MILL STREET LANDSBOROUGH 4550",
+    "locID": "LOC000196086347",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721828177"
    }
   }
  ]

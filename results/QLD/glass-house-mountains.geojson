@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-09T16:17:56.909552",
+ "generated": "2025-11-18T04:26:15.668197",
  "suburb": "GLASS HOUSE MOUNTAINS",
  "features": [
   {
@@ -1211,17 +1211,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96800757,
-     -26.90958497
+     152.96795779,
+     -26.90991555
     ]
    },
    "properties": {
     "name": "103 BOWEN ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000055661287",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155328820",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155328820"
    }
   },
   {
@@ -2116,6 +2115,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96176483,
+     -26.90877295
+    ]
+   },
+   "properties": {
+    "name": "36 BOWEN ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000196705511",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155330115"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.96204194,
      -26.90813743
     ]
@@ -2286,10 +2302,9 @@
    "properties": {
     "name": "24 BUZAKI ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000064550100",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155330395",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3207,8 +3222,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9461884,
-     -26.90762458
+     152.94619735,
+     -26.90763259
     ]
    },
    "properties": {
@@ -4446,7 +4461,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155332092",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4619,10 +4634,10 @@
    "properties": {
     "name": "218 JOHNSTON ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000020742753",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155333766",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -7080,10 +7095,9 @@
    "properties": {
     "name": "36 PARKVIEW ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000099101263",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155336639",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8829,10 +8843,10 @@
    "properties": {
     "name": "10 SIDHA AVENUE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000029019229",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155339007",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11279,8 +11293,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99000219,
-     -26.88226098
+     152.99111734,
+     -26.88406562
     ]
    },
    "properties": {
@@ -11771,9 +11785,9 @@
     "name": "12 KNOWLES PLACE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000022700970",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155350413",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12395,9 +12409,11 @@
     "name": "88 JUDDS ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000047413879",
     "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156031798",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14610,12 +14626,10 @@
    "properties": {
     "name": "8 GOULD DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000076606068",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156596699",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -15279,10 +15293,9 @@
    "properties": {
     "name": "2 HENRY COURT GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000107147050",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156599169",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15772,10 +15785,10 @@
    "properties": {
     "name": "71 RAILWAY PARADE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000059337252",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156601824",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17327,10 +17340,10 @@
    "properties": {
     "name": "24 ALPHA DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000052094594",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157944447",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17498,8 +17511,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94708613,
-     -26.89709361
+     152.94713847,
+     -26.89696097
     ]
    },
    "properties": {
@@ -18251,8 +18264,8 @@
    "properties": {
     "name": "41 SAHARA ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000025686213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157954575",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18402,8 +18415,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95072641,
-     -26.89797805
+     152.9508834,
+     -26.89801463
     ]
    },
    "properties": {
@@ -20703,10 +20716,9 @@
    "properties": {
     "name": "23 HILLSIDE ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000085086448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157966937",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20978,10 +20990,9 @@
    "properties": {
     "name": "193 SAHARA ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000011512166",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157968633",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21634,26 +21645,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94924189,
-     -26.89684629
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 58 SAHARA ROAD GLASS HOUSE MOUNTAINS 4518",
-    "locID": "LOC000106076017",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157970651",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.94783573,
      -26.89673684
     ]
@@ -22073,10 +22064,9 @@
    "properties": {
     "name": "69 SPRINGBURN DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000044857214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157971607",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22250,8 +22240,8 @@
    "properties": {
     "name": "10 BARRS ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000050930517",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157972496",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23290,10 +23280,9 @@
    "properties": {
     "name": "50 OUTLOOK DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000059499230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157976351",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23842,7 +23831,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD157989161",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25428,8 +25419,8 @@
    "properties": {
     "name": "LOT 10 BARRS ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000050930517",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161059929",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25451,7 +25442,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161066237",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26239,8 +26232,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.91014516,
-     -26.88871688
+     152.91014662,
+     -26.88871612
     ]
    },
    "properties": {
@@ -26644,24 +26637,6 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96442972,
-     -26.90536134
-    ]
-   },
-   "properties": {
-    "name": "LOT 5 BRICALLI ROAD GLASS HOUSE MOUNTAINS 4518",
-    "locID": "LOC000018169957",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161679680",
-    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27316,8 +27291,8 @@
    "properties": {
     "name": "1A BARRS ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000044648579",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162081248",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27531,10 +27506,9 @@
    "properties": {
     "name": "5 GLORIA CLOSE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000101932495",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162085838",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28355,10 +28329,10 @@
    "properties": {
     "name": "2 CAYENNE COURT GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000090004941",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162212462",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28576,26 +28550,6 @@
     "gnaf_pid": "GAQLD162217032",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.94654367,
-     -26.91151819
-    ]
-   },
-   "properties": {
-    "name": "57 PARKVIEW ROAD GLASS HOUSE MOUNTAINS 4518",
-    "locID": "LOC000062741795",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD162220521",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -29114,8 +29068,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.93477972,
-     -26.88057235
+     152.93477341,
+     -26.88057432
     ]
    },
    "properties": {
@@ -31812,10 +31766,10 @@
    "properties": {
     "name": "39 SMERDON WAY GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000081511987",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162634105",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31892,10 +31846,9 @@
    "properties": {
     "name": "47 SMERDON WAY GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000097427020",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162634109",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33042,10 +32995,9 @@
    "properties": {
     "name": "10 SUGAR COAST DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000031700029",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162715986",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33812,10 +33764,9 @@
    "properties": {
     "name": "112 ALLAN AVENUE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000093685447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162851848",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35352,10 +35303,9 @@
    "properties": {
     "name": "24 BONATO ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000064877946",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD163183891",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163183891"
    }
   },
   {
@@ -35513,10 +35463,9 @@
    "properties": {
     "name": "2 COOINDA PLACE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000036284024",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD163184829",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163184829"
    }
   },
   {
@@ -35845,26 +35794,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94142766,
-     -26.91086171
-    ]
-   },
-   "properties": {
-    "name": "1 OUTLOOK DRIVE GLASS HOUSE MOUNTAINS 4518",
-    "locID": "LOC000128217838",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163256028",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.93919033,
      -26.90848878
     ]
@@ -36029,10 +35958,10 @@
    "properties": {
     "name": "9 TRILOGY STREET GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000111000429",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163299971",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36087,10 +36016,9 @@
    "properties": {
     "name": "53 COONOWRIN ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000112742054",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163304816",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36189,7 +36117,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163313718",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -36555,6 +36483,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.89981364,
+     -26.90676642
+    ]
+   },
+   "properties": {
+    "name": "275 MOUNT BEERWAH ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000004009487",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD424991626",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -37726,10 +37672,9 @@
    "properties": {
     "name": "10 MOUNTAINVIEW PLACE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165647462",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425212221",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38263,8 +38208,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97517314,
-     -26.90915813
+     152.97504898,
+     -26.9093229
     ]
    },
    "properties": {
@@ -38636,7 +38581,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425586941",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38902,23 +38847,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97504898,
-     -26.9093229
-    ]
-   },
-   "properties": {
-    "name": "LOT 16 COOINDA PLACE GLASS HOUSE MOUNTAINS 4518",
-    "locID": "LOC000076499187",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425587090"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.94670508,
      -26.90698291
     ]
@@ -39047,7 +38975,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425594404",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39282,10 +39210,10 @@
    "properties": {
     "name": "7 SAIRS STREET GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165649953",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425594416",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39636,10 +39564,9 @@
    "properties": {
     "name": "7 ROWLEY CLOSE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165963006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425798076",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39687,8 +39614,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94596757,
-     -26.89612489
+     152.9459879,
+     -26.89607675
     ]
    },
    "properties": {
@@ -39707,8 +39634,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94596757,
-     -26.89612489
+     152.9459879,
+     -26.89607675
     ]
    },
    "properties": {
@@ -39727,8 +39654,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94596757,
-     -26.89612489
+     152.9459879,
+     -26.89607675
     ]
    },
    "properties": {
@@ -39747,8 +39674,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94596757,
-     -26.89612489
+     152.9459879,
+     -26.89607675
     ]
    },
    "properties": {
@@ -39767,8 +39694,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94596757,
-     -26.89612489
+     152.9459879,
+     -26.89607675
     ]
    },
    "properties": {
@@ -39969,10 +39896,10 @@
    "properties": {
     "name": "49 POOLE ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165649003",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719066838",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39989,10 +39916,10 @@
    "properties": {
     "name": "35 PINNACLES DRIVE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165964248",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719067501",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40187,10 +40114,10 @@
    "properties": {
     "name": "53 POOLE ROAD GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165649026",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719069743",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40898,10 +40825,9 @@
    "properties": {
     "name": "UNIT 1, 7 ROWLEY CLOSE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165963006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719555916",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40995,10 +40921,9 @@
    "properties": {
     "name": "UNIT 2, 7 ROWLEY CLOSE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000165963006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719559861",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47195,10 +47120,10 @@
    "properties": {
     "name": "LOT 21 RAILWAY PARADE GLASS HOUSE MOUNTAINS 4518",
     "locID": "LOC000059337252",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721390434",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47401,8 +47326,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95003013,
-     -26.90679732
+     152.95017351,
+     -26.90681361
     ]
    },
    "properties": {
@@ -48259,6 +48184,182 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95219749,
+     -26.89497269
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 69 RAILWAY PARADE GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000194806529",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721653910"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94619735,
+     -26.90763259
+    ]
+   },
+   "properties": {
+    "name": "28 MOUNTAINVIEW PLACE GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000068765099",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682776",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95059594,
+     -26.8979602
+    ]
+   },
+   "properties": {
+    "name": "8A KIRSTEN DRIVE GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000194490497",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721687237"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9543201,
+     -26.89830039
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10B, 23 RAILWAY PARADE GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000191658176",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721693354",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99000219,
+     -26.88226098
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 BASSETTS ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000062913790",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721731036",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94714888,
+     -26.89710697
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 80 SAHARA ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000197006835",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721818587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95557672,
+     -26.90194254
+    ]
+   },
+   "properties": {
+    "name": "20 AURORA CRESCENT GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000192116606",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721819175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96790425,
+     -26.90950514
+    ]
+   },
+   "properties": {
+    "name": "101 BOWEN ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000194963512",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721820388"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96844242,
+     -26.90958552
+    ]
+   },
+   "properties": {
+    "name": "101A BOWEN ROAD GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000194963508",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721822337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95557672,
+     -26.90194254
+    ]
+   },
+   "properties": {
+    "name": "13 ZENITH STREET GLASS HOUSE MOUNTAINS 4518",
+    "locID": "LOC000192116469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721822366"
    }
   }
  ]
