@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-09T12:07:52.063188",
+ "generated": "2025-11-18T01:06:21.786553",
  "suburb": "WANGAN",
  "features": [
   {
@@ -15,10 +15,9 @@
    "properties": {
     "name": "11 CARDIER ROAD WANGAN 4871",
     "locID": "LOC000036780164",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155928493",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -215,10 +214,10 @@
    "properties": {
     "name": "5 RAMU STREET WANGAN 4871",
     "locID": "LOC000047404086",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155928973",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1261,8 +1260,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.01280877,
-     -17.5748612
+     146.01279672,
+     -17.57481312
     ]
    },
    "properties": {
@@ -2640,10 +2639,10 @@
    "properties": {
     "name": "3 KATIE CLOSE WANGAN 4871",
     "locID": "LOC000009612705",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157287306",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2898,10 +2897,10 @@
    "properties": {
     "name": "6 GARY CLOSE WANGAN 4871",
     "locID": "LOC000077570731",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157291197",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3239,7 +3238,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157294434",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3575,9 +3576,9 @@
     "name": "8 FOXWOOD AVENUE WANGAN 4871",
     "locID": "LOC000108402830",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157294539",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4472,9 +4473,11 @@
     "name": "9 GRAHAM CLOSE WANGAN 4871",
     "locID": "LOC000192374506",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157308924",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -4513,26 +4516,6 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157308927",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.01126463,
-     -17.57591297
-    ]
-   },
-   "properties": {
-    "name": "2 MEYER AVENUE WANGAN 4871",
-    "locID": "LOC000046962349",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157315395",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4880,26 +4863,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.00765805,
-     -17.57607741
-    ]
-   },
-   "properties": {
-    "name": "31 SHAY STREET WANGAN 4871",
-    "locID": "LOC000025706009",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD158799624",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.0107009,
      -17.57482672
     ]
@@ -4931,25 +4894,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158800977",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.01126463,
-     -17.57591297
-    ]
-   },
-   "properties": {
-    "name": "4 MEYER AVENUE WANGAN 4871",
-    "locID": "LOC000091581089",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158801014",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5268,26 +5212,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158833183",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.00765805,
-     -17.57607741
-    ]
-   },
-   "properties": {
-    "name": "33 SHAY STREET WANGAN 4871",
-    "locID": "LOC000008298185",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD158833306",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6790,17 +6714,19 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.01280877,
-     -17.5748612
+     146.01279672,
+     -17.57481312
     ]
    },
    "properties": {
     "name": "14 GRAY STREET WANGAN 4871",
     "locID": "LOC000016190289",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719368545",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
