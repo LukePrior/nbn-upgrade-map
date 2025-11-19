@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-11T12:43:33.143121",
+ "generated": "2025-11-19T08:27:53.538704",
  "suburb": "ALBANY",
  "features": [
   {
@@ -569,9 +569,9 @@
     "name": "344 MIDDLETON ROAD ALBANY 6330",
     "locID": "LOC000100254512",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146958744",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -728,11 +728,11 @@
     "name": "27 MELVILLE STREET ALBANY 6330",
     "locID": "LOC000040455669",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146968348",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -768,11 +768,11 @@
     "name": "217 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000015389572",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146968350",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -788,11 +788,11 @@
     "name": "215 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000069344630",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146968351",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -986,8 +986,8 @@
    "properties": {
     "name": "5 VIEW STREET ALBANY 6330",
     "locID": "LOC000047867296",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146969392",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1642,10 +1642,9 @@
    "properties": {
     "name": "12 GREY STREET EAST ALBANY 6330",
     "locID": "LOC000062724967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146971401",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1761,10 +1760,10 @@
    "properties": {
     "name": "34 CLIFF STREET ALBANY 6330",
     "locID": "LOC000102399919",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146971647",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2082,25 +2081,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146974217",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.8780545,
-     -35.02574404
-    ]
-   },
-   "properties": {
-    "name": "12 MILL STREET ALBANY 6330",
-    "locID": "LOC100032478204",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146974218",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2609,6 +2589,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88352275,
+     -35.02460672
+    ]
+   },
+   "properties": {
+    "name": "173 YORK STREET ALBANY 6330",
+    "locID": "LOC000002935979",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146975792",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88407,
      -35.02634
     ]
@@ -2847,8 +2846,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.87821456,
-     -35.02416648
+     117.87827081,
+     -35.0243723
     ]
    },
    "properties": {
@@ -2866,8 +2865,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.87821456,
-     -35.02416648
+     117.87816224,
+     -35.02397483
     ]
    },
    "properties": {
@@ -4214,25 +4213,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.87658124,
-     -35.02401014
-    ]
-   },
-   "properties": {
-    "name": "6 VIEW STREET ALBANY 6330",
-    "locID": "LOC000048203973",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146982241",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      117.87634712,
      -35.02359503
     ]
@@ -4479,10 +4459,9 @@
    "properties": {
     "name": "134 BRUNSWICK ROAD ALBANY 6330",
     "locID": "LOC000063757068",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146982635",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4958,7 +4937,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146983674",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5094,29 +5073,9 @@
    "properties": {
     "name": "32 CLIFF STREET ALBANY 6330",
     "locID": "LOC000059487770",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAWA_146983685",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.87552097,
-     -35.02294738
-    ]
-   },
-   "properties": {
-    "name": "30 CLIFF STREET ALBANY 6330",
-    "locID": "LOC000086376675",
     "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146983686",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146983685",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -5356,7 +5315,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146983771",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5472,10 +5431,9 @@
    "properties": {
     "name": "150 SERPENTINE ROAD ALBANY 6330",
     "locID": "LOC000106716806",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146984097",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5948,10 +5906,10 @@
    "properties": {
     "name": "44 EARL STREET ALBANY 6330",
     "locID": "LOC000101821338",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146985183",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6835,10 +6793,9 @@
    "properties": {
     "name": "98 BURGOYNE ROAD ALBANY 6330",
     "locID": "LOC000011417213",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146987243",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7053,8 +7010,8 @@
    "properties": {
     "name": "58 HILL STREET ALBANY 6330",
     "locID": "LOC000107872011",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146987871",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7146,8 +7103,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.88974,
-     -35.02364
+     117.88975265,
+     -35.02356023
     ]
    },
    "properties": {
@@ -8247,10 +8204,9 @@
    "properties": {
     "name": "37 FESTING STREET ALBANY 6330",
     "locID": "LOC000044411216",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146989431",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8349,46 +8305,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146989436",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.8868,
-     -35.0275
-    ]
-   },
-   "properties": {
-    "name": "39 STIRLING TERRACE ALBANY 6330",
-    "locID": "LOC000133413954",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146989440",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.88747,
-     -35.02771
-    ]
-   },
-   "properties": {
-    "name": "31 STIRLING TERRACE ALBANY 6330",
-    "locID": "LOC000133450845",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146989441",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -8969,7 +8885,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146990088",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9321,10 +9237,9 @@
    "properties": {
     "name": "50 VANCOUVER STREET ALBANY 6330",
     "locID": "LOC000012944346",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146991076",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9473,8 +9388,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.89087,
-     -35.02654
+     117.89096958,
+     -35.02660067
     ]
    },
    "properties": {
@@ -9513,8 +9428,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.89109253,
-     -35.02612175
+     117.89117931,
+     -35.02618274
     ]
    },
    "properties": {
@@ -9523,26 +9438,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146991552",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.8895703,
-     -35.02404339
-    ]
-   },
-   "properties": {
-    "name": "1 HILL STREET ALBANY 6330",
-    "locID": "LOC000071739418",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146991553",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -9855,12 +9750,12 @@
    "properties": {
     "name": "213 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000098836977",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146991951",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9896,11 +9791,11 @@
     "name": "209 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000018135630",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991953",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9916,11 +9811,11 @@
     "name": "207 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000065674491",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991954",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9976,11 +9871,11 @@
     "name": "205 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000035115834",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991957",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9995,12 +9890,12 @@
    "properties": {
     "name": "203 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000079883797",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146991958",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10036,11 +9931,11 @@
     "name": "201 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000025680480",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991961",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10055,12 +9950,12 @@
    "properties": {
     "name": "199 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000100323872",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146991962",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10096,11 +9991,11 @@
     "name": "29 MELVILLE STREET ALBANY 6330",
     "locID": "LOC000055324449",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991964",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10116,11 +10011,11 @@
     "name": "63 BAY STREET ALBANY 6330",
     "locID": "LOC000037378660",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146991965",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10506,8 +10401,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.89070164,
-     -35.02650737
+     117.89073131,
+     -35.02646881
     ]
    },
    "properties": {
@@ -11069,10 +10964,10 @@
    "properties": {
     "name": "8 ROWLEY STREET ALBANY 6330",
     "locID": "LOC000107419535",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146997508",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11388,9 +11283,9 @@
     "name": "86 VANCOUVER STREET ALBANY 6330",
     "locID": "LOC000063617951",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147000130",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11664,10 +11559,9 @@
    "properties": {
     "name": "15 INNES STREET ALBANY 6330",
     "locID": "LOC000058357762",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147001890",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12279,10 +12173,9 @@
    "properties": {
     "name": "12 MASKILL PLACE ALBANY 6330",
     "locID": "LOC000091772180",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147142416",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12299,10 +12192,9 @@
    "properties": {
     "name": "14 MASKILL PLACE ALBANY 6330",
     "locID": "LOC000065492444",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147142417",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12657,10 +12549,9 @@
    "properties": {
     "name": "3 MASKILL PLACE ALBANY 6330",
     "locID": "LOC000007846134",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147158231",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12834,10 +12725,9 @@
    "properties": {
     "name": "8 WARRANGEE LANE ALBANY 6330",
     "locID": "LOC000100289703",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147181449",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13413,10 +13303,9 @@
    "properties": {
     "name": "1 MASKILL PLACE ALBANY 6330",
     "locID": "LOC000065492444",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147233523",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13499,6 +13388,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88727592,
+     -35.02808299
+    ]
+   },
+   "properties": {
+    "name": "81 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100056231593",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147236812",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13674,7 +13582,7 @@
     "gnaf_pid": "GAWA_147241721",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -14209,11 +14117,11 @@
     "name": "211 GREY STREET WEST ALBANY 6330",
     "locID": "LOC000101693713",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147339329",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14566,10 +14474,9 @@
    "properties": {
     "name": "41 FREDERICK STREET ALBANY 6330",
     "locID": "LOC000007069105",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147432217",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15118,11 +15025,11 @@
     "name": "31 MELVILLE STREET ALBANY 6330",
     "locID": "LOC000054452196",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147432406",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15420,26 +15327,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.87601678,
-     -35.02318271
-    ]
-   },
-   "properties": {
-    "name": "6 CLIFF STREET ALBANY 6330",
-    "locID": "LOC000020511935",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_147432451",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      117.87510758,
      -35.0236057
     ]
@@ -15447,10 +15334,9 @@
    "properties": {
     "name": "35 CLIFF STREET ALBANY 6330",
     "locID": "LOC000091603339",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147432453",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16174,10 +16060,9 @@
    "properties": {
     "name": "8A GREY STREET EAST ALBANY 6330",
     "locID": "LOC000105299425",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147432664",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16684,10 +16569,9 @@
    "properties": {
     "name": "2 CLIFF WAY ALBANY 6330",
     "locID": "LOC000032021889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147432752",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16893,6 +16777,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.87788567,
+     -35.02791396
+    ]
+   },
+   "properties": {
+    "name": "5 MILL STREET ALBANY 6330",
+    "locID": "LOC000083132845",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147432815",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.8801084,
      -35.02657604
     ]
@@ -17011,8 +16915,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.87821456,
-     -35.02416648
+     117.87827081,
+     -35.0243723
     ]
    },
    "properties": {
@@ -18897,10 +18801,9 @@
    "properties": {
     "name": "84 SPENCER STREET ALBANY 6330",
     "locID": "LOC000089249451",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_149063853",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19094,10 +18997,10 @@
    "properties": {
     "name": "UNIT 8, 70-74 FREDERICK STREET ALBANY 6330",
     "locID": "LOC000105891792",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_149066663",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -19233,10 +19136,10 @@
    "properties": {
     "name": "UNIT 9, 70-74 FREDERICK STREET ALBANY 6330",
     "locID": "LOC000105969798",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_149066677",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -19859,26 +19762,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.8780545,
-     -35.02574404
-    ]
-   },
-   "properties": {
-    "name": "16 MILL STREET ALBANY 6330",
-    "locID": "LOC000027005160",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_149072195",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      117.88367172,
      -35.0258859
     ]
@@ -20396,26 +20279,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_149094115",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     117.87793524,
-     -35.02250581
-    ]
-   },
-   "properties": {
-    "name": "1 WARRANGEE LANE ALBANY 6330",
-    "locID": "LOC000067381834",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_149098219",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -22736,10 +22599,9 @@
    "properties": {
     "name": "UNIT 1, 134 BRUNSWICK ROAD ALBANY 6330",
     "locID": "LOC000063757068",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161989811",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22756,10 +22618,9 @@
    "properties": {
     "name": "UNIT 2, 134 BRUNSWICK ROAD ALBANY 6330",
     "locID": "LOC000063757068",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161989812",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23823,10 +23684,10 @@
    "properties": {
     "name": "45 HILL STREET ALBANY 6330",
     "locID": "LOC000032000681",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162569931",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24810,10 +24671,10 @@
    "properties": {
     "name": "70 FREDERICK STREET ALBANY 6330",
     "locID": "LOC000110049100",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162989572",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -25009,7 +24870,7 @@
     "gnaf_pid": "GAWA_163087916",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -25029,7 +24890,7 @@
     "gnaf_pid": "GAWA_163087917",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -25125,7 +24986,7 @@
     "gnaf_pid": "GAWA_163277553",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -25834,6 +25695,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88138243,
+     -35.02673869
+    ]
+   },
+   "properties": {
+    "name": "21 DUKE STREET ALBANY 6330",
+    "locID": "LOC000051717655",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_718214923",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88006096,
      -35.02715098
     ]
@@ -25864,6 +25745,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718215028",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88792831,
+     -35.02249389
+    ]
+   },
+   "properties": {
+    "name": "14B FINLAY STREET ALBANY 6330",
+    "locID": "LOC000004554411",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718215445",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27128,7 +27029,7 @@
     "gnaf_pid": "GAWA_719054832",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -27148,7 +27049,7 @@
     "gnaf_pid": "GAWA_719055079",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -27168,7 +27069,27 @@
     "gnaf_pid": "GAWA_719055560",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Mar 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88759783,
+     -35.02659052
+    ]
+   },
+   "properties": {
+    "name": "40 SPENCER STREET ALBANY 6330",
+    "locID": "LOC100080612808",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_719147672",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28324,8 +28245,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.88629187,
-     -35.02518787
+     117.88582987,
+     -35.02514375
     ]
    },
    "properties": {
@@ -28341,8 +28262,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.88629187,
-     -35.02518787
+     117.88607385,
+     -35.02518033
     ]
    },
    "properties": {
@@ -28358,8 +28279,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.88629187,
-     -35.02518787
+     117.8859121,
+     -35.02515608
     ]
    },
    "properties": {
@@ -28494,8 +28415,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.88629187,
-     -35.02518787
+     117.88599207,
+     -35.02516808
     ]
    },
    "properties": {
@@ -28544,6 +28465,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88715326,
+     -35.02757213
+    ]
+   },
+   "properties": {
+    "name": "35 STIRLING TERRACE ALBANY 6330",
+    "locID": "LOC000073851334",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721721819"
    }
   }
  ]
