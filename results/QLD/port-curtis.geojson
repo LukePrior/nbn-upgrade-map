@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-12T14:28:43.575010",
+ "generated": "2025-11-19T23:48:21.724101",
  "suburb": "PORT CURTIS",
  "features": [
   {
@@ -86,6 +86,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.51248518,
+     -23.40812072
+    ]
+   },
+   "properties": {
+    "name": "10 BARNES STREET PORT CURTIS 4700",
+    "locID": "LOC000029101780",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155712560"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51293816,
      -23.40839633
     ]
@@ -110,10 +127,10 @@
    "properties": {
     "name": "17 BARNES STREET PORT CURTIS 4700",
     "locID": "LOC000073036902",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155712564",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -720,8 +737,8 @@
    "properties": {
     "name": "26 LEE STREET PORT CURTIS 4700",
     "locID": "LOC000016623931",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157008806",
     "tech_change_status": "Eligible to Order"
    }
@@ -1879,8 +1896,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.52208852,
-     -23.4498961
+     150.52420366,
+     -23.44835693
     ]
    },
    "properties": {
@@ -1964,7 +1981,7 @@
    "properties": {
     "name": "39 EDITH STREET PORT CURTIS 4700",
     "locID": "LOC000059061806",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158517300",
     "tech_change_status": "Not Planned"
@@ -1982,7 +1999,7 @@
    "properties": {
     "name": "35 EDITH STREET PORT CURTIS 4700",
     "locID": "LOC000016699744",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158517301",
     "tech_change_status": "Not Planned"
@@ -2827,10 +2844,9 @@
    "properties": {
     "name": "LOT 28 PORT CURTIS ROAD PORT CURTIS 4700",
     "locID": "LOC000129217297",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162059342",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4239,8 +4255,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.53251263,
-     -23.44557071
+     150.52930701,
+     -23.4415072
     ]
    },
    "properties": {
@@ -4423,7 +4439,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721430530",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
