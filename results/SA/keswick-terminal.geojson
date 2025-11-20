@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-09-13T23:09:03.718411",
+ "generated": "2025-11-20T21:12:48.830934",
  "suburb": "KESWICK TERMINAL",
  "features": [
   {
@@ -272,10 +272,10 @@
    "properties": {
     "name": "167 RAILWAY TERRACE KESWICK TERMINAL 5035",
     "locID": "LOC000161940240",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425503426",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -439,8 +439,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.57945342,
-     -34.9404845
+     138.57947663,
+     -34.94047018
     ]
    },
    "properties": {
@@ -449,6 +449,24 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720722562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.57708176,
+     -34.93644381
+    ]
+   },
+   "properties": {
+    "name": "200 RAILWAY TERRACE KESWICK TERMINAL 5035",
+    "locID": "LOC000186656449",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721636703",
+    "tech_change_status": "Eligible to Order"
    }
   }
  ]
