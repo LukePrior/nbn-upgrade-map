@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-12T02:17:13.931658",
+ "generated": "2025-11-27T17:49:49.473407",
  "suburb": "TOLGA",
  "features": [
   {
@@ -672,9 +672,9 @@
     "name": "5 LEONARD STREET TOLGA 4882",
     "locID": "LOC000075356845",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155901722",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3125,10 +3125,10 @@
    "properties": {
     "name": "19 WILKINSON DRIVE TOLGA 4882",
     "locID": "LOC000046174924",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155909780",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8763,10 +8763,9 @@
    "properties": {
     "name": "8 CATHERINE STREET TOLGA 4882",
     "locID": "LOC000044547120",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157250156",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9183,10 +9182,9 @@
    "properties": {
     "name": "15 HASTIE STREET TOLGA 4882",
     "locID": "LOC000041733452",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157250428",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14272,6 +14270,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.45109542,
+     -17.19529481
+    ]
+   },
+   "properties": {
+    "name": "34 MOFFAT DRIVE TOLGA 4882",
+    "locID": "LOC000043023922",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161369811",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.48414968,
      -17.16842978
     ]
@@ -15334,10 +15352,9 @@
    "properties": {
     "name": "22 MERCURIO CLOSE TOLGA 4882",
     "locID": "LOC000095920491",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161448123",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17287,10 +17304,10 @@
    "properties": {
     "name": "174 TATE ROAD TOLGA 4882",
     "locID": "LOC000077490409",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162095517",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21228,10 +21245,9 @@
    "properties": {
     "name": "92 RANKINE DRIVE TOLGA 4882",
     "locID": "LOC000087991961",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163071027",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31141,6 +31157,46 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721682300",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.49081805,
+     -17.16909453
+    ]
+   },
+   "properties": {
+    "name": "365 HALL ROAD TOLGA 4882",
+    "locID": "LOC000150205360",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682928",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.50492939,
+     -17.16793873
+    ]
+   },
+   "properties": {
+    "name": "422 HALL ROAD TOLGA 4882",
+    "locID": "LOC000110093515",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721684952",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
