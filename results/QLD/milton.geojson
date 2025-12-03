@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-18T13:26:37.995304",
+ "generated": "2025-12-03T07:56:33.818742",
  "suburb": "MILTON",
  "features": [
   {
@@ -2935,7 +2935,7 @@
     "name": "6 RAILWAY TERRACE MILTON 4064",
     "locID": "LOC000106667888",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155566065",
     "tech_change_status": "Eligible to Order"
    }
@@ -4486,7 +4486,7 @@
    "properties": {
     "name": "9 WALSH STREET MILTON 4064",
     "locID": "LOC000180827615",
-    "tech": "FTTC",
+    "tech": "FTTB",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155572574",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -8455,10 +8455,9 @@
    "properties": {
     "name": "20 MAYNEVIEW STREET MILTON 4064",
     "locID": "LOC000017445063",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156829750",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13274,7 +13273,7 @@
    "properties": {
     "name": "UNIT 2, 9 WALSH STREET MILTON 4064",
     "locID": "LOC000180827615",
-    "tech": "FTTC",
+    "tech": "FTTB",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156858176",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -13328,7 +13327,7 @@
    "properties": {
     "name": "UNIT 5, 9 WALSH STREET MILTON 4064",
     "locID": "LOC000084965305",
-    "tech": "FTTC",
+    "tech": "FTTB",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156858179",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -55696,7 +55695,7 @@
    "properties": {
     "name": "SUITE 2, 40 CASTLEMAINE STREET MILTON 4064",
     "locID": "LOC100059751528",
-    "tech": "NULL",
+    "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721265947"
    }
@@ -55810,18 +55809,84 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.00776632,
-     -27.46605272
+     153.00218563,
+     -27.46990381
     ]
    },
    "properties": {
-    "name": "5 CORDOVA STREET MILTON 4064",
-    "locID": "LOC000184723875",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721828952",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "name": "UNIT 4, 24 NERIDA LANE MILTON 4064",
+    "locID": "LOC000039351994",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721875830"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00218563,
+     -27.46990381
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 24 NERIDA LANE MILTON 4064",
+    "locID": "LOC000040818745",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721875866"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00218563,
+     -27.46990381
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 24 NERIDA LANE MILTON 4064",
+    "locID": "LOC000039438044",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721875888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00218563,
+     -27.46990381
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 24 NERIDA LANE MILTON 4064",
+    "locID": "LOC000040794841",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721876873"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00218563,
+     -27.46990381
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 24 NERIDA LANE MILTON 4064",
+    "locID": "LOC000039175282",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721877198"
    }
   }
  ]
