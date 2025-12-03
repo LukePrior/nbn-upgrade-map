@@ -139,8 +139,9 @@ def _write_insert_batch(f, batch: List[Dict[str, Any]]) -> None:
                 return "NULL"
             if isinstance(value, (int, float)):
                 return str(value)
-            # Escape single quotes
-            return f"'{str(value).replace(chr(39), chr(39) + chr(39))}'"
+            # Escape single quotes by doubling them
+            escaped = str(value).replace("'", "''")
+            return f"'{escaped}'"
         
         locid = escape_value(row.get("loc_id", ""))
         latitude = row.get("latitude", 0)
