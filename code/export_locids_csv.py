@@ -41,15 +41,15 @@ def iter_feature_data(show_progress: bool = True, fields: List[str] = None) -> I
             loc_id = props.get("locID")
             geom = f.get("geometry") or {}
             coords = geom.get("coordinates") or [None, None]
-            
+
             # Skip features without loc_id or coordinates
             if not loc_id:
                 continue
             if coords is None or len(coords) < 2 or coords[0] is None or coords[1] is None:
                 continue
-            
+
             lng, lat = coords[0], coords[1]
-            
+
             # Build the result dictionary with requested fields
             result = {}
             for field in fields:
@@ -73,13 +73,13 @@ def iter_feature_data(show_progress: bool = True, fields: List[str] = None) -> I
                     result[field] = props.get("program_type", "")
                 elif field == "target_eligibility_quarter":
                     result[field] = props.get("target_eligibility_quarter", "")
-            
+
             yield result
 
 
 def write_csv(output_path: str, rows: Iterable[Dict[str, any]], fields: List[str], dedupe: bool = True) -> int:
     """Write rows to CSV with specified fields. Returns count written.
-    
+
     Args:
         output_path: Path to write the CSV file
         rows: Iterable of dictionaries containing feature data
@@ -89,17 +89,17 @@ def write_csv(output_path: str, rows: Iterable[Dict[str, any]], fields: List[str
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     seen = set()
     count = 0
-    
+
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
-        
+
         for row in rows:
             if dedupe and "loc_id" in row:
                 if row["loc_id"] in seen:
                     continue
                 seen.add(row["loc_id"])
-            
+
             # Format latitude and longitude with precision if they exist
             formatted_row = {}
             for field in fields:
@@ -108,10 +108,10 @@ def write_csv(output_path: str, rows: Iterable[Dict[str, any]], fields: List[str
                     formatted_row[field] = f"{value:.8f}"
                 else:
                     formatted_row[field] = value
-            
+
             writer.writerow(formatted_row)
             count += 1
-    
+
     return count
 
 
@@ -137,7 +137,10 @@ def main():
         nargs="+",
         choices=AVAILABLE_FIELDS,
         default=DEFAULT_FIELDS,
-        help=f"Fields to include in the CSV (default: {' '.join(DEFAULT_FIELDS)}). Available: {', '.join(AVAILABLE_FIELDS)}",
+        help=(
+            f"Fields to include in the CSV (default: {' '.join(DEFAULT_FIELDS)}). "
+            f"Available: {', '.join(AVAILABLE_FIELDS)}"
+        ),
     )
     parser.add_argument(
         "--all-fields",
@@ -146,10 +149,10 @@ def main():
     )
 
     args = parser.parse_args()
-    
+
     # Determine which fields to export
     fields = AVAILABLE_FIELDS if args.all_fields else args.fields
-    
+
     rows = iter_feature_data(show_progress=not args.no_progress, fields=fields)
     written = write_csv(args.output, rows, fields, dedupe=not args.no_dedupe)
     print(f"Wrote {written} rows with fields [{', '.join(fields)}] to {args.output}")

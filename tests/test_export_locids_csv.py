@@ -42,7 +42,7 @@ def test_iter_feature_data_with_default_fields(monkeypatch):
 
     # Test with default fields
     results = list(export_locids_csv.iter_feature_data(show_progress=False))
-    
+
     assert len(results) == 2
     assert results[0]["loc_id"] == "LOC000190342926"
     assert results[0]["latitude"] == -31.95270506
@@ -80,7 +80,7 @@ def test_iter_feature_data_with_specific_fields(monkeypatch):
 
     # Test with specific fields
     results = list(export_locids_csv.iter_feature_data(show_progress=False, fields=["loc_id", "name", "tech"]))
-    
+
     assert len(results) == 1
     assert "loc_id" in results[0]
     assert "name" in results[0]
@@ -118,7 +118,7 @@ def test_iter_feature_data_skip_missing_locid(monkeypatch):
     monkeypatch.setattr("export_locids_csv.get_all_geojson_files", mock_get_all_geojson_files)
 
     results = list(export_locids_csv.iter_feature_data(show_progress=False, fields=["loc_id", "name"]))
-    
+
     assert len(results) == 1
     assert results[0]["loc_id"] == "LOC000027955790"
 
@@ -157,7 +157,7 @@ def test_iter_feature_data_skip_missing_coordinates(monkeypatch):
     monkeypatch.setattr("export_locids_csv.get_all_geojson_files", mock_get_all_geojson_files)
 
     results = list(export_locids_csv.iter_feature_data(show_progress=False, fields=["loc_id", "name"]))
-    
+
     assert len(results) == 1
     assert results[0]["loc_id"] == "LOC000003"
 
@@ -168,20 +168,18 @@ def test_write_csv_with_default_fields():
         {"loc_id": "LOC001", "latitude": -31.95270506, "longitude": 115.78506081},
         {"loc_id": "LOC002", "latitude": -31.96588092, "longitude": 115.77758570},
     ]
-    
+
     with tempfile.TemporaryDirectory() as tmpdir:
         output_path = os.path.join(tmpdir, "test.csv")
-        count = export_locids_csv.write_csv(
-            output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=True
-        )
-        
+        count = export_locids_csv.write_csv(output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=True)
+
         assert count == 2
         assert os.path.exists(output_path)
-        
+
         with open(output_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             rows_read = list(reader)
-            
+
         assert len(rows_read) == 2
         assert rows_read[0]["loc_id"] == "LOC001"
         assert rows_read[0]["latitude"] == "-31.95270506"
@@ -204,23 +202,18 @@ def test_write_csv_with_all_fields():
             "target_eligibility_quarter": "Mar 2028",
         },
     ]
-    
+
     with tempfile.TemporaryDirectory() as tmpdir:
         output_path = os.path.join(tmpdir, "test.csv")
-        count = export_locids_csv.write_csv(
-            output_path, 
-            rows, 
-            export_locids_csv.AVAILABLE_FIELDS,
-            dedupe=True
-        )
-        
+        count = export_locids_csv.write_csv(output_path, rows, export_locids_csv.AVAILABLE_FIELDS, dedupe=True)
+
         assert count == 1
         assert os.path.exists(output_path)
-        
+
         with open(output_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             rows_read = list(reader)
-            
+
         assert len(rows_read) == 1
         assert rows_read[0]["loc_id"] == "LOC001"
         assert rows_read[0]["name"] == "100 STEPHENSON AVENUE MOUNT CLAREMONT 6010"
@@ -235,20 +228,16 @@ def test_write_csv_dedupe():
         {"loc_id": "LOC001", "latitude": -31.95270506, "longitude": 115.78506081},  # duplicate
         {"loc_id": "LOC002", "latitude": -31.96588092, "longitude": 115.77758570},
     ]
-    
+
     with tempfile.TemporaryDirectory() as tmpdir:
         output_path = os.path.join(tmpdir, "test.csv")
-        
+
         # With deduplication
-        count = export_locids_csv.write_csv(
-            output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=True
-        )
+        count = export_locids_csv.write_csv(output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=True)
         assert count == 2
-        
+
         # Without deduplication
-        count = export_locids_csv.write_csv(
-            output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=False
-        )
+        count = export_locids_csv.write_csv(output_path, rows, ["loc_id", "latitude", "longitude"], dedupe=False)
         assert count == 3
 
 
@@ -264,19 +253,17 @@ def test_write_csv_custom_fields():
             "longitude": 115.78506081,
         },
     ]
-    
+
     with tempfile.TemporaryDirectory() as tmpdir:
         output_path = os.path.join(tmpdir, "test.csv")
-        count = export_locids_csv.write_csv(
-            output_path, rows, ["loc_id", "name", "tech"], dedupe=True
-        )
-        
+        count = export_locids_csv.write_csv(output_path, rows, ["loc_id", "name", "tech"], dedupe=True)
+
         assert count == 1
-        
+
         with open(output_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             rows_read = list(reader)
-            
+
         assert len(rows_read) == 1
         assert "loc_id" in rows_read[0]
         assert "name" in rows_read[0]
