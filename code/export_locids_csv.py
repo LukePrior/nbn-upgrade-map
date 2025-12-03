@@ -1,7 +1,7 @@
 import argparse
 import csv
 import os
-from typing import Iterable, Dict, List, Any
+from typing import Any, Dict, Iterable, List
 
 from utils import get_all_geojson_files
 
