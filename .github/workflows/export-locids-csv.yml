@@ -24,7 +24,7 @@ jobs:
 
       - name: Export LOCIDs CSV
         run: |
-          python code/export_locids_csv.py --output results/locids.csv --no-progress
+          python code/export_locids_csv.py --output results/locids.csv --no-progress --all-fields
 
       - name: Generate Tag Name
         id: generate_tag
@@ -39,5 +39,6 @@ jobs:
           body: Automated export of LOCIDs CSV.
           draft: false
           prerelease: false
+
 
 
