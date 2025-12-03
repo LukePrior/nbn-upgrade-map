@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-18T11:35:49.631576",
+ "generated": "2025-12-03T05:03:20.948177",
  "suburb": "DEPOT HILL",
  "features": [
   {
@@ -591,10 +591,10 @@
    "properties": {
     "name": "313 GEORGE STREET DEPOT HILL 4700",
     "locID": "LOC000034215589",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155241620",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3964,9 +3964,9 @@
     "name": "11 ARTHUR STREET DEPOT HILL 4700",
     "locID": "LOC000135950761",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156516289",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10438,7 +10438,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD425700208",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10519,6 +10521,24 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51104256,
+     -23.39127026
+    ]
+   },
+   "properties": {
+    "name": "320 MURRAY STREET DEPOT HILL 4700",
+    "locID": "LOC000005041589",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721680740",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   }
  ]
