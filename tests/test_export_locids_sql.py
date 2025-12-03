@@ -178,12 +178,14 @@ def test_write_sql_basic():
         with open(output_path, "r", encoding="utf-8") as f:
             content = f.read()
 
-        # Check that CREATE TABLE statement is present
+        # Check that CREATE TABLE statement is present (without secondary index)
         assert "CREATE TABLE IF NOT EXISTS locids" in content
         assert "locid VARCHAR(20) PRIMARY KEY" in content
         assert "latitude DECIMAL(10, 7) NOT NULL" in content
         assert "longitude DECIMAL(10, 7) NOT NULL" in content
-        assert "INDEX idx_lat_lng (latitude, longitude)" in content
+        
+        # Check that index is created after data load
+        assert "CREATE INDEX IF NOT EXISTS idx_lat_lng ON locids (latitude, longitude)" in content
         
         # Check that INSERT statements are present
         assert "INSERT INTO locids" in content
@@ -191,6 +193,11 @@ def test_write_sql_basic():
         assert "LOC002" in content
         assert "Test Address 1" in content
         assert "Test Address 2" in content
+        
+        # Verify the index comes after the INSERT statements
+        create_index_pos = content.find("CREATE INDEX IF NOT EXISTS idx_lat_lng")
+        insert_pos = content.find("INSERT INTO locids")
+        assert create_index_pos > insert_pos, "Index should be created after data insertion"
 
 
 def test_write_sql_dedupe():
