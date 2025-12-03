@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-18T18:40:16.394420",
+ "generated": "2025-12-03T14:00:22.263790",
  "suburb": "ELIZABETH",
  "features": [
   {
@@ -1853,10 +1853,9 @@
    "properties": {
     "name": "14 CODFORD STREET ELIZABETH 5112",
     "locID": "LOC000102670578",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415243801",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415243801"
    }
   },
   {
@@ -4203,7 +4202,7 @@
     "name": "15 CODFORD STREET ELIZABETH 5112",
     "locID": "LOC000060923577",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415254595",
     "tech_change_status": "Eligible to Order"
    }
@@ -4415,10 +4414,10 @@
    "properties": {
     "name": "17 IDMISTON STREET ELIZABETH 5112",
     "locID": "LOC000082428756",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415256781",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4814,7 +4813,7 @@
     "name": "6 SHIPTON STREET ELIZABETH 5112",
     "locID": "LOC000032554276",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415262579",
     "tech_change_status": "Eligible to Order"
    }
@@ -5353,23 +5352,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.67179795,
-     -34.72166574
-    ]
-   },
-   "properties": {
-    "name": "14 ASHFIELD ROAD ELIZABETH 5112",
-    "locID": "LOC000106690977",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415274186"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.67130155,
      -34.72190254
     ]
@@ -5467,10 +5449,9 @@
    "properties": {
     "name": "11 SHIPTON STREET ELIZABETH 5112",
     "locID": "LOC000087734621",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415274194",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415274194"
    }
   },
   {
@@ -18835,6 +18816,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721717852"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67124194,
+     -34.72250461
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 9 SHIPTON STREET ELIZABETH 5112",
+    "locID": "LOC000196129744",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721892035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67124194,
+     -34.72250461
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 9 SHIPTON STREET ELIZABETH 5112",
+    "locID": "LOC000196129785",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721892386"
    }
   }
  ]
