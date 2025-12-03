@@ -1,7 +1,7 @@
 import argparse
 import csv
 import os
-from typing import Iterable, Dict, List
+from typing import Iterable, Dict, List, Any
 
 from utils import get_all_geojson_files
 
@@ -23,7 +23,7 @@ AVAILABLE_FIELDS = [
 DEFAULT_FIELDS = ["loc_id", "latitude", "longitude"]
 
 
-def iter_feature_data(show_progress: bool = True, fields: List[str] = None) -> Iterable[Dict[str, any]]:
+def iter_feature_data(show_progress: bool = True, fields: List[str] = None) -> Iterable[Dict[str, Any]]:
     """Yield feature data as a dictionary for every feature across all GeoJSON files.
 
     Args:
@@ -50,34 +50,27 @@ def iter_feature_data(show_progress: bool = True, fields: List[str] = None) -> I
 
             lng, lat = coords[0], coords[1]
 
+            # Build field extraction mapping
+            field_extractors = {
+                "loc_id": loc_id,
+                "latitude": float(lat),
+                "longitude": float(lng),
+                "name": props.get("name", ""),
+                "tech": props.get("tech", ""),
+                "upgrade": props.get("upgrade", ""),
+                "gnaf_pid": props.get("gnaf_pid", ""),
+                "tech_change_status": props.get("tech_change_status", ""),
+                "program_type": props.get("program_type", ""),
+                "target_eligibility_quarter": props.get("target_eligibility_quarter", ""),
+            }
+
             # Build the result dictionary with requested fields
-            result = {}
-            for field in fields:
-                if field == "loc_id":
-                    result[field] = loc_id
-                elif field == "latitude":
-                    result[field] = float(lat)
-                elif field == "longitude":
-                    result[field] = float(lng)
-                elif field == "name":
-                    result[field] = props.get("name", "")
-                elif field == "tech":
-                    result[field] = props.get("tech", "")
-                elif field == "upgrade":
-                    result[field] = props.get("upgrade", "")
-                elif field == "gnaf_pid":
-                    result[field] = props.get("gnaf_pid", "")
-                elif field == "tech_change_status":
-                    result[field] = props.get("tech_change_status", "")
-                elif field == "program_type":
-                    result[field] = props.get("program_type", "")
-                elif field == "target_eligibility_quarter":
-                    result[field] = props.get("target_eligibility_quarter", "")
+            result = {field: field_extractors[field] for field in fields}
 
             yield result
 
 
-def write_csv(output_path: str, rows: Iterable[Dict[str, any]], fields: List[str], dedupe: bool = True) -> int:
+def write_csv(output_path: str, rows: Iterable[Dict[str, Any]], fields: List[str], dedupe: bool = True) -> int:
     """Write rows to CSV with specified fields. Returns count written.
 
     Args:
