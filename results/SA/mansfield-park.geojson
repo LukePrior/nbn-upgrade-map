@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-19T02:17:48.890434",
+ "generated": "2025-12-03T20:16:56.974983",
  "suburb": "MANSFIELD PARK",
  "features": [
   {
@@ -1691,7 +1691,7 @@
     "name": "11 BYRON STREET MANSFIELD PARK 5012",
     "locID": "LOC000061813264",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415017675",
     "tech_change_status": "Eligible to Order"
    }
@@ -5935,10 +5935,10 @@
    "properties": {
     "name": "25 MURCHISON STREET MANSFIELD PARK 5012",
     "locID": "LOC000048940098",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415135625",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10657,7 +10657,7 @@
     "name": "25 HAMLEY CRESCENT MANSFIELD PARK 5012",
     "locID": "LOC000082887959",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415296582",
     "tech_change_status": "Eligible to Order"
    }
@@ -11075,7 +11075,7 @@
     "name": "53 KENT STREET MANSFIELD PARK 5012",
     "locID": "LOC000068192651",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415301862",
     "tech_change_status": "Eligible to Order"
    }
@@ -11835,10 +11835,9 @@
    "properties": {
     "name": "16 KENT STREET MANSFIELD PARK 5012",
     "locID": "LOC000062467065",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415319770",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415319770"
    }
   },
   {
@@ -12216,7 +12215,7 @@
     "name": "18 BRYANT STREET MANSFIELD PARK 5012",
     "locID": "LOC000053096022",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415321845",
     "tech_change_status": "Eligible to Order"
    }
@@ -14725,7 +14724,7 @@
     "name": "1 BYRON STREET MANSFIELD PARK 5012",
     "locID": "LOC000002684386",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415336987",
     "tech_change_status": "Eligible to Order"
    }
@@ -15359,10 +15358,9 @@
    "properties": {
     "name": "20 BRYANT STREET MANSFIELD PARK 5012",
     "locID": "LOC000062308593",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415345836",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415345836"
    }
   },
   {
@@ -16992,8 +16990,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.55306127,
-     -34.85768969
+     138.55301543,
+     -34.8576843
     ]
    },
    "properties": {
@@ -18891,10 +18889,9 @@
    "properties": {
     "name": "5 BOLTON STREET MANSFIELD PARK 5012",
     "locID": "LOC000034755640",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415469161",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415469161"
    }
   },
   {
@@ -34699,6 +34696,43 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.54791214,
+     -34.85092231
+    ]
+   },
+   "properties": {
+    "name": "LOT 201 GRAND JUNCTION ROAD MANSFIELD PARK 5012",
+    "locID": "LOC000188156745",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_720722539",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5476682,
+     -34.8509336
+    ]
+   },
+   "properties": {
+    "name": "LOT 203 GRAND JUNCTION ROAD MANSFIELD PARK 5012",
+    "locID": "LOC000188156766",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720722692"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.54831626,
      -34.8528486
     ]
@@ -34768,6 +34802,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720724200",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54779017,
+     -34.85092796
+    ]
+   },
+   "properties": {
+    "name": "LOT 202 GRAND JUNCTION ROAD MANSFIELD PARK 5012",
+    "locID": "LOC000188156750",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720724301"
    }
   },
   {
@@ -35675,6 +35726,57 @@
     "gnaf_pid": "GASA_721716756",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.55374989,
+     -34.85144595
+    ]
+   },
+   "properties": {
+    "name": "LOT 822 JOHN STREET MANSFIELD PARK 5012",
+    "locID": "LOC000196335401",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721879970"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.55366582,
+     -34.85144988
+    ]
+   },
+   "properties": {
+    "name": "LOT 821 JOHN STREET MANSFIELD PARK 5012",
+    "locID": "LOC000196335396",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721880154"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.55417176,
+     -34.85117444
+    ]
+   },
+   "properties": {
+    "name": "11A JOHN STREET MANSFIELD PARK 5012",
+    "locID": "LOC000196335401",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721892325"
    }
   }
  ]
