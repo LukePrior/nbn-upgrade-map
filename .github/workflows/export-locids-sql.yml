@@ -1,0 +1,43 @@
+name: "Export LOCIDs SQL"
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 2 * * 3' # 02:00 every Wednesday
+
+jobs:
+  export-locids:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r code/requirements.txt
+
+      - name: Export LOCIDs SQL
+        run: |
+          python code/export_locids_sql.py --output results/locids.sql --no-progress
+
+      - name: Generate Tag Name
+        id: generate_tag
+        run: echo "tag_name=export-locids-$(date +'%Y%m%d')" >> $GITHUB_ENV
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: results/locids.sql
+          tag_name: ${{ env.tag_name }}
+          name: Export LOCIDs SQL ${{ env.tag_name }}
+          body: Automated export of LOCIDs SQL dump file that can be imported into MariaDB.
+          draft: false
+          prerelease: false
