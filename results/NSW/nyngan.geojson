@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-24T22:48:34.548041",
+ "generated": "2025-12-13T14:10:14.752189",
  "suburb": "NYNGAN",
  "features": [
   {
@@ -2455,7 +2455,7 @@
     "name": "34 COBAR STREET NYNGAN 2825",
     "locID": "LOC000040892135",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705572229",
     "tech_change_status": "Eligible to Order"
    }
@@ -6763,7 +6763,7 @@
     "name": "26 FLASHMAN AVENUE NYNGAN 2825",
     "locID": "LOC000045854474",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705579358",
     "tech_change_status": "Eligible to Order"
    }
@@ -8666,8 +8666,8 @@
    "properties": {
     "name": "32 HOSKINS STREET NYNGAN 2825",
     "locID": "LOC000067951543",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705584541",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9591,10 +9591,9 @@
    "properties": {
     "name": "13 MOONAGEE STREET NYNGAN 2825",
     "locID": "LOC000122113545",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705591244",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9949,9 +9948,11 @@
     "name": "8 RIVER STREET NYNGAN 2825",
     "locID": "LOC000195239056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705591271",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -11680,10 +11681,10 @@
    "properties": {
     "name": "118 BOGAN STREET NYNGAN 2825",
     "locID": "LOC000041140347",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705608610",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19562,9 +19563,9 @@
     "name": "3 MUDAL STREET NYNGAN 2825",
     "locID": "LOC000035636247",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW713106720",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20275,7 +20276,7 @@
     "name": "64A COBAR STREET NYNGAN 2825",
     "locID": "LOC000055614792",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716751709",
     "tech_change_status": "Eligible to Order"
    }
@@ -20285,8 +20286,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.20734281,
-     -31.55854196
+     147.20732949,
+     -31.55758601
     ]
    },
    "properties": {
@@ -22973,6 +22974,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.24458771,
+     -31.56154561
+    ]
+   },
+   "properties": {
+    "name": "370 OLD WARREN ROAD NYNGAN 2825",
+    "locID": "LOC000122085238",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720688570",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.98876798,
      -31.41667857
     ]
@@ -23417,6 +23436,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.19306426,
+     -31.57144225
+    ]
+   },
+   "properties": {
+    "name": "38 DANDALOO STREET NYNGAN 2825",
+    "locID": "LOC000193953123",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720991772",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.1931298,
      -31.57102034
     ]
@@ -23575,9 +23612,11 @@
     "name": "8 MUDAL STREET NYNGAN 2825",
     "locID": "LOC000195457898",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721126128",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -23801,9 +23840,11 @@
     "name": "8A RIVER STREET NYNGAN 2825",
     "locID": "LOC000195239056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721491861",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
