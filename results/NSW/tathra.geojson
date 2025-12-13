@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T00:34:12.380251",
+ "generated": "2025-12-13T16:03:43.355158",
  "suburb": "TATHRA",
  "features": [
   {
@@ -132,10 +132,9 @@
    "properties": {
     "name": "10 ILLOURA STREET TATHRA 2550",
     "locID": "LOC000020529002",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706024405",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -876,10 +875,9 @@
    "properties": {
     "name": "7 PIMMS COURT TATHRA 2550",
     "locID": "LOC000102486467",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706028106",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5125,10 +5123,9 @@
    "properties": {
     "name": "17 ESTHER STREET TATHRA 2550",
     "locID": "LOC000008734346",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706051622",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6773,7 +6770,7 @@
     "name": "37 DILKERA ROAD TATHRA 2550",
     "locID": "LOC000085741734",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706055677",
     "tech_change_status": "Eligible to Order"
    }
@@ -6952,7 +6949,7 @@
     "name": "47 DILKERA ROAD TATHRA 2550",
     "locID": "LOC000076865972",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706055687",
     "tech_change_status": "Eligible to Order"
    }
@@ -12615,7 +12612,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -13684,8 +13681,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.97793361,
-     -36.72355584
+     149.97793315,
+     -36.7235558
     ]
    },
    "properties": {
@@ -13762,8 +13759,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98640075,
-     -36.72905675
+     149.98640026,
+     -36.72905645
     ]
    },
    "properties": {
@@ -14227,10 +14224,10 @@
    "properties": {
     "name": "8 KILLARNEY ROAD TATHRA 2550",
     "locID": "LOC000062818628",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712526565",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16666,24 +16663,6 @@
     "gnaf_pid": "GANSW716592279",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.97364079,
-     -36.73564611
-    ]
-   },
-   "properties": {
-    "name": "LOT 3 RESERVOIR STREET TATHRA 2550",
-    "locID": "LOC000086625321",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716685167",
-    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19904,8 +19883,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98640075,
-     -36.72905675
+     149.98640026,
+     -36.72905645
     ]
    },
    "properties": {
@@ -20437,9 +20416,11 @@
     "name": "UNIT 1, 31-35 ESTHER STREET TATHRA 2550",
     "locID": "LOC000162722208",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718559294",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20455,9 +20436,11 @@
     "name": "UNIT 2, 31-35 ESTHER STREET TATHRA 2550",
     "locID": "LOC000162722208",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718559295",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20473,9 +20456,11 @@
     "name": "UNIT 3, 31-35 ESTHER STREET TATHRA 2550",
     "locID": "LOC000162722208",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718559296",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20571,9 +20556,11 @@
     "name": "1A FRANCIS HOLLIS DRIVE TATHRA 2550",
     "locID": "LOC000153766099",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718592361",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20736,9 +20723,11 @@
     "name": "UNIT 2, 1A FRANCIS HOLLIS DRIVE TATHRA 2550",
     "locID": "LOC000153766099",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718697887",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20781,8 +20770,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.97793361,
-     -36.72355584
+     149.97793315,
+     -36.7235558
     ]
    },
    "properties": {
@@ -20801,8 +20790,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.97793361,
-     -36.72355584
+     149.97793315,
+     -36.7235558
     ]
    },
    "properties": {
@@ -20886,9 +20875,11 @@
     "name": "UNIT 1, 1A FRANCIS HOLLIS DRIVE TATHRA 2550",
     "locID": "LOC000153766099",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718814840",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -22430,6 +22421,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.96417306,
+     -36.70937601
+    ]
+   },
+   "properties": {
+    "name": "13 WHEELER AVENUE TATHRA 2550",
+    "locID": "LOC000187335859",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720257814",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.96270627,
      -36.7090045
     ]
@@ -22796,7 +22807,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98853683,
+     149.98853645,
      -36.72781419
     ]
    },
@@ -22888,7 +22899,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22905,7 +22916,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22922,7 +22933,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22939,7 +22950,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22956,7 +22967,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22973,7 +22984,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
@@ -22990,7 +23001,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.98470703,
+     149.98470662,
      -36.72977085
     ]
    },
