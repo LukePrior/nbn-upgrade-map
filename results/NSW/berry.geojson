@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T04:35:07.418848",
+ "generated": "2025-12-13T19:03:28.715657",
  "suburb": "BERRY",
  "features": [
   {
@@ -2681,11 +2681,11 @@
     "name": "26 PRINCESS STREET BERRY 2535",
     "locID": "LOC000108475349",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704101036",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5401,10 +5401,9 @@
    "properties": {
     "name": "33 PRINCE ALFRED STREET BERRY 2535",
     "locID": "LOC000107447995",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704103366",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704103366"
    }
   },
   {
@@ -5809,9 +5808,7 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704103390",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13955,7 +13952,7 @@
     "name": "98 NORTH STREET BERRY 2535",
     "locID": "LOC000096880743",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704110366",
     "tech_change_status": "Eligible to Order"
    }
@@ -14083,7 +14080,7 @@
     "name": "21 GEORGE STREET BERRY 2535",
     "locID": "LOC000103838214",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704110637",
     "tech_change_status": "Eligible to Order"
    }
@@ -21213,7 +21210,7 @@
     "name": "4 BORAN PLACE BERRY 2535",
     "locID": "LOC000014160600",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717419635",
     "tech_change_status": "Eligible to Order"
    }
@@ -21552,7 +21549,7 @@
     "name": "4 LINCOLN CLOSE BERRY 2535",
     "locID": "LOC000121226381",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717437167",
     "tech_change_status": "Eligible to Order"
    }
@@ -31571,8 +31568,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.67283229,
-     -34.77275592
+     150.6726729,
+     -34.77273343
     ]
    },
    "properties": {
@@ -31853,9 +31850,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720077869",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -34871,6 +34866,60 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721776694",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68106411,
+     -34.78365585
+    ]
+   },
+   "properties": {
+    "name": "2 SCHOFIELDS LANE BERRY 2535",
+    "locID": "LOC000159995428",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858641",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.6726729,
+     -34.77273343
+    ]
+   },
+   "properties": {
+    "name": "63A PARKER CRESCENT BERRY 2535",
+    "locID": "LOC000187111676",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864100"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67300485,
+     -34.77277971
+    ]
+   },
+   "properties": {
+    "name": "63B PARKER CRESCENT BERRY 2535",
+    "locID": "LOC000177872064",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721866135"
    }
   }
  ]

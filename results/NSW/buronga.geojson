@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T04:53:39.763478",
+ "generated": "2025-12-13T19:21:08.801744",
  "suburb": "BURONGA",
  "features": [
   {
@@ -2197,10 +2197,10 @@
    "properties": {
     "name": "60 PITMAN AVENUE BURONGA 2739",
     "locID": "LOC000079743752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704250196",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2907,9 +2907,11 @@
     "name": "76 PITMAN AVENUE BURONGA 2739",
     "locID": "LOC000193396961",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704264002",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -4027,26 +4029,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     142.17200897,
-     -34.17418802
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 WEST ROAD BURONGA 2739",
-    "locID": "LOC100056542938",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW708728898",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      142.19236075,
      -34.17030587
     ]
@@ -4218,7 +4200,7 @@
     "name": "3 BROADSTOCK COURT BURONGA 2739",
     "locID": "LOC000061177877",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW708754193",
     "tech_change_status": "Eligible to Order"
    }
@@ -7324,9 +7306,11 @@
     "name": "18 CARBONE COURT BURONGA 2739",
     "locID": "LOC000181882043",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717946114",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -10710,10 +10694,10 @@
    "properties": {
     "name": "UNIT 11, 2 WEST ROAD BURONGA 2739",
     "locID": "LOC000114539850",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718164591",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -12618,9 +12602,11 @@
     "name": "33 MELALEUCA STREET BURONGA 2739",
     "locID": "LOC100084898195",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719579322",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -13220,6 +13206,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18415605,
+     -34.15929495
+    ]
+   },
+   "properties": {
+    "name": "33 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC100090987876",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721050456",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14063,7 +14067,7 @@
     "name": "6 BROADSTOCK COURT BURONGA 2739",
     "locID": "LOC000061177877",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW721494279",
     "tech_change_status": "Eligible to Order"
    }
@@ -14681,6 +14685,584 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721642392"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18382247,
+     -34.16182281
+    ]
+   },
+   "properties": {
+    "name": "11 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819072",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18409187,
+     -34.16218919
+    ]
+   },
+   "properties": {
+    "name": "19 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819064",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18369958,
+     -34.16083997
+    ]
+   },
+   "properties": {
+    "name": "5 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194818928",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858870"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18242592,
+     -34.16047033
+    ]
+   },
+   "properties": {
+    "name": "30 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818888",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18492047,
+     -34.16134662
+    ]
+   },
+   "properties": {
+    "name": "35 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819040",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859326"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18265121,
+     -34.16139987
+    ]
+   },
+   "properties": {
+    "name": "8 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819093",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859405"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.1858923,
+     -34.16237485
+    ]
+   },
+   "properties": {
+    "name": "30 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247454",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859970"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.1841604,
+     -34.16088937
+    ]
+   },
+   "properties": {
+    "name": "38 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818937",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859988"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18392934,
+     -34.16041084
+    ]
+   },
+   "properties": {
+    "name": "36 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818916",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860133"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18347892,
+     -34.1628902
+    ]
+   },
+   "properties": {
+    "name": "18 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819055",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18293194,
+     -34.16288648
+    ]
+   },
+   "properties": {
+    "name": "16 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247386",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18385522,
+     -34.16123239
+    ]
+   },
+   "properties": {
+    "name": "7 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819055",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861323"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18380096,
+     -34.16287704
+    ]
+   },
+   "properties": {
+    "name": "20 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247408",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18261029,
+     -34.16169242
+    ]
+   },
+   "properties": {
+    "name": "10 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819103",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861768"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18344466,
+     -34.16214188
+    ]
+   },
+   "properties": {
+    "name": "15 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247496",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861774"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18614629,
+     -34.16087605
+    ]
+   },
+   "properties": {
+    "name": "46 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818971",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18455176,
+     -34.16274089
+    ]
+   },
+   "properties": {
+    "name": "24 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247420",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18279648,
+     -34.16054012
+    ]
+   },
+   "properties": {
+    "name": "32 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818890",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862387"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18492172,
+     -34.16261542
+    ]
+   },
+   "properties": {
+    "name": "26 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247431",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862846"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18269212,
+     -34.16110726
+    ]
+   },
+   "properties": {
+    "name": "6 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819086",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18380988,
+     -34.16152451
+    ]
+   },
+   "properties": {
+    "name": "9 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819064",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18501235,
+     -34.16075346
+    ]
+   },
+   "properties": {
+    "name": "42 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818959",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863401"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18458637,
+     -34.1607078
+    ]
+   },
+   "properties": {
+    "name": "40 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818944",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.1825694,
+     -34.16198493
+    ]
+   },
+   "properties": {
+    "name": "12 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247364",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863574"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18487511,
+     -34.16163873
+    ]
+   },
+   "properties": {
+    "name": "33 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819038",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18543766,
+     -34.16080044
+    ]
+   },
+   "properties": {
+    "name": "44 CORBETT AVENUE BURONGA 2739",
+    "locID": "LOC000194818963",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863672"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18376754,
+     -34.16216643
+    ]
+   },
+   "properties": {
+    "name": "17 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247483",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864449"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.1841503,
+     -34.16283589
+    ]
+   },
+   "properties": {
+    "name": "22 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819093",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18484705,
+     -34.16192582
+    ]
+   },
+   "properties": {
+    "name": "31 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819029",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864789"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18454788,
+     -34.16217198
+    ]
+   },
+   "properties": {
+    "name": "34 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247465",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865206"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18242783,
+     -34.1624463
+    ]
+   },
+   "properties": {
+    "name": "14 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247372",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865422"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18623747,
+     -34.16208457
+    ]
+   },
+   "properties": {
+    "name": "32 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194819017",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865595"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18633806,
+     -34.16149875
+    ]
+   },
+   "properties": {
+    "name": "36 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000194818992",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721866156"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18525818,
+     -34.16251395
+    ]
+   },
+   "properties": {
+    "name": "28 TWO UP DRIVE BURONGA 2739",
+    "locID": "LOC000196247449",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721866257"
    }
   }
  ]

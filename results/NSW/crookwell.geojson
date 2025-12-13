@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T04:58:44.480464",
+ "generated": "2025-12-13T19:26:01.655158",
  "suburb": "CROOKWELL",
  "features": [
   {
@@ -2948,8 +2948,8 @@
    "properties": {
     "name": "1 BARRY PLACE CROOKWELL 2583",
     "locID": "LOC000037085667",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704522244",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3108,10 +3108,9 @@
    "properties": {
     "name": "7 BARRY PLACE CROOKWELL 2583",
     "locID": "LOC000016774062",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704522253",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4236,10 +4235,9 @@
    "properties": {
     "name": "70 DENISON STREET CROOKWELL 2583",
     "locID": "LOC000105055419",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704527483",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6102,8 +6100,8 @@
    "properties": {
     "name": "65 SPRING STREET CROOKWELL 2583",
     "locID": "LOC000067462743",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704531763",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8430,10 +8428,10 @@
    "properties": {
     "name": "1 FINDHORN STREET CROOKWELL 2583",
     "locID": "LOC000013946479",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704534628",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8549,10 +8547,10 @@
    "properties": {
     "name": "18 FINDHORN STREET CROOKWELL 2583",
     "locID": "LOC000013946479",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704534634",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8986,10 +8984,10 @@
    "properties": {
     "name": "257 GOULBURN STREET CROOKWELL 2583",
     "locID": "LOC000102670316",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704535332",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11940,8 +11938,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.46965196,
-     -34.46232573
+     149.46977109,
+     -34.46237223
     ]
    },
    "properties": {
@@ -15084,10 +15082,10 @@
    "properties": {
     "name": "24 COLYER STREET CROOKWELL 2583",
     "locID": "LOC000010539988",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712647464",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20817,26 +20815,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.46378859,
-     -34.45296109
-    ]
-   },
-   "properties": {
-    "name": "LOT 49 HALL CRESCENT CROOKWELL 2583",
-    "locID": "LOC000099979583",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW715888002",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.4615481,
      -34.42287742
     ]
@@ -22963,9 +22941,11 @@
     "name": "4 SOMERSET PLACE CROOKWELL 2583",
     "locID": "LOC000070668572",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717347021",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -23530,9 +23510,11 @@
     "name": "14 SOMERSET PLACE CROOKWELL 2583",
     "locID": "LOC000065346001",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717539684",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -26724,6 +26706,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW718413171",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.45880595,
+     -34.45650061
+    ]
+   },
+   "properties": {
+    "name": "4 TAIT STREET CROOKWELL 2583",
+    "locID": "LOC000049208801",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718426081",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30693,9 +30695,11 @@
     "name": "38 NORTH STREET CROOKWELL 2583",
     "locID": "LOC000194901124",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719808251",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -31190,8 +31194,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.45787044,
-     -34.45939182
+     149.45885239,
+     -34.45633045
     ]
    },
    "properties": {
@@ -34971,6 +34975,168 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721806894"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.46050314,
+     -34.45663769
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 1 HOLBOROW STREET CROOKWELL 2583",
+    "locID": "LOC000189121169",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859063"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.46013268,
+     -34.45658867
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 1 HOLBOROW STREET CROOKWELL 2583",
+    "locID": "LOC000189121153",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859692"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.46699192,
+     -34.46743516
+    ]
+   },
+   "properties": {
+    "name": "12 BARRY PLACE CROOKWELL 2583",
+    "locID": "LOC000107337658",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW721861685",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.45872486,
+     -34.45685242
+    ]
+   },
+   "properties": {
+    "name": "8 TAIT STREET CROOKWELL 2583",
+    "locID": "LOC000189121202",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861793"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.45990499,
+     -34.45655925
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 1 HOLBOROW STREET CROOKWELL 2583",
+    "locID": "LOC000189121148",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862325"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.45876606,
+     -34.45667367
+    ]
+   },
+   "properties": {
+    "name": "6 TAIT STREET CROOKWELL 2583",
+    "locID": "LOC000189121195",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.45885239,
+     -34.45633045
+    ]
+   },
+   "properties": {
+    "name": "2 TAIT STREET CROOKWELL 2583",
+    "locID": "LOC000017245246",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW721865337",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.47137039,
+     -34.45194225
+    ]
+   },
+   "properties": {
+    "name": "16 CARR STREET CROOKWELL 2583",
+    "locID": "LOC000008394425",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW721865469",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.4596609,
+     -34.45653182
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 1 HOLBOROW STREET CROOKWELL 2583",
+    "locID": "LOC000189121130",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865671"
    }
   }
  ]
