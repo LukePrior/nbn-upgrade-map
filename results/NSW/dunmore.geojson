@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-24T22:07:13.504080",
+ "generated": "2025-12-13T13:24:05.518130",
  "suburb": "DUNMORE",
  "features": [
   {
@@ -1320,10 +1320,9 @@
    "properties": {
     "name": "37 DUNMORE ROAD DUNMORE 2529",
     "locID": "LOC000034054802",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717949964",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1537,9 +1536,11 @@
     "name": "86 DUNMORE ROAD DUNMORE 2529",
     "locID": "LOC000023077049",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717973008",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -1695,6 +1696,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718036081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.82790035,
+     -34.6205566
+    ]
+   },
+   "properties": {
+    "name": "122-138 SWAMP ROAD DUNMORE 2529",
+    "locID": "LOC000066583286",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718270167",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3402,8 +3423,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.84666815,
-     -34.59131773
+     150.84666823,
+     -34.59131748
     ]
    },
    "properties": {
