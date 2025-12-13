@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T01:33:24.264934",
+ "generated": "2025-12-13T17:01:58.978410",
  "suburb": "DENMAN",
  "features": [
   {
@@ -927,10 +927,10 @@
    "properties": {
     "name": "27 HYDE STREET DENMAN 2328",
     "locID": "LOC000052597658",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704571794",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1706,10 +1706,10 @@
    "properties": {
     "name": "21 KENILWORTH STREET DENMAN 2328",
     "locID": "LOC000042514615",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704572941",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4740,26 +4740,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704578848",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.68798295,
-     -32.38250288
-    ]
-   },
-   "properties": {
-    "name": "LOT 12 MARTINDALE STREET DENMAN 2328",
-    "locID": "LOC000024918615",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704578849",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10274,9 +10254,11 @@
     "name": "LOT 122 ALMOND STREET DENMAN 2328",
     "locID": "LOC000109629450",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709003775",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -14946,9 +14928,11 @@
     "name": "9A GREY GUM ROAD DENMAN 2328",
     "locID": "LOC000195995086",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717891254",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18632,9 +18616,11 @@
     "name": "24 PENDULA WAY DENMAN 2328",
     "locID": "LOC000193224427",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718533835",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18730,9 +18716,11 @@
     "name": "31 PENDULA WAY DENMAN 2328",
     "locID": "LOC000193224427",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718533840",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -21107,7 +21095,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW720014456",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21513,8 +21501,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.68384968,
-     -32.38179247
+     150.68380684,
+     -32.38177772
     ]
    },
    "properties": {
@@ -21523,6 +21511,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721814916"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.68389548,
+     -32.3818085
+    ]
+   },
+   "properties": {
+    "name": "7A BURKILL CLOSE DENMAN 2328",
+    "locID": "LOC000196381850",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865697"
    }
   }
  ]

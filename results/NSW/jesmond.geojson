@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T01:52:38.477753",
+ "generated": "2025-12-13T17:21:23.348197",
  "suburb": "JESMOND",
  "features": [
   {
@@ -135,10 +135,9 @@
    "properties": {
     "name": "12 ROBERT STREET JESMOND 2299",
     "locID": "LOC000076113448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705011323",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -188,8 +187,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -3660,10 +3659,10 @@
    "properties": {
     "name": "234 NEWCASTLE ROAD JESMOND 2299",
     "locID": "LOC000049442141",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705028220",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4990,6 +4989,25 @@
     ]
    },
    "properties": {
+    "name": "UNIT 2, 4A COLES STREET JESMOND 2299",
+    "locID": "LOC000145619358",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705029325",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69695992,
+     -32.90735932
+    ]
+   },
+   "properties": {
     "name": "UNIT 3, 4A COLES STREET JESMOND 2299",
     "locID": "LOC000145619370",
     "tech": "FTTN",
@@ -5690,10 +5708,9 @@
    "properties": {
     "name": "6 HILL STREET JESMOND 2299",
     "locID": "LOC000061445681",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705030438",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12647,9 +12664,9 @@
     "name": "81 BLUE GUM ROAD JESMOND 2299",
     "locID": "LOC000069317778",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705036797",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14847,9 +14864,9 @@
     "name": "14 MARY STREET JESMOND 2299",
     "locID": "LOC000065342753",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705040299",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15532,10 +15549,9 @@
    "properties": {
     "name": "26 MARY STREET JESMOND 2299",
     "locID": "LOC000086110913",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705046176",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15948,7 +15964,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705046232",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -15965,10 +15981,10 @@
    "properties": {
     "name": "UNIT 7, 154 MICHAEL STREET JESMOND 2299",
     "locID": "LOC000068565358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705046233",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -16240,7 +16256,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705048835",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -27274,9 +27290,11 @@
     "name": "UNIT 8, 26 WILLIAM STREET JESMOND 2299",
     "locID": "LOC100055932744",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718138471",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -31191,8 +31209,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31228,8 +31246,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31245,8 +31263,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31262,8 +31280,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31279,8 +31297,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31296,8 +31314,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31313,8 +31331,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31330,8 +31348,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31347,8 +31365,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31364,8 +31382,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31381,8 +31399,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -31398,8 +31416,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.69689153,
-     -32.90602911
+     151.69692269,
+     -32.90582067
     ]
    },
    "properties": {
@@ -36806,6 +36824,117 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69648756,
+     -32.90677452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 13 ROBERT STREET JESMOND 2299",
+    "locID": "LOC000197679714",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721882314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69648756,
+     -32.90677452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 13 ROBERT STREET JESMOND 2299",
+    "locID": "LOC000197679722",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721882337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69279716,
+     -32.899602
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 25 HEATON STREET JESMOND 2299",
+    "locID": "LOC000184939128",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721882711",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69279716,
+     -32.899602
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 25 HEATON STREET JESMOND 2299",
+    "locID": "LOC000184939455",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721882735",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69279716,
+     -32.899602
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 25 HEATON STREET JESMOND 2299",
+    "locID": "LOC000184939137",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721883210",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.69648756,
+     -32.90677452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 13 ROBERT STREET JESMOND 2299",
+    "locID": "LOC000197679733",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721883474"
    }
   }
  ]
