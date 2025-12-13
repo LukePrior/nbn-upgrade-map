@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T04:08:38.824751",
+ "generated": "2025-12-13T18:36:32.183455",
  "suburb": "KEMBLA GRANGE",
  "features": [
   {
@@ -327,10 +327,10 @@
    "properties": {
     "name": "10 KINGSTON TOWN DRIVE KEMBLA GRANGE 2526",
     "locID": "LOC000062631890",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705059116",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1465,9 +1465,11 @@
     "name": "LOT 1 PRINCES HIGHWAY KEMBLA GRANGE 2526",
     "locID": "LOC000173619969",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716612150",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -2151,24 +2153,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.81685624,
-     -34.47151395
-    ]
-   },
-   "properties": {
-    "name": "LOT 11 PRINCES HIGHWAY KEMBLA GRANGE 2526",
-    "locID": "LOC000045470578",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717985206",
-    "tech_change_status": "Previous Tech Disconnected"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.8059719,
      -34.46855212
     ]
@@ -2580,9 +2564,11 @@
     "name": "6 CANTERBURY ROAD KEMBLA GRANGE 2526",
     "locID": "LOC100086179356",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719949507",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
