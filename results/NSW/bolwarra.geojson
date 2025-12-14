@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T10:12:28.648454",
+ "generated": "2025-12-14T00:25:08.311986",
  "suburb": "BOLWARRA",
  "features": [
   {
@@ -95,10 +95,10 @@
    "properties": {
     "name": "5 DENISON ROAD BOLWARRA 2320",
     "locID": "LOC000071423652",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704152490",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1067,10 +1067,10 @@
    "properties": {
     "name": "20 ADDISON ROAD BOLWARRA 2320",
     "locID": "LOC000022928955",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704163263",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1284,10 +1284,9 @@
    "properties": {
     "name": "104A PATERSON ROAD BOLWARRA 2320",
     "locID": "LOC000060416103",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704163376",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2260,9 +2259,9 @@
     "name": "169 PATERSON ROAD BOLWARRA 2320",
     "locID": "LOC000079108495",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704165775",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3995,7 +3994,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704168615",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5124,10 +5123,9 @@
    "properties": {
     "name": "44 KENSINGTON ROAD BOLWARRA 2320",
     "locID": "LOC000091838829",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704171174",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5222,10 +5220,10 @@
    "properties": {
     "name": "27 ADDISON ROAD BOLWARRA 2320",
     "locID": "LOC000021341247",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704171179",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6869,10 +6867,9 @@
    "properties": {
     "name": "9 CANNA STREET BOLWARRA 2320",
     "locID": "LOC000072870784",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW708665519",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6974,7 +6971,7 @@
     "gnaf_pid": "GANSW708666642",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -7014,7 +7011,7 @@
     "gnaf_pid": "GANSW708668312",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -7114,7 +7111,7 @@
     "gnaf_pid": "GANSW708669942",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -7360,17 +7357,19 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.58119758,
-     -32.71062712
+     151.57737063,
+     -32.70831857
     ]
    },
    "properties": {
     "name": "93 PATERSON ROAD BOLWARRA 2320",
     "locID": "LOC100087602703",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711966464",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -7704,10 +7703,9 @@
    "properties": {
     "name": "UNIT 1, 9 CANNA STREET BOLWARRA 2320",
     "locID": "LOC000072870784",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717461482",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7724,10 +7722,9 @@
    "properties": {
     "name": "UNIT 2, 9 CANNA STREET BOLWARRA 2320",
     "locID": "LOC000072870784",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717461483",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10189,9 +10186,11 @@
     "name": "25 VICTORIA ROAD BOLWARRA 2320",
     "locID": "LOC000172431922",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719362112",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -11807,6 +11806,227 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721806465"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57817747,
+     -32.70234307
+    ]
+   },
+   "properties": {
+    "name": "25 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045125",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858686"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.579102,
+     -32.70260009
+    ]
+   },
+   "properties": {
+    "name": "33 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045160",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57798125,
+     -32.7022593
+    ]
+   },
+   "properties": {
+    "name": "23 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045118",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859318"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57860482,
+     -32.70251122
+    ]
+   },
+   "properties": {
+    "name": "29 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045141",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.58054695,
+     -32.70253295
+    ]
+   },
+   "properties": {
+    "name": "45 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045224",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859759"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57983566,
+     -32.70251683
+    ]
+   },
+   "properties": {
+    "name": "39 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045194",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57884567,
+     -32.70258428
+    ]
+   },
+   "properties": {
+    "name": "31 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000149019616",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860761"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57959485,
+     -32.70253733
+    ]
+   },
+   "properties": {
+    "name": "37 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045187",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.58031576,
+     -32.70250011
+    ]
+   },
+   "properties": {
+    "name": "43 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045211",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861732"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57935049,
+     -32.70257787
+    ]
+   },
+   "properties": {
+    "name": "35 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045173",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862123"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.57838356,
+     -32.70242723
+    ]
+   },
+   "properties": {
+    "name": "27 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045139",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862129"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.5777914,
+     -32.70216436
+    ]
+   },
+   "properties": {
+    "name": "21 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045102",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862328"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.58007136,
+     -32.70250473
+    ]
+   },
+   "properties": {
+    "name": "41 HUNTERGLEN DRIVE BOLWARRA 2320",
+    "locID": "LOC000195045207",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721865189"
    }
   }
  ]

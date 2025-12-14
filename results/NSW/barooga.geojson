@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-25T10:09:24.422236",
+ "generated": "2025-12-14T00:22:13.914512",
  "suburb": "BAROOGA",
  "features": [
   {
@@ -1192,10 +1192,10 @@
    "properties": {
     "name": "14 STILLARD COURT BAROOGA 3644",
     "locID": "LOC000019737705",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704019423",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5376,10 +5376,9 @@
    "properties": {
     "name": "11 GUNNAMARA STREET BAROOGA 3644",
     "locID": "LOC000032923197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704028779",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6524,9 +6523,9 @@
     "name": "12 KEAMY COURT BAROOGA 3644",
     "locID": "LOC000028920151",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704030309",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8325,26 +8324,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.68467501,
-     -35.90126588
-    ]
-   },
-   "properties": {
-    "name": "LOT 7 GOLF COURSE ROAD BAROOGA 3644",
-    "locID": "LOC000030546342",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW708533958",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.69761172,
      -35.91423526
     ]
@@ -9387,44 +9366,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715874830",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.68467501,
-     -35.90126588
-    ]
-   },
-   "properties": {
-    "name": "LOT 16 GOLF COURSE ROAD BAROOGA 3644",
-    "locID": "LOC000115776357",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW715874838",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.68467501,
-     -35.90126588
-    ]
-   },
-   "properties": {
-    "name": "LOT 246 GOLF COURSE ROAD BAROOGA 3644",
-    "locID": "LOC000115776357",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW715874856",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -10609,10 +10550,9 @@
    "properties": {
     "name": "LOT 21 TAKARI STREET BAROOGA 3644",
     "locID": "LOC000162618850",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717174895",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717174895"
    }
   },
   {
@@ -11962,9 +11902,11 @@
     "name": "7 IVIE AVENUE BAROOGA 3644",
     "locID": "LOC000193417141",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717335249",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -12724,10 +12666,9 @@
    "properties": {
     "name": "41 VERMONT STREET BAROOGA 3644",
     "locID": "LOC000115781711",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717622256",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13595,10 +13536,9 @@
    "properties": {
     "name": "41 TAKARI STREET BAROOGA 3644",
     "locID": "LOC000115781707",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717719738",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717719738"
    }
   },
   {
@@ -16623,7 +16563,7 @@
     "name": "31 TAKARI STREET BAROOGA 3644",
     "locID": "LOC000115776632",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718163225",
     "tech_change_status": "Eligible to Order"
    }
@@ -17115,26 +17055,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718241822",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.69618717,
-     -35.91450386
-    ]
-   },
-   "properties": {
-    "name": "LOT 9 LAWSON DRIVE BAROOGA 3644",
-    "locID": "LOC000162618493",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718242129",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19257,9 +19177,11 @@
     "name": "UNIT 10, 105 GOLF COURSE ROAD BAROOGA 3644",
     "locID": "LOC000162617991",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718923285",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -19347,9 +19269,11 @@
     "name": "UNIT 15, 105 GOLF COURSE ROAD BAROOGA 3644",
     "locID": "LOC000162617991",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718923290",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -20257,9 +20181,11 @@
     "name": "UNIT 1, 105 GOLF COURSE ROAD BAROOGA 3644",
     "locID": "LOC000162617991",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718953646",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -20293,9 +20219,11 @@
     "name": "UNIT 3, 105 GOLF COURSE ROAD BAROOGA 3644",
     "locID": "LOC000162617991",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718953648",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -20620,8 +20548,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.69029759,
-     -35.90636656
+     145.69041801,
+     -35.90631926
     ]
    },
    "properties": {
@@ -20835,6 +20763,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720082580"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.69818768,
+     -35.91735973
+    ]
+   },
+   "properties": {
+    "name": "27 BUCHANANS ROAD BAROOGA 3644",
+    "locID": "LOC000198117046",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720259255",
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
