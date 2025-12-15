@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-26T13:15:09.791305",
+ "generated": "2025-12-15T04:38:23.314970",
  "suburb": "YERRINBOOL",
  "features": [
   {
@@ -57,7 +57,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706350712",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2027"
    }
   },
@@ -573,11 +573,11 @@
     "name": "22 EVEREST STREET YERRINBOOL 2575",
     "locID": "LOC000012453232",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706357288",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2664,12 +2664,12 @@
    "properties": {
     "name": "16 EVEREST STREET YERRINBOOL 2575",
     "locID": "LOC000105383990",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706370950",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3222,10 +3222,9 @@
    "properties": {
     "name": "56 SUNRISE ROAD YERRINBOOL 2575",
     "locID": "LOC000059552363",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706387827",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3262,10 +3261,9 @@
    "properties": {
     "name": "58 SUNRISE ROAD YERRINBOOL 2575",
     "locID": "LOC000086555905",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706387829",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4064,7 +4062,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706401489",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2027"
    }
   },
@@ -5747,9 +5745,11 @@
     "name": "68 OLD HUME HIGHWAY YERRINBOOL 2575",
     "locID": "LOC100090717366",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712606329",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -6684,26 +6684,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715574372",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.54244207,
-     -34.37089457
-    ]
-   },
-   "properties": {
-    "name": "39 SUNRISE ROAD YERRINBOOL 2575",
-    "locID": "LOC000106208728",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW715574374",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8146,9 +8126,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718356405",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -8166,9 +8144,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718356406",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -8535,9 +8511,11 @@
     "name": "18 KIANDRA CRESCENT YERRINBOOL 2575",
     "locID": "LOC000195937743",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718413054",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
