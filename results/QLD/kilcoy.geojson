@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-27T07:41:05.171930",
+ "generated": "2025-12-15T23:13:00.635224",
  "suburb": "KILCOY",
  "features": [
   {
@@ -231,9 +231,9 @@
     "name": "62 KENNEDY STREET KILCOY 4515",
     "locID": "LOC000046782328",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155444819",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3161,10 +3161,10 @@
    "properties": {
     "name": "6 ROSE STREET KILCOY 4515",
     "locID": "LOC000102763187",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155462934",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4391,10 +4391,10 @@
    "properties": {
     "name": "19 SEIB STREET KILCOY 4515",
     "locID": "LOC000027442884",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155470281",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5087,8 +5087,8 @@
    "properties": {
     "name": "45 KENNEDY STREET KILCOY 4515",
     "locID": "LOC000096248865",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156717104",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6914,10 +6914,9 @@
    "properties": {
     "name": "94 ATTHOW STREET KILCOY 4515",
     "locID": "LOC000001689805",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156720173",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7213,8 +7212,8 @@
    "properties": {
     "name": "6 STEWART STREET KILCOY 4515",
     "locID": "LOC000101702861",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156720226",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10192,10 +10191,10 @@
    "properties": {
     "name": "17 ROBSON STREET KILCOY 4515",
     "locID": "LOC000005716997",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156727981",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12328,10 +12327,10 @@
    "properties": {
     "name": "88 WILLIAM STREET KILCOY 4515",
     "locID": "LOC000108638619",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158145551",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15606,6 +15605,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.57044307,
+     -26.93410647
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 KERR STREET KILCOY 4515",
+    "locID": "LOC000012702439",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163167483",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -18927,9 +18944,11 @@
     "name": "64 HOPE STREET KILCOY 4515",
     "locID": "LOC000195137507",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721430823",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18962,9 +18981,11 @@
     "name": "UNIT 3, 13A ETHEL STREET KILCOY 4515",
     "locID": "LOC000194816621",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721450682",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18980,9 +19001,11 @@
     "name": "UNIT 4, 13A ETHEL STREET KILCOY 4515",
     "locID": "LOC000194816621",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721450790",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18998,9 +19021,11 @@
     "name": "UNIT 1, 13A ETHEL STREET KILCOY 4515",
     "locID": "LOC000194816621",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721451697",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -19045,23 +19070,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.57044307,
-     -26.93410647
-    ]
-   },
-   "properties": {
-    "name": "4 PINE TREE DRIVE KILCOY 4515",
-    "locID": "LOC000195231015",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721634440"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.56694406,
      -26.94095172
     ]
@@ -19080,16 +19088,85 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.56694406,
+     -26.94095172
+    ]
+   },
+   "properties": {
+    "name": "47 SEIB STREET KILCOY 4515",
+    "locID": "LOC100035679538",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721837356",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.56304399,
+     -26.94132151
+    ]
+   },
+   "properties": {
+    "name": "35 MCCAULEY STREET KILCOY 4515",
+    "locID": "LOC000194311449",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721867999"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.56971583,
+     -26.93383081
+    ]
+   },
+   "properties": {
+    "name": "4B PINE TREE DRIVE KILCOY 4515",
+    "locID": "LOC000194967509",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721868634"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.57044573,
      -26.93412232
     ]
    },
    "properties": {
-    "name": "LOT 3 PINE TREE DRIVE KILCOY 4515",
+    "name": "4C PINE TREE DRIVE KILCOY 4515",
     "locID": "LOC000194967513",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721822487"
+    "gnaf_pid": "GAQLD721869492"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.56912916,
+     -26.93348841
+    ]
+   },
+   "properties": {
+    "name": "4A PINE TREE DRIVE KILCOY 4515",
+    "locID": "LOC000194967482",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721870308"
    }
   },
   {
@@ -19102,29 +19179,11 @@
     ]
    },
    "properties": {
-    "name": "LOT 4 PINE TREE DRIVE KILCOY 4515",
+    "name": "4D PINE TREE DRIVE KILCOY 4515",
     "locID": "LOC000194967521",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721823220"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.56694406,
-     -26.94095172
-    ]
-   },
-   "properties": {
-    "name": "47 SEIB STREET KILCOY 4515",
-    "locID": "LOC100035679538",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721837356",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "gnaf_pid": "GAQLD721870902"
    }
   }
  ]
