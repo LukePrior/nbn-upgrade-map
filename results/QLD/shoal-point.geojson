@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-27T14:41:36.146580",
+ "generated": "2025-12-16T06:58:01.159700",
  "suburb": "SHOAL POINT",
  "features": [
   {
@@ -1352,10 +1352,9 @@
    "properties": {
     "name": "24 STARBOARD CIRCUIT SHOAL POINT 4750",
     "locID": "LOC000073421562",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155810212",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2137,10 +2136,9 @@
    "properties": {
     "name": "43 PORTSIDE PLACE SHOAL POINT 4750",
     "locID": "LOC000105661766",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155813885",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5926,10 +5924,10 @@
    "properties": {
     "name": "11 BEACHSIDE PLACE SHOAL POINT 4750",
     "locID": "LOC000059585934",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158638058",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10526,9 +10524,11 @@
     "name": "26 RETREAT WAY SHOAL POINT 4750",
     "locID": "LOC000192005190",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720862378",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -10544,9 +10544,11 @@
     "name": "8 RETREAT WAY SHOAL POINT 4750",
     "locID": "LOC000192068946",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720862958",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -10562,9 +10564,11 @@
     "name": "6 RETREAT WAY SHOAL POINT 4750",
     "locID": "LOC000192005190",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720865246",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -10849,9 +10853,11 @@
     "name": "17 RETREAT WAY SHOAL POINT 4750",
     "locID": "LOC000192068946",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721149505",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -11300,6 +11306,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721823452"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.14783803,
+     -21.00955486
+    ]
+   },
+   "properties": {
+    "name": "16 MIRAGE CRESCENT SHOAL POINT 4750",
+    "locID": "LOC000191151571",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721869940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.14778627,
+     -21.00994593
+    ]
+   },
+   "properties": {
+    "name": "12 MIRAGE CRESCENT SHOAL POINT 4750",
+    "locID": "LOC000191151559",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721870198"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.14784078,
+     -21.00975486
+    ]
+   },
+   "properties": {
+    "name": "14 MIRAGE CRESCENT SHOAL POINT 4750",
+    "locID": "LOC000191151563",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721871115"
    }
   }
  ]
