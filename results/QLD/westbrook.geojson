@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-27T19:06:43.200502",
+ "generated": "2025-12-16T11:12:03.425046",
  "suburb": "WESTBROOK",
  "features": [
   {
@@ -194,10 +194,9 @@
    "properties": {
     "name": "4 KATRINA COURT WESTBROOK 4350",
     "locID": "LOC000007658623",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155943357",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1443,10 +1442,9 @@
    "properties": {
     "name": "17 GORE STREET WESTBROOK 4350",
     "locID": "LOC000054626904",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155961396",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1503,10 +1501,9 @@
    "properties": {
     "name": "27 GORE STREET WESTBROOK 4350",
     "locID": "LOC000054626904",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155961403",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2126,10 +2123,10 @@
    "properties": {
     "name": "15 HANDLEY DRIVE WESTBROOK 4350",
     "locID": "LOC000009495649",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155963230",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2227,11 +2224,11 @@
     "name": "3 HANDLEY DRIVE WESTBROOK 4350",
     "locID": "LOC000072359529",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155963236",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2247,11 +2244,11 @@
     "name": "4 HANDLEY DRIVE WESTBROOK 4350",
     "locID": "LOC000036579118",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155963237",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3577,10 +3574,9 @@
    "properties": {
     "name": "9 ROSLYN STREET WESTBROOK 4350",
     "locID": "LOC000075608063",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157267889",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4687,7 +4683,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157282052",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7724,23 +7720,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.8761115,
-     -27.61890849
-    ]
-   },
-   "properties": {
-    "name": "37 ROWBOTHAM ROAD WESTBROOK 4350",
-    "locID": "LOC000106341389",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158859717"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.85587185,
      -27.59882359
     ]
@@ -8528,6 +8507,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159928179"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.86411161,
+     -27.60648956
+    ]
+   },
+   "properties": {
+    "name": "8 KATRINA COURT WESTBROOK 4350",
+    "locID": "LOC000063197967",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD159932858"
    }
   },
   {
@@ -11390,9 +11386,11 @@
     "name": "132-134 MAIN STREET WESTBROOK 4350",
     "locID": "LOC000127841205",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161760378",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -12369,10 +12367,9 @@
    "properties": {
     "name": "1 BRONTE STREET WESTBROOK 4350",
     "locID": "LOC000031590050",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161948031",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20796,10 +20793,9 @@
    "properties": {
     "name": "162 MAIN STREET WESTBROOK 4350",
     "locID": "LOC000127856095",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425349439",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23757,10 +23753,9 @@
    "properties": {
     "name": "12 TEMPLETON COURT WESTBROOK 4350",
     "locID": "LOC000189395354",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425771584",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
