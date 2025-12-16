@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-27T14:04:03.633678",
+ "generated": "2025-12-16T06:22:11.652642",
  "suburb": "ROSENTHAL HEIGHTS",
  "features": [
   {
@@ -53,10 +53,9 @@
    "properties": {
     "name": "6 EMMAUS COURT ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000068836243",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155779568",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -595,11 +594,11 @@
     "name": "14 HERMAY COURT ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000007492951",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155949867",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3488,11 +3487,11 @@
     "name": "15 HERMAY COURT ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000073920259",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157071832",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5535,10 +5534,9 @@
    "properties": {
     "name": "193 BRACKER ROAD ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000033179252",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157301671",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7704,12 +7702,12 @@
    "properties": {
     "name": "8 ROSENTHAL ROAD ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000110182693",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158600913",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7805,11 +7803,11 @@
     "name": "57 ROSENTHAL ROAD ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000050848469",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160683935",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9195,12 +9193,12 @@
    "properties": {
     "name": "LOT 834 ROSENTHAL ROAD ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000110182693",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161295482",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14429,6 +14427,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.97553183,
+     -28.23843533
+    ]
+   },
+   "properties": {
+    "name": "17 CAMPBELL ROAD ROSENTHAL HEIGHTS 4370",
+    "locID": "LOC000012653434",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162700512",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.99772311,
      -28.22642419
     ]
@@ -19020,9 +19038,11 @@
     "name": "55 MAYNES STREET ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000160300734",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425699291",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20040,7 +20060,9 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719091869",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21766,23 +21788,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.97635844,
-     -28.21799732
-    ]
-   },
-   "properties": {
-    "name": "7-13 JACOB DRIVE ROSENTHAL HEIGHTS 4370",
-    "locID": "LOC000187623462",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720931208"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.97680616,
      -28.2138841
     ]
@@ -23030,12 +23035,12 @@
    "properties": {
     "name": "49 ROSENTHAL ROAD ROSENTHAL HEIGHTS 4370",
     "locID": "LOC000110182693",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721634382",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23594,6 +23599,80 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721828158"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.97635844,
+     -28.21799732
+    ]
+   },
+   "properties": {
+    "name": "7 JACOB DRIVE ROSENTHAL HEIGHTS 4370",
+    "locID": "LOC000187623462",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721868322"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.99105231,
+     -28.24823201
+    ]
+   },
+   "properties": {
+    "name": "210 MARDON ROAD ROSENTHAL HEIGHTS 4370",
+    "locID": "LOC100090410644",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721870211",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00224524,
+     -28.22905214
+    ]
+   },
+   "properties": {
+    "name": "59 CULLEN STREET ROSENTHAL HEIGHTS 4370",
+    "locID": "LOC000060300920",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD721884845",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00224524,
+     -28.22905214
+    ]
+   },
+   "properties": {
+    "name": "43 CULLEN STREET ROSENTHAL HEIGHTS 4370",
+    "locID": "LOC000191776304",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721890070"
    }
   }
  ]
