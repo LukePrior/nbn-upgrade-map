@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T09:05:06.468270",
+ "generated": "2025-12-17T02:56:47.769840",
  "suburb": "GOOLWA SOUTH",
  "features": [
   {
@@ -4634,10 +4634,10 @@
    "properties": {
     "name": "11 SIR GEORGE RITCHIE AVENUE GOOLWA SOUTH 5214",
     "locID": "LOC000071044592",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415266629",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8254,9 +8254,11 @@
     "name": "10 GALPIN AVENUE GOOLWA SOUTH 5214",
     "locID": "LOC000130568444",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415334601",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -21210,11 +21212,9 @@
     "name": "LOT 443 SHEPHERD AVENUE GOOLWA SOUTH 5214",
     "locID": "LOC000130731562",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424209481",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -21295,26 +21295,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.78097365,
-     -35.51885534
-    ]
-   },
-   "properties": {
-    "name": "LOT 50 BILLABONG ROAD GOOLWA SOUTH 5214",
-    "locID": "LOC000056881040",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_424289707",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
    }
   },
   {
@@ -23318,6 +23298,26 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.78097377,
+     -35.51885528
+    ]
+   },
+   "properties": {
+    "name": "LOT 12 BILLABONG ROAD GOOLWA SOUTH 5214",
+    "locID": "LOC000130705063",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721880221",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2027"
    }
   }
  ]

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T09:10:39.079321",
+ "generated": "2025-12-17T03:02:19.280671",
  "suburb": "HENDON",
  "features": [
   {
@@ -3154,10 +3154,9 @@
    "properties": {
     "name": "39 PAQUALIN STREET HENDON 5014",
     "locID": "LOC000058902142",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415096022",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4789,10 +4788,9 @@
    "properties": {
     "name": "9 MANUEL STREET HENDON 5014",
     "locID": "LOC000048475415",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415169937",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5424,10 +5422,9 @@
    "properties": {
     "name": "35 BAYLY STREET HENDON 5014",
     "locID": "LOC000076965653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415179995",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5564,10 +5561,9 @@
    "properties": {
     "name": "24A AVRO AVENUE HENDON 5014",
     "locID": "LOC000065918828",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415180002",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10688,45 +10684,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.51591454,
-     -34.87761234
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 6 BUTLER DRIVE HENDON 5014",
-    "locID": "LOC000176651203",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_423782535",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.51591454,
-     -34.87761234
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 6 BUTLER DRIVE HENDON 5014",
-    "locID": "LOC000129918951",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_423782536",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.51423576,
      -34.87866662
     ]
@@ -14147,9 +14104,11 @@
     "name": "68A AVRO AVENUE HENDON 5014",
     "locID": "LOC000195474748",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721593650",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -14165,9 +14124,11 @@
     "name": "68B AVRO AVENUE HENDON 5014",
     "locID": "LOC000195474769",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721593767",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -14562,6 +14523,66 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721783546"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51590971,
+     -34.87746754
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 12 CIRCUIT DRIVE HENDON 5014",
+    "locID": "LOC000189007986",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721892414",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51590971,
+     -34.87746754
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 12 CIRCUIT DRIVE HENDON 5014",
+    "locID": "LOC000189007986",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721892563",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51590971,
+     -34.87746754
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 12 CIRCUIT DRIVE HENDON 5014",
+    "locID": "LOC000189007986",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721892635",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
