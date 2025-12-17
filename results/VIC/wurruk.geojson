@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T22:45:50.909522",
+ "generated": "2025-12-17T16:47:02.685678",
  "suburb": "WURRUK",
  "features": [
   {
@@ -1634,10 +1634,10 @@
    "properties": {
     "name": "27 RAILWAY CRESCENT WURRUK 3850",
     "locID": "LOC000085056656",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420378588",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2307,10 +2307,9 @@
    "properties": {
     "name": "5 BLANKS COURT WURRUK 3850",
     "locID": "LOC000017702505",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420687303",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3297,9 +3296,11 @@
     "name": "6 WATSON COURT WURRUK 3850",
     "locID": "LOC000195332077",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421546175",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -7848,9 +7849,9 @@
     "name": "3 FANTAIL COURT WURRUK 3850",
     "locID": "LOC000094148859",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424549333",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8742,8 +8743,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.03036269,
-     -38.10187296
+     147.03063828,
+     -38.10183586
     ]
    },
    "properties": {
@@ -9729,8 +9730,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.03761799,
-     -38.10667415
+     147.0376075,
+     -38.10665666
     ]
    },
    "properties": {
@@ -10861,6 +10862,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721801624"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.03802448,
+     -38.10645714
+    ]
+   },
+   "properties": {
+    "name": "5 PRINCE STREET WURRUK 3850",
+    "locID": "LOC000115074590",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721844549",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   }
  ]
