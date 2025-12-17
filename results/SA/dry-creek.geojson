@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T08:37:45.967661",
+ "generated": "2025-12-17T02:24:51.899264",
  "suburb": "DRY CREEK",
  "features": [
   {
@@ -5462,23 +5462,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.58397864,
-     -34.83269879
-    ]
-   },
-   "properties": {
-    "name": "LOT 303 SALISBURY HIGHWAY DRY CREEK 5094",
-    "locID": "LOC000015111812",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424403042"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.59265184,
      -34.8160339
     ]
@@ -6187,9 +6170,11 @@
     "name": "41-53 KIDMAN ROAD DRY CREEK 5094",
     "locID": "LOC100079590807",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425442194",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -7020,10 +7005,9 @@
    "properties": {
     "name": "24 FLAME AVENUE DRY CREEK 5094",
     "locID": "LOC000167603700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719705013",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7160,11 +7144,9 @@
    "properties": {
     "name": "LOT 31 PORT WAKEFIELD ROAD DRY CREEK 5094",
     "locID": "LOC000130279648",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720189895",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720189895"
    }
   },
   {
@@ -7296,6 +7278,25 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5889659,
+     -34.83928692
+    ]
+   },
+   "properties": {
+    "name": "3 GREVILLEA AVENUE DRY CREEK 5094",
+    "locID": "LOC000091575151",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721879348",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   }
  ]

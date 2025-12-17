@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T08:04:31.589092",
+ "generated": "2025-12-17T01:52:54.178747",
  "suburb": "ALBERTON",
  "features": [
   {
@@ -2294,10 +2294,10 @@
    "properties": {
     "name": "21 BROUGHAM PLACE ALBERTON 5014",
     "locID": "LOC000064064729",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415118410",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12426,9 +12426,9 @@
     "name": "19 COBURG ROAD ALBERTON 5014",
     "locID": "LOC000069645908",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415537845",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20809,44 +20809,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.51991225,
-     -34.863578
-    ]
-   },
-   "properties": {
-    "name": "LOT 50 BROUGHAM PLACE ALBERTON 5014",
-    "locID": "LOC000129907713",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424732678",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.5197959,
-     -34.86462983
-    ]
-   },
-   "properties": {
-    "name": "LOT 51 QUEEN STREET ALBERTON 5014",
-    "locID": "LOC000129919176",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_424735623",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.51754288,
      -34.86112475
     ]
@@ -21931,8 +21893,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.51272629,
-     -34.8563017
+     138.51267115,
+     -34.85629836
     ]
    },
    "properties": {
@@ -21941,6 +21903,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721665791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5197208,
+     -34.86349018
+    ]
+   },
+   "properties": {
+    "name": "LOT 501 BROUGHAM PLACE ALBERTON 5014",
+    "locID": "LOC000129907713",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721879482",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   }
  ]
