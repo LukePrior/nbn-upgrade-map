@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-29T00:53:21.587583",
+ "generated": "2025-12-17T19:06:02.538156",
  "suburb": "KALLAROO",
  "features": [
   {
@@ -3175,8 +3175,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75048,
-     -31.79391
+     115.7503963,
+     -31.79390041
     ]
    },
    "properties": {
@@ -16232,10 +16232,10 @@
    "properties": {
     "name": "56 GLENBANK CRESCENT KALLAROO 6025",
     "locID": "LOC000101967889",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146875863",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29242,8 +29242,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75262,
-     -31.79407
+     115.75256636,
+     -31.79403647
     ]
    },
    "properties": {
@@ -29798,9 +29798,9 @@
     "name": "6 BARQUE PLACE KALLAROO 6025",
     "locID": "LOC000046674459",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147054471",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31413,10 +31413,9 @@
    "properties": {
     "name": "8A GLENBANK CRESCENT KALLAROO 6025",
     "locID": "LOC000007035941",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147312198",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39077,9 +39076,11 @@
     "name": "186A BRIDGEWATER DRIVE KALLAROO 6025",
     "locID": "LOC000192715425",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_720818105",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -39860,6 +39861,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721722958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.75269289,
+     -31.79414347
+    ]
+   },
+   "properties": {
+    "name": "32A OLEANDER WAY KALLAROO 6025",
+    "locID": "LOC000197213661",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721840540"
    }
   }
  ]

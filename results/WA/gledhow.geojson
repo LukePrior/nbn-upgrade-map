@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-29T00:20:18.171785",
+ "generated": "2025-12-17T18:34:06.187389",
  "suburb": "GLEDHOW",
  "features": [
   {
@@ -1600,26 +1600,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.84573579,
-     -35.0010204
-    ]
-   },
-   "properties": {
-    "name": "167 SOUTH COAST HIGHWAY GLEDHOW 6330",
-    "locID": "LOC000006065607",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146978747",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      117.84596,
      -35.00176
     ]
@@ -1747,10 +1727,10 @@
    "properties": {
     "name": "21 OXFORD STREET GLEDHOW 6330",
     "locID": "LOC000002126717",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146979407",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3142,7 +3122,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147002456",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4015,9 +3997,9 @@
     "name": "6 BURVILL ROAD GLEDHOW 6330",
     "locID": "LOC000094007624",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147336698",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5580,26 +5562,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.84554522,
-     -35.01331468
-    ]
-   },
-   "properties": {
-    "name": "31-33 ROUNDHAY STREET GLEDHOW 6330",
-    "locID": "LOC000049514996",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_149054517",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2026"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      117.84310051,
      -35.005039
     ]
@@ -6944,10 +6906,9 @@
    "properties": {
     "name": "47697 SOUTH COAST HIGHWAY GLEDHOW 6330",
     "locID": "LOC000042723089",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161515380",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7531,8 +7492,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     117.8455359,
-     -35.0153822
+     117.84555475,
+     -35.0153841
     ]
    },
    "properties": {
@@ -9720,6 +9681,86 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.84555,
+     -35.01298
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 29 ROUNDHAY STREET GLEDHOW 6330",
+    "locID": "LOC100090245580",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_721857959",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.84555,
+     -35.01298
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 29 ROUNDHAY STREET GLEDHOW 6330",
+    "locID": "LOC100090245598",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_721858035",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.84555,
+     -35.01298
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 29 ROUNDHAY STREET GLEDHOW 6330",
+    "locID": "LOC000049514996",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_721858053",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.84555,
+     -35.01298
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 29 ROUNDHAY STREET GLEDHOW 6330",
+    "locID": "LOC100090245607",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_721858218",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2026"
    }
   }
  ]
