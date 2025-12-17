@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T11:43:48.606069",
+ "generated": "2025-12-17T05:37:52.253890",
  "suburb": "CAMBRIDGE",
  "features": [
   {
@@ -1090,10 +1090,10 @@
    "properties": {
     "name": "84 BACKHOUSE LANE CAMBRIDGE 7170",
     "locID": "LOC000009279937",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702190867",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1922,9 +1922,9 @@
     "name": "1059 CAMBRIDGE ROAD CAMBRIDGE 7170",
     "locID": "LOC000036974784",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702203532",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6622,8 +6622,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.44511778,
-     -42.83290928
+     147.44522103,
+     -42.83274006
     ]
    },
    "properties": {
@@ -7114,8 +7114,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.50677454,
-     -42.81665951
+     147.50677489,
+     -42.81665613
     ]
    },
    "properties": {
@@ -8818,9 +8818,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS717649042",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10725,9 +10723,11 @@
     "name": "45 ALLIANCE DRIVE CAMBRIDGE 7170",
     "locID": "LOC000133775950",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS718301333",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -12937,9 +12937,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS718711127",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -13262,7 +13260,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS718752867",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14762,9 +14760,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS719229165",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14979,9 +14975,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS719229446",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20798,7 +20792,7 @@
     "type": "Point",
     "coordinates": [
      147.45921445,
-     -42.83144603
+     -42.83144604
     ]
    },
    "properties": {
@@ -21283,9 +21277,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS721190352",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21694,9 +21686,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS721190881",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21765,9 +21755,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS721190929",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -22016,7 +22004,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.4566033,
+     147.45660331,
      -42.83045306
     ]
    },
@@ -23508,6 +23496,176 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721778991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45927693,
+     -42.83129508
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002784",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842495"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45931798,
+     -42.83137871
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002778",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842501"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45915318,
+     -42.83168292
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002692",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45909151,
+     -42.83154345
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002713",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45935735,
+     -42.83145817
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002766",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842870"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45903011,
+     -42.83140401
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002732",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842882"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45912236,
+     -42.83161302
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002709",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842886"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.459432,
+     -42.83160932
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002745",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.4593956,
+     -42.83153508
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002750",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721842959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.45906098,
+     -42.83147344
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 3 RAILWAY COURT CAMBRIDGE 7170",
+    "locID": "LOC000196002721",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721843022"
    }
   }
  ]

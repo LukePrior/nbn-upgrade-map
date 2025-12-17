@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-28T11:35:46.602848",
+ "generated": "2025-12-17T05:28:17.040209",
  "suburb": "BICHENO",
  "features": [
   {
@@ -355,10 +355,9 @@
    "properties": {
     "name": "1 BANKSIA STREET BICHENO 7215",
     "locID": "LOC000021304059",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702196714",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2205,9 +2204,11 @@
     "name": "8 DOUGLAS STREET BICHENO 7215",
     "locID": "LOC000048949788",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702228309",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -2781,10 +2782,9 @@
    "properties": {
     "name": "3 FOSTER STREET BICHENO 7215",
     "locID": "LOC000007594162",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702238205",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7338,10 +7338,9 @@
    "properties": {
     "name": "122 TASMAN HIGHWAY BICHENO 7215",
     "locID": "LOC000052386876",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702347614",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10989,8 +10988,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.25638538,
-     -41.89583472
+     148.25668397,
+     -41.89525352
     ]
    },
    "properties": {
@@ -15246,7 +15245,7 @@
     "type": "Point",
     "coordinates": [
      148.29093733,
-     -41.86832369
+     -41.8683237
     ]
    },
    "properties": {
@@ -15559,6 +15558,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717317424",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.30179973,
+     -41.87882064
+    ]
+   },
+   "properties": {
+    "name": "36 DOUGLAS STREET BICHENO 7215",
+    "locID": "LOC000198183536",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS717317781"
    }
   },
   {
@@ -16514,9 +16530,11 @@
     "name": "1 SEYMOUR STREET BICHENO 7215",
     "locID": "LOC000192223998",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS717914217",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -16672,9 +16690,11 @@
     "name": "14 WALLACE AVENUE BICHENO 7215",
     "locID": "LOC000035015158",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS717914492",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -19170,6 +19190,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.30719218,
+     -41.87853568
+    ]
+   },
+   "properties": {
+    "name": "13 WAUBS ESPLANADE BICHENO 7215",
+    "locID": "LOC000071964068",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS718760782",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.30741799,
      -41.87962207
     ]
@@ -19180,6 +19220,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GATAS718760784",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.30861385,
+     -41.87648015
+    ]
+   },
+   "properties": {
+    "name": "4 WAUBS ESPLANADE BICHENO 7215",
+    "locID": "LOC000001916996",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GATAS718760790",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -19692,9 +19752,11 @@
     "name": "16 CHADWIN AVENUE BICHENO 7215",
     "locID": "LOC000195279567",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS719673148",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -19867,7 +19929,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.2139296,
+     148.23819155,
+     -41.87896366
+    ]
+   },
+   "properties": {
+    "name": "251 LILLA VILLA LANE BICHENO 7215",
+    "locID": "LOC000174513537",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS719771758",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.21392961,
      -41.85505841
     ]
    },
@@ -20612,9 +20692,11 @@
     "name": "56 BURGESS STREET BICHENO 7215",
     "locID": "LOC000193084744",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS720883081",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -20780,8 +20862,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.30317224,
-     -41.88140631
+     148.30317225,
+     -41.88140632
     ]
    },
    "properties": {
