@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-30T01:51:21.296545",
+ "generated": "2025-12-18T20:59:35.664925",
  "suburb": "FARMBOROUGH HEIGHTS",
  "features": [
   {
@@ -14161,9 +14161,9 @@
     "name": "23 GERARD AVENUE FARMBOROUGH HEIGHTS 2526",
     "locID": "LOC000105084084",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704742564",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15750,10 +15750,10 @@
    "properties": {
     "name": "15 CARLON CRESCENT FARMBOROUGH HEIGHTS 2526",
     "locID": "LOC000053582611",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704745362",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22227,9 +22227,11 @@
     "name": "241 FARMBOROUGH ROAD FARMBOROUGH HEIGHTS 2526",
     "locID": "LOC000195294804",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706417103",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -23250,8 +23252,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.81892013,
-     -34.45410959
+     150.81870593,
+     -34.45424306
     ]
    },
    "properties": {
@@ -30616,8 +30618,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.82629136,
-     -34.4611779
+     150.82632939,
+     -34.46119633
     ]
    },
    "properties": {
@@ -30626,6 +30628,46 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721815593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.81986023,
+     -34.45928105
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 241 FARMBOROUGH ROAD FARMBOROUGH HEIGHTS 2526",
+    "locID": "LOC000195294804",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721882218",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.81986023,
+     -34.45928105
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 241 FARMBOROUGH ROAD FARMBOROUGH HEIGHTS 2526",
+    "locID": "LOC000195294794",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721882323",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
    }
   }
  ]
