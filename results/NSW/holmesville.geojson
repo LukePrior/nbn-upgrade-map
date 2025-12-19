@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-30T17:14:36.071635",
+ "generated": "2025-12-19T12:21:50.870473",
  "suburb": "HOLMESVILLE",
  "features": [
   {
@@ -1840,10 +1840,10 @@
    "properties": {
     "name": "5 CHARLOTTE STREET HOLMESVILLE 2286",
     "locID": "LOC000070547578",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704959465",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3127,10 +3127,10 @@
    "properties": {
     "name": "52 ELIZABETH STREET HOLMESVILLE 2286",
     "locID": "LOC000102780399",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704960534",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4730,9 +4730,9 @@
     "name": "15 MARGARET STREET HOLMESVILLE 2286",
     "locID": "LOC000036221381",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704963165",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6329,10 +6329,9 @@
    "properties": {
     "name": "7 TANUNDA CLOSE HOLMESVILLE 2286",
     "locID": "LOC000015890162",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704965853",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10724,9 +10723,11 @@
     "name": "2B ST HELEN STREET HOLMESVILLE 2286",
     "locID": "LOC000189532724",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719188419",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2029"
    }
   },
   {
@@ -11017,9 +11018,11 @@
     "name": "2A SEAHAM STREET HOLMESVILLE 2286",
     "locID": "LOC000198100251",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721522646",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -11054,6 +11057,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721753866"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.58972634,
+     -32.91603777
+    ]
+   },
+   "properties": {
+    "name": "37A SEAHAM STREET HOLMESVILLE 2286",
+    "locID": "LOC000197442760",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863635"
    }
   }
  ]
