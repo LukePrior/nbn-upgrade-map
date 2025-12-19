@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-30T08:45:45.412720",
+ "generated": "2025-12-19T03:51:38.464905",
  "suburb": "PEMULWUY",
  "features": [
   {
@@ -1751,10 +1751,9 @@
    "properties": {
     "name": "7 PUGH AVENUE PEMULWUY 2145",
     "locID": "LOC000051742258",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716740816",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4615,9 +4614,11 @@
     "name": "2 HANNAH WAY PEMULWUY 2145",
     "locID": "LOC000057867421",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716876193",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -7835,9 +7836,9 @@
     "name": "13 STANBURY AVENUE PEMULWUY 2145",
     "locID": "LOC000076584821",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717133016",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17223,9 +17224,9 @@
     "name": "44 DARUGA AVENUE PEMULWUY 2145",
     "locID": "LOC000102467141",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717625087",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17500,6 +17501,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717625101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.92658796,
+     -33.82153021
+    ]
+   },
+   "properties": {
+    "name": "74 DARUGA AVENUE PEMULWUY 2145",
+    "locID": "LOC000198222367",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717625102"
    }
   },
   {
@@ -18002,7 +18020,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW717628207",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18317,44 +18335,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717629807",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9324586,
-     -33.81666243
-    ]
-   },
-   "properties": {
-    "name": "LOT 303 PASTORAL CIRCUIT PEMULWUY 2145",
-    "locID": "LOC000045023298",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717641338",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9324586,
-     -33.81666243
-    ]
-   },
-   "properties": {
-    "name": "LOT 317 PASTORAL CIRCUIT PEMULWUY 2145",
-    "locID": "LOC000045023298",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717641339",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23182,10 +23162,9 @@
    "properties": {
     "name": "81 NIJONG DRIVE PEMULWUY 2145",
     "locID": "LOC000003947036",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718045823",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23597,9 +23576,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718067156",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -23617,9 +23594,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718067157",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -24018,9 +23993,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718080409",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -24764,9 +24737,11 @@
     "name": "101 DRIFTWAY DRIVE PEMULWUY 2145",
     "locID": "LOC000174171664",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718093113",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -25018,10 +24993,9 @@
    "properties": {
     "name": "9 LISK ROAD PEMULWUY 2145",
     "locID": "LOC000113491272",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718122149",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25119,9 +25093,9 @@
     "name": "1 BIANA STREET PEMULWUY 2145",
     "locID": "LOC000115320601",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718186585",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30462,9 +30436,11 @@
     "name": "13-19 PASTORAL CIRCUIT PEMULWUY 2145",
     "locID": "LOC000156007536",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718420026",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -37528,8 +37504,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37545,8 +37521,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37562,8 +37538,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37579,8 +37555,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37596,8 +37572,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37613,8 +37589,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37630,8 +37606,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37647,8 +37623,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37664,8 +37640,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37681,8 +37657,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37698,8 +37674,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37715,8 +37691,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37732,8 +37708,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37749,8 +37725,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37766,8 +37742,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37783,8 +37759,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37800,8 +37776,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37817,8 +37793,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37834,8 +37810,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37851,8 +37827,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37868,8 +37844,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37885,8 +37861,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37902,8 +37878,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37919,8 +37895,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37936,8 +37912,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37953,8 +37929,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37970,8 +37946,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -37987,8 +37963,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38004,8 +37980,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38021,8 +37997,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38038,8 +38014,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38055,8 +38031,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38072,8 +38048,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38089,8 +38065,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38106,8 +38082,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38123,8 +38099,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38140,8 +38116,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38157,8 +38133,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38174,8 +38150,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38191,8 +38167,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38208,8 +38184,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38225,8 +38201,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38242,8 +38218,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38259,8 +38235,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38276,8 +38252,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38293,8 +38269,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -38364,8 +38340,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.91769383,
-     -33.82008791
+     150.91769371,
+     -33.82008776
     ]
    },
    "properties": {
@@ -40668,8 +40644,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.92260261,
-     -33.82835817
+     150.92252752,
+     -33.82829797
     ]
    },
    "properties": {
@@ -41206,9 +41182,11 @@
     "name": "UNIT 31, 2 NEWPORT STREET PEMULWUY 2145",
     "locID": "LOC000156006146",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721640508",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -41297,6 +41275,23 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.92267737,
+     -33.82841799
+    ]
+   },
+   "properties": {
+    "name": "2 MURRAGAUAN STREET PEMULWUY 2145",
+    "locID": "LOC000189216171",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864075"
    }
   }
  ]
