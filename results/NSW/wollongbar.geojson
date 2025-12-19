@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-11-30T21:49:22.885676",
+ "generated": "2025-12-19T16:48:41.432682",
  "suburb": "WOLLONGBAR",
  "features": [
   {
@@ -2480,8 +2480,9 @@
     "name": "58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706302245"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706302245",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5566,11 +5567,11 @@
     "name": "2 OPAKI PLACE WOLLONGBAR 2477",
     "locID": "LOC000007192468",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706313433",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6269,11 +6270,11 @@
     "name": "5 OPAKI PLACE WOLLONGBAR 2477",
     "locID": "LOC000084209348",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706316631",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6309,11 +6310,11 @@
     "name": "7 OPAKI PLACE WOLLONGBAR 2477",
     "locID": "LOC000042725695",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706316633",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7134,8 +7135,8 @@
    "properties": {
     "name": "19A RIFLE RANGE ROAD WOLLONGBAR 2477",
     "locID": "LOC000099327214",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706322513",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7999,10 +8000,9 @@
    "properties": {
     "name": "UNIT 1, 4 ACACIA STREET WOLLONGBAR 2477",
     "locID": "LOC000097518550",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706322764",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11743,10 +11743,10 @@
    "properties": {
     "name": "27 CENTRAL PARK DRIVE WOLLONGBAR 2477",
     "locID": "LOC000053483500",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706336329",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16372,8 +16372,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.42282565,
-     -28.82063893
+     153.4229031,
+     -28.82063389
     ]
    },
    "properties": {
@@ -17136,9 +17136,9 @@
     "name": "UNIT 1, 42 SMITHS LANE WOLLONGBAR 2477",
     "locID": "LOC000070018838",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712304804",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17313,9 +17313,9 @@
     "name": "15 MIDWAY AVENUE WOLLONGBAR 2477",
     "locID": "LOC000101462065",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW713143531",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18018,9 +18018,11 @@
     "name": "32 STANLEY PARK ROAD WOLLONGBAR 2477",
     "locID": "LOC000190857484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716101661",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -27069,8 +27071,9 @@
     "name": "UNIT 14, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720317614"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720317614",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27103,8 +27106,9 @@
     "name": "UNIT 9, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318096"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318096",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27120,8 +27124,9 @@
     "name": "UNIT 8, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318106"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318106",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27155,8 +27160,9 @@
     "name": "UNIT 13, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318451"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318451",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27172,8 +27178,9 @@
     "name": "UNIT 15, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318547"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318547",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27310,8 +27317,9 @@
     "name": "UNIT 16, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720324507"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720324507",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27379,8 +27387,9 @@
     "name": "54 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000178974232",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720326984"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720326984",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27396,8 +27405,9 @@
     "name": "UNIT 12, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327273"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327273",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27413,8 +27423,9 @@
     "name": "UNIT 17, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327350"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327350",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27464,8 +27475,9 @@
     "name": "UNIT 11, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327639"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327639",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29303,6 +29315,380 @@
     "gnaf_pid": "GANSW721814504",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41964889,
+     -28.82000407
+    ]
+   },
+   "properties": {
+    "name": "15 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811625",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721858900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41882798,
+     -28.82076412
+    ]
+   },
+   "properties": {
+    "name": "8 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811558",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859280"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41915173,
+     -28.82032354
+    ]
+   },
+   "properties": {
+    "name": "9 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811429",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859476"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41959484,
+     -28.82075358
+    ]
+   },
+   "properties": {
+    "name": "23 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811660",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721859801"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41898713,
+     -28.8199424
+    ]
+   },
+   "properties": {
+    "name": "18 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811401",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41909436,
+     -28.82071677
+    ]
+   },
+   "properties": {
+    "name": "10 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811562",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41906357,
+     -28.82090548
+    ]
+   },
+   "properties": {
+    "name": "32 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811536",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41956197,
+     -28.82094958
+    ]
+   },
+   "properties": {
+    "name": "25 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811673",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721860751"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41968367,
+     -28.820208
+    ]
+   },
+   "properties": {
+    "name": "17 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811639",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861351"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.4189623,
+     -28.81978839
+    ]
+   },
+   "properties": {
+    "name": "16 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811280",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721861812"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41894978,
+     -28.81918274
+    ]
+   },
+   "properties": {
+    "name": "10 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811233",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41865477,
+     -28.82074205
+    ]
+   },
+   "properties": {
+    "name": "6 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811543",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862766"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41893976,
+     -28.81963475
+    ]
+   },
+   "properties": {
+    "name": "14 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811279",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863369"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41892744,
+     -28.8194417
+    ]
+   },
+   "properties": {
+    "name": "12 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811246",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863514"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41943257,
+     -28.81925627
+    ]
+   },
+   "properties": {
+    "name": "5 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863795"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.4190738,
+     -28.81872775
+    ]
+   },
+   "properties": {
+    "name": "2 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811493",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863937"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41965346,
+     -28.82040284
+    ]
+   },
+   "properties": {
+    "name": "19 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811641",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721863963"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.4186857,
+     -28.82117009
+    ]
+   },
+   "properties": {
+    "name": "38 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41875327,
+     -28.82021556
+    ]
+   },
+   "properties": {
+    "name": "5 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811570",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41892963,
+     -28.82022095
+    ]
+   },
+   "properties": {
+    "name": "7 HYDE PARK ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811589",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41962514,
+     -28.82057895
+    ]
+   },
+   "properties": {
+    "name": "21 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811656",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721864985"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41917488,
+     -28.82010344
+    ]
+   },
+   "properties": {
+    "name": "20 DELVA ROAD WOLLONGBAR 2477",
+    "locID": "LOC000189811417",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721866143"
    }
   }
  ]
