@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T08:19:27.858677",
+ "generated": "2025-12-20T03:17:33.998350",
  "suburb": "PEARCEDALE",
  "features": [
   {
@@ -7740,7 +7740,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420390124",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8172,10 +8172,10 @@
    "properties": {
     "name": "13 CHARLES DRIVE PEARCEDALE 3912",
     "locID": "LOC000042486863",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420396202",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12471,10 +12471,9 @@
    "properties": {
     "name": "1 GRACEMERE DRIVE PEARCEDALE 3912",
     "locID": "LOC000103172771",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420839264",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15435,8 +15434,8 @@
    "properties": {
     "name": "25 PADLEY STREET PEARCEDALE 3912",
     "locID": "LOC000075635097",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421015178",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21202,10 +21201,9 @@
    "properties": {
     "name": "740 BAXTER-TOORADIN ROAD PEARCEDALE 3912",
     "locID": "LOC000101392783",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421805758",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22038,7 +22036,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421891431",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25964,9 +25962,9 @@
     "name": "5 HASTINGS STREET PEARCEDALE 3912",
     "locID": "LOC000048749824",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424264479",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28623,9 +28621,11 @@
     "name": "UNIT 1, 7 LEWIS STREET PEARCEDALE 3912",
     "locID": "LOC000188588249",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720647819",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -28701,9 +28701,11 @@
     "name": "UNIT 2, 7 LEWIS STREET PEARCEDALE 3912",
     "locID": "LOC000188588249",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720661573",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -28719,9 +28721,11 @@
     "name": "5A LEWIS STREET PEARCEDALE 3912",
     "locID": "LOC000190335704",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720758123",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -29568,6 +29572,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721800118"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.23729813,
+     -38.20018436
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 20 OAKDEN STREET PEARCEDALE 3912",
+    "locID": "LOC000048460512",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721801467",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
