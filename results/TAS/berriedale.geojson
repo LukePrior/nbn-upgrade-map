@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T20:23:55.083253",
+ "generated": "2025-12-20T16:27:34.791905",
  "suburb": "BERRIEDALE",
  "features": [
   {
@@ -4053,10 +4053,9 @@
    "properties": {
     "name": "23 CATHERINE STREET BERRIEDALE 7011",
     "locID": "LOC000026255434",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702212843",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6215,10 +6214,9 @@
    "properties": {
     "name": "32 CHARDONNAY DRIVE BERRIEDALE 7011",
     "locID": "LOC000093836489",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702220914",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6734,10 +6732,10 @@
    "properties": {
     "name": "12 CROOME COURT BERRIEDALE 7011",
     "locID": "LOC000070196484",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702223133",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7172,7 +7170,10 @@
     "locID": "LOC000040523078",
     "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GATAS702236365"
+    "gnaf_pid": "GATAS702236365",
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -10311,10 +10312,10 @@
    "properties": {
     "name": "728 MAIN ROAD BERRIEDALE 7011",
     "locID": "LOC000058618469",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702283649",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12337,10 +12338,10 @@
    "properties": {
     "name": "8 MAREKA STREET BERRIEDALE 7011",
     "locID": "LOC000079386811",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702298401",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26093,6 +26094,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.25089984,
+     -42.80934494
+    ]
+   },
+   "properties": {
+    "name": "32A CHARDONNAY DRIVE BERRIEDALE 7011",
+    "locID": "LOC000198219896",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS719602462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.25202113,
      -42.8125009
     ]
@@ -26334,9 +26352,11 @@
     "name": "23 NATHAN STREET BERRIEDALE 7011",
     "locID": "LOC000194660316",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS720119305",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
