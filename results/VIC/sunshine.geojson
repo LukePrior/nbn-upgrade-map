@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T14:46:21.441700",
+ "generated": "2025-12-20T10:36:01.666995",
  "suburb": "SUNSHINE",
  "features": [
   {
@@ -21909,9 +21909,9 @@
     "name": "76 WRIGHT STREET SUNSHINE 3020",
     "locID": "LOC000094919086",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419918975",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -23100,9 +23100,9 @@
     "name": "UNIT 1, 18A MARKET ROAD SUNSHINE 3020",
     "locID": "LOC000123060095",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420081620",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30987,8 +30987,8 @@
    "properties": {
     "name": "28 DEVONSHIRE ROAD SUNSHINE 3020",
     "locID": "LOC000069610432",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420493980",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45129,9 +45129,11 @@
     "name": "3 DEVONSHIRE ROAD SUNSHINE 3020",
     "locID": "LOC100070219165",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420990389",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -56970,6 +56972,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.83548413,
+     -37.78732826
+    ]
+   },
+   "properties": {
+    "name": "21 WHITTY STREET SUNSHINE 3020",
+    "locID": "LOC000198170983",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421411507"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.838834,
      -37.78046
     ]
@@ -61229,9 +61248,9 @@
     "name": "80 WRIGHT STREET SUNSHINE 3020",
     "locID": "LOC000058373895",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421697805",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -65628,6 +65647,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421759779"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.84129352,
+     -37.78494087
+    ]
+   },
+   "properties": {
+    "name": "91 CORNWALL ROAD SUNSHINE 3020",
+    "locID": "LOC000195712508",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421759780"
    }
   },
   {
@@ -77258,10 +77294,9 @@
    "properties": {
     "name": "155 HARVESTER ROAD SUNSHINE 3020",
     "locID": "LOC000111777412",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424494035",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
