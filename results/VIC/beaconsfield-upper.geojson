@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T22:21:12.993272",
+ "generated": "2025-12-20T18:22:44.632050",
  "suburb": "BEACONSFIELD UPPER",
  "features": [
   {
@@ -3626,10 +3626,10 @@
    "properties": {
     "name": "12 YOUNG STREET BEACONSFIELD UPPER 3808",
     "locID": "LOC000046650627",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419889732",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3783,10 +3783,9 @@
    "properties": {
     "name": "38 SALISBURY ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000065544089",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419891702",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4876,10 +4875,9 @@
    "properties": {
     "name": "151 STONEY CREEK ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000077320808",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420199716",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5351,10 +5349,9 @@
    "properties": {
     "name": "1-7 BEACONSFIELD-EMERALD ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000105792373",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420210681",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5528,10 +5525,10 @@
    "properties": {
     "name": "12 ST GEORGES ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000054520507",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420212914",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10327,10 +10324,10 @@
    "properties": {
     "name": "53 SALISBURY ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000010901065",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420816200",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11529,10 +11526,10 @@
    "properties": {
     "name": "123 STONEY CREEK ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000085894091",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421089836",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19371,6 +19368,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.38770079,
+     -37.97529389
+    ]
+   },
+   "properties": {
+    "name": "25 BILLAROY ROAD BEACONSFIELD UPPER 3808",
+    "locID": "LOC100090973001",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719242010",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.40954672,
      -38.00163869
     ]
@@ -19846,9 +19863,11 @@
     "name": "22 MCBRIDE ROAD BEACONSFIELD UPPER 3808",
     "locID": "LOC000192593858",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720959477",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
