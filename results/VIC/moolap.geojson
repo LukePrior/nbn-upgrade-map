@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-02T03:55:28.843239",
+ "generated": "2025-12-20T23:00:47.292995",
  "suburb": "MOOLAP",
  "features": [
   {
@@ -3318,10 +3318,9 @@
    "properties": {
     "name": "19 COONEY STREET MOOLAP 3224",
     "locID": "LOC000021950084",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419950887",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419950887"
    }
   },
   {
@@ -5250,10 +5249,9 @@
    "properties": {
     "name": "33 ALBERT STREET MOOLAP 3224",
     "locID": "LOC000147176937",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420541958",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5672,10 +5670,9 @@
    "properties": {
     "name": "52 ESSEX STREET MOOLAP 3224",
     "locID": "LOC000093979044",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420555722",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5807,10 +5804,9 @@
    "properties": {
     "name": "7 COONEY STREET MOOLAP 3224",
     "locID": "LOC000051940567",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420556584",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420556584"
    }
   },
   {
@@ -7886,9 +7882,11 @@
     "name": "51-59 WILLS CRESCENT MOOLAP 3224",
     "locID": "LOC000114688069",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421139819",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -16480,9 +16478,11 @@
     "name": "22-28 CHEETHAM ROAD MOOLAP 3224",
     "locID": "LOC000124216239",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424745054",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -16801,10 +16801,9 @@
    "properties": {
     "name": "FACTORY 1, 33 ALBERT STREET MOOLAP 3224",
     "locID": "LOC000147176937",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425077001",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16821,10 +16820,9 @@
    "properties": {
     "name": "FACTORY 2, 33 ALBERT STREET MOOLAP 3224",
     "locID": "LOC000147176937",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425077002",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23343,10 +23341,9 @@
    "properties": {
     "name": "45A WATTLEPARK AVENUE MOOLAP 3224",
     "locID": "LOC000180191889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719426224",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24394,7 +24391,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721087670",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24865,6 +24864,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.42829787,
+     -38.16309953
+    ]
+   },
+   "properties": {
+    "name": "85-89 BUCKLEY GROVE MOOLAP 3224",
+    "locID": "LOC000198223917",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791054",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.41785326,
      -38.16696158
     ]
@@ -24878,6 +24895,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.41790819,
+     -38.16666844
+    ]
+   },
+   "properties": {
+    "name": "16 CEDAR PARADE MOOLAP 3224",
+    "locID": "LOC000198230425",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721797928"
    }
   },
   {
