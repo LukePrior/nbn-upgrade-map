@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T21:16:14.720519",
+ "generated": "2025-12-20T17:20:04.286974",
  "suburb": "BRAYBROOK",
  "features": [
   {
@@ -843,9 +843,11 @@
     "name": "UNIT 3A, 1-3 BURKE STREET BRAYBROOK 3019",
     "locID": "LOC000173061451",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410939268",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -861,9 +863,11 @@
     "name": "UNIT 3, 1-3 BURKE STREET BRAYBROOK 3019",
     "locID": "LOC000173061451",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410939270",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -1103,9 +1107,11 @@
     "name": "UNIT 1, 1-3 BURKE STREET BRAYBROOK 3019",
     "locID": "LOC000173061451",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410941121",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -22132,8 +22138,9 @@
     "name": "UNIT 12, 75A ASHLEY STREET BRAYBROOK 3019",
     "locID": "LOC000098009658",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420348992"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420348992",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -40186,7 +40193,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421263218",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52070,8 +52077,9 @@
     "name": "UNIT 1, 75A ASHLEY STREET BRAYBROOK 3019",
     "locID": "LOC000098009658",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421852385"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421852385",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -63717,9 +63725,11 @@
     "name": "1-3 BURKE STREET BRAYBROOK 3019",
     "locID": "LOC000173061451",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424351796",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -65294,10 +65304,9 @@
    "properties": {
     "name": "80 LAWN CRESCENT BRAYBROOK 3019",
     "locID": "LOC000015144293",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424496967",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424496967"
    }
   },
   {
@@ -70568,10 +70577,10 @@
    "properties": {
     "name": "UNIT 15, 40 ERROL STREET BRAYBROOK 3019",
     "locID": "LOC000154033012",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425243737",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -94179,6 +94188,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.85331264,
+     -37.78065873
+    ]
+   },
+   "properties": {
+    "name": "34 HOWDEN CRESCENT BRAYBROOK 3019",
+    "locID": "LOC000196612389",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713648"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.85331264,
+     -37.78065873
+    ]
+   },
+   "properties": {
+    "name": "32 HOWDEN CRESCENT BRAYBROOK 3019",
+    "locID": "LOC000196612391",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721713652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.861306,
      -37.787494
     ]
@@ -94274,6 +94317,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721714029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.85331264,
+     -37.78065873
+    ]
+   },
+   "properties": {
+    "name": "36 HOWDEN CRESCENT BRAYBROOK 3019",
+    "locID": "LOC000196612370",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721714167"
    }
   },
   {
@@ -95198,6 +95258,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721824704"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.851209,
+     -37.784823
+    ]
+   },
+   "properties": {
+    "name": "68B DARNLEY STREET BRAYBROOK 3019",
+    "locID": "LOC000196743408",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721824757"
    }
   },
   {
