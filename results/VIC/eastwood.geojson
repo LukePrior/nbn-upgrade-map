@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T18:33:50.447966",
+ "generated": "2025-12-20T14:38:28.584145",
  "suburb": "EASTWOOD",
  "features": [
   {
@@ -1705,10 +1705,9 @@
    "properties": {
     "name": "10 BARTON PLACE EASTWOOD 3875",
     "locID": "LOC000050453195",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424610616",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2119,10 +2118,9 @@
    "properties": {
     "name": "7 BIRCH COURT EASTWOOD 3875",
     "locID": "LOC000107071366",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424611481",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2971,10 +2969,10 @@
    "properties": {
     "name": "11 CHARLTON PLACE EASTWOOD 3875",
     "locID": "LOC000051696142",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424613390",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5070,9 +5068,11 @@
     "name": "20 EVERGREEN WAY EASTWOOD 3875",
     "locID": "LOC000041292796",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424616605",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -6481,10 +6481,9 @@
    "properties": {
     "name": "54 FLINNS ROAD EASTWOOD 3875",
     "locID": "LOC000065925155",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424617314",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6658,8 +6657,8 @@
    "properties": {
     "name": "68 FLINNS ROAD EASTWOOD 3875",
     "locID": "LOC000091107468",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424617325",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8661,8 +8660,8 @@
    "properties": {
     "name": "103 HOWITT AVENUE EASTWOOD 3875",
     "locID": "LOC000059372212",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424620169",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14393,9 +14392,9 @@
     "name": "46 THE BACKWATER EASTWOOD 3875",
     "locID": "LOC000053954944",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424632075",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21596,10 +21595,9 @@
    "properties": {
     "name": "5 CRANES TERRACE EASTWOOD 3875",
     "locID": "LOC000155865751",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425463282",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23003,6 +23001,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425679904",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.63842723,
+     -37.81436673
+    ]
+   },
+   "properties": {
+    "name": "3B LEN COOK DRIVE EASTWOOD 3875",
+    "locID": "LOC000169011859",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425679905",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"

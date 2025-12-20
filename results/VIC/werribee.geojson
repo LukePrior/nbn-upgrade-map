@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-01T19:22:44.196278",
+ "generated": "2025-12-20T15:26:31.375746",
  "suburb": "WERRIBEE",
  "features": [
   {
@@ -11284,10 +11284,9 @@
    "properties": {
     "name": "16 TRISH WALK WERRIBEE 3030",
     "locID": "LOC000088647885",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412890610",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11791,10 +11790,9 @@
    "properties": {
     "name": "48C WATTON STREET WERRIBEE 3030",
     "locID": "LOC000085058780",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC412892660",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412892660"
    }
   },
   {
@@ -11828,10 +11826,9 @@
    "properties": {
     "name": "25 EGAN CLOSE WERRIBEE 3030",
     "locID": "LOC000011114947",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412892772",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14870,10 +14867,9 @@
    "properties": {
     "name": "2 NICOLE COURT WERRIBEE 3030",
     "locID": "LOC000031807260",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419597719",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16867,10 +16863,9 @@
    "properties": {
     "name": "3 JOHN STREET WERRIBEE 3030",
     "locID": "LOC000074684096",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419607622",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37566,9 +37561,11 @@
     "name": "40 OLD SNEYDES ROAD WERRIBEE 3030",
     "locID": "LOC000085054490",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419722331",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -38080,9 +38077,9 @@
     "name": "44 BROOKVILLE AVENUE WERRIBEE 3030",
     "locID": "LOC000094619345",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419733113",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41056,6 +41053,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.685169,
+     -37.909044
+    ]
+   },
+   "properties": {
+    "name": "5 CELEST COURT WERRIBEE 3030",
+    "locID": "LOC000198159925",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419880065"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.685221,
      -37.908611
     ]
@@ -41513,8 +41527,9 @@
     "name": "UNIT 1, 2 CONCORDE CRESCENT WERRIBEE 3030",
     "locID": "LOC000122945062",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419893378"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419893378",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55045,9 +55060,9 @@
     "name": "66 WEDGE STREET SOUTH WERRIBEE 3030",
     "locID": "LOC000066213709",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419915700",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -59776,10 +59791,10 @@
    "properties": {
     "name": "24 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000106351889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419918530",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -67233,9 +67248,11 @@
     "name": "246 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151928532",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420031479",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -67691,10 +67708,9 @@
    "properties": {
     "name": "6 YANKOS DRIVE WERRIBEE 3030",
     "locID": "LOC000077129052",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420035852",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100132,9 +100148,11 @@
     "name": "300-310 PRINCES HIGHWAY WERRIBEE 3030",
     "locID": "LOC000122993288",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420443216",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -110011,6 +110029,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420512634"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.64441844,
+     -37.90678886
+    ]
+   },
+   "properties": {
+    "name": "6 GALVIN ROAD WERRIBEE 3030",
+    "locID": "LOC000198158246",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420512637"
    }
   },
   {
@@ -123306,9 +123341,9 @@
     "name": "85 WATTLE AVENUE WERRIBEE 3030",
     "locID": "LOC000057617588",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420551182",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -125533,10 +125568,10 @@
    "properties": {
     "name": "3 PANTE PLACE WERRIBEE 3030",
     "locID": "LOC000034377689",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420624505",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126707,10 +126742,9 @@
    "properties": {
     "name": "31 RIVERSDALE DRIVE WERRIBEE 3030",
     "locID": "LOC000077190724",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420639332",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -127103,10 +127137,9 @@
    "properties": {
     "name": "8 EVANS WAY WERRIBEE 3030",
     "locID": "LOC000067045242",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420642346",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -154236,10 +154269,10 @@
    "properties": {
     "name": "16 SELBOURNE AVENUE WERRIBEE 3030",
     "locID": "LOC000029451561",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420912054",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -155198,9 +155231,11 @@
     "name": "276-290 PRINCES HIGHWAY WERRIBEE 3030",
     "locID": "LOC000046946358",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420932963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -158227,8 +158262,9 @@
     "name": "1 DUNCANS ROAD WERRIBEE 3030",
     "locID": "LOC000162030469",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421039554"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421039554",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -173974,10 +174010,9 @@
    "properties": {
     "name": "295 PRINCES HIGHWAY WERRIBEE 3030",
     "locID": "LOC000013003151",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421131122",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -185719,10 +185754,9 @@
    "properties": {
     "name": "24 EVANS WAY WERRIBEE 3030",
     "locID": "LOC000066192909",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421260887",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -186985,9 +187019,11 @@
     "name": "250 PRINCES HIGHWAY WERRIBEE 3030",
     "locID": "LOC000062413638",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421326684",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -200075,8 +200111,8 @@
    "properties": {
     "name": "9 MONTPELLIER DRIVE WERRIBEE 3030",
     "locID": "LOC000035234844",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421422551",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -203567,10 +203603,9 @@
    "properties": {
     "name": "18 SALISBURY STREET WERRIBEE 3030",
     "locID": "LOC000039494139",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421441557",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421441557"
    }
   },
   {
@@ -213243,10 +213278,9 @@
    "properties": {
     "name": "61 JOHN STREET WERRIBEE 3030",
     "locID": "LOC000093705851",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421551211",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -215991,9 +216025,11 @@
     "name": "235 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000044768666",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421626169",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -246034,10 +246070,9 @@
    "properties": {
     "name": "25 DIAMOND DRIVE WERRIBEE 3030",
     "locID": "LOC000039616394",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421883978",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -250815,8 +250850,9 @@
     "name": "2 CONCORDE CRESCENT WERRIBEE 3030",
     "locID": "LOC000122945070",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422085485"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422085485",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -251239,9 +251275,11 @@
     "name": "17 DECORA COURT WERRIBEE 3030",
     "locID": "LOC000042530759",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422087184",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -251406,9 +251444,11 @@
     "name": "7 DECORA COURT WERRIBEE 3030",
     "locID": "LOC000087529695",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422087193",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -257749,10 +257789,9 @@
    "properties": {
     "name": "178 WATTLE AVENUE WERRIBEE 3030",
     "locID": "LOC000036114675",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422119342",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -266491,8 +266530,9 @@
     "name": "UNIT 2, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422455435"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422455435",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -266526,8 +266566,9 @@
     "name": "UNIT 3, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422455437"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422455437",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -266543,8 +266584,9 @@
     "name": "UNIT 4, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422455438"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422455438",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -266560,8 +266602,9 @@
     "name": "UNIT 5, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422455439"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422455439",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -280386,8 +280429,9 @@
     "name": "FACTORY 4, 2 CONCORDE CRESCENT WERRIBEE 3030",
     "locID": "LOC000122945070",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423966275"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423966275",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -283632,8 +283676,9 @@
     "name": "7 DUNCANS ROAD WERRIBEE 3030",
     "locID": "LOC000162030482",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424094480"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424094480",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -285380,9 +285425,11 @@
     "name": "240 GEELONG ROAD WERRIBEE 3030",
     "locID": "LOC000170722287",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424263922",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -288653,8 +288700,9 @@
     "name": "OFFICE 1, LEVEL 1, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455984"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455984",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288670,8 +288718,9 @@
     "name": "OFFICE 1, LEVEL 2, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455985"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455985",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288687,8 +288736,9 @@
     "name": "OFFICE 2, LEVEL 1, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455986"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455986",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288704,8 +288754,9 @@
     "name": "SUITE 2, LEVEL 2, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000028079134",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455987"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455987",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288721,8 +288772,9 @@
     "name": "OFFICE 3, FLOOR 1, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455988"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455988",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288738,8 +288790,9 @@
     "name": "SUITE 3, LEVEL 2, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000028079134",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455989"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455989",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288755,8 +288808,9 @@
     "name": "OFFICE 4, LEVEL 2, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424455990"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424455990",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -288990,9 +289044,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424478463",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -289204,10 +289256,10 @@
    "properties": {
     "name": "7 VINEYARD TERRACE WERRIBEE 3030",
     "locID": "LOC000105894662",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424478854",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -289264,8 +289316,9 @@
     "name": "OFFICE 4, LEVEL 1, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424479037"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424479037",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -291676,8 +291729,9 @@
     "name": "SHOP 6, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424599247"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424599247",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -292599,10 +292653,9 @@
    "properties": {
     "name": "45 FISHER COURT WERRIBEE 3030",
     "locID": "LOC000122966612",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424617076",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -295381,10 +295434,10 @@
    "properties": {
     "name": "15 TRAMINER ROW WERRIBEE 3030",
     "locID": "LOC000039828923",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424722979",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -299599,8 +299652,9 @@
     "name": "UNIT 1, 75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424768212"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424768212",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -299616,8 +299670,9 @@
     "name": "75-79 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000027728316",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424768213"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424768213",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -304940,9 +304995,11 @@
     "name": "242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000122962239",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424967504",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -306035,9 +306092,11 @@
     "name": "232 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000122958214",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425043008",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -307786,9 +307845,11 @@
     "name": "242A HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151934515",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425162394",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308569,9 +308630,11 @@
     "name": "UNIT 1, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861382",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227552",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308587,9 +308650,11 @@
     "name": "UNIT 2, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861428",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227553",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308605,9 +308670,11 @@
     "name": "UNIT 3, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861400",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227554",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308623,9 +308690,11 @@
     "name": "UNIT 4, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861416",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227555",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308641,9 +308710,11 @@
     "name": "UNIT 5, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861428",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227556",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308659,9 +308730,11 @@
     "name": "UNIT 6, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861437",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227557",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308677,9 +308750,11 @@
     "name": "UNIT 7, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861444",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227558",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308695,9 +308770,11 @@
     "name": "UNIT 8, 242 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151861459",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227559",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308713,9 +308790,11 @@
     "name": "225 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151928392",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227560",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308731,9 +308810,11 @@
     "name": "229 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151930478",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227561",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -308749,9 +308830,11 @@
     "name": "237 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151930484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425227562",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -315191,9 +315274,11 @@
     "name": "241 HOPPERS LANE WERRIBEE 3030",
     "locID": "LOC000151930466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425562679",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -316319,8 +316404,8 @@
    "properties": {
     "name": "2A RAINSFORD STREET WERRIBEE 3030",
     "locID": "LOC000162034797",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425622173",
     "tech_change_status": "Eligible to Order"
    }
@@ -330591,10 +330676,10 @@
    "properties": {
     "name": "OFFICE 1, 24 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000106351889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC718996355",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -331222,10 +331307,10 @@
    "properties": {
     "name": "OFFICE 201, 24 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000106351889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719000959",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -331413,10 +331498,10 @@
    "properties": {
     "name": "OFFICE 101, 24 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000106351889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719003830",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -331517,9 +331602,9 @@
     "name": "SHOP 1, 13 BARNES PLACE WERRIBEE 3030",
     "locID": "LOC100074613800",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719004784",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -332320,10 +332405,10 @@
    "properties": {
     "name": "OFFICE 2, 24 WATTON STREET WERRIBEE 3030",
     "locID": "LOC000106351889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719013129",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -389114,10 +389199,9 @@
    "properties": {
     "name": "32B CHURCH STREET WERRIBEE 3030",
     "locID": "LOC100074205312",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC720000733",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720000733"
    }
   },
   {
@@ -423489,9 +423573,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC720776139",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -431713,9 +431795,11 @@
     "name": "15 OLD SNEYDES ROAD WERRIBEE 3030",
     "locID": "LOC000181873647",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721156595",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -432312,9 +432396,11 @@
     "name": "1 OLD SNEYDES ROAD WERRIBEE 3030",
     "locID": "LOC000181873647",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721168167",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -433401,8 +433487,8 @@
    "properties": {
     "name": "17 AKROYDON STREET WERRIBEE 3030",
     "locID": "LOC000106770354",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721215371",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -433422,9 +433508,11 @@
     "name": "40A OLD SNEYDES ROAD WERRIBEE 3030",
     "locID": "LOC000085054490",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721215389",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -434133,9 +434221,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721221075",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
