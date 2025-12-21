@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-02T17:36:45.287754",
+ "generated": "2025-12-21T12:56:27.608245",
  "suburb": "MANOORA",
  "features": [
   {
@@ -12671,9 +12671,11 @@
     "name": "10 OLIVE STREET MANOORA 4870",
     "locID": "LOC000187902681",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156767752",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -14304,8 +14306,8 @@
    "properties": {
     "name": "96 RESERVOIR ROAD MANOORA 4870",
     "locID": "LOC000032406145",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156771533",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15598,8 +15600,8 @@
    "properties": {
     "name": "57 MACILWRAITH STREET MANOORA 4870",
     "locID": "LOC000014041079",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156775300",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21268,10 +21270,9 @@
    "properties": {
     "name": "48 MURRAY STREET MANOORA 4870",
     "locID": "LOC000045471928",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156802728",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21709,8 +21710,8 @@
    "properties": {
     "name": "55 MAYERS STREET MANOORA 4870",
     "locID": "LOC000029042750",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156803326",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32219,10 +32220,9 @@
    "properties": {
     "name": "UNIT 2, 40 MACILWRAITH STREET MANOORA 4870",
     "locID": "LOC000047252201",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158218166",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49568,8 +49568,8 @@
    "properties": {
     "name": "33-35 MACILWRAITH STREET MANOORA 4870",
     "locID": "LOC000100722062",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162045706",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56736,6 +56736,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.74253597,
+     -16.91754124
+    ]
+   },
+   "properties": {
+    "name": "147-149 ANDERSON STREET MANOORA 4870",
+    "locID": "LOC000058814469",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425541002",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.74065839,
      -16.91416772
     ]
@@ -56780,6 +56800,46 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425698376"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.7426723,
+     -16.91734716
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 147-149 ANDERSON STREET MANOORA 4870",
+    "locID": "LOC000058814469",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425745482",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.74251294,
+     -16.91739698
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 147-149 ANDERSON STREET MANOORA 4870",
+    "locID": "LOC000058814469",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425745483",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57902,9 +57962,11 @@
     "name": "UNIT 1, 10 OLIVE STREET MANOORA 4870",
     "locID": "LOC000187902681",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719626300",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -57920,9 +57982,11 @@
     "name": "UNIT 2, 10 OLIVE STREET MANOORA 4870",
     "locID": "LOC000187902681",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719628144",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -59859,9 +59923,11 @@
     "name": "UNIT 1, 78 ENMORE STREET MANOORA 4870",
     "locID": "LOC000187642143",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720734433",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -60783,9 +60849,11 @@
     "name": "78 ENMORE STREET MANOORA 4870",
     "locID": "LOC000187642143",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720740657",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -61244,9 +61312,11 @@
     "name": "55B MURRAY STREET MANOORA 4870",
     "locID": "LOC000189713743",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721133745",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -61262,9 +61332,11 @@
     "name": "55A MURRAY STREET MANOORA 4870",
     "locID": "LOC000189713743",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721134118",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -61334,9 +61406,11 @@
     "name": "22B MACILWRAITH STREET MANOORA 4870",
     "locID": "LOC100087382747",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721308133",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
