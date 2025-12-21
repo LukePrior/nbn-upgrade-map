@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-02T19:47:44.089649",
+ "generated": "2025-12-21T15:21:12.451036",
  "suburb": "UPPER CABOOLTURE",
  "features": [
   {
@@ -1711,7 +1711,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155919178",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4206,10 +4206,9 @@
    "properties": {
     "name": "90-92 RIFLEBIRD DRIVE UPPER CABOOLTURE 4510",
     "locID": "LOC000072519104",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156061194",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4792,10 +4791,9 @@
    "properties": {
     "name": "13-15 ADA CRESCENT UPPER CABOOLTURE 4510",
     "locID": "LOC000092365121",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157216997",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8729,9 +8727,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158808213",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -12463,9 +12459,9 @@
     "name": "6-14 ADA CRESCENT UPPER CABOOLTURE 4510",
     "locID": "LOC000014963116",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160044725",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20980,10 +20976,9 @@
    "properties": {
     "name": "2-6 ALBERT CIRCUIT UPPER CABOOLTURE 4510",
     "locID": "LOC000055462915",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162931987",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21078,10 +21073,10 @@
    "properties": {
     "name": "3 CANDLEWOOD COURT UPPER CABOOLTURE 4510",
     "locID": "LOC000072141568",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162934922",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27191,9 +27186,9 @@
     "name": "13 BUSHLARK COURT UPPER CABOOLTURE 4510",
     "locID": "LOC000173268005",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425792686",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -31588,10 +31583,9 @@
    "properties": {
     "name": "29 WARBLER COURT UPPER CABOOLTURE 4510",
     "locID": "LOC000181775597",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720184171",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36340,6 +36334,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.91989355,
+     -27.09983009
+    ]
+   },
+   "properties": {
+    "name": "1 BIRCHWOOD STREET UPPER CABOOLTURE 4510",
+    "locID": "LOC000192063972",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.92845228,
      -27.09993418
     ]
@@ -36734,9 +36745,11 @@
     "name": "5 MACGINLEY ROAD UPPER CABOOLTURE 4510",
     "locID": "LOC000194720102",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721508663",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -36982,9 +36995,11 @@
     "name": "137 THORNBILL DRIVE UPPER CABOOLTURE 4510",
     "locID": "LOC000193234756",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721518750",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -37169,9 +37184,11 @@
     "name": "21 MACGINLEY ROAD UPPER CABOOLTURE 4510",
     "locID": "LOC000194720102",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721585051",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -37653,8 +37670,8 @@
    "properties": {
     "name": "83 MACGINLEY ROAD UPPER CABOOLTURE 4510",
     "locID": "LOC000061469874",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721653924",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
