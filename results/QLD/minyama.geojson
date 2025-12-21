@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-03T03:53:23.290722",
+ "generated": "2025-12-21T23:09:07.909510",
  "suburb": "MINYAMA",
  "features": [
   {
@@ -2899,8 +2899,8 @@
    "properties": {
     "name": "25 KUMBADA COURT MINYAMA 4575",
     "locID": "LOC000089431288",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155565893",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3056,10 +3056,10 @@
    "properties": {
     "name": "4 MURINGO COURT MINYAMA 4575",
     "locID": "LOC000084745852",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155566031",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6558,10 +6558,9 @@
    "properties": {
     "name": "6 BANGALOW STREET MINYAMA 4575",
     "locID": "LOC000075258015",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156034873",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7883,10 +7882,10 @@
    "properties": {
     "name": "24 COOMAROO CRESCENT MINYAMA 4575",
     "locID": "LOC000059375140",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156826534",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8260,9 +8259,9 @@
     "name": "31 WANDOO STREET MINYAMA 4575",
     "locID": "LOC000094993949",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156829763",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13836,9 +13835,11 @@
     "name": "21 KUMBADA COURT MINYAMA 4575",
     "locID": "LOC000043240419",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156857451",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -26393,6 +26394,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721229583",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.12111273,
+     -26.7024926
+    ]
+   },
+   "properties": {
+    "name": "UNIT 194, 26 ST VINCENTS COURT MINYAMA 4575",
+    "locID": "LOC000025709849",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721229686",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
