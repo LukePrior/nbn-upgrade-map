@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-02T13:01:06.348267",
+ "generated": "2025-12-21T08:15:24.835722",
  "suburb": "NEWSTEAD",
  "features": [
   {
@@ -332,9 +332,9 @@
     "name": "4 AUSTIN STREET NEWSTEAD 4006",
     "locID": "LOC000001740753",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155636753",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -1013,10 +1013,9 @@
    "properties": {
     "name": "42 ROSS STREET NEWSTEAD 4006",
     "locID": "LOC000126141682",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155656491",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155656491"
    }
   },
   {
@@ -1049,8 +1048,9 @@
     "name": "51 ROSS STREET NEWSTEAD 4006",
     "locID": "LOC000053109076",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155656498"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155656498",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1612,9 +1612,9 @@
     "name": "11 MAUD STREET NEWSTEAD 4006",
     "locID": "LOC000093199237",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156912153",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -2163,6 +2163,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156937292"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.04169537,
+     -27.45457977
+    ]
+   },
+   "properties": {
+    "name": "30 CHESTER STREET NEWSTEAD 4006",
+    "locID": "LOC000177677153",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156937293"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.04145023,
+     -27.4551405
+    ]
+   },
+   "properties": {
+    "name": "31 CHESTER STREET NEWSTEAD 4006",
+    "locID": "LOC000177677218",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156937294"
    }
   },
   {
@@ -3587,9 +3621,11 @@
     "name": "1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000185339458",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156947718",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -4765,8 +4801,9 @@
     "name": "142 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000176822479",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156954677"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156954677",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5242,10 +5279,9 @@
    "properties": {
     "name": "194 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC100087764267",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156961703",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156961703"
    }
   },
   {
@@ -5486,9 +5522,11 @@
     "name": "9 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC100069179881",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156968756",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -13156,8 +13194,9 @@
     "name": "UNIT 208, 45 NEWSTEAD TERRACE NEWSTEAD 4006",
     "locID": "LOC000176822569",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158986793"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158986793",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14798,8 +14837,9 @@
     "name": "UNIT 204, 45 NEWSTEAD TERRACE NEWSTEAD 4006",
     "locID": "LOC000177947092",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158991056"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158991056",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15566,8 +15606,9 @@
     "name": "UNIT 7, 1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000176822498",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159002759"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD159002759",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16025,9 +16066,11 @@
     "name": "15 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC100069179847",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160726027",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -16303,9 +16346,11 @@
     "name": "5 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000007503626",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160968225",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -16321,9 +16366,11 @@
     "name": "7 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000007709968",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160968226",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -22630,9 +22677,11 @@
     "name": "UNIT 1, 45 COMMERCIAL ROAD NEWSTEAD 4006",
     "locID": "LOC000063006853",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162853359",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -22648,9 +22697,11 @@
     "name": "UNIT 2, 45 COMMERCIAL ROAD NEWSTEAD 4006",
     "locID": "LOC000063004656",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162853360",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -22666,9 +22717,11 @@
     "name": "UNIT 3, 45 COMMERCIAL ROAD NEWSTEAD 4006",
     "locID": "LOC000062888970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162853361",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -29885,9 +29938,11 @@
     "name": "13 CUNNINGHAM STREET NEWSTEAD 4006",
     "locID": "LOC000168057924",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425119199",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -29920,9 +29975,11 @@
     "name": "100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425131997",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -32806,9 +32863,11 @@
     "name": "SUITE 10, 1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000185339458",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425809362",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -32824,9 +32883,11 @@
     "name": "SUITE 11, 1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000185339458",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425809363",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -32842,9 +32903,11 @@
     "name": "SUITE 12, 1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000185339458",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425809364",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -32860,9 +32923,11 @@
     "name": "SUITE 9, 1 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000185339458",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425809365",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88486,9 +88551,11 @@
     "name": "LEVEL 11, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041155",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88504,9 +88571,11 @@
     "name": "LEVEL 4, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344286",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041192",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88590,9 +88659,11 @@
     "name": "LEVEL 7, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041642",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88608,9 +88679,11 @@
     "name": "LEVEL 6, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041643",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88626,9 +88699,11 @@
     "name": "LEVEL 3, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041644",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88661,9 +88736,11 @@
     "name": "LEVEL 9, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185343733",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720041993",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88764,9 +88841,11 @@
     "name": "LEVEL 8, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344240",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720042870",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88782,9 +88861,11 @@
     "name": "LEVEL 1, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344286",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720043176",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88970,9 +89051,11 @@
     "name": "LEVEL 5, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344286",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720044208",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -88988,9 +89071,11 @@
     "name": "LEVEL 10, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344286",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720044259",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -89091,9 +89176,11 @@
     "name": "LEVEL 2, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185344361",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720044871",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -89194,9 +89281,11 @@
     "name": "LEVEL 12, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185343158",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720045631",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -102947,9 +103036,11 @@
     "name": "SUITE 1, LEVEL 8, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721079847",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -102965,9 +103056,11 @@
     "name": "SUITE 2, LEVEL 12, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721079903",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -102983,9 +103076,11 @@
     "name": "SUITE 1, LEVEL 12, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721081692",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -103001,9 +103096,11 @@
     "name": "SUITE 2, LEVEL 8, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC000185342840",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721082630",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -106742,9 +106839,11 @@
     "name": "SHOP 2, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC100069180278",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721188992",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -106933,9 +107032,11 @@
     "name": "SHOP 1, 100 SKYRING TERRACE NEWSTEAD 4006",
     "locID": "LOC100069180245",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721189686",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
