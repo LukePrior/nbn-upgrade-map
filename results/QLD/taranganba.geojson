@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-03T07:26:11.606811",
+ "generated": "2025-12-22T01:47:37.136383",
  "suburb": "TARANGANBA",
  "features": [
   {
@@ -114,10 +114,9 @@
    "properties": {
     "name": "5 ROWE CRESCENT TARANGANBA 4703",
     "locID": "LOC000106201382",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155870528",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -711,9 +710,11 @@
     "name": "21 HOUSDEN PLACE TARANGANBA 4703",
     "locID": "LOC000109119671",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155874545",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3517,10 +3518,9 @@
    "properties": {
     "name": "23A BANKSIA PLACE TARANGANBA 4703",
     "locID": "LOC000072182373",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155882108",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6301,10 +6301,10 @@
    "properties": {
     "name": "17 ASHGROVE CRESCENT TARANGANBA 4703",
     "locID": "LOC000005760501",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157159999",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10175,10 +10175,9 @@
    "properties": {
     "name": "3 KURRAJONG COURT TARANGANBA 4703",
     "locID": "LOC000073739023",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157191476",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11191,10 +11190,10 @@
    "properties": {
     "name": "37 CARBEEN DRIVE TARANGANBA 4703",
     "locID": "LOC000013549358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157195474",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15247,9 +15246,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161451566",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -15425,9 +15422,9 @@
     "name": "9 ROSEWOOD STREET TARANGANBA 4703",
     "locID": "LOC000102459123",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161456177",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16091,8 +16088,8 @@
    "properties": {
     "name": "19 JORDAN AVENUE TARANGANBA 4703",
     "locID": "LOC000052343190",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161696149",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21371,6 +21368,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75919046,
+     -23.1549837
+    ]
+   },
+   "properties": {
+    "name": "31 SEABRIGHT ROAD TARANGANBA 4703",
+    "locID": "LOC000194075427",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721680371"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.75887959,
      -23.15540531
     ]
@@ -21422,6 +21436,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75872838,
+     -23.15462948
+    ]
+   },
+   "properties": {
+    "name": "25 SEABRIGHT ROAD TARANGANBA 4703",
+    "locID": "LOC000194075458",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.75825515,
      -23.15487234
     ]
@@ -21439,6 +21470,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75858425,
+     -23.1544994
+    ]
+   },
+   "properties": {
+    "name": "23 SEABRIGHT ROAD TARANGANBA 4703",
+    "locID": "LOC000194075462",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.75887727,
      -23.15475227
     ]
@@ -21449,6 +21497,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721683802"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75934476,
+     -23.15510075
+    ]
+   },
+   "properties": {
+    "name": "33 SEABRIGHT ROAD TARANGANBA 4703",
+    "locID": "LOC000194075415",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721684146"
    }
   },
   {
@@ -21636,6 +21701,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721687691"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75965676,
+     -23.15533276
+    ]
+   },
+   "properties": {
+    "name": "37 SEABRIGHT ROAD TARANGANBA 4703",
+    "locID": "LOC000194075399",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721687817"
    }
   },
   {
