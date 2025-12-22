@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-03T12:56:23.053778",
+ "generated": "2025-12-22T06:07:32.107072",
  "suburb": "BOWDEN",
  "features": [
   {
@@ -158,9 +158,11 @@
     "name": "46 TREMBATH STREET BOWDEN 5007",
     "locID": "LOC000039512444",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414992003",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -859,10 +861,10 @@
    "properties": {
     "name": "4 TENTH STREET BOWDEN 5007",
     "locID": "LOC000031177215",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415134918",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4770,10 +4772,9 @@
    "properties": {
     "name": "UNIT 11, 8 EIGHTH STREET BOWDEN 5007",
     "locID": "LOC000002617961",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415624618",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415624618"
    }
   },
   {
@@ -4806,10 +4807,9 @@
    "properties": {
     "name": "UNIT 13, 10 EIGHTH STREET BOWDEN 5007",
     "locID": "LOC000018337583",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415624620",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415624620"
    }
   },
   {
@@ -5121,10 +5121,9 @@
    "properties": {
     "name": "100 DRAYTON STREET BOWDEN 5007",
     "locID": "LOC000049021387",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415778667",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5287,10 +5286,9 @@
    "properties": {
     "name": "10 EIGHTH STREET BOWDEN 5007",
     "locID": "LOC000018337583",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415887796",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415887796"
    }
   },
   {
@@ -6620,10 +6618,9 @@
    "properties": {
     "name": "8 EIGHTH STREET BOWDEN 5007",
     "locID": "LOC000002617961",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415901207",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415901207"
    }
   },
   {
@@ -6709,10 +6706,9 @@
    "properties": {
     "name": "30B TREMBATH STREET BOWDEN 5007",
     "locID": "LOC000087613329",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415903015",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415903015"
    }
   },
   {
@@ -6768,9 +6764,9 @@
     "name": "8 MARKET PLACE BOWDEN 5007",
     "locID": "LOC000078315295",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415904183",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8551,8 +8547,9 @@
     "name": "4-6 HAWKER STREET BOWDEN 5007",
     "locID": "LOC000022484231",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423815719"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423815719",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -8797,10 +8794,9 @@
    "properties": {
     "name": "LOT 100 DRAYTON STREET BOWDEN 5007",
     "locID": "LOC000049021387",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424167556",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22781,6 +22777,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.57879913,
+     -34.90331463
+    ]
+   },
+   "properties": {
+    "name": "33 SEVENTH STREET BOWDEN 5007",
+    "locID": "LOC000196597793",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721113269"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5784445,
+     -34.90307946
+    ]
+   },
+   "properties": {
+    "name": "35 SEVENTH STREET BOWDEN 5007",
+    "locID": "LOC000196597793",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721113272"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.57843453,
      -34.90263117
     ]
@@ -24655,6 +24685,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.5766948,
+     -34.90549132
+    ]
+   },
+   "properties": {
+    "name": "18 THIRD STREET BOWDEN 5007",
+    "locID": "LOC000194755320",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721636758"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.57935794,
      -34.90276892
     ]
@@ -24838,6 +24885,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721717423"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.57628781,
+     -34.90566366
+    ]
+   },
+   "properties": {
+    "name": "7 KARRA TAPA LANE BOWDEN 5007",
+    "locID": "LOC000194755377",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721717519"
    }
   },
   {

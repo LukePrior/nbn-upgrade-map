@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-03T13:38:13.517192",
+ "generated": "2025-12-22T06:46:22.387471",
  "suburb": "SEATON",
  "features": [
   {
@@ -7592,10 +7592,9 @@
    "properties": {
     "name": "9 FOURTH AVENUE SEATON 5023",
     "locID": "LOC000065967147",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415033422",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11575,10 +11574,10 @@
    "properties": {
     "name": "28 GREEN AVENUE SEATON 5023",
     "locID": "LOC000085696426",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415059813",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12588,8 +12587,8 @@
    "properties": {
     "name": "145 TAPLEYS HILL ROAD SEATON 5023",
     "locID": "LOC000095369095",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415065780",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29205,6 +29204,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.50935781,
+     -34.88007669
+    ]
+   },
+   "properties": {
+    "name": "2 ANTHONY STREET SEATON 5023",
+    "locID": "LOC000198024388",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415179744"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.50935517,
      -34.88032999
     ]
@@ -41934,23 +41950,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415362216"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50788801,
-     -34.9019811
-    ]
-   },
-   "properties": {
-    "name": "14 MEAKIN TERRACE SEATON 5023",
-    "locID": "LOC000035232337",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415362217"
    }
   },
   {
@@ -55496,10 +55495,10 @@
    "properties": {
     "name": "1 EAGLE PLACE SEATON 5023",
     "locID": "LOC000024203371",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415550457",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65550,6 +65549,23 @@
     ]
    },
    "properties": {
+    "name": "UNIT 28, 4 MIDDLETON DRIVE SEATON 5023",
+    "locID": "LOC000052497883",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416313247"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5084531,
+     -34.90468978
+    ]
+   },
+   "properties": {
     "name": "UNIT 29, 4 MIDDLETON DRIVE SEATON 5023",
     "locID": "LOC000052468269",
     "tech": "HFC",
@@ -70015,10 +70031,9 @@
    "properties": {
     "name": "41 HONEYTON STREET SEATON 5023",
     "locID": "LOC000065946697",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416344767",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74954,8 +74969,8 @@
    "properties": {
     "name": "11 MINNS STREET WEST SEATON 5023",
     "locID": "LOC000088873618",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416545356",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -87471,10 +87486,9 @@
    "properties": {
     "name": "62 MITCHELL STREET EAST SEATON 5023",
     "locID": "LOC000034320470",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424427904",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88576,9 +88590,11 @@
     "name": "1A OWEN STREET SEATON 5023",
     "locID": "LOC000099073122",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424564086",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -90202,9 +90218,11 @@
     "name": "UNIT 1, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085705953",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658543",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90220,9 +90238,11 @@
     "name": "UNIT 2, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085705953",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658544",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90238,9 +90258,11 @@
     "name": "UNIT 3, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085755289",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658545",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90256,9 +90278,11 @@
     "name": "UNIT 4, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085656094",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658546",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90274,9 +90298,11 @@
     "name": "UNIT 5, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085593365",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658547",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90292,9 +90318,11 @@
     "name": "UNIT 6, 40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085744081",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424658548",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -90666,9 +90694,11 @@
     "name": "40A GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085705953",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424666760",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -93235,9 +93265,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425066330",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -94081,10 +94109,10 @@
    "properties": {
     "name": "12A HONEYTON STREET SEATON 5023",
     "locID": "LOC000166069462",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425360198",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94441,9 +94469,9 @@
     "name": "6A STEVENS STREET SEATON 5023",
     "locID": "LOC000154782571",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_425394840",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96886,9 +96914,11 @@
     "name": "UNIT 1, 7 ALFRED AVENUE SEATON 5023",
     "locID": "LOC000166068148",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425628285",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -99440,6 +99470,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.50997426,
+     -34.88064963
+    ]
+   },
+   "properties": {
+    "name": "7A ANTHONY STREET SEATON 5023",
+    "locID": "LOC000198024388",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719253533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.51802974,
      -34.88486547
     ]
@@ -99575,10 +99622,9 @@
    "properties": {
     "name": "11A MARTINS ROAD SEATON 5023",
     "locID": "LOC000173103227",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719253782",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100906,6 +100952,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719782308"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51960217,
+     -34.89794061
+    ]
+   },
+   "properties": {
+    "name": "28 LANARK AVENUE SEATON 5023",
+    "locID": "LOC000198185371",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719782309"
    }
   },
   {
@@ -104682,9 +104745,11 @@
     "name": "UNIT 4, 5 GOLFERS AVENUE SEATON 5023",
     "locID": "LOC000085593365",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720892801",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -107568,6 +107633,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.51450774,
+     -34.8888496
+    ]
+   },
+   "properties": {
+    "name": "3-3B MITCHELL STREET WEST SEATON 5023",
+    "locID": "LOC000197556476",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721781630"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.51943454,
      -34.89038313
     ]
@@ -107629,6 +107711,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721815944"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51450774,
+     -34.8888496
+    ]
+   },
+   "properties": {
+    "name": "3B MITCHELL STREET WEST SEATON 5023",
+    "locID": "LOC000197556476",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721815957"
    }
   },
   {
@@ -108258,6 +108357,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721816799"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51450774,
+     -34.8888496
+    ]
+   },
+   "properties": {
+    "name": "3A MITCHELL STREET WEST SEATON 5023",
+    "locID": "LOC000197556469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721816806"
    }
   },
   {
