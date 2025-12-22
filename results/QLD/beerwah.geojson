@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-03T04:34:03.914982",
+ "generated": "2025-12-21T23:52:43.928853",
  "suburb": "BEERWAH",
  "features": [
   {
@@ -15,10 +15,9 @@
    "properties": {
     "name": "10 PIAT PLACE BEERWAH 4519",
     "locID": "LOC000027503118",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155005096",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155005096"
    }
   },
   {
@@ -446,6 +445,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155005315",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95917501,
+     -26.85450657
+    ]
+   },
+   "properties": {
+    "name": "15 BEERWAH PARADE BEERWAH 4519",
+    "locID": "LOC000198194418",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155006093"
    }
   },
   {
@@ -985,10 +1001,9 @@
    "properties": {
     "name": "50 PINE CAMP ROAD BEERWAH 4519",
     "locID": "LOC000059056025",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155007019",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1571,9 +1586,9 @@
     "name": "24 BURYS ROAD BEERWAH 4519",
     "locID": "LOC000110033173",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155007081",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -1648,10 +1663,9 @@
    "properties": {
     "name": "27 BURYS ROAD BEERWAH 4519",
     "locID": "LOC000091489474",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155007085",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155007085"
    }
   },
   {
@@ -3307,10 +3321,10 @@
    "properties": {
     "name": "11 STEPHENSON COURT BEERWAH 4519",
     "locID": "LOC000044846595",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155008901",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3442,9 +3456,11 @@
     "name": "7 LAUREL STREET BEERWAH 4519",
     "locID": "LOC000012500084",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155008933",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -3837,10 +3853,7 @@
     "locID": "LOC000060923343",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155008958",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "gnaf_pid": "GAQLD155008958"
    }
   },
   {
@@ -5535,7 +5548,10 @@
     "locID": "LOC000006881209",
     "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155010706"
+    "gnaf_pid": "GAQLD155010706",
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -5870,9 +5886,11 @@
     "name": "14 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564327",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010728",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -5888,9 +5906,11 @@
     "name": "15 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564336",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010729",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -5906,9 +5926,11 @@
     "name": "16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010730",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -5958,9 +5980,11 @@
     "name": "20 SWAN STREET BEERWAH 4519",
     "locID": "LOC000182312875",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010733",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -5976,9 +6000,11 @@
     "name": "21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111796033",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010734",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6011,9 +6037,11 @@
     "name": "23 SWAN STREET BEERWAH 4519",
     "locID": "LOC000093228898",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010736",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6029,9 +6057,11 @@
     "name": "25 SWAN STREET BEERWAH 4519",
     "locID": "LOC000032421230",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010737",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6047,9 +6077,11 @@
     "name": "29 SWAN STREET BEERWAH 4519",
     "locID": "LOC000004038055",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010738",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6065,9 +6097,11 @@
     "name": "31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000108157789",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010740",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6083,9 +6117,11 @@
     "name": "33 SWAN STREET BEERWAH 4519",
     "locID": "LOC000091020022",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155010741",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -6667,9 +6703,9 @@
     "name": "100 THOMPSON ROAD BEERWAH 4519",
     "locID": "LOC000068840574",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155012585",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7022,8 +7058,8 @@
    "properties": {
     "name": "9 GREBER ROAD BEERWAH 4519",
     "locID": "LOC000074070500",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155013571",
     "tech_change_status": "Eligible to Order"
    }
@@ -7364,10 +7400,9 @@
    "properties": {
     "name": "1 BLACKBUTT STREET BEERWAH 4519",
     "locID": "LOC000035026272",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155014333",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7423,10 +7458,9 @@
    "properties": {
     "name": "15 BLACKBUTT STREET BEERWAH 4519",
     "locID": "LOC000030666700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155014336",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12674,10 +12708,9 @@
    "properties": {
     "name": "49 STRAWBERRY ROAD BEERWAH 4519",
     "locID": "LOC000105560361",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156023835",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13059,10 +13092,9 @@
    "properties": {
     "name": "18 SIDNEY DRIVE BEERWAH 4519",
     "locID": "LOC000089438516",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156025839",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13369,9 +13401,9 @@
     "name": "2594 OLD GYMPIE ROAD BEERWAH 4519",
     "locID": "LOC000067001787",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156028709",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14534,9 +14566,11 @@
     "name": "25 PEACHESTER ROAD BEERWAH 4519",
     "locID": "LOC000128257482",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156260989",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -16082,8 +16116,9 @@
     "name": "49 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC100017005143",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156263726"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156263726",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16454,10 +16489,9 @@
    "properties": {
     "name": "33 PINE CAMP ROAD BEERWAH 4519",
     "locID": "LOC000041917040",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156264567",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19163,9 +19197,11 @@
     "name": "13A SWAN STREET BEERWAH 4519",
     "locID": "LOC000039787975",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268028",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19181,9 +19217,11 @@
     "name": "13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564315",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268029",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19199,9 +19237,11 @@
     "name": "3 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716779",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268042",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19217,9 +19257,11 @@
     "name": "35 SWAN STREET BEERWAH 4519",
     "locID": "LOC000190664801",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268045",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19527,9 +19569,11 @@
     "name": "1 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701749",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268099",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19545,9 +19589,11 @@
     "name": "10A SWAN STREET BEERWAH 4519",
     "locID": "LOC000032438103",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268100",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19563,9 +19609,11 @@
     "name": "10 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564287",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268101",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19581,9 +19629,11 @@
     "name": "11 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564294",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268102",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19599,9 +19649,11 @@
     "name": "12 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564304",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156268103",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19616,10 +19668,10 @@
    "properties": {
     "name": "1 MELLUMVIEW DRIVE BEERWAH 4519",
     "locID": "LOC000088489394",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156268143",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19735,9 +19787,11 @@
     "name": "5 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716798",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269043",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19753,9 +19807,11 @@
     "name": "6 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729025",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269044",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19771,9 +19827,11 @@
     "name": "7 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729039",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269045",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19789,9 +19847,11 @@
     "name": "8A SWAN STREET BEERWAH 4519",
     "locID": "LOC000040629141",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269046",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19807,9 +19867,11 @@
     "name": "8 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729041",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269047",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -19825,9 +19887,11 @@
     "name": "9 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156269048",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21014,9 +21078,11 @@
     "name": "79 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000015689818",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271332",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21032,9 +21098,11 @@
     "name": "81 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000097784460",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271334",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21050,9 +21118,11 @@
     "name": "83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000178467965",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271335",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21068,9 +21138,11 @@
     "name": "85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056237365",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271336",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21086,9 +21158,11 @@
     "name": "87 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000041626848",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271337",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -21104,9 +21178,11 @@
     "name": "89 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000087841990",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156271338",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -24034,10 +24110,10 @@
    "properties": {
     "name": "33 ALFS PINCH ROAD BEERWAH 4519",
     "locID": "LOC000075253123",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157508843",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -24525,9 +24601,11 @@
     "name": "UNIT 1, 29 SWAN STREET BEERWAH 4519",
     "locID": "LOC000004128937",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157519197",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -24660,9 +24738,11 @@
     "name": "UNIT 3, 29 SWAN STREET BEERWAH 4519",
     "locID": "LOC000004038055",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157521552",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -26022,9 +26102,11 @@
     "name": "UNIT 2, 29 SWAN STREET BEERWAH 4519",
     "locID": "LOC000004021564",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157527489",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -26226,9 +26308,9 @@
     "name": "61 NEWTON DRIVE BEERWAH 4519",
     "locID": "LOC000011722464",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157528250",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27532,7 +27614,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160028006",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27830,8 +27914,9 @@
     "name": "SHOP 5, 7 TURNER STREET BEERWAH 4519",
     "locID": "LOC000063030500",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160038034"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160038034",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29488,9 +29573,11 @@
    "properties": {
     "name": "SHOP 5, 21 PEACHESTER ROAD BEERWAH 4519",
     "locID": "LOC000040545610",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160981477"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160981477",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -29966,9 +30053,11 @@
     "name": "4 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716780",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161004409",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -30745,9 +30834,11 @@
     "name": "LOT 490 PEACHESTER ROAD BEERWAH 4519",
     "locID": "LOC000128257482",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161273641",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -31864,9 +31955,11 @@
     "name": "UNIT 1, 85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056237365",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161650415",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -31882,9 +31975,11 @@
     "name": "UNIT 2, 85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056565588",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161650416",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -31900,9 +31995,11 @@
     "name": "UNIT 3, 85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056718329",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161650417",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -31918,9 +32015,11 @@
     "name": "UNIT 4, 85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056653566",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161650418",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -31936,9 +32035,11 @@
     "name": "UNIT 5, 85 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000056575571",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161650419",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33641,9 +33742,11 @@
     "name": "UNIT 1, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799053",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33659,9 +33762,11 @@
     "name": "UNIT 2, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799054",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33677,9 +33782,11 @@
     "name": "UNIT 3, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000035784019",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799055",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33695,9 +33802,11 @@
     "name": "UNIT 4, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799056",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33713,9 +33822,11 @@
     "name": "UNIT 5, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000035825357",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799057",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33731,9 +33842,11 @@
     "name": "UNIT 6, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000035860395",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161799058",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -33990,10 +34103,9 @@
    "properties": {
     "name": "37 CARNARVON DRIVE BEERWAH 4519",
     "locID": "LOC000116036210",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162016220",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162016220"
    }
   },
   {
@@ -35196,9 +35308,11 @@
     "name": "UNIT 7, 16 SWAN STREET BEERWAH 4519",
     "locID": "LOC000035768748",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162107465",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -35958,9 +36072,11 @@
     "name": "2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701749",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162237272",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -36437,10 +36553,10 @@
    "properties": {
     "name": "54 COOCHIN HILLS DRIVE BEERWAH 4519",
     "locID": "LOC000071054643",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162299031",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36801,10 +36917,9 @@
    "properties": {
     "name": "2 SANTA ANA COURT BEERWAH 4519",
     "locID": "LOC000001740592",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162309655",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37278,9 +37393,11 @@
     "name": "UNIT 10, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564287",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310954",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37296,9 +37413,11 @@
     "name": "UNIT 11, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564294",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310955",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37314,9 +37433,11 @@
     "name": "UNIT 12, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564304",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310956",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37332,9 +37453,11 @@
     "name": "UNIT 13, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564315",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310957",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37350,9 +37473,11 @@
     "name": "UNIT 14, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564327",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310958",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37368,9 +37493,11 @@
     "name": "UNIT 15, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564336",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310959",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37386,9 +37513,11 @@
     "name": "UNIT 16, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310960",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37404,9 +37533,11 @@
     "name": "UNIT 1, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701749",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310961",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37422,9 +37553,11 @@
     "name": "UNIT 2, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701754",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310962",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37440,9 +37573,11 @@
     "name": "UNIT 3, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716779",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37458,9 +37593,11 @@
     "name": "UNIT 4, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716780",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310964",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37476,9 +37613,11 @@
     "name": "UNIT 5, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716798",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310965",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37494,9 +37633,11 @@
     "name": "UNIT 6, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729025",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310966",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37512,9 +37653,11 @@
     "name": "UNIT 7, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729039",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310967",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37530,9 +37673,11 @@
     "name": "UNIT 8, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729041",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310968",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -37548,9 +37693,11 @@
     "name": "UNIT 9, 2A SWAN STREET BEERWAH 4519",
     "locID": "LOC000096729056",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162310969",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -38824,9 +38971,11 @@
     "name": "1638 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000056496970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162459062",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -38842,9 +38991,11 @@
     "name": "1688 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000008280127",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162459063",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -38860,9 +39011,11 @@
     "name": "1692 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000002519688",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162459064",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -38995,9 +39148,11 @@
     "name": "1343 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000085582670",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162480811",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -39051,9 +39206,11 @@
     "name": "LOT 26 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000016557399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162480814",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -39129,9 +39286,11 @@
     "name": "LOT 5 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000056496970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162480818",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -39147,9 +39306,11 @@
     "name": "LOT 6 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000016557399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162480819",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -39165,9 +39326,11 @@
     "name": "LOT 9 STEVE IRWIN WAY BEERWAH 4519",
     "locID": "LOC000016557399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162480820",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -39870,9 +40033,11 @@
     "name": "UNIT 1, 4 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096701749",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162669389",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -39888,9 +40053,11 @@
     "name": "UNIT 2, 4 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096716780",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162669390",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41188,9 +41355,11 @@
     "name": "UNIT 10, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109727563",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704304",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41206,9 +41375,11 @@
     "name": "UNIT 11, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109055076",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704305",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41224,9 +41395,11 @@
     "name": "UNIT 12, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109182732",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704306",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41242,9 +41415,11 @@
     "name": "UNIT 13, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109173620",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704307",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41260,9 +41435,11 @@
     "name": "UNIT 14, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109074880",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704308",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41278,9 +41455,11 @@
     "name": "UNIT 15, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000108281008",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704309",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41296,9 +41475,11 @@
     "name": "UNIT 16, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109106501",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704310",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41314,9 +41495,11 @@
     "name": "UNIT 17, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109153672",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704311",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41332,9 +41515,11 @@
     "name": "UNIT 1, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109924912",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704312",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41350,9 +41535,11 @@
     "name": "UNIT 2, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000108157789",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704313",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41368,9 +41555,11 @@
     "name": "UNIT 3, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000108680016",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704314",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41386,9 +41575,11 @@
     "name": "UNIT 4, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109091984",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704315",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41404,9 +41595,11 @@
     "name": "UNIT 5, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109282704",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704316",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41422,9 +41615,11 @@
     "name": "UNIT 6, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109128572",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704317",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41440,9 +41635,11 @@
     "name": "UNIT 7, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109960622",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704318",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41458,9 +41655,11 @@
     "name": "UNIT 8, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000109165694",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704319",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41476,9 +41675,11 @@
     "name": "UNIT 9, 31 SWAN STREET BEERWAH 4519",
     "locID": "LOC000108433833",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704320",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41512,9 +41713,11 @@
     "name": "UNIT 10, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102459096",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733713",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41530,9 +41733,11 @@
     "name": "UNIT 1, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000101463464",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733714",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41548,9 +41753,11 @@
     "name": "UNIT 2, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102695412",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733715",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41566,9 +41773,11 @@
     "name": "UNIT 3, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000101731728",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733716",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41584,9 +41793,11 @@
     "name": "UNIT 4, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102695412",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733717",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41602,9 +41813,11 @@
     "name": "UNIT 5, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102269314",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733718",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41620,9 +41833,11 @@
     "name": "UNIT 6, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102837163",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733719",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41638,9 +41853,11 @@
     "name": "UNIT 7, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000101738751",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733720",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41656,9 +41873,11 @@
     "name": "UNIT 8, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000101626331",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733721",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -41674,9 +41893,11 @@
     "name": "UNIT 9, 83 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102328007",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162733722",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43538,9 +43759,11 @@
     "name": "UNIT 10, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852310",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43556,9 +43779,11 @@
     "name": "UNIT 1, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852313",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43574,9 +43799,11 @@
     "name": "SHOP 1, 87 BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000041587277",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852314",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43592,9 +43819,11 @@
     "name": "UNIT 2, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852316",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43610,9 +43839,11 @@
     "name": "UNIT 3, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852318",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43628,9 +43859,11 @@
     "name": "UNIT 4, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852320",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43646,9 +43879,11 @@
     "name": "UNIT 5, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852321",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43664,9 +43899,11 @@
     "name": "UNIT 6, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852322",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43682,9 +43919,11 @@
     "name": "UNIT 7, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852323",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43700,9 +43939,11 @@
     "name": "UNIT 8, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852324",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -43718,9 +43959,11 @@
     "name": "UNIT 9, 83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162852325",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -44819,9 +45062,11 @@
     "name": "83A BEERWAH PARADE BEERWAH 4519",
     "locID": "LOC000102940087",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162991749",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -45966,10 +46211,9 @@
    "properties": {
     "name": "7 WONGA CIRCUIT BEERWAH 4519",
     "locID": "LOC000031582182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163045017",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47881,9 +48125,11 @@
     "name": "UNIT 10, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000112486348",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291690",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47899,9 +48145,11 @@
     "name": "UNIT 11, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000110680651",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291691",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47917,9 +48165,11 @@
     "name": "UNIT 12, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000112157887",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291692",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47935,9 +48185,11 @@
     "name": "UNIT 13, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111055194",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291693",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47953,9 +48205,11 @@
     "name": "UNIT 14, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000112612627",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291694",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47971,9 +48225,11 @@
     "name": "UNIT 15, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000110821124",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291695",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -47989,9 +48245,11 @@
     "name": "UNIT 1, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000110680651",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291696",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48007,9 +48265,11 @@
     "name": "UNIT 2, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111257978",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291697",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48025,9 +48285,11 @@
     "name": "UNIT 3, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000112028695",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291698",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48043,9 +48305,11 @@
     "name": "UNIT 4, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000113678714",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291699",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48061,9 +48325,11 @@
     "name": "UNIT 5, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111811855",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291700",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48079,9 +48345,11 @@
     "name": "UNIT 6, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111796033",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291701",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48097,9 +48365,11 @@
     "name": "UNIT 7, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000112440690",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291702",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48115,9 +48385,11 @@
     "name": "UNIT 8, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111568882",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291703",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -48133,9 +48405,11 @@
     "name": "UNIT 9, 21 SWAN STREET BEERWAH 4519",
     "locID": "LOC000110450484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163291704",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -49526,9 +49800,11 @@
     "name": "26 MAWHINNEY STREET BEERWAH 4519",
     "locID": "LOC000165960605",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163297198",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -50192,9 +50468,9 @@
     "name": "5 BLACKBEAN COURT BEERWAH 4519",
     "locID": "LOC000111696967",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163302805",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51554,9 +51830,11 @@
     "name": "UNIT 1, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564315",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371379",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51572,9 +51850,11 @@
     "name": "UNIT 2, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564315",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371380",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51590,9 +51870,11 @@
     "name": "UNIT 3, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111111596",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371381",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51608,9 +51890,11 @@
     "name": "UNIT 4, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564315",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371382",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51626,9 +51910,11 @@
     "name": "UNIT 5, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111954233",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371383",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51644,9 +51930,11 @@
     "name": "UNIT 6, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000113826171",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371384",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51662,9 +51950,11 @@
     "name": "UNIT 7, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000111260864",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163371385",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -51680,9 +51970,11 @@
     "name": "UNIT 8, 13 SWAN STREET BEERWAH 4519",
     "locID": "LOC000110772697",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163374963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -53470,9 +53762,11 @@
     "name": "UNIT 5, 35 SWAN STREET BEERWAH 4519",
     "locID": "LOC000165961147",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425052519",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -53619,9 +53913,11 @@
     "name": "10 MAWHINNEY STREET BEERWAH 4519",
     "locID": "LOC000165960605",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425210610",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -54529,8 +54825,8 @@
    "properties": {
     "name": "15 LLOYD STREET BEERWAH 4519",
     "locID": "LOC000165962525",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425641124",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -55303,10 +55599,9 @@
    "properties": {
     "name": "2 PALMERSTON CRESCENT BEERWAH 4519",
     "locID": "LOC000165963355",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425753012",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425753012"
    }
   },
   {
@@ -57602,9 +57897,11 @@
     "name": "18 SWAN STREET BEERWAH 4519",
     "locID": "LOC000165960646",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425867155",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -57765,10 +58062,9 @@
    "properties": {
     "name": "UNIT 2, 2 PALMERSTON CRESCENT BEERWAH 4519",
     "locID": "LOC000165963355",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD719087415",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719087415"
    }
   },
   {
@@ -62537,10 +62833,10 @@
    "properties": {
     "name": "11 MILLBROOK CIRCUIT BEERWAH 4519",
     "locID": "LOC100071027644",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719633176",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -64541,9 +64837,11 @@
     "name": "UNIT 1, 20 SWAN STREET BEERWAH 4519",
     "locID": "LOC000182312875",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720312403",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -64559,9 +64857,11 @@
     "name": "UNIT 2, 20 SWAN STREET BEERWAH 4519",
     "locID": "LOC000182313079",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720312416",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -64577,9 +64877,11 @@
     "name": "UNIT 3, 20 SWAN STREET BEERWAH 4519",
     "locID": "LOC000182313371",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720312893",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -64842,9 +65144,11 @@
     "name": "UNIT 1, 15 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564336",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720543876",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -64897,9 +65201,11 @@
     "name": "UNIT 3, 15 SWAN STREET BEERWAH 4519",
     "locID": "LOC000184055053",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720619610",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
@@ -65889,9 +66195,11 @@
     "name": "UNIT 2, 15 SWAN STREET BEERWAH 4519",
     "locID": "LOC000096564336",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721134246",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Sep 2029"
    }
   },
   {
