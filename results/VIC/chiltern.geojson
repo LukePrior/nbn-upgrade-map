@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-10T22:14:59.845310",
+ "generated": "2025-12-25T18:43:35.046306",
  "suburb": "CHILTERN",
  "features": [
   {
@@ -1114,8 +1114,9 @@
     "name": "11 PARK STREET CHILTERN 3683",
     "locID": "LOC000056430172",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC414530086"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC414530086",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -4678,8 +4679,9 @@
     "name": "UNIT 2, 11 PARK STREET CHILTERN 3683",
     "locID": "LOC000056430172",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420347633"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420347633",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -11843,6 +11845,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.59413301,
+     -36.14901574
+    ]
+   },
+   "properties": {
+    "name": "10 GIBSON STREET CHILTERN 3683",
+    "locID": "LOC000185893698",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424071324",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.5909298,
      -36.15057853
     ]
@@ -13543,6 +13565,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC719510954",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.60018204,
+     -36.15518506
+    ]
+   },
+   "properties": {
+    "name": "48 MOFFAT ROAD CHILTERN 3683",
+    "locID": "LOC000019426947",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719511453",
     "tech_change_status": "Eligible to Order"
    }
   },
