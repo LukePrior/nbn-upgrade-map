@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-15T21:07:37.355635",
+ "generated": "2025-12-30T13:10:18.526627",
  "suburb": "ELI WATERS",
  "features": [
   {
@@ -1526,10 +1526,9 @@
    "properties": {
     "name": "70 IBIS BOULEVARD ELI WATERS 4655",
     "locID": "LOC000029107251",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155276004",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2663,9 +2662,9 @@
     "name": "19 BOWERBIRD AVENUE ELI WATERS 4655",
     "locID": "LOC000105241627",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155285811",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10032,9 +10031,9 @@
     "name": "127 IBIS BOULEVARD ELI WATERS 4655",
     "locID": "LOC000051366850",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156564347",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13667,10 +13666,9 @@
    "properties": {
     "name": "12 LADY NELSON DRIVE ELI WATERS 4655",
     "locID": "LOC000087154588",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162103473",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162103473"
    }
   },
   {
@@ -26922,8 +26920,9 @@
     "name": "UNIT 8, 14 IBIS BOULEVARD ELI WATERS 4655",
     "locID": "LOC000176289109",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720204292"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD720204292",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -26975,8 +26974,9 @@
     "name": "UNIT 87, 14 IBIS BOULEVARD ELI WATERS 4655",
     "locID": "LOC000176289109",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720205028"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD720205028",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27009,7 +27009,7 @@
    "properties": {
     "name": "UNIT 42, 14 IBIS BOULEVARD ELI WATERS 4655",
     "locID": "LOC000197975454",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720205781"
    }
@@ -27117,6 +27117,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720206720"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.81404367,
+     -25.28551165
+    ]
+   },
+   "properties": {
+    "name": "UNIT 23, 14 IBIS BOULEVARD ELI WATERS 4655",
+    "locID": "LOC000198212121",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720207161"
    }
   },
   {
@@ -30032,6 +30049,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80058582,
+     -25.27832971
+    ]
+   },
+   "properties": {
+    "name": "84 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000189722582",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721080750"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.79991982,
      -25.27880979
     ]
@@ -30899,6 +30933,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80029176,
+     -25.27654208
+    ]
+   },
+   "properties": {
+    "name": "59 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055687",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.7995835,
      -25.27672904
     ]
@@ -30967,6 +31018,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80089691,
+     -25.27643253
+    ]
+   },
+   "properties": {
+    "name": "60 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055656",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.79979898,
      -25.27715988
     ]
@@ -31011,6 +31079,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721189246"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.80076513,
+     -25.27723619
+    ]
+   },
+   "properties": {
+    "name": "70 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055602",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189262"
    }
   },
   {
@@ -31222,6 +31307,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80046324,
+     -25.27657208
+    ]
+   },
+   "properties": {
+    "name": "61 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055660",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.80084198,
      -25.27676742
     ]
@@ -31341,6 +31443,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80042215,
+     -25.27684093
+    ]
+   },
+   "properties": {
+    "name": "63 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055781",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189806"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.80079441,
      -25.27705761
     ]
@@ -31443,6 +31562,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.79930972,
+     -25.27640898
+    ]
+   },
+   "properties": {
+    "name": "47 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055775",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.79982529,
      -25.27647886
     ]
@@ -31511,6 +31647,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.80073585,
+     -25.27741466
+    ]
+   },
+   "properties": {
+    "name": "72 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721190164"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.8155229,
      -25.26853707
     ]
@@ -31521,6 +31674,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721190179"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.80082002,
+     -25.27690135
+    ]
+   },
+   "properties": {
+    "name": "66 FREDERICK CIRCUIT ELI WATERS 4655",
+    "locID": "LOC000190055625",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721190208"
    }
   },
   {
@@ -39970,10 +40140,9 @@
    "properties": {
     "name": "48 EARL ST VINCENT CIRCUIT ELI WATERS 4655",
     "locID": "LOC000103003091",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD721821160",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721821160"
    }
   },
   {
