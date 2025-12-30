@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-15T20:25:41.059080",
+ "generated": "2025-12-30T12:30:04.610334",
  "suburb": "COOKTOWN",
  "features": [
   {
@@ -3730,10 +3730,10 @@
    "properties": {
     "name": "67 MAY STREET COOKTOWN 4895",
     "locID": "LOC000099119543",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155202892",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4150,8 +4150,8 @@
    "properties": {
     "name": "4 BOUNDARY STREET COOKTOWN 4895",
     "locID": "LOC000151352961",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155203677",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4170,8 +4170,8 @@
    "properties": {
     "name": "8 BOUNDARY STREET COOKTOWN 4895",
     "locID": "LOC000151352961",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155203684",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11771,8 +11771,8 @@
    "properties": {
     "name": "LOT 8 BOUNDARY STREET COOKTOWN 4895",
     "locID": "LOC000151352961",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161074086",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12206,8 +12206,8 @@
    "properties": {
     "name": "UNIT 2, 64 HOPE STREET COOKTOWN 4895",
     "locID": "LOC000169032734",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161368068",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14632,7 +14632,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161753472",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14787,9 +14787,9 @@
     "name": "4 HARRIGAN STREET COOKTOWN 4895",
     "locID": "LOC000085851916",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161755128",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14807,9 +14807,9 @@
     "name": "8 HARRIGAN STREET COOKTOWN 4895",
     "locID": "LOC000085851916",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161755130",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15620,8 +15620,8 @@
    "properties": {
     "name": "38 HOPE STREET COOKTOWN 4895",
     "locID": "LOC000169032734",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161756077",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15710,6 +15710,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.24909248,
+     -15.4768961
+    ]
+   },
+   "properties": {
+    "name": "51 HOPE STREET COOKTOWN 4895",
+    "locID": "LOC000033366745",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161756082",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.24942786,
      -15.47524881
     ]
@@ -15734,8 +15754,8 @@
    "properties": {
     "name": "64 HOPE STREET COOKTOWN 4895",
     "locID": "LOC000169032734",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161756085",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28882,9 +28902,9 @@
     "name": "2 HARRIGAN STREET COOKTOWN 4895",
     "locID": "LOC000085851916",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163015920",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
