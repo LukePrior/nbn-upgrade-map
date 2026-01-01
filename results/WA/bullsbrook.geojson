@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-17T17:40:39.975332",
+ "generated": "2026-01-01T03:12:20.447992",
  "suburb": "BULLSBROOK",
  "features": [
   {
@@ -3918,10 +3918,10 @@
    "properties": {
     "name": "14 NORTH AVENUE BULLSBROOK 6084",
     "locID": "LOC000043434257",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146548294",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4038,10 +4038,9 @@
    "properties": {
     "name": "1 SHEEN WAY BULLSBROOK 6084",
     "locID": "LOC000050682093",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146548300",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8737,10 +8736,9 @@
    "properties": {
     "name": "40 CAPORN STREET BULLSBROOK 6084",
     "locID": "LOC000062355328",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146551528",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16927,10 +16925,9 @@
    "properties": {
     "name": "7 PROSPECT PLACE BULLSBROOK 6084",
     "locID": "LOC000101184515",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147113466",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30231,9 +30228,9 @@
     "name": "5 SOUNNESS DRIVE BULLSBROOK 6084",
     "locID": "LOC000098311485",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "FW_NA",
     "gnaf_pid": "GAWA_162269575",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -31694,10 +31691,10 @@
    "properties": {
     "name": "71 ASHTON ROAD BULLSBROOK 6084",
     "locID": "LOC000034590123",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162275767",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32979,10 +32976,9 @@
    "properties": {
     "name": "20 CANTATA AVENUE BULLSBROOK 6084",
     "locID": "LOC000101436058",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162558523",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33414,10 +33410,9 @@
    "properties": {
     "name": "50 HURD ROAD BULLSBROOK 6084",
     "locID": "LOC000098766687",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162570688",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33454,10 +33449,9 @@
    "properties": {
     "name": "54 HURD ROAD BULLSBROOK 6084",
     "locID": "LOC000012777565",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162570690",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36210,6 +36204,23 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.09073337,
+     -31.66429683
+    ]
+   },
+   "properties": {
+    "name": "LOT 23 EDELWEISS HEIGHTS BULLSBROOK 6084",
+    "locID": "LOC000197550814",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162783098"
    }
   },
   {
@@ -39757,8 +39768,9 @@
     "name": "LOT 3 GREAT NORTHERN HIGHWAY BULLSBROOK 6084",
     "locID": "LOC000177964463",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163078879"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163078879",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44179,9 +44191,9 @@
     "name": "27 LINACRE ROAD BULLSBROOK 6084",
     "locID": "LOC000151068030",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718716153",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
