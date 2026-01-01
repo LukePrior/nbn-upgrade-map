@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-17T16:54:55.900511",
+ "generated": "2026-01-01T02:36:48.229148",
  "suburb": "YEA",
  "features": [
   {
@@ -1450,8 +1450,9 @@
     "name": "UNIT 6, 10 HIGH STREET YEA 3717",
     "locID": "LOC000039847247",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC414547945"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC414547945",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2220,10 +2221,10 @@
    "properties": {
     "name": "9 WELCH STREET YEA 3717",
     "locID": "LOC000096742158",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419731222",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8237,10 +8238,9 @@
    "properties": {
     "name": "9 WHATTON PLACE YEA 3717",
     "locID": "LOC000061417711",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420876338",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10260,9 +10260,9 @@
     "name": "82 HIGH STREET YEA 3717",
     "locID": "LOC000100608533",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421286946",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -22266,6 +22266,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.41087259,
+     -37.2171468
+    ]
+   },
+   "properties": {
+    "name": "42 BOUNDARY CREEK BOULEVARD YEA 3717",
+    "locID": "LOC000190945619",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295829"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.41825764,
      -37.21202542
     ]
@@ -22294,6 +22311,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721423554",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.42900909,
+     -37.21724161
+    ]
+   },
+   "properties": {
+    "name": "5 RATTRAY STREET YEA 3717",
+    "locID": "LOC000163574595",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721424000",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
