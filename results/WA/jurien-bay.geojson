@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2025-12-17T18:59:47.003318",
+ "generated": "2026-01-01T04:18:53.474596",
  "suburb": "JURIEN BAY",
  "features": [
   {
@@ -1610,10 +1610,9 @@
    "properties": {
     "name": "6 ESSEX STREET JURIEN BAY 6516",
     "locID": "LOC000088984204",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146951148",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5462,10 +5461,10 @@
    "properties": {
     "name": "31 WHITLOCK CORNER JURIEN BAY 6516",
     "locID": "LOC000076787451",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146962729",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16038,10 +16037,9 @@
    "properties": {
     "name": "20 PINETREE CIRCUIT JURIEN BAY 6516",
     "locID": "LOC000092966334",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147341010",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17417,9 +17415,9 @@
     "name": "14 CARMELLA STREET JURIEN BAY 6516",
     "locID": "LOC000085533950",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147356973",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18051,9 +18049,9 @@
     "name": "5 MELALEUCA WAY JURIEN BAY 6516",
     "locID": "LOC000003797360",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147368764",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23235,6 +23233,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.02984,
+     -30.31618
+    ]
+   },
+   "properties": {
+    "name": "24 BORONIA TURN JURIEN BAY 6516",
+    "locID": "LOC000133380432",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_160913123",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.03025916,
      -30.315727
     ]
@@ -25140,9 +25156,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161512713",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2030"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36865,10 +36880,9 @@
    "properties": {
     "name": "UNIT 2, 6 ESSEX STREET JURIEN BAY 6516",
     "locID": "LOC000088984204",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163272254",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39415,7 +39429,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720496093",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
