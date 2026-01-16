@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-02T03:15:49.397636",
+ "generated": "2026-01-16T08:53:43.835983",
  "suburb": "BAR BEACH",
  "features": [
   {
@@ -699,10 +699,10 @@
    "properties": {
     "name": "11 PARKWAY AVENUE BAR BEACH 2300",
     "locID": "LOC000035842601",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704007399",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4318,6 +4318,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.76999691,
+     -32.93729799
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 6 TOOKE STREET BAR BEACH 2300",
+    "locID": "LOC000073129151",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704014789",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.76878058,
      -32.93833631
     ]
@@ -6524,10 +6543,9 @@
    "properties": {
     "name": "191 BROOKS STREET BAR BEACH 2300",
     "locID": "LOC000105174258",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704016393",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10998,9 +11016,9 @@
     "name": "54 BAR BEACH AVENUE BAR BEACH 2300",
     "locID": "LOC000106224614",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW711941270",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
