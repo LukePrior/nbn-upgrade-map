@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-04T06:26:21.964487",
+ "generated": "2026-01-18T06:41:07.608826",
  "suburb": "WHITE ROCK",
  "features": [
   {
@@ -2246,8 +2246,8 @@
    "properties": {
     "name": "31-35 GIFFIN ROAD WHITE ROCK 4868",
     "locID": "LOC000049559244",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109472",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7261,9 +7261,9 @@
     "name": "4 BURTON CLOSE WHITE ROCK 4868",
     "locID": "LOC000040138209",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162109746",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9338,10 +9338,9 @@
    "properties": {
     "name": "6-8 TIFFANY STREET WHITE ROCK 4868",
     "locID": "LOC000109222336",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110242",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9378,10 +9377,9 @@
    "properties": {
     "name": "7 PARADISE CLOSE WHITE ROCK 4868",
     "locID": "LOC000032438967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110244",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12115,6 +12113,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162110391",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13641,9 +13640,9 @@
     "name": "34 KAMBARA STREET WHITE ROCK 4868",
     "locID": "LOC000065891322",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162110495",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15457,10 +15456,9 @@
    "properties": {
     "name": "56 YANGOORA STREET WHITE ROCK 4868",
     "locID": "LOC000098735475",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110621",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15576,10 +15574,9 @@
    "properties": {
     "name": "3 YATES COURT WHITE ROCK 4868",
     "locID": "LOC000097274539",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110627",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42566,10 +42563,10 @@
    "properties": {
     "name": "UNIT 28, 21-29 GIFFIN ROAD WHITE ROCK 4868",
     "locID": "LOC000149940775",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425183299",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -45042,10 +45039,10 @@
    "properties": {
     "name": "28-36 GIFFIN ROAD WHITE ROCK 4868",
     "locID": "LOC000149940775",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720737076",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -58219,6 +58216,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.8291159,
+     -27.69876537
+    ]
+   },
+   "properties": {
+    "name": "20 CLARA STREET WHITE ROCK 4306",
+    "locID": "LOC000196347888",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721867684"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.82390942,
      -27.69379286
     ]
@@ -58280,6 +58294,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721868066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.8246287,
+     -27.69321766
+    ]
+   },
+   "properties": {
+    "name": "8 LIBERTY STREET WHITE ROCK 4306",
+    "locID": "LOC000195854144",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721868250"
    }
   },
   {
