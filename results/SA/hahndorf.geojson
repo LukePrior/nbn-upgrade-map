@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-05T12:25:17.558511",
+ "generated": "2026-01-19T08:35:37.753733",
  "suburb": "HAHNDORF",
  "features": [
   {
@@ -7868,9 +7868,9 @@
     "name": "5 JOHNS LANE HAHNDORF 5245",
     "locID": "LOC000082522887",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415457255",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9725,10 +9725,10 @@
    "properties": {
     "name": "45 AURICHT ROAD HAHNDORF 5245",
     "locID": "LOC000098639468",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415479428",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12531,6 +12531,26 @@
     "gnaf_pid": "GASA_416047960",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.81814134,
+     -35.02668447
+    ]
+   },
+   "properties": {
+    "name": "17 KRAMM AVENUE HAHNDORF 5245",
+    "locID": "LOC000060425855",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416050469",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16793,10 +16813,9 @@
    "properties": {
     "name": "13 NICHOLAS PAECH DRIVE HAHNDORF 5245",
     "locID": "LOC000039243509",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423697316",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18488,9 +18507,11 @@
     "name": "54A MOUNT BARKER ROAD HAHNDORF 5245",
     "locID": "LOC000151969556",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424006609",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
