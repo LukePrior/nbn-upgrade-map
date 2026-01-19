@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-05T13:33:51.040830",
+ "generated": "2026-01-19T09:32:03.479314",
  "suburb": "WEST LAKES",
  "features": [
   {
@@ -1560,10 +1560,9 @@
    "properties": {
     "name": "7 DRIVER COURT WEST LAKES 5021",
     "locID": "LOC000005908070",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414911580",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2467,10 +2466,9 @@
    "properties": {
     "name": "2 MARTINIQUE COURT WEST LAKES 5021",
     "locID": "LOC000002629440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414914727",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4584,8 +4582,8 @@
    "properties": {
     "name": "2 SETTLERS DRIVE WEST LAKES 5021",
     "locID": "LOC000091477693",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414917358",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7033,8 +7031,8 @@
    "properties": {
     "name": "17 MARINERS CRESCENT WEST LAKES 5021",
     "locID": "LOC000005389118",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414921086",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10112,7 +10110,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414925083",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13906,7 +13906,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414931663",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14910,7 +14912,7 @@
     "gnaf_pid": "GASA_414935667",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2030"
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -21037,7 +21039,7 @@
     "gnaf_pid": "GASA_414955558",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2030"
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -22245,10 +22247,9 @@
    "properties": {
     "name": "78 LOCHSIDE DRIVE WEST LAKES 5021",
     "locID": "LOC000002651941",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414979717",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29330,8 +29331,8 @@
    "properties": {
     "name": "8 OAKMOUNT COURT WEST LAKES 5021",
     "locID": "LOC000076983781",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415383051",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34482,7 +34483,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415604214",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49180,6 +49182,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.4919865,
+     -34.88484399
+    ]
+   },
+   "properties": {
+    "name": "113 SPORTSMANS DRIVE WEST LAKES 5021",
+    "locID": "LOC000161633050",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416422374",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.4919886,
      -34.88489851
     ]
@@ -50406,7 +50427,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416432534",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -52881,9 +52903,11 @@
     "name": "SHOP 221, 111 WEST LAKES BOULEVARD WEST LAKES 5021",
     "locID": "LOC000065859399",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416536433",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -54587,10 +54611,9 @@
    "properties": {
     "name": "1 MARINERS CRESCENT WEST LAKES 5021",
     "locID": "LOC000012597190",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422266431",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56535,7 +56558,7 @@
     "gnaf_pid": "GASA_424197665",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2030"
+    "target_eligibility_quarter": "Jun 2030"
    }
   },
   {
@@ -56555,7 +56578,7 @@
     "gnaf_pid": "GASA_424197667",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2030"
+    "target_eligibility_quarter": "Jun 2030"
    }
   },
   {
@@ -67047,7 +67070,7 @@
     "gnaf_pid": "GASA_719964518",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2030"
+    "target_eligibility_quarter": "Dec 2029"
    }
   },
   {
@@ -75890,7 +75913,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721449387",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -76198,6 +76222,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721665461"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.49214215,
+     -34.88703673
+    ]
+   },
+   "properties": {
+    "name": "8A BIRKDALE GROVE WEST LAKES 5021",
+    "locID": "LOC000198254803",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721779645"
    }
   },
   {
