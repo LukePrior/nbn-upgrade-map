@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-07T22:06:24.696007",
+ "generated": "2026-01-21T12:39:49.130883",
  "suburb": "CARLTON",
  "features": [
   {
@@ -1901,10 +1901,10 @@
    "properties": {
     "name": "158-160 CARLTON RIVER ROAD CARLTON 7173",
     "locID": "LOC000023469602",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702216633",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -3784,9 +3784,11 @@
     "name": "10 JOEL AVENUE CARLTON 7173",
     "locID": "LOC000102995991",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702269881",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2030"
    }
   },
   {
@@ -7309,6 +7311,24 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.64993841,
+     -42.87166372
+    ]
+   },
+   "properties": {
+    "name": "28 RIVIERA DRIVE CARLTON 7173",
+    "locID": "LOC000198298577",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS702314769",
+    "tech_change_status": "Not Planned"
    }
   },
   {
