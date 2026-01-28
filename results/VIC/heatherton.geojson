@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-09T03:01:25.317657",
+ "generated": "2026-01-28T16:10:46.005474",
  "suburb": "HEATHERTON",
  "features": [
   {
@@ -4760,10 +4760,9 @@
    "properties": {
     "name": "12 GOLF VIEW ROAD HEATHERTON 3202",
     "locID": "LOC000008039589",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC420251062",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420251062"
    }
   },
   {
@@ -5456,7 +5455,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420337432",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9232,8 +9231,8 @@
    "properties": {
     "name": "2 ST ANDREWS DRIVE HEATHERTON 3202",
     "locID": "LOC000048731573",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421254345",
     "tech_change_status": "Eligible to Order"
    }
@@ -9357,10 +9356,10 @@
    "properties": {
     "name": "5 GANTON PLACE HEATHERTON 3202",
     "locID": "LOC000058753549",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421256294",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -9868,9 +9867,9 @@
     "name": "42 CORPORATE DRIVE HEATHERTON 3202",
     "locID": "LOC000031902002",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421405368",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10117,9 +10116,9 @@
     "name": "34 GOLF VIEW ROAD HEATHERTON 3202",
     "locID": "LOC000033620275",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421440038",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -12593,10 +12592,10 @@
    "properties": {
     "name": "35 ST GEORGES CRESCENT HEATHERTON 3202",
     "locID": "LOC000024408473",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421992585",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -12806,9 +12805,9 @@
     "name": "16 ST GEORGES CRESCENT HEATHERTON 3202",
     "locID": "LOC000072027823",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421992597",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14094,10 +14093,9 @@
    "properties": {
     "name": "41 BALTUSROL CIRCUIT HEATHERTON 3202",
     "locID": "LOC000091457772",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422078276",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422078276"
    }
   },
   {
@@ -14429,10 +14427,9 @@
    "properties": {
     "name": "12 INVERNESS PLACE HEATHERTON 3202",
     "locID": "LOC000103095980",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422096762",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422096762"
    }
   },
   {
@@ -18389,6 +18386,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.1112047,
+     -37.96196619
+    ]
+   },
+   "properties": {
+    "name": "513-535 BOUNDARY ROAD HEATHERTON 3202",
+    "locID": "LOC000166135950",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC423821782",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.11158648,
      -37.96002742
     ]
@@ -22175,9 +22190,11 @@
     "name": "453 BOUNDARY ROAD HEATHERTON 3202",
     "locID": "LOC100090969782",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425368393",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -22769,9 +22786,11 @@
     "name": "431A CENTRE DANDENONG ROAD HEATHERTON 3202",
     "locID": "LOC100090969776",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425817778",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
