@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-10T13:02:55.676059",
+ "generated": "2026-01-29T23:40:45.762389",
  "suburb": "MOUNT CLARENCE",
  "features": [
   {
@@ -1365,10 +1365,10 @@
    "properties": {
     "name": "10 BORONIA STREET MOUNT CLARENCE 6330",
     "locID": "LOC000046388289",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146975608",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3370,10 +3370,10 @@
    "properties": {
     "name": "145 HARE STREET MOUNT CLARENCE 6330",
     "locID": "LOC000074829018",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147134073",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8232,6 +8232,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.90115662,
+     -35.02057918
+    ]
+   },
+   "properties": {
+    "name": "138B HARE STREET MOUNT CLARENCE 6330",
+    "locID": "LOC000198366806",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718756156"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.89356863,
      -35.01797033
     ]
@@ -8400,6 +8417,40 @@
     "gnaf_pid": "GAWA_720889362",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.90115662,
+     -35.02057918
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 138B HARE STREET MOUNT CLARENCE 6330",
+    "locID": "LOC000198366806",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721204698"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.90127217,
+     -35.02039604
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 138B HARE STREET MOUNT CLARENCE 6330",
+    "locID": "LOC000198366868",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721204862"
    }
   }
  ]
