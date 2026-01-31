@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-11T23:45:17.512757",
+ "generated": "2026-01-31T06:17:44.347867",
  "suburb": "MACLEAN",
  "features": [
   {
@@ -10658,8 +10658,8 @@
    "properties": {
     "name": "43 RIVER STREET MACLEAN 2463",
     "locID": "LOC000072691053",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705253784",
     "tech_change_status": "Eligible to Order"
    }
@@ -15067,10 +15067,9 @@
    "properties": {
     "name": "37 RIVER STREET MACLEAN 2463",
     "locID": "LOC000049123200",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705263942",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705263942"
    }
   },
   {
@@ -21471,9 +21470,11 @@
     "name": "61 CAMERON STREET MACLEAN 2463",
     "locID": "LOC100091088128",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712264939",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -25584,10 +25585,9 @@
    "properties": {
     "name": "19 CONNORS LANE MACLEAN 2463",
     "locID": "LOC000095406898",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716391238",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716391238"
    }
   },
   {
@@ -29690,6 +29690,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717832773",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.20559772,
+     -29.4588614
+    ]
+   },
+   "properties": {
+    "name": "8 RIVERWOOD TERRACE MACLEAN 2463",
+    "locID": "LOC000043020396",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717832774",
     "tech_change_status": "Eligible to Order"
    }
   },
