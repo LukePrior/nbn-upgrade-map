@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-12T12:35:28.412023",
+ "generated": "2026-01-31T17:08:26.019294",
  "suburb": "TENTERFIELD",
  "features": [
   {
@@ -298,10 +298,9 @@
    "properties": {
     "name": "133 ROUSE STREET TENTERFIELD 2372",
     "locID": "LOC000107522312",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706025206",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706025206"
    }
   },
   {
@@ -3014,10 +3013,10 @@
    "properties": {
     "name": "19 MARGARET STREET TENTERFIELD 2372",
     "locID": "LOC000011456405",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706032149",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -4584,8 +4583,8 @@
    "properties": {
     "name": "51 WOOD STREET TENTERFIELD 2372",
     "locID": "LOC000059965023",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706042144",
     "tech_change_status": "Eligible to Order"
    }
@@ -12759,10 +12758,10 @@
    "properties": {
     "name": "95 ROUSE STREET TENTERFIELD 2372",
     "locID": "LOC000025560004",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706069278",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -13366,10 +13365,9 @@
    "properties": {
     "name": "5 KIELY STREET TENTERFIELD 2372",
     "locID": "LOC000080409972",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW706072593",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706072593"
    }
   },
   {
@@ -20181,6 +20179,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW710254555",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.02310706,
+     -29.05027946
+    ]
+   },
+   "properties": {
+    "name": "149 BULWER STREET TENTERFIELD 2372",
+    "locID": "LOC000010550033",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW710254966",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -33490,12 +33506,10 @@
    "properties": {
     "name": "632 NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC000120891368",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717711953",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -33658,12 +33672,10 @@
    "properties": {
     "name": "7986 NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC000105050448",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717711966",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2026"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -40986,12 +40998,10 @@
    "properties": {
     "name": "632B NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC000120891368",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718381195",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -41988,6 +41998,41 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.02080705,
+     -29.06208186
+    ]
+   },
+   "properties": {
+    "name": "71-73 BULWER STREET TENTERFIELD 2372",
+    "locID": "LOC000026693177",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718642268",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.0218192,
+     -29.05971989
+    ]
+   },
+   "properties": {
+    "name": "86 BULWER STREET TENTERFIELD 2372",
+    "locID": "LOC000060750786",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718642270"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.01593421,
      -29.06674883
     ]
@@ -42220,6 +42265,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718646461"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.02308237,
+     -29.04972272
+    ]
+   },
+   "properties": {
+    "name": "76-78 MARTIN STREET TENTERFIELD 2372",
+    "locID": "LOC000164320960",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718646463"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.02105735,
+     -29.05807333
+    ]
+   },
+   "properties": {
+    "name": "117 MILES STREET TENTERFIELD 2372",
+    "locID": "LOC000175113368",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718646594"
    }
   },
   {
@@ -44805,6 +44884,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.00810756,
+     -29.04052959
+    ]
+   },
+   "properties": {
+    "name": "12 RILEY STREET TENTERFIELD 2372",
+    "locID": "LOC100056455569",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719354775",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.03006482,
      -29.05641632
     ]
@@ -44835,6 +44934,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719356686",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00738726,
+     -29.04126518
+    ]
+   },
+   "properties": {
+    "name": "8 RILEY STREET TENTERFIELD 2372",
+    "locID": "LOC000055679054",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719359704",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -46633,7 +46752,7 @@
    "properties": {
     "name": "678 NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC100078037664",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720383724",
     "tech_change_status": "Not Planned"
@@ -48027,12 +48146,10 @@
    "properties": {
     "name": "7986A NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC000105050448",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721318495",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2026"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -48047,12 +48164,10 @@
    "properties": {
     "name": "7986B NEW ENGLAND HIGHWAY TENTERFIELD 2372",
     "locID": "LOC000105050448",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721326965",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2026"
+    "tech_change_status": "Not Planned"
    }
   },
   {
