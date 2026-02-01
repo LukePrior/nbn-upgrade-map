@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-13T22:58:37.473909",
+ "generated": "2026-02-01T20:23:23.474731",
  "suburb": "ROCKYVIEW",
  "features": [
   {
@@ -4061,10 +4061,10 @@
    "properties": {
     "name": "194 ANGELA ROAD ROCKYVIEW 4701",
     "locID": "LOC000008552298",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161945724",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6652,10 +6652,10 @@
    "properties": {
     "name": "122 PERROTT DRIVE ROCKYVIEW 4701",
     "locID": "LOC000025423713",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162713715",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8297,6 +8297,45 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.51046108,
+     -23.26829118
+    ]
+   },
+   "properties": {
+    "name": "14-16 REBECCA CLOSE ROCKYVIEW 4701",
+    "locID": "LOC000044454910",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425130174",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.51137856,
+     -23.26809262
+    ]
+   },
+   "properties": {
+    "name": "5-11 REBECCA CLOSE ROCKYVIEW 4701",
+    "locID": "LOC000042115420",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425130175",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51725493,
      -23.27796564
     ]
@@ -8882,10 +8921,9 @@
    "properties": {
     "name": "2-6 RACHAEL CLOSE ROCKYVIEW 4701",
     "locID": "LOC000028603364",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425175359",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10969,9 +11007,11 @@
     "name": "94 BUNYA ROAD ROCKYVIEW 4701",
     "locID": "LOC000186251469",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720932943",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
