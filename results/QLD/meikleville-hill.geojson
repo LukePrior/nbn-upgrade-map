@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-13T18:07:39.315132",
+ "generated": "2026-02-01T16:23:30.755028",
  "suburb": "MEIKLEVILLE HILL",
  "features": [
   {
@@ -471,10 +471,10 @@
    "properties": {
     "name": "55 MEIKLEVILLE STREET MEIKLEVILLE HILL 4703",
     "locID": "LOC000018369016",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155538035",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4706,7 +4706,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161198844",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5326,9 +5327,9 @@
     "name": "16A MEIKLEVILLE STREET MEIKLEVILLE HILL 4703",
     "locID": "LOC000144953910",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163369260",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5485,7 +5486,27 @@
     "gnaf_pid": "GAQLD425126782",
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2028"
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74441721,
+     -23.1142831
+    ]
+   },
+   "properties": {
+    "name": "40-42 MEIKLEVILLE STREET MEIKLEVILLE HILL 4703",
+    "locID": "LOC000033392077",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD425126784",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
