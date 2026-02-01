@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-13T14:17:51.402807",
+ "generated": "2026-02-01T13:22:55.991955",
  "suburb": "FOREST GLEN",
  "features": [
   {
@@ -114,10 +114,10 @@
    "properties": {
     "name": "54-60 PARSONS ROAD FOREST GLEN 4556",
     "locID": "LOC000087866871",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155299819",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -234,7 +234,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155305161",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -664,7 +664,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156340317",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -3072,10 +3072,11 @@
    "properties": {
     "name": "6 SAWREYS ROAD FOREST GLEN 4556",
     "locID": "LOC000078720618",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157940408",
-    "tech_change_status": "New Tech Connected"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3741,9 +3742,11 @@
     "name": "SITE 6, 71 OWEN CREEK ROAD FOREST GLEN 4556",
     "locID": "LOC000101703252",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157947185",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -3838,7 +3841,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157950174",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -4329,7 +4332,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161227286",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -4505,7 +4508,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161342027",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -4700,7 +4703,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161983827",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -6377,7 +6380,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163228514",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -6397,7 +6400,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163228515",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -6417,7 +6420,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163228516",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -14432,7 +14435,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425811741",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -14554,6 +14557,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719092057"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01593881,
+     -26.67483796
+    ]
+   },
+   "properties": {
+    "name": "18 HEATHWREN STREET FOREST GLEN 4556",
+    "locID": "LOC000143415959",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719130949"
    }
   },
   {
@@ -18008,7 +18028,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720402268",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -18208,7 +18228,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720403590",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -18248,7 +18268,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720478814",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -18285,7 +18305,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720483761",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
