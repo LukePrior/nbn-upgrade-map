@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-14T21:07:33.531071",
+ "generated": "2026-02-02T16:04:56.927571",
  "suburb": "ORFORD",
  "features": [
   {
@@ -5645,10 +5645,10 @@
    "properties": {
     "name": "1 MOUNT STREET ORFORD 7190",
     "locID": "LOC000156672195",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702301000",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6190,7 +6190,7 @@
     "gnaf_pid": "GATAS702331762",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Jun 2026"
    }
   },
   {
@@ -12578,10 +12578,9 @@
    "properties": {
     "name": "15 SEA VIEW CRESCENT ORFORD 7190",
     "locID": "LOC000008365624",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS716241689",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16808,9 +16807,11 @@
     "name": "4 WATTLE GROVE ORFORD 7190",
     "locID": "LOC000056249143",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS717990829",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -18426,10 +18427,9 @@
    "properties": {
     "name": "3 MURPHY COURT ORFORD 7190",
     "locID": "LOC000184269603",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS718910104",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20547,6 +20547,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721779282"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.89731704,
+     -42.5747734
+    ]
+   },
+   "properties": {
+    "name": "204 RHEBAN ROAD ORFORD 7190",
+    "locID": "LOC100091191490",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721779319",
+    "tech_change_status": "Not Planned"
    }
   },
   {
