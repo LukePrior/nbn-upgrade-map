@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-15T00:45:19.086255",
+ "generated": "2026-02-02T19:10:11.892953",
  "suburb": "EDENHOPE",
  "features": [
   {
@@ -8062,8 +8062,8 @@
    "properties": {
     "name": "90B ELIZABETH STREET EDENHOPE 3318",
     "locID": "LOC000025107614",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421288341",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8606,10 +8606,10 @@
    "properties": {
     "name": "28 ELIZABETH STREET EDENHOPE 3318",
     "locID": "LOC000081056794",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421575867",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11319,10 +11319,11 @@
     "name": "34-38 LAKE STREET EDENHOPE 3318",
     "locID": "LOC000124662815",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424496751",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11457,6 +11458,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424540239",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.2349435,
+     -37.06808198
+    ]
+   },
+   "properties": {
+    "name": "42 COLIN WHITES ROAD EDENHOPE 3318",
+    "locID": "LOC000124662972",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424579359",
+    "tech_change_status": "Not Planned"
    }
   },
   {
