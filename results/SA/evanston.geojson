@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-14T17:12:47.987164",
+ "generated": "2026-02-02T12:42:42.259366",
  "suburb": "EVANSTON",
  "features": [
   {
@@ -432,10 +432,10 @@
    "properties": {
     "name": "12 WARHURST COURT EVANSTON 5116",
     "locID": "LOC000058946888",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414940395",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -988,7 +988,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414964467",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4952,10 +4954,9 @@
    "properties": {
     "name": "15 MARGARET STREET EVANSTON 5116",
     "locID": "LOC000005355750",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415212007",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5890,9 +5891,9 @@
     "name": "18 BACTON STREET EVANSTON 5116",
     "locID": "LOC000049140377",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415296671",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8207,10 +8208,9 @@
    "properties": {
     "name": "13 WILTON STREET EVANSTON 5116",
     "locID": "LOC000035395285",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415444122",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11305,9 +11305,9 @@
     "name": "51 PARA ROAD EVANSTON 5116",
     "locID": "LOC000038489989",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_422069185",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17334,10 +17334,10 @@
    "properties": {
     "name": "5 DYSON STREET EVANSTON 5116",
     "locID": "LOC000105482493",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424410599",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19068,8 +19068,8 @@
    "properties": {
     "name": "43 FARROW ROAD EVANSTON 5116",
     "locID": "LOC000036969959",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424601184",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19306,10 +19306,10 @@
    "properties": {
     "name": "22 DYSON STREET EVANSTON 5116",
     "locID": "LOC000035945628",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424641390",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21345,10 +21345,10 @@
    "properties": {
     "name": "3A HIDSON STREET EVANSTON 5116",
     "locID": "LOC000140508308",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425358418",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27324,6 +27324,46 @@
     "gnaf_pid": "GASA_721756305",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.73241112,
+     -34.61380985
+    ]
+   },
+   "properties": {
+    "name": "LOT 110 HILLIER ROAD EVANSTON 5116",
+    "locID": "LOC000039514249",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721879230",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.73232045,
+     -34.61388937
+    ]
+   },
+   "properties": {
+    "name": "LOT 111 HILLIER ROAD EVANSTON 5116",
+    "locID": "LOC000023289810",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721879377",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
