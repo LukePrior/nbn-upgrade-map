@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-14T22:10:35.607471",
+ "generated": "2026-02-02T16:58:45.602617",
  "suburb": "BEECHWORTH",
  "features": [
   {
@@ -6282,10 +6282,9 @@
    "properties": {
     "name": "97 FORD STREET BEECHWORTH 3747",
     "locID": "LOC000011978241",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419738639",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9682,10 +9681,10 @@
    "properties": {
     "name": "86 OLD CHILTERN ROAD BEECHWORTH 3747",
     "locID": "LOC000039024807",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420055091",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -11491,8 +11490,8 @@
    "properties": {
     "name": "6 VICTORIA ROAD BEECHWORTH 3747",
     "locID": "LOC000089057752",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420283984",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18847,10 +18846,10 @@
    "properties": {
     "name": "7 BAKULIS COURT BEECHWORTH 3747",
     "locID": "LOC000035933901",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420945485",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20281,7 +20280,7 @@
     "gnaf_pid": "GAVIC421162541",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21019,7 +21018,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421198642",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32445,10 +32444,9 @@
    "properties": {
     "name": "35 WOOD STREET BEECHWORTH 3747",
     "locID": "LOC000047878633",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424038230",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32880,9 +32878,9 @@
     "name": "90-94 HIGH STREET BEECHWORTH 3747",
     "locID": "LOC000125023184",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424082431",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -33538,10 +33536,9 @@
    "properties": {
     "name": "25 WELLS STREET BEECHWORTH 3747",
     "locID": "LOC000125000904",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424369964",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34744,7 +34741,7 @@
     "gnaf_pid": "GAVIC424540975",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Mar 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35268,8 +35265,8 @@
    "properties": {
     "name": "UNIT 8, 32 SYDNEY ROAD BEECHWORTH 3747",
     "locID": "LOC000097346887",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424556429",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -35486,9 +35483,11 @@
     "name": "35-35A CAMP STREET BEECHWORTH 3747",
     "locID": "LOC000125005493",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424612790",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -42071,6 +42070,63 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.69875187,
+     -36.3615349
+    ]
+   },
+   "properties": {
+    "name": "10 LAKESIDE WAY BEECHWORTH 3747",
+    "locID": "LOC000069620865",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719744215",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.69865698,
+     -36.36169224
+    ]
+   },
+   "properties": {
+    "name": "8 LAKESIDE WAY BEECHWORTH 3747",
+    "locID": "LOC000163986086",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719745333",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.69833705,
+     -36.36176804
+    ]
+   },
+   "properties": {
+    "name": "4 LAKESIDE WAY BEECHWORTH 3747",
+    "locID": "LOC000193665327",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719747593",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.68020497,
      -36.36581805
     ]
@@ -42222,6 +42278,25 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.69850406,
+     -36.36175459
+    ]
+   },
+   "properties": {
+    "name": "6 LAKESIDE WAY BEECHWORTH 3747",
+    "locID": "LOC100034137139",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719756682",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45560,6 +45635,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.68835291,
+     -36.3510347
+    ]
+   },
+   "properties": {
+    "name": "18A FREDERICK STREET BEECHWORTH 3747",
+    "locID": "LOC000198339555",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847745"
    }
   },
   {
