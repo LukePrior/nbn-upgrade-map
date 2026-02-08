@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-15T02:02:46.990527",
+ "generated": "2026-02-07T23:32:34.920215",
  "suburb": "IRYMPLE",
  "features": [
   {
@@ -109,10 +109,9 @@
    "properties": {
     "name": "3 CALMERIA COURT IRYMPLE 3498",
     "locID": "LOC000051496434",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411598796",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC411598796"
    }
   },
   {
@@ -7111,10 +7110,9 @@
    "properties": {
     "name": "3 GOWRIE GROVE IRYMPLE 3498",
     "locID": "LOC000091355952",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420581115",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24447,10 +24445,9 @@
    "properties": {
     "name": "587 SANDILONG AVENUE IRYMPLE 3498",
     "locID": "LOC000070471040",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424072073",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424072073"
    }
   },
   {
@@ -26707,9 +26704,11 @@
     "name": "868 KARADOC AVENUE IRYMPLE 3498",
     "locID": "LOC000124821946",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424091904",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2030"
    }
   },
   {
@@ -33038,9 +33037,9 @@
     "name": "2838 FOURTEENTH STREET IRYMPLE 3498",
     "locID": "LOC000031734207",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424250884",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -37028,7 +37027,7 @@
     "gnaf_pid": "GAVIC424375607",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2028"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -38599,6 +38598,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.1543028,
+     -34.24068115
+    ]
+   },
+   "properties": {
+    "name": "1143-1147 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000085437157",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448536",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.15120159,
+     -34.2432383
+    ]
+   },
+   "properties": {
+    "name": "1185-1201 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000015941254",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448541",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.15033528,
      -34.24395241
     ]
@@ -38639,6 +38678,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.14745864,
+     -34.24632403
+    ]
+   },
+   "properties": {
+    "name": "1257-1273 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000124781175",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448546",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.18381885,
+     -34.21689889
+    ]
+   },
+   "properties": {
+    "name": "616-624 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000154331207",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448549",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.1826764,
      -34.21781793
     ]
@@ -38652,6 +38731,83 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.17986954,
+     -34.21958645
+    ]
+   },
+   "properties": {
+    "name": "683-705 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000166303257",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448551",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.17983145,
+     -34.2202059
+    ]
+   },
+   "properties": {
+    "name": "706-710 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC100056380318",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448552",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.1795232,
+     -34.22046031
+    ]
+   },
+   "properties": {
+    "name": "712-718 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC000159843260",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448554",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.17646645,
+     -34.22239556
+    ]
+   },
+   "properties": {
+    "name": "761-765 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC100056335178",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424448555"
    }
   },
   {
@@ -39232,6 +39388,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.1527975,
+     -34.24192245
+    ]
+   },
+   "properties": {
+    "name": "1169-1173 KARADOC AVENUE IRYMPLE 3498",
+    "locID": "LOC100056335109",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424495953",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.17235368,
      -34.23392186
     ]
@@ -39695,6 +39871,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424503846",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.19746051,
+     -34.24631411
+    ]
+   },
+   "properties": {
+    "name": "259B BELAR AVENUE IRYMPLE 3498",
+    "locID": "LOC100079847335",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424510092",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43870,10 +44066,7 @@
     "locID": "LOC100079008606",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425704023",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "gnaf_pid": "GAVIC425704023"
    }
   },
   {
@@ -45806,10 +45999,9 @@
    "properties": {
     "name": "3 CLAREMONT DRIVE IRYMPLE 3498",
     "locID": "LOC000169569481",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719207079",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50541,6 +50733,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.16161634,
+     -34.26436254
+    ]
+   },
+   "properties": {
+    "name": "176 COORONG AVENUE IRYMPLE 3498",
+    "locID": "LOC000124785626",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720358436",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.16614614,
      -34.23903906
     ]
@@ -54317,7 +54529,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721380453",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
