@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-15T07:15:00.555386",
+ "generated": "2026-02-08T03:30:51.245714",
  "suburb": "YEA",
  "features": [
   {
@@ -2241,8 +2241,8 @@
    "properties": {
     "name": "68 OLIVER STREET YEA 3717",
     "locID": "LOC000023384388",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419731356",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2901,8 +2901,8 @@
    "properties": {
     "name": "2 COOK STREET YEA 3717",
     "locID": "LOC000005178503",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419776958",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6162,7 +6162,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420392265",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14360,10 +14360,10 @@
    "properties": {
     "name": "2 NEWBERY CHASE YEA 3717",
     "locID": "LOC000085278637",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423796900",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18767,6 +18767,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.42632674,
+     -37.22045808
+    ]
+   },
+   "properties": {
+    "name": "7 SMITH STREET YEA 3717",
+    "locID": "LOC000041451546",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC719314244",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42317992,
      -37.218019
     ]
@@ -18794,10 +18812,9 @@
    "properties": {
     "name": "46 MEADOW ROAD YEA 3717",
     "locID": "LOC000184251582",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719525837",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
