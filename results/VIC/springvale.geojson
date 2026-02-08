@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-15T05:39:32.713036",
+ "generated": "2026-02-08T02:26:26.177978",
  "suburb": "SPRINGVALE",
  "features": [
   {
@@ -8395,10 +8395,9 @@
    "properties": {
     "name": "UNIT 1, 817 PRINCES HIGHWAY SPRINGVALE 3171",
     "locID": "LOC000062347924",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412336561",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31095,10 +31094,10 @@
    "properties": {
     "name": "13 HILLSIDE STREET SPRINGVALE 3171",
     "locID": "LOC000056203522",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419593767",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41713,9 +41712,10 @@
    "properties": {
     "name": "32 SMITH ROAD SPRINGVALE 3171",
     "locID": "LOC000045714919",
-    "tech": "HFC",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419736973"
+    "gnaf_pid": "GAVIC419736973",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -51554,10 +51554,9 @@
    "properties": {
     "name": "18 FAIRVIEW STREET SPRINGVALE 3171",
     "locID": "LOC000095097530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419905038",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53922,10 +53921,9 @@
    "properties": {
     "name": "817 PRINCES HIGHWAY SPRINGVALE 3171",
     "locID": "LOC000062347924",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420011657",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67280,9 +67278,10 @@
    "properties": {
     "name": "UNIT 2, 32 SMITH ROAD SPRINGVALE 3171",
     "locID": "LOC000045714919",
-    "tech": "HFC",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420359444"
+    "gnaf_pid": "GAVIC420359444",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -69451,10 +69450,9 @@
    "properties": {
     "name": "24 KEMP STREET SPRINGVALE 3171",
     "locID": "LOC000066347783",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420495541",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -83791,10 +83789,10 @@
    "properties": {
     "name": "7 FAIRVIEW STREET SPRINGVALE 3171",
     "locID": "LOC000031073511",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420803025",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92096,9 +92094,10 @@
    "properties": {
     "name": "UNIT 1, 32 SMITH ROAD SPRINGVALE 3171",
     "locID": "LOC000045552149",
-    "tech": "HFC",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420964712"
+    "gnaf_pid": "GAVIC420964712",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -117643,9 +117642,9 @@
     "name": "15 FAIRVIEW STREET SPRINGVALE 3171",
     "locID": "LOC000084774577",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421664412",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -156916,6 +156915,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424041869",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.17023755,
+     -37.94076604
+    ]
+   },
+   "properties": {
+    "name": "48-50 SMITH ROAD SPRINGVALE 3171",
+    "locID": "LOC000123802594",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC424047561",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -198125,11 +198144,62 @@
     ]
    },
    "properties": {
+    "name": "UNIT 2, 8 PRINCE STREET SPRINGVALE 3171",
+    "locID": "LOC000198427410",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721824195"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.15550219,
+     -37.94645582
+    ]
+   },
+   "properties": {
     "name": "UNIT 3, 8 PRINCE STREET SPRINGVALE 3171",
     "locID": "LOC000186391197",
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721824393"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.15550219,
+     -37.94645582
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 8 PRINCE STREET SPRINGVALE 3171",
+    "locID": "LOC000198427406",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721824623"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.15550219,
+     -37.94645582
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 8 PRINCE STREET SPRINGVALE 3171",
+    "locID": "LOC000198427434",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721824905"
    }
   }
  ]
