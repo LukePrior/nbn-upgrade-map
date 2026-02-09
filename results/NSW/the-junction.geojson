@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-16T18:31:03.528091",
+ "generated": "2026-02-09T07:12:26.306123",
  "suburb": "THE JUNCTION",
  "features": [
   {
@@ -152,12 +152,9 @@
    "properties": {
     "name": "6 KEMP STREET THE JUNCTION 2291",
     "locID": "LOC000055908440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706079997",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706079997"
    }
   },
   {
@@ -175,9 +172,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706079998",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Planned",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2029"
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -1348,10 +1345,9 @@
    "properties": {
     "name": "146 UNION STREET THE JUNCTION 2291",
     "locID": "LOC000053121262",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706089672",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6251,10 +6247,9 @@
    "properties": {
     "name": "177 CORLETTE STREET THE JUNCTION 2291",
     "locID": "LOC000057019897",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706120821",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10272,10 +10267,10 @@
    "properties": {
     "name": "179 UNION STREET THE JUNCTION 2291",
     "locID": "LOC000038193916",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711933258",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10941,9 +10936,11 @@
     "name": "15 KENRICK STREET THE JUNCTION 2291",
     "locID": "LOC000147840960",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711941347",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -13778,7 +13775,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717816654",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
