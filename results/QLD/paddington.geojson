@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-18T07:30:37.608092",
+ "generated": "2026-02-10T20:32:17.629795",
  "suburb": "PADDINGTON",
  "features": [
   {
@@ -5457,10 +5457,9 @@
    "properties": {
     "name": "14 SWEETMAN STREET PADDINGTON 4064",
     "locID": "LOC000097366730",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155680495",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155680495"
    }
   },
   {
@@ -52736,9 +52735,11 @@
     "name": "226 GIVEN TERRACE PADDINGTON 4064",
     "locID": "LOC000039471375",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158450437",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -58877,6 +58878,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.00180666,
+     -27.46016391
+    ]
+   },
+   "properties": {
+    "name": "16A LATROBE TERRACE PADDINGTON 4064",
+    "locID": "LOC000096040867",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158465178"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99415765,
      -27.46411258
     ]
@@ -64368,7 +64386,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158474416",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Planned",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -70815,7 +70833,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159179684",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Planned",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -75584,10 +75602,9 @@
    "properties": {
     "name": "UNIT 1, 41 RANLEY GROVE PADDINGTON 4064",
     "locID": "LOC000004075243",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162362410",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
