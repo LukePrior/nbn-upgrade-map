@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-18T02:42:14.333923",
+ "generated": "2026-02-10T15:59:04.379323",
  "suburb": "ALFREDTON",
  "features": [
   {
@@ -78,7 +78,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410734744",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -687,10 +687,10 @@
    "properties": {
     "name": "12 LAWRIE DRIVE ALFREDTON 3350",
     "locID": "LOC000092097129",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410737184",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1243,7 +1243,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410739498",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -5998,7 +5998,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414225965",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9063,9 +9063,9 @@
     "name": "21 MUNRO STREET ALFREDTON 3350",
     "locID": "LOC000047102551",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419718476",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12114,7 +12114,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419961370",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -12823,7 +12823,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420030344",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -16167,8 +16167,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420289558",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -16385,7 +16385,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420308281",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -16685,7 +16685,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420320934",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -16705,7 +16705,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420320948",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -18363,6 +18363,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     143.80506073,
+     -37.55613745
+    ]
+   },
+   "properties": {
+    "name": "13-15 INDI STREET ALFREDTON 3350",
+    "locID": "LOC000114893649",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420372785",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      143.8073108,
      -37.5558589
     ]
@@ -19635,10 +19655,9 @@
    "properties": {
     "name": "4 BROMPTON PLACE ALFREDTON 3350",
     "locID": "LOC000014431440",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420380413",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20150,8 +20169,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420578423",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -20365,8 +20384,8 @@
    "properties": {
     "name": "20 LAUDERDALE AVENUE ALFREDTON 3350",
     "locID": "LOC000011114002",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420604128",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20758,7 +20777,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420633283",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -20974,7 +20993,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420649528",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -20994,7 +21013,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420649529",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -22201,10 +22220,9 @@
    "properties": {
     "name": "8 JACK COURT ALFREDTON 3350",
     "locID": "LOC000030990133",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420667854",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23173,10 +23191,9 @@
    "properties": {
     "name": "8 LAUDERDALE AVENUE ALFREDTON 3350",
     "locID": "LOC000092699693",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420674195",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23628,7 +23645,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420761507",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -23725,8 +23742,8 @@
    "properties": {
     "name": "56 LONGLEY STREET ALFREDTON 3350",
     "locID": "LOC000059453189",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420851753",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23826,8 +23843,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420879774",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -24197,7 +24214,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420910054",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -24747,10 +24764,9 @@
    "properties": {
     "name": "UNIT 1, 9 CHRISTINE AVENUE ALFREDTON 3350",
     "locID": "LOC000040082264",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420948946",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27300,10 +27316,9 @@
    "properties": {
     "name": "22 CHRISTINE AVENUE ALFREDTON 3350",
     "locID": "LOC000080994297",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420992413",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27850,7 +27865,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421208513",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -28065,10 +28080,9 @@
    "properties": {
     "name": "21 VALE STREET ALFREDTON 3350",
     "locID": "LOC000047967883",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421221016",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28227,7 +28241,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421226556",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -29442,10 +29456,9 @@
    "properties": {
     "name": "34 BEAUFORT AVENUE ALFREDTON 3350",
     "locID": "LOC000074649764",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421277262",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421277262"
    }
   },
   {
@@ -29988,10 +30001,9 @@
    "properties": {
     "name": "28 HUME CRESCENT ALFREDTON 3350",
     "locID": "LOC000103116094",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421284404",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31763,7 +31775,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421526932",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -32140,7 +32152,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421543498",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -32576,7 +32588,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421550396",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -32596,7 +32608,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421550398",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -33171,7 +33183,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421564797",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -33662,10 +33674,10 @@
    "properties": {
     "name": "33 TOWONG STREET ALFREDTON 3350",
     "locID": "LOC000001947196",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421579985",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34787,6 +34799,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     143.80465169,
+     -37.55609019
+    ]
+   },
+   "properties": {
+    "name": "17-19 INDI STREET ALFREDTON 3350",
+    "locID": "LOC000124452262",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421594467",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      143.81690286,
      -37.55757895
     ]
@@ -34857,7 +34888,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421600319",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -35175,8 +35206,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421793935",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -35195,8 +35226,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421793936",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -35215,8 +35246,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421793937",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -35883,7 +35914,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421843453",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -35903,7 +35934,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421843456",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -36806,7 +36837,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421862101",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -37716,10 +37747,9 @@
    "properties": {
     "name": "1 WINDSOR AVENUE ALFREDTON 3350",
     "locID": "LOC000060978752",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421871984",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40585,7 +40615,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422100689",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -40605,8 +40635,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422100690",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -43998,10 +44028,10 @@
    "properties": {
     "name": "50 ALFREDTON DRIVE ALFREDTON 3350",
     "locID": "LOC000102925833",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423436312",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44852,10 +44882,9 @@
    "properties": {
     "name": "73 ALFREDTON DRIVE ALFREDTON 3350",
     "locID": "LOC000008559770",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423671519",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47874,8 +47903,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423916462",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -50490,7 +50519,7 @@
     "gnaf_pid": "GAVIC424264261",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -50542,10 +50571,9 @@
    "properties": {
     "name": "27 MUNRO STREET ALFREDTON 3350",
     "locID": "LOC000113297702",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424267880",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50870,10 +50898,9 @@
    "properties": {
     "name": "14 COTSWOLD DRIVE ALFREDTON 3350",
     "locID": "LOC000012911676",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424277480",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53217,10 +53244,10 @@
    "properties": {
     "name": "14 NAPIER AVENUE ALFREDTON 3350",
     "locID": "LOC000081167792",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424555172",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53585,10 +53612,9 @@
    "properties": {
     "name": "138 ASPECT PARADE ALFREDTON 3350",
     "locID": "LOC000050278844",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424576427",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54235,8 +54261,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581952",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54275,8 +54301,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581955",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54295,8 +54321,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581956",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54315,8 +54341,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581957",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54335,8 +54361,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581958",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54355,8 +54381,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581959",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -54375,7 +54401,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581961",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54415,7 +54441,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581963",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54435,7 +54461,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581964",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54475,7 +54501,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581966",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54653,7 +54679,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581976",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54673,7 +54699,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581977",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54713,7 +54739,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581979",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54733,7 +54759,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581980",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54753,7 +54779,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581981",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54773,7 +54799,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581982",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54793,7 +54819,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581984",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54813,7 +54839,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581985",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54833,7 +54859,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581986",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54853,7 +54879,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581987",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54873,7 +54899,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581988",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54893,7 +54919,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581989",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54913,7 +54939,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581990",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54933,7 +54959,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581991",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -54953,8 +54979,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424581992",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -55114,7 +55140,7 @@
     "gnaf_pid": "GAVIC424582445",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -55863,8 +55889,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424592116",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -55883,8 +55909,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424592117",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -55903,8 +55929,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424592129",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -55943,8 +55969,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424599381",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -56594,8 +56620,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424617998",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -56614,8 +56640,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424617999",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -56634,8 +56660,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424618000",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -57077,8 +57103,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424637790",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -64735,7 +64761,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424883482",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -65261,7 +65287,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424911473",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -65589,9 +65615,9 @@
     "name": "8 COURSE VIEW DRIVE ALFREDTON 3350",
     "locID": "LOC000124445937",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424927349",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66061,7 +66087,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424963922",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -66081,7 +66107,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424968317",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -66101,7 +66127,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424968318",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -66477,7 +66503,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425017105",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -68646,8 +68672,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425246728",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -69091,7 +69117,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425277477",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -71171,8 +71197,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337671",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71191,8 +71217,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337672",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71211,8 +71237,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337673",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71231,8 +71257,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337674",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71251,8 +71277,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337675",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71271,8 +71297,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337676",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71291,8 +71317,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337677",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71311,8 +71337,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337678",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71331,8 +71357,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337679",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71351,8 +71377,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337680",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71371,8 +71397,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337681",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71391,8 +71417,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337682",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -71411,8 +71437,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425337683",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -80843,7 +80869,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719519281",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -80897,7 +80923,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719534666",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -97987,7 +98013,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720455116",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -100823,8 +100849,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720571439",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
   },
@@ -102634,7 +102660,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720747319",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -104379,7 +104405,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720965075",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
@@ -104569,7 +104595,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720967404",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
    }
