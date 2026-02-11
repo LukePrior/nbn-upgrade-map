@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-18T23:35:56.987849",
+ "generated": "2026-02-11T11:53:17.395431",
  "suburb": "DRAYTON",
  "features": [
   {
@@ -2834,9 +2834,9 @@
     "name": "13 FRAWLEY STREET DRAYTON 4350",
     "locID": "LOC000068659039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156513723",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3647,10 +3647,10 @@
    "properties": {
     "name": "60 GIPPS STREET DRAYTON 4350",
     "locID": "LOC000095493948",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156518139",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4004,11 +4004,9 @@
     "name": "55 LYNCH STREET DRAYTON 4350",
     "locID": "LOC000127852452",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156520610",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2028"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6470,6 +6468,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156534711",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.92147956,
+     -27.59172408
+    ]
+   },
+   "properties": {
+    "name": "11 WATTS STREET DRAYTON 4350",
+    "locID": "LOC000035735837",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156535478",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10605,6 +10622,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91980662,
+     -27.58987721
+    ]
+   },
+   "properties": {
+    "name": "9 SOWDEN STREET DRAYTON 4350",
+    "locID": "LOC000158680888",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD159895402",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91923077,
      -27.59141987
     ]
@@ -12728,6 +12765,86 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.9052947,
+     -27.60230166
+    ]
+   },
+   "properties": {
+    "name": "142-150 CAMBOOYA STREET DRAYTON 4350",
+    "locID": "LOC000127853879",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162128717",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.90366144,
+     -27.6019512
+    ]
+   },
+   "properties": {
+    "name": "155-159 CAMBOOYA STREET DRAYTON 4350",
+    "locID": "LOC000127816794",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162128719",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.90383434,
+     -27.60398871
+    ]
+   },
+   "properties": {
+    "name": "162-170 CAMBOOYA STREET DRAYTON 4350",
+    "locID": "LOC000072597193",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162128720",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.8955583,
+     -27.61006906
+    ]
+   },
+   "properties": {
+    "name": "264-294 CAMBOOYA STREET DRAYTON 4350",
+    "locID": "LOC100056304586",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162128727",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91298317,
      -27.59532698
     ]
@@ -12798,6 +12915,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162128735",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.90997107,
+     -27.59878975
+    ]
+   },
+   "properties": {
+    "name": "94-102 CAMBOOYA STREET DRAYTON 4350",
+    "locID": "LOC000127846697",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162128738",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2028"
@@ -13477,6 +13614,26 @@
     "gnaf_pid": "GAQLD162147439",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91855882,
+     -27.59481345
+    ]
+   },
+   "properties": {
+    "name": "56-58 GIPPS STREET DRAYTON 4350",
+    "locID": "LOC000127855355",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162147440",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14364,6 +14521,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.92065351,
+     -27.59073834
+    ]
+   },
+   "properties": {
+    "name": "18-20 SOWDEN STREET DRAYTON 4350",
+    "locID": "LOC000127851136",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162196294",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91862508,
      -27.59072883
     ]
@@ -14404,6 +14581,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91823839,
+     -27.59135564
+    ]
+   },
+   "properties": {
+    "name": "29-31 SOWDEN STREET DRAYTON 4350",
+    "locID": "LOC000127811211",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162196297"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.92174694,
      -27.58992364
     ]
@@ -14434,6 +14628,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162196299",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.92127839,
+     -27.59027293
+    ]
+   },
+   "properties": {
+    "name": "6-8 SOWDEN STREET DRAYTON 4350",
+    "locID": "LOC000149880507",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162196300",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -15587,9 +15801,9 @@
     "name": "7 FRAWLEY STREET DRAYTON 4350",
     "locID": "LOC000068659039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163294946",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18069,9 +18283,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719331011",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Planned",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2030"
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
