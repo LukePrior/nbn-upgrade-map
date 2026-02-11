@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-19T04:11:12.362287",
+ "generated": "2026-02-11T16:55:27.779112",
  "suburb": "SALISBURY",
  "features": [
   {
@@ -7623,9 +7623,9 @@
     "name": "8 WEBB STREET SALISBURY 5108",
     "locID": "LOC000088481634",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415142142",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20495,10 +20495,9 @@
    "properties": {
     "name": "32 BROOKLYN AVENUE SALISBURY 5108",
     "locID": "LOC000056685887",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415274543",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30587,9 +30586,9 @@
     "name": "33 BANKS STREET SALISBURY 5108",
     "locID": "LOC000054063194",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415399408",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35538,9 +35537,9 @@
     "name": "52 COMMERCIAL ROAD SALISBURY 5108",
     "locID": "LOC000032554322",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415532394",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -35907,10 +35906,9 @@
    "properties": {
     "name": "44 COMMERCIAL ROAD SALISBURY 5108",
     "locID": "LOC000077702738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415557084",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415557084"
    }
   },
   {
@@ -57883,9 +57881,11 @@
     "name": "42 EVAN AVENUE SALISBURY 5108",
     "locID": "LOC000031686305",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416830697",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Planned",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -60825,10 +60825,9 @@
    "properties": {
     "name": "1 EVAN AVENUE SALISBURY 5108",
     "locID": "LOC000109883621",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422059154",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70443,6 +70442,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.62918639,
+     -34.76060906
+    ]
+   },
+   "properties": {
+    "name": "LOT 200 MARTINS ROAD SALISBURY 5108",
+    "locID": "LOC000158288122",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424562929"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.65413944,
      -34.76483845
     ]
@@ -74851,6 +74867,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.6282828,
+     -34.76398426
+    ]
+   },
+   "properties": {
+    "name": "103-107 WINZOR STREET SALISBURY 5108",
+    "locID": "LOC000085842103",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425455601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6264918,
+     -34.76587613
+    ]
+   },
+   "properties": {
+    "name": "112-114 WINZOR STREET SALISBURY 5108",
+    "locID": "LOC000081944133",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425455602"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.62505206,
      -34.76469124
     ]
@@ -74864,6 +74914,23 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.62958522,
+     -34.76382054
+    ]
+   },
+   "properties": {
+    "name": "80-82 WINZOR STREET SALISBURY 5108",
+    "locID": "LOC000097748624",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425455605"
    }
   },
   {
