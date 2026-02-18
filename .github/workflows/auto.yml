@@ -7,7 +7,7 @@ on:
 jobs:
   auto-suburb:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - name: Sleep for 10 seconds
         run: sleep 10s
