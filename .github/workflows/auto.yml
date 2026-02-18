@@ -7,6 +7,7 @@ on:
 jobs:
   auto-suburb:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Sleep for 10 seconds
         run: sleep 10s
@@ -53,7 +54,7 @@ jobs:
           event-type: static-deploy
 
       - name: Start new workflow
-        if: success() || failure()
+        if: always()
         uses: peter-evans/repository-dispatch@v3
         with:
           event-type: auto-suburb
