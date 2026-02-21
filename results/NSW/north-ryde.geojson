@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-01-30T14:42:04.649940",
+ "generated": "2026-02-21T16:37:31.996487",
  "suburb": "NORTH RYDE",
  "features": [
   {
@@ -5838,10 +5838,9 @@
    "properties": {
     "name": "12 BETTY HENDRY PARADE NORTH RYDE 2113",
     "locID": "LOC000055449410",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705537930",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32423,10 +32422,9 @@
    "properties": {
     "name": "7 STURDEE STREET NORTH RYDE 2113",
     "locID": "LOC000088222884",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705557213",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60765,9 +60763,11 @@
     "name": "2 JULIUS AVENUE NORTH RYDE 2113",
     "locID": "LOC100055104074",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW710869160",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2027"
    }
   },
   {
@@ -106370,6 +106370,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721745854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.11304371,
+     -33.79217261
+    ]
+   },
+   "properties": {
+    "name": "4A LILY STREET NORTH RYDE 2113",
+    "locID": "LOC000198394286",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721745927"
    }
   },
   {
