@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-02T00:53:57.874457",
+ "generated": "2026-02-23T21:59:57.198070",
  "suburb": "WONDAI",
  "features": [
   {
@@ -294,10 +294,9 @@
    "properties": {
     "name": "39 SCOTT STREET WONDAI 4606",
     "locID": "LOC000085991217",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155973615",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155973615"
    }
   },
   {
@@ -4520,9 +4519,9 @@
     "name": "19 SOUTH STREET WONDAI 4606",
     "locID": "LOC000101665488",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157272490",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -4613,9 +4612,8 @@
     "name": "77 HALY STREET WONDAI 4606",
     "locID": "LOC000024474001",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157272732",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157272732"
    }
   },
   {
@@ -9026,8 +9024,8 @@
    "properties": {
     "name": "2 BURNS CRESCENT WONDAI 4606",
     "locID": "LOC000076150788",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158867428",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9864,9 +9862,9 @@
     "name": "UNIT 1, 19 SOUTH STREET WONDAI 4606",
     "locID": "LOC000101665488",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158880881",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -10785,9 +10783,9 @@
     "name": "UNIT 2, 19 SOUTH STREET WONDAI 4606",
     "locID": "LOC000102562319",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158893643",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11231,10 +11229,9 @@
    "properties": {
     "name": "UNIT 3, 19 SOUTH STREET WONDAI 4606",
     "locID": "LOC000102639601",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD158904706",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158904706"
    }
   },
   {
@@ -14625,8 +14622,8 @@
    "properties": {
     "name": "14 OLD WONDAI ROAD WONDAI 4606",
     "locID": "LOC000009548081",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161476082",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15438,10 +15435,9 @@
    "properties": {
     "name": "1 GRANT CRESCENT WONDAI 4606",
     "locID": "LOC000034380516",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162215275",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16058,10 +16054,10 @@
    "properties": {
     "name": "15 KENT STREET WONDAI 4606",
     "locID": "LOC000051001748",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162303607",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -19799,7 +19795,7 @@
     "gnaf_pid": "GAQLD425004129",
     "tech_change_status": "Planned",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2030"
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -21276,6 +21272,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.86598051,
+     -26.31514961
+    ]
+   },
+   "properties": {
+    "name": "LOT 7 MCILHATTON STREET WONDAI 4606",
+    "locID": "LOC000128785255",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425038915",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.87454549,
      -26.32365215
     ]
@@ -21419,8 +21435,8 @@
    "properties": {
     "name": "49 OLD WONDAI ROAD WONDAI 4606",
     "locID": "LOC000009548081",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425039649",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23875,6 +23891,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.86405899,
+     -26.31582218
+    ]
+   },
+   "properties": {
+    "name": "7 MCILHATTON STREET WONDAI 4606",
+    "locID": "LOC000128785255",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719273635",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.88292947,
      -26.3236172
     ]
@@ -24179,9 +24215,8 @@
     "name": "79 HALY STREET WONDAI 4606",
     "locID": "LOC000024474001",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD719959377",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719959377"
    }
   },
   {
@@ -24275,9 +24310,8 @@
     "name": "75-79 HALY STREET WONDAI 4606",
     "locID": "LOC000024474001",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD720665454",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720665454"
    }
   },
   {
