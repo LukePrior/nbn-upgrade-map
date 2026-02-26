@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-09T12:39:55.662786",
+ "generated": "2026-02-26T06:47:54.040888",
  "suburb": "GULGONG",
  "features": [
   {
@@ -1398,8 +1398,8 @@
    "properties": {
     "name": "55 BELMORE STREET GULGONG 2852",
     "locID": "LOC000079861978",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704897328",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1994,8 +1994,8 @@
    "properties": {
     "name": "86 BELMORE STREET GULGONG 2852",
     "locID": "LOC000069536448",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704899964",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3352,10 +3352,9 @@
    "properties": {
     "name": "6 CAINBIL STREET GULGONG 2852",
     "locID": "LOC000085065760",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704903258",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3750,8 +3749,8 @@
    "properties": {
     "name": "2 FITZROY STREET GULGONG 2852",
     "locID": "LOC000040291190",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704903284",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7923,8 +7922,8 @@
    "properties": {
     "name": "26 ROUSE STREET GULGONG 2852",
     "locID": "LOC000063453197",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704915553",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8320,10 +8319,10 @@
    "properties": {
     "name": "74 MAYNE STREET GULGONG 2852",
     "locID": "LOC000009674790",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704916775",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26997,6 +26996,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.52864356,
+     -32.35358094
+    ]
+   },
+   "properties": {
+    "name": "14 WYNELLA STREET GULGONG 2852",
+    "locID": "LOC000005473056",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718608375",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.53046742,
      -32.35401195
     ]
@@ -27004,10 +27023,9 @@
    "properties": {
     "name": "15 WYNELLA STREET GULGONG 2852",
     "locID": "LOC000046620008",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718608376",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27909,6 +27927,24 @@
     "gnaf_pid": "GANSW719160078",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.54264681,
+     -32.36727033
+    ]
+   },
+   "properties": {
+    "name": "31A WENONAH STREET GULGONG 2852",
+    "locID": "LOC100091247826",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719160079",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -29079,7 +29115,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720384136",
-    "tech_change_status": "Planned",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2029"
    }
@@ -29541,7 +29577,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721805983",
-    "tech_change_status": "Planned",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2029"
    }
