@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-11T02:42:07.106555",
+ "generated": "2026-02-27T21:42:33.722812",
  "suburb": "ALLENSTOWN",
  "features": [
   {
@@ -1356,8 +1356,8 @@
    "properties": {
     "name": "184 WILLIAM STREET ALLENSTOWN 4700",
     "locID": "LOC000059706436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154939948",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3028,9 +3028,9 @@
     "name": "8 ELIZABETH STREET ALLENSTOWN 4700",
     "locID": "LOC000022299320",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154941038",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3582,10 +3582,9 @@
    "properties": {
     "name": "64 CAROLINE STREET ALLENSTOWN 4700",
     "locID": "LOC000029017359",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154941362",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5529,10 +5528,10 @@
    "properties": {
     "name": "45 DAVIS STREET ALLENSTOWN 4700",
     "locID": "LOC000076906078",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154941901",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9429,10 +9428,9 @@
    "properties": {
     "name": "99 CANNING STREET ALLENSTOWN 4700",
     "locID": "LOC000043324059",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154943611",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14422,8 +14420,8 @@
    "properties": {
     "name": "16 ROSS STREET ALLENSTOWN 4700",
     "locID": "LOC000074142753",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156195406",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23521,25 +23519,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.50238368,
-     -23.39017626
-    ]
-   },
-   "properties": {
-    "name": "22 UPPER DAWSON ROAD ALLENSTOWN 4700",
-    "locID": "LOC000180501929",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157089269",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.50077309,
      -23.40345608
     ]
@@ -31859,7 +31838,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160338453",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -33180,6 +33160,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162065680",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.50506484,
+     -23.38502121
+    ]
+   },
+   "properties": {
+    "name": "166-168 WEST STREET ALLENSTOWN 4700",
+    "locID": "LOC000136304840",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162076073",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -36311,10 +36311,9 @@
    "properties": {
     "name": "81 ARCHER STREET ALLENSTOWN 4700",
     "locID": "LOC000149351666",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425644063",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36528,7 +36527,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425665749",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -36547,7 +36547,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425665750",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -37875,26 +37876,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719712946",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.50251336,
-     -23.39010622
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 22 UPPER DAWSON ROAD ALLENSTOWN 4700",
-    "locID": "LOC000180501929",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD719729841",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -37913,7 +37896,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719732749",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
