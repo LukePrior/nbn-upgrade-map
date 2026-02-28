@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-11T14:48:20.515481",
+ "generated": "2026-02-28T09:40:42.751825",
  "suburb": "ST PETERS",
  "features": [
   {
@@ -658,24 +658,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414941727",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.6161376,
-     -34.90198896
-    ]
-   },
-   "properties": {
-    "name": "26 PLAYER AVENUE ST PETERS 5069",
-    "locID": "LOC000090723477",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414943685",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -1994,9 +1976,9 @@
     "name": "37 NINTH AVENUE ST PETERS 5069",
     "locID": "LOC000075768623",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415030726",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -4334,10 +4316,9 @@
    "properties": {
     "name": "7 EIGHTH AVENUE ST PETERS 5069",
     "locID": "LOC000043853835",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_415313855",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415313855"
    }
   },
   {
@@ -6762,10 +6743,9 @@
    "properties": {
     "name": "38 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000010838520",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415417567",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8751,10 +8731,10 @@
    "properties": {
     "name": "30 NINTH AVENUE ST PETERS 5069",
     "locID": "LOC000087256886",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415425700",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15490,10 +15470,10 @@
    "properties": {
     "name": "35 SECOND AVENUE ST PETERS 5069",
     "locID": "LOC000011709204",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415509363",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18830,7 +18810,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634217",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -18849,7 +18830,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634218",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -18868,7 +18850,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634229",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -18887,7 +18870,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634230",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -18906,7 +18890,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634231",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -18925,7 +18910,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415634232",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -19138,10 +19124,9 @@
    "properties": {
     "name": "UNIT 1, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059746076",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415637166",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415637166"
    }
   },
   {
@@ -19156,10 +19141,9 @@
    "properties": {
     "name": "UNIT 2, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059746076",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415637167",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415637167"
    }
   },
   {
@@ -19175,9 +19159,9 @@
     "name": "UNIT 3, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059701695",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415637168",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19193,9 +19177,9 @@
     "name": "UNIT 4, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000060193558",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415637169",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19210,10 +19194,9 @@
    "properties": {
     "name": "UNIT 5, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059746076",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415637170",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415637170"
    }
   },
   {
@@ -19229,9 +19212,9 @@
     "name": "UNIT 6, 102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059637598",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415637171",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -19669,7 +19652,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415643150",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -19707,7 +19691,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415643832",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -20780,9 +20765,9 @@
     "name": "UNIT 1, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077799829",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665529",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20798,9 +20783,9 @@
     "name": "UNIT 2, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077500707",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665530",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20816,9 +20801,9 @@
     "name": "UNIT 3, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077606798",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665531",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20834,9 +20819,9 @@
     "name": "UNIT 4, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077745143",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665532",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20852,9 +20837,9 @@
     "name": "UNIT 5, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077606798",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665534",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20870,9 +20855,9 @@
     "name": "UNIT 6, 3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077767525",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415665536",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22498,7 +22483,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415693584",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -22733,7 +22719,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415720679",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -22752,7 +22739,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415723294",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -22771,7 +22759,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415723295",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -22790,7 +22779,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415723296",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -25130,10 +25120,9 @@
    "properties": {
     "name": "102 SEVENTH AVENUE ST PETERS 5069",
     "locID": "LOC000059746076",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_422041399",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_422041399"
    }
   },
   {
@@ -25359,9 +25348,9 @@
     "name": "3 THIRD AVENUE ST PETERS 5069",
     "locID": "LOC000077606798",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422046217",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -26036,10 +26025,9 @@
    "properties": {
     "name": "1 FOURTH AVENUE ST PETERS 5069",
     "locID": "LOC000018687124",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_422263025",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_422263025"
    }
   },
   {
@@ -27327,10 +27315,9 @@
    "properties": {
     "name": "82 FOURTH AVENUE ST PETERS 5069",
     "locID": "LOC000036162795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422263096",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29654,10 +29641,9 @@
    "properties": {
     "name": "LOT 1 FOURTH AVENUE ST PETERS 5069",
     "locID": "LOC000018687124",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_720303913",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720303913"
    }
   },
   {
