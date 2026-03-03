@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-19T22:40:30.615602",
+ "generated": "2026-03-03T14:50:45.633652",
  "suburb": "HEIDELBERG HEIGHTS",
  "features": [
   {
@@ -637,7 +637,7 @@
    "properties": {
     "name": "38 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000002913358",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411566665"
    }
@@ -1184,7 +1184,7 @@
    "properties": {
     "name": "424 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000108968166",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC413196266"
    }
@@ -1237,7 +1237,7 @@
    "properties": {
     "name": "6 ARNOLD AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000093041008",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC413197337"
    }
@@ -3116,10 +3116,10 @@
    "properties": {
     "name": "69 DRESDEN STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000026141552",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419555300",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -4422,24 +4422,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.049329,
-     -37.746843
-    ]
-   },
-   "properties": {
-    "name": "83 ALTONA STREET HEIDELBERG HEIGHTS 3081",
-    "locID": "LOC000075155761",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419556778",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.049145,
      -37.746507
     ]
@@ -4901,7 +4883,7 @@
    "properties": {
     "name": "68 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000104736060",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419557940"
    }
@@ -5325,7 +5307,7 @@
    "properties": {
     "name": "8 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000002897566",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419558663"
    }
@@ -5545,6 +5527,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.04836971,
+     -37.74024624
+    ]
+   },
+   "properties": {
+    "name": "504 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167877790",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419560078",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.0485,
      -37.739512
     ]
@@ -5674,7 +5674,7 @@
    "properties": {
     "name": "UNIT 2, 558 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000073993674",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419580438"
    }
@@ -6395,7 +6395,7 @@
    "properties": {
     "name": "UNIT 5, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076035867",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419738253"
    }
@@ -6608,8 +6608,9 @@
     "name": "UNIT 3, 450 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000085011392",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419751502"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419751502",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -6979,7 +6980,7 @@
    "properties": {
     "name": "11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012110096",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419786018"
    }
@@ -7051,8 +7052,9 @@
     "name": "UNIT 1, 141 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060593696",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419790302"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC419790302",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -7067,7 +7069,7 @@
    "properties": {
     "name": "UNIT 1, 144 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000080937893",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419795661"
    }
@@ -8264,7 +8266,7 @@
    "properties": {
     "name": "11 MILTON COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060399940",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419856597"
    }
@@ -8491,7 +8493,7 @@
    "properties": {
     "name": "167 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000092775665",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419856955"
    }
@@ -9247,7 +9249,7 @@
    "properties": {
     "name": "59 LLOYD STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000042368452",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419858751"
    }
@@ -10437,6 +10439,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.05567676,
+     -37.73600146
+    ]
+   },
+   "properties": {
+    "name": "17 BURNS COURT HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167868206",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419862740",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.05237099,
      -37.74132362
     ]
@@ -10461,7 +10481,7 @@
    "properties": {
     "name": "UNIT 1, 6 ARNOLD AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000093041008",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419862845"
    }
@@ -10653,8 +10673,8 @@
    "properties": {
     "name": "236 BELL STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000035926067",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419863955",
     "tech_change_status": "Eligible to Order"
    }
@@ -11073,7 +11093,7 @@
    "properties": {
     "name": "158 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000096782992",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419913820"
    }
@@ -11090,7 +11110,7 @@
    "properties": {
     "name": "17 MILTON COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000095558374",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419914178"
    }
@@ -11547,7 +11567,7 @@
    "properties": {
     "name": "150 NORTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075596376",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420030255"
    }
@@ -11937,7 +11957,7 @@
    "properties": {
     "name": "UNIT 4, 448 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000056485909",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420048406"
    }
@@ -12185,7 +12205,7 @@
    "properties": {
     "name": "UNIT 4, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076278754",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420059131"
    }
@@ -12220,7 +12240,7 @@
    "properties": {
     "name": "UNIT 16, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075920242",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420059133"
    }
@@ -12414,7 +12434,7 @@
    "properties": {
     "name": "510 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012848055",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420075488"
    }
@@ -12468,8 +12488,9 @@
     "name": "UNIT 2, 141 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060593696",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420078453"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC420078453",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -12518,7 +12539,7 @@
    "properties": {
     "name": "9 MILTON COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000048764587",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420095065"
    }
@@ -12731,8 +12752,9 @@
     "name": "6 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871271",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420124105"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC420124105",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -12852,7 +12874,7 @@
    "properties": {
     "name": "176 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000105752578",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420124117"
    }
@@ -13556,7 +13578,7 @@
    "properties": {
     "name": "8 MILLER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871715",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420144053"
    }
@@ -13660,7 +13682,7 @@
    "properties": {
     "name": "45 LLOYD STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000106947883",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420145054"
    }
@@ -14699,7 +14721,7 @@
    "properties": {
     "name": "UNIT 1, 1 SHAKESPEARE GROVE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060561563",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420153658"
    }
@@ -15559,8 +15581,9 @@
     "name": "64 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167875057",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420166156"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC420166156",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -16206,7 +16229,7 @@
    "properties": {
     "name": "82 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000006863586",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420187111"
    }
@@ -16258,7 +16281,7 @@
    "properties": {
     "name": "12 SHELLEY STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000095192059",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420211842"
    }
@@ -16502,7 +16525,7 @@
    "properties": {
     "name": "UNIT 1, 12 SHELLEY STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000095192059",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420238742"
    }
@@ -16966,7 +16989,7 @@
    "properties": {
     "name": "UNIT 7, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075652008",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420341640"
    }
@@ -17037,8 +17060,9 @@
     "name": "UNIT 1, 64 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000087593854",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420341935"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC420341935",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17089,7 +17113,7 @@
    "properties": {
     "name": "UNIT 8, 19 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871244",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420342631"
    }
@@ -17124,7 +17148,7 @@
    "properties": {
     "name": "UNIT 4, 424 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000108968166",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420344095"
    }
@@ -17426,7 +17450,7 @@
    "properties": {
     "name": "UNIT 3, 11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012110096",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420349826"
    }
@@ -17479,7 +17503,7 @@
    "properties": {
     "name": "UNIT 2, 9 MILTON COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000048690132",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420349833"
    }
@@ -17848,8 +17872,8 @@
    "properties": {
     "name": "UNIT 3, 31 JAMES STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000102584422",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420368584",
     "tech_change_status": "Eligible to Order"
    }
@@ -17937,7 +17961,7 @@
    "properties": {
     "name": "UNIT 1, 98 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000007832839",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420390928"
    }
@@ -19109,6 +19133,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420455680"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.04951524,
+     -37.74214502
+    ]
+   },
+   "properties": {
+    "name": "88 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167875090",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420455681",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20490,7 +20532,7 @@
    "properties": {
     "name": "6 MARY AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000008573504",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420462747"
    }
@@ -21047,7 +21089,7 @@
    "properties": {
     "name": "22 BAMFIELD ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000006093773",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420474650"
    }
@@ -21259,7 +21301,7 @@
    "properties": {
     "name": "10 JAMES STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000106571617",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420475587"
    }
@@ -22079,7 +22121,7 @@
    "properties": {
     "name": "UNIT 2, 6 ARNOLD AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000092936217",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420499704"
    }
@@ -22113,7 +22155,7 @@
    "properties": {
     "name": "84 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000050175659",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420510113"
    }
@@ -22341,7 +22383,7 @@
    "properties": {
     "name": "UNIT 2, 49 OUTHWAITE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075994293",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420529775"
    }
@@ -23029,7 +23071,7 @@
    "properties": {
     "name": "UNIT 2, 17 MILTON COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000095424638",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420637988"
    }
@@ -23046,10 +23088,10 @@
    "properties": {
     "name": "UNIT 3, 104 HAIG STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000009711708",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420640424",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -23098,7 +23140,7 @@
    "properties": {
     "name": "UNIT 1, 11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012110096",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420642626"
    }
@@ -23487,7 +23529,7 @@
    "properties": {
     "name": "UNIT 3, 424 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000108968166",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420672170"
    }
@@ -23787,7 +23829,7 @@
    "properties": {
     "name": "51 LLOYD STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000011172533",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420752384"
    }
@@ -24856,7 +24898,7 @@
    "properties": {
     "name": "UNIT 1, 38 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000002913358",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420760546"
    }
@@ -24891,7 +24933,7 @@
    "properties": {
     "name": "57 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000036648022",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420760548"
    }
@@ -25223,10 +25265,10 @@
    "properties": {
     "name": "34 BONAR STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167868101",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420762905",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -25624,7 +25666,7 @@
    "properties": {
     "name": "59 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000044890995",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420763279"
    }
@@ -26307,7 +26349,7 @@
    "properties": {
     "name": "5 GLOVER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000056757768",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420769915"
    }
@@ -27047,7 +27089,7 @@
    "properties": {
     "name": "19 LAW STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000039598015",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420775538"
    }
@@ -27100,7 +27142,7 @@
    "properties": {
     "name": "41 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000048456340",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420775556"
    }
@@ -27647,7 +27689,7 @@
    "properties": {
     "name": "UNIT 1, 171 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000092079696",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420841080"
    }
@@ -28268,7 +28310,7 @@
    "properties": {
     "name": "UNIT 5, 448 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000056273889",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420945836"
    }
@@ -28479,7 +28521,7 @@
    "properties": {
     "name": "UNIT 10, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076184521",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420956808"
    }
@@ -28496,7 +28538,7 @@
    "properties": {
     "name": "UNIT 15, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075724632",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420956809"
    }
@@ -28513,8 +28555,8 @@
    "properties": {
     "name": "31 JAMES STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000102584422",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420957633",
     "tech_change_status": "Eligible to Order"
    }
@@ -28726,7 +28768,7 @@
    "properties": {
     "name": "96 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012758318",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420974094"
    }
@@ -28814,7 +28856,7 @@
    "properties": {
     "name": "UNIT 1, 40 ST HELLIER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000075920972",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421024068"
    }
@@ -29044,7 +29086,7 @@
    "properties": {
     "name": "94 ALTONA STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000005368701",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421047599"
    }
@@ -29271,7 +29313,7 @@
    "properties": {
     "name": "7 ORR STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000015061050",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421054174"
    }
@@ -29432,6 +29474,24 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421059390",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.04962582,
+     -37.7347315
+    ]
+   },
+   "properties": {
+    "name": "97 DOUGHARTY ROAD HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167868494",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421059391",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -29658,7 +29718,7 @@
    "properties": {
     "name": "32 SHELLEY STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000009369826",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421062055"
    }
@@ -30116,7 +30176,7 @@
    "properties": {
     "name": "30 MARIE AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000097451641",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421064927"
    }
@@ -30348,7 +30408,7 @@
    "properties": {
     "name": "215 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000065927450",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421067225"
    }
@@ -30648,8 +30708,9 @@
     "name": "UNIT 1, 99 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000066309668",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421071226"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421071226",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -31577,7 +31638,7 @@
    "properties": {
     "name": "59 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000035060188",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421076786"
    }
@@ -33055,7 +33116,7 @@
    "properties": {
     "name": "UNIT 3, 6 ARNOLD AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000093204368",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421093468"
    }
@@ -33108,7 +33169,7 @@
    "properties": {
     "name": "UNIT 3, 1 SHAKESPEARE GROVE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060561563",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421093471"
    }
@@ -33160,7 +33221,7 @@
    "properties": {
     "name": "UNIT 3, 38 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000002913358",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421105630"
    }
@@ -33497,7 +33558,7 @@
    "properties": {
     "name": "99 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000066290503",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421134367"
    }
@@ -34146,8 +34207,9 @@
     "name": "UNIT 13, 488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076012798",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421258257"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421258257",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -34251,7 +34313,7 @@
    "properties": {
     "name": "UNIT 1, 12 WORDSWORTH AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000052156585",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421269906"
    }
@@ -34321,7 +34383,7 @@
    "properties": {
     "name": "UNIT 5, 424 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000109710903",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421273925"
    }
@@ -34409,7 +34471,7 @@
    "properties": {
     "name": "UNIT 6, 19 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871228",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421276470"
    }
@@ -34766,7 +34828,7 @@
    "properties": {
     "name": "157 NORTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000065640490",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421347736"
    }
@@ -36864,7 +36926,7 @@
    "properties": {
     "name": "43 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000007818449",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421366501"
    }
@@ -36989,8 +37051,9 @@
     "name": "474 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000033905083",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421366552"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421366552",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -38505,7 +38568,7 @@
    "properties": {
     "name": "144 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000082867792",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421444726"
    }
@@ -38575,7 +38638,7 @@
    "properties": {
     "name": "171 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000090585349",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421448651"
    }
@@ -38699,7 +38762,7 @@
    "properties": {
     "name": "34 BAMFIELD ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000039886173",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421487873"
    }
@@ -38768,7 +38831,7 @@
    "properties": {
     "name": "36 MONTGOMERY STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000048801661",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421502184"
    }
@@ -38803,7 +38866,7 @@
    "properties": {
     "name": "7 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000017767365",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421512787"
    }
@@ -38855,7 +38918,7 @@
    "properties": {
     "name": "95 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000016105828",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421544552"
    }
@@ -39011,10 +39074,9 @@
    "properties": {
     "name": "UNIT 2, 39 BAMFIELD ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000009333946",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421565905",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421565905"
    }
   },
   {
@@ -39154,7 +39216,7 @@
    "properties": {
     "name": "UNIT 2, 11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000012110096",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421573483"
    }
@@ -39417,7 +39479,7 @@
    "properties": {
     "name": "UNIT 6, 424 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000109835513",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421591287"
    }
@@ -40319,7 +40381,7 @@
    "properties": {
     "name": "161 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000039619156",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421667176"
    }
@@ -40702,7 +40764,7 @@
    "properties": {
     "name": "141 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000046101612",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421678135"
    }
@@ -41126,6 +41188,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421681682",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.04646387,
+     -37.75022926
+    ]
+   },
+   "properties": {
+    "name": "388 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167877099",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421681683"
    }
   },
   {
@@ -41597,7 +41676,7 @@
    "properties": {
     "name": "UNIT 1, 25 GLOVER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000045914061",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421684466"
    }
@@ -41972,6 +42051,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421688036"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.05445761,
+     -37.74262511
+    ]
+   },
+   "properties": {
+    "name": "38 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
+    "locID": "LOC000167874996",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421688037",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -43582,7 +43679,7 @@
    "properties": {
     "name": "51 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000023536351",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421721859"
    }
@@ -43652,7 +43749,7 @@
    "properties": {
     "name": "179 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000050896385",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421736324"
    }
@@ -43990,8 +44087,9 @@
     "name": "UNIT 2, 450 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000085011392",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421835394"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421835394",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -44274,8 +44372,9 @@
     "name": "UNIT 2, 64 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000087635003",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421848801"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421848801",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -44624,7 +44723,7 @@
    "properties": {
     "name": "2 FLINDERS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000045659894",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421870111"
    }
@@ -44710,7 +44809,7 @@
    "properties": {
     "name": "77 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000013574024",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421876350"
    }
@@ -44921,7 +45020,7 @@
    "properties": {
     "name": "UNIT 2, 12 WORDSWORTH AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000052156585",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421890167"
    }
@@ -45130,7 +45229,7 @@
    "properties": {
     "name": "38 ST HELLIER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000010939823",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422020859"
    }
@@ -45182,7 +45281,7 @@
    "properties": {
     "name": "141 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060600874",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422023310"
    }
@@ -45199,7 +45298,7 @@
    "properties": {
     "name": "71 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000051081539",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422023451"
    }
@@ -45234,7 +45333,7 @@
    "properties": {
     "name": "25 GLOVER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000045361790",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422023751"
    }
@@ -45285,7 +45384,7 @@
    "properties": {
     "name": "12 WORDSWORTH AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000051285246",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422037539"
    }
@@ -45407,7 +45506,7 @@
    "properties": {
     "name": "14 BURNS COURT HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000093944143",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422081856"
    }
@@ -45424,7 +45523,7 @@
    "properties": {
     "name": "9 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000029288381",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422087316"
    }
@@ -45512,7 +45611,7 @@
    "properties": {
     "name": "88 LLOYD STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000024146425",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422100551"
    }
@@ -45547,7 +45646,7 @@
    "properties": {
     "name": "73 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000046668831",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422103012"
    }
@@ -45635,7 +45734,7 @@
    "properties": {
     "name": "64 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000088737504",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422108980"
    }
@@ -45652,7 +45751,7 @@
    "properties": {
     "name": "1 SHAKESPEARE GROVE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060561563",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422112911"
    }
@@ -45669,7 +45768,7 @@
    "properties": {
     "name": "40 ST HELLIER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076188008",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422114338"
    }
@@ -45758,8 +45857,9 @@
     "name": "450 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000085011392",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422119170"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422119170",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -45792,7 +45892,7 @@
    "properties": {
     "name": "488 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000076184521",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422119172"
    }
@@ -46020,8 +46120,8 @@
    "properties": {
     "name": "UNIT 3, 43 OUTHWAITE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000082077973",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422417929",
     "tech_change_status": "Eligible to Order"
    }
@@ -46482,7 +46582,7 @@
    "properties": {
     "name": "UNIT 3, 12 SHELLEY STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000095192059",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423368330"
    }
@@ -47173,8 +47273,9 @@
     "name": "UNIT 2, 71 ALTONA STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000024706489",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423658170"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC423658170",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -47810,7 +47911,7 @@
    "properties": {
     "name": "UNIT 1, 59 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000034993039",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423943417"
    }
@@ -47827,7 +47928,7 @@
    "properties": {
     "name": "UNIT 2, 59 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000035060188",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423943418"
    }
@@ -48057,7 +48158,7 @@
    "properties": {
     "name": "UNIT 3, 59 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000035060188",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423977583"
    }
@@ -48622,7 +48723,7 @@
    "properties": {
     "name": "UNIT 22, 15 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000050683289",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424071714"
    }
@@ -48783,7 +48884,7 @@
    "properties": {
     "name": "UNIT 23, 15 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000051117480",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424074753"
    }
@@ -50269,7 +50370,7 @@
    "properties": {
     "name": "UNIT 2, 566 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000123620228",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424547912"
    }
@@ -52418,10 +52519,10 @@
    "properties": {
     "name": "UNIT 3, 34 BONAR STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167868101",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425078511",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -52453,10 +52554,10 @@
    "properties": {
     "name": "UNIT 5, 34 BONAR STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167868101",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425078513",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -53835,8 +53936,9 @@
     "name": "UNIT 3, 19 LAW STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167870152",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425315153"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425315153",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -53994,8 +54096,9 @@
     "name": "UNIT 2, 10 SWANSTON STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167875558",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425321369"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425321369",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -54297,7 +54400,7 @@
    "properties": {
     "name": "UNIT 7, 22 BAMFIELD ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167867287",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425412288"
    }
@@ -54492,7 +54595,7 @@
    "properties": {
     "name": "UNIT 1, 6 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871228",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425422334"
    }
@@ -55028,7 +55131,7 @@
    "properties": {
     "name": "UNIT 1, 388 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167877099",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425540173"
    }
@@ -55364,7 +55467,7 @@
    "properties": {
     "name": "UNIT 1, 474 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167877788",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425572072"
    }
@@ -55399,7 +55502,7 @@
    "properties": {
     "name": "UNIT 2, 474 WATERDALE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167877788",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425572074"
    }
@@ -55770,8 +55873,9 @@
     "name": "UNIT 12, 24 MILLER STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100063708113",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425682752"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425682752",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -56888,8 +56992,9 @@
     "name": "UNIT 1, 141 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167873120",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425785896"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425785896",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -56905,8 +57010,9 @@
     "name": "UNIT 2, 141 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167873120",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425785897"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425785897",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -56922,8 +57028,9 @@
     "name": "UNIT 3, 141 PORTER ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167873120",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425785898"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425785898",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -58925,8 +59032,9 @@
     "name": "UNIT 2, 64 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167875057",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719099850"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC719099850",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -59045,7 +59153,7 @@
    "properties": {
     "name": "55 MARIE AVENUE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167868473",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719101654"
    }
@@ -59131,7 +59239,7 @@
    "properties": {
     "name": "UNIT 2, 68 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167871302",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719101944"
    }
@@ -59268,7 +59376,7 @@
    "properties": {
     "name": "UNIT 1, 157 NORTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100074620252",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719103084"
    }
@@ -59409,8 +59517,9 @@
     "name": "UNIT 3, 64 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167875061",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719104430"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC719104430",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -60237,8 +60346,9 @@
     "name": "UNIT 1, 64 SOUTHERN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167875026",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719115479"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC719115479",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -60581,10 +60691,9 @@
    "properties": {
     "name": "UNIT 6, 187 WAIORA ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000167876896",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719308127",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719308127"
    }
   },
   {
@@ -60986,7 +61095,7 @@
    "properties": {
     "name": "UNIT 3, 89 OUTHWAITE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100074595857",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719418241"
    }
@@ -61159,7 +61268,7 @@
    "properties": {
     "name": "UNIT 2, 89 OUTHWAITE ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100074595857",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719437264"
    }
@@ -62285,8 +62394,9 @@
     "name": "UNIT 5, 7 ORR STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000181127607",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719751952"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719751952",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -63548,7 +63658,7 @@
    "properties": {
     "name": "UNIT 3, 41 MCEWAN ROAD HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100074631179",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719919721"
    }
@@ -65182,8 +65292,9 @@
     "name": "UNIT 2, 95 HAIG STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC100065983939",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720164505"
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC720164505",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -67566,7 +67677,7 @@
    "properties": {
     "name": "UNIT 1, 3 SHAKESPEARE GROVE HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000060452664",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720650631"
    }
@@ -68638,7 +68749,7 @@
    "properties": {
     "name": "UNIT 5, 11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000066063541",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720776121"
    }
@@ -68655,7 +68766,7 @@
    "properties": {
     "name": "UNIT 6, 11 DENNIS STREET HEIDELBERG HEIGHTS 3081",
     "locID": "LOC000066458917",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720776502"
    }
