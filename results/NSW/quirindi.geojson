@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-21T19:54:56.526547",
+ "generated": "2026-03-05T11:51:31.733418",
  "suburb": "QUIRINDI",
  "features": [
   {
@@ -96,7 +96,7 @@
     "name": "110 PRYOR STREET QUIRINDI 2343",
     "locID": "LOC000014754802",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705699083",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -116,7 +116,7 @@
     "name": "112 PRYOR STREET QUIRINDI 2343",
     "locID": "LOC000091495724",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705699084",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3489,8 +3489,8 @@
    "properties": {
     "name": "18 BANK LANE QUIRINDI 2343",
     "locID": "LOC000041724244",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705740125",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5247,7 +5247,7 @@
     "name": "17 DALLEY STREET QUIRINDI 2343",
     "locID": "LOC000010978375",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705743536",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6896,7 +6896,7 @@
     "name": "131 HENRY STREET QUIRINDI 2343",
     "locID": "LOC000016692805",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705749920",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7395,8 +7395,8 @@
    "properties": {
     "name": "19 BANK LANE QUIRINDI 2343",
     "locID": "LOC000019763198",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705757412",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9791,9 +9791,9 @@
     "name": "188 GEORGE STREET QUIRINDI 2343",
     "locID": "LOC000018987289",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705764378",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16385,9 +16385,9 @@
     "name": "38 MILNER PARADE QUIRINDI 2343",
     "locID": "LOC000006455010",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705794850",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24039,10 +24039,9 @@
    "properties": {
     "name": "33 NOWLAND AVENUE QUIRINDI 2343",
     "locID": "LOC000014721075",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712069820",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26936,7 +26935,7 @@
     "name": "12 CORBOULD STREET QUIRINDI 2343",
     "locID": "LOC000052783338",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716751991",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31055,7 +31054,7 @@
     "name": "56 STATION STREET QUIRINDI 2343",
     "locID": "LOC000115429346",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717539799",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33542,6 +33541,26 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718199021",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67740416,
+     -31.51950934
+    ]
+   },
+   "properties": {
+    "name": "122-124 LODER STREET QUIRINDI 2343",
+    "locID": "LOC000052588155",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW718199022",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36595,7 +36614,7 @@
     "name": "5 GAMBLE STREET QUIRINDI 2343",
     "locID": "LOC000151373387",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718801364",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37850,6 +37869,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW719063309",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.67618016,
+     -31.5028207
+    ]
+   },
+   "properties": {
+    "name": "25 STUART STREET QUIRINDI 2343",
+    "locID": "LOC000067674143",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW719064976",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
