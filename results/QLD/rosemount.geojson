@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-23T18:02:27.712572",
+ "generated": "2026-04-11T17:55:42.967781",
  "suburb": "ROSEMOUNT",
  "features": [
   {
@@ -763,7 +763,7 @@
     "name": "65 PAYNTERS CREEK ROAD ROSEMOUNT 4560",
     "locID": "LOC000097802511",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155769406",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1279,7 +1279,7 @@
     "name": "46 PETRIE CREEK ROAD ROSEMOUNT 4560",
     "locID": "LOC000087818880",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155773002",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2673,10 +2673,10 @@
    "properties": {
     "name": "182 PANORAMA DRIVE ROSEMOUNT 4560",
     "locID": "LOC000074587743",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156896570",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2853,7 +2853,7 @@
     "name": "201B PANORAMA DRIVE ROSEMOUNT 4560",
     "locID": "LOC000063018756",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156896585",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2972,10 +2972,9 @@
    "properties": {
     "name": "208B PANORAMA DRIVE ROSEMOUNT 4560",
     "locID": "LOC000074119121",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156896593",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3028,8 +3027,8 @@
    "properties": {
     "name": "134 PANORAMA DRIVE ROSEMOUNT 4560",
     "locID": "LOC000015753514",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156897419",
     "tech_change_status": "Eligible to Order"
    }
@@ -3272,10 +3271,10 @@
    "properties": {
     "name": "177 PANORAMA DRIVE ROSEMOUNT 4560",
     "locID": "LOC000051014455",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156897443",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3889,10 +3888,10 @@
    "properties": {
     "name": "38 CELESTINE PLACE ROSEMOUNT 4560",
     "locID": "LOC000014491135",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157043785",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5080,7 +5079,7 @@
     "name": "64 PRINGLE ROAD ROSEMOUNT 4560",
     "locID": "LOC000056555031",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157054657",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5817,7 +5816,7 @@
     "name": "208-222 UPPER ROSEMOUNT ROAD ROSEMOUNT 4560",
     "locID": "LOC000061473011",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157068706",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5837,7 +5836,7 @@
     "name": "217-225 UPPER ROSEMOUNT ROAD ROSEMOUNT 4560",
     "locID": "LOC000128451335",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157068707",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6624,6 +6623,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.99110748,
+     -26.62346371
+    ]
+   },
+   "properties": {
+    "name": "168-170 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000128460139",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157086150",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99155627,
      -26.62390755
     ]
@@ -7030,10 +7049,10 @@
    "properties": {
     "name": "19 KERADA ROAD ROSEMOUNT 4560",
     "locID": "LOC000015265327",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158567146",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9573,6 +9592,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.99386063,
+     -26.62141634
+    ]
+   },
+   "properties": {
+    "name": "215-225 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000128451293",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161276287",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98377014,
      -26.62283232
     ]
@@ -9601,9 +9640,9 @@
     "name": "339 PETRIE CREEK ROAD ROSEMOUNT 4560",
     "locID": "LOC000023260060",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161276293",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9625,6 +9664,26 @@
     "gnaf_pid": "GAQLD161276301",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97486935,
+     -26.62777159
+    ]
+   },
+   "properties": {
+    "name": "48-62 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000128477691",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161276302",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -9666,6 +9725,26 @@
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97750269,
+     -26.62320729
+    ]
+   },
+   "properties": {
+    "name": "67-71 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000091347740",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161276310",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10980,6 +11059,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.00834008,
+     -26.62055004
+    ]
+   },
+   "properties": {
+    "name": "362-364 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000088838810",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163234896",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98077475,
      -26.62496185
     ]
@@ -11270,6 +11369,46 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163266090",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97601769,
+     -26.62403454
+    ]
+   },
+   "properties": {
+    "name": "63-65 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000099220562",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD163266091",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97919323,
+     -26.62124863
+    ]
+   },
+   "properties": {
+    "name": "79-97 PETRIE CREEK ROAD ROSEMOUNT 4560",
+    "locID": "LOC000153488919",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163266092",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2027"
@@ -14228,7 +14367,7 @@
     "name": "2-20 UPPER ROSEMOUNT ROAD ROSEMOUNT 4560",
     "locID": "LOC000061473011",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425146351",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14775,9 +14914,7 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425835390",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -15301,11 +15438,11 @@
     "name": "UNIT 1, 55 CELESTINE PLACE ROSEMOUNT 4560",
     "locID": "LOC000179898878",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719276472",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -15381,11 +15518,11 @@
     "name": "55 CELESTINE PLACE ROSEMOUNT 4560",
     "locID": "LOC000179898878",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719300190",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Sep 2027"
    }
   },
   {
@@ -15421,9 +15558,9 @@
     "name": "68 CELESTINE PLACE ROSEMOUNT 4560",
     "locID": "LOC100071909541",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719443608",
-    "tech_change_status": "Planned",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2027"
    }
@@ -15678,9 +15815,9 @@
     "name": "61 CELESTINE PLACE ROSEMOUNT 4560",
     "locID": "LOC000185381547",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719797506",
-    "tech_change_status": "Planned",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2027"
    }
@@ -16460,9 +16597,9 @@
     "name": "LOT 3 PETRIE CREEK ROAD ROSEMOUNT 4560",
     "locID": "LOC000023260060",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD720672041",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16620,7 +16757,7 @@
     "name": "UNIT 1, 64 PRINGLE ROAD ROSEMOUNT 4560",
     "locID": "LOC000056555031",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721265659",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
