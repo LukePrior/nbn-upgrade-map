@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-24T15:35:29.491147",
+ "generated": "2026-04-12T14:53:26.111303",
  "suburb": "COLERAINE",
  "features": [
   {
@@ -2901,7 +2901,7 @@
     "name": "1 PILLEAU STREET COLERAINE 3315",
     "locID": "LOC000070796213",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420029348",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3418,10 +3418,10 @@
    "properties": {
     "name": "47 TURNBULL STREET COLERAINE 3315",
     "locID": "LOC000105797436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420143367",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5215,10 +5215,9 @@
    "properties": {
     "name": "56 MCLEOD STREET COLERAINE 3315",
     "locID": "LOC000032643562",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420868205",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5932,9 +5931,9 @@
     "name": "38 MCLEOD STREET COLERAINE 3315",
     "locID": "LOC000071735046",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420982874",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6628,7 +6627,7 @@
     "name": "110 PILLEAU STREET COLERAINE 3315",
     "locID": "LOC000070796213",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421240223",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6968,7 +6967,7 @@
     "name": "94 MCCONOCHIE STREET COLERAINE 3315",
     "locID": "LOC000095080307",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421289661",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10294,7 +10293,7 @@
    "properties": {
     "name": "4534 GLENELG HIGHWAY COLERAINE 3315",
     "locID": "LOC000021075113",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422293731",
     "tech_change_status": "Not Planned"
@@ -10923,7 +10922,7 @@
     "name": "112 PILLEAU STREET COLERAINE 3315",
     "locID": "LOC000086308453",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423668527",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11296,10 +11295,9 @@
    "properties": {
     "name": "108 WHYTE STREET COLERAINE 3315",
     "locID": "LOC000101317929",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424456362",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11876,7 +11874,7 @@
    "properties": {
     "name": "45 WHYTE STREET COLERAINE 3315",
     "locID": "LOC000021075113",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424456393",
     "tech_change_status": "Not Planned"
@@ -14936,6 +14934,24 @@
     "gnaf_pid": "GAVIC721422759",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.6939956,
+     -37.60351025
+    ]
+   },
+   "properties": {
+    "name": "53 CHURCH STREET COLERAINE 3315",
+    "locID": "LOC000198670160",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721733737",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
