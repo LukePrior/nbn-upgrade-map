@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-25T19:35:34.786329",
+ "generated": "2026-04-13T19:23:32.279476",
  "suburb": "TUNCURRY",
  "features": [
   {
@@ -2795,7 +2795,7 @@
     "name": "8 HUNTLY CLOSE TUNCURRY 2428",
     "locID": "LOC000031353198",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706084688",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3030,10 +3030,9 @@
    "properties": {
     "name": "1 KENNEWELL PARADE TUNCURRY 2428",
     "locID": "LOC000068473472",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706084700",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4058,10 +4057,10 @@
    "properties": {
     "name": "2 FLEETING PLACE TUNCURRY 2428",
     "locID": "LOC000028030538",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706085453",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9154,10 +9153,10 @@
    "properties": {
     "name": "70 WHARF STREET TUNCURRY 2428",
     "locID": "LOC000086615614",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706089143",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9313,7 +9312,7 @@
     "name": "5 CHAPMANS ROAD TUNCURRY 2428",
     "locID": "LOC000089247917",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706092065",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11577,10 +11576,9 @@
    "properties": {
     "name": "UNIT 2, 25 PARKWAY DRIVE TUNCURRY 2428",
     "locID": "LOC000002238478",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706092629",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12142,10 +12140,9 @@
    "properties": {
     "name": "49 MANNING STREET TUNCURRY 2428",
     "locID": "LOC000074573677",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706092703",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14560,24 +14557,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.50200354,
-     -32.17300721
-    ]
-   },
-   "properties": {
-    "name": "43 WHARF STREET TUNCURRY 2428",
-    "locID": "LOC000035280839",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706095692",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.50203199,
      -32.17286078
     ]
@@ -14586,9 +14565,11 @@
     "name": "45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706095693",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -15935,8 +15916,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706096004",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17100,10 +17082,9 @@
    "properties": {
     "name": "40 KENNEWELL PARADE TUNCURRY 2428",
     "locID": "LOC000063915719",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706099300",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18599,7 +18580,7 @@
     "gnaf_pid": "GANSW706101938",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -18619,7 +18600,7 @@
     "gnaf_pid": "GANSW706101939",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -18639,7 +18620,7 @@
     "gnaf_pid": "GANSW706101940",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -18659,7 +18640,7 @@
     "gnaf_pid": "GANSW706101941",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -18679,7 +18660,7 @@
     "gnaf_pid": "GANSW706101942",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -19711,10 +19692,9 @@
    "properties": {
     "name": "8 PALMWAY CRESCENT TUNCURRY 2428",
     "locID": "LOC000093798551",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706102615",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20315,8 +20295,8 @@
    "properties": {
     "name": "7 WOODWARD PLACE TUNCURRY 2428",
     "locID": "LOC000065532767",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706102752",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20689,10 +20669,9 @@
    "properties": {
     "name": "2 CASSANDRA CRESCENT TUNCURRY 2428",
     "locID": "LOC000078998794",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706102964",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20748,10 +20727,9 @@
    "properties": {
     "name": "5 CASSANDRA CRESCENT TUNCURRY 2428",
     "locID": "LOC000042108331",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706102967",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21245,7 +21223,7 @@
     "gnaf_pid": "GANSW706105266",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -21265,7 +21243,7 @@
     "gnaf_pid": "GANSW706105267",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -21285,7 +21263,7 @@
     "gnaf_pid": "GANSW706105268",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -21305,7 +21283,7 @@
     "gnaf_pid": "GANSW706105269",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -30514,10 +30492,9 @@
    "properties": {
     "name": "25 KENNEWELL PARADE TUNCURRY 2428",
     "locID": "LOC000101594796",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706112265",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31958,7 +31935,7 @@
     "gnaf_pid": "GANSW706112874",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -31978,7 +31955,7 @@
     "gnaf_pid": "GANSW706112875",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -31998,7 +31975,7 @@
     "gnaf_pid": "GANSW706112876",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32018,7 +31995,7 @@
     "gnaf_pid": "GANSW706112877",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32038,7 +32015,7 @@
     "gnaf_pid": "GANSW706112878",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32058,7 +32035,7 @@
     "gnaf_pid": "GANSW706112879",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32700,7 +32677,7 @@
     "gnaf_pid": "GANSW706112917",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32716,11 +32693,11 @@
     "name": "36 TULLOCH ROAD TUNCURRY 2428",
     "locID": "LOC000088583047",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706112918",
-    "tech_change_status": "Planned",
+    "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32740,7 +32717,7 @@
     "gnaf_pid": "GANSW706112919",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32780,7 +32757,7 @@
     "gnaf_pid": "GANSW706112921",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -32800,7 +32777,7 @@
     "gnaf_pid": "GANSW706112922",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -35268,8 +35245,8 @@
    "properties": {
     "name": "19 DE LORE CRESCENT TUNCURRY 2428",
     "locID": "LOC000008879719",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706115921",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35308,9 +35285,11 @@
     "name": "UNIT 1, 21 DE LORE CRESCENT TUNCURRY 2428",
     "locID": "LOC000021378296",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706115923",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -35326,9 +35305,11 @@
     "name": "UNIT 2, 21 DE LORE CRESCENT TUNCURRY 2428",
     "locID": "LOC000021378296",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706115924",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -36941,10 +36922,10 @@
    "properties": {
     "name": "7 RENNIE CRESCENT TUNCURRY 2428",
     "locID": "LOC000036842406",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706116495",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37903,7 +37884,7 @@
     "name": "14 BANKSIA PARADE TUNCURRY 2428",
     "locID": "LOC000035585880",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706118784",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40087,10 +40068,10 @@
    "properties": {
     "name": "22 REST POINT PARADE TUNCURRY 2428",
     "locID": "LOC000029977723",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706119532",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40772,10 +40753,9 @@
    "properties": {
     "name": "36 WILSON STREET TUNCURRY 2428",
     "locID": "LOC000068605810",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706119577",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40971,10 +40951,9 @@
    "properties": {
     "name": "4 WINDSOR PLACE TUNCURRY 2428",
     "locID": "LOC000089500984",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706119588",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41403,10 +41382,10 @@
    "properties": {
     "name": "43 MAYERS DRIVE TUNCURRY 2428",
     "locID": "LOC000022398293",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706122560",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42353,7 +42332,7 @@
     "gnaf_pid": "GANSW706123197",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -42373,7 +42352,7 @@
     "gnaf_pid": "GANSW706123198",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -42646,7 +42625,7 @@
     "gnaf_pid": "GANSW706123548",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -44073,7 +44052,7 @@
     "name": "9 FLORA PARADE TUNCURRY 2428",
     "locID": "LOC000062969590",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706125482",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45852,7 +45831,7 @@
     "gnaf_pid": "GANSW706126683",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45872,7 +45851,7 @@
     "gnaf_pid": "GANSW706126684",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45892,7 +45871,7 @@
     "gnaf_pid": "GANSW706126685",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45912,7 +45891,7 @@
     "gnaf_pid": "GANSW706126686",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45932,7 +45911,7 @@
     "gnaf_pid": "GANSW706126687",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45952,7 +45931,7 @@
     "gnaf_pid": "GANSW706126688",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45972,7 +45951,7 @@
     "gnaf_pid": "GANSW706126689",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -45992,7 +45971,7 @@
     "gnaf_pid": "GANSW706126690",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -46012,7 +45991,7 @@
     "gnaf_pid": "GANSW706126691",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -46243,7 +46222,7 @@
     "name": "12 SCIACCA AVENUE TUNCURRY 2428",
     "locID": "LOC000005936755",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706126782",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48351,10 +48330,9 @@
    "properties": {
     "name": "28 REST POINT PARADE TUNCURRY 2428",
     "locID": "LOC000053791696",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706126942",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48843,7 +48821,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706129117",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49247,24 +49225,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.4869822,
-     -32.16524575
-    ]
-   },
-   "properties": {
-    "name": "2 DEE CRESCENT TUNCURRY 2428",
-    "locID": "LOC000088555842",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706129414",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.48740442,
      -32.16699326
     ]
@@ -49293,9 +49253,9 @@
     "name": "22 DEE CRESCENT TUNCURRY 2428",
     "locID": "LOC000095454105",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706129416",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50064,10 +50024,10 @@
    "properties": {
     "name": "6 GUY PLACE TUNCURRY 2428",
     "locID": "LOC000103165612",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706129458",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52575,8 +52535,8 @@
    "properties": {
     "name": "9 PEEL STREET TUNCURRY 2428",
     "locID": "LOC000016195415",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706151379",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56285,10 +56245,10 @@
    "properties": {
     "name": "2 SERRATA COURT TUNCURRY 2428",
     "locID": "LOC000142902213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712100503",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59129,7 +59089,7 @@
     "gnaf_pid": "GANSW712113143",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -59149,7 +59109,7 @@
     "gnaf_pid": "GANSW712113144",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -59279,9 +59239,11 @@
     "name": "UNIT 11, 45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712113483",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -59297,9 +59259,11 @@
     "name": "UNIT 12, 45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712113484",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -60219,10 +60183,9 @@
    "properties": {
     "name": "UNIT 2, 14 BEACH STREET TUNCURRY 2428",
     "locID": "LOC000003083328",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712115729",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60915,8 +60878,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712117309",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61135,7 +61099,7 @@
     "gnaf_pid": "GANSW712120737",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -61155,7 +61119,7 @@
     "gnaf_pid": "GANSW712120738",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -64029,10 +63993,9 @@
    "properties": {
     "name": "UNIT 1, 42 KENNEWELL PARADE TUNCURRY 2428",
     "locID": "LOC000068473472",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712136305",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66378,10 +66341,9 @@
    "properties": {
     "name": "UNIT 1, 41 TUNCURRY STREET TUNCURRY 2428",
     "locID": "LOC000019885917",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712143646",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66398,10 +66360,9 @@
    "properties": {
     "name": "UNIT 2, 41 TUNCURRY STREET TUNCURRY 2428",
     "locID": "LOC000019885917",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712143647",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68562,8 +68523,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713168410",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -70298,10 +70260,10 @@
    "properties": {
     "name": "UNIT 1, 2 SERRATA COURT TUNCURRY 2428",
     "locID": "LOC000142902213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715498072",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70318,10 +70280,10 @@
    "properties": {
     "name": "UNIT 2, 2 SERRATA COURT TUNCURRY 2428",
     "locID": "LOC000142902213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715498073",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70690,42 +70652,6 @@
     "gnaf_pid": "GANSW715516125",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.50200354,
-     -32.17300721
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 43 WHARF STREET TUNCURRY 2428",
-    "locID": "LOC000035280839",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715516130",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.50200354,
-     -32.17300721
-    ]
-   },
-   "properties": {
-    "name": "UNIT 12, 43 WHARF STREET TUNCURRY 2428",
-    "locID": "LOC000035280839",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715516135",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -71512,10 +71438,10 @@
    "properties": {
     "name": "1 BONVENTI CLOSE TUNCURRY 2428",
     "locID": "LOC000074341767",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716385052",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -72065,8 +71991,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716419172",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72585,7 +72512,7 @@
     "name": "60 TUNCURRY LANE TUNCURRY 2428",
     "locID": "LOC000076655039",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716599964",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -76742,10 +76669,9 @@
    "properties": {
     "name": "399 THE LAKES WAY TUNCURRY 2428",
     "locID": "LOC000105238729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716943073",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78098,31 +78024,11 @@
    "properties": {
     "name": "42 KENNEWELL PARADE TUNCURRY 2428",
     "locID": "LOC000068473472",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717215997",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.49139929,
-     -32.17108737
-    ]
-   },
-   "properties": {
-    "name": "2 MAYERS DRIVE TUNCURRY 2428",
-    "locID": "LOC000102779619",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717218523",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78470,10 +78376,9 @@
    "properties": {
     "name": "UNIT 2, 31 MIRAGE DRIVE TUNCURRY 2428",
     "locID": "LOC000078933602",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717287667",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -80114,10 +80019,9 @@
    "properties": {
     "name": "31 MIRAGE DRIVE TUNCURRY 2428",
     "locID": "LOC000078933602",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717304753",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87385,8 +87289,8 @@
    "properties": {
     "name": "16 CAPEL STREET TUNCURRY 2428",
     "locID": "LOC000017363663",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717917808",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -87543,9 +87447,11 @@
     "name": "UNIT 3, 43-45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717987228",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -87580,9 +87486,11 @@
     "name": "UNIT 5, 43-45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717987230",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -87598,9 +87506,11 @@
     "name": "UNIT 6, 43-45 WHARF STREET TUNCURRY 2428",
     "locID": "LOC100021010568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717987231",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -90013,7 +89923,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718167116",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90263,10 +90173,9 @@
    "properties": {
     "name": "10 CHAPMANS ROAD TUNCURRY 2428",
     "locID": "LOC000115453454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718224966",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98189,6 +98098,26 @@
     "gnaf_pid": "GANSW720327594",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.49960497,
+     -32.1772775
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 6 MANNING LANE TUNCURRY 2428",
+    "locID": "LOC000198616686",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720394474",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
