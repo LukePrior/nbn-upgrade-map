@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-26T10:56:56.294729",
+ "generated": "2026-04-14T10:34:50.031796",
  "suburb": "OLD EROWAL BAY",
  "features": [
   {
@@ -615,7 +615,7 @@
     "name": "19 TIBBLES AVENUE OLD EROWAL BAY 2540",
     "locID": "LOC000078888932",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705568907",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1919,7 +1919,7 @@
     "name": "9 BETHS STREET OLD EROWAL BAY 2540",
     "locID": "LOC000103604078",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705582643",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4516,7 +4516,7 @@
     "name": "5 FITZPATRICK STREET OLD EROWAL BAY 2540",
     "locID": "LOC000036904910",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705594772",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10961,10 +10961,10 @@
    "properties": {
     "name": "6 FITZPATRICK STREET OLD EROWAL BAY 2540",
     "locID": "LOC000121301581",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718068061",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10984,6 +10984,26 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718070999",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.64963784,
+     -35.09059624
+    ]
+   },
+   "properties": {
+    "name": "16-18 PAGE STREET OLD EROWAL BAY 2540",
+    "locID": "LOC000098501264",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718073860",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -11101,10 +11121,9 @@
    "properties": {
     "name": "25B BLAIR STREET OLD EROWAL BAY 2540",
     "locID": "LOC000194903198",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721807114",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
