@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-27T07:08:06.085213",
+ "generated": "2026-04-15T07:27:20.805369",
  "suburb": "RESEARCH",
  "features": [
   {
@@ -1812,6 +1812,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.17703105,
+     -37.70971423
+    ]
+   },
+   "properties": {
+    "name": "21A THOMPSON CRESCENT RESEARCH 3095",
+    "locID": "LOC000006982610",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412163890",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.17791119,
      -37.69370045
     ]
@@ -1865,6 +1885,26 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.1945353,
+     -37.70253343
+    ]
+   },
+   "properties": {
+    "name": "67 BELLS HILL ROAD RESEARCH 3095",
+    "locID": "LOC100091550987",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412163923",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -2564,46 +2604,6 @@
     "gnaf_pid": "GAVIC413292944",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.17491465,
-     -37.71599222
-    ]
-   },
-   "properties": {
-    "name": "376 REYNOLDS ROAD RESEARCH 3095",
-    "locID": "LOC000123640852",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC413299216",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.17532768,
-     -37.71546854
-    ]
-   },
-   "properties": {
-    "name": "382 REYNOLDS ROAD RESEARCH 3095",
-    "locID": "LOC000123645165",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC413299217",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -3529,7 +3529,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419820063",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3897,9 +3897,9 @@
     "name": "10 KANANDAH COURT RESEARCH 3095",
     "locID": "LOC000058986086",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419825735",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3916,10 +3916,10 @@
    "properties": {
     "name": "5 WOODHILL CLOSE RESEARCH 3095",
     "locID": "LOC000095387257",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419825918",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4116,7 +4116,7 @@
     "name": "68 THOMPSON CRESCENT RESEARCH 3095",
     "locID": "LOC000046493595",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419829539",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4135,10 +4135,10 @@
    "properties": {
     "name": "83 THOMPSON CRESCENT RESEARCH 3095",
     "locID": "LOC000089064811",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419829540",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6520,10 +6520,9 @@
    "properties": {
     "name": "11 BRENDA ROAD RESEARCH 3095",
     "locID": "LOC000009331299",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420143552",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6599,10 +6598,10 @@
    "properties": {
     "name": "7 FLEMING COURT RESEARCH 3095",
     "locID": "LOC000050273158",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420143574",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8008,10 +8007,9 @@
    "properties": {
     "name": "22 RESEARCH-WARRANDYTE ROAD RESEARCH 3095",
     "locID": "LOC100059260802",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420429410",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8247,26 +8245,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420431990",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.17498127,
-     -37.71440059
-    ]
-   },
-   "properties": {
-    "name": "390 REYNOLDS ROAD RESEARCH 3095",
-    "locID": "LOC000024731997",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420432034",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2028"
@@ -8856,10 +8834,9 @@
    "properties": {
     "name": "9 TALWONG COURT RESEARCH 3095",
     "locID": "LOC000016054905",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420447897",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10043,7 +10020,7 @@
     "name": "19 RESEARCH-WARRANDYTE ROAD RESEARCH 3095",
     "locID": "LOC100059260825",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420725001",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10735,7 +10712,7 @@
     "name": "10 TALWONG COURT RESEARCH 3095",
     "locID": "LOC000044687197",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420735835",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11405,10 +11382,9 @@
    "properties": {
     "name": "10 NICHOLSON CLOSE RESEARCH 3095",
     "locID": "LOC000080007283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421028839",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11738,7 +11714,7 @@
     "name": "92 THOMPSON CRESCENT RESEARCH 3095",
     "locID": "LOC000047213436",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421034984",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13244,9 +13220,9 @@
     "name": "5 MARCONI COURT RESEARCH 3095",
     "locID": "LOC000012738987",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421329840",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13421,10 +13397,10 @@
    "properties": {
     "name": "70 BEAUTY POINT ROAD RESEARCH 3095",
     "locID": "LOC000044394231",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421335395",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -13871,26 +13847,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.17974208,
-     -37.71142935
-    ]
-   },
-   "properties": {
-    "name": "65 THOMPSON CRESCENT RESEARCH 3095",
-    "locID": "LOC000005142990",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC421346304",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.18000009,
      -37.71042186
     ]
@@ -14311,9 +14267,9 @@
     "name": "129 THOMPSON CRESCENT RESEARCH 3095",
     "locID": "LOC000050732867",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421353489",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15684,7 +15640,7 @@
     "name": "31 RESEARCH-WARRANDYTE ROAD RESEARCH 3095",
     "locID": "LOC100059278383",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421620270",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17126,10 +17082,9 @@
    "properties": {
     "name": "38A RESEARCH-WARRANDYTE ROAD RESEARCH 3095",
     "locID": "LOC100059278602",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421899684",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17596,10 +17551,9 @@
    "properties": {
     "name": "1579 MAIN ROAD RESEARCH 3095",
     "locID": "LOC000033058249",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421916738",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17972,10 +17926,9 @@
    "properties": {
     "name": "6 HOWELL COURT RESEARCH 3095",
     "locID": "LOC000079742958",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421931651",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19526,6 +19479,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.18367599,
+     -37.69796442
+    ]
+   },
+   "properties": {
+    "name": "13A RESEARCH AVENUE RESEARCH 3095",
+    "locID": "LOC000102293108",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423510751",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.176107,
      -37.705057
     ]
@@ -20101,6 +20074,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.19336245,
+     -37.7116822
+    ]
+   },
+   "properties": {
+    "name": "650 MOUNT PLEASANT ROAD RESEARCH 3095",
+    "locID": "LOC100091550973",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423675548",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.18745452,
      -37.72228111
     ]
@@ -20208,46 +20201,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423771529",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.18367599,
-     -37.69796442
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 13 RESEARCH AVENUE RESEARCH 3095",
-    "locID": "LOC000102831209",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC423771530",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.17703105,
-     -37.70971423
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 21 THOMPSON CRESCENT RESEARCH 3095",
-    "locID": "LOC000006990407",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC423898082",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2028"
@@ -20717,26 +20670,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.17761912,
-     -37.69524692
-    ]
-   },
-   "properties": {
-    "name": "81 MAROONG DRIVE RESEARCH 3095",
-    "locID": "LOC000123606529",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC424884266",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -21217,6 +21150,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.18319889,
+     -37.70093836
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 16 INGRAMS ROAD RESEARCH 3095",
+    "locID": "LOC000196080478",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719610985",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.182049,
      -37.70466049
     ]
@@ -21590,6 +21543,46 @@
     "gnaf_pid": "GAVIC720352692",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18461255,
+     -37.69927156
+    ]
+   },
+   "properties": {
+    "name": "20 THE ESPLANADE RESEARCH 3095",
+    "locID": "LOC100091550941",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720446268",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18305872,
+     -37.69607092
+    ]
+   },
+   "properties": {
+    "name": "55A INGRAMS ROAD RESEARCH 3095",
+    "locID": "LOC000178910116",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720456152",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {

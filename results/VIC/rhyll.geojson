@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-27T06:49:25.447425",
+ "generated": "2026-04-15T07:09:43.765592",
  "suburb": "RHYLL",
  "features": [
   {
@@ -1927,8 +1927,8 @@
    "properties": {
     "name": "1 ERIN COURT RHYLL 3923",
     "locID": "LOC000060308355",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420020317",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2660,10 +2660,10 @@
    "properties": {
     "name": "26 HASTINGS STREET RHYLL 3923",
     "locID": "LOC000017562373",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420079886",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4923,6 +4923,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.30801859,
+     -38.46319518
+    ]
+   },
+   "properties": {
+    "name": "8 LOCK ROAD RHYLL 3923",
+    "locID": "LOC000057097945",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420654246",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.29423388,
      -38.49363769
     ]
@@ -6102,10 +6122,10 @@
    "properties": {
     "name": "13 SOUTHAMPTON STREET RHYLL 3923",
     "locID": "LOC000026707255",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420985389",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6857,10 +6877,9 @@
    "properties": {
     "name": "38 RHYLL-NEWHAVEN ROAD RHYLL 3923",
     "locID": "LOC000041168617",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421236728",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8834,10 +8853,9 @@
    "properties": {
     "name": "54 LOCK ROAD RHYLL 3923",
     "locID": "LOC000016047599",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421787053",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
