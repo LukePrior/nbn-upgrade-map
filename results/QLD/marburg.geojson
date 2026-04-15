@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-27T20:57:25.868255",
+ "generated": "2026-04-15T22:37:42.786910",
  "suburb": "MARBURG",
  "features": [
   {
@@ -145,7 +145,7 @@
     "name": "27 OWENS STREET MARBURG 4346",
     "locID": "LOC000021675080",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155519407",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -531,10 +531,9 @@
    "properties": {
     "name": "114 QUEEN STREET MARBURG 4346",
     "locID": "LOC000106357362",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155522244",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1210,7 +1209,7 @@
     "name": "24 SCHOOL STREET MARBURG 4346",
     "locID": "LOC000038348622",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155529769",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3515,9 +3514,9 @@
     "name": "20 SCHOOL STREET MARBURG 4346",
     "locID": "LOC000009433831",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156800062",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4283,9 +4282,9 @@
     "name": "70 QUEEN STREET MARBURG 4346",
     "locID": "LOC000079219492",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156810836",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4987,12 +4986,9 @@
    "properties": {
     "name": "31A EDMOND STREET MARBURG 4346",
     "locID": "LOC000127653979",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD158227350",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158227350"
    }
   },
   {
@@ -5365,8 +5361,8 @@
    "properties": {
     "name": "30-36 EDWARD STREET MARBURG 4346",
     "locID": "LOC000089440729",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158248925",
     "tech_change_status": "Eligible to Order"
    }
@@ -6193,6 +6189,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.58916493,
+     -27.56457748
+    ]
+   },
+   "properties": {
+    "name": "139-143 EDMOND STREET MARBURG 4346",
+    "locID": "LOC000167767275",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD161751555",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.58865703,
      -27.56449708
     ]
@@ -6930,12 +6946,9 @@
    "properties": {
     "name": "14-18 SCHOOL STREET MARBURG 4346",
     "locID": "LOC000127647161",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161768178",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161768178"
    }
   },
   {
@@ -7833,6 +7846,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163306169",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58606859,
+     -27.5639435
+    ]
+   },
+   "properties": {
+    "name": "159-197 EDMOND STREET MARBURG 4346",
+    "locID": "LOC000127650417",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163306170",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2027"
