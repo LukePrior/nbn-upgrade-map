@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-02-28T16:58:58.808789",
+ "generated": "2026-04-16T20:15:36.687607",
  "suburb": "SALISBURY HEIGHTS",
  "features": [
   {
@@ -2728,7 +2728,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414909208",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16058,9 +16060,9 @@
     "name": "5 COBBLER CIRCUIT SALISBURY HEIGHTS 5109",
     "locID": "LOC000099065331",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415202895",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16335,7 +16337,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415207592",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16821,10 +16823,10 @@
    "properties": {
     "name": "25 COBBLER CIRCUIT SALISBURY HEIGHTS 5109",
     "locID": "LOC000019278375",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415207720",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18001,10 +18003,9 @@
    "properties": {
     "name": "15 LISTER AVENUE SALISBURY HEIGHTS 5109",
     "locID": "LOC000085703328",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415237856",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415237856"
    }
   },
   {
@@ -26593,6 +26594,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.68607768,
+     -34.76240202
+    ]
+   },
+   "properties": {
+    "name": "82-84 TARGET HILL ROAD SALISBURY HEIGHTS 5109",
+    "locID": "LOC000075920274",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_423695875"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.67288065,
      -34.76708296
     ]
@@ -28589,6 +28607,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.68928321,
+     -34.76432403
+    ]
+   },
+   "properties": {
+    "name": "120-122 TARGET HILL ROAD SALISBURY HEIGHTS 5109",
+    "locID": "LOC000104503914",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425452975",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.68074913,
      -34.76516452
     ]
@@ -29551,10 +29589,9 @@
    "properties": {
     "name": "2A NINA COURT SALISBURY HEIGHTS 5109",
     "locID": "LOC000049095082",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_425808372",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425808372"
    }
   },
   {
