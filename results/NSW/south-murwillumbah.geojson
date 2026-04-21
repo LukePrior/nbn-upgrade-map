@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-03-05T07:31:19.521794",
+ "generated": "2026-04-21T23:07:05.735354",
  "suburb": "SOUTH MURWILLUMBAH",
  "features": [
   {
@@ -105,7 +105,7 @@
     "name": "49 RIVER STREET SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000066367740",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705916943",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -831,10 +831,10 @@
    "properties": {
     "name": "25 SCOTT STREET SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000099767604",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705927254",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2236,7 +2236,7 @@
     "name": "104 RIVER STREET SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000008758914",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705958252",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4070,10 +4070,9 @@
    "properties": {
     "name": "12 MCMILLAN STREET SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000028010441",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706500220",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4210,10 +4209,10 @@
    "properties": {
     "name": "37 LUNDBERG DRIVE SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000041228605",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706500229",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6272,10 +6271,9 @@
    "properties": {
     "name": "183 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000040415793",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW710136002",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW710136002"
    }
   },
   {
@@ -9494,7 +9492,7 @@
     "name": "462 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000030569258",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710180354",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9751,7 +9749,7 @@
     "tech": "WIRELESS",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW710182916",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -10854,10 +10852,10 @@
    "properties": {
     "name": "71 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000017253648",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716135285",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11514,8 +11512,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716567857",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11534,8 +11531,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716567858",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11674,8 +11670,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716573210",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12148,31 +12143,11 @@
     "name": "212-224 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000090033076",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717312038",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.41632064,
-     -28.33036734
-    ]
-   },
-   "properties": {
-    "name": "5-7 LUNDBERG DRIVE SOUTH MURWILLUMBAH 2484",
-    "locID": "LOC000177909741",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW717437742",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -12827,8 +12802,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717638795",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12866,8 +12840,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717638797",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14177,9 +14150,9 @@
     "name": "UNIT 1, 212-224 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000090033076",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717643804",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14235,9 +14208,9 @@
     "name": "UNIT 2, 212-224 TWEED VALLEY WAY SOUTH MURWILLUMBAH 2484",
     "locID": "LOC000090033076",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717643808",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20092,8 +20065,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721446085",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
