@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-12T12:11:25.476475",
+ "generated": "2026-04-24T23:16:18.355220",
  "suburb": "ORFORD",
  "features": [
   {
@@ -679,6 +679,23 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.8767332,
+     -42.54672079
+    ]
+   },
+   "properties": {
+    "name": "56 ALMA ROAD ORFORD 7190",
+    "locID": "LOC000193823997",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS702184869"
    }
   },
   {
@@ -2006,10 +2023,10 @@
    "properties": {
     "name": "31 CHARLES STREET ORFORD 7190",
     "locID": "LOC000048033758",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702221249",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9997,6 +10014,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.87412947,
+     -42.55463072
+    ]
+   },
+   "properties": {
+    "name": "1 RIVERSIDE DRIVE ORFORD 7190",
+    "locID": "LOC000064659577",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GATAS702524150",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.87289673,
      -42.56547139
     ]
@@ -10124,8 +10161,8 @@
    "properties": {
     "name": "20 WEST SHELLY ROAD ORFORD 7190",
     "locID": "LOC000014346729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702525040",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13271,8 +13308,8 @@
    "properties": {
     "name": "53 BERNACCHI DRIVE ORFORD 7190",
     "locID": "LOC000060306177",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS716711413",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14766,8 +14803,8 @@
    "properties": {
     "name": "20A WEST SHELLY ROAD ORFORD 7190",
     "locID": "LOC000014346729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717615827",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15705,8 +15742,8 @@
    "properties": {
     "name": "16 PARADISE COURT ORFORD 7190",
     "locID": "LOC000056524209",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717913842",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15745,8 +15782,8 @@
    "properties": {
     "name": "6 PARADISE COURT ORFORD 7190",
     "locID": "LOC000050982401",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717913846",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18125,8 +18162,9 @@
     "name": "20B WEST SHELLY ROAD ORFORD 7190",
     "locID": "LOC000189708238",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GATAS718386483",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
