@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-12T13:28:03.600403",
+ "generated": "2026-04-25T00:12:19.821758",
  "suburb": "BELGRAVE",
  "features": [
   {
@@ -1261,7 +1261,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC410861856",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1742,7 +1742,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC413681806",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -24439,10 +24439,9 @@
    "properties": {
     "name": "10 BELLBIRD STREET BELGRAVE 3160",
     "locID": "LOC000091379295",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421401765",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421401765"
    }
   },
   {
@@ -24457,10 +24456,10 @@
    "properties": {
     "name": "18 BELLBIRD STREET BELGRAVE 3160",
     "locID": "LOC000098332756",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421401766",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -27135,10 +27134,10 @@
    "properties": {
     "name": "9 BENNETT AVENUE BELGRAVE 3160",
     "locID": "LOC000089153922",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421690379",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -30320,6 +30319,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.3480129,
+     -37.91104415
+    ]
+   },
+   "properties": {
+    "name": "12-14 MINTER STREET BELGRAVE 3160",
+    "locID": "LOC000123799080",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC423475834",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.34894015,
      -37.91027311
     ]
@@ -30384,6 +30401,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423476080"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.35621556,
+     -37.90281381
+    ]
+   },
+   "properties": {
+    "name": "49-51 MONBULK ROAD BELGRAVE 3160",
+    "locID": "LOC000166719059",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423476081",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -32044,8 +32079,8 @@
    "properties": {
     "name": "52A BELGRAVE-HALLAM ROAD BELGRAVE 3160",
     "locID": "LOC000123819965",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424742543",
     "tech_change_status": "Eligible to Order"
    }
