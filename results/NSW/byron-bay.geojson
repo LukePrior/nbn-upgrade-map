@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-13T18:44:38.164943",
+ "generated": "2026-04-26T06:00:10.767012",
  "suburb": "BYRON BAY",
  "features": [
   {
@@ -9768,10 +9768,9 @@
    "properties": {
     "name": "9 CORAL COURT BYRON BAY 2481",
     "locID": "LOC000034944523",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704255667",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24128,9 +24127,9 @@
     "name": "28 BEACHCOMBER DRIVE BYRON BAY 2481",
     "locID": "LOC000069427553",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704266278",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54456,6 +54455,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW712259708",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59154,10 +59154,10 @@
    "properties": {
     "name": "4 BUNJIL PLACE BYRON BAY 2481",
     "locID": "LOC000104136735",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712281201",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94844,9 +94844,9 @@
     "name": "36 SHIRLEY LANE BYRON BAY 2481",
     "locID": "LOC000032707998",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717469575",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -97108,6 +97108,23 @@
     "gnaf_pid": "GANSW717759442",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.61445457,
+     -28.64444476
+    ]
+   },
+   "properties": {
+    "name": "10-12 BYRON STREET BYRON BAY 2481",
+    "locID": "LOC000195175860",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717763993"
    }
   },
   {
@@ -99873,6 +99890,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000111176873",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718095889",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.61387007,
      -28.65317347
     ]
@@ -101257,6 +101293,82 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000115462825",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129506",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000115462839",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129507",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000115462841",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129508",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000111176873",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129509",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.61345265,
      -28.65180956
     ]
@@ -101324,6 +101436,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718129513",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000112684862",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129514",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -101457,6 +101588,139 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718129521",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000111218962",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129522",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000112402221",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129523",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000112369942",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129524",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000112374528",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129525",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000115462856",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129526",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000111815562",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129527",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.6156995,
+     -28.65126121
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 22-26 BROWNING STREET BYRON BAY 2481",
+    "locID": "LOC000115462860",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718129528",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
