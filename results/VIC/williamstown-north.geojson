@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-15T10:48:36.194923",
+ "generated": "2026-04-27T21:12:27.290911",
  "suburb": "WILLIAMSTOWN NORTH",
  "features": [
   {
@@ -2740,10 +2740,10 @@
    "properties": {
     "name": "83 FLORENCE STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000056310297",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419616515",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12686,10 +12686,9 @@
    "properties": {
     "name": "37 MACAULAY STREET WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000082312600",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421125247",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13178,10 +13177,9 @@
    "properties": {
     "name": "35 CHAMPION ROAD WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000040836249",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421131181",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15332,10 +15330,10 @@
    "properties": {
     "name": "7 CERBERUS CRESCENT WILLIAMSTOWN NORTH 3016",
     "locID": "LOC000012946809",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421409183",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17500,6 +17498,26 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.874768,
+     -37.851189
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 1 AKUNA DRIVE WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC100091247679",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421711207",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -22448,6 +22466,45 @@
     "gnaf_pid": "GAVIC424098036",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87353536,
+     -37.85036373
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 14 AKUNA DRIVE WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000177535443",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424233486",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.87336787,
+     -37.85036329
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 14 AKUNA DRIVE WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC100091247680",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424233487",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -34689,6 +34746,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698501",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844222"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698517",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844278"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.86843337,
      -37.85104931
     ]
@@ -34699,6 +34790,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721844885"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698538",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845391"
    }
   },
   {
@@ -34733,6 +34841,108 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721852807"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698488",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853960"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698461",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855214"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855346"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698529",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855962"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698457",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856155"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.86770064,
+     -37.85385428
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 184 MADDOX ROAD WILLIAMSTOWN NORTH 3016",
+    "locID": "LOC000197698490",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856916"
    }
   }
  ]
