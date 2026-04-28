@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-16T06:08:06.538056",
+ "generated": "2026-04-28T14:58:37.455236",
  "suburb": "STAFFORD",
  "features": [
   {
@@ -1916,10 +1916,9 @@
    "properties": {
     "name": "9 BALAL STREET STAFFORD 4053",
     "locID": "LOC000084877197",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155835077",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10811,26 +10810,6 @@
     "gnaf_pid": "GAQLD155845189",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.01533733,
-     -27.40479167
-    ]
-   },
-   "properties": {
-    "name": "51 BAROKEE STREET STAFFORD 4053",
-    "locID": "LOC000177190710",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155845190",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -35217,10 +35196,11 @@
     "name": "UNIT 2, 15 HAYWARD STREET STAFFORD 4053",
     "locID": "LOC000064316065",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157154264",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51159,10 +51139,11 @@
     "name": "UNIT 1, 15 HAYWARD STREET STAFFORD 4053",
     "locID": "LOC000064308402",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159127286",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51178,10 +51159,11 @@
     "name": "UNIT 3, 15 HAYWARD STREET STAFFORD 4053",
     "locID": "LOC000064250463",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159127288",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68015,6 +67997,40 @@
     ]
    },
    "properties": {
+    "name": "UNIT 45, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000177561143",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646813"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "UNIT 46, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000193261108",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646814"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
     "name": "UNIT 48, 31 SCHOOL ROAD STAFFORD 4053",
     "locID": "LOC000177561170",
     "tech": "FTTB",
@@ -68049,11 +68065,79 @@
     ]
    },
    "properties": {
+    "name": "UNIT 51, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000177561266",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
     "name": "UNIT 56, 31 SCHOOL ROAD STAFFORD 4053",
     "locID": "LOC000155791614",
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425646824"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "UNIT 59, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000177562130",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646827"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "UNIT 62, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000155789323",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646830"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "UNIT 64, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000155789352",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646832"
    }
   },
   {
@@ -68100,6 +68184,23 @@
     ]
    },
    "properties": {
+    "name": "UNIT 71, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000155789427",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646839"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
     "name": "UNIT 72, 31 SCHOOL ROAD STAFFORD 4053",
     "locID": "LOC000155789443",
     "tech": "FTTB",
@@ -68122,6 +68223,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425646841"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "UNIT 75, 31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000177562294",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425646843"
    }
   },
   {
@@ -68425,6 +68543,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425650066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.01821897,
+     -27.4093025
+    ]
+   },
+   "properties": {
+    "name": "31 SCHOOL ROAD STAFFORD 4053",
+    "locID": "LOC000177562239",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425652106"
    }
   },
   {
