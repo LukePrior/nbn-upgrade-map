@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-17T10:53:45.048279",
+ "generated": "2026-04-29T18:04:23.937669",
  "suburb": "CANNINGTON",
  "features": [
   {
@@ -1527,10 +1527,10 @@
    "properties": {
     "name": "36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146734628",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -4886,8 +4886,8 @@
    "properties": {
     "name": "41 HAMILTON STREET CANNINGTON 6107",
     "locID": "LOC000090162735",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146737893",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10694,6 +10694,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146748747",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92723125,
+     -32.00806835
+    ]
+   },
+   "properties": {
+    "name": "8 DOUST STREET CANNINGTON 6107",
+    "locID": "LOC000024460524",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146748788",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16566,10 +16585,11 @@
     "name": "148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285634",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147251186",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20814,10 +20834,9 @@
    "properties": {
     "name": "29 CORONA CRESCENT CANNINGTON 6107",
     "locID": "LOC000043621969",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147294190",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21828,6 +21847,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147308711",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92702789,
+     -32.01748892
+    ]
+   },
+   "properties": {
+    "name": "58 FLEMING AVENUE CANNINGTON 6107",
+    "locID": "LOC000085195488",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147308712",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2026"
@@ -29864,26 +29903,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 4, 82 STATION STREET CANNINGTON 6107",
-    "locID": "LOC000011506174",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147565950",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94825792,
-     -32.01812777
-    ]
-   },
-   "properties": {
     "name": "UNIT 2, 82 STATION STREET CANNINGTON 6107",
     "locID": "LOC000011474275",
     "tech": "FTTN",
@@ -30979,26 +30998,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.94816321,
-     -32.01987008
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 21 HOGARTH STREET CANNINGTON 6107",
-    "locID": "LOC000098373236",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147567951",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.9403062,
      -32.02657194
     ]
@@ -32065,25 +32064,6 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2026"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.93719157,
-     -32.01627087
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 22 CECIL AVENUE CANNINGTON 6107",
-    "locID": "LOC000068572993",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_147569041",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -38532,26 +38512,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 2, 1397 ALBANY HIGHWAY CANNINGTON 6107",
-    "locID": "LOC000080881464",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_148723124",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.93801,
-     -32.02238
-    ]
-   },
-   "properties": {
     "name": "UNIT 3, 1397 ALBANY HIGHWAY CANNINGTON 6107",
     "locID": "LOC000081089476",
     "tech": "FTTN",
@@ -40693,25 +40653,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_160931495",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94463,
-     -32.02338
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 26 BICKLEY ROAD CANNINGTON 6107",
-    "locID": "LOC000097948141",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_160931496",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -43723,7 +43664,7 @@
    "properties": {
     "name": "UNIT 1, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029498219",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595971",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -43743,9 +43684,9 @@
     "name": "UNIT 2, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029520523",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161595972",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -43763,9 +43704,9 @@
     "name": "UNIT 3, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029521505",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161595973",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -43782,7 +43723,7 @@
    "properties": {
     "name": "UNIT 4, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029737128",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595974",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -43801,7 +43742,7 @@
    "properties": {
     "name": "UNIT 5, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029524850",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595975",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -43839,7 +43780,7 @@
    "properties": {
     "name": "UNIT 6, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029524088",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595977",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -43859,9 +43800,9 @@
     "name": "UNIT 7, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029709482",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161595978",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -43878,7 +43819,7 @@
    "properties": {
     "name": "UNIT 8, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029533368",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595979",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -43897,7 +43838,7 @@
    "properties": {
     "name": "UNIT 9, 37 BICKLEY ROAD CANNINGTON 6107",
     "locID": "LOC000029682445",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_161595980",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -44093,10 +44034,10 @@
    "properties": {
     "name": "UNIT 18, 79-81 GEORGE WAY CANNINGTON 6107",
     "locID": "LOC000044297889",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161601289",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -48670,26 +48611,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.94547064,
-     -32.02229845
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 25-27 GREY STREET CANNINGTON 6107",
-    "locID": "LOC000019492513",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_162335269",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.94527272,
      -32.0221449
     ]
@@ -49032,6 +48953,26 @@
     "gnaf_pid": "GAWA_162396632",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.92782,
+     -32.01227
+    ]
+   },
+   "properties": {
+    "name": "1264 ALBANY HIGHWAY CANNINGTON 6107",
+    "locID": "LOC000146872708",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162396633",
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51683,10 +51624,10 @@
    "properties": {
     "name": "UNIT 1, FLOOR 1, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576212",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51703,10 +51644,10 @@
    "properties": {
     "name": "UNIT 2, FLOOR 1, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576213",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51723,10 +51664,10 @@
    "properties": {
     "name": "UNIT 3, FLOOR 1, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576214",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51743,10 +51684,10 @@
    "properties": {
     "name": "UNIT 4, FLOOR 1, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576215",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51763,10 +51704,10 @@
    "properties": {
     "name": "UNIT 5, FLOOR 2, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576216",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51783,10 +51724,10 @@
    "properties": {
     "name": "UNIT 6, FLOOR 2, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576217",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51803,10 +51744,10 @@
    "properties": {
     "name": "UNIT 7, FLOOR 2, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576218",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -51823,10 +51764,10 @@
    "properties": {
     "name": "UNIT 8, FLOOR 2, 36 MASON STREET CANNINGTON 6107",
     "locID": "LOC000039067343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162576219",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -52524,26 +52465,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162643127",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.93219653,
-     -32.01915397
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 25 MASON STREET CANNINGTON 6107",
-    "locID": "LOC000007041965",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAWA_162643128",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
@@ -53301,25 +53222,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162682157",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94533816,
-     -32.02407377
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 27 BICKLEY ROAD CANNINGTON 6107",
-    "locID": "LOC000032669729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162682158",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -54954,25 +54856,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162728916",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94771381,
-     -32.02103054
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 22 CRAWFORD STREET CANNINGTON 6107",
-    "locID": "LOC000085341587",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162728917",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -65355,25 +65238,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.92758945,
-     -32.0077264
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 27 MILLS STREET CANNINGTON 6107",
-    "locID": "LOC000132449081",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_718253685",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.94020714,
      -32.02509281
     ]
@@ -65783,10 +65647,9 @@
    "properties": {
     "name": "2C LESLIE STREET CANNINGTON 6107",
     "locID": "LOC000132446015",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718303052",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66683,25 +66546,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718482937",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.945902,
-     -32.0190733
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 21 BENT STREET CANNINGTON 6107",
-    "locID": "LOC000146351715",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_718482938",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -68804,10 +68648,11 @@
     "name": "UNIT 10, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000152071587",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791160",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68823,10 +68668,11 @@
     "name": "UNIT 11, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285668",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791161",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68842,10 +68688,11 @@
     "name": "UNIT 12, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000181583664",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791162",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68860,7 +68707,7 @@
    "properties": {
     "name": "UNIT 13, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285675",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791163",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -68880,10 +68727,11 @@
     "name": "UNIT 14, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285634",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791164",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68899,10 +68747,11 @@
     "name": "UNIT 15, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285699",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791165",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68917,7 +68766,7 @@
    "properties": {
     "name": "UNIT 16, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000152071556",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791166",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -68936,7 +68785,7 @@
    "properties": {
     "name": "UNIT 17, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000152071600",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791167",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -68955,7 +68804,7 @@
    "properties": {
     "name": "UNIT 18, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285702",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791168",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -68975,10 +68824,11 @@
     "name": "UNIT 19, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285718",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791169",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68994,10 +68844,11 @@
     "name": "UNIT 1, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285634",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791170",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69013,10 +68864,11 @@
     "name": "UNIT 20, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000183448385",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791171",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69032,10 +68884,11 @@
     "name": "UNIT 21, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000159849856",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791172",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69051,10 +68904,11 @@
     "name": "UNIT 22, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285725",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791173",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69070,10 +68924,11 @@
     "name": "UNIT 23, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286735",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791174",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69089,10 +68944,11 @@
     "name": "UNIT 24, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286742",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791175",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69108,10 +68964,11 @@
     "name": "UNIT 25, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286757",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791176",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69127,10 +68984,11 @@
     "name": "UNIT 26, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000172790378",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791177",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69146,10 +69004,11 @@
     "name": "UNIT 27, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286761",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791178",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69164,7 +69023,7 @@
    "properties": {
     "name": "UNIT 28, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000180457205",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791179",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69184,10 +69043,11 @@
     "name": "UNIT 29, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286774",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791180",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69203,10 +69063,11 @@
     "name": "UNIT 2, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286735",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791181",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69221,7 +69082,7 @@
    "properties": {
     "name": "UNIT 30, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286788",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791182",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69241,10 +69102,11 @@
     "name": "UNIT 31, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286790",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791183",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69260,10 +69122,11 @@
     "name": "UNIT 32, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286800",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791184",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69279,10 +69142,11 @@
     "name": "UNIT 33, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286816",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791185",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69298,10 +69162,11 @@
     "name": "UNIT 34, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000153821114",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791186",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69317,10 +69182,11 @@
     "name": "UNIT 35, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286828",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791187",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69336,10 +69202,11 @@
     "name": "UNIT 36, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000152071644",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791188",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69354,7 +69221,7 @@
    "properties": {
     "name": "UNIT 37, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000175827595",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791189",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69373,7 +69240,7 @@
    "properties": {
     "name": "UNIT 38, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286837",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791190",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69393,10 +69260,11 @@
     "name": "UNIT 39, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286844",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791191",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69411,7 +69279,7 @@
    "properties": {
     "name": "UNIT 3, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286788",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791192",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69430,7 +69298,7 @@
    "properties": {
     "name": "UNIT 40, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286859",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791193",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69449,7 +69317,7 @@
    "properties": {
     "name": "UNIT 4, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146286859",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718791194",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -69469,10 +69337,11 @@
     "name": "UNIT 5, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000152071539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791195",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69488,10 +69357,11 @@
     "name": "UNIT 6, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285634",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791196",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69507,10 +69377,11 @@
     "name": "UNIT 7, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285623",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791197",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69526,10 +69397,11 @@
     "name": "UNIT 8, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285634",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791198",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69545,10 +69417,11 @@
     "name": "UNIT 9, 148 WHARF STREET CANNINGTON 6107",
     "locID": "LOC000146285652",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718791199",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -74877,23 +74750,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 56, 16 GREY STREET CANNINGTON 6107",
-    "locID": "LOC000155803534",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_719197160"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94483819,
-     -32.02018577
-    ]
-   },
-   "properties": {
     "name": "UNIT 41, 16 GREY STREET CANNINGTON 6107",
     "locID": "LOC000155803198",
     "tech": "FTTB",
@@ -75035,23 +74891,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719197911"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94483819,
-     -32.02018577
-    ]
-   },
-   "properties": {
-    "name": "UNIT 55, 16 GREY STREET CANNINGTON 6107",
-    "locID": "LOC000155803510",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_719197912"
    }
   },
   {
@@ -75428,23 +75267,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719199266"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94483819,
-     -32.02018577
-    ]
-   },
-   "properties": {
-    "name": "UNIT 52, 16 GREY STREET CANNINGTON 6107",
-    "locID": "LOC000155803432",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_719199267"
    }
   },
   {
@@ -75949,23 +75771,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719200728"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.94483819,
-     -32.02018577
-    ]
-   },
-   "properties": {
-    "name": "UNIT 53, 16 GREY STREET CANNINGTON 6107",
-    "locID": "LOC000155803466",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_719200729"
    }
   },
   {
@@ -83794,24 +83599,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720718642",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.93628401,
-     -32.01623583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 817, FLOOR 8, 17 PATTIE STREET CANNINGTON 6107",
-    "locID": "LOC100088090735",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720718650",
     "tech_change_status": "Not Planned"
    }
   },
