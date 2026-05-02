@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-20T03:38:03.924994",
+ "generated": "2026-05-02T23:42:48.723059",
  "suburb": "LAVERTON",
  "features": [
   {
@@ -9866,8 +9866,8 @@
    "properties": {
     "name": "55 BLADIN STREET LAVERTON 3028",
     "locID": "LOC000085366170",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420180294",
     "tech_change_status": "Eligible to Order"
    }
@@ -10780,10 +10780,9 @@
    "properties": {
     "name": "49 CROPLEY CRESCENT LAVERTON 3028",
     "locID": "LOC000096778727",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420191064",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420191064"
    }
   },
   {
@@ -11250,10 +11249,10 @@
    "properties": {
     "name": "9 THOMSON AVENUE LAVERTON 3028",
     "locID": "LOC000080724906",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420197664",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -18669,6 +18668,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.769913,
+     -37.862792
+    ]
+   },
+   "properties": {
+    "name": "149 BLADIN STREET LAVERTON 3028",
+    "locID": "LOC000198737173",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420810179"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.772601,
      -37.863014
     ]
@@ -24814,23 +24830,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.755645,
-     -37.86860081
-    ]
-   },
-   "properties": {
-    "name": "85 TRIHOLM AVENUE LAVERTON 3028",
-    "locID": "LOC000038775206",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421147657"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.773466,
      -37.85164
     ]
@@ -26117,10 +26116,9 @@
    "properties": {
     "name": "3 EATON PARADE LAVERTON 3028",
     "locID": "LOC000104549290",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421393481",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421393481"
    }
   },
   {
@@ -38240,9 +38238,9 @@
     "name": "UNIT 2, 55 OLD GEELONG ROAD LAVERTON 3028",
     "locID": "LOC000165540770",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425525144",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -39167,10 +39165,9 @@
    "properties": {
     "name": "5 ULM STREET LAVERTON 3028",
     "locID": "LOC000165542805",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425692875",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425692875"
    }
   },
   {
@@ -39541,6 +39538,42 @@
     ]
    },
    "properties": {
+    "name": "UNIT 1, 85 TRIHOLM AVENUE LAVERTON 3028",
+    "locID": "LOC100059457299",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425789646",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.755645,
+     -37.86860081
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 85 TRIHOLM AVENUE LAVERTON 3028",
+    "locID": "LOC100070063648",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425789647",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.755645,
+     -37.86860081
+    ]
+   },
+   "properties": {
     "name": "UNIT 3, 85 TRIHOLM AVENUE LAVERTON 3028",
     "locID": "LOC100059457313",
     "tech": "FTTC",
@@ -39559,11 +39592,64 @@
     ]
    },
    "properties": {
+    "name": "UNIT 4, 85 TRIHOLM AVENUE LAVERTON 3028",
+    "locID": "LOC100059457321",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425789649",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.755645,
+     -37.86860081
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 85 TRIHOLM AVENUE LAVERTON 3028",
+    "locID": "LOC100059457332",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425789650"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.755645,
+     -37.86860081
+    ]
+   },
+   "properties": {
     "name": "UNIT 6, 85 TRIHOLM AVENUE LAVERTON 3028",
     "locID": "LOC000191372728",
     "tech": "FTTC",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425789651",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.755645,
+     -37.86860081
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 85 TRIHOLM AVENUE LAVERTON 3028",
+    "locID": "LOC100059457309",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425789652",
     "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
@@ -42388,10 +42474,9 @@
    "properties": {
     "name": "UNIT 3, 61 WACKETT STREET LAVERTON 3028",
     "locID": "LOC000173322411",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC719553864",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719553864"
    }
   },
   {
@@ -49921,6 +50006,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.77258702,
+     -37.85578854
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 102 BLADIN STREET LAVERTON 3028",
+    "locID": "LOC000198840432",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848642"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.7759342,
      -37.85724493
     ]
@@ -49990,6 +50092,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.77258702,
+     -37.85578854
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 102 BLADIN STREET LAVERTON 3028",
+    "locID": "LOC000198840421",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854784"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.76835282,
      -37.858777
     ]
@@ -50000,6 +50119,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721855225"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.77258702,
+     -37.85578854
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 102 BLADIN STREET LAVERTON 3028",
+    "locID": "LOC000198840413",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856467"
    }
   },
   {
