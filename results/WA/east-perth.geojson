@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-21T04:49:02.466829",
+ "generated": "2026-05-04T06:32:41.153749",
  "suburb": "EAST PERTH",
  "features": [
   {
@@ -455,7 +455,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146641781",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1333,7 +1335,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146649955",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -1537,10 +1540,9 @@
    "properties": {
     "name": "57 WITTENOOM STREET EAST PERTH 6004",
     "locID": "LOC000034417548",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146651889",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146651889"
    }
   },
   {
@@ -3268,7 +3270,7 @@
    "properties": {
     "name": "151 ROYAL STREET EAST PERTH 6004",
     "locID": "LOC000072013702",
-    "tech": "FTTB",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146661440"
    }
@@ -21608,6 +21610,23 @@
     ]
    },
    "properties": {
+    "name": "UNIT 3, 49-53 BRONTE STREET EAST PERTH 6004",
+    "locID": "LOC000132047501",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147302538"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.87414,
+     -31.95567
+    ]
+   },
+   "properties": {
     "name": "UNIT 4, 49-53 BRONTE STREET EAST PERTH 6004",
     "locID": "LOC000132047474",
     "tech": "FTTB",
@@ -25480,9 +25499,9 @@
     "name": "UNIT 2, FLOOR 1, 34 KENSINGTON STREET EAST PERTH 6004",
     "locID": "LOC000067683886",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147327114",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -25498,9 +25517,9 @@
     "name": "UNIT 3, FLOOR 2, 34 KENSINGTON STREET EAST PERTH 6004",
     "locID": "LOC000067683886",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147327115",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -48234,9 +48253,9 @@
     "name": "34 KENSINGTON STREET EAST PERTH 6004",
     "locID": "LOC000067683886",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148310937",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -53244,9 +53263,9 @@
     "name": "41 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000100797280",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148318692",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -53261,10 +53280,9 @@
    "properties": {
     "name": "43 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000033735738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_148318694",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148318694"
    }
   },
   {
@@ -55174,8 +55192,8 @@
    "properties": {
     "name": "APARTMENT 7, 113 ROYAL STREET EAST PERTH 6004",
     "locID": "LOC000050563878",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160653524",
     "tech_change_status": "Eligible to Order"
    }
@@ -72391,10 +72409,9 @@
    "properties": {
     "name": "UNIT 1, 57 WITTENOOM STREET EAST PERTH 6004",
     "locID": "LOC000034417548",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_162647758",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162647758"
    }
   },
   {
@@ -97689,7 +97706,7 @@
    "properties": {
     "name": "UNIT 10, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065447434",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163157052",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -97707,7 +97724,7 @@
    "properties": {
     "name": "UNIT 11, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065694476",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163157053",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -97726,9 +97743,9 @@
     "name": "APARTMENT 1, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000184938081",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157054",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97744,9 +97761,9 @@
     "name": "UNIT 2, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065552709",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157055",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97761,7 +97778,7 @@
    "properties": {
     "name": "UNIT 3, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065652237",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163157056",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -97780,9 +97797,9 @@
     "name": "UNIT 4, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065767867",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157057",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97798,9 +97815,9 @@
     "name": "UNIT 5, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065571619",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157058",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97816,9 +97833,9 @@
     "name": "UNIT 6, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065399114",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157059",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97834,9 +97851,9 @@
     "name": "UNIT 7, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065580494",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157060",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -97851,7 +97868,7 @@
    "properties": {
     "name": "UNIT 8, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065772008",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163157061",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -97870,9 +97887,9 @@
     "name": "UNIT 9, 47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065301865",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163157062",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -100834,9 +100851,9 @@
     "name": "47 TULLY ROAD EAST PERTH 6004",
     "locID": "LOC000065552709",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163206965",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -144902,10 +144919,9 @@
    "properties": {
     "name": "UNIT 2, 57 WITTENOOM STREET EAST PERTH 6004",
     "locID": "LOC000034417548",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_719645916",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719645916"
    }
   },
   {
