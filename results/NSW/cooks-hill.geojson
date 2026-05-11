@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-26T03:15:19.574458",
+ "generated": "2026-05-11T12:23:24.201002",
  "suburb": "COOKS HILL",
  "features": [
   {
@@ -1195,10 +1195,10 @@
    "properties": {
     "name": "71 BRUCE STREET COOKS HILL 2300",
     "locID": "LOC000102716638",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704461611",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4835,10 +4835,9 @@
    "properties": {
     "name": "15 YOUNG STREET COOKS HILL 2300",
     "locID": "LOC000098588059",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704462888",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5662,10 +5661,9 @@
    "properties": {
     "name": "19 BRUCE STREET COOKS HILL 2300",
     "locID": "LOC000004539473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704464876",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6509,10 +6507,9 @@
    "properties": {
     "name": "26 PARRY STREET COOKS HILL 2300",
     "locID": "LOC000052190700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704464971",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9453,10 +9450,9 @@
    "properties": {
     "name": "96 BULL STREET COOKS HILL 2300",
     "locID": "LOC000052180173",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704468273",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16086,9 +16082,9 @@
     "name": "48 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC000107348007",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704472420",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17529,24 +17525,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.76437924,
-     -32.93286836
-    ]
-   },
-   "properties": {
-    "name": "95 UNION STREET COOKS HILL 2300",
-    "locID": "LOC000001397398",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704472817",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.76429081,
      -32.93296567
     ]
@@ -18340,9 +18318,9 @@
     "name": "66 RAILWAY STREET COOKS HILL 2300",
     "locID": "LOC000086209559",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704474391",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22535,24 +22513,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.77167338,
-     -32.93200841
-    ]
-   },
-   "properties": {
-    "name": "145 DARBY STREET COOKS HILL 2300",
-    "locID": "LOC100064177040",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704484427",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -27623,9 +27583,11 @@
     "name": "UNIT 12, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093141",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW707945049",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -28119,10 +28081,9 @@
    "properties": {
     "name": "38A CORLETTE STREET COOKS HILL 2300",
     "locID": "LOC000008825266",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW708916196",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29579,9 +29540,11 @@
     "name": "UNIT 3, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726624",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711897173",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -29616,9 +29579,11 @@
     "name": "UNIT 4, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726630",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711897178",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -30594,9 +30559,11 @@
     "name": "UNIT 2, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726611",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711901526",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -30612,9 +30579,11 @@
     "name": "UNIT 7, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726669",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711901533",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -31548,9 +31517,11 @@
     "name": "UNIT 5, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726648",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711908391",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -31566,9 +31537,11 @@
     "name": "UNIT 8, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726676",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711908392",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -32210,9 +32183,11 @@
     "name": "UNIT 6, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726653",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711909156",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -32891,9 +32866,11 @@
     "name": "80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100087626467",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711913493",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -32928,9 +32905,11 @@
     "name": "UNIT 9, 80 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC100091726682",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711918304",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -38714,10 +38693,9 @@
    "properties": {
     "name": "UNIT 4, 38A CORLETTE STREET COOKS HILL 2300",
     "locID": "LOC000008825266",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711976247",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39236,10 +39214,10 @@
    "properties": {
     "name": "UNIT 108, 185 DARBY STREET COOKS HILL 2300",
     "locID": "LOC000097819476",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715365947",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -42973,9 +42951,11 @@
     "name": "1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093346",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717750084",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47665,9 +47645,11 @@
     "name": "UNIT 3, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093333",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719867969",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47683,9 +47665,11 @@
     "name": "UNIT 5, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093314",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719873620",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47701,9 +47685,11 @@
     "name": "UNIT 2, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093351",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719881873",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47719,9 +47705,11 @@
     "name": "UNIT 24, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093224",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719883115",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47737,9 +47725,11 @@
     "name": "UNIT 1, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093346",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719886172",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -47774,9 +47764,11 @@
     "name": "UNIT 4, 1 RODGERS COURT COOKS HILL 2300",
     "locID": "LOC100091093379",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719893189",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -48589,9 +48581,9 @@
     "name": "119 PARKWAY AVENUE COOKS HILL 2300",
     "locID": "LOC000107348007",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW721440505",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
