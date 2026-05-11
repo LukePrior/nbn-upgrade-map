@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-26T06:04:53.537193",
+ "generated": "2026-05-11T17:27:41.458600",
  "suburb": "DUNDAS VALLEY",
  "features": [
   {
@@ -6494,23 +6494,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.0565702,
-     -33.79129142
-    ]
-   },
-   "properties": {
-    "name": "17 SUPPLY STREET DUNDAS VALLEY 2117",
-    "locID": "LOC000076008008",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704628377"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.06178165,
      -33.79512988
     ]
@@ -12256,10 +12239,11 @@
     "name": "UNIT 8, 1 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115332349",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706547750",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12293,10 +12277,10 @@
    "properties": {
     "name": "UNIT 6, 1 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052874742",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706547752",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -25328,6 +25312,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.06187007,
+     -33.79561
+    ]
+   },
+   "properties": {
+    "name": "22A DOBSON CRESCENT DUNDAS VALLEY 2117",
+    "locID": "LOC000004879436",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW716731321",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.06202698,
      -33.79372444
     ]
@@ -26216,10 +26220,9 @@
    "properties": {
     "name": "11 BROTHERS STREET DUNDAS VALLEY 2117",
     "locID": "LOC000077373640",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717076412",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717076412"
    }
   },
   {
@@ -27605,10 +27608,9 @@
    "properties": {
     "name": "13 MANNING PARADE DUNDAS VALLEY 2117",
     "locID": "LOC000031722319",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717083999",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717083999"
    }
   },
   {
@@ -27935,10 +27937,9 @@
    "properties": {
     "name": "9 MANNING PARADE DUNDAS VALLEY 2117",
     "locID": "LOC000084173286",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717084019",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717084019"
    }
   },
   {
@@ -33213,10 +33214,10 @@
    "properties": {
     "name": "UNIT 1, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052874742",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972385",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33442,10 +33443,10 @@
    "properties": {
     "name": "UNIT 2, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052601037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972397",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33519,11 +33520,12 @@
    "properties": {
     "name": "TOWNHOUSE 3, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000053019321",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972401",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33558,9 +33560,9 @@
     "name": "UNIT 4, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052521255",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972403",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33596,10 +33598,10 @@
    "properties": {
     "name": "UNIT 5, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052583613",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972405",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -33635,10 +33637,10 @@
    "properties": {
     "name": "UNIT 6, 6 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000052601037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972407",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -34041,10 +34043,11 @@
     "name": "UNIT 1, 8 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115332349",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718188852",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34060,9 +34063,9 @@
     "name": "UNIT 2, 8 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115332354",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718188853",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -34080,9 +34083,9 @@
     "name": "UNIT 3, 8 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115332365",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718188854",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -34117,9 +34120,9 @@
     "name": "UNIT 5, 8 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115332383",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718188856",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -34137,9 +34140,9 @@
     "name": "UNIT 6, 8 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000115336156",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718188857",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -37628,10 +37631,9 @@
    "properties": {
     "name": "37A MOFFATTS DRIVE DUNDAS VALLEY 2117",
     "locID": "LOC000179702162",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719843515",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719843515"
    }
   },
   {
@@ -38394,6 +38396,24 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720321967"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0547152,
+     -33.7978443
+    ]
+   },
+   "properties": {
+    "name": "12A ADAMSON AVENUE DUNDAS VALLEY 2117",
+    "locID": "LOC000056038349",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW720326193",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
