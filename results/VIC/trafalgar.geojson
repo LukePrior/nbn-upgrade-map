@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-27T10:41:21.654442",
+ "generated": "2026-05-13T10:08:16.171510",
  "suburb": "TRAFALGAR",
  "features": [
   {
@@ -2049,9 +2049,9 @@
     "name": "31 KITCHENER STREET TRAFALGAR 3824",
     "locID": "LOC000104600133",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419764816",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13071,7 +13071,7 @@
     "name": "6 GILES ROAD TRAFALGAR 3824",
     "locID": "LOC000070549860",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420993083",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15388,7 +15388,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421437422",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17462,8 +17462,8 @@
    "properties": {
     "name": "49 SETTLEMENT ROAD TRAFALGAR 3824",
     "locID": "LOC000037889782",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421617405",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17737,10 +17737,9 @@
    "properties": {
     "name": "94 CONTINGENT STREET TRAFALGAR 3824",
     "locID": "LOC000045892473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421815220",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17797,10 +17796,9 @@
    "properties": {
     "name": "16 WILSON COURT TRAFALGAR 3824",
     "locID": "LOC000114892115",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421838165",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34355,6 +34353,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.15784787,
+     -38.20597745
+    ]
+   },
+   "properties": {
+    "name": "2-4 SALEYARDS ROAD TRAFALGAR 3824",
+    "locID": "LOC000054138159",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424503604",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.15718817,
      -38.20331387
     ]
@@ -36400,7 +36418,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424970678",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41499,6 +41519,23 @@
     "gnaf_pid": "GAVIC721857401",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.15429441,
+     -38.21447206
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 74 CONTINGENT STREET TRAFALGAR 3824",
+    "locID": "LOC000198883573",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721872480"
    }
   }
  ]
