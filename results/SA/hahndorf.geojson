@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-04-29T02:32:01.244085",
+ "generated": "2026-05-16T03:59:33.541372",
  "suburb": "HAHNDORF",
  "features": [
   {
@@ -5481,7 +5481,7 @@
     "name": "12 VICTORIA STREET HAHNDORF 5245",
     "locID": "LOC000012528100",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415366652",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5858,7 +5858,7 @@
     "name": "14 HEREFORD AVENUE HAHNDORF 5245",
     "locID": "LOC000071616321",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415376537",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10368,10 +10368,10 @@
    "properties": {
     "name": "10 ENGLISH STREET HAHNDORF 5245",
     "locID": "LOC000049140251",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415511976",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10430,7 +10430,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415522350",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11163,9 +11163,9 @@
     "name": "10 JOHNS LANE HAHNDORF 5245",
     "locID": "LOC000070466511",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415564287",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14784,8 +14784,8 @@
    "properties": {
     "name": "74 MOUNT BARKER ROAD HAHNDORF 5245",
     "locID": "LOC000032000046",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422255555",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14907,6 +14907,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.80840583,
+     -35.02565152
+    ]
+   },
+   "properties": {
+    "name": "104 MOUNT BARKER ROAD HAHNDORF 5245",
+    "locID": "LOC100092654451",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_422255565",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -19401,7 +19419,7 @@
     "name": "23 JOHNS LANE HAHNDORF 5245",
     "locID": "LOC000047948231",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_424431710",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
