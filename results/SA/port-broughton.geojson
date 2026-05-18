@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-01T00:53:58.820320",
+ "generated": "2026-05-18T15:18:48.852167",
  "suburb": "PORT BROUGHTON",
  "features": [
   {
@@ -3093,7 +3093,7 @@
     "name": "69 JOHN LEWIS DRIVE PORT BROUGHTON 5522",
     "locID": "LOC000073534822",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415584571",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3273,7 +3273,7 @@
     "name": "47 JOHN LEWIS DRIVE PORT BROUGHTON 5522",
     "locID": "LOC000033237087",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415586257",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4369,10 +4369,9 @@
    "properties": {
     "name": "7 FISHERMAN BAY ROAD PORT BROUGHTON 5522",
     "locID": "LOC000017761519",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415594386",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5369,10 +5368,9 @@
    "properties": {
     "name": "152 JOHN LEWIS DRIVE PORT BROUGHTON 5522",
     "locID": "LOC000067232234",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415598033",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9978,10 +9976,10 @@
    "properties": {
     "name": "14 PENANG DRIVE PORT BROUGHTON 5522",
     "locID": "LOC000062634404",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416264691",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10002,7 +10000,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416264859",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2027"
    }
   },
@@ -11137,7 +11135,7 @@
     "name": "1 HARVEY STREET PORT BROUGHTON 5522",
     "locID": "LOC000075391081",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_422062063",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13493,9 +13491,9 @@
     "name": "32 PARMA STREET PORT BROUGHTON 5522",
     "locID": "LOC000007628313",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_424607442",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16373,11 +16371,9 @@
     "name": "108 UPPER YORKE ROAD PORT BROUGHTON 5522",
     "locID": "LOC000150244062",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425305977",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2027"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -17984,10 +17980,9 @@
    "properties": {
     "name": "8 MCKAY STREET PORT BROUGHTON 5522",
     "locID": "LOC000065828710",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425722587",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18717,6 +18712,23 @@
     "gnaf_pid": "GASA_719772979",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.93382205,
+     -33.61132329
+    ]
+   },
+   "properties": {
+    "name": "2 HUSSMAN DRIVE PORT BROUGHTON 5522",
+    "locID": "LOC000198914278",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719773002"
    }
   },
   {
@@ -20092,10 +20104,10 @@
    "properties": {
     "name": "13 MOSHULU STREET PORT BROUGHTON 5522",
     "locID": "LOC000186723849",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720304149",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
