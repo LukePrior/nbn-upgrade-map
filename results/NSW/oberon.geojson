@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-05T10:12:38.524491",
+ "generated": "2026-05-23T07:27:26.694281",
  "suburb": "OBERON",
  "features": [
   {
@@ -155,7 +155,7 @@
     "name": "111 NORTH STREET OBERON 2787",
     "locID": "LOC000030557706",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705579387",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -657,7 +657,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705584525",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1924,7 +1924,7 @@
     "name": "34 DUDLEY STREET OBERON 2787",
     "locID": "LOC000103147716",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705591848",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2740,8 +2740,8 @@
    "properties": {
     "name": "18 DART STREET OBERON 2787",
     "locID": "LOC000076339848",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705592213",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4976,7 +4976,7 @@
     "name": "27 DART STREET OBERON 2787",
     "locID": "LOC000001358498",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705595415",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7329,10 +7329,10 @@
    "properties": {
     "name": "44 CARRINGTON AVENUE OBERON 2787",
     "locID": "LOC000002178654",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705602136",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7846,8 +7846,8 @@
    "properties": {
     "name": "102 QUEEN STREET OBERON 2787",
     "locID": "LOC000098607896",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705602180",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8386,9 +8386,11 @@
     "name": "3-4 COLE CRESCENT OBERON 2787",
     "locID": "LOC100091709211",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705605403",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -9544,10 +9546,9 @@
    "properties": {
     "name": "10 SPRINGFIELD STREET OBERON 2787",
     "locID": "LOC000003799051",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705605804",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14228,10 +14229,10 @@
    "properties": {
     "name": "7 TARANA CRESCENT OBERON 2787",
     "locID": "LOC000012389241",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705623455",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -17212,10 +17213,9 @@
    "properties": {
     "name": "41 BALFOUR STREET OBERON 2787",
     "locID": "LOC000068124570",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705632469",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19315,6 +19315,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.85829902,
+     -33.70596749
+    ]
+   },
+   "properties": {
+    "name": "28 ROSS STREET OBERON 2787",
+    "locID": "LOC000122249882",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705636260",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.85775099,
      -33.70527044
     ]
@@ -19323,7 +19343,7 @@
     "name": "29 ROSS STREET OBERON 2787",
     "locID": "LOC000071150957",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705636261",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24218,10 +24238,9 @@
    "properties": {
     "name": "21 BALFOUR STREET OBERON 2787",
     "locID": "LOC000027221641",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712981036",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24899,6 +24918,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.85551621,
+     -33.70930166
+    ]
+   },
+   "properties": {
+    "name": "99 ROSS STREET OBERON 2787",
+    "locID": "LOC000173278405",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW712988616",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.8611068,
      -33.70168721
     ]
@@ -25344,7 +25383,7 @@
     "name": "152A OBERON STREET OBERON 2787",
     "locID": "LOC000047295704",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712993627",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32208,7 +32247,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717899955",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -33014,7 +33053,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717961241",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -33209,6 +33248,26 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.85705899,
+     -33.70867316
+    ]
+   },
+   "properties": {
+    "name": "65-67 ROSS STREET OBERON 2787",
+    "locID": "LOC000173278433",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717965277",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -37255,7 +37314,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718433360",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -38938,9 +38997,11 @@
     "name": "13A TARANA ROAD OBERON 2787",
     "locID": "LOC100091709207",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718966632",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -39738,9 +39799,11 @@
     "name": "22 HERBORN STREET OBERON 2787",
     "locID": "LOC100091709194",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719813578",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
    }
   },
   {
@@ -41554,6 +41617,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.85551621,
+     -33.70930166
+    ]
+   },
+   "properties": {
+    "name": "73-99 ROSS STREET OBERON 2787",
+    "locID": "LOC000173278405",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721175450",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.86443308,
      -33.69688194
     ]
@@ -41799,7 +41882,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721440410",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2027"
    }
@@ -42165,6 +42248,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721579154"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.84913478,
+     -33.70553902
+    ]
+   },
+   "properties": {
+    "name": "11 ELLIS DRIVE OBERON 2787",
+    "locID": "LOC000194265498",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721674852"
    }
   },
   {
