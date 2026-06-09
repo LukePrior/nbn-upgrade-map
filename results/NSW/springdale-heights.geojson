@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-05T23:27:07.629389",
+ "generated": "2026-06-09T11:36:42.668756",
  "suburb": "SPRINGDALE HEIGHTS",
  "features": [
   {
@@ -386,8 +386,8 @@
    "properties": {
     "name": "6 BAROOK PLACE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000052002582",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706514423",
     "tech_change_status": "Eligible to Order"
    }
@@ -2006,7 +2006,7 @@
     "name": "62 CARDO DRIVE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000070512041",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706521817",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2780,9 +2780,9 @@
     "name": "29 BANGALLA PLACE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000086392141",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706524675",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3467,9 +3467,9 @@
     "name": "3 ALKIRA COURT SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000108205556",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706532042",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -3732,10 +3732,10 @@
    "properties": {
     "name": "53 BURONGA DRIVE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000014003280",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706532056",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12370,7 +12370,7 @@
     "name": "14 GARDINIA STREET SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000077729441",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710180497",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12629,7 +12629,7 @@
     "name": "2 GORDON STREET SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000024824647",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710180722",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13112,7 +13112,7 @@
     "name": "2 CURRINGA PLACE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000026787109",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716467405",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14917,8 +14917,8 @@
    "properties": {
     "name": "20 CHAFIA PLACE SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000052203698",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717012789",
     "tech_change_status": "Eligible to Order"
    }
@@ -15721,8 +15721,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717335724",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -15958,7 +15958,7 @@
     "gnaf_pid": "GANSW717736998",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Mar 2027"
    }
   },
   {
@@ -20493,10 +20493,9 @@
    "properties": {
     "name": "644 STOREY STREET SPRINGDALE HEIGHTS 2641",
     "locID": "LOC000149539292",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718621819",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22319,26 +22318,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719657390"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.97128571,
-     -36.03322604
-    ]
-   },
-   "properties": {
-    "name": "635 WAGGA ROAD SPRINGDALE HEIGHTS 2641",
-    "locID": "LOC000121865904",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719662760",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
