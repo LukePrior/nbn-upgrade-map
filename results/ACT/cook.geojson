@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-05T19:43:37.038451",
+ "generated": "2026-06-09T07:45:00.432926",
  "suburb": "COOK",
  "features": [
   {
@@ -1361,10 +1361,10 @@
    "properties": {
     "name": "186 DEXTER STREET COOK 2614",
     "locID": "LOC000111587510",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714853243",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15173,10 +15173,9 @@
    "properties": {
     "name": "33 WYBALENA GROVE COOK 2614",
     "locID": "LOC000111535054",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAACT714861237",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT714861237"
    }
   },
   {
@@ -15635,9 +15634,11 @@
     "name": "30 TEMPLETON STREET COOK 2614",
     "locID": "LOC000198567970",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714861347",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2030"
    }
   },
   {
@@ -18431,9 +18432,9 @@
     "name": "26 WYBALENA GROVE COOK 2614",
     "locID": "LOC000111822477",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT714861657",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -27837,6 +27838,23 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.06607371,
+     -35.26266317
+    ]
+   },
+   "properties": {
+    "name": "5 OAKES STREET COOK 2614",
+    "locID": "LOC000197270260",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT720712319"
    }
   },
   {
