@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-05T15:32:34.692389",
+ "generated": "2026-06-09T02:19:03.167416",
  "suburb": "SHELLHARBOUR CITY CENTRE",
  "features": [
   {
@@ -997,7 +997,7 @@
     "gnaf_pid": "GANSW717206560",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2028"
+    "target_eligibility_quarter": "Sep 2028"
    }
   },
   {
@@ -1374,10 +1374,12 @@
    "properties": {
     "name": "SHOP 3, 10 COLLEGE AVENUE SHELLHARBOUR CITY CENTRE 2529",
     "locID": "LOC000078670112",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717730335",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1580,10 +1582,9 @@
    "properties": {
     "name": "SHOP 2, 4 MEMORIAL DRIVE SHELLHARBOUR CITY CENTRE 2529",
     "locID": "LOC000030571184",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717733953",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14538,6 +14539,40 @@
     ]
    },
    "properties": {
+    "name": "UNIT 7, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
+    "locID": "LOC100092555814",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720418308"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8381853,
+     -34.56742899
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
+    "locID": "LOC100092555846",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720422175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8381853,
+     -34.56742899
+    ]
+   },
+   "properties": {
     "name": "UNIT 4, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
     "locID": "LOC100089662135",
     "tech": "NULL",
@@ -14563,6 +14598,57 @@
     "gnaf_pid": "GANSW720426040",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8381853,
+     -34.56742899
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
+    "locID": "LOC100092555879",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720427998"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8381853,
+     -34.56742899
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
+    "locID": "LOC100092555880",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720428008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8381853,
+     -34.56742899
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 6 BENSON AVENUE SHELLHARBOUR CITY CENTRE 2529",
+    "locID": "LOC100092555908",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720429860"
    }
   },
   {
@@ -14859,7 +14945,7 @@
    "properties": {
     "name": "UNIT 1, 4 EVELYN COURT SHELLHARBOUR CITY CENTRE 2529",
     "locID": "LOC100092278262",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721174086",
     "tech_change_status": "Not Planned"
