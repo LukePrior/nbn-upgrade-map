@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-10T03:45:35.572507",
+ "generated": "2026-06-13T13:53:58.798087",
  "suburb": "MACEDON",
  "features": [
   {
@@ -592,7 +592,7 @@
     "name": "37 WATERFALLS ROAD MACEDON 3440",
     "locID": "LOC000021885422",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414300836",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3031,10 +3031,10 @@
    "properties": {
     "name": "36 MARSHALL AVENUE MACEDON 3440",
     "locID": "LOC000018478699",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420006360",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3641,10 +3641,9 @@
    "properties": {
     "name": "65 BENT STREET MACEDON 3440",
     "locID": "LOC000038592328",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420021830",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5073,10 +5072,10 @@
    "properties": {
     "name": "98 MCBEAN AVENUE MACEDON 3440",
     "locID": "LOC000011235873",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420314555",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5447,10 +5446,10 @@
    "properties": {
     "name": "45 MCBEAN AVENUE MACEDON 3440",
     "locID": "LOC000074761756",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420319280",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5684,8 +5683,8 @@
    "properties": {
     "name": "2 ROWAN DRIVE MACEDON 3440",
     "locID": "LOC000103273614",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420325110",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7142,10 +7141,10 @@
    "properties": {
     "name": "27 CENTENARY AVENUE MACEDON 3440",
     "locID": "LOC000060593743",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420618388",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7464,6 +7463,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57362304,
+     -37.42088379
+    ]
+   },
+   "properties": {
+    "name": "65-75 HONOUR AVENUE MACEDON 3440",
+    "locID": "LOC000101716688",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420631828",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.56826084,
      -37.4273773
     ]
@@ -7629,11 +7648,11 @@
    "properties": {
     "name": "19 WINDSOR STREET MACEDON 3440",
     "locID": "LOC000096529211",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420740806",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12381,10 +12400,11 @@
     "name": "23 WINDSOR STREET MACEDON 3440",
     "locID": "LOC000054149406",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421616878",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15731,7 +15751,7 @@
     "gnaf_pid": "GAVIC424620043",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2029"
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -15751,7 +15771,7 @@
     "gnaf_pid": "GAVIC424620044",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2029"
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -15789,6 +15809,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424621132",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.56703362,
+     -37.42409035
+    ]
+   },
+   "properties": {
+    "name": "9-15 KEATING STREET MACEDON 3440",
+    "locID": "LOC000124930787",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424621133",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -15927,7 +15967,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424634514",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15946,6 +15988,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424675019",
     "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57016217,
+     -37.41842919
+    ]
+   },
+   "properties": {
+    "name": "68-70 BENT STREET MACEDON 3440",
+    "locID": "LOC000124926649",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC425008097",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
