@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-10T05:10:49.543195",
+ "generated": "2026-06-13T15:03:17.734639",
  "suburb": "MITCHELL PARK",
  "features": [
   {
@@ -5819,10 +5819,10 @@
    "properties": {
     "name": "18 ASHWOOD GARDENS MITCHELL PARK 3355",
     "locID": "LOC000108139695",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424233946",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6810,10 +6810,9 @@
    "properties": {
     "name": "322 LEARMONTH ROAD MITCHELL PARK 3355",
     "locID": "LOC000033538989",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424540553",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6871,9 +6870,9 @@
     "name": "10 REGINA STREET MITCHELL PARK 3355",
     "locID": "LOC000055405961",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424544710",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7963,7 +7962,7 @@
     "name": "29 MCDONALD DRIVE MITCHELL PARK 3355",
     "locID": "LOC000187898908",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425165159",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9376,9 +9375,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720134825",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9966,7 +9964,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721096072",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10560,12 +10560,31 @@
    "properties": {
     "name": "11B BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091045329",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721470945",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.79124263,
+     -37.51507513
+    ]
+   },
+   "properties": {
+    "name": "26 TERMINAL PLACE MITCHELL PARK 3355",
+    "locID": "LOC100091042740",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721470946",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10580,12 +10599,32 @@
    "properties": {
     "name": "2 PETCH CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091045204",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721471230",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.78389328,
+     -37.51752515
+    ]
+   },
+   "properties": {
+    "name": "5B TIMMINS LANE MITCHELL PARK 3355",
+    "locID": "LOC100091044870",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721471243",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10600,12 +10639,12 @@
    "properties": {
     "name": "1 TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC100091044938",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721472739",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10620,12 +10659,12 @@
    "properties": {
     "name": "11C BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091042646",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721472740",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10643,9 +10682,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721473189",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10663,9 +10701,27 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721473336",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.79064029,
+     -37.51465143
+    ]
+   },
+   "properties": {
+    "name": "21 TERMINAL PLACE MITCHELL PARK 3355",
+    "locID": "LOC100091042729",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721473728",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10680,12 +10736,12 @@
    "properties": {
     "name": "20A CHEETAH ROAD MITCHELL PARK 3355",
     "locID": "LOC100091045355",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721474017",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10700,12 +10756,12 @@
    "properties": {
     "name": "22A CHEETAH ROAD MITCHELL PARK 3355",
     "locID": "LOC100091045393",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721475364",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10720,12 +10776,12 @@
    "properties": {
     "name": "30 AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045258",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721475365",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10740,12 +10796,12 @@
    "properties": {
     "name": "5A TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC100091042772",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721475659",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10760,12 +10816,12 @@
    "properties": {
     "name": "2 WINMALING CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091044827",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721475765",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10780,12 +10836,12 @@
    "properties": {
     "name": "58 WINMALING CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091044787",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721475997",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10800,12 +10856,12 @@
    "properties": {
     "name": "51A AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045412",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721476002",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10820,12 +10876,12 @@
    "properties": {
     "name": "51C AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045496",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721477513",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10840,12 +10896,12 @@
    "properties": {
     "name": "11A BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091042508",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721477514",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10860,12 +10916,12 @@
    "properties": {
     "name": "20 AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091044955",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721477590",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10880,12 +10936,12 @@
    "properties": {
     "name": "39 AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045317",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721477744",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10900,12 +10956,12 @@
    "properties": {
     "name": "3A TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC100091045215",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721477745",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10923,9 +10979,27 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721478426",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.79112952,
+     -37.51469587
+    ]
+   },
+   "properties": {
+    "name": "25 TERMINAL PLACE MITCHELL PARK 3355",
+    "locID": "LOC100091042803",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721478735",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10940,12 +11014,12 @@
    "properties": {
     "name": "4 PETCH CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091045431",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721479981",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10960,12 +11034,12 @@
    "properties": {
     "name": "57 AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045372",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721482295",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10980,12 +11054,12 @@
    "properties": {
     "name": "8-10 PETCH CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091042633",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721482302",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11000,12 +11074,12 @@
    "properties": {
     "name": "1 KARNDORR CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091044794",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721482863",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11023,9 +11097,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721484675",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11041,11 +11114,11 @@
     "name": "4A TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC000187213778",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721484738",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11060,12 +11133,12 @@
    "properties": {
     "name": "21A AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091042651",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721484739",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11083,9 +11156,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721484849",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11100,12 +11172,12 @@
    "properties": {
     "name": "4B TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC100091045340",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721485324",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11125,7 +11197,7 @@
     "gnaf_pid": "GAVIC721485325",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -11140,12 +11212,12 @@
    "properties": {
     "name": "21 AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091042793",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721485342",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11160,12 +11232,12 @@
    "properties": {
     "name": "5 BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091044891",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721485594",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11183,9 +11255,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721485928",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11203,9 +11274,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487290",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11220,12 +11290,12 @@
    "properties": {
     "name": "31 WINMALING CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091044718",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487318",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11240,12 +11310,12 @@
    "properties": {
     "name": "25 BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091044901",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487750",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11260,12 +11330,12 @@
    "properties": {
     "name": "17 BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091044739",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487751",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11281,11 +11351,11 @@
     "name": "19 WINMALING CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC000189318379",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC721487753",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11300,12 +11370,12 @@
    "properties": {
     "name": "51B AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045477",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487997",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11320,12 +11390,12 @@
    "properties": {
     "name": "3B TIMMINS LANE MITCHELL PARK 3355",
     "locID": "LOC100091044929",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721487998",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11340,12 +11410,12 @@
    "properties": {
     "name": "55A AVRO ANSON APPROACH MITCHELL PARK 3355",
     "locID": "LOC100091045289",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721489454",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11360,12 +11430,12 @@
    "properties": {
     "name": "12 KARNDORR CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091045236",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721489455",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11385,7 +11455,7 @@
     "gnaf_pid": "GAVIC721489456",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -11400,12 +11470,31 @@
    "properties": {
     "name": "6 PETCH CIRCUIT MITCHELL PARK 3355",
     "locID": "LOC100091042614",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721489459",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.79057266,
+     -37.51500761
+    ]
+   },
+   "properties": {
+    "name": "22 TERMINAL PLACE MITCHELL PARK 3355",
+    "locID": "LOC100091044889",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721489460",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11420,12 +11509,12 @@
    "properties": {
     "name": "21 BOOMERANG ROAD MITCHELL PARK 3355",
     "locID": "LOC100091042786",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721489523",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11443,9 +11532,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721490010",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
