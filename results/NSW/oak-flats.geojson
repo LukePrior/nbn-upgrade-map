@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-12T07:37:49.274941",
+ "generated": "2026-06-15T13:41:17.520892",
  "suburb": "OAK FLATS",
  "features": [
   {
@@ -563,10 +563,10 @@
    "properties": {
     "name": "89 BARTON STREET OAK FLATS 2529",
     "locID": "LOC000054356450",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705562315",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2288,10 +2288,10 @@
    "properties": {
     "name": "161 THE BOULEVARDE OAK FLATS 2529",
     "locID": "LOC000048580802",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705563942",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3121,6 +3121,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.82505448,
+     -34.56454932
+    ]
+   },
+   "properties": {
+    "name": "1 KINGSTON STREET OAK FLATS 2529",
+    "locID": "LOC000181937590",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW705567162",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.82391499,
      -34.56490677
     ]
@@ -3192,26 +3212,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705567167",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.82333709,
-     -34.56487891
-    ]
-   },
-   "properties": {
-    "name": "17 KINGSTON STREET OAK FLATS 2529",
-    "locID": "LOC000025560091",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705567168",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5090,10 +5090,9 @@
    "properties": {
     "name": "31 LEAMINGTON ROAD OAK FLATS 2529",
     "locID": "LOC000086270064",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705569071",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6893,10 +6892,10 @@
    "properties": {
     "name": "11 BARTON STREET OAK FLATS 2529",
     "locID": "LOC000043921807",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705572297",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8023,10 +8022,9 @@
    "properties": {
     "name": "57 KINGSTON STREET OAK FLATS 2529",
     "locID": "LOC000087404041",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705572357",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10079,10 +10077,9 @@
    "properties": {
     "name": "29 FISHER STREET OAK FLATS 2529",
     "locID": "LOC000108379229",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705574236",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13687,9 +13684,9 @@
     "name": "47 BARTON STREET OAK FLATS 2529",
     "locID": "LOC000051629351",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705577506",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17509,8 +17506,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705580974",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19190,10 +19188,9 @@
    "properties": {
     "name": "79 DEVONSHIRE CRESCENT OAK FLATS 2529",
     "locID": "LOC000027397937",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705584223",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22023,7 +22020,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705586162",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22688,10 +22685,10 @@
    "properties": {
     "name": "35 THE ESPLANADE OAK FLATS 2529",
     "locID": "LOC000015879715",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705586201",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22827,26 +22824,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705586216",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.83370529,
-     -34.55701897
-    ]
-   },
-   "properties": {
-    "name": "52 THE ESPLANADE OAK FLATS 2529",
-    "locID": "LOC000028766514",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705586218",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26108,10 +26085,10 @@
    "properties": {
     "name": "27 THEODORE STREET OAK FLATS 2529",
     "locID": "LOC000047046305",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705594634",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26767,10 +26744,9 @@
    "properties": {
     "name": "67 CENTRAL AVENUE OAK FLATS 2529",
     "locID": "LOC000029061376",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705598381",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27052,7 +27028,7 @@
     "name": "46 BRIDGE AVENUE OAK FLATS 2529",
     "locID": "LOC000087427051",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705601581",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28277,10 +28253,9 @@
    "properties": {
     "name": "25 TARRA CRESCENT OAK FLATS 2529",
     "locID": "LOC000031285893",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705601665",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29372,10 +29347,10 @@
    "properties": {
     "name": "44 GRIFFITHS STREET OAK FLATS 2529",
     "locID": "LOC000074549603",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705604840",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29668,10 +29643,10 @@
    "properties": {
     "name": "63 GRIFFITHS STREET OAK FLATS 2529",
     "locID": "LOC000042549198",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705604855",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32399,24 +32374,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.82300877,
-     -34.5648939
-    ]
-   },
-   "properties": {
-    "name": "19-21 KINGSTON STREET OAK FLATS 2529",
-    "locID": "LOC000174933857",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705611928",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.82284713,
      -34.56431038
     ]
@@ -34104,7 +34061,7 @@
     "name": "18 HOPETOUN STREET OAK FLATS 2529",
     "locID": "LOC000018882946",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615172",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38177,10 +38134,9 @@
    "properties": {
     "name": "100 WENTWORTH STREET OAK FLATS 2529",
     "locID": "LOC000051458498",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705625415",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40995,26 +40951,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.82326726,
-     -34.5612391
-    ]
-   },
-   "properties": {
-    "name": "8 WENTWORTH STREET OAK FLATS 2529",
-    "locID": "LOC000102032675",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705632915",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.81560844,
      -34.56195308
     ]
@@ -42226,10 +42162,9 @@
    "properties": {
     "name": "61 HORSLEY ROAD OAK FLATS 2529",
     "locID": "LOC000097394855",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705639910",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42577,10 +42512,9 @@
    "properties": {
     "name": "28 TIMBS ROAD OAK FLATS 2529",
     "locID": "LOC000090151204",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706571671",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44003,10 +43937,9 @@
    "properties": {
     "name": "24 ALLINGA DRIVE OAK FLATS 2529",
     "locID": "LOC000061303620",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706636911",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45207,10 +45140,9 @@
    "properties": {
     "name": "5 KILPA PLACE OAK FLATS 2529",
     "locID": "LOC000025622832",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706647151",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45565,10 +45497,9 @@
    "properties": {
     "name": "17 WARATI PLACE OAK FLATS 2529",
     "locID": "LOC000095894519",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706650430",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46508,10 +46439,10 @@
    "properties": {
     "name": "12 KANA PLACE OAK FLATS 2529",
     "locID": "LOC000055829479",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706654468",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49187,10 +49118,9 @@
    "properties": {
     "name": "UNIT 3, 57 KINGSTON STREET OAK FLATS 2529",
     "locID": "LOC000087404041",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712418519",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49854,10 +49784,9 @@
    "properties": {
     "name": "UNIT 2, 57 KINGSTON STREET OAK FLATS 2529",
     "locID": "LOC000087707901",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712424366",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50361,10 +50290,9 @@
    "properties": {
     "name": "UNIT 2, 67 CENTRAL AVENUE OAK FLATS 2529",
     "locID": "LOC000029061376",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712428392",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51830,10 +51758,9 @@
    "properties": {
     "name": "UNIT 3, 17 DAVID AVENUE OAK FLATS 2529",
     "locID": "LOC000003975189",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712445311",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54256,7 +54183,7 @@
     "name": "84B CENTRAL AVENUE OAK FLATS 2529",
     "locID": "LOC000094665055",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712462174",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -58826,10 +58753,9 @@
    "properties": {
     "name": "UNIT 1, 2A FISHER STREET OAK FLATS 2529",
     "locID": "LOC000074474455",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717973126",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59180,10 +59106,9 @@
    "properties": {
     "name": "2A FISHER STREET OAK FLATS 2529",
     "locID": "LOC000074474455",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717987892",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59261,9 +59186,9 @@
     "name": "UNIT 1, 47 BARTON STREET OAK FLATS 2529",
     "locID": "LOC000051629351",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718084737",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59281,9 +59206,9 @@
     "name": "UNIT 2, 47 BARTON STREET OAK FLATS 2529",
     "locID": "LOC000051629351",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718084738",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63272,8 +63197,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719178106",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63388,8 +63314,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719179606",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63424,8 +63351,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719179764",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63480,8 +63408,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719180980",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72548,6 +72477,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.81552589,
+     -34.5629711
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 80 GRIFFITHS STREET OAK FLATS 2529",
+    "locID": "LOC000198995041",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721457593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.81376613,
      -34.56272393
     ]
@@ -72619,6 +72565,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.81552589,
+     -34.5629711
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 80 GRIFFITHS STREET OAK FLATS 2529",
+    "locID": "LOC000198995056",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721457799"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.81569126,
      -34.55765853
     ]
@@ -72665,6 +72628,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721458058"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.81552589,
+     -34.5629711
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 80 GRIFFITHS STREET OAK FLATS 2529",
+    "locID": "LOC000198995039",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721458177"
    }
   },
   {
@@ -73334,6 +73314,74 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.83370529,
+     -34.55701897
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 52 THE ESPLANADE OAK FLATS 2529",
+    "locID": "LOC000199044446",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721882388"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.83370529,
+     -34.55701897
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 52 THE ESPLANADE OAK FLATS 2529",
+    "locID": "LOC000199044433",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721882632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.83370529,
+     -34.55701897
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 52 THE ESPLANADE OAK FLATS 2529",
+    "locID": "LOC000199044451",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721882993"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.83370529,
+     -34.55701897
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 52 THE ESPLANADE OAK FLATS 2529",
+    "locID": "LOC000199044422",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721883260"
    }
   }
  ]
