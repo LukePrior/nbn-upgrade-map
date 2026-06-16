@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-13T05:00:30.972106",
+ "generated": "2026-06-16T13:08:09.423419",
  "suburb": "MIDDLE PARK",
  "features": [
   {
@@ -4682,10 +4682,9 @@
    "properties": {
     "name": "UNIT 1, 210 BEACONSFIELD PARADE MIDDLE PARK 3206",
     "locID": "LOC000053249701",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411856685",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5429,10 +5428,10 @@
    "properties": {
     "name": "209 ASHWORTH STREET MIDDLE PARK 3206",
     "locID": "LOC000100376189",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411864105",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -7981,7 +7980,7 @@
     "name": "10 WRIGHT STREET MIDDLE PARK 3206",
     "locID": "LOC000022579513",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419593682",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13236,10 +13235,10 @@
    "properties": {
     "name": "187 RICHARDSON STREET MIDDLE PARK 3206",
     "locID": "LOC000060049231",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419905075",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15340,10 +15339,9 @@
    "properties": {
     "name": "210 BEACONSFIELD PARADE MIDDLE PARK 3206",
     "locID": "LOC000053249701",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420189114",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16005,7 +16003,7 @@
     "name": "146 PAGE STREET MIDDLE PARK 3206",
     "locID": "LOC000025940637",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420198504",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20715,10 +20713,9 @@
    "properties": {
     "name": "355 DANKS STREET MIDDLE PARK 3206",
     "locID": "LOC000077327528",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420794094",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32172,10 +32169,9 @@
    "properties": {
     "name": "74 HAMBLETON STREET MIDDLE PARK 3206",
     "locID": "LOC000048587579",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421735268",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34538,6 +34534,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 63, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760823",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424350302",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.95631761,
      -37.8512547
     ]
@@ -34548,6 +34563,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424417427",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760593",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424417429",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -34683,6 +34717,462 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760572",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485135",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760593",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485137",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 41, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760720",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485150",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 42, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760731",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485151",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 43, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760749",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485152",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 44, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760754",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485153",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 51, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760765",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485155",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 52, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760777",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485156",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 53, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760783",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485157",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 54, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760796",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485158",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 61, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760806",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485160",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 64, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760834",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485162",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 71, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760847",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485165",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 72, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760875",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485166",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 73, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760881",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485167",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 74, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760899",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485168",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 81, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760909",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485170",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 82, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760913",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485171",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 83, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760921",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485172",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 84, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760932",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485173",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 91, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760945",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485175",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 92, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760978",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485176",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 93, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760984",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485177",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9572632,
+     -37.85168733
+    ]
+   },
+   "properties": {
+    "name": "UNIT 94, 195-196 BEACONSFIELD PARADE MIDDLE PARK 3206",
+    "locID": "LOC000168760997",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424485178",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
