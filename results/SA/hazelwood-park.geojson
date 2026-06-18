@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-15T18:58:35.350727",
+ "generated": "2026-06-18T21:26:50.078461",
  "suburb": "HAZELWOOD PARK",
  "features": [
   {
@@ -3480,10 +3480,9 @@
    "properties": {
     "name": "21 LANCELOT AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000103908112",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415043809",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3774,10 +3773,10 @@
    "properties": {
     "name": "21 ROTHESAY AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000073921109",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415043876",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11339,10 +11338,10 @@
    "properties": {
     "name": "508 GREENHILL ROAD HAZELWOOD PARK 5066",
     "locID": "LOC000035358654",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415480160",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12114,8 +12113,8 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415622150",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2028"
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2028"
    }
   },
   {
@@ -12469,9 +12468,9 @@
     "name": "UNIT 2, 6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083306589",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415632064",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -12967,7 +12966,7 @@
    "properties": {
     "name": "UNIT 1, 6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083309108",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415640976",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -13064,7 +13063,7 @@
    "properties": {
     "name": "UNIT 3, 6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083153762",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415643707",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -13083,10 +13082,10 @@
    "properties": {
     "name": "UNIT 4, 6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083314764",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415643708",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -13103,7 +13102,7 @@
    "properties": {
     "name": "UNIT 5, 6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083162050",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415643709",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -16215,9 +16214,9 @@
     "name": "6 LINDEN AVENUE HAZELWOOD PARK 5066",
     "locID": "LOC000083306589",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_422048485",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -17608,6 +17607,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.65584658,
+     -34.94220595
+    ]
+   },
+   "properties": {
+    "name": "LOT 51 LINDEN AVENUE HAZELWOOD PARK 5066",
+    "locID": "LOC000196117635",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721467283"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.65568226,
      -34.94229925
     ]
@@ -17638,6 +17654,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721636681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.65528665,
+     -34.94070921
+    ]
+   },
+   "properties": {
+    "name": "LOT 161 LERWICK AVENUE HAZELWOOD PARK 5066",
+    "locID": "LOC000196896050",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721718014"
    }
   }
  ]
