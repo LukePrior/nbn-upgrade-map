@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-16T11:50:43.455835",
+ "generated": "2026-06-19T14:09:00.193392",
  "suburb": "ALBANY",
  "features": [
   {
@@ -8512,10 +8512,9 @@
    "properties": {
     "name": "54 SPENCER STREET ALBANY 6330",
     "locID": "LOC000039212809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146989698",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8852,10 +8851,10 @@
    "properties": {
     "name": "10 PARADE STREET ALBANY 6330",
     "locID": "LOC000092740484",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146990087",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9090,10 +9089,10 @@
    "properties": {
     "name": "23 ABERDEEN STREET ALBANY 6330",
     "locID": "LOC000025669802",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146990359",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10338,7 +10337,7 @@
     "name": "19 HILL STREET ALBANY 6330",
     "locID": "LOC000026961966",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146994606",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13559,11 +13558,11 @@
     "name": "256 PRINCESS ROYAL DRIVE ALBANY 6330",
     "locID": "LOC000020400463",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147241721",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16778,6 +16777,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88100048,
+     -35.02553346
+    ]
+   },
+   "properties": {
+    "name": "32 CUTHBERT STREET ALBANY 6330",
+    "locID": "LOC000050281951",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147432817",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.8801084,
      -35.02657604
     ]
@@ -18949,6 +18967,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100056231615",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_149065414",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88600622,
      -35.02576223
     ]
@@ -19253,8 +19290,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_149067523",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23180,9 +23218,9 @@
     "name": "180 YORK STREET ALBANY 6330",
     "locID": "LOC000085354357",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162393384",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23241,6 +23279,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162411488",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88727592,
+     -35.02808299
+    ]
+   },
+   "properties": {
+    "name": "89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100056231593",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162414402",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -23817,9 +23874,11 @@
     "name": "UNIT 3, 81 PROUDLOVE PARADE ALBANY 6330",
     "locID": "LOC100092631954",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162582639",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -24111,6 +24170,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88568583,
+     -35.02040011
+    ]
+   },
+   "properties": {
+    "name": "UNIT 23, 17 MUNSTER AVENUE ALBANY 6330",
+    "locID": "LOC100056053434",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162874565",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -24525,6 +24603,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100056231593",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162990502",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.87831728,
      -35.02532723
     ]
@@ -24573,6 +24670,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163004186",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "UNIT 105, 81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100056231712",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163006919",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -24649,11 +24765,11 @@
     "name": "2 TOLL PLACE ALBANY 6330",
     "locID": "LOC000133406724",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_163087916",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24668,12 +24784,12 @@
    "properties": {
     "name": "8 TOLL PLACE ALBANY 6330",
     "locID": "LOC000149612669",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163087917",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24757,6 +24873,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.89331533,
+     -35.02815681
+    ]
+   },
+   "properties": {
+    "name": "120-122 BURGOYNE ROAD ALBANY 6330",
+    "locID": "LOC100056209480",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_163270767",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88613318,
      -35.02991315
     ]
@@ -24765,11 +24901,11 @@
     "name": "6 TOLL PLACE ALBANY 6330",
     "locID": "LOC000149612653",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_163277553",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26494,6 +26630,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "UNIT 103, 81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC000175938409",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718570070",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88454041,
      -35.01907561
     ]
@@ -26635,6 +26790,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_718634857",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88568583,
+     -35.02040011
+    ]
+   },
+   "properties": {
+    "name": "15-17 MUNSTER AVENUE ALBANY 6330",
+    "locID": "LOC100056053434",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718683469",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -26828,11 +27002,11 @@
     "name": "5C TOLL PLACE ALBANY 6330",
     "locID": "LOC000181453835",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_719054832",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26848,11 +27022,11 @@
     "name": "5A TOLL PLACE ALBANY 6330",
     "locID": "LOC000181453835",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_719055079",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26868,11 +27042,11 @@
     "name": "5B TOLL PLACE ALBANY 6330",
     "locID": "LOC000181453835",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_719055560",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27103,6 +27277,25 @@
     "gnaf_pid": "GAWA_719504544",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.87830624,
+     -35.02180655
+    ]
+   },
+   "properties": {
+    "name": "8 BIRCH PLACE ALBANY 6330",
+    "locID": "LOC000100289703",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719504545",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27703,6 +27896,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "UNIT 101, 81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100090311778",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_720280189",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      117.88567045,
      -35.0221273
     ]
@@ -27754,6 +27967,26 @@
     "gnaf_pid": "GAWA_720435408",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.88727876,
+     -35.02808288
+    ]
+   },
+   "properties": {
+    "name": "UNIT 107, 81-89 PROUDLOVE PARADE ALBANY 6330",
+    "locID": "LOC100090311784",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_720496244",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2026"
    }
   },
   {
@@ -27869,8 +28102,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_720894343",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
