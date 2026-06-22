@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-05-19T12:14:10.157997",
+ "generated": "2026-06-22T12:38:35.653543",
  "suburb": "WYNYARD",
  "features": [
   {
@@ -2153,8 +2153,8 @@
    "properties": {
     "name": "152 BALLAST PIT ROAD WYNYARD 7325",
     "locID": "LOC000064671656",
-    "tech": "SATELLITE",
-    "upgrade": "WIRELESS",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702194655",
     "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
@@ -5013,7 +5013,7 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GATAS702216086",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -16351,10 +16351,10 @@
    "properties": {
     "name": "2 HALES COURT WYNYARD 7325",
     "locID": "LOC000082038388",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702263297",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16386,10 +16386,10 @@
    "properties": {
     "name": "46 HALES STREET WYNYARD 7325",
     "locID": "LOC000057245849",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702263299",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16494,8 +16494,8 @@
    "properties": {
     "name": "47 HALES STREET WYNYARD 7325",
     "locID": "LOC000005170336",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702263307",
     "tech_change_status": "Eligible to Order"
    }
@@ -36455,6 +36455,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.71661762,
+     -40.99664181
+    ]
+   },
+   "properties": {
+    "name": "14 RESERVOIR DRIVE WYNYARD 7325",
+    "locID": "LOC000107266173",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS702328272",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.71375672,
      -41.03975604
     ]
@@ -42956,6 +42976,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702373921",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.73147506,
+     -40.98860242
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 22 GOLDIE STREET WYNYARD 7325",
+    "locID": "LOC000088940338",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS702373922",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2028"
@@ -60026,6 +60066,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.71336675,
+     -40.98358454
+    ]
+   },
+   "properties": {
+    "name": "18 BALLAD AVENUE WYNYARD 7325",
+    "locID": "LOC000199073546",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS717990011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.71331709,
      -40.98343146
     ]
@@ -69629,6 +69686,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.72233013,
+     -41.01173246
+    ]
+   },
+   "properties": {
+    "name": "20 LENNAH DRIVE WYNYARD 7325",
+    "locID": "LOC000014304783",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS720811247",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.66433288,
      -40.9834064
     ]
@@ -73924,6 +74001,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.73602051,
+     -40.99283173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 19 SANDPIPER ROAD WYNYARD 7325",
+    "locID": "LOC000197805959",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721554345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.73646441,
      -40.99364375
     ]
@@ -73991,6 +74085,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721554385"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.73602051,
+     -40.99283173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 19 SANDPIPER ROAD WYNYARD 7325",
+    "locID": "LOC000193249629",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721554418"
    }
   },
   {
@@ -74194,6 +74305,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.73604166,
+     -40.99337452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 12 SANDPIPER ROAD WYNYARD 7325",
+    "locID": "LOC000193249999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721612096"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.73955719,
      -40.99326594
     ]
@@ -74204,6 +74332,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721612097"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.73604166,
+     -40.99337452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 12 SANDPIPER ROAD WYNYARD 7325",
+    "locID": "LOC000193249999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721612132"
    }
   },
   {
