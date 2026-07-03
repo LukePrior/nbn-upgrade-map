@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-16T04:47:49.091339",
+ "generated": "2026-07-03T13:06:58.869119",
  "suburb": "MAITLAND",
  "features": [
   {
@@ -5004,10 +5004,9 @@
    "properties": {
     "name": "75 NEW ENGLAND HIGHWAY MAITLAND 2320",
     "locID": "LOC000017284049",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705256900",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5681,10 +5680,10 @@
    "properties": {
     "name": "34A REGENT STREET MAITLAND 2320",
     "locID": "LOC000090587034",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705256953",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6227,6 +6226,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705259166",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10359,10 +10359,9 @@
    "properties": {
     "name": "12 DENMAN STREET MAITLAND 2320",
     "locID": "LOC000064281505",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705262803",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11597,10 +11596,9 @@
    "properties": {
     "name": "46 BONAR STREET MAITLAND 2320",
     "locID": "LOC000073059426",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705264407",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13053,6 +13051,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.55288632,
+     -32.73306983
+    ]
+   },
+   "properties": {
+    "name": "32-36 CHURCH STREET MAITLAND 2320",
+    "locID": "LOC000120763064",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705265379",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.55284961,
      -32.73321806
     ]
@@ -13061,9 +13078,9 @@
     "name": "38-40 CHURCH STREET MAITLAND 2320",
     "locID": "LOC000049085139",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705265380",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24259,10 +24276,9 @@
    "properties": {
     "name": "UNIT 2, 14 ELGIN STREET MAITLAND 2320",
     "locID": "LOC000012294575",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711961188",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31687,6 +31703,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718371490",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.54548961,
+     -32.72996703
+    ]
+   },
+   "properties": {
+    "name": "UNIT 14, 30 REGENT STREET MAITLAND 2320",
+    "locID": "LOC000120681169",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718371491",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
