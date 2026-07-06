@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-19T00:58:51.351219",
+ "generated": "2026-07-06T09:58:04.733951",
  "suburb": "ADELAIDE",
  "features": [
   {
@@ -8517,24 +8517,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.59747418,
-     -34.92536479
-    ]
-   },
-   "properties": {
-    "name": "54 WAYMOUTH STREET ADELAIDE 5000",
-    "locID": "LOC000129976372",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_414945679",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.60680446,
      -34.92509852
     ]
@@ -12597,10 +12579,9 @@
    "properties": {
     "name": "284 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000100485781",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415057195",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415057195"
    }
   },
   {
@@ -28202,7 +28183,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415475804",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -28707,10 +28688,9 @@
    "properties": {
     "name": "56 ALFRED STREET ADELAIDE 5000",
     "locID": "LOC000048140682",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415477208",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415477208"
    }
   },
   {
@@ -42217,9 +42197,9 @@
     "name": "79 WHITMORE SQUARE ADELAIDE 5000",
     "locID": "LOC000017088643",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415509621",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63070,7 +63050,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415722597",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63106,7 +63086,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415723282",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63142,7 +63122,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415723286",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63567,6 +63547,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415859669"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60727338,
+     -34.93334862
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 21 HARRIETT STREET ADELAIDE 5000",
+    "locID": "LOC100056726436",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415859687",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -67779,7 +67779,7 @@
    "properties": {
     "name": "UNIT 1, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097687655",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415861648",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73595,7 +73595,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415863108",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -77456,10 +77456,9 @@
    "properties": {
     "name": "23 HUME STREET ADELAIDE 5000",
     "locID": "LOC000059297141",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415864700",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415864700"
    }
   },
   {
@@ -78028,10 +78027,11 @@
     "name": "UNIT 8, 236 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000070893126",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415865348",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78047,10 +78047,11 @@
     "name": "UNIT 9, 238 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000025384514",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415865349",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79505,10 +79506,11 @@
     "name": "UNIT 25, 256 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000011771763",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415866417",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79541,10 +79543,11 @@
     "name": "UNIT 29, 11 HUME LANE ADELAIDE 5000",
     "locID": "LOC000033579475",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415866424",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79820,10 +79823,11 @@
     "name": "UNIT 1, 228 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC100080470262",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415867451",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -80076,10 +80080,11 @@
     "name": "UNIT 21, 250A CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000028282338",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415867546",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -84347,7 +84352,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_416457527",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -100158,9 +100163,9 @@
     "name": "262 PULTENEY STREET ADELAIDE 5000",
     "locID": "LOC000087603137",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416463525",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -101932,10 +101937,9 @@
    "properties": {
     "name": "277 RUNDLE STREET ADELAIDE 5000",
     "locID": "LOC000018751466",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_416464028",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416464028"
    }
   },
   {
@@ -107339,24 +107343,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60506473,
-     -34.92248105
-    ]
-   },
-   "properties": {
-    "name": "154 RUNDLE MALL ADELAIDE 5000",
-    "locID": "LOC000057614107",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_416467125",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.6051742,
      -34.92248102
     ]
@@ -107630,24 +107616,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416467854",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.60506473,
-     -34.92248105
-    ]
-   },
-   "properties": {
-    "name": "152 RUNDLE MALL ADELAIDE 5000",
-    "locID": "LOC000059222064",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_416467858",
-    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112181,7 +112149,7 @@
    "properties": {
     "name": "1-7 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097687655",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_421968853",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -112629,6 +112597,26 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_421969724"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60684875,
+     -34.93353292
+    ]
+   },
+   "properties": {
+    "name": "UNIT 14, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149502726",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_421969753",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -113640,6 +113628,46 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_421973170"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6067374,
+     -34.93373221
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149501058",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_421973171",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60672065,
+     -34.93337249
+    ]
+   },
+   "properties": {
+    "name": "UNIT 18, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149520923",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_421973173",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -120274,7 +120302,8 @@
     "locID": "LOC000076639423",
     "tech": "FTTC",
     "upgrade": "FTTP",
-    "gnaf_pid": "GASA_422262822"
+    "gnaf_pid": "GASA_422262822",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -123153,6 +123182,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60804827,
+     -34.92860213
+    ]
+   },
+   "properties": {
+    "name": "191 WAKEFIELD STREET ADELAIDE 5000",
+    "locID": "LOC000083950928",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422271981",
+    "tech_change_status": "MDU Complex Premises In Build"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60746162,
      -34.92862479
     ]
@@ -123298,10 +123345,9 @@
    "properties": {
     "name": "317 WAKEFIELD STREET ADELAIDE 5000",
     "locID": "LOC000024230593",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_422272009",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_422272009"
    }
   },
   {
@@ -124022,6 +124068,26 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422366231"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6066403,
+     -34.93385019
+    ]
+   },
+   "properties": {
+    "name": "UNIT 26, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149499758",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422367314",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -128470,6 +128536,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60769995,
+     -34.92860794
+    ]
+   },
+   "properties": {
+    "name": "185 WAKEFIELD STREET ADELAIDE 5000",
+    "locID": "LOC000129955824",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422375235",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60784508,
      -34.92860045
     ]
@@ -129455,6 +129539,86 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60662336,
+     -34.93370647
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000171645323",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118917",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6068542,
+     -34.93360201
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149502788",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118918",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6066403,
+     -34.93385019
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149499743",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118919",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6068471,
+     -34.93351176
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149516126",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118920",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60671975,
      -34.93496876
     ]
@@ -129465,6 +129629,426 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423118921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60678555,
+     -34.93364393
+    ]
+   },
+   "properties": {
+    "name": "UNIT 15, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149520640",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118922",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6068596,
+     -34.93367132
+    ]
+   },
+   "properties": {
+    "name": "UNIT 16, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149497888",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118923",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6067486,
+     -34.93387337
+    ]
+   },
+   "properties": {
+    "name": "UNIT 17, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030322812",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118924",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6066028,
+     -34.93336009
+    ]
+   },
+   "properties": {
+    "name": "UNIT 19, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030217282",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118925",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.606867,
+     -34.93384349
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149494981",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118927",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60686875,
+     -34.93386669
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149495119",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118928",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60671605,
+     -34.93346279
+    ]
+   },
+   "properties": {
+    "name": "UNIT 22, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030304442",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118929",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60674075,
+     -34.93377554
+    ]
+   },
+   "properties": {
+    "name": "UNIT 23, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030375214",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118930",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60662336,
+     -34.93370647
+    ]
+   },
+   "properties": {
+    "name": "UNIT 24, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030384464",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118931",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60662855,
+     -34.93377354
+    ]
+   },
+   "properties": {
+    "name": "UNIT 25, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149515896",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118932",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6067628,
+     -34.93383493
+    ]
+   },
+   "properties": {
+    "name": "UNIT 27, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149520655",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118933",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60671935,
+     -34.93350612
+    ]
+   },
+   "properties": {
+    "name": "UNIT 28, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149493361",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118934",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6067357,
+     -34.93371087
+    ]
+   },
+   "properties": {
+    "name": "UNIT 29, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149505012",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118935",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60678555,
+     -34.93364393
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149495119",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118936",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6067787,
+     -34.93356561
+    ]
+   },
+   "properties": {
+    "name": "UNIT 30, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149520664",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118937",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.606802,
+     -34.93336811
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149520311",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118938",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60685245,
+     -34.93358007
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149499547",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118939",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6066024,
+     -34.93343713
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030319117",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118940",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60660755,
+     -34.93350417
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030313558",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118941",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60661285,
+     -34.93357161
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149503381",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118942",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60661806,
+     -34.93363899
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030318387",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423118943",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -137468,9 +138052,9 @@
     "name": "UNIT 2, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097796412",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_423433064",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -137486,9 +138070,9 @@
     "name": "UNIT 3, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097511908",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_423433065",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -137504,9 +138088,9 @@
     "name": "UNIT 4, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097354411",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_423433066",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -137521,10 +138105,10 @@
    "properties": {
     "name": "UNIT 5, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097447997",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423433067",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -137539,7 +138123,7 @@
    "properties": {
     "name": "UNIT 6, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097800379",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423433068",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -137557,10 +138141,10 @@
    "properties": {
     "name": "UNIT 7, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097786158",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423433069",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -137575,7 +138159,7 @@
    "properties": {
     "name": "UNIT 8, 21 RUSSELL STREET ADELAIDE 5000",
     "locID": "LOC000097665121",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423433070",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -155143,10 +155727,11 @@
     "name": "236 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000070893126",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423863788",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -155162,10 +155747,11 @@
     "name": "238 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000025384514",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423863789",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -155240,10 +155826,11 @@
     "name": "246 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000030875599",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423863793",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -155278,10 +155865,11 @@
     "name": "250 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000028403415",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423863795",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -155336,10 +155924,11 @@
     "name": "256 CARRINGTON STREET ADELAIDE 5000",
     "locID": "LOC000011771763",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423863798",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -157252,10 +157841,11 @@
     "name": "11 HUME LANE ADELAIDE 5000",
     "locID": "LOC000033439025",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423866691",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -157348,10 +157938,11 @@
     "name": "21 HUME LANE ADELAIDE 5000",
     "locID": "LOC000062350333",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423866696",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -157367,10 +157958,11 @@
     "name": "23 HUME LANE ADELAIDE 5000",
     "locID": "LOC000059348505",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423866697",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -157445,10 +158037,11 @@
     "name": "7 HUME LANE ADELAIDE 5000",
     "locID": "LOC000075919814",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423866701",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -161914,6 +162507,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60661189,
+     -34.93359616
+    ]
+   },
+   "properties": {
+    "name": "430 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000149501058",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423869606",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60427475,
      -34.93073134
     ]
@@ -161962,11 +162575,11 @@
     "name": "32 REGENT STREET NORTH ADELAIDE 5000",
     "locID": "LOC100091652803",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423869765",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -177912,6 +178525,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.61497513,
+     -34.93159388
+    ]
+   },
+   "properties": {
+    "name": "25 TOMSEY STREET ADELAIDE 5000",
+    "locID": "LOC000051199244",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424148979"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.59886414,
      -34.92618139
     ]
@@ -183617,7 +184247,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424414415",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -183918,9 +184548,9 @@
     "name": "309 WAKEFIELD STREET ADELAIDE 5000",
     "locID": "LOC000149498912",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_424416523",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -219290,6 +219920,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60769995,
+     -34.92860794
+    ]
+   },
+   "properties": {
+    "name": "LEVEL 1, 185 WAKEFIELD STREET ADELAIDE 5000",
+    "locID": "LOC000129955824",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424440842",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60784508,
      -34.92860045
     ]
@@ -240876,6 +241524,23 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424646833",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.59652406,
+     -34.92334983
+    ]
+   },
+   "properties": {
+    "name": "79A HINDLEY STREET ADELAIDE 5000",
+    "locID": "LOC000199159043",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424646834"
    }
   },
   {
@@ -317315,9 +317980,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_719549202",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -339876,10 +340539,9 @@
    "properties": {
     "name": "277-279 RUNDLE STREET ADELAIDE 5000",
     "locID": "LOC000018751466",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_719778738",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719778738"
    }
   },
   {
@@ -341486,6 +342148,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.59789637,
+     -34.92488137
+    ]
+   },
+   "properties": {
+    "name": "14 TOPHAM MALL ADELAIDE 5000",
+    "locID": "LOC000033639013",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719859103"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60524836,
      -34.93220726
     ]
@@ -341679,6 +342358,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60661861,
+     -34.93376426
+    ]
+   },
+   "properties": {
+    "name": "436 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030225192",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719859790",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.59990727,
      -34.92456187
     ]
@@ -341689,6 +342388,26 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719859806"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60659926,
+     -34.93351431
+    ]
+   },
+   "properties": {
+    "name": "426A PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030302334",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719859807",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -343595,6 +344314,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60661066,
+     -34.93370834
+    ]
+   },
+   "properties": {
+    "name": "434 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030324933",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719863581",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60662561,
+     -34.93384147
+    ]
+   },
+   "properties": {
+    "name": "438 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030377047",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719863604",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.59629814,
      -34.92253062
     ]
@@ -343605,6 +344364,46 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719863630"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60661071,
+     -34.93365504
+    ]
+   },
+   "properties": {
+    "name": "432 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030300772",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719863632",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60660381,
+     -34.9335569
+    ]
+   },
+   "properties": {
+    "name": "428 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030270215",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719863635",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -343831,6 +344630,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719864336"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60659592,
+     -34.93347083
+    ]
+   },
+   "properties": {
+    "name": "426 PULTENEY STREET ADELAIDE 5000",
+    "locID": "LOC000030368635",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_719864340",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -398072,6 +398891,23 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720711870",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60477286,
+     -34.9279903
+    ]
+   },
+   "properties": {
+    "name": "LEVEL 7, 108 WAKEFIELD STREET ADELAIDE 5000",
+    "locID": "LOC000199135315",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720711877"
    }
   },
   {
