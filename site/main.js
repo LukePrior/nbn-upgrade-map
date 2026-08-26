@@ -152,15 +152,15 @@ $(document).ready(function() {
 const dotTypes = {
     FTTP: {
         label: 'FTTP',
-        colour: '#1D7044'
+        colour: '#149300'
     },
     FTTPUpgrade: {
         label: 'FTTP Upgrade',
-        colour: '#75AD6F'
+        colour: '#22FF00'
     },
     FTTPUpgradeSoon: {
         label: 'FTTP Upgrade Soon',
-        colour: '#C8E3C5'
+        colour: '#C1FFBA'
     },
     OtherUpgrade: {
         label: 'Other Upgrade',
@@ -172,23 +172,23 @@ const dotTypes = {
     },
     HFC: {
         label: 'HFC',
-        colour: '#FFBE00',
+        colour: '#F4FF57',
     },
     FTTC: {
         label: 'FTTC',
-        colour: '#FF7E01'
+        colour: '#FF45C7'
     },
     FTTN_FTTB: {
         label: 'FTTN/FTTB',
-        colour: '#E3071D'
+        colour: '#FF001A'
     },
     WirelessSat: {
         label: 'FW/SAT',
-        colour: '#C91414'
+        colour: '#FFFFFF'
     },
     Unknown: {
         label: 'Unknown',
-        colour: '#888888'
+        colour: '#333333'
     },
 };
 
