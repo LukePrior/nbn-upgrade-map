@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-24T00:33:14.066813",
+ "generated": "2026-08-27T18:57:11.716058",
  "suburb": "MICKLEHAM",
  "features": [
   {
@@ -214,7 +214,7 @@
    "properties": {
     "name": "1600 MICKLEHAM ROAD MICKLEHAM 3064",
     "locID": "LOC000005282386",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419625831",
     "tech_change_status": "Not Planned"
@@ -2555,7 +2555,7 @@
    "properties": {
     "name": "225 DONNYBROOK ROAD MICKLEHAM 3064",
     "locID": "LOC100091102951",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420336133",
     "tech_change_status": "Not Planned"
@@ -4701,7 +4701,7 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421135240",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -128358,7 +128358,7 @@
    "properties": {
     "name": "225H DONNYBROOK ROAD MICKLEHAM 3064",
     "locID": "LOC100091102951",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720838693",
     "tech_change_status": "Not Planned"
@@ -144103,10 +144103,10 @@
    "properties": {
     "name": "6 SAGE PLACE MICKLEHAM 3064",
     "locID": "LOC000056894456",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721092820",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -165412,6 +165412,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.89264532,
+     -37.53715477
+    ]
+   },
+   "properties": {
+    "name": "43 ALICE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000198191497",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721459081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92595751,
      -37.54664926
     ]
@@ -170838,6 +170855,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.93546608,
+     -37.53888356
+    ]
+   },
+   "properties": {
+    "name": "5 POLARIS ROAD MICKLEHAM 3064",
+    "locID": "LOC000199353430",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550181"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.89094756,
      -37.5452927
     ]
@@ -171429,6 +171463,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721598007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8799784,
+     -37.56435675
+    ]
+   },
+   "properties": {
+    "name": "25 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000197744048",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721598018"
    }
   },
   {
@@ -174197,7 +174248,7 @@
    "properties": {
     "name": "3 LOQUAT LOOP MICKLEHAM 3064",
     "locID": "LOC100090065530",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721605690",
     "tech_change_status": "Not Planned",
@@ -174543,6 +174594,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721606531"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88813962,
+     -37.57619404
+    ]
+   },
+   "properties": {
+    "name": "45 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379102",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721606617"
    }
   },
   {
@@ -178307,6 +178375,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88781873,
+     -37.57798531
+    ]
+   },
+   "properties": {
+    "name": "73 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379044",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791328"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88781501,
+     -37.57835707
+    ]
+   },
+   "properties": {
+    "name": "16 MELLIODORA ROAD MICKLEHAM 3064",
+    "locID": "LOC000196379063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791352"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.8860821,
      -37.57458299
     ]
@@ -178324,6 +178426,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88779257,
+     -37.5784823
+    ]
+   },
+   "properties": {
+    "name": "14 MELLIODORA ROAD MICKLEHAM 3064",
+    "locID": "LOC000196379071",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88576935,
      -37.57433066
     ]
@@ -178334,6 +178453,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721791552"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8879441,
+     -37.57728563
+    ]
+   },
+   "properties": {
+    "name": "63 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378991",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791720"
    }
   },
   {
@@ -178392,6 +178528,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88811711,
+     -37.5763201
+    ]
+   },
+   "properties": {
+    "name": "47 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378915",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721791819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88615124,
      -37.57424507
     ]
@@ -178436,6 +178589,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721792013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88798765,
+     -37.57704258
+    ]
+   },
+   "properties": {
+    "name": "59 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378970",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721792148"
    }
   },
   {
@@ -178749,6 +178919,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88774769,
+     -37.57873276
+    ]
+   },
+   "properties": {
+    "name": "10 MELLIODORA ROAD MICKLEHAM 3064",
+    "locID": "LOC000196379092",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721793132"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88707449,
      -37.57398285
     ]
@@ -178776,6 +178963,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721793290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88783551,
+     -37.57789166
+    ]
+   },
+   "properties": {
+    "name": "71 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379037",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721793323"
    }
   },
   {
@@ -178970,6 +179174,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.8877702,
+     -37.57860718
+    ]
+   },
+   "properties": {
+    "name": "12 MELLIODORA ROAD MICKLEHAM 3064",
+    "locID": "LOC000196379085",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721794660"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.94040106,
      -37.53018911
     ]
@@ -179014,6 +179235,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721794754"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8880324,
+     -37.57679283
+    ]
+   },
+   "properties": {
+    "name": "55 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378958",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721794882"
    }
   },
   {
@@ -179089,6 +179327,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88780008,
+     -37.57808943
+    ]
+   },
+   "properties": {
+    "name": "75 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379059",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721795142"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88553974,
      -37.57486983
     ]
@@ -179157,6 +179412,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88796528,
+     -37.57716745
+    ]
+   },
+   "properties": {
+    "name": "61 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378989",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721795516"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88674381,
      -37.57378569
     ]
@@ -179184,6 +179456,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721795843"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88497963,
+     -37.57258232
+    ]
+   },
+   "properties": {
+    "name": "13 AGATE WAY MICKLEHAM 3064",
+    "locID": "LOC000197743967",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721795914"
    }
   },
   {
@@ -179752,6 +180041,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88801003,
+     -37.57691771
+    ]
+   },
+   "properties": {
+    "name": "57 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378962",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721798901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88667223,
      -37.57527978
     ]
@@ -179830,6 +180136,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721799249"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88790032,
+     -37.57752998
+    ]
+   },
+   "properties": {
+    "name": "67 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379016",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721799345"
    }
   },
   {
@@ -180262,6 +180585,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88809593,
+     -37.57643829
+    ]
+   },
+   "properties": {
+    "name": "49 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378927",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721800992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88805478,
+     -37.57666796
+    ]
+   },
+   "properties": {
+    "name": "53 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196378943",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721801039"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88739472,
      -37.57452831
     ]
@@ -180432,6 +180789,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88785399,
+     -37.57778857
+    ]
+   },
+   "properties": {
+    "name": "69 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379028",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721801635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.882022,
      -37.56460187
     ]
@@ -180442,6 +180816,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721801703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88792293,
+     -37.57740382
+    ]
+   },
+   "properties": {
+    "name": "65 DIGTREE CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000196379000",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721801705"
    }
   },
   {
@@ -180500,6 +180891,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88117891,
+     -37.5631294
+    ]
+   },
+   "properties": {
+    "name": "31 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884794",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721843769"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88323193,
+     -37.56808651
+    ]
+   },
+   "properties": {
+    "name": "13 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056135",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721843800"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92219396,
      -37.53957668
     ]
@@ -180510,6 +180935,210 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721843864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88479422,
+     -37.56792718
+    ]
+   },
+   "properties": {
+    "name": "134 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198056323",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721843997"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88487522,
+     -37.56760138
+    ]
+   },
+   "properties": {
+    "name": "1 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198056072",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88193375,
+     -37.58947906
+    ]
+   },
+   "properties": {
+    "name": "7 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919513",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844051"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88276571,
+     -37.58841935
+    ]
+   },
+   "properties": {
+    "name": "45 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920036",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844108"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88245466,
+     -37.58606439
+    ]
+   },
+   "properties": {
+    "name": "21 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374977",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88220796,
+     -37.58749962
+    ]
+   },
+   "properties": {
+    "name": "7 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912220",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844183"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88209669,
+     -37.58830862
+    ]
+   },
+   "properties": {
+    "name": "17 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912489",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844245"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88156195,
+     -37.58695011
+    ]
+   },
+   "properties": {
+    "name": "5 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374657",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844256"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88244945,
+     -37.58723356
+    ]
+   },
+   "properties": {
+    "name": "6 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912161",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844269"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88237705,
+     -37.58654698
+    ]
+   },
+   "properties": {
+    "name": "3 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000199122085",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88171583,
+     -37.58599388
+    ]
+   },
+   "properties": {
+    "name": "25 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374753",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844282"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88258177,
+     -37.58958162
+    ]
+   },
+   "properties": {
+    "name": "19 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920089",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844539"
    }
   },
   {
@@ -180534,6 +181163,227 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88265448,
+     -37.58777661
+    ]
+   },
+   "properties": {
+    "name": "55 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197912296",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88347559,
+     -37.56716946
+    ]
+   },
+   "properties": {
+    "name": "19 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055812",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88106592,
+     -37.5897293
+    ]
+   },
+   "properties": {
+    "name": "28 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919385",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844666"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88234542,
+     -37.58903279
+    ]
+   },
+   "properties": {
+    "name": "6 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919929",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844667"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88246475,
+     -37.58600184
+    ]
+   },
+   "properties": {
+    "name": "23 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374983",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88247628,
+     -37.58821955
+    ]
+   },
+   "properties": {
+    "name": "24 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912502",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844684"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88342573,
+     -37.56714373
+    ]
+   },
+   "properties": {
+    "name": "21 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055808",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844826"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88317405,
+     -37.56701385
+    ]
+   },
+   "properties": {
+    "name": "31 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055751",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844945"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88168403,
+     -37.58846128
+    ]
+   },
+   "properties": {
+    "name": "16 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919718",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721844947"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88330017,
+     -37.56772652
+    ]
+   },
+   "properties": {
+    "name": "19 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056103",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8824202,
+     -37.58856808
+    ]
+   },
+   "properties": {
+    "name": "16 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919870",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845062"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88267552,
+     -37.58769678
+    ]
+   },
+   "properties": {
+    "name": "57 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197912277",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845078"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88253084,
+     -37.58990343
+    ]
+   },
+   "properties": {
+    "name": "5 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920155",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845079"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.90778447,
      -37.5222322
     ]
@@ -180551,6 +181401,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88206514,
+     -37.58850465
+    ]
+   },
+   "properties": {
+    "name": "13 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919836",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845212"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88264157,
+     -37.58920376
+    ]
+   },
+   "properties": {
+    "name": "25 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919964",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88135343,
+     -37.58824593
+    ]
+   },
+   "properties": {
+    "name": "17 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912462",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845383"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88411221,
+     -37.56711331
+    ]
+   },
+   "properties": {
+    "name": "10 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055746",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845410"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88204411,
+     -37.58608311
+    ]
+   },
+   "properties": {
+    "name": "28 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374776",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845463"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88344312,
+     -37.56671247
+    ]
+   },
+   "properties": {
+    "name": "36 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055910",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845464"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88222877,
      -37.58950913
     ]
@@ -180558,9 +181510,77 @@
    "properties": {
     "name": "3 ARBOR ROAD MICKLEHAM 3064",
     "locID": "LOC000197919584",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721845488"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88453584,
+     -37.56689185
+    ]
+   },
+   "properties": {
+    "name": "6 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198055968",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845525"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88323341,
+     -37.56704449
+    ]
+   },
+   "properties": {
+    "name": "29 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055767",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845532"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88376687,
+     -37.56751573
+    ]
+   },
+   "properties": {
+    "name": "28 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056208",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845668"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88348006,
+     -37.56666711
+    ]
+   },
+   "properties": {
+    "name": "38 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055906",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845696"
    }
   },
   {
@@ -180585,6 +181605,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88189008,
+     -37.58718082
+    ]
+   },
+   "properties": {
+    "name": "2 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374585",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88236124,
+     -37.58893449
+    ]
+   },
+   "properties": {
+    "name": "8 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919917",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721845965"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88207881,
+     -37.58748646
+    ]
+   },
+   "properties": {
+    "name": "9 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912212",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88497524,
+     -37.56704237
+    ]
+   },
+   "properties": {
+    "name": "126 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055664",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846087"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88398587,
+     -37.56801844
+    ]
+   },
+   "properties": {
+    "name": "15 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056249",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846180"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88181548,
+     -37.58978842
+    ]
+   },
+   "properties": {
+    "name": "14 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919453",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846202"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88417252,
      -37.56690269
     ]
@@ -180592,9 +181714,26 @@
    "properties": {
     "name": "3 MINIATA WAY MICKLEHAM 3064",
     "locID": "LOC000198056001",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721846226"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88266563,
+     -37.58905178
+    ]
+   },
+   "properties": {
+    "name": "29 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919986",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846343"
    }
   },
   {
@@ -180619,6 +181758,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88360791,
+     -37.56723774
+    ]
+   },
+   "properties": {
+    "name": "15 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055831",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.9213771,
      -37.53982881
     ]
@@ -180629,6 +181785,125 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721846400"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8824658,
+     -37.59003245
+    ]
+   },
+   "properties": {
+    "name": "1 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920129",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88126736,
+     -37.58878214
+    ]
+   },
+   "properties": {
+    "name": "7 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919652",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846422"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88384898,
+     -37.56672415
+    ]
+   },
+   "properties": {
+    "name": "9 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198056038",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846455"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88126749,
+     -37.58975353
+    ]
+   },
+   "properties": {
+    "name": "24 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919407",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88148078,
+     -37.58977917
+    ]
+   },
+   "properties": {
+    "name": "20 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919424",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88303217,
+     -37.58802232
+    ]
+   },
+   "properties": {
+    "name": "2 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919972",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846555"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88238928,
+     -37.58876022
+    ]
+   },
+   "properties": {
+    "name": "12 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919891",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846592"
    }
   },
   {
@@ -180653,6 +181928,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88255206,
+     -37.58976934
+    ]
+   },
+   "properties": {
+    "name": "11 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920129",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88277703,
+     -37.58834785
+    ]
+   },
+   "properties": {
+    "name": "47 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920043",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846617"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88251938,
      -37.58997585
     ]
@@ -180660,9 +181969,60 @@
    "properties": {
     "name": "3 BRAMBLE AVENUE MICKLEHAM 3064",
     "locID": "LOC000197920091",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721846624"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88405327,
+     -37.5668287
+    ]
+   },
+   "properties": {
+    "name": "5 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198056017",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846642"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8823296,
+     -37.58913109
+    ]
+   },
+   "properties": {
+    "name": "4 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919938",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846646"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88332428,
+     -37.56760869
+    ]
+   },
+   "properties": {
+    "name": "21 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056093",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846665"
    }
   },
   {
@@ -180687,6 +182047,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88194616,
+     -37.58683229
+    ]
+   },
+   "properties": {
+    "name": "8 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374559",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846742"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88361583,
+     -37.56797735
+    ]
+   },
+   "properties": {
+    "name": "18 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056157",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846792"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88256585,
+     -37.58968218
+    ]
+   },
+   "properties": {
+    "name": "15 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920101",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846797"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88265019,
      -37.58694111
     ]
@@ -180694,9 +182105,179 @@
    "properties": {
     "name": "3 ORNAMENTAL STREET MICKLEHAM 3064",
     "locID": "LOC000198374528",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721846820"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8824051,
+     -37.58866192
+    ]
+   },
+   "properties": {
+    "name": "14 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919889",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846880"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88199899,
+     -37.58891574
+    ]
+   },
+   "properties": {
+    "name": "5 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919794",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721846947"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88301628,
+     -37.56729772
+    ]
+   },
+   "properties": {
+    "name": "28 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055947",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847082"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88172801,
+     -37.58778679
+    ]
+   },
+   "properties": {
+    "name": "16 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912368",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847103"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88479081,
+     -37.56720104
+    ]
+   },
+   "properties": {
+    "name": "4 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055686",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847169"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88403408,
+     -37.56778279
+    ]
+   },
+   "properties": {
+    "name": "19 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056220",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847194"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88405953,
+     -37.5676584
+    ]
+   },
+   "properties": {
+    "name": "21 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056212",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847196"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88125076,
+     -37.58888491
+    ]
+   },
+   "properties": {
+    "name": "5 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919647",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847201"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88196511,
+     -37.58658244
+    ]
+   },
+   "properties": {
+    "name": "10 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374867",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847241"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8827273,
+     -37.58815238
+    ]
+   },
+   "properties": {
+    "name": "51 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920062",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847258"
    }
   },
   {
@@ -180721,6 +182302,244 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88197511,
+     -37.58651208
+    ]
+   },
+   "properties": {
+    "name": "12 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374851",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847344"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88476693,
+     -37.56806057
+    ]
+   },
+   "properties": {
+    "name": "136 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198056334",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847373"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88119816,
+     -37.58940411
+    ]
+   },
+   "properties": {
+    "name": "17 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919566",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847436"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88238564,
+     -37.58649335
+    ]
+   },
+   "properties": {
+    "name": "5 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374898",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847439"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88262842,
+     -37.58928683
+    ]
+   },
+   "properties": {
+    "name": "23 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919955",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88162795,
+     -37.58880981
+    ]
+   },
+   "properties": {
+    "name": "8 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919756",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847582"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88273176,
+     -37.58863389
+    ]
+   },
+   "properties": {
+    "name": "39 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920004",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88444132,
+     -37.56665851
+    ]
+   },
+   "properties": {
+    "name": "10 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198055981",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847739"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8849438,
+     -37.56721959
+    ]
+   },
+   "properties": {
+    "name": "2 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055672",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847803"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8824353,
+     -37.58847425
+    ]
+   },
+   "properties": {
+    "name": "18 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919862",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721847952"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88337002,
+     -37.56747299
+    ]
+   },
+   "properties": {
+    "name": "23 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056086",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8826536,
+     -37.58912777
+    ]
+   },
+   "properties": {
+    "name": "27 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919972",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848157"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88131715,
+     -37.58847385
+    ]
+   },
+   "properties": {
+    "name": "13 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919681",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88129911,
+     -37.58858555
+    ]
+   },
+   "properties": {
+    "name": "11 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919675",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848185"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88205273,
      -37.58602949
     ]
@@ -180728,9 +182547,230 @@
    "properties": {
     "name": "30 SANTOLINA ROAD MICKLEHAM 3064",
     "locID": "LOC000198374795",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721848232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88274308,
+     -37.58856238
+    ]
+   },
+   "properties": {
+    "name": "41 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920015",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848263"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88222213,
+     -37.58783714
+    ]
+   },
+   "properties": {
+    "name": "8 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912323",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848297"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88363311,
+     -37.56789287
+    ]
+   },
+   "properties": {
+    "name": "20 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056161",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848328"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88493917,
+     -37.56656867
+    ]
+   },
+   "properties": {
+    "name": "120 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055638",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848351"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88234005,
+     -37.58784915
+    ]
+   },
+   "properties": {
+    "name": "6 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912310",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848426"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88164305,
+     -37.58871597
+    ]
+   },
+   "properties": {
+    "name": "10 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919741",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848445"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88165687,
+     -37.58636029
+    ]
+   },
+   "properties": {
+    "name": "17 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374711",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848561"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88121281,
+     -37.58911987
+    ]
+   },
+   "properties": {
+    "name": "1 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919623",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88396627,
+     -37.56703076
+    ]
+   },
+   "properties": {
+    "name": "12 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055733",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88400997,
+     -37.56790061
+    ]
+   },
+   "properties": {
+    "name": "17 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056231",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88170489,
+     -37.58916508
+    ]
+   },
+   "properties": {
+    "name": "10 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919597",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848666"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88198017,
+     -37.58919313
+    ]
+   },
+   "properties": {
+    "name": "6 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919610",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848679"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88198368,
+     -37.58645845
+    ]
+   },
+   "properties": {
+    "name": "14 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374846",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848771"
    }
   },
   {
@@ -180745,7 +182785,7 @@
    "properties": {
     "name": "24 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423818",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721848882"
    }
@@ -180772,6 +182812,91 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88160076,
+     -37.58977501
+    ]
+   },
+   "properties": {
+    "name": "18 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919430",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721848939"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88201553,
+     -37.58881297
+    ]
+   },
+   "properties": {
+    "name": "7 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919804",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849064"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88327743,
+     -37.56783768
+    ]
+   },
+   "properties": {
+    "name": "17 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056119",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849125"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88146971,
+     -37.58776047
+    ]
+   },
+   "properties": {
+    "name": "20 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912381",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88159503,
+     -37.58674456
+    ]
+   },
+   "properties": {
+    "name": "9 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374674",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849357"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92093408,
      -37.53943201
     ]
@@ -180789,6 +182914,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88254463,
+     -37.58981627
+    ]
+   },
+   "properties": {
+    "name": "9 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920138",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849379"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88210422,
+     -37.58782512
+    ]
+   },
+   "properties": {
+    "name": "10 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912334",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92053718,
      -37.53973236
     ]
@@ -180796,9 +182955,60 @@
    "properties": {
     "name": "23 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423802",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721849485"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88384222,
+     -37.56738744
+    ]
+   },
+   "properties": {
+    "name": "13 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055849",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849534"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88151169,
+     -37.58742866
+    ]
+   },
+   "properties": {
+    "name": "17 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000198374619",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849616"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88108582,
+     -37.56359135
+    ]
+   },
+   "properties": {
+    "name": "11 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884718",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849770"
    }
   },
   {
@@ -180813,9 +183023,128 @@
    "properties": {
     "name": "3 THICKET ROAD MICKLEHAM 3064",
     "locID": "LOC000197919891",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721849789"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8825786,
+     -37.58724672
+    ]
+   },
+   "properties": {
+    "name": "4 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912157",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849870"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88190981,
+     -37.58705822
+    ]
+   },
+   "properties": {
+    "name": "4 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374571",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88226683,
+     -37.58687887
+    ]
+   },
+   "properties": {
+    "name": "11 ORNAMENTAL STREET MICKLEHAM 3064",
+    "locID": "LOC000198374537",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849894"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88207413,
+     -37.58949337
+    ]
+   },
+   "properties": {
+    "name": "5 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919509",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88249041,
+     -37.58813173
+    ]
+   },
+   "properties": {
+    "name": "26 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912518",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849926"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88482431,
+     -37.56643643
+    ]
+   },
+   "properties": {
+    "name": "118 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055629",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721849956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88359692,
+     -37.56652363
+    ]
+   },
+   "properties": {
+    "name": "44 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055877",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850034"
    }
   },
   {
@@ -180840,6 +183169,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88201823,
+     -37.58624397
+    ]
+   },
+   "properties": {
+    "name": "22 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374805",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850189"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88200097,
+     -37.58635121
+    ]
+   },
+   "properties": {
+    "name": "18 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374822",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850200"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88812701,
      -37.58029224
     ]
@@ -180847,9 +183210,60 @@
    "properties": {
     "name": "8 BOTTLETREE CRESCENT MICKLEHAM 3064",
     "locID": "LOC000198057756",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721850281"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88128251,
+     -37.58868832
+    ]
+   },
+   "properties": {
+    "name": "9 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919668",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88169913,
+     -37.58836744
+    ]
+   },
+   "properties": {
+    "name": "18 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919702",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88334025,
+     -37.56709962
+    ]
+   },
+   "properties": {
+    "name": "25 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055780",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850562"
    }
   },
   {
@@ -180864,9 +183278,77 @@
    "properties": {
     "name": "2 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423582",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721850580"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8811135,
+     -37.56340701
+    ]
+   },
+   "properties": {
+    "name": "23 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884756",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850812"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88218536,
+     -37.58983288
+    ]
+   },
+   "properties": {
+    "name": "8 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919482",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88184527,
+     -37.58917939
+    ]
+   },
+   "properties": {
+    "name": "8 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919606",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721850881"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88500752,
+     -37.5667536
+    ]
+   },
+   "properties": {
+    "name": "122 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055640",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851061"
    }
   },
   {
@@ -180884,6 +183366,74 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721851119"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88105233,
+     -37.58938925
+    ]
+   },
+   "properties": {
+    "name": "19 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919578",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851144"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88396175,
+     -37.56813633
+    ]
+   },
+   "properties": {
+    "name": "13 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056254",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851258"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88244896,
+     -37.58838935
+    ]
+   },
+   "properties": {
+    "name": "20 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919858",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851280"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88194967,
+     -37.5874733
+    ]
+   },
+   "properties": {
+    "name": "11 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912208",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851283"
    }
   },
   {
@@ -180925,6 +183475,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88396097,
+     -37.56745744
+    ]
+   },
+   "properties": {
+    "name": "11 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055854",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851439"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88371772,
+     -37.56690175
+    ]
+   },
+   "properties": {
+    "name": "16 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055714",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851448"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88155844,
+     -37.58915016
+    ]
+   },
+   "properties": {
+    "name": "12 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919584",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851486"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88170896,
+     -37.58977562
+    ]
+   },
+   "properties": {
+    "name": "16 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919448",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88473782,
+     -37.56820285
+    ]
+   },
+   "properties": {
+    "name": "138 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198056347",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851636"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88161013,
+     -37.58665072
+    ]
+   },
+   "properties": {
+    "name": "11 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374688",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851685"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92247393,
      -37.53960883
     ]
@@ -180942,6 +183594,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88272044,
+     -37.5887054
+    ]
+   },
+   "properties": {
+    "name": "37 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197919993",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851752"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92331385,
      -37.53970528
     ]
@@ -180949,9 +183618,94 @@
    "properties": {
     "name": "4 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423609",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721851843"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88162772,
+     -37.58944788
+    ]
+   },
+   "properties": {
+    "name": "11 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919532",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851875"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88242017,
+     -37.58627887
+    ]
+   },
+   "properties": {
+    "name": "13 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374931",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851944"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88159886,
+     -37.58777363
+    ]
+   },
+   "properties": {
+    "name": "18 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912375",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88109116,
+     -37.56355699
+    ]
+   },
+   "properties": {
+    "name": "13 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884725",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721851996"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88340617,
+     -37.56675783
+    ]
+   },
+   "properties": {
+    "name": "34 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055923",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852009"
    }
   },
   {
@@ -180966,7 +183720,7 @@
    "properties": {
     "name": "22 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423792",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721852011"
    }
@@ -180993,6 +183747,159 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88459218,
+     -37.56756325
+    ]
+   },
+   "properties": {
+    "name": "5 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198056055",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88202684,
+     -37.58619035
+    ]
+   },
+   "properties": {
+    "name": "24 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374795",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852137"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9292501,
+     -37.56466489
+    ]
+   },
+   "properties": {
+    "name": "48 SUMMIT DRIVE MICKLEHAM 3064",
+    "locID": "LOC000199328817",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852210"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88162667,
+     -37.58654795
+    ]
+   },
+   "properties": {
+    "name": "13 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374690",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852231"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88338299,
+     -37.56712168
+    ]
+   },
+   "properties": {
+    "name": "23 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055798",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88257328,
+     -37.58963525
+    ]
+   },
+   "properties": {
+    "name": "17 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920091",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852306"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8846428,
+     -37.56718185
+    ]
+   },
+   "properties": {
+    "name": "6 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055693",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852390"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88240293,
+     -37.58638612
+    ]
+   },
+   "properties": {
+    "name": "9 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374912",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88244606,
+     -37.58611801
+    ]
+   },
+   "properties": {
+    "name": "19 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374965",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852467"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88154685,
      -37.58704394
     ]
@@ -181000,9 +183907,94 @@
    "properties": {
     "name": "3 SANTOLINA ROAD MICKLEHAM 3064",
     "locID": "LOC000198374867",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721852530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88275439,
+     -37.58849087
+    ]
+   },
+   "properties": {
+    "name": "43 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920027",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88441291,
+     -37.56772486
+    ]
+   },
+   "properties": {
+    "name": "18 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056306",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852580"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88246262,
+     -37.58830445
+    ]
+   },
+   "properties": {
+    "name": "22 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912491",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88133628,
+     -37.58835544
+    ]
+   },
+   "properties": {
+    "name": "15 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919699",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88243551,
+     -37.58785888
+    ]
+   },
+   "properties": {
+    "name": "4 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912306",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852799"
    }
   },
   {
@@ -181027,6 +184019,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88811322,
+     -37.54259114
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 38 POYNER CIRCUIT MICKLEHAM 3064",
+    "locID": "LOC000191693297",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852863"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88336237,
+     -37.56681161
+    ]
+   },
+   "properties": {
+    "name": "32 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055934",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88384042,
+     -37.56696582
+    ]
+   },
+   "properties": {
+    "name": "14 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055722",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721852980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88199753,
+     -37.58781425
+    ]
+   },
+   "properties": {
+    "name": "12 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912347",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88161428,
+     -37.58889471
+    ]
+   },
+   "properties": {
+    "name": "6 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919760",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853062"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88166049,
+     -37.58744383
+    ]
+   },
+   "properties": {
+    "name": "15 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000198374603",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853124"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92109713,
      -37.53979666
     ]
@@ -181044,6 +184138,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88186838,
+     -37.58780109
+    ]
+   },
+   "properties": {
+    "name": "14 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912352",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853138"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88097087,
      -37.58971787
     ]
@@ -181051,9 +184162,26 @@
    "properties": {
     "name": "30 CORDOBA STREET MICKLEHAM 3064",
     "locID": "LOC000197919424",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721853166"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8820335,
+     -37.58870126
+    ]
+   },
+   "properties": {
+    "name": "9 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919815",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853167"
    }
   },
   {
@@ -181078,6 +184206,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88171387,
+     -37.58827584
+    ]
+   },
+   "properties": {
+    "name": "20 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912470",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853309"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88756593,
      -37.57979324
     ]
@@ -181095,6 +184240,142 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.8816432,
+     -37.58644518
+    ]
+   },
+   "properties": {
+    "name": "15 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374707",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8836695,
+     -37.56771502
+    ]
+   },
+   "properties": {
+    "name": "24 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056188",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853413"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88428189,
+     -37.56657623
+    ]
+   },
+   "properties": {
+    "name": "12 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198055999",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853423"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88221362,
+     -37.58720953
+    ]
+   },
+   "properties": {
+    "name": "10 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912188",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853454"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88365222,
+     -37.5677995
+    ]
+   },
+   "properties": {
+    "name": "22 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056174",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853458"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88325332,
+     -37.5679555
+    ]
+   },
+   "properties": {
+    "name": "15 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056126",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853549"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88205064,
+     -37.58981669
+    ]
+   },
+   "properties": {
+    "name": "10 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919476",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853584"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88180929,
+     -37.58745899
+    ]
+   },
+   "properties": {
+    "name": "13 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000198374592",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853622"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88473184,
      -37.56758135
     ]
@@ -181102,9 +184383,60 @@
    "properties": {
     "name": "3 SOLITAIRE WAY MICKLEHAM 3064",
     "locID": "LOC000198056072",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721853658"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88199236,
+     -37.58640484
+    ]
+   },
+   "properties": {
+    "name": "16 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374833",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88173134,
+     -37.58807779
+    ]
+   },
+   "properties": {
+    "name": "13 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912404",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88168706,
+     -37.58617261
+    ]
+   },
+   "properties": {
+    "name": "21 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374730",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853811"
    }
   },
   {
@@ -181119,9 +184451,230 @@
    "properties": {
     "name": "27 PANDORA CIRCUIT MICKLEHAM 3064",
     "locID": "LOC000198423841",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721853837"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88136853,
+     -37.58815209
+    ]
+   },
+   "properties": {
+    "name": "19 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912458",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88133854,
+     -37.58941841
+    ]
+   },
+   "properties": {
+    "name": "15 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919550",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853863"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88242877,
+     -37.58622525
+    ]
+   },
+   "properties": {
+    "name": "15 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374949",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853893"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88209571,
+     -37.58719751
+    ]
+   },
+   "properties": {
+    "name": "12 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912190",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853894"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88234834,
+     -37.58751392
+    ]
+   },
+   "properties": {
+    "name": "5 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912231",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853909"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88215307,
+     -37.58812076
+    ]
+   },
+   "properties": {
+    "name": "7 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912436",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853930"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88136798,
+     -37.58741402
+    ]
+   },
+   "properties": {
+    "name": "19 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000198374626",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853949"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88153175,
+     -37.58713777
+    ]
+   },
+   "properties": {
+    "name": "1 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374635",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853961"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88178495,
+     -37.5894639
+    ]
+   },
+   "properties": {
+    "name": "9 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919521",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721853966"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88165815,
+     -37.58862214
+    ]
+   },
+   "properties": {
+    "name": "12 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919739",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88239428,
+     -37.58643974
+    ]
+   },
+   "properties": {
+    "name": "7 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374908",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88132038,
+     -37.58774525
+    ]
+   },
+   "properties": {
+    "name": "22 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912399",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88259251,
+     -37.58951376
+    ]
+   },
+   "properties": {
+    "name": "21 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920070",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854020"
    }
   },
   {
@@ -181146,6 +184699,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88277848,
+     -37.58827463
+    ]
+   },
+   "properties": {
+    "name": "49 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920058",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854117"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88123272,
      -37.58899661
     ]
@@ -181153,9 +184723,77 @@
    "properties": {
     "name": "3 BARK ROAD MICKLEHAM 3064",
     "locID": "LOC000197919773",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721854170"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88231223,
+     -37.58923906
+    ]
+   },
+   "properties": {
+    "name": "2 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919940",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854180"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8823659,
+     -37.58662233
+    ]
+   },
+   "properties": {
+    "name": "1 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374879",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854217"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88437106,
+     -37.56792939
+    ]
+   },
+   "properties": {
+    "name": "14 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056283",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88353258,
+     -37.56719887
+    ]
+   },
+   "properties": {
+    "name": "17 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055820",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854307"
    }
   },
   {
@@ -181180,6 +184818,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88167053,
+     -37.58627539
+    ]
+   },
+   "properties": {
+    "name": "19 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374724",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854382"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8823749,
+     -37.58884959
+    ]
+   },
+   "properties": {
+    "name": "10 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919901",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88110233,
+     -37.56347083
+    ]
+   },
+   "properties": {
+    "name": "17 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884741",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854412"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.91793359,
      -37.565158
     ]
@@ -181190,6 +184879,108 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721854495"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88369113,
+     -37.56760933
+    ]
+   },
+   "properties": {
+    "name": "26 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056190",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854512"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88233154,
+     -37.58722155
+    ]
+   },
+   "properties": {
+    "name": "8 ORGANIC STREET MICKLEHAM 3064",
+    "locID": "LOC000197912174",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854524"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88410782,
+     -37.56748815
+    ]
+   },
+   "properties": {
+    "name": "23 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198055865",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88159918,
+     -37.58898854
+    ]
+   },
+   "properties": {
+    "name": "4 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919773",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854614"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88264559,
+     -37.58787049
+    ]
+   },
+   "properties": {
+    "name": "53 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197912283",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88147892,
+     -37.58943272
+    ]
+   },
+   "properties": {
+    "name": "13 ARBOR ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919545",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854708"
    }
   },
   {
@@ -181214,6 +185005,244 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88255949,
+     -37.58972241
+    ]
+   },
+   "properties": {
+    "name": "13 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920117",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854808"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88214891,
+     -37.58686686
+    ]
+   },
+   "properties": {
+    "name": "13 ORNAMENTAL STREET MICKLEHAM 3064",
+    "locID": "LOC000198374544",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854810"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88157849,
+     -37.58684733
+    ]
+   },
+   "properties": {
+    "name": "7 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374661",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854936"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88138698,
+     -37.58803742
+    ]
+   },
+   "properties": {
+    "name": "21 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197912443",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854965"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88238474,
+     -37.58689089
+    ]
+   },
+   "properties": {
+    "name": "9 ORNAMENTAL STREET MICKLEHAM 3064",
+    "locID": "LOC000198374528",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721854985"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88253827,
+     -37.5898565
+    ]
+   },
+   "properties": {
+    "name": "7 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197920140",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88187747,
+     -37.58809268
+    ]
+   },
+   "properties": {
+    "name": "11 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912415",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88451492,
+     -37.56699412
+    ]
+   },
+   "properties": {
+    "name": "4 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198055952",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855206"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88193306,
+     -37.58980256
+    ]
+   },
+   "properties": {
+    "name": "12 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919469",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855249"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88456132,
+     -37.56676414
+    ]
+   },
+   "properties": {
+    "name": "8 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198055975",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855370"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88116455,
+     -37.56316929
+    ]
+   },
+   "properties": {
+    "name": "29 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884787",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855414"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88359855,
+     -37.56806183
+    ]
+   },
+   "properties": {
+    "name": "16 AXILLARIS STREET MICKLEHAM 3064",
+    "locID": "LOC000198056142",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88270931,
+     -37.58761823
+    ]
+   },
+   "properties": {
+    "name": "59 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197912265",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855587"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88444189,
+     -37.56754509
+    ]
+   },
+   "properties": {
+    "name": "7 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198056040",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.922497,
      -37.53995741
     ]
@@ -181224,6 +185253,108 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721855604"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.883517,
+     -37.56662175
+    ]
+   },
+   "properties": {
+    "name": "40 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055896",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855737"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88201784,
+     -37.58810699
+    ]
+   },
+   "properties": {
+    "name": "9 GINKGO STREET MICKLEHAM 3064",
+    "locID": "LOC000197912427",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855844"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88203549,
+     -37.58613674
+    ]
+   },
+   "properties": {
+    "name": "26 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374782",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855868"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88466761,
+     -37.56633517
+    ]
+   },
+   "properties": {
+    "name": "116 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055617",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855895"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88167037,
+     -37.58854618
+    ]
+   },
+   "properties": {
+    "name": "14 BARK ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919725",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721855986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88208168,
+     -37.58840188
+    ]
+   },
+   "properties": {
+    "name": "15 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919843",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856010"
    }
   },
   {
@@ -181248,6 +185379,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88137387,
+     -37.58976632
+    ]
+   },
+   "properties": {
+    "name": "22 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919411",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856132"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88395355,
+     -37.56677723
+    ]
+   },
+   "properties": {
+    "name": "7 MINIATA WAY MICKLEHAM 3064",
+    "locID": "LOC000198056029",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856213"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.88247748,
      -37.58752708
     ]
@@ -181255,9 +185420,77 @@
    "properties": {
     "name": "3 ORGANIC STREET MICKLEHAM 3064",
     "locID": "LOC000197912174",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721856244"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88241155,
+     -37.5863325
+    ]
+   },
+   "properties": {
+    "name": "11 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374920",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856327"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88434832,
+     -37.56804054
+    ]
+   },
+   "properties": {
+    "name": "12 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056277",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88439198,
+     -37.56782712
+    ]
+   },
+   "properties": {
+    "name": "16 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056296",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856358"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88205004,
+     -37.58859849
+    ]
+   },
+   "properties": {
+    "name": "11 THICKET ROAD MICKLEHAM 3064",
+    "locID": "LOC000197919827",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856383"
    }
   },
   {
@@ -181282,6 +185515,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88276158,
+     -37.58753341
+    ]
+   },
+   "properties": {
+    "name": "61 BRAMBLE AVENUE MICKLEHAM 3064",
+    "locID": "LOC000197912254",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856457"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88500024,
+     -37.56692014
+    ]
+   },
+   "properties": {
+    "name": "124 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055655",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88170216,
+     -37.58607878
+    ]
+   },
+   "properties": {
+    "name": "23 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374748",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856540"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.9071538,
      -37.52254338
     ]
@@ -181292,6 +185576,40 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721856541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88250266,
+     -37.5869029
+    ]
+   },
+   "properties": {
+    "name": "7 ORNAMENTAL STREET MICKLEHAM 3064",
+    "locID": "LOC000198374516",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88192779,
+     -37.58694651
+    ]
+   },
+   "properties": {
+    "name": "6 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374563",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856605"
    }
   },
   {
@@ -181316,6 +185634,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.88329039,
+     -37.56707389
+    ]
+   },
+   "properties": {
+    "name": "27 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055779",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856722"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88243744,
+     -37.58617164
+    ]
+   },
+   "properties": {
+    "name": "17 SYKE WALK MICKLEHAM 3064",
+    "locID": "LOC000198374954",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721856864"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88432422,
+     -37.56815837
+    ]
+   },
+   "properties": {
+    "name": "10 CONCINNA STREET MICKLEHAM 3064",
+    "locID": "LOC000198056265",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88110073,
+     -37.56351551
+    ]
+   },
+   "properties": {
+    "name": "15 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884739",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857184"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88447914,
+     -37.5671594
+    ]
+   },
+   "properties": {
+    "name": "8 SOLITAIRE WAY MICKLEHAM 3064",
+    "locID": "LOC000198055705",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857219"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.8811611,
+     -37.58974074
+    ]
+   },
+   "properties": {
+    "name": "26 CORDOBA STREET MICKLEHAM 3064",
+    "locID": "LOC000197919392",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857339"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.9258201,
      -37.53935999
     ]
@@ -181326,6 +185746,91 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721857384"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88482151,
+     -37.56779379
+    ]
+   },
+   "properties": {
+    "name": "132 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198056310",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857434"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88355395,
+     -37.56657639
+    ]
+   },
+   "properties": {
+    "name": "42 FLEXIFOLIA CRESCENT MICKLEHAM 3064",
+    "locID": "LOC000198055883",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88119646,
+     -37.56308473
+    ]
+   },
+   "properties": {
+    "name": "33 NEEDLEWOOD WALK MICKLEHAM 3064",
+    "locID": "LOC000197884804",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857573"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88200961,
+     -37.5862976
+    ]
+   },
+   "properties": {
+    "name": "20 SANTOLINA ROAD MICKLEHAM 3064",
+    "locID": "LOC000198374814",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857764"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.88451892,
+     -37.56628255
+    ]
+   },
+   "properties": {
+    "name": "114 DRYLAND BOULEVARD MICKLEHAM 3064",
+    "locID": "LOC000198055601",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721857779"
    }
   }
  ]
