@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-29T12:40:53.955202",
+ "generated": "2026-09-01T21:30:24.414529",
  "suburb": "TALLAI",
  "features": [
   {
@@ -846,7 +846,7 @@
    "properties": {
     "name": "473 THE PANORAMA TALLAI 4213",
     "locID": "LOC000009895205",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855300",
     "tech_change_status": "Not Planned"
@@ -904,7 +904,7 @@
    "properties": {
     "name": "540 THE PANORAMA TALLAI 4213",
     "locID": "LOC000025632257",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855306",
     "tech_change_status": "Not Planned"
@@ -962,7 +962,7 @@
    "properties": {
     "name": "560 THE PANORAMA TALLAI 4213",
     "locID": "LOC000039707540",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855311",
     "tech_change_status": "Not Planned"
@@ -980,7 +980,7 @@
    "properties": {
     "name": "585 THE PANORAMA TALLAI 4213",
     "locID": "LOC000094618840",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855313",
     "tech_change_status": "Not Planned"
@@ -1018,7 +1018,7 @@
    "properties": {
     "name": "611 THE PANORAMA TALLAI 4213",
     "locID": "LOC000040133682",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855316",
     "tech_change_status": "Not Planned"
@@ -1036,7 +1036,7 @@
    "properties": {
     "name": "621 THE PANORAMA TALLAI 4213",
     "locID": "LOC000096364650",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155855317",
     "tech_change_status": "Not Planned"
@@ -1454,7 +1454,7 @@
    "properties": {
     "name": "643 THE PANORAMA TALLAI 4213",
     "locID": "LOC000046791622",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155857102",
     "tech_change_status": "Not Planned"
@@ -1931,7 +1931,7 @@
    "properties": {
     "name": "192A TALLAI ROAD TALLAI 4213",
     "locID": "LOC000065056890",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155859845",
     "tech_change_status": "Not Planned"
@@ -2684,10 +2684,9 @@
    "properties": {
     "name": "9 FOXTAIL COURT TALLAI 4213",
     "locID": "LOC000093614672",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155861597",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3052,10 +3051,10 @@
    "properties": {
     "name": "2 XANADU COURT TALLAI 4213",
     "locID": "LOC000004982285",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155862599",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3338,6 +3337,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.31408677,
+     -28.04869616
+    ]
+   },
+   "properties": {
+    "name": "37-39 GLENAURA DRIVE TALLAI 4213",
+    "locID": "LOC000002486401",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155864381"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31443512,
      -28.04769193
     ]
@@ -3399,6 +3415,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155864386"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.31642775,
+     -28.05130946
+    ]
+   },
+   "properties": {
+    "name": "5-9 GLENAURA DRIVE TALLAI 4213",
+    "locID": "LOC000053575069",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155864387"
    }
   },
   {
@@ -4398,10 +4431,10 @@
    "properties": {
     "name": "35 MISSION DRIVE TALLAI 4213",
     "locID": "LOC000071905389",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155868109",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -5583,7 +5616,7 @@
    "properties": {
     "name": "12-26 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000038909670",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155871814",
     "tech_change_status": "Not Planned"
@@ -5601,7 +5634,7 @@
    "properties": {
     "name": "63-69 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000077872127",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155871825",
     "tech_change_status": "Not Planned"
@@ -5619,7 +5652,7 @@
    "properties": {
     "name": "71-79 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000127303982",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155871830",
     "tech_change_status": "Not Planned"
@@ -5655,7 +5688,7 @@
    "properties": {
     "name": "89-95 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000056665391",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155871833",
     "tech_change_status": "Not Planned"
@@ -5673,7 +5706,7 @@
    "properties": {
     "name": "97-103 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000072273179",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155871834",
     "tech_change_status": "Not Planned"
@@ -6418,10 +6451,9 @@
    "properties": {
     "name": "11 VISCOUNT DRIVE TALLAI 4213",
     "locID": "LOC000106237974",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155872792",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8285,10 +8317,9 @@
    "properties": {
     "name": "12 HAYLETT COURT TALLAI 4213",
     "locID": "LOC000086261748",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155878996",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155878996"
    }
   },
   {
@@ -8520,10 +8551,9 @@
    "properties": {
     "name": "10 CROMWELL COURT TALLAI 4213",
     "locID": "LOC000096324256",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155879081",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8540,8 +8570,8 @@
    "properties": {
     "name": "2 CROMWELL COURT TALLAI 4213",
     "locID": "LOC000019183555",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155879082",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9324,7 +9354,7 @@
    "properties": {
     "name": "140 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000015805574",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155879164",
     "tech_change_status": "Not Planned"
@@ -9342,7 +9372,7 @@
    "properties": {
     "name": "144 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000050462973",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155879166",
     "tech_change_status": "Not Planned"
@@ -9360,7 +9390,7 @@
    "properties": {
     "name": "148 TALLAI ROAD TALLAI 4213",
     "locID": "LOC100078031265",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155879168",
     "tech_change_status": "Not Planned"
@@ -9456,7 +9486,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155880115",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9578,7 +9608,7 @@
    "properties": {
     "name": "117 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000023580868",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155880832",
     "tech_change_status": "Not Planned"
@@ -9653,7 +9683,7 @@
    "properties": {
     "name": "177 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000109156274",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155880859",
     "tech_change_status": "Not Planned"
@@ -9748,10 +9778,10 @@
    "properties": {
     "name": "145A WORONGARY ROAD TALLAI 4213",
     "locID": "LOC000074723373",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155880867",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11400,7 +11430,7 @@
    "properties": {
     "name": "105-107 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000009423652",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152661",
     "tech_change_status": "Not Planned"
@@ -11418,7 +11448,7 @@
    "properties": {
     "name": "108 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000053573230",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152662",
     "tech_change_status": "Not Planned"
@@ -11436,7 +11466,7 @@
    "properties": {
     "name": "109 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000098636812",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152663",
     "tech_change_status": "Not Planned"
@@ -11454,7 +11484,7 @@
    "properties": {
     "name": "17-21 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000127275480",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152665",
     "tech_change_status": "Not Planned"
@@ -11508,7 +11538,7 @@
    "properties": {
     "name": "31-35 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000058993221",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152669",
     "tech_change_status": "Not Planned"
@@ -11526,7 +11556,7 @@
    "properties": {
     "name": "37-53 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000115979080",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152670",
     "tech_change_status": "Not Planned"
@@ -11562,7 +11592,7 @@
    "properties": {
     "name": "48-56 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000015836290",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152672",
     "tech_change_status": "Not Planned"
@@ -11580,7 +11610,7 @@
    "properties": {
     "name": "94-96 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000127271138",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152683",
     "tech_change_status": "Not Planned"
@@ -11598,7 +11628,7 @@
    "properties": {
     "name": "98-102 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000097451171",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152685",
     "tech_change_status": "Not Planned"
@@ -11843,10 +11873,9 @@
    "properties": {
     "name": "2 VISCOUNT DRIVE TALLAI 4213",
     "locID": "LOC000106557955",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157152713",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14225,6 +14254,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.31533408,
+     -28.05192396
+    ]
+   },
+   "properties": {
+    "name": "10-12 GLENAURA DRIVE TALLAI 4213",
+    "locID": "LOC000061544903",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157169876"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31676804,
      -28.05080734
     ]
@@ -14371,6 +14417,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157169900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.31780773,
+     -28.0509934
+    ]
+   },
+   "properties": {
+    "name": "13-17 GLENROWAN DRIVE TALLAI 4213",
+    "locID": "LOC000092988427",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157169902"
    }
   },
   {
@@ -15774,7 +15837,7 @@
    "properties": {
     "name": "453 THE PANORAMA TALLAI 4213",
     "locID": "LOC000127273347",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176960",
     "tech_change_status": "Not Planned"
@@ -15812,7 +15875,7 @@
    "properties": {
     "name": "463 THE PANORAMA TALLAI 4213",
     "locID": "LOC000127275792",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176962",
     "tech_change_status": "Not Planned"
@@ -15908,7 +15971,7 @@
    "properties": {
     "name": "538 THE PANORAMA TALLAI 4213",
     "locID": "LOC000059741250",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176972",
     "tech_change_status": "Not Planned"
@@ -15964,7 +16027,7 @@
    "properties": {
     "name": "562 THE PANORAMA TALLAI 4213",
     "locID": "LOC000064946281",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176980",
     "tech_change_status": "Not Planned"
@@ -15982,7 +16045,7 @@
    "properties": {
     "name": "564 THE PANORAMA TALLAI 4213",
     "locID": "LOC000007735951",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176981",
     "tech_change_status": "Not Planned"
@@ -16000,7 +16063,7 @@
    "properties": {
     "name": "603 THE PANORAMA TALLAI 4213",
     "locID": "LOC000105547798",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157176984",
     "tech_change_status": "Not Planned"
@@ -16356,10 +16419,10 @@
    "properties": {
     "name": "1 DULHUNTY WAY TALLAI 4213",
     "locID": "LOC000067337763",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157177207",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16374,10 +16437,10 @@
    "properties": {
     "name": "10 DULHUNTY WAY TALLAI 4213",
     "locID": "LOC000024762347",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157177208",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16717,7 +16780,7 @@
    "properties": {
     "name": "146 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000127270185",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157177234",
     "tech_change_status": "Not Planned"
@@ -17369,10 +17432,9 @@
    "properties": {
     "name": "33 MISSION DRIVE TALLAI 4213",
     "locID": "LOC000014423175",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157183971",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157183971"
    }
   },
   {
@@ -17475,7 +17537,7 @@
    "properties": {
     "name": "116 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000019147633",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157184217",
     "tech_change_status": "Not Planned"
@@ -17584,7 +17646,7 @@
    "properties": {
     "name": "156 TALLAI ROAD TALLAI 4213",
     "locID": "LOC100078031310",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157184240",
     "tech_change_status": "Not Planned"
@@ -17677,7 +17739,7 @@
    "properties": {
     "name": "172 TALLAI ROAD TALLAI 4213",
     "locID": "LOC100078031249",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157184245",
     "tech_change_status": "Not Planned"
@@ -18002,10 +18064,9 @@
    "properties": {
     "name": "88 THE PANORAMA TALLAI 4213",
     "locID": "LOC000051250214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157187602",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19221,9 +19282,9 @@
     "name": "21 NATURE VALLEY COURT TALLAI 4213",
     "locID": "LOC000049106429",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157194588",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19328,7 +19389,7 @@
    "properties": {
     "name": "337 THE PANORAMA TALLAI 4213",
     "locID": "LOC000049332365",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157201497",
     "tech_change_status": "Not Planned"
@@ -19830,7 +19891,7 @@
    "properties": {
     "name": "58-68 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000022472057",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157201776",
     "tech_change_status": "Not Planned"
@@ -19848,7 +19909,7 @@
    "properties": {
     "name": "70-76 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000097578898",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157201778",
     "tech_change_status": "Not Planned"
@@ -20027,7 +20088,7 @@
    "properties": {
     "name": "181 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000064882645",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157204912",
     "tech_change_status": "Not Planned"
@@ -20045,7 +20106,7 @@
    "properties": {
     "name": "182 TALLAI ROAD TALLAI 4213",
     "locID": "LOC100078031220",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157204913",
     "tech_change_status": "Not Planned"
@@ -20118,7 +20179,7 @@
    "properties": {
     "name": "192 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000064549832",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157204918",
     "tech_change_status": "Not Planned"
@@ -20216,10 +20277,9 @@
    "properties": {
     "name": "26 TALLAI ROAD TALLAI 4213",
     "locID": "LOC000106999777",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157204924",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21058,7 +21118,7 @@
    "properties": {
     "name": "26 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000038909670",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158719193",
     "tech_change_status": "Not Planned"
@@ -21116,10 +21176,10 @@
    "properties": {
     "name": "UNIT 8, 37 OLD COACH ROAD TALLAI 4213",
     "locID": "LOC000023600466",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158721231",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21353,10 +21413,10 @@
    "properties": {
     "name": "UNIT 11, 37 OLD COACH ROAD TALLAI 4213",
     "locID": "LOC000023187916",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158725470",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21432,10 +21492,10 @@
    "properties": {
     "name": "UNIT 29, 37 OLD COACH ROAD TALLAI 4213",
     "locID": "LOC000023511243",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158725474",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21761,10 +21821,10 @@
    "properties": {
     "name": "UNIT 75, 37 OLD COACH ROAD TALLAI 4213",
     "locID": "LOC000023553534",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158727151",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23490,7 +23550,7 @@
    "properties": {
     "name": "25 NATURE VALLEY COURT TALLAI 4213",
     "locID": "LOC000047867029",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160696452",
     "tech_change_status": "Not Planned"
@@ -23508,7 +23568,7 @@
    "properties": {
     "name": "25A NATURE VALLEY COURT TALLAI 4213",
     "locID": "LOC000047867029",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160696454",
     "tech_change_status": "Not Planned"
@@ -23605,7 +23665,7 @@
    "properties": {
     "name": "101 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000053573230",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160959576",
     "tech_change_status": "Not Planned"
@@ -24085,10 +24145,10 @@
    "properties": {
     "name": "1-13 NATURE VALLEY COURT TALLAI 4213",
     "locID": "LOC000004146486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161252350",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24201,7 +24261,7 @@
    "properties": {
     "name": "633-641 THE PANORAMA TALLAI 4213",
     "locID": "LOC000127294128",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161328627",
     "tech_change_status": "Not Planned"
@@ -25329,7 +25389,7 @@
    "properties": {
     "name": "97 RED OAK DRIVE TALLAI 4213",
     "locID": "LOC000072273179",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162546345",
     "tech_change_status": "Not Planned"
@@ -27285,10 +27345,9 @@
    "properties": {
     "name": "33B UTOPIA COURT TALLAI 4213",
     "locID": "LOC000187564979",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720541550",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28033,10 +28092,9 @@
    "properties": {
     "name": "UNIT 2, 11 VISCOUNT DRIVE TALLAI 4213",
     "locID": "LOC000106237974",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721133496",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28053,10 +28111,9 @@
    "properties": {
     "name": "UNIT 1, 11 VISCOUNT DRIVE TALLAI 4213",
     "locID": "LOC000106237974",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721133995",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28388,7 +28445,7 @@
    "properties": {
     "name": "160 TALLAI ROAD TALLAI 4213",
     "locID": "LOC100078031310",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721388969",
     "tech_change_status": "Not Planned"
