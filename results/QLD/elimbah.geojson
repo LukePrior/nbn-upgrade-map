@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-28T23:05:19.309986",
+ "generated": "2026-09-01T09:14:40.012297",
  "suburb": "ELIMBAH",
  "features": [
   {
@@ -456,10 +456,9 @@
    "properties": {
     "name": "193-195 BIGMOR DRIVE ELIMBAH 4516",
     "locID": "LOC000128227135",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155270412",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -705,10 +704,10 @@
    "properties": {
     "name": "3 CORONATION DRIVE ELIMBAH 4516",
     "locID": "LOC000128240676",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155273261",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -824,6 +823,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155273268",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94317625,
+     -27.0199531
+    ]
+   },
+   "properties": {
+    "name": "45-47 DAMIANI ROAD ELIMBAH 4516",
+    "locID": "LOC000022331366",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155273269",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
@@ -1099,7 +1118,7 @@
    "properties": {
     "name": "40 GLANVILLE ROAD ELIMBAH 4516",
     "locID": "LOC000082574034",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155283312",
     "tech_change_status": "Not Planned"
@@ -1969,10 +1988,10 @@
    "properties": {
     "name": "33 TIMBERGROVE ROAD ELIMBAH 4516",
     "locID": "LOC000020774941",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155290688",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -3101,6 +3120,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.91643134,
+     -27.02427737
+    ]
+   },
+   "properties": {
+    "name": "35-37 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000102532968",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD155293670",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.92605667,
      -27.00488432
     ]
@@ -3539,7 +3576,7 @@
    "properties": {
     "name": "236-252 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000128233022",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155297299",
     "tech_change_status": "Not Planned"
@@ -4782,10 +4819,10 @@
    "properties": {
     "name": "1 HATCHMAN COURT ELIMBAH 4516",
     "locID": "LOC000091178354",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156551189",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4920,6 +4957,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156552186",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93356513,
+     -27.02035583
+    ]
+   },
+   "properties": {
+    "name": "5-9 KIRRANG DRIVE ELIMBAH 4516",
+    "locID": "LOC000068665400",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD156552188",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -5584,10 +5641,46 @@
    "properties": {
     "name": "31-33 MULLIGAN CRESCENT ELIMBAH 4516",
     "locID": "LOC000047477432",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156559141",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91743033,
+     -27.02458726
+    ]
+   },
+   "properties": {
+    "name": "39-41 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000094283489",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156559143",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91666701,
+     -27.02770642
+    ]
+   },
+   "properties": {
+    "name": "6-8 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000084866852",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156559144",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -5794,10 +5887,9 @@
    "properties": {
     "name": "168 ALCOCK ROAD ELIMBAH 4516",
     "locID": "LOC000074230189",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156560675",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6103,6 +6195,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96784776,
+     -27.03469474
+    ]
+   },
+   "properties": {
+    "name": "8-10 ROJAN COURT ELIMBAH 4516",
+    "locID": "LOC000074898400",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156561859",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.91478994,
      -27.02631728
     ]
@@ -6168,10 +6279,9 @@
    "properties": {
     "name": "7 SCHOOL ROAD ELIMBAH 4516",
     "locID": "LOC000060241774",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156561876",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6561,7 +6671,7 @@
    "properties": {
     "name": "2 IRWIN ROAD ELIMBAH 4516",
     "locID": "LOC000070193908",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157890497",
     "tech_change_status": "Not Planned"
@@ -6987,9 +7097,9 @@
     "name": "482 BEERBURRUM ROAD ELIMBAH 4516",
     "locID": "LOC000105555888",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157893744",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7241,10 +7351,9 @@
    "properties": {
     "name": "40-42 KELMOR COURT ELIMBAH 4516",
     "locID": "LOC000074522275",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157896779",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7413,7 +7522,7 @@
    "properties": {
     "name": "196 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000077679405",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157897589",
     "tech_change_status": "Not Planned"
@@ -7431,7 +7540,7 @@
    "properties": {
     "name": "191 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000052390814",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157897591",
     "tech_change_status": "Not Planned"
@@ -8992,10 +9101,9 @@
    "properties": {
     "name": "25 PERIMA ROAD ELIMBAH 4516",
     "locID": "LOC000017387563",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157908499",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10444,7 +10552,7 @@
    "properties": {
     "name": "205 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000042867339",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157913042",
     "tech_change_status": "Not Planned"
@@ -11282,10 +11390,9 @@
    "properties": {
     "name": "2 HALL ROAD ELIMBAH 4516",
     "locID": "LOC000010725971",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157914145",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11623,7 +11730,7 @@
    "properties": {
     "name": "240 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000092327711",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157916666",
     "tech_change_status": "Not Planned"
@@ -11811,10 +11918,9 @@
    "properties": {
     "name": "500-516 BEERBURRUM ROAD ELIMBAH 4516",
     "locID": "LOC000072577327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160035303",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11890,7 +11996,7 @@
    "properties": {
     "name": "205A RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000042867339",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160039617",
     "tech_change_status": "Not Planned"
@@ -12103,10 +12209,9 @@
    "properties": {
     "name": "35-39 KIRRANG DRIVE ELIMBAH 4516",
     "locID": "LOC000098800278",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160049658",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12140,10 +12245,64 @@
    "properties": {
     "name": "20-26 SPOONBILL DRIVE ELIMBAH 4516",
     "locID": "LOC000010805806",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160050106",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93813831,
+     -27.02512142
+    ]
+   },
+   "properties": {
+    "name": "45-47 SPOONBILL DRIVE ELIMBAH 4516",
+    "locID": "LOC000030728000",
     "tech": "FTTN",
     "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD160050106",
+    "gnaf_pid": "GAQLD160050107",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94076896,
+     -27.02361228
+    ]
+   },
+   "properties": {
+    "name": "10-14 WEDGEBILL COURT ELIMBAH 4516",
+    "locID": "LOC000014980814",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160050116",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93945438,
+     -27.02232092
+    ]
+   },
+   "properties": {
+    "name": "19-21 WEDGEBILL COURT ELIMBAH 4516",
+    "locID": "LOC000145880438",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160050119",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -12222,6 +12381,24 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160054531",
     "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91764288,
+     -27.02497687
+    ]
+   },
+   "properties": {
+    "name": "38-42 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000023145292",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD160056232",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -12995,10 +13172,9 @@
    "properties": {
     "name": "34 REMOR COURT ELIMBAH 4516",
     "locID": "LOC000091359839",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160710664",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GAQLD160710664"
    }
   },
   {
@@ -13568,10 +13744,9 @@
    "properties": {
     "name": "LOT 500 BEERBURRUM ROAD ELIMBAH 4516",
     "locID": "LOC000072577327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161063462",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15238,10 +15413,9 @@
    "properties": {
     "name": "93-95 EMU ROAD ELIMBAH 4516",
     "locID": "LOC000062916897",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161435355",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15338,7 +15512,7 @@
    "properties": {
     "name": "46-122 GLANVILLE ROAD ELIMBAH 4516",
     "locID": "LOC000024009276",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161437511",
     "tech_change_status": "Not Planned"
@@ -15561,6 +15735,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.95922918,
+     -27.03255896
+    ]
+   },
+   "properties": {
+    "name": "22-28 JAMOR COURT ELIMBAH 4516",
+    "locID": "LOC000043114376",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161441221",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96018451,
+     -27.03297728
+    ]
+   },
+   "properties": {
+    "name": "29-31 JAMOR COURT ELIMBAH 4516",
+    "locID": "LOC000005807681",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161441222",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.95916005,
      -27.03303263
     ]
@@ -15721,6 +15931,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161442833",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93676142,
+     -27.01985446
+    ]
+   },
+   "properties": {
+    "name": "26-30 KIRRANG DRIVE ELIMBAH 4516",
+    "locID": "LOC000050301588",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161442883",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -16060,10 +16290,10 @@
    "properties": {
     "name": "48-50 MELMOR COURT ELIMBAH 4516",
     "locID": "LOC000032535333",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161447882",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16166,6 +16396,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.91673885,
+     -27.02702024
+    ]
+   },
+   "properties": {
+    "name": "14-16 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000068534474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161449662",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.91643117,
      -27.02649484
     ]
@@ -16173,10 +16421,46 @@
    "properties": {
     "name": "1-3 MULLIGAN CRESCENT ELIMBAH 4516",
     "locID": "LOC000047477432",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161449665",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91742218,
+     -27.02648903
+    ]
+   },
+   "properties": {
+    "name": "20-24 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000009545452",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161449666",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91753479,
+     -27.02598426
+    ]
+   },
+   "properties": {
+    "name": "26-30 MULLIGAN CRESCENT ELIMBAH 4516",
+    "locID": "LOC000059703622",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161449667",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -16693,6 +16977,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96761908,
+     -27.03547408
+    ]
+   },
+   "properties": {
+    "name": "9-11 ROJAN COURT ELIMBAH 4516",
+    "locID": "LOC000095716839",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161455982",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.94952912,
      -26.99357681
     ]
@@ -17014,7 +17318,7 @@
    "properties": {
     "name": "124-190 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000128218221",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161456422",
     "tech_change_status": "Not Planned"
@@ -17032,7 +17336,7 @@
    "properties": {
     "name": "192-212 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000128227126",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161456423",
     "tech_change_status": "Not Planned"
@@ -17050,7 +17354,7 @@
    "properties": {
     "name": "195-217 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000042867339",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161456424",
     "tech_change_status": "Not Planned"
@@ -17088,7 +17392,7 @@
    "properties": {
     "name": "214-234 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000128232796",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161456426",
     "tech_change_status": "Not Planned"
@@ -18350,6 +18654,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.92998398,
+     -27.02268356
+    ]
+   },
+   "properties": {
+    "name": "34-36 THREE PONDS PLACE ELIMBAH 4516",
+    "locID": "LOC000128240892",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161669717",
+    "tech_change_status": "Previous Tech Disconnected"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.92910036,
      -27.02250738
     ]
@@ -18361,6 +18683,24 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161669718",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9298918,
+     -27.02229978
+    ]
+   },
+   "properties": {
+    "name": "38-40 THREE PONDS PLACE ELIMBAH 4516",
+    "locID": "LOC000128243264",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161669719",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -18687,10 +19027,10 @@
    "properties": {
     "name": "6-8 THE CREST ELIMBAH 4516",
     "locID": "LOC000093292645",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161799445",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19890,6 +20230,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96706158,
+     -27.02686017
+    ]
+   },
+   "properties": {
+    "name": "127-131 HALL ROAD ELIMBAH 4516",
+    "locID": "LOC000128218250",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161937345",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.97567004,
      -27.02854592
     ]
@@ -20824,10 +21184,10 @@
    "properties": {
     "name": "16-18 KIRRANG DRIVE ELIMBAH 4516",
     "locID": "LOC000048080247",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162319076",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21123,10 +21483,9 @@
    "properties": {
     "name": "28-30 GHEKO RIDGE ROAD ELIMBAH 4516",
     "locID": "LOC000032468647",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162673430",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21361,9 +21720,9 @@
     "name": "4-6 GHEKO RIDGE ROAD ELIMBAH 4516",
     "locID": "LOC000077667873",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162673442",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21518,10 +21877,10 @@
    "properties": {
     "name": "17 MCRAE ROAD ELIMBAH 4516",
     "locID": "LOC000087024992",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162857623",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21616,10 +21975,9 @@
    "properties": {
     "name": "8 SHERLOCK COURT ELIMBAH 4516",
     "locID": "LOC000033302250",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162861135",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21793,10 +22151,10 @@
    "properties": {
     "name": "15-17 MCRAE ROAD ELIMBAH 4516",
     "locID": "LOC000087024992",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162905394",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22742,6 +23100,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.94303066,
+     -27.01305404
+    ]
+   },
+   "properties": {
+    "name": "6-8 SCHOOL ROAD ELIMBAH 4516",
+    "locID": "LOC000062253072",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163317917",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.93890559,
      -26.99618067
     ]
@@ -23394,10 +23771,9 @@
    "properties": {
     "name": "13-15 ALCOCK ROAD ELIMBAH 4516",
     "locID": "LOC000145742152",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424938489",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23515,6 +23891,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD424938496",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.92317699,
+     -27.02486701
+    ]
+   },
+   "properties": {
+    "name": "45-49 ALCOCK ROAD ELIMBAH 4516",
+    "locID": "LOC000145742168",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD424938497",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -23948,10 +24344,9 @@
    "properties": {
     "name": "125-127 SMITHS ROAD ELIMBAH 4516",
     "locID": "LOC000143894314",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425217406",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24656,7 +25051,7 @@
    "properties": {
     "name": "195 RUTTERS ROAD ELIMBAH 4516",
     "locID": "LOC000042867339",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425270455",
     "tech_change_status": "Not Planned"
@@ -27952,10 +28347,10 @@
    "properties": {
     "name": "15 CLIFF COURT ELIMBAH 4516",
     "locID": "LOC000181859458",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720314276",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28185,10 +28580,10 @@
    "properties": {
     "name": "240A BIGMOR DRIVE ELIMBAH 4516",
     "locID": "LOC000184938289",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483773",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -29446,6 +29841,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721726978"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96888857,
+     -27.0331189
+    ]
+   },
+   "properties": {
+    "name": "58 HALL ROAD ELIMBAH 4516",
+    "locID": "LOC000089514419",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721726987",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
