@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-06-29T04:13:33.325860",
+ "generated": "2026-09-01T13:46:56.532589",
  "suburb": "MILES",
  "features": [
   {
@@ -3593,26 +3593,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.18467544,
-     -26.65591197
-    ]
-   },
-   "properties": {
-    "name": "19 PINE STREET MILES 4415",
-    "locID": "LOC000128165283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155574377",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.18557311,
      -26.65408939
     ]
@@ -4617,8 +4597,8 @@
    "properties": {
     "name": "72 EDITH STREET MILES 4415",
     "locID": "LOC000055628245",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156825896",
     "tech_change_status": "Eligible to Order"
    }
@@ -6005,10 +5985,10 @@
    "properties": {
     "name": "46 MCNULTY STREET MILES 4415",
     "locID": "LOC000076127708",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156843620",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6045,10 +6025,9 @@
    "properties": {
     "name": "56 MCNULTY STREET MILES 4415",
     "locID": "LOC000085612400",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156843622",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8096,10 +8075,9 @@
    "properties": {
     "name": "17 CENTENARY AVENUE MILES 4415",
     "locID": "LOC000052384298",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156865237",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156865237"
    }
   },
   {
@@ -8618,26 +8596,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156868628",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.18580018,
-     -26.65262125
-    ]
-   },
-   "properties": {
-    "name": "44 PINE STREET MILES 4415",
-    "locID": "LOC000128165404",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD156868629",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2028"
@@ -9178,26 +9136,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.18737075,
-     -26.65300619
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 75 DAWSON STREET MILES 4415",
-    "locID": "LOC000073442685",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD158281510",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.19485804,
      -26.6567737
     ]
@@ -9474,6 +9412,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158283836"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.18737075,
+     -26.65300619
+    ]
+   },
+   "properties": {
+    "name": "75A DAWSON STREET MILES 4415",
+    "locID": "LOC000073231632",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158283844",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -12308,7 +12266,7 @@
    "properties": {
     "name": "LOT 11 BUTLERS ROAD MILES 4415",
     "locID": "LOC000102262764",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161089828",
     "tech_change_status": "Not Planned"
@@ -12909,7 +12867,7 @@
    "properties": {
     "name": "LOT 11 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC000128179819",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161346227",
     "tech_change_status": "Not Planned"
@@ -13587,7 +13545,7 @@
    "properties": {
     "name": "746 BUTLERS ROAD MILES 4415",
     "locID": "LOC000041596470",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162128370",
     "tech_change_status": "Not Planned"
@@ -13605,7 +13563,7 @@
    "properties": {
     "name": "849 BUTLERS ROAD MILES 4415",
     "locID": "LOC000036569127",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162128371",
     "tech_change_status": "Not Planned"
@@ -13623,7 +13581,7 @@
    "properties": {
     "name": "958 BUTLERS ROAD MILES 4415",
     "locID": "LOC000025706304",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162128372",
     "tech_change_status": "Not Planned"
@@ -13855,7 +13813,7 @@
    "properties": {
     "name": "158 FOUNTAIN CREEK ROAD MILES 4415",
     "locID": "LOC000015747757",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162145199",
     "tech_change_status": "Not Planned"
@@ -14033,7 +13991,7 @@
    "properties": {
     "name": "LOT 2 LEICHHARDT HIGHWAY MILES 4415",
     "locID": "LOC000128208198",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162163713",
     "tech_change_status": "Not Planned"
@@ -14287,7 +14245,7 @@
    "properties": {
     "name": "39949 LEICHHARDT HIGHWAY MILES 4415",
     "locID": "LOC000088153046",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162163728",
     "tech_change_status": "Not Planned"
@@ -14383,7 +14341,7 @@
    "properties": {
     "name": "LOT 44 LEICHHARDT HIGHWAY MILES 4415",
     "locID": "LOC000128208198",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162163735",
     "tech_change_status": "Not Planned"
@@ -14772,7 +14730,7 @@
    "properties": {
     "name": "225 PADDYS CREEK ROAD MILES 4415",
     "locID": "LOC000095586643",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162182855",
     "tech_change_status": "Not Planned"
@@ -14790,7 +14748,7 @@
    "properties": {
     "name": "271 PADDYS CREEK ROAD MILES 4415",
     "locID": "LOC000046048387",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162182856",
     "tech_change_status": "Not Planned"
@@ -15006,7 +14964,7 @@
    "properties": {
     "name": "31327 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC000054788882",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162204729",
     "tech_change_status": "Not Planned"
@@ -15024,7 +14982,7 @@
    "properties": {
     "name": "31447 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC100078023006",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162204730",
     "tech_change_status": "Not Planned"
@@ -15042,7 +15000,7 @@
    "properties": {
     "name": "31556 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC000041442331",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162204731",
     "tech_change_status": "Not Planned"
@@ -15188,7 +15146,7 @@
    "properties": {
     "name": "31521 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC000093845333",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162312120",
     "tech_change_status": "Not Planned"
@@ -15261,7 +15219,7 @@
    "properties": {
     "name": "1108 BUTLERS ROAD MILES 4415",
     "locID": "LOC000102262764",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162381506",
     "tech_change_status": "Not Planned"
@@ -15548,7 +15506,7 @@
    "properties": {
     "name": "228 GOONALAH NORTH ROAD MILES 4415",
     "locID": "LOC000128215619",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162453820",
     "tech_change_status": "Not Planned"
@@ -15675,7 +15633,7 @@
    "properties": {
     "name": "253 GOONALAH NORTH ROAD MILES 4415",
     "locID": "LOC000052344552",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162616064",
     "tech_change_status": "Not Planned"
@@ -15829,7 +15787,7 @@
    "properties": {
     "name": "29622 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC000009926651",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162862549",
     "tech_change_status": "Not Planned"
@@ -16635,10 +16593,10 @@
    "properties": {
     "name": "LOT 156 LYNAGH STREET MILES 4415",
     "locID": "LOC000128215782",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163168646",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16734,10 +16692,10 @@
    "properties": {
     "name": "LOT 13 MCNULTY STREET MILES 4415",
     "locID": "LOC000076127708",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163169630",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17133,26 +17091,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.19921503,
-     -26.64969946
-    ]
-   },
-   "properties": {
-    "name": "115 RACECOURSE ROAD MILES 4415",
-    "locID": "LOC000128211860",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD163172990",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.19931041,
      -26.65908061
     ]
@@ -17328,26 +17266,6 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.185743,
-     -26.65298302
-    ]
-   },
-   "properties": {
-    "name": "40 PINE STREET MILES 4415",
-    "locID": "LOC000128165283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD163316201",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -20482,6 +20400,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.20195666,
+     -26.65385437
+    ]
+   },
+   "properties": {
+    "name": "10 SWEETAPPLE DRIVE MILES 4415",
+    "locID": "LOC100031383017",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425291450",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.20177184,
      -26.64993897
     ]
@@ -21051,6 +20987,24 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.20301675,
+     -26.65229256
+    ]
+   },
+   "properties": {
+    "name": "5 WINDSOR PLACE MILES 4415",
+    "locID": "LOC100093193859",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425292092",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -22284,8 +22238,8 @@
    "properties": {
     "name": "UNIT 1, LOT 1 EDITH STREET MILES 4415",
     "locID": "LOC100063879434",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425587960",
     "tech_change_status": "Eligible to Order"
    }
@@ -22322,8 +22276,8 @@
    "properties": {
     "name": "UNIT 3, LOT 3 EDITH STREET MILES 4415",
     "locID": "LOC100063879434",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425587964",
     "tech_change_status": "Eligible to Order"
    }
@@ -22536,26 +22490,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.18549217,
-     -26.65549734
-    ]
-   },
-   "properties": {
-    "name": "LOT 3 EDITH STREET MILES 4415",
-    "locID": "LOC000153438996",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425607497",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.18559813,
      -26.6552491
     ]
@@ -22726,10 +22660,10 @@
    "properties": {
     "name": "27 DAWSON STREET MILES 4415",
     "locID": "LOC000153437182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425639341",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22953,7 +22887,7 @@
    "properties": {
     "name": "LOT 1 WARREGO HIGHWAY MILES 4415",
     "locID": "LOC100078023006",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425643573",
     "tech_change_status": "Not Planned"
@@ -23028,7 +22962,7 @@
    "properties": {
     "name": "309 AYTON ROAD MILES 4415",
     "locID": "LOC100055361749",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425652608",
     "tech_change_status": "Not Planned"
@@ -23084,26 +23018,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425654633"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.18699564,
-     -26.65545901
-    ]
-   },
-   "properties": {
-    "name": "57 DAWSON STREET MILES 4415",
-    "locID": "LOC000153437111",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425654722",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -25831,6 +25745,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.18734153,
+     -26.65385237
+    ]
+   },
+   "properties": {
+    "name": "20 DAISY STREET MILES 4415",
+    "locID": "LOC000128169631",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721119120",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.18289645,
      -26.65625838
     ]
@@ -25856,10 +25790,10 @@
    "properties": {
     "name": "UNIT 2, 27 DAWSON STREET MILES 4415",
     "locID": "LOC000153437182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721134680",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26367,6 +26301,24 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721730688",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.19805332,
+     -26.64774882
+    ]
+   },
+   "properties": {
+    "name": "91 HOOKSWOOD PELHAM ROAD MILES 4415",
+    "locID": "LOC100093193844",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721817941",
+    "tech_change_status": "Not Planned"
    }
   },
   {
