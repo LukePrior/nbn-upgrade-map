@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-01T01:41:32.550942",
+ "generated": "2026-09-04T17:43:31.822617",
  "suburb": "SHOREHAM",
  "features": [
   {
@@ -254,7 +254,7 @@
    "properties": {
     "name": "57 PROUT WEBB ROAD SHOREHAM 3916",
     "locID": "LOC000053085910",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412316179",
     "tech_change_status": "Not Planned"
@@ -1776,10 +1776,10 @@
    "properties": {
     "name": "24 HILLCREST ROAD SHOREHAM 3916",
     "locID": "LOC000080547878",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419550705",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -2333,9 +2333,9 @@
     "name": "30-32 MARINE PARADE SHOREHAM 3916",
     "locID": "LOC000125656229",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419838109",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3133,6 +3133,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.058554,
+     -38.418329
+    ]
+   },
+   "properties": {
+    "name": "12-18 CORYULE STREET SHOREHAM 3916",
+    "locID": "LOC000112876666",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419847676",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.056002,
+     -38.419539
+    ]
+   },
+   "properties": {
+    "name": "36-42 CORYULE STREET SHOREHAM 3916",
+    "locID": "LOC000113121514",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419847677",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.041123,
      -38.433529
     ]
@@ -3487,6 +3527,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.053939,
+     -38.423861
+    ]
+   },
+   "properties": {
+    "name": "31-37 BLAKE STREET SHOREHAM 3916",
+    "locID": "LOC000164244301",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419924736",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.0563,
      -38.425613
     ]
@@ -3673,8 +3732,8 @@
    "properties": {
     "name": "60 HOWARD STREET SHOREHAM 3916",
     "locID": "LOC000021283356",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420096917",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4064,10 +4123,10 @@
    "properties": {
     "name": "30 NELSON STREET SHOREHAM 3916",
     "locID": "LOC000040856852",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420128411",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4918,6 +4977,26 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420300603",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.0536146,
+     -38.42433414
+    ]
+   },
+   "properties": {
+    "name": "39-45 BLAKE STREET SHOREHAM 3916",
+    "locID": "LOC000102554997",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420300605",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -6224,10 +6303,9 @@
    "properties": {
     "name": "16 PINE GROVE SHOREHAM 3916",
     "locID": "LOC000006096127",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420457665",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6244,10 +6322,10 @@
    "properties": {
     "name": "20 PINE GROVE SHOREHAM 3916",
     "locID": "LOC000101414590",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420457666",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9034,6 +9112,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.055382,
+     -38.422773
+    ]
+   },
+   "properties": {
+    "name": "9-15 BUXTON LANE SHOREHAM 3916",
+    "locID": "LOC000164244449",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421135418",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.05800839,
      -38.4260716
     ]
@@ -10076,6 +10174,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.055865,
+     -38.422539
+    ]
+   },
+   "properties": {
+    "name": "1-7 BUXTON LANE SHOREHAM 3916",
+    "locID": "LOC000031091536",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421376338",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.048543,
      -38.428147
     ]
@@ -10457,10 +10575,9 @@
    "properties": {
     "name": "4 STEEN AVENUE SHOREHAM 3916",
     "locID": "LOC000093016594",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421610852",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11168,7 +11285,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421677118",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11378,6 +11495,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.059401,
+     -38.417919
+    ]
+   },
+   "properties": {
+    "name": "2-10 CORYULE STREET SHOREHAM 3916",
+    "locID": "LOC000114655044",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421683957",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.0588782,
      -38.41099487
     ]
@@ -11425,10 +11561,10 @@
    "properties": {
     "name": "28 HILLTOP COURT SHOREHAM 3916",
     "locID": "LOC000019540138",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421684637",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11537,6 +11673,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.04941748,
+     -38.42758524
+    ]
+   },
+   "properties": {
+    "name": "104 BLAKE STREET SHOREHAM 3916",
+    "locID": "LOC000057559446",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421693980",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.055421,
      -38.422386
     ]
@@ -11564,8 +11720,8 @@
    "properties": {
     "name": "75 BLAKE STREET SHOREHAM 3916",
     "locID": "LOC000040962816",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421694682",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11744,10 +11900,9 @@
    "properties": {
     "name": "35 MARINE PARADE SHOREHAM 3916",
     "locID": "LOC000063563173",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421699105",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12473,6 +12628,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.04681259,
+     -38.43261955
+    ]
+   },
+   "properties": {
+    "name": "10-60 CLIFF ROAD SHOREHAM 3916",
+    "locID": "LOC000021907661",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC424023143",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.05980728,
      -38.41027641
     ]
@@ -12600,6 +12775,26 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424504603",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.04941748,
+     -38.42758524
+    ]
+   },
+   "properties": {
+    "name": "102-104 BLAKE STREET SHOREHAM 3916",
+    "locID": "LOC000057559446",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424577313",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -13203,6 +13398,26 @@
     "gnaf_pid": "GAVIC720145581",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.0536146,
+     -38.42433414
+    ]
+   },
+   "properties": {
+    "name": "45 BLAKE STREET SHOREHAM 3916",
+    "locID": "LOC000102554997",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720544094",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
