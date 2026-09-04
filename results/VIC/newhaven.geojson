@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-01T00:44:27.673515",
+ "generated": "2026-09-04T16:44:27.985722",
  "suburb": "NEWHAVEN",
  "features": [
   {
@@ -77,26 +77,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411987794",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.3532047,
-     -38.51118303
-    ]
-   },
-   "properties": {
-    "name": "46 BOYS HOME ROAD NEWHAVEN 3925",
-    "locID": "LOC000113051982",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411987796",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -785,7 +765,7 @@
    "properties": {
     "name": "9 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000035639166",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419782897",
     "tech_change_status": "Not Planned"
@@ -984,6 +964,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419790052",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.35321505,
+     -38.5131979
+    ]
+   },
+   "properties": {
+    "name": "18-22 BOYS HOME ROAD NEWHAVEN 3925",
+    "locID": "LOC000114239812",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419790054",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -1197,7 +1197,7 @@
    "properties": {
     "name": "1255 PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000021102047",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420071616",
     "tech_change_status": "Not Planned"
@@ -2265,9 +2265,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420370999",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -2301,10 +2300,10 @@
    "properties": {
     "name": "10 MALCLIFF ROAD NEWHAVEN 3925",
     "locID": "LOC000018567822",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420371871",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3093,8 +3092,8 @@
    "properties": {
     "name": "27 PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000044470932",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420696143",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3113,7 +3112,7 @@
    "properties": {
     "name": "11 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000039238279",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420698742",
     "tech_change_status": "Not Planned"
@@ -3131,7 +3130,7 @@
    "properties": {
     "name": "23 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000071428029",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420698743",
     "tech_change_status": "Not Planned"
@@ -3545,7 +3544,7 @@
    "properties": {
     "name": "1285 PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000042617297",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420973799",
     "tech_change_status": "Not Planned"
@@ -3563,7 +3562,7 @@
    "properties": {
     "name": "20 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000007810661",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420984284",
     "tech_change_status": "Not Planned"
@@ -3619,7 +3618,7 @@
    "properties": {
     "name": "17 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000031978999",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420984287",
     "tech_change_status": "Not Planned"
@@ -3637,7 +3636,7 @@
    "properties": {
     "name": "7 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000030898043",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420984288",
     "tech_change_status": "Not Planned"
@@ -3767,6 +3766,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.3532047,
+     -38.51118303
+    ]
+   },
+   "properties": {
+    "name": "44-48 BOYS HOME ROAD NEWHAVEN 3925",
+    "locID": "LOC000114249186",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420994513",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.35376282,
      -38.51398995
     ]
@@ -3857,6 +3876,26 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421003234",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.35320439,
+     -38.51197765
+    ]
+   },
+   "properties": {
+    "name": "36-38 BOYS HOME ROAD NEWHAVEN 3925",
+    "locID": "LOC000050116050",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC421003235",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4247,11 +4286,11 @@
     "name": "1230 PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000016973460",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421179223",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4501,7 +4540,7 @@
    "properties": {
     "name": "14 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000073536733",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421297737",
     "tech_change_status": "Not Planned"
@@ -4639,8 +4678,8 @@
    "properties": {
     "name": "8 MALCLIFF ROAD NEWHAVEN 3925",
     "locID": "LOC000033454839",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421317793",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4955,7 +4994,7 @@
    "properties": {
     "name": "21 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000089608018",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421553299",
     "tech_change_status": "Not Planned"
@@ -5316,23 +5355,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.35648867,
-     -38.51061469
-    ]
-   },
-   "properties": {
-    "name": "9 MALCLIFF ROAD NEWHAVEN 3925",
-    "locID": "LOC000086294375",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421585073"
    }
   },
   {
@@ -5838,7 +5860,7 @@
    "properties": {
     "name": "18 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000049289539",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421926200",
     "tech_change_status": "Not Planned"
@@ -5874,7 +5896,7 @@
    "properties": {
     "name": "15 RENNISON ROAD NEWHAVEN 3925",
     "locID": "LOC000032710802",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421926203",
     "tech_change_status": "Not Planned"
@@ -6089,11 +6111,11 @@
     "name": "40 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC000097265185",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC422136678",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6205,7 +6227,7 @@
    "properties": {
     "name": "2 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC100072048556",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423102172",
     "tech_change_status": "Not Planned"
@@ -6398,11 +6420,11 @@
     "name": "1230B PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000016973460",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423849952",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6457,11 +6479,11 @@
     "name": "1 VETERANS DRIVE NEWHAVEN 3925",
     "locID": "LOC000040327355",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423978222",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6477,11 +6499,11 @@
     "name": "25 VETERANS DRIVE NEWHAVEN 3925",
     "locID": "LOC000036973151",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423978223",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6515,11 +6537,11 @@
     "name": "76 VETERANS DRIVE NEWHAVEN 3925",
     "locID": "LOC000075048942",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423978225",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6535,11 +6557,11 @@
     "name": "85 VETERANS DRIVE NEWHAVEN 3925",
     "locID": "LOC000042757373",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423978226",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6695,11 +6717,11 @@
     "name": "31 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC000031071578",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423986696",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6715,11 +6737,11 @@
     "name": "64 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC000035236915",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424023046",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6855,11 +6877,11 @@
     "name": "70 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC000018077304",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424254503",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7303,11 +7325,11 @@
     "name": "1230A PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC000151644884",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC425177241",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7594,7 +7616,7 @@
    "properties": {
     "name": "1247 PHILLIP ISLAND ROAD NEWHAVEN 3925",
     "locID": "LOC100072048539",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719374561",
     "tech_change_status": "Not Planned"
@@ -7792,7 +7814,7 @@
    "properties": {
     "name": "24 CHURCHILL ROAD NEWHAVEN 3925",
     "locID": "LOC100072048556",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719746964",
     "tech_change_status": "Not Planned"
@@ -8425,7 +8447,7 @@
    "properties": {
     "name": "58 VETERANS DRIVE NEWHAVEN 3925",
     "locID": "LOC000186565533",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720577822",
     "tech_change_status": "Not Planned"
