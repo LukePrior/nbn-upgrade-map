@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-02T18:48:18.425948",
+ "generated": "2026-09-06T13:21:02.172886",
  "suburb": "EAST ALBURY",
  "features": [
   {
@@ -195,8 +195,8 @@
    "properties": {
     "name": "679 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000102898788",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706620800",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -474,10 +474,10 @@
    "properties": {
     "name": "288 PEECHELBA STREET EAST ALBURY 2640",
     "locID": "LOC000035538067",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706620982",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -899,6 +899,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.94314726,
+     -36.08298943
+    ]
+   },
+   "properties": {
+    "name": "48 PEARDS DRIVE EAST ALBURY 2640",
+    "locID": "LOC000064284673",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706621006",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.9375586,
      -36.0722787
     ]
@@ -1300,10 +1320,9 @@
    "properties": {
     "name": "526 MURRAY CRESCENT EAST ALBURY 2640",
     "locID": "LOC000093421576",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706621129",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1438,10 +1457,10 @@
    "properties": {
     "name": "166 BILBA STREET EAST ALBURY 2640",
     "locID": "LOC000099959946",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706621203",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3787,10 +3806,10 @@
    "properties": {
     "name": "235 WIRRAWAY STREET EAST ALBURY 2640",
     "locID": "LOC000010586047",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706628234",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4911,10 +4930,10 @@
    "properties": {
     "name": "243 MOUNT STREET EAST ALBURY 2640",
     "locID": "LOC000072326775",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706628635",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4994,9 +5013,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706631019",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -5031,10 +5050,9 @@
    "properties": {
     "name": "653 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000017154621",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706631021",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5325,7 +5343,7 @@
    "properties": {
     "name": "358 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000072375854",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706631038",
     "tech_change_status": "Not Planned"
@@ -5363,7 +5381,7 @@
    "properties": {
     "name": "356 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000038917962",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706631040",
     "tech_change_status": "Not Planned"
@@ -6127,7 +6145,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706631210",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6313,6 +6331,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.9470426,
+     -36.07314605
+    ]
+   },
+   "properties": {
+    "name": "715 DROME STREET EAST ALBURY 2640",
+    "locID": "LOC000071367262",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706631367",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.94899799,
      -36.07393814
     ]
@@ -6339,9 +6377,9 @@
     "name": "707 DROME STREET EAST ALBURY 2640",
     "locID": "LOC000011461870",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706631369",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7182,10 +7220,9 @@
    "properties": {
     "name": "521 MILRO AVENUE EAST ALBURY 2640",
     "locID": "LOC000107330907",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634435",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7398,10 +7435,9 @@
    "properties": {
     "name": "501 MILRO AVENUE EAST ALBURY 2640",
     "locID": "LOC000090743689",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634446",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7677,10 +7713,9 @@
    "properties": {
     "name": "12 WILLERN COURT EAST ALBURY 2640",
     "locID": "LOC000019340102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634508",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7974,10 +8009,9 @@
    "properties": {
     "name": "270 BERNHARDT STREET EAST ALBURY 2640",
     "locID": "LOC000096021022",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634658",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8114,10 +8148,9 @@
    "properties": {
     "name": "257 BERNHARDT STREET EAST ALBURY 2640",
     "locID": "LOC000025342558",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634691",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8392,10 +8425,10 @@
    "properties": {
     "name": "214 BERNHARDT STREET EAST ALBURY 2640",
     "locID": "LOC000008968810",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706634716",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10659,10 +10692,9 @@
    "properties": {
     "name": "334 DONOVAN STREET EAST ALBURY 2640",
     "locID": "LOC000043682894",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706638514",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10720,10 +10752,11 @@
     "name": "UNIT 6, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071293250",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638840",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10739,10 +10772,11 @@
     "name": "UNIT 5, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071106145",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638841",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10758,10 +10792,11 @@
     "name": "UNIT 4, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071336890",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638842",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10777,10 +10812,11 @@
     "name": "UNIT 3, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071323508",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638843",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10795,7 +10831,7 @@
    "properties": {
     "name": "UNIT 2, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071110176",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706638844",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -10815,10 +10851,11 @@
     "name": "UNIT 1, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071075613",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706638845",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10853,10 +10890,10 @@
    "properties": {
     "name": "371 AMATEX STREET EAST ALBURY 2640",
     "locID": "LOC000048863101",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706638847",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11325,8 +11362,8 @@
    "properties": {
     "name": "153 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000001505751",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706641290",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11481,7 +11518,7 @@
    "properties": {
     "name": "UNIT 8, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071126964",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706641298",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -11501,10 +11538,11 @@
     "name": "UNIT 7, 142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071366395",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706641299",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14997,10 +15035,9 @@
    "properties": {
     "name": "592 SCHUBACH STREET EAST ALBURY 2640",
     "locID": "LOC000090373649",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706644669",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16017,10 +16054,10 @@
    "properties": {
     "name": "11 SUNRISE TERRACE EAST ALBURY 2640",
     "locID": "LOC000024134100",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706644749",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16989,9 +17026,9 @@
     "name": "326 WALSH STREET EAST ALBURY 2640",
     "locID": "LOC000022817917",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706645108",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18684,8 +18721,8 @@
    "properties": {
     "name": "318 SCHUBACH STREET EAST ALBURY 2640",
     "locID": "LOC000015452213",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706651509",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20022,11 +20059,11 @@
     "name": "153 EASTERN CIRCUIT EAST ALBURY 2640",
     "locID": "LOC000191054385",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706652320",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20573,10 +20610,9 @@
    "properties": {
     "name": "456 SCHUBACH STREET EAST ALBURY 2640",
     "locID": "LOC000102421593",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706654893",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21126,10 +21162,9 @@
    "properties": {
     "name": "3 ALISON COURT EAST ALBURY 2640",
     "locID": "LOC000071226129",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706654935",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22038,7 +22073,7 @@
    "properties": {
     "name": "65 GUNBOWER CLOSE EAST ALBURY 2640",
     "locID": "LOC000046208579",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706655331",
     "tech_change_status": "Not Planned"
@@ -22335,9 +22370,9 @@
     "name": "270 WALSH STREET EAST ALBURY 2640",
     "locID": "LOC000012792411",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706655346",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22947,10 +22982,9 @@
    "properties": {
     "name": "561 WHINRAY CRESCENT EAST ALBURY 2640",
     "locID": "LOC000043096349",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706655400",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24197,10 +24231,9 @@
    "properties": {
     "name": "412 HEATH STREET EAST ALBURY 2640",
     "locID": "LOC000099993158",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706658549",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24535,9 +24568,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706661598",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -26599,10 +26631,9 @@
    "properties": {
     "name": "43 ROBBINS DRIVE EAST ALBURY 2640",
     "locID": "LOC000080892910",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706662184",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26857,8 +26888,8 @@
    "properties": {
     "name": "313 CADELL STREET EAST ALBURY 2640",
     "locID": "LOC000065222080",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706662210",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26955,10 +26986,9 @@
    "properties": {
     "name": "285 CADELL STREET EAST ALBURY 2640",
     "locID": "LOC000039791024",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706662216",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27567,10 +27597,9 @@
    "properties": {
     "name": "128 EASTERN CIRCUIT EAST ALBURY 2640",
     "locID": "LOC000066634618",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706662654",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28947,10 +28976,9 @@
    "properties": {
     "name": "289 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000101266916",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706665221",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29304,10 +29332,9 @@
    "properties": {
     "name": "299 BORELLA ROAD EAST ALBURY 2640",
     "locID": "LOC000102789834",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706665672",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29617,9 +29644,9 @@
     "name": "259 BORELLA ROAD EAST ALBURY 2640",
     "locID": "LOC000046691924",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706665717",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29971,23 +29998,6 @@
     ]
    },
    "properties": {
-    "name": "684 EAST STREET EAST ALBURY 2640",
-    "locID": "LOC000005948466",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706668319"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.94107392,
-     -36.07417456
-    ]
-   },
-   "properties": {
     "name": "682 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000015591971",
     "tech": "FTTP",
@@ -30148,10 +30158,10 @@
    "properties": {
     "name": "52 BORELLA ROAD EAST ALBURY 2640",
     "locID": "LOC000068622850",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706668410",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33422,10 +33432,10 @@
    "properties": {
     "name": "296 WEIDNER CRESCENT EAST ALBURY 2640",
     "locID": "LOC000033196438",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706672091",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33542,9 +33552,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706672098",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34194,10 +34203,9 @@
    "properties": {
     "name": "12 PILBARA PLACE EAST ALBURY 2640",
     "locID": "LOC000080140272",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706672309",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34633,10 +34641,9 @@
    "properties": {
     "name": "91 MOUNTFORD CRESCENT EAST ALBURY 2640",
     "locID": "LOC000096071479",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706672576",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36980,10 +36987,9 @@
    "properties": {
     "name": "UNIT 1, 12 WILLERN COURT EAST ALBURY 2640",
     "locID": "LOC000019340102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707991805",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37003,9 +37009,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW707991806",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37349,10 +37354,9 @@
    "properties": {
     "name": "UNIT 2, 376 ALANA STREET EAST ALBURY 2640",
     "locID": "LOC000022246740",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707992556",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38552,9 +38556,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW707997074",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -42966,9 +42969,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708004403",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43005,9 +43007,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708004407",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43159,9 +43160,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708007354",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43236,9 +43236,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW708008041",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44637,8 +44636,8 @@
    "properties": {
     "name": "277 CADELL STREET EAST ALBURY 2640",
     "locID": "LOC000098124341",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709044069",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44995,11 +44994,11 @@
     "name": "94 EASTERN CIRCUIT EAST ALBURY 2640",
     "locID": "LOC000052309597",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW709048557",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45152,10 +45151,9 @@
    "properties": {
     "name": "377 AVRO STREET EAST ALBURY 2640",
     "locID": "LOC000090740311",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709050852",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45389,10 +45387,9 @@
    "properties": {
     "name": "363 CENTENARY STREET EAST ALBURY 2640",
     "locID": "LOC000047281225",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709052073",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47311,23 +47308,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.94708781,
-     -36.07545819
-    ]
-   },
-   "properties": {
-    "name": "56 BORELLA ROAD EAST ALBURY 2640",
-    "locID": "LOC000054929867",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW709072211"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.94304677,
      -36.07431237
     ]
@@ -47707,10 +47687,9 @@
    "properties": {
     "name": "3 LAFFERTYS WALK EAST ALBURY 2640",
     "locID": "LOC000081429441",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712687721",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48470,10 +48449,11 @@
     "name": "142 ALEXANDRA STREET EAST ALBURY 2640",
     "locID": "LOC000071075613",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715238943",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49560,10 +49540,9 @@
    "properties": {
     "name": "36 TERENCE AVENUE EAST ALBURY 2640",
     "locID": "LOC000043460987",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715690291",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49897,10 +49876,9 @@
    "properties": {
     "name": "22 GUMNUT COURT EAST ALBURY 2640",
     "locID": "LOC000106079700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715885566",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51331,7 +51309,7 @@
    "properties": {
     "name": "17 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000030397922",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716446445",
     "tech_change_status": "Not Planned"
@@ -51385,7 +51363,7 @@
    "properties": {
     "name": "25 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000054504976",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716446449",
     "tech_change_status": "Not Planned"
@@ -51421,7 +51399,7 @@
    "properties": {
     "name": "29 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000064972342",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716446451",
     "tech_change_status": "Not Planned"
@@ -51439,7 +51417,7 @@
    "properties": {
     "name": "32 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000007972100",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716446452",
     "tech_change_status": "Not Planned"
@@ -51493,7 +51471,7 @@
    "properties": {
     "name": "36 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000080618187",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716446455",
     "tech_change_status": "Not Planned"
@@ -53481,7 +53459,7 @@
    "properties": {
     "name": "16 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000054981299",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716521989",
     "tech_change_status": "Not Planned"
@@ -53558,7 +53536,7 @@
    "properties": {
     "name": "18 MURRAY VIEW ROAD EAST ALBURY 2640",
     "locID": "LOC000055039396",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716523142",
     "tech_change_status": "Not Planned"
@@ -53695,10 +53673,9 @@
    "properties": {
     "name": "3 BENYON MEWS EAST ALBURY 2640",
     "locID": "LOC000016597383",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716524826",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55649,8 +55626,8 @@
    "properties": {
     "name": "312 VALLOMBROSA STREET EAST ALBURY 2640",
     "locID": "LOC000052673354",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716552928",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56021,10 +55998,9 @@
    "properties": {
     "name": "1 JARRAH COURT EAST ALBURY 2640",
     "locID": "LOC000079136037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716556833",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57268,9 +57244,9 @@
     "name": "236 ANDREWS STREET EAST ALBURY 2640",
     "locID": "LOC000113285651",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716852736",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57352,6 +57328,40 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.9458865,
+     -36.06984633
+    ]
+   },
+   "properties": {
+    "name": "110 NORTH STREET EAST ALBURY 2640",
+    "locID": "LOC000197651008",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716862973"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.94773806,
+     -36.07048763
+    ]
+   },
+   "properties": {
+    "name": "90 NORTH STREET EAST ALBURY 2640",
+    "locID": "LOC000199229797",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716862974"
    }
   },
   {
@@ -57807,10 +57817,9 @@
    "properties": {
     "name": "UNIT 4, 711 EAST STREET EAST ALBURY 2640",
     "locID": "LOC000078537970",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716992471",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59907,10 +59916,9 @@
    "properties": {
     "name": "376 ALANA STREET EAST ALBURY 2640",
     "locID": "LOC000022246740",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717204323",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60955,16 +60963,18 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.9469268,
-     -36.0748421
+     146.92828147,
+     -36.0875793
     ]
    },
    "properties": {
-    "name": "61 ALEXANDRA STREET EAST ALBURY 2640",
-    "locID": "LOC000055906384",
-    "tech": "NULL",
+    "name": "387 AVRO STREET EAST ALBURY 2640",
+    "locID": "LOC000152813630",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717321935"
+    "gnaf_pid": "GANSW717322652",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64656,10 +64666,9 @@
    "properties": {
     "name": "UNIT 3, 232 RIVERGUM DRIVE EAST ALBURY 2640",
     "locID": "LOC000121862676",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718269102",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65735,10 +65744,9 @@
    "properties": {
     "name": "UNIT 1, 702 KEENE STREET EAST ALBURY 2640",
     "locID": "LOC000152827824",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718845453",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65930,10 +65938,10 @@
    "properties": {
     "name": "681 DROME STREET EAST ALBURY 2640",
     "locID": "LOC000068622850",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718970630",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67338,11 +67346,11 @@
     "name": "153A EASTERN CIRCUIT EAST ALBURY 2640",
     "locID": "LOC000192523593",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW721316334",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
