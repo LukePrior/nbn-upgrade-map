@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-02T17:47:12.501879",
+ "generated": "2026-09-06T12:06:27.523044",
  "suburb": "MARRICKVILLE",
  "features": [
   {
@@ -2950,6 +2950,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.16821685,
+     -33.90352482
+    ]
+   },
+   "properties": {
+    "name": "361 ENMORE ROAD MARRICKVILLE 2204",
+    "locID": "LOC000026411086",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705285878"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.16819447,
      -33.90356547
     ]
@@ -3181,6 +3198,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705289600"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.15178109,
+     -33.9181645
+    ]
+   },
+   "properties": {
+    "name": "60 RENWICK STREET MARRICKVILLE 2204",
+    "locID": "LOC000197387936",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705289601"
    }
   },
   {
@@ -11417,6 +11451,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.15168634,
+     -33.91811073
+    ]
+   },
+   "properties": {
+    "name": "58 RENWICK STREET MARRICKVILLE 2204",
+    "locID": "LOC000197387904",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705293774"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.15328313,
      -33.91415938
     ]
@@ -16976,7 +17027,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705294865",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2029"
    }
   },
@@ -19946,7 +19997,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705295512",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2029"
    }
   },
@@ -32538,8 +32589,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705298617",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40784,23 +40836,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705300103"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.15067035,
-     -33.90551022
-    ]
-   },
-   "properties": {
-    "name": "27 GEORGE STREET MARRICKVILLE 2204",
-    "locID": "LOC100058158068",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705300104"
    }
   },
   {
@@ -57773,10 +57808,9 @@
    "properties": {
     "name": "31 SHIRLOW STREET MARRICKVILLE 2204",
     "locID": "LOC000090087443",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705303494",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59591,23 +59625,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705304059"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.1592033,
-     -33.90528154
-    ]
-   },
-   "properties": {
-    "name": "19 HOLMESDALE STREET MARRICKVILLE 2204",
-    "locID": "LOC000042378011",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705304060"
    }
   },
   {
@@ -65075,23 +65092,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705304760"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.14966486,
-     -33.91816767
-    ]
-   },
-   "properties": {
-    "name": "30 CARY STREET MARRICKVILLE 2204",
-    "locID": "LOC000067364176",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705304761"
    }
   },
   {
@@ -76818,10 +76818,10 @@
    "properties": {
     "name": "123 MEEKS ROAD MARRICKVILLE 2204",
     "locID": "LOC000015004043",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705308342",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77127,10 +77127,9 @@
    "properties": {
     "name": "37 MEEKS ROAD MARRICKVILLE 2204",
     "locID": "LOC000008966713",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705308361",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77186,10 +77185,9 @@
    "properties": {
     "name": "41 MEEKS ROAD MARRICKVILLE 2204",
     "locID": "LOC000024693484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705308364",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79073,23 +79071,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705308580"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.16060565,
-     -33.91226529
-    ]
-   },
-   "properties": {
-    "name": "123 MARRICKVILLE ROAD MARRICKVILLE 2204",
-    "locID": "LOC100058163482",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705308581"
    }
   },
   {
@@ -89223,9 +89204,9 @@
     "name": "73 SYDENHAM ROAD MARRICKVILLE 2204",
     "locID": "LOC000078675092",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705310364",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92069,10 +92050,9 @@
    "properties": {
     "name": "91 MEEKS ROAD MARRICKVILLE 2204",
     "locID": "LOC000088000969",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705311010",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98009,23 +97989,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.14123717,
-     -33.91157006
-    ]
-   },
-   "properties": {
-    "name": "2 DUDLEY STREET MARRICKVILLE 2204",
-    "locID": "LOC000086379320",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705312024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.142516,
      -33.91162279
     ]
@@ -98036,23 +97999,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705312025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.14132477,
-     -33.91157062
-    ]
-   },
-   "properties": {
-    "name": "4 DUDLEY STREET MARRICKVILLE 2204",
-    "locID": "LOC000101165135",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705312026"
    }
   },
   {
@@ -114080,6 +114026,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.16723214,
+     -33.90143338
+    ]
+   },
+   "properties": {
+    "name": "34 NEWINGTON ROAD MARRICKVILLE 2204",
+    "locID": "LOC000197846867",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705315409"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.16788275,
      -33.90117139
     ]
@@ -118394,7 +118357,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705316253",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -123688,10 +123651,9 @@
    "properties": {
     "name": "48 SYDNEY STREET MARRICKVILLE 2204",
     "locID": "LOC000042570848",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705317732",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -123728,8 +123690,8 @@
    "properties": {
     "name": "50 SYDNEY STREET MARRICKVILLE 2204",
     "locID": "LOC000010049397",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705317734",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -133612,6 +133574,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.14706329,
+     -33.91381801
+    ]
+   },
+   "properties": {
+    "name": "1 WARREN ROAD MARRICKVILLE 2204",
+    "locID": "LOC000078328677",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705319567"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.14691896,
      -33.91431433
     ]
@@ -138675,10 +138654,9 @@
    "properties": {
     "name": "160 MARRICKVILLE ROAD MARRICKVILLE 2204",
     "locID": "LOC000013198124",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705332246",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -159305,8 +159283,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711412269",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -168898,8 +168877,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711423397",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -168955,8 +168935,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711423400",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -168974,8 +168955,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711423401",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -184747,23 +184729,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.1670072,
-     -33.90325181
-    ]
-   },
-   "properties": {
-    "name": "55 PHILPOTT STREET MARRICKVILLE 2204",
-    "locID": "LOC000120338625",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711437673"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.16197465,
      -33.90973351
     ]
@@ -192878,23 +192843,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.14123717,
-     -33.91157006
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 2 DUDLEY STREET MARRICKVILLE 2204",
-    "locID": "LOC000086379320",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711446124"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.16159179,
      -33.90065425
     ]
@@ -199062,23 +199010,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2029"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.14123717,
-     -33.91157006
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 2 DUDLEY STREET MARRICKVILLE 2204",
-    "locID": "LOC000086160653",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW713158251"
    }
   },
   {
@@ -206569,8 +206500,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717076726",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -219030,7 +218962,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717851147",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2029"
    }
   },
@@ -219088,7 +219020,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717851151",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2029"
    }
   },
@@ -222226,6 +222158,312 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718134359"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14195448,
+     -33.91473054
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100987594",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136492"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14199494,
+     -33.9147936
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101018545",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136493"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1420806,
+     -33.91482096
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100888955",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136494"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14215793,
+     -33.91476028
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100847183",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136495"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1420806,
+     -33.91482096
+    ]
+   },
+   "properties": {
+    "name": "UNIT 14, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101248268",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136496"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14215793,
+     -33.91476028
+    ]
+   },
+   "properties": {
+    "name": "UNIT 15, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100927866",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136497"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1420806,
+     -33.91482096
+    ]
+   },
+   "properties": {
+    "name": "UNIT 16, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101082910",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136498"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14215793,
+     -33.91476028
+    ]
+   },
+   "properties": {
+    "name": "UNIT 17, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101384256",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14184027,
+     -33.91481145
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101067649",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136500"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14195448,
+     -33.91473054
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100953006",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136501"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14184027,
+     -33.91481145
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100953006",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14195448,
+     -33.91473054
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000101190898",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136503"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14199494,
+     -33.9147936
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100859045",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136504"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14184027,
+     -33.91481145
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100874719",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14195448,
+     -33.91473054
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100776247",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136506"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14199494,
+     -33.9147936
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100923456",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136507"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14184027,
+     -33.91481145
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100949406",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14197271,
+     -33.91476144
+    ]
+   },
+   "properties": {
+    "name": "3-5A RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100953006",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718136509"
    }
   },
   {
@@ -225528,6 +225766,23 @@
     ]
    },
    "properties": {
+    "name": "UNIT 10, 3-5 RIVERSIDE CRESCENT MARRICKVILLE 2204",
+    "locID": "LOC000100987594",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718383433"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14197066,
+     -33.91477962
+    ]
+   },
+   "properties": {
     "name": "UNIT 11, 3-5 RIVERSIDE CRESCENT MARRICKVILLE 2204",
     "locID": "LOC000100859045",
     "tech": "HFC",
@@ -225882,8 +226137,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718403158",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -226489,7 +226745,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718408480",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2029"
    }
   },
@@ -238970,40 +239226,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 16, 123 MARRICKVILLE ROAD MARRICKVILLE 2204",
-    "locID": "LOC100058163482",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718816985"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.16060565,
-     -33.91226529
-    ]
-   },
-   "properties": {
-    "name": "UNIT 17, 123 MARRICKVILLE ROAD MARRICKVILLE 2204",
-    "locID": "LOC100058163482",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718816986"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.16060565,
-     -33.91226529
-    ]
-   },
-   "properties": {
     "name": "UNIT 1, 123 MARRICKVILLE ROAD MARRICKVILLE 2204",
     "locID": "LOC000172391591",
     "tech": "HFC",
@@ -241690,6 +241912,23 @@
     ]
    },
    "properties": {
+    "name": "UNIT 1, 256 WARDELL ROAD MARRICKVILLE 2204",
+    "locID": "LOC000169248236",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719152018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.14066657,
+     -33.91219884
+    ]
+   },
+   "properties": {
     "name": "UNIT 25, 256 WARDELL ROAD MARRICKVILLE 2204",
     "locID": "LOC000169248317",
     "tech": "HFC",
@@ -242008,6 +242247,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.14066657,
+     -33.91219884
+    ]
+   },
+   "properties": {
+    "name": "UNIT 26, 256 WARDELL ROAD MARRICKVILLE 2204",
+    "locID": "LOC000169248236",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719168076"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.14051621,
      -33.91201419
     ]
@@ -242103,23 +242359,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719180459"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.15067035,
-     -33.90551022
-    ]
-   },
-   "properties": {
-    "name": "UNIT G3, 27 GEORGE STREET MARRICKVILLE 2204",
-    "locID": "LOC100058158068",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719180467"
    }
   },
   {
@@ -242552,23 +242791,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.15067035,
-     -33.90551022
-    ]
-   },
-   "properties": {
-    "name": "UNIT G4, 27 GEORGE STREET MARRICKVILLE 2204",
-    "locID": "LOC100058158068",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719258681"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.14326072,
      -33.92130725
     ]
@@ -242596,23 +242818,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719258693"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.15067035,
-     -33.90551022
-    ]
-   },
-   "properties": {
-    "name": "UNIT G1, 27 GEORGE STREET MARRICKVILLE 2204",
-    "locID": "LOC100058158068",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719258694"
    }
   },
   {
@@ -242732,23 +242937,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719262341"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.15067035,
-     -33.90551022
-    ]
-   },
-   "properties": {
-    "name": "UNIT G2, 27 GEORGE STREET MARRICKVILLE 2204",
-    "locID": "LOC100058158068",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719262342"
    }
   },
   {
@@ -264603,6 +264791,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721759929"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.15155035,
+     -33.90666081
+    ]
+   },
+   "properties": {
+    "name": "UNIT 14A, 11 HASTINGS STREET MARRICKVILLE 2204",
+    "locID": "LOC000191331918",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721760427"
    }
   },
   {
