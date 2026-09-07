@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-04T00:54:37.856501",
+ "generated": "2026-09-07T20:32:02.606848",
  "suburb": "TURNER",
  "features": [
   {
@@ -552,10 +552,10 @@
    "properties": {
     "name": "65 MOORE STREET TURNER 2612",
     "locID": "LOC000110510034",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714884680",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -3483,6 +3483,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.1297185,
+     -35.26252507
+    ]
+   },
+   "properties": {
+    "name": "6 WEDGE CRESCENT TURNER 2612",
+    "locID": "LOC000199199659",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT714905202"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.12955857,
      -35.26229349
     ]
@@ -4839,10 +4856,9 @@
    "properties": {
     "name": "48 MACLEAY STREET TURNER 2612",
     "locID": "LOC000110350650",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714907755",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7841,10 +7857,9 @@
    "properties": {
     "name": "45 BOLDREWOOD STREET TURNER 2612",
     "locID": "LOC000135972873",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714910987",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8539,9 +8554,9 @@
     "name": "17 BENT STREET TURNER 2612",
     "locID": "LOC000111330516",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAACT714953603",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8879,8 +8894,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714956492",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9587,8 +9603,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714966152",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10329,8 +10346,8 @@
    "properties": {
     "name": "UNIT 3, 38 WATSON STREET TURNER 2612",
     "locID": "LOC000169474486",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715073170",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -20345,6 +20362,25 @@
     ]
    },
    "properties": {
+    "name": "UNIT 18, 48 MOORE STREET TURNER 2612",
+    "locID": "LOC000135935348",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT715092984",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.12910163,
+     -35.27171312
+    ]
+   },
+   "properties": {
     "name": "UNIT 19, 48 MOORE STREET TURNER 2612",
     "locID": "LOC000135935353",
     "tech": "FTTN",
@@ -21740,8 +21776,8 @@
    "properties": {
     "name": "UNIT 26, 38 WATSON STREET TURNER 2612",
     "locID": "LOC000169474486",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715094945",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -21820,8 +21856,8 @@
    "properties": {
     "name": "UNIT 30, 38 WATSON STREET TURNER 2612",
     "locID": "LOC000169474486",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715094949",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -22908,7 +22944,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAACT715141190",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23083,10 +23119,10 @@
    "properties": {
     "name": "UNIT 15, 5 MCKAY GARDENS TURNER 2612",
     "locID": "LOC000135924696",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT715141199",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -28783,10 +28819,10 @@
    "properties": {
     "name": "UNIT 19, 24 FORBES STREET TURNER 2612",
     "locID": "LOC000136079478",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT716721111",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -34384,8 +34420,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909176",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34403,8 +34440,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909177",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34422,8 +34460,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909178",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34460,8 +34499,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909180",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34517,8 +34557,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909183",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34593,8 +34634,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909187",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34612,8 +34654,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909188",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34631,8 +34674,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909189",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34688,8 +34732,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909192",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34707,8 +34752,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909193",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34783,8 +34829,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909197",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34821,8 +34868,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909199",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34840,8 +34888,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909200",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34859,8 +34908,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909201",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34897,8 +34947,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909203",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34916,8 +34967,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909204",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34973,8 +35025,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909207",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34992,8 +35045,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909208",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35049,8 +35103,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909211",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35068,8 +35123,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909212",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35144,8 +35200,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909216",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35163,8 +35220,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909217",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35182,8 +35240,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909218",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35220,8 +35279,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909220",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35239,8 +35299,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909221",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35258,8 +35319,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909222",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35277,8 +35339,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909223",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35296,8 +35359,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909224",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35315,8 +35379,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909225",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35353,8 +35418,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909227",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35372,8 +35438,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909228",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35391,8 +35458,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909229",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35410,8 +35478,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909230",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35448,8 +35517,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909232",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35505,8 +35575,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716909235",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35584,8 +35655,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910008",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35603,8 +35675,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910009",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35622,8 +35695,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910010",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35660,8 +35734,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910012",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35679,8 +35754,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910013",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35698,8 +35774,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910014",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35736,8 +35813,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910016",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35755,8 +35833,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910017",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35774,8 +35853,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910018",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35793,8 +35873,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910019",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35850,8 +35931,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910022",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35869,8 +35951,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910023",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35964,8 +36047,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910028",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36040,8 +36124,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910032",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36116,8 +36201,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910036",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36135,8 +36221,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910037",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36173,8 +36260,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910039",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36192,8 +36280,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910040",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36268,8 +36357,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910044",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36306,8 +36396,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910046",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36325,8 +36416,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910047",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36344,8 +36436,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910048",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36363,8 +36456,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910049",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36401,8 +36495,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910051",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36439,8 +36534,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910053",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36477,8 +36573,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910055",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36496,8 +36593,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910056",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36534,8 +36632,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910058",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36572,8 +36671,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910060",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36610,8 +36710,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910062",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36629,8 +36730,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910063",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36648,8 +36750,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910064",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36667,8 +36770,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910065",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36762,8 +36866,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT716910070",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41278,7 +41383,7 @@
    "properties": {
     "name": "UNIT 1, 91 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000197434740",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717489803"
    }
@@ -41911,7 +42016,7 @@
    "properties": {
     "name": "UNIT 1, LEVEL 1, 91 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000197434717",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717648202"
    }
@@ -42212,7 +42317,7 @@
    "properties": {
     "name": "UNIT 2, LEVEL 1, 91 NORTHBOURNE AVENUE TURNER 2612",
     "locID": "LOC000197434717",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT717756951"
    }
@@ -42996,686 +43101,6 @@
     "gnaf_pid": "GAACT718183739",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 10, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246976"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246978"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 12, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246980"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 13, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246982"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 14, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246984"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 15, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246986"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 16, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246988"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 17, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246990"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 18, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246992"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 19, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246994"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246996"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 20, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718246998"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 21, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247000"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 22, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247002"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 23, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247004"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 24, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247006"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 25, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247008"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 26, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247010"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 27, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247012"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 28, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247014"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 29, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247016"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247018"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 30, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247020"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 31, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 32, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 33, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247026"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 34, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 35, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247030"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 36, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247032"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 37, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247034"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 38, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247036"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 39, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247038"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247040"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 40, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247042"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247044"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247046"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247048"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247050"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247052"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718247054"
    }
   },
   {
@@ -47565,23 +46990,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.13059176,
-     -35.26254583
-    ]
-   },
-   "properties": {
-    "name": "54B FORBES STREET TURNER 2612",
-    "locID": "LOC000136250302",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718593907"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.12909333,
      -35.26324833
     ]
@@ -48438,23 +47846,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.12976628,
-     -35.27274715
-    ]
-   },
-   "properties": {
-    "name": "LEVEL 2, 91 NORTHBOURNE AVENUE TURNER 2612",
-    "locID": "LOC000197436109",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT718796421"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.13013222,
      -35.26262604
     ]
@@ -48521,8 +47912,8 @@
    "properties": {
     "name": "81 MACLEAY STREET TURNER 2612",
     "locID": "LOC000166865077",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT718876426",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -49445,10 +48836,10 @@
    "properties": {
     "name": "28 CONDAMINE STREET TURNER 2612",
     "locID": "LOC000171645628",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT718934538",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
