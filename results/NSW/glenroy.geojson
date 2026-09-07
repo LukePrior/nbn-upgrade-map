@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-03T06:26:07.830395",
+ "generated": "2026-09-07T01:36:03.342553",
  "suburb": "GLENROY",
  "features": [
   {
@@ -15,7 +15,7 @@
    "properties": {
     "name": "156 JONATHONS CREEK ROAD GLENROY 2653",
     "locID": "LOC000081332297",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715921495",
     "tech_change_status": "Not Planned"
@@ -33,7 +33,7 @@
    "properties": {
     "name": "75 MAGINNITYS GAP ROAD GLENROY 2653",
     "locID": "LOC000025432321",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715959840",
     "tech_change_status": "Not Planned"
@@ -1053,7 +1053,7 @@
    "properties": {
     "name": "175 GLENROY HILLS ROAD GLENROY 2653",
     "locID": "LOC000034340065",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716398546",
     "tech_change_status": "Not Planned"
@@ -1089,7 +1089,7 @@
    "properties": {
     "name": "166 GLENROY LAKE ROAD GLENROY 2653",
     "locID": "LOC000026405912",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716398550",
     "tech_change_status": "Not Planned"
@@ -1107,7 +1107,7 @@
    "properties": {
     "name": "16 GLENROY LAKE ROAD GLENROY 2653",
     "locID": "LOC000070718921",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716398551",
     "tech_change_status": "Not Planned"
@@ -1791,10 +1791,10 @@
    "properties": {
     "name": "15 JACOB CRESCENT GLENROY 2640",
     "locID": "LOC000043050837",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716403171",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2263,10 +2263,9 @@
    "properties": {
     "name": "863 TENBRINK STREET GLENROY 2640",
     "locID": "LOC000100664364",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716425328",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2461,7 +2460,7 @@
    "properties": {
     "name": "359 UPPER BOGGY CREEK ROAD GLENROY 2653",
     "locID": "LOC000044118327",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716427522",
     "tech_change_status": "Not Planned"
@@ -3301,7 +3300,7 @@
    "properties": {
     "name": "220 JONATHONS CREEK SPUR GLENROY 2653",
     "locID": "LOC000002211125",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716455022",
     "tech_change_status": "Not Planned"
@@ -3319,7 +3318,7 @@
    "properties": {
     "name": "460 MANNUS GLENROY ROAD GLENROY 2653",
     "locID": "LOC000068685396",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716455426",
     "tech_change_status": "Not Planned"
@@ -4419,7 +4418,7 @@
    "properties": {
     "name": "6 WOLSELEY PARK ROAD GLENROY 2653",
     "locID": "LOC000022317996",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716561602",
     "tech_change_status": "Not Planned"
@@ -4496,10 +4495,10 @@
    "properties": {
     "name": "905 STELLING STREET GLENROY 2640",
     "locID": "LOC000007165591",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716565738",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4639,6 +4638,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716565758",
     "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.91155101,
+     -36.05612862
+    ]
+   },
+   "properties": {
+    "name": "691 NALANDA COURT GLENROY 2640",
+    "locID": "LOC000095901673",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW716566007",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6388,10 +6407,9 @@
    "properties": {
     "name": "5 ARTHUR WORSLEY COURT GLENROY 2640",
     "locID": "LOC000091986473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716572528",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7196,10 +7214,10 @@
    "properties": {
     "name": "717 ALLAN STREET GLENROY 2640",
     "locID": "LOC000045057987",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716575854",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7413,10 +7431,9 @@
    "properties": {
     "name": "79 WRIGHT STREET GLENROY 2640",
     "locID": "LOC000019734985",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576142",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7971,7 +7988,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716576205",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8779,10 +8796,9 @@
    "properties": {
     "name": "672 BELGRAVIA AVENUE GLENROY 2640",
     "locID": "LOC000052101851",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576365",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8957,10 +8973,10 @@
    "properties": {
     "name": "16 HAYDEN WAY GLENROY 2640",
     "locID": "LOC000017340075",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576456",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9689,10 +9705,10 @@
    "properties": {
     "name": "24 MACE COURT GLENROY 2640",
     "locID": "LOC000049462759",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576561",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9808,10 +9824,10 @@
    "properties": {
     "name": "82 CHAD TERRACE GLENROY 2640",
     "locID": "LOC000077818287",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576574",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10480,10 +10496,9 @@
    "properties": {
     "name": "42 UNGER STREET GLENROY 2640",
     "locID": "LOC000088193405",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576661",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12000,8 +12015,8 @@
    "properties": {
     "name": "19 BARTHOLOMEW STREET GLENROY 2640",
     "locID": "LOC000040006596",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576759",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12613,10 +12628,9 @@
    "properties": {
     "name": "714 RYAN ROAD GLENROY 2640",
     "locID": "LOC000093150825",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576823",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12948,9 +12962,9 @@
     "name": "16 CASPER LANE GLENROY 2640",
     "locID": "LOC000053309563",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716576840",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13226,9 +13240,9 @@
     "name": "7 DUMBRELL CIRCUIT GLENROY 2640",
     "locID": "LOC000072196404",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716576857",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13595,10 +13609,9 @@
    "properties": {
     "name": "31 JACOB CRESCENT GLENROY 2640",
     "locID": "LOC000034779490",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576884",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14172,10 +14185,9 @@
    "properties": {
     "name": "4 MARIMBA CIRCUIT GLENROY 2640",
     "locID": "LOC000077850027",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716576920",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16012,10 +16024,9 @@
    "properties": {
     "name": "UNIT 2, 668 BELGRAVIA AVENUE GLENROY 2640",
     "locID": "LOC000020466184",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577113",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16904,10 +16915,9 @@
    "properties": {
     "name": "UNIT 1, 719 DANIEL STREET GLENROY 2640",
     "locID": "LOC000015724022",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577181",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18435,8 +18445,8 @@
    "properties": {
     "name": "88 CRAWSHAW CRESCENT GLENROY 2640",
     "locID": "LOC000067663372",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577321",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18829,10 +18839,9 @@
    "properties": {
     "name": "52 LANAGHAN STREET GLENROY 2640",
     "locID": "LOC000064039145",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577359",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20489,6 +20498,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.90809521,
+     -36.05897976
+    ]
+   },
+   "properties": {
+    "name": "750 HUNTER COURT GLENROY 2640",
+    "locID": "LOC000018962908",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW716577506",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.91424315,
      -36.06417783
     ]
@@ -20711,10 +20740,9 @@
    "properties": {
     "name": "37 SARSON ROAD GLENROY 2640",
     "locID": "LOC000072170090",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577553",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21046,9 +21074,9 @@
     "name": "903 TENBRINK STREET GLENROY 2640",
     "locID": "LOC000062812966",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716577571",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21601,10 +21629,9 @@
    "properties": {
     "name": "15 HAYDEN WAY GLENROY 2640",
     "locID": "LOC000038424188",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716577615",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22918,10 +22945,9 @@
    "properties": {
     "name": "743 RYAN ROAD GLENROY 2640",
     "locID": "LOC000012344613",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716612824",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23474,10 +23500,9 @@
    "properties": {
     "name": "UNIT 3, 743 RYAN ROAD GLENROY 2640",
     "locID": "LOC000012344613",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716864911",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23613,10 +23638,9 @@
    "properties": {
     "name": "830 UNION ROAD GLENROY 2640",
     "locID": "LOC000095973072",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716866544",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23889,10 +23913,9 @@
    "properties": {
     "name": "UNIT 1, 743 RYAN ROAD GLENROY 2640",
     "locID": "LOC000012344613",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716934088",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23909,10 +23932,9 @@
    "properties": {
     "name": "UNIT 2, 743 RYAN ROAD GLENROY 2640",
     "locID": "LOC000012344613",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716934089",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27147,10 +27169,9 @@
    "properties": {
     "name": "672 HODGE STREET GLENROY 2640",
     "locID": "LOC000009202491",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717555456",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27711,10 +27732,9 @@
    "properties": {
     "name": "UNIT 16, 674 HODGE STREET GLENROY 2640",
     "locID": "LOC000026312961",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717864307",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28550,7 +28570,7 @@
    "properties": {
     "name": "121 GLENROY HILLS ROAD GLENROY 2653",
     "locID": "LOC000010595930",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717952303",
     "tech_change_status": "Not Planned"
@@ -28837,6 +28857,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.91376144,
+     -36.06439129
+    ]
+   },
+   "properties": {
+    "name": "805 BOWDREN PLACE GLENROY 2640",
+    "locID": "LOC000077959601",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718065319",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.90887963,
      -36.05788627
     ]
@@ -28924,10 +28964,9 @@
    "properties": {
     "name": "817 GAP COURT GLENROY 2640",
     "locID": "LOC000169318668",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718068353",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29121,7 +29160,7 @@
    "properties": {
     "name": "361 JUPITER STREET GLENROY 2640",
     "locID": "LOC000121853406",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718154898",
     "tech_change_status": "Not Planned"
@@ -29142,6 +29181,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718159891",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.90237026,
+     -36.05742001
+    ]
+   },
+   "properties": {
+    "name": "99 PHILLIPS STREET GLENROY 2640",
+    "locID": "LOC000095345856",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718159892",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -29571,7 +29630,7 @@
    "properties": {
     "name": "113 GLENROY HILLS ROAD GLENROY 2653",
     "locID": "LOC000148055562",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718431686",
     "tech_change_status": "Not Planned"
@@ -29589,10 +29648,9 @@
    "properties": {
     "name": "32 DRIVER TERRACE GLENROY 2640",
     "locID": "LOC000149537857",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718457293",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31098,7 +31156,7 @@
    "properties": {
     "name": "428 TUMBARUMBA ROAD GLENROY 2653",
     "locID": "LOC100072017084",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718907351",
     "tech_change_status": "Not Planned"
@@ -31665,9 +31723,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718976911",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2027"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32485,7 +32543,7 @@
    "properties": {
     "name": "7 GLENROY HILLS ROAD GLENROY 2653",
     "locID": "LOC100078132836",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719696337",
     "tech_change_status": "Not Planned"
@@ -32563,7 +32621,7 @@
    "properties": {
     "name": "LOT 6 TUMBARUMBA ROAD GLENROY 2653",
     "locID": "LOC100072017084",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719838333",
     "tech_change_status": "Not Planned"
@@ -33306,6 +33364,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.9146881,
+     -36.06266913
+    ]
+   },
+   "properties": {
+    "name": "841 GOLFLINKS TERRACE GLENROY 2640",
+    "locID": "LOC000043755632",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721358989",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.81935441,
      -35.76867983
     ]
@@ -33642,6 +33720,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721860147"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.91079254,
+     -36.04999358
+    ]
+   },
+   "properties": {
+    "name": "12 HUNTINGDALE AVENUE GLENROY 2640",
+    "locID": "LOC000189339575",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721862271"
    }
   },
   {
