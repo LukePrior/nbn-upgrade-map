@@ -8,16 +8,15 @@ if ('serviceWorker' in navigator) {
 // initialize the map
 var map = L.map('map', {
     renderer: L.canvas(),
+    maxZoom: 20,
 });
 
 map.setView([-27.5, 133], 5);
 
-// load a tile layer
-L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?api_key=cb1_2idb_1_bcca87ea83b8a0b800706999', {
+// load a vector tile layer (CARTO Voyager) via MapLibre GL, keeping the same look as the previous raster layer
+L.maplibreGL({
+    style: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    crossOrigin: true,
-    maxZoom: 20
 }).addTo(map);
 
 // get url parameters
