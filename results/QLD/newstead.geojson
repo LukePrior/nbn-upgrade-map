@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-05T07:03:13.292658",
+ "generated": "2026-09-09T02:46:17.606519",
  "suburb": "NEWSTEAD",
  "features": [
   {
@@ -1777,7 +1777,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156915563",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1942,7 +1942,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156930390",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Premises In Build"
    }
   },
   {
@@ -2310,7 +2310,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156937462",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -3740,6 +3740,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.0424462,
+     -27.45224458
+    ]
+   },
+   "properties": {
+    "name": "12 KYABRA STREET NEWSTEAD 4006",
+    "locID": "LOC000168059173",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156947738"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.04247823,
+     -27.45208165
+    ]
+   },
+   "properties": {
+    "name": "14 KYABRA STREET NEWSTEAD 4006",
+    "locID": "LOC000152002919",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156947739"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.04249956,
      -27.45197302
     ]
@@ -3767,8 +3801,8 @@
    "properties": {
     "name": "18 KYABRA STREET NEWSTEAD 4006",
     "locID": "LOC000019924534",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156947741",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4670,10 +4704,9 @@
    "properties": {
     "name": "126 BREAKFAST CREEK ROAD NEWSTEAD 4006",
     "locID": "LOC000004988291",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD156954667",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156954667"
    }
   },
   {
@@ -5358,9 +5391,9 @@
     "name": "15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156968720",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -5394,9 +5427,9 @@
     "name": "5 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000074240635",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156968722",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -5783,9 +5816,9 @@
     "name": "7 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156972026",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -9376,7 +9409,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158411927",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14507,11 +14540,12 @@
    "properties": {
     "name": "UNIT 3, 37 COMMERCIAL ROAD NEWSTEAD 4006",
     "locID": "LOC000068207494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158990697",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14526,11 +14560,12 @@
    "properties": {
     "name": "UNIT 4, 37 COMMERCIAL ROAD NEWSTEAD 4006",
     "locID": "LOC000067827651",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158990698",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22250,7 +22285,7 @@
    "properties": {
     "name": "UNIT 3, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000074055488",
-    "tech": "FTTC",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162665731",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -22269,27 +22304,9 @@
     "name": "UNIT 7, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162665732",
-    "tech_change_status": "MDU Complex Premises In Build"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.04121941,
-     -27.45417663
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 16 CHESTER STREET NEWSTEAD 4006",
-    "locID": "LOC000077499530",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD162700657",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22305,9 +22322,9 @@
     "name": "UNIT 6, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073797610",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162701694",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22471,9 +22488,9 @@
     "name": "UNIT 1, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162735163",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22488,10 +22505,10 @@
    "properties": {
     "name": "UNIT 2, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000074035381",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162735164",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -22507,9 +22524,9 @@
     "name": "UNIT 4, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162735165",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22525,9 +22542,9 @@
     "name": "UNIT 5, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000074240635",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162735166",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -22692,9 +22709,9 @@
     "name": "1 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000074042190",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162896460",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -23270,9 +23287,9 @@
     "name": "UNIT 8, 15 HALFORD STREET NEWSTEAD 4006",
     "locID": "LOC000073752685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163068066",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -29791,23 +29808,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425119198"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0445915,
-     -27.44937534
-    ]
-   },
-   "properties": {
-    "name": "13 CUNNINGHAM STREET NEWSTEAD 4006",
-    "locID": "LOC000168057924",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425119199"
    }
   },
   {
@@ -109169,6 +109169,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721696987"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.04517912,
+     -27.44768266
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1123, 43 EVELYN STREET NEWSTEAD 4006",
+    "locID": "LOC000191845338",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721697120"
    }
   },
   {
