@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-06T16:41:24.628288",
+ "generated": "2026-09-10T11:48:36.364424",
  "suburb": "MOUNT PETER",
  "features": [
   {
@@ -15,7 +15,7 @@
    "properties": {
     "name": "LOT 3 MOUNT PETER ROAD MOUNT PETER 4869",
     "locID": "LOC000107215242",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155614470",
     "tech_change_status": "Not Planned"
@@ -53,7 +53,7 @@
    "properties": {
     "name": "LOT 6 HUSSEY ROAD MOUNT PETER 4869",
     "locID": "LOC000034267528",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158955326",
     "tech_change_status": "Not Planned"
@@ -171,7 +171,7 @@
    "properties": {
     "name": "LOT 1 HUSSEY ROAD MOUNT PETER 4869",
     "locID": "LOC000034267528",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161184903",
     "tech_change_status": "Not Planned"
@@ -285,10 +285,10 @@
    "properties": {
     "name": "55 HUSSEY ROAD MOUNT PETER 4869",
     "locID": "LOC000039346059",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161786310",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -305,7 +305,7 @@
    "properties": {
     "name": "337 MOUNT PETER ROAD MOUNT PETER 4869",
     "locID": "LOC000107215242",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161912001",
     "tech_change_status": "Not Planned"
@@ -442,7 +442,7 @@
    "properties": {
     "name": "65 HUSSEY ROAD MOUNT PETER 4869",
     "locID": "LOC000034267528",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162087745",
     "tech_change_status": "Not Planned"
@@ -518,7 +518,7 @@
    "properties": {
     "name": "LOT 1 FANTIN ACCESS MOUNT PETER 4869",
     "locID": "LOC000109558029",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162349168",
     "tech_change_status": "Not Planned"
@@ -536,7 +536,7 @@
    "properties": {
     "name": "LOT 203 FANTIN ACCESS MOUNT PETER 4869",
     "locID": "LOC000129734916",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162349169",
     "tech_change_status": "Not Planned"
@@ -572,7 +572,7 @@
    "properties": {
     "name": "347 MOUNT PETER ROAD MOUNT PETER 4869",
     "locID": "LOC000014436650",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162376446",
     "tech_change_status": "Not Planned"
@@ -889,8 +889,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162960407",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -905,7 +906,7 @@
    "properties": {
     "name": "227 FANTIN ACCESS MOUNT PETER 4869",
     "locID": "LOC000129734916",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163015478",
     "tech_change_status": "Not Planned"
@@ -1037,7 +1038,7 @@
    "properties": {
     "name": "136 FANTIN ACCESS MOUNT PETER 4869",
     "locID": "LOC100077998108",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425407150",
     "tech_change_status": "Not Planned"
@@ -5316,7 +5317,7 @@
    "properties": {
     "name": "1 COOPER ROAD MOUNT PETER 4869",
     "locID": "LOC100071886084",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720731895",
     "tech_change_status": "Not Planned"
@@ -5626,7 +5627,7 @@
    "properties": {
     "name": "4 COOPER ROAD MOUNT PETER 4869",
     "locID": "LOC100071886084",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720734534",
     "tech_change_status": "Not Planned"
@@ -5749,6 +5750,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720735271"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.74148017,
+     -17.04145508
+    ]
+   },
+   "properties": {
+    "name": "15 DOONGAN ROAD MOUNT PETER 4869",
+    "locID": "LOC000185047098",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720735602"
    }
   },
   {
@@ -5987,7 +6005,7 @@
    "properties": {
     "name": "2 COOPER ROAD MOUNT PETER 4869",
     "locID": "LOC000129766140",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720737314",
     "tech_change_status": "Not Planned"
@@ -6148,6 +6166,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720739405"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.74155042,
+     -17.04246946
+    ]
+   },
+   "properties": {
+    "name": "60 MOORINYA CIRCUIT MOUNT PETER 4869",
+    "locID": "LOC000185047120",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720739610"
    }
   },
   {
@@ -6333,9 +6368,9 @@
     "name": "55 MOUNT PETER ROAD MOUNT PETER 4869",
     "locID": "LOC000009903503",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD720740510",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6668,6 +6703,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.7425447,
+     -17.04291086
+    ]
+   },
+   "properties": {
+    "name": "13 BLACKMOUNTAIN TRAIL MOUNT PETER 4869",
+    "locID": "LOC000187869591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720933242"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.7425447,
+     -17.04291086
+    ]
+   },
+   "properties": {
+    "name": "1 KULLA LINK MOUNT PETER 4869",
+    "locID": "LOC000187869656",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720933248"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.74269733,
      -17.04141179
     ]
@@ -6753,6 +6822,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.7429612,
+     -17.0428284
+    ]
+   },
+   "properties": {
+    "name": "2 KULLA LINK MOUNT PETER 4869",
+    "locID": "LOC000187869618",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720934899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.74247061,
      -17.04185855
     ]
@@ -6797,6 +6883,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720935536"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.74288941,
+     -17.0423547
+    ]
+   },
+   "properties": {
+    "name": "10 KULLA LINK MOUNT PETER 4869",
+    "locID": "LOC000187869656",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720936220"
    }
   },
   {
