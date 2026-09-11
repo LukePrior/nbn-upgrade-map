@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-07T16:27:44.904011",
+ "generated": "2026-09-11T15:11:52.463089",
  "suburb": "RIPLEY",
  "features": [
   {
@@ -1227,10 +1227,10 @@
    "properties": {
     "name": "53 FALVEY STREET RIPLEY 4306",
     "locID": "LOC000066227653",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155741257",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1961,7 +1961,7 @@
    "properties": {
     "name": "2 BINNIES ROAD RIPLEY 4306",
     "locID": "LOC000127609301",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155750538",
     "tech_change_status": "Not Planned"
@@ -2109,7 +2109,7 @@
    "properties": {
     "name": "426 RIPLEY ROAD RIPLEY 4306",
     "locID": "LOC100078654719",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155751718",
     "tech_change_status": "Not Planned"
@@ -5210,7 +5210,7 @@
    "properties": {
     "name": "244A FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000013628322",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158566744",
     "tech_change_status": "Not Planned"
@@ -5266,27 +5266,10 @@
    "properties": {
     "name": "168 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000127613626",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158580046",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.78476357,
-     -27.67845436
-    ]
-   },
-   "properties": {
-    "name": "1-63 BRYANTS ROAD RIPLEY 4306",
-    "locID": "LOC000027324169",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159834438"
    }
   },
   {
@@ -5318,27 +5301,10 @@
    "properties": {
     "name": "357 RIPLEY ROAD RIPLEY 4306",
     "locID": "LOC100055343111",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159853382",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.79260773,
-     -27.67986729
-    ]
-   },
-   "properties": {
-    "name": "581-617 RIPLEY ROAD RIPLEY 4306",
-    "locID": "LOC000034396310",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159853391"
    }
   },
   {
@@ -5382,6 +5348,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.78282943,
+     -27.6647333
+    ]
+   },
+   "properties": {
+    "name": "3-5 FALVEY STREET RIPLEY 4306",
+    "locID": "LOC000083217670",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161752577",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78997698,
      -27.66512497
     ]
@@ -5407,7 +5393,7 @@
    "properties": {
     "name": "114-134 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC100090627643",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161752887",
     "tech_change_status": "Not Planned"
@@ -5425,7 +5411,7 @@
    "properties": {
     "name": "162 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000127609551",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161752889",
     "tech_change_status": "Not Planned"
@@ -5443,7 +5429,7 @@
    "properties": {
     "name": "176-180 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000127625001",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161752891",
     "tech_change_status": "Not Planned"
@@ -5461,7 +5447,7 @@
    "properties": {
     "name": "192 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000127585613",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161752892",
     "tech_change_status": "Not Planned"
@@ -5608,7 +5594,7 @@
    "properties": {
     "name": "156 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000026684803",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162892581",
     "tech_change_status": "Not Planned"
@@ -5891,23 +5877,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.78702043,
-     -27.68156346
-    ]
-   },
-   "properties": {
-    "name": "2-8 BRYANTS ROAD RIPLEY 4306",
-    "locID": "LOC000085528309",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163259806"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.79485086,
      -27.67376502
     ]
@@ -5915,7 +5884,7 @@
    "properties": {
     "name": "54-56 AULDS ROAD RIPLEY 4306",
     "locID": "LOC000127578928",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163301851",
     "tech_change_status": "Not Planned"
@@ -5933,9 +5902,27 @@
    "properties": {
     "name": "62-64 AULDS ROAD RIPLEY 4306",
     "locID": "LOC000127619379",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163301852",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.79582398,
+     -27.67275781
+    ]
+   },
+   "properties": {
+    "name": "67-69 AULDS ROAD RIPLEY 4306",
+    "locID": "LOC000150747478",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163301853",
     "tech_change_status": "Not Planned"
    }
   },
@@ -5951,7 +5938,7 @@
    "properties": {
     "name": "68-72 AULDS ROAD RIPLEY 4306",
     "locID": "LOC000127638218",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163301854",
     "tech_change_status": "Not Planned"
@@ -5969,7 +5956,7 @@
    "properties": {
     "name": "122-136 BINNIES ROAD RIPLEY 4306",
     "locID": "LOC000127609301",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163302713",
     "tech_change_status": "Not Planned"
@@ -6165,7 +6152,7 @@
    "properties": {
     "name": "108-124 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000127636451",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303539",
     "tech_change_status": "Not Planned"
@@ -6183,7 +6170,7 @@
    "properties": {
     "name": "10 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000110651125",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303540",
     "tech_change_status": "Not Planned"
@@ -6201,7 +6188,7 @@
    "properties": {
     "name": "128-146 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000127617781",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303541",
     "tech_change_status": "Not Planned"
@@ -6255,7 +6242,7 @@
    "properties": {
     "name": "50-62 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000127630213",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303544",
     "tech_change_status": "Not Planned"
@@ -6273,7 +6260,7 @@
    "properties": {
     "name": "64-68 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000127626442",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303545",
     "tech_change_status": "Not Planned"
@@ -6291,7 +6278,7 @@
    "properties": {
     "name": "86-94 BRYANTS ROAD RIPLEY 4306",
     "locID": "LOC000127626712",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163303546",
     "tech_change_status": "Not Planned"
@@ -6309,7 +6296,7 @@
    "properties": {
     "name": "108-112 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC000127636405",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163307092",
     "tech_change_status": "Not Planned"
@@ -6363,7 +6350,7 @@
    "properties": {
     "name": "83-85 MONTEREA ROAD RIPLEY 4306",
     "locID": "LOC000037136601",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163313795",
     "tech_change_status": "Not Planned"
@@ -6430,6 +6417,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.79759948,
+     -27.6824854
+    ]
+   },
+   "properties": {
+    "name": "673 RIPLEY ROAD RIPLEY 4306",
+    "locID": "LOC100091882436",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163317022",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.79805194,
      -27.68332806
     ]
@@ -6437,7 +6442,7 @@
    "properties": {
     "name": "675-685 RIPLEY ROAD RIPLEY 4306",
     "locID": "LOC000127638148",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163317023",
     "tech_change_status": "Not Planned"
@@ -6455,7 +6460,7 @@
    "properties": {
     "name": "693 RIPLEY ROAD RIPLEY 4306",
     "locID": "LOC000127579174",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163317024",
     "tech_change_status": "Not Planned"
@@ -6502,16 +6507,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.80535449,
-     -27.68863534
+     152.80406684,
+     -27.6855517
     ]
    },
    "properties": {
-    "name": "774 RIPLEY ROAD RIPLEY 4306",
-    "locID": "LOC000127602968",
-    "tech": "NULL",
+    "name": "728 RIPLEY ROAD RIPLEY 4306",
+    "locID": "LOC000197216552",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424849453"
+    "gnaf_pid": "GAQLD424849452"
    }
   },
   {
@@ -22584,7 +22589,7 @@
    "properties": {
     "name": "182 FISCHER ROAD RIPLEY 4306",
     "locID": "LOC100071918138",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719957509",
     "tech_change_status": "Not Planned"
@@ -34847,6 +34852,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77339482,
+     -27.6710386
+    ]
+   },
+   "properties": {
+    "name": "11 OPERA STREET RIPLEY 4306",
+    "locID": "LOC000199379489",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720591139"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.77449816,
      -27.67183572
     ]
@@ -35792,6 +35814,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720595158"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.7733286,
+     -27.67152998
+    ]
+   },
+   "properties": {
+    "name": "15 OPERA STREET RIPLEY 4306",
+    "locID": "LOC000199379525",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720595159"
    }
   },
   {
@@ -43532,6 +43571,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77361462,
+     -27.67134192
+    ]
+   },
+   "properties": {
+    "name": "13 OPERA STREET RIPLEY 4306",
+    "locID": "LOC000199379502",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720927892"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.77115233,
      -27.66699463
     ]
@@ -44817,6 +44873,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720931842"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.77124194,
+     -27.66845243
+    ]
+   },
+   "properties": {
+    "name": "15 TANGO WAY RIPLEY 4306",
+    "locID": "LOC000199168947",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720931869"
    }
   },
   {
@@ -46466,6 +46539,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720935968"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.78081466,
+     -27.65589939
+    ]
+   },
+   "properties": {
+    "name": "60 REX HILLS DRIVE RIPLEY 4306",
+    "locID": "LOC000173114358",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720935987"
    }
   },
   {
@@ -62946,6 +63036,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77734832,
+     -27.65785129
+    ]
+   },
+   "properties": {
+    "name": "7 LEVITY WAY RIPLEY 4306",
+    "locID": "LOC000190304539",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.78550091,
      -27.66000801
     ]
@@ -66662,6 +66769,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721434159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.78515717,
+     -27.65735157
+    ]
+   },
+   "properties": {
+    "name": "16 GLASSEY PARADE RIPLEY 4306",
+    "locID": "LOC000195309755",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434235"
    }
   },
   {
@@ -72938,6 +73062,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.77444394,
+     -27.66334686
+    ]
+   },
+   "properties": {
+    "name": "14 MULHOLLAND DRIVE RIPLEY 4306",
+    "locID": "LOC000191501038",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721682184"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.77365479,
      -27.66036777
     ]
@@ -74916,45 +75057,11 @@
     ]
    },
    "properties": {
-    "name": "SHOP 6, 676 RIPLEY ROAD RIPLEY 4306",
-    "locID": "LOC000177064690",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721695834"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.80067446,
-     -27.68213838
-    ]
-   },
-   "properties": {
     "name": "SHOP 1, 676 RIPLEY ROAD RIPLEY 4306",
     "locID": "LOC000174952222",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721696016"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.80067446,
-     -27.68213838
-    ]
-   },
-   "properties": {
-    "name": "SHOP 4, 676 RIPLEY ROAD RIPLEY 4306",
-    "locID": "LOC000177064690",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721696439"
    }
   },
   {
@@ -75007,23 +75114,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721696906",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.80067446,
-     -27.68213838
-    ]
-   },
-   "properties": {
-    "name": "SHOP 7, 676 RIPLEY ROAD RIPLEY 4306",
-    "locID": "LOC000177064690",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721696939"
    }
   },
   {
@@ -77250,23 +77340,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.78333145,
-     -27.6725653
-    ]
-   },
-   "properties": {
-    "name": "1 BINNIES ROAD RIPLEY 4306",
-    "locID": "LOC000173190674",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721818241"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.77149699,
      -27.65900543
     ]
@@ -77467,23 +77540,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721821189"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.78488742,
-     -27.67312601
-    ]
-   },
-   "properties": {
-    "name": "12 BINNIES ROAD RIPLEY 4306",
-    "locID": "LOC000173190674",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721821243"
    }
   },
   {
