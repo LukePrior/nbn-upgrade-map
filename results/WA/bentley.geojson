@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-07T07:40:05.382644",
+ "generated": "2026-09-11T04:55:31.471447",
  "suburb": "BENTLEY",
  "features": [
   {
@@ -3440,10 +3440,10 @@
    "properties": {
     "name": "37 POLLOCK STREET BENTLEY 6102",
     "locID": "LOC000063321953",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146734282",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3913,24 +3913,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.89851493,
-     -32.01098059
-    ]
-   },
-   "properties": {
-    "name": "35 BEVERIDGE STREET BENTLEY 6102",
-    "locID": "LOC100023537817",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146734696",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -4499,10 +4481,11 @@
     "name": "14 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073472961",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146735537",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4905,6 +4888,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.91799361,
+     -32.00172272
+    ]
+   },
+   "properties": {
+    "name": "6 COOLGARDIE STREET BENTLEY 6102",
+    "locID": "LOC000148752548",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146735585",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.9167001,
      -32.01103707
     ]
@@ -4991,10 +4993,9 @@
    "properties": {
     "name": "87 MANNING ROAD BENTLEY 6102",
     "locID": "LOC000020346723",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146735616",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5903,10 +5904,10 @@
    "properties": {
     "name": "22 DEVERELL WAY BENTLEY 6102",
     "locID": "LOC000023654646",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146736577",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6498,7 +6499,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146737308",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6632,10 +6633,10 @@
    "properties": {
     "name": "32 DEVERELL WAY BENTLEY 6102",
     "locID": "LOC000094661725",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146737328",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6831,8 +6832,8 @@
    "properties": {
     "name": "16 WHITBY COURT BENTLEY 6102",
     "locID": "LOC000084695431",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146737870",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7951,9 +7952,11 @@
     "name": "15 ADIE COURT BENTLEY 6102",
     "locID": "LOC000084853379",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146739795",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -8628,23 +8631,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.91577519,
-     -32.00767602
-    ]
-   },
-   "properties": {
-    "name": "2 BEHAN STREET BENTLEY 6102",
-    "locID": "LOC000044599758",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146740874"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.91511,
      -32.0069
     ]
@@ -8907,6 +8893,23 @@
     "gnaf_pid": "GAWA_146740890",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91530926,
+     -32.00971495
+    ]
+   },
+   "properties": {
+    "name": "50 POLLOCK STREET BENTLEY 6102",
+    "locID": "LOC000198013023",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146740891"
    }
   },
   {
@@ -9434,30 +9437,12 @@
    "properties": {
     "name": "47 ASHBURTON STREET BENTLEY 6102",
     "locID": "LOC000030637756",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146741005",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.90313986,
-     -32.00734922
-    ]
-   },
-   "properties": {
-    "name": "29 STANNARD STREET BENTLEY 6102",
-    "locID": "LOC100027878247",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146741007",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -9826,7 +9811,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146741275",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10005,24 +9990,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.90299471,
-     -32.00716452
-    ]
-   },
-   "properties": {
-    "name": "27 STANNARD STREET BENTLEY 6102",
-    "locID": "LOC100027878247",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146741568",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -10291,10 +10258,9 @@
    "properties": {
     "name": "25 LORD STREET BENTLEY 6102",
     "locID": "LOC000063436210",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146741585",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10311,10 +10277,9 @@
    "properties": {
     "name": "29 LORD STREET BENTLEY 6102",
     "locID": "LOC000079942398",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146741586",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11023,23 +10988,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92051582,
-     -32.00630829
-    ]
-   },
-   "properties": {
-    "name": "10 MARKHAM PLACE BENTLEY 6102",
-    "locID": "LOC000100504674",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146742231"
    }
   },
   {
@@ -15931,10 +15879,9 @@
    "properties": {
     "name": "14 BROCKMAN RETREAT BENTLEY 6102",
     "locID": "LOC000085566436",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147080052",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16462,10 +16409,9 @@
    "properties": {
     "name": "8 BROCKMAN RETREAT BENTLEY 6102",
     "locID": "LOC000009540619",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147091237",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16536,7 +16482,7 @@
    "properties": {
     "name": "7 PARKER PLACE BENTLEY 6102",
     "locID": "LOC000058114049",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147092889"
    }
@@ -16843,10 +16789,10 @@
    "properties": {
     "name": "6 GOCHEAN AVENUE BENTLEY 6102",
     "locID": "LOC000097806132",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147123279",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18472,24 +18418,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.90923495,
-     -32.00910218
-    ]
-   },
-   "properties": {
-    "name": "32 DUMOND STREET BENTLEY 6102",
-    "locID": "LOC000132314540",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147142157",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.92343,
      -32.00888
     ]
@@ -19617,23 +19545,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.91318414,
-     -32.00717515
-    ]
-   },
-   "properties": {
-    "name": "76 ASHBURTON STREET BENTLEY 6102",
-    "locID": "LOC100034382901",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147162525"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.90391127,
      -32.01188541
     ]
@@ -19641,8 +19552,8 @@
    "properties": {
     "name": "1 FARNHAM STREET BENTLEY 6102",
     "locID": "LOC000046642633",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147164258",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19899,10 +19810,9 @@
    "properties": {
     "name": "2 CUE COVE BENTLEY 6102",
     "locID": "LOC000082720640",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147169693",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20192,10 +20102,9 @@
    "properties": {
     "name": "29 ETON COURT BENTLEY 6102",
     "locID": "LOC000003695010",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147172161",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20232,9 +20141,9 @@
     "name": "27 ETON COURT BENTLEY 6102",
     "locID": "LOC000032524702",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147172163",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21700,8 +21609,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147204696",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21719,8 +21629,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147204697",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21738,8 +21649,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147204698",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22101,8 +22013,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147205843",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22139,8 +22052,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147205845",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22158,8 +22072,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147205846",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22177,8 +22092,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147205847",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23477,7 +23393,7 @@
    "properties": {
     "name": "UNIT 6, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147217913",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -23496,7 +23412,7 @@
    "properties": {
     "name": "UNIT 16, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147217914",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -23516,9 +23432,9 @@
     "name": "UNIT 7, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073576926",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147217994",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23536,9 +23452,9 @@
     "name": "UNIT 8, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073225940",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147217995",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23555,7 +23471,7 @@
    "properties": {
     "name": "UNIT 10, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147217996",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -23973,7 +23889,7 @@
    "properties": {
     "name": "UNIT 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223727",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -23992,7 +23908,7 @@
    "properties": {
     "name": "UNIT 2, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073525107",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223728",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24011,7 +23927,7 @@
    "properties": {
     "name": "UNIT 3, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073506703",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223729",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24031,9 +23947,9 @@
     "name": "UNIT 4, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073321309",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147223730",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -24050,7 +23966,7 @@
    "properties": {
     "name": "UNIT 5, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073493120",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147223731",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24525,7 +24441,7 @@
    "properties": {
     "name": "UNIT 11, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226739",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24544,7 +24460,7 @@
    "properties": {
     "name": "UNIT 12, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226740",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24563,7 +24479,7 @@
    "properties": {
     "name": "UNIT 13, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226741",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24582,7 +24498,7 @@
    "properties": {
     "name": "UNIT 14, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226742",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24601,7 +24517,7 @@
    "properties": {
     "name": "UNIT 15, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226743",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -24661,8 +24577,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226746",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24680,8 +24597,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226747",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24718,8 +24636,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147226749",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26019,10 +25938,10 @@
    "properties": {
     "name": "3 ARGYLE STREET BENTLEY 6102",
     "locID": "LOC000036525565",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147276255",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28273,7 +28192,7 @@
    "properties": {
     "name": "OFFICE 1, 11 DE LAETER WAY BENTLEY 6102",
     "locID": "LOC100057737788",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147314397"
    }
@@ -28290,7 +28209,7 @@
    "properties": {
     "name": "OFFICE 2, 11 DE LAETER WAY BENTLEY 6102",
     "locID": "LOC100057737788",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147314398"
    }
@@ -28307,7 +28226,7 @@
    "properties": {
     "name": "OFFICE 3, 11 DE LAETER WAY BENTLEY 6102",
     "locID": "LOC100057737788",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147314407"
    }
@@ -28324,7 +28243,7 @@
    "properties": {
     "name": "OFFICE 4, 11 DE LAETER WAY BENTLEY 6102",
     "locID": "LOC100057737788",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147314408"
    }
@@ -28863,10 +28782,9 @@
    "properties": {
     "name": "22B MCKAY STREET BENTLEY 6102",
     "locID": "LOC000080637508",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147320409",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29336,7 +29254,7 @@
    "properties": {
     "name": "UNIT 9, LEVEL 1, 13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147379284",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -29358,8 +29276,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147379285",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29780,10 +29699,9 @@
    "properties": {
     "name": "40B LAWSON STREET BENTLEY 6102",
     "locID": "LOC000100889714",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147489292",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35762,23 +35680,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.9196011,
-     -32.00842143
-    ]
-   },
-   "properties": {
-    "name": "39 MITCHELL STREET BENTLEY 6102",
-    "locID": "LOC000066260698",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147508317"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.90159,
      -32.00873
     ]
@@ -36679,10 +36580,9 @@
    "properties": {
     "name": "14B WYONG ROAD BENTLEY 6102",
     "locID": "LOC000092958804",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147509386",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37137,10 +37037,9 @@
    "properties": {
     "name": "UNIT 1, 4 CAPEL COURT BENTLEY 6102",
     "locID": "LOC000008718723",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147510027",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37502,10 +37401,9 @@
    "properties": {
     "name": "25B BEDFORD STREET BENTLEY 6102",
     "locID": "LOC000103499230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147510593",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38473,6 +38371,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147511180",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91519932,
+     -32.00746359
+    ]
+   },
+   "properties": {
+    "name": "3 CUE COVE BENTLEY 6102",
+    "locID": "LOC000094293887",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_147511185",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41049,9 +40967,9 @@
     "name": "64B QUEEN STREET BENTLEY 6102",
     "locID": "LOC000021993605",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147514728",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41669,9 +41587,9 @@
     "name": "1 MARKHAM PLACE BENTLEY 6102",
     "locID": "LOC000047758431",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147514938",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44861,10 +44779,10 @@
    "properties": {
     "name": "5A MARKHAM PLACE BENTLEY 6102",
     "locID": "LOC000021926394",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147517657",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45600,10 +45518,9 @@
    "properties": {
     "name": "6A MCKAY STREET BENTLEY 6102",
     "locID": "LOC000072708527",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147517918",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50286,10 +50203,9 @@
    "properties": {
     "name": "UNIT 1, 42 LAWSON STREET BENTLEY 6102",
     "locID": "LOC000002980909",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148685776",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59539,10 +59455,9 @@
    "properties": {
     "name": "4A WHITBY COURT BENTLEY 6102",
     "locID": "LOC000106185821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160922522",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60341,10 +60256,9 @@
    "properties": {
     "name": "4A HEDLEY STREET BENTLEY 6102",
     "locID": "LOC000103455389",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160934483",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60380,10 +60294,9 @@
    "properties": {
     "name": "UNIT 1, 16 LAMB AVENUE BENTLEY 6102",
     "locID": "LOC000082813221",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160935454",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61489,10 +61402,9 @@
    "properties": {
     "name": "18A JOHN STREET BENTLEY 6102",
     "locID": "LOC000148563152",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161518400",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61588,7 +61500,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_161561903",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62708,24 +62620,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.90023438,
-     -32.01082007
-    ]
-   },
-   "properties": {
-    "name": "25 LAWSON STREET BENTLEY 6102",
-    "locID": "LOC100021019077",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_161604564",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.90108,
      -32.00824
     ]
@@ -62733,10 +62627,9 @@
    "properties": {
     "name": "2A LAWSON STREET BENTLEY 6102",
     "locID": "LOC000063296867",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161604565",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62832,10 +62725,9 @@
    "properties": {
     "name": "6 MARQUIS STREET BENTLEY 6102",
     "locID": "LOC000040496985",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161605378",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63008,10 +62900,9 @@
    "properties": {
     "name": "14A PAGE AVENUE BENTLEY 6102",
     "locID": "LOC000086131705",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161607535",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65878,8 +65769,8 @@
    "properties": {
     "name": "11B QUINN AVENUE BENTLEY 6102",
     "locID": "LOC000030336179",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162274650",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -67003,8 +66894,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162396629",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -67226,24 +67118,6 @@
     "gnaf_pid": "GAWA_162399554",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92268113,
-     -32.00021965
-    ]
-   },
-   "properties": {
-    "name": "12 CAPEL COURT BENTLEY 6102",
-    "locID": "LOC100018128671",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162400219",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -67606,7 +67480,7 @@
    "properties": {
     "name": "13 GRANT PLACE BENTLEY 6102",
     "locID": "LOC000073562522",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162405923",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -67824,24 +67698,6 @@
     "gnaf_pid": "GAWA_162411765",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.91742,
-     -32.00495
-    ]
-   },
-   "properties": {
-    "name": "28 QUEEN STREET BENTLEY 6102",
-    "locID": "LOC100022319711",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162414466",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -68350,8 +68206,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162492014",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68369,8 +68226,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162492015",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68388,8 +68246,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162492016",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68407,8 +68266,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162492017",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68562,8 +68422,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493917",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68581,8 +68442,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493918",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68619,8 +68481,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493920",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68638,8 +68501,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493921",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68657,8 +68521,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493922",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68676,8 +68541,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493923",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68695,8 +68561,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493924",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68752,8 +68619,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493927",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68790,8 +68658,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493929",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68809,8 +68678,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493930",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68828,8 +68698,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493931",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68847,8 +68718,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493932",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68866,8 +68738,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493933",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68885,8 +68758,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493934",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68923,8 +68797,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493936",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68942,8 +68817,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162493937",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69113,8 +68989,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162494261",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69132,8 +69009,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162494262",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69228,8 +69106,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496072",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69247,8 +69126,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496073",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69266,8 +69146,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496074",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69285,8 +69166,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496075",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69304,8 +69186,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496076",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69323,8 +69206,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496077",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69342,8 +69226,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496078",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69361,8 +69246,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496079",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69399,8 +69285,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496081",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69495,8 +69382,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496086",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69514,8 +69402,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496087",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69533,8 +69422,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496088",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69552,8 +69442,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496089",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69571,8 +69462,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162496090",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69805,8 +69697,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_162559542",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69954,7 +69847,7 @@
    "properties": {
     "name": "11 DE LAETER WAY BENTLEY 6102",
     "locID": "LOC100057737788",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162562679"
    }
@@ -70122,10 +70015,9 @@
    "properties": {
     "name": "176A HILL VIEW TERRACE BENTLEY 6102",
     "locID": "LOC000068211681",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162569927",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70142,10 +70034,9 @@
    "properties": {
     "name": "176B HILL VIEW TERRACE BENTLEY 6102",
     "locID": "LOC000068553098",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162569928",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -70262,23 +70153,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.91704469,
-     -32.00972102
-    ]
-   },
-   "properties": {
-    "name": "10 WYONG ROAD BENTLEY 6102",
-    "locID": "LOC100024623636",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162592887"
    }
   },
   {
@@ -70720,10 +70594,9 @@
    "properties": {
     "name": "17A EWING STREET BENTLEY 6102",
     "locID": "LOC000011563611",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162685165",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -72585,24 +72458,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.89869744,
-     -32.01080875
-    ]
-   },
-   "properties": {
-    "name": "33-35 BEVERIDGE STREET BENTLEY 6102",
-    "locID": "LOC100023537817",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162754468",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.91867886,
      -32.00474158
     ]
@@ -73732,6 +73587,196 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 10, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561274",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755747",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561183",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755748",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561196",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755749",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561203",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755750",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561219",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755751",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561226",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755752",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561235",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755753",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561242",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755754",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561257",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755755",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91714356,
+     -32.00775736
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 60-62 CHAPMAN ROAD BENTLEY 6102",
+    "locID": "LOC000148561261",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162755756",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.92331034,
      -31.99683516
     ]
@@ -73862,6 +73907,26 @@
     "gnaf_pid": "GAWA_162756155",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91519932,
+     -32.00746359
+    ]
+   },
+   "properties": {
+    "name": "1-3 CUE COVE BENTLEY 6102",
+    "locID": "LOC000094293887",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_162756374",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -74054,10 +74119,10 @@
    "properties": {
     "name": "UNIT 8, 24-26 DUMOND STREET BENTLEY 6102",
     "locID": "LOC000148561681",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162756913",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -74263,6 +74328,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.92349166,
+     -32.00968299
+    ]
+   },
+   "properties": {
+    "name": "27-29 GOCHEAN AVENUE BENTLEY 6102",
+    "locID": "LOC000132299771",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162758222",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.9029448,
      -32.00902384
     ]
@@ -74394,24 +74478,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.92114887,
-     -32.00071115
-    ]
-   },
-   "properties": {
-    "name": "17-21 JOHN STREET BENTLEY 6102",
-    "locID": "LOC000164326379",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162759880",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -74728,24 +74794,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.91894494,
-     -32.00283853
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 3-5 QUEEN STREET BENTLEY 6102",
-    "locID": "LOC100035322383",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162762754",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.91571802,
      -32.00559326
     ]
@@ -74972,24 +75020,6 @@
     "gnaf_pid": "GAWA_162762773",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.91894494,
-     -32.00283853
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 3-5 QUEEN STREET BENTLEY 6102",
-    "locID": "LOC100035322383",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162762775",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -76502,7 +76532,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162796048",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77994,24 +78024,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.91894494,
-     -32.00283853
-    ]
-   },
-   "properties": {
-    "name": "3-5 QUEEN STREET BENTLEY 6102",
-    "locID": "LOC100035322383",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162990511",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.91349599,
      -32.00758123
     ]
@@ -78024,24 +78036,6 @@
     "gnaf_pid": "GAWA_162990513",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.90314935,
-     -32.00716816
-    ]
-   },
-   "properties": {
-    "name": "27-29 STANNARD STREET BENTLEY 6102",
-    "locID": "LOC100027878247",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162990834",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -78099,23 +78093,6 @@
     "gnaf_pid": "GAWA_162991053",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.91463,
-     -32.01177
-    ]
-   },
-   "properties": {
-    "name": "40-42 WYONG ROAD BENTLEY 6102",
-    "locID": "LOC100029326586",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162991192"
    }
   },
   {
@@ -79095,10 +79072,9 @@
    "properties": {
     "name": "7A GRANT PLACE BENTLEY 6102",
     "locID": "LOC000067816608",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163092945",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81021,10 +80997,9 @@
    "properties": {
     "name": "21A BEVERIDGE STREET BENTLEY 6102",
     "locID": "LOC000175569642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163393760",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81861,10 +81836,9 @@
    "properties": {
     "name": "2A STRATFORD PLACE BENTLEY 6102",
     "locID": "LOC000132310857",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718300254",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -83476,10 +83450,9 @@
    "properties": {
     "name": "102A WALPOLE STREET BENTLEY 6102",
     "locID": "LOC000132329429",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718303246",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85386,24 +85359,6 @@
     "gnaf_pid": "GAWA_718683558",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.90001453,
-     -32.00893341
-    ]
-   },
-   "properties": {
-    "name": "12-14 MARQUIS STREET BENTLEY 6102",
-    "locID": "LOC100030770065",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718709213",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -87604,24 +87559,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.91742,
-     -32.00495
-    ]
-   },
-   "properties": {
-    "name": "28-30 QUEEN STREET BENTLEY 6102",
-    "locID": "LOC100022319711",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718878229",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.9167001,
      -32.01103707
     ]
@@ -89494,6 +89431,23 @@
     "gnaf_pid": "GAWA_719498611",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91876006,
+     -32.00874281
+    ]
+   },
+   "properties": {
+    "name": "47A MITCHELL STREET BENTLEY 6102",
+    "locID": "LOC000199457108",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719499865"
    }
   },
   {
@@ -93676,23 +93630,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.92051582,
-     -32.00630829
-    ]
-   },
-   "properties": {
-    "name": "10D MARKHAM PLACE BENTLEY 6102",
-    "locID": "LOC000100504674",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720975000"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.89857514,
      -32.00516299
     ]
@@ -93873,23 +93810,6 @@
     "gnaf_pid": "GAWA_721017804",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.89998719,
-     -32.00923321
-    ]
-   },
-   "properties": {
-    "name": "14 MARQUIS STREET BENTLEY 6102",
-    "locID": "LOC000111211561",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_721070962"
    }
   },
   {
@@ -94731,24 +94651,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.90001453,
-     -32.00893341
-    ]
-   },
-   "properties": {
-    "name": "12 MARQUIS STREET BENTLEY 6102",
-    "locID": "LOC100030770065",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_721529172",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.92012379,
      -31.99793711
     ]
@@ -95092,6 +94994,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721784644"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.90353018,
+     -32.0098876
+    ]
+   },
+   "properties": {
+    "name": "29A LORD STREET BENTLEY 6102",
+    "locID": "LOC000199369781",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721787291"
    }
   },
   {
