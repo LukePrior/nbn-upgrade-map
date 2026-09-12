@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-08T19:28:25.797372",
+ "generated": "2026-09-12T20:24:54.543011",
  "suburb": "MYLOR",
  "features": [
   {
@@ -55,7 +55,7 @@
    "properties": {
     "name": "LOT 9 MI MI ROAD MYLOR 5153",
     "locID": "LOC000040787725",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415222251",
     "tech_change_status": "Not Planned"
@@ -354,11 +354,11 @@
     "name": "100 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000072680754",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415565136",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -751,11 +751,11 @@
     "name": "106 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000175432367",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416175658",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -771,11 +771,11 @@
     "name": "108 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000130495050",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416179017",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1290,7 +1290,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416908938",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2028"
    }
   },
@@ -1306,12 +1306,12 @@
    "properties": {
     "name": "104 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000130489374",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_421964130",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2607,9 +2607,11 @@
     "name": "34 FIRST STREET MYLOR 5153",
     "locID": "LOC000103137359",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424657971",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -2690,24 +2692,6 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.77012314,
-     -35.02710943
-    ]
-   },
-   "properties": {
-    "name": "36 HAWTHORNE ROAD MYLOR 5153",
-    "locID": "LOC000048595290",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424659160",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -3098,7 +3082,7 @@
    "properties": {
     "name": "186 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000037147786",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424660367",
     "tech_change_status": "Not Planned"
@@ -3116,7 +3100,7 @@
    "properties": {
     "name": "18 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000043933317",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424660368",
     "tech_change_status": "Not Planned"
@@ -3192,7 +3176,7 @@
    "properties": {
     "name": "62 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000109295311",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424660374",
     "tech_change_status": "Not Planned"
@@ -3250,7 +3234,7 @@
    "properties": {
     "name": "9 MI MI ROAD MYLOR 5153",
     "locID": "LOC000040787725",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424661249",
     "tech_change_status": "Not Planned"
@@ -5464,7 +5448,7 @@
    "properties": {
     "name": "31 HAWTHORNE ROAD MYLOR 5153",
     "locID": "LOC000114216621",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424700824",
     "tech_change_status": "Not Planned"
@@ -5740,7 +5724,7 @@
    "properties": {
     "name": "123 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000114728571",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424702624",
     "tech_change_status": "Not Planned"
@@ -5858,7 +5842,7 @@
    "properties": {
     "name": "193 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000114856029",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424702630",
     "tech_change_status": "Not Planned"
@@ -5996,7 +5980,7 @@
    "properties": {
     "name": "88 LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC100079010677",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424702638",
     "tech_change_status": "Not Planned"
@@ -7270,7 +7254,7 @@
    "properties": {
     "name": "256A LESLIE CREEK ROAD MYLOR 5153",
     "locID": "LOC000113333033",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424739391",
     "tech_change_status": "Not Planned"
@@ -7629,7 +7613,7 @@
     "gnaf_pid": "GASA_424835958",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -8124,7 +8108,7 @@
    "properties": {
     "name": "139 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000130473836",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425060531",
     "tech_change_status": "Not Planned"
@@ -8142,7 +8126,7 @@
    "properties": {
     "name": "143 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC100078121183",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425060532",
     "tech_change_status": "Not Planned"
@@ -8180,7 +8164,7 @@
    "properties": {
     "name": "145 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000130473955",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425060534",
     "tech_change_status": "Not Planned"
@@ -8299,9 +8283,11 @@
     "name": "5 HILL STREET MYLOR 5153",
     "locID": "LOC000135628478",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425064657",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -8709,23 +8695,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.75715958,
-     -35.04418264
-    ]
-   },
-   "properties": {
-    "name": "21 WEST STREET MYLOR 5153",
-    "locID": "LOC000130486628",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425070357"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.76094112,
      -35.03690605
     ]
@@ -8871,7 +8840,7 @@
    "properties": {
     "name": "122 ALDGATE VALLEY ROAD MYLOR 5153",
     "locID": "LOC000130365380",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425072443",
     "tech_change_status": "Not Planned"
@@ -8890,9 +8859,11 @@
     "name": "25 SECOND STREET MYLOR 5153",
     "locID": "LOC000130489326",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425075954",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
@@ -9010,26 +8981,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425297889",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.76708621,
-     -35.02871217
-    ]
-   },
-   "properties": {
-    "name": "3 HAWTHORNE ROAD MYLOR 5153",
-    "locID": "LOC100057521515",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425297931",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -9242,7 +9193,7 @@
    "properties": {
     "name": "5 BROGAN PLACE MYLOR 5153",
     "locID": "LOC000108153885",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425801635",
     "tech_change_status": "Not Planned"
@@ -9421,9 +9372,11 @@
     "name": "15 WEST STREET MYLOR 5153",
     "locID": "LOC000135624050",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720300490",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2028"
    }
   },
   {
