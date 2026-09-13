@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-09T06:38:18.311323",
+ "generated": "2026-09-13T07:47:00.509919",
  "suburb": "FORTH",
  "features": [
   {
@@ -75,10 +75,10 @@
    "properties": {
     "name": "390 BRADDONS LOOKOUT ROAD FORTH 7310",
     "locID": "LOC000006271255",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702201116",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1202,10 +1202,10 @@
    "properties": {
     "name": "590 FORTH ROAD FORTH 7310",
     "locID": "LOC000083074226",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702242213",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1299,10 +1299,10 @@
    "properties": {
     "name": "861 FORTH ROAD FORTH 7310",
     "locID": "LOC000098717194",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702242223",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1439,10 +1439,10 @@
    "properties": {
     "name": "63 GEORGE STREET FORTH 7310",
     "locID": "LOC000035023636",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702242401",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1679,10 +1679,10 @@
    "properties": {
     "name": "63A GEORGE STREET FORTH 7310",
     "locID": "LOC000035121323",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702243698",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2379,10 +2379,10 @@
    "properties": {
     "name": "18 JAMES STREET FORTH 7310",
     "locID": "LOC000065985334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702268243",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2618,10 +2618,10 @@
    "properties": {
     "name": "59 KINDRED ROAD FORTH 7310",
     "locID": "LOC000022577990",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702268616",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2724,6 +2724,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.21457821,
+     -41.20247414
+    ]
+   },
+   "properties": {
+    "name": "19 LASTS ROAD FORTH 7310",
+    "locID": "LOC100092958422",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS702276449",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -3237,7 +3255,7 @@
    "properties": {
     "name": "137 PUMPING STATION ROAD FORTH 7310",
     "locID": "LOC000104264496",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702328860",
     "tech_change_status": "Not Planned"
@@ -3255,7 +3273,7 @@
    "properties": {
     "name": "136 PUMPING STATION ROAD FORTH 7310",
     "locID": "LOC000107081230",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702328861",
     "tech_change_status": "Not Planned"
@@ -3273,7 +3291,7 @@
    "properties": {
     "name": "120 PUMPING STATION ROAD FORTH 7310",
     "locID": "LOC000052501988",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702328862",
     "tech_change_status": "Not Planned"
@@ -3369,10 +3387,9 @@
    "properties": {
     "name": "30 STEPHEN STREET FORTH 7310",
     "locID": "LOC000043854455",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702336169",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3468,10 +3485,10 @@
    "properties": {
     "name": "19 STEPHEN STREET FORTH 7310",
     "locID": "LOC000040795294",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702336178",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3606,10 +3623,9 @@
    "properties": {
     "name": "35 STEPHEN STREET FORTH 7310",
     "locID": "LOC000042732284",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702336195",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4452,7 +4468,7 @@
    "properties": {
     "name": "72 WILMOT ROAD FORTH 7310",
     "locID": "LOC000042542280",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702366435",
     "tech_change_status": "Not Planned"
@@ -4743,7 +4759,7 @@
    "properties": {
     "name": "655 WILMOT ROAD FORTH 7310",
     "locID": "LOC000030110620",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702377094",
     "tech_change_status": "Not Planned"
@@ -5098,10 +5114,10 @@
    "properties": {
     "name": "670 FORTH ROAD FORTH 7310",
     "locID": "LOC000037084839",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS702423033",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5638,7 +5654,7 @@
    "properties": {
     "name": "120A PUMPING STATION ROAD FORTH 7310",
     "locID": "LOC000052796048",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702451102",
     "tech_change_status": "Not Planned"
@@ -6490,10 +6506,10 @@
    "properties": {
     "name": "2 DALRYMPLE STREET FORTH 7310",
     "locID": "LOC000110388843",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS718182130",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6888,7 +6904,7 @@
    "properties": {
     "name": "200 PERRYS ROAD FORTH 7310",
     "locID": "LOC100072051684",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS718792868",
     "tech_change_status": "Not Planned"
