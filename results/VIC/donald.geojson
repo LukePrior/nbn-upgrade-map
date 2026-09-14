@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-07-19T22:53:01.151689",
+ "generated": "2026-09-14T11:08:16.752070",
  "suburb": "DONALD",
  "features": [
   {
@@ -697,8 +697,8 @@
    "properties": {
     "name": "19 MEYER STREET DONALD 3480",
     "locID": "LOC000075287003",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411266939",
     "tech_change_status": "Eligible to Order"
    }
@@ -924,8 +924,8 @@
    "properties": {
     "name": "42 MEYER STREET DONALD 3480",
     "locID": "LOC000052095333",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419675666",
     "tech_change_status": "Eligible to Order"
    }
@@ -1396,9 +1396,9 @@
     "name": "15-23 MCCULLOCH STREET DONALD 3480",
     "locID": "LOC000124957007",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419776420",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -4474,10 +4474,9 @@
    "properties": {
     "name": "33 HOUSTON STREET DONALD 3480",
     "locID": "LOC000091629506",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420879042",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420879042"
    }
   },
   {
@@ -5077,6 +5076,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.99148858,
+     -36.35737857
+    ]
+   },
+   "properties": {
+    "name": "39 CORACK ROAD DONALD 3480",
+    "locID": "LOC000124970280",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420990510",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.99050969,
      -36.36025101
     ]
@@ -5229,10 +5246,10 @@
    "properties": {
     "name": "47 MEYER STREET DONALD 3480",
     "locID": "LOC000013841036",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421174101",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6705,10 +6722,9 @@
    "properties": {
     "name": "16 CORACK STREET DONALD 3480",
     "locID": "LOC000071873170",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421566904",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421566904"
    }
   },
   {
@@ -7911,10 +7927,9 @@
    "properties": {
     "name": "3 ATHOL COURT DONALD 3480",
     "locID": "LOC000092922813",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421930496",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421930496"
    }
   },
   {
@@ -8392,10 +8407,30 @@
    "properties": {
     "name": "990 JEFFCOTT ROAD DONALD 3480",
     "locID": "LOC000013418722",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422159045",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.00520004,
+     -36.4312667
+    ]
+   },
+   "properties": {
+    "name": "1219 LAEN-COPE COPE ROAD DONALD 3480",
+    "locID": "LOC000124952922",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422162563",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15816,9 +15851,9 @@
     "name": "23 MCCULLOCH STREET DONALD 3480",
     "locID": "LOC000124957007",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC721216709",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   }
  ]
