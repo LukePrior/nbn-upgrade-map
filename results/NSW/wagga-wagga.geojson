@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-06T14:25:14.629863",
+ "generated": "2026-09-23T06:32:41.118819",
  "suburb": "WAGGA WAGGA",
  "features": [
   {
@@ -154,10 +154,9 @@
    "properties": {
     "name": "12 GOSSETT STREET WAGGA WAGGA 2650",
     "locID": "LOC000045022771",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706132633",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -254,10 +253,10 @@
    "properties": {
     "name": "17 GOSSETT STREET WAGGA WAGGA 2650",
     "locID": "LOC000048094429",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706132638",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1032,9 +1031,9 @@
     "name": "196 BAYLIS STREET WAGGA WAGGA 2650",
     "locID": "LOC000068853592",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706133198",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2439,10 +2438,10 @@
    "properties": {
     "name": "81 TARCUTTA STREET WAGGA WAGGA 2650",
     "locID": "LOC000099012469",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706133638",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4999,10 +4998,9 @@
    "properties": {
     "name": "108 KINCAID STREET WAGGA WAGGA 2650",
     "locID": "LOC000121749185",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706136598",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8372,10 +8370,10 @@
    "properties": {
     "name": "58 EVANS STREET WAGGA WAGGA 2650",
     "locID": "LOC000002199760",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706140147",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8432,10 +8430,9 @@
    "properties": {
     "name": "9 EVANS STREET WAGGA WAGGA 2650",
     "locID": "LOC000011435695",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706140150",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9005,6 +9002,25 @@
     "gnaf_pid": "GANSW706140218",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.36716837,
+     -35.10687506
+    ]
+   },
+   "properties": {
+    "name": "52-54 GURWOOD STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136187005",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706140219",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12577,8 +12593,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706144038",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12634,8 +12651,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706144041",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19593,6 +19611,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.34543297,
+     -35.11878278
+    ]
+   },
+   "properties": {
+    "name": "29 PEARSON STREET WAGGA WAGGA 2650",
+    "locID": "LOC000197892778",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706147442"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.34466634,
      -35.12301464
     ]
@@ -21367,10 +21402,9 @@
    "properties": {
     "name": "11 ALBURY STREET WAGGA WAGGA 2650",
     "locID": "LOC000049454419",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706150321",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24458,9 +24492,9 @@
     "name": "247 KINCAID STREET WAGGA WAGGA 2650",
     "locID": "LOC000083663754",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706156745",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26877,6 +26911,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.35445493,
+     -35.12117509
+    ]
+   },
+   "properties": {
+    "name": "6 MEURANT AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000068396753",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706157415",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -31615,10 +31668,9 @@
    "properties": {
     "name": "17 CROSS STREET WAGGA WAGGA 2650",
     "locID": "LOC000090616299",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706166692",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32113,26 +32165,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706166778",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     147.36876705,
-     -35.10562504
-    ]
-   },
-   "properties": {
-    "name": "15 GURWOOD STREET WAGGA WAGGA 2650",
-    "locID": "LOC000056014640",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706166779",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -34866,10 +34898,9 @@
    "properties": {
     "name": "UNIT 3, 28 HIGGINS AVENUE WAGGA WAGGA 2650",
     "locID": "LOC000089161676",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706167066",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35725,10 +35756,10 @@
    "properties": {
     "name": "64 THORNE STREET WAGGA WAGGA 2650",
     "locID": "LOC000064324377",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706167374",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37736,10 +37767,10 @@
    "properties": {
     "name": "161 EDWARD STREET WAGGA WAGGA 2650",
     "locID": "LOC000070758074",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706170596",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38427,10 +38458,10 @@
    "properties": {
     "name": "65 FOX STREET WAGGA WAGGA 2650",
     "locID": "LOC000099584985",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706170635",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39500,7 +39531,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706170692",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40835,6 +40866,46 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706171325",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.36444876,
+     -35.1041412
+    ]
+   },
+   "properties": {
+    "name": "12 LAMPE AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000136183050",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706171326",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.36444876,
+     -35.1041412
+    ]
+   },
+   "properties": {
+    "name": "14 LAMPE AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000136183050",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706171327",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -44437,8 +44508,8 @@
    "properties": {
     "name": "28 CULLEN ROAD WAGGA WAGGA 2650",
     "locID": "LOC000092479686",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706176963",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45662,10 +45733,10 @@
    "properties": {
     "name": "96 GURWOOD STREET WAGGA WAGGA 2650",
     "locID": "LOC000014149521",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706177065",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47664,10 +47735,9 @@
    "properties": {
     "name": "4 PETER STREET WAGGA WAGGA 2650",
     "locID": "LOC000028767906",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706177594",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49154,10 +49224,10 @@
    "properties": {
     "name": "95 TOMPSON STREET WAGGA WAGGA 2650",
     "locID": "LOC000041958507",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706177678",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51862,10 +51932,9 @@
    "properties": {
     "name": "73-75 JOHNSTON STREET WAGGA WAGGA 2650",
     "locID": "LOC000136170451",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706180618",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54518,10 +54587,9 @@
    "properties": {
     "name": "2 RHODA AVENUE WAGGA WAGGA 2650",
     "locID": "LOC000049470320",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706181262",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58222,10 +58290,9 @@
    "properties": {
     "name": "31 GALING PLACE WAGGA WAGGA 2650",
     "locID": "LOC000044288121",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706184155",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68431,10 +68498,9 @@
    "properties": {
     "name": "15 SULLIVAN AVENUE WAGGA WAGGA 2650",
     "locID": "LOC000002420466",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706236782",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87658,10 +87724,9 @@
    "properties": {
     "name": "75 JOHNSTON STREET WAGGA WAGGA 2650",
     "locID": "LOC000136170451",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712741985",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87873,10 +87938,9 @@
    "properties": {
     "name": "73 JOHNSTON STREET WAGGA WAGGA 2650",
     "locID": "LOC000136170451",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712742016",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98613,10 +98677,9 @@
    "properties": {
     "name": "27B BAYLIS STREET WAGGA WAGGA 2650",
     "locID": "LOC000058235330",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715420235",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100979,6 +101042,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.35106198,
+     -35.10518261
+    ]
+   },
+   "properties": {
+    "name": "46 SLOCUM STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136196219",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW715656032",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.36125138,
      -35.11251294
     ]
@@ -103056,7 +103139,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716992010",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -107941,6 +108024,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.36922808,
+     -35.10563679
+    ]
+   },
+   "properties": {
+    "name": "84 FITZMAURICE STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136204447",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717515339",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.37119558,
      -35.10525518
     ]
@@ -111878,6 +111980,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.35379601,
+     -35.11997505
+    ]
+   },
+   "properties": {
+    "name": "7-13 MEURANT AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000065281491",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717709913",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.36123805,
      -35.11310723
     ]
@@ -112708,6 +112829,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.36457042,
+     -35.10437862
+    ]
+   },
+   "properties": {
+    "name": "12-14 LAMPE AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000136183050",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW717746301",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.35082503,
      -35.10533781
     ]
@@ -113482,6 +113623,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.37316565,
+     -35.10598495
+    ]
+   },
+   "properties": {
+    "name": "UNIT 13, 2 STURT STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136208114",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717834021",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.37243163,
      -35.10538439
     ]
@@ -113615,6 +113775,25 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.37316565,
+     -35.10598495
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 2 STURT STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136208180",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717834030",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -113909,6 +114088,25 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2029"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.37061205,
+     -35.10608715
+    ]
+   },
+   "properties": {
+    "name": "20 STURT STREET WAGGA WAGGA 2650",
+    "locID": "LOC000136208180",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717834046",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -114289,10 +114487,9 @@
    "properties": {
     "name": "7 CROSS STREET WAGGA WAGGA 2650",
     "locID": "LOC000090616299",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717979005",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -118931,6 +119128,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.35445493,
+     -35.12117509
+    ]
+   },
+   "properties": {
+    "name": "2-6 MEURANT AVENUE WAGGA WAGGA 2650",
+    "locID": "LOC000068396753",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718646580",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124991,6 +125207,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.34998412,
+     -35.10420987
+    ]
+   },
+   "properties": {
+    "name": "66 SLOCUM STREET WAGGA WAGGA 2650",
+    "locID": "LOC000199418812",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720256690",
+    "tech_change_status": "Not Planned"
    }
   },
   {
