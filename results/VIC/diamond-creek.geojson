@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-08T13:53:51.243320",
+ "generated": "2026-09-24T21:53:10.916472",
  "suburb": "DIAMOND CREEK",
  "features": [
   {
@@ -313,9 +313,9 @@
     "name": "114 PERVERSI AVENUE DIAMOND CREEK 3089",
     "locID": "LOC000093481080",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411237203",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1552,8 +1552,8 @@
    "properties": {
     "name": "231 BROAD GULLY ROAD DIAMOND CREEK 3089",
     "locID": "LOC000088767577",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411241422",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -7770,10 +7770,10 @@
    "properties": {
     "name": "19 CONISTON STREET DIAMOND CREEK 3089",
     "locID": "LOC000088821753",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411258532",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13704,10 +13704,9 @@
    "properties": {
     "name": "30 EDMONDS STREET DIAMOND CREEK 3089",
     "locID": "LOC000103697737",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419812821",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15141,10 +15140,9 @@
    "properties": {
     "name": "4 KINGSBURY COURT DIAMOND CREEK 3089",
     "locID": "LOC000065925164",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419816123",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18261,6 +18259,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.15082171,
+     -37.66951538
+    ]
+   },
+   "properties": {
+    "name": "10 BROAD GULLY ROAD DIAMOND CREEK 3089",
+    "locID": "LOC000029258196",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419915101",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.16550328,
      -37.67707104
     ]
@@ -20046,6 +20063,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.157189,
+     -37.675626
+    ]
+   },
+   "properties": {
+    "name": "15-17 HALEY STREET DIAMOND CREEK 3089",
+    "locID": "LOC000197705366",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420110568"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.157227,
      -37.675933
     ]
@@ -21175,7 +21209,7 @@
     "gnaf_pid": "GAVIC420116123",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -21450,6 +21484,26 @@
     "gnaf_pid": "GAVIC420116186",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.14511,
+     -37.655276
+    ]
+   },
+   "properties": {
+    "name": "175-199 IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC000180812194",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420116188",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -22058,7 +22112,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420119138",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22378,7 +22432,7 @@
     "gnaf_pid": "GAVIC420119644",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -23204,10 +23258,10 @@
    "properties": {
     "name": "16 KIM STREET DIAMOND CREEK 3089",
     "locID": "LOC000035179334",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420125043",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23538,9 +23592,9 @@
     "name": "32 MORAY STREET DIAMOND CREEK 3089",
     "locID": "LOC000016099740",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420127719",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35267,6 +35321,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.14521225,
+     -37.66292308
+    ]
+   },
+   "properties": {
+    "name": "80-98 IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC100056302628",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420716386",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.154874,
      -37.667911
     ]
@@ -36463,10 +36537,9 @@
    "properties": {
     "name": "10 MAIN STREET DIAMOND CREEK 3089",
     "locID": "LOC000088758481",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420725515",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36622,10 +36695,9 @@
    "properties": {
     "name": "8 THE PARKWAY DIAMOND CREEK 3089",
     "locID": "LOC000076006263",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420726373",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37964,6 +38036,46 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420734347",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.14502012,
+     -37.66125935
+    ]
+   },
+   "properties": {
+    "name": "100-156 IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC100056302560",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420735506",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.145091,
+     -37.657853
+    ]
+   },
+   "properties": {
+    "name": "153-161 IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC100056302573",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420735508",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -41584,10 +41696,9 @@
    "properties": {
     "name": "17 GIPSON STREET DIAMOND CREEK 3089",
     "locID": "LOC000075358906",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421004726",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42056,10 +42167,9 @@
    "properties": {
     "name": "396-406 RYANS ROAD DIAMOND CREEK 3089",
     "locID": "LOC000123600695",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421011185",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42860,10 +42970,9 @@
    "properties": {
     "name": "76 CLYDE STREET DIAMOND CREEK 3089",
     "locID": "LOC000021983714",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421014989",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43058,10 +43167,10 @@
    "properties": {
     "name": "57-59 DERING STREET DIAMOND CREEK 3089",
     "locID": "LOC000182954422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421016736",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43647,10 +43756,10 @@
    "properties": {
     "name": "35 LANVOS DRIVE DIAMOND CREEK 3089",
     "locID": "LOC000084733701",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421020083",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43808,9 +43917,9 @@
     "name": "33 MAIN STREET DIAMOND CREEK 3089",
     "locID": "LOC000075557303",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421021928",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44930,10 +45039,9 @@
    "properties": {
     "name": "63 PATYAH STREET DIAMOND CREEK 3089",
     "locID": "LOC000084695774",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421032031",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47123,9 +47231,9 @@
     "name": "3 WAYLAND COURT DIAMOND CREEK 3089",
     "locID": "LOC000070575484",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421304591",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50424,10 +50532,9 @@
    "properties": {
     "name": "48 CLYDE STREET DIAMOND CREEK 3089",
     "locID": "LOC000041303252",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421329936",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50659,7 +50766,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421331630",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58142,10 +58248,9 @@
    "properties": {
     "name": "11 HARRAP COURT DIAMOND CREEK 3089",
     "locID": "LOC000024742130",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421639250",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60388,7 +60493,7 @@
     "gnaf_pid": "GAVIC421717575",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -61285,10 +61390,9 @@
    "properties": {
     "name": "24 PHIPPS CRESCENT DIAMOND CREEK 3089",
     "locID": "LOC000026793267",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421893035",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62014,9 +62118,9 @@
     "name": "7 WENSLEY STREET DIAMOND CREEK 3089",
     "locID": "LOC000086473443",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421903895",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64951,10 +65055,9 @@
    "properties": {
     "name": "9 HOTHAM COURT DIAMOND CREEK 3089",
     "locID": "LOC000094791703",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421931624",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71953,6 +72056,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.14578839,
+     -37.66349541
+    ]
+   },
+   "properties": {
+    "name": "76-78 IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC100056302616",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422300057",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.14456452,
      -37.66428352
     ]
@@ -74231,10 +74354,9 @@
    "properties": {
     "name": "6 COCKATIEL PLACE DIAMOND CREEK 3089",
     "locID": "LOC000091884143",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423136795",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81731,10 +81853,9 @@
    "properties": {
     "name": "16 RIVER GUM CLOSE DIAMOND CREEK 3089",
     "locID": "LOC000081526065",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424087597",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86771,7 +86892,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424873935",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -86925,10 +87046,10 @@
    "properties": {
     "name": "8 GLEN VIEW CLOSE DIAMOND CREEK 3089",
     "locID": "LOC000123622563",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424879248",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -87950,7 +88071,7 @@
     "gnaf_pid": "GAVIC425086658",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Mar 2028"
    }
   },
   {
@@ -94213,6 +94334,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719533209"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.14877465,
+     -37.66829544
+    ]
+   },
+   "properties": {
+    "name": "14B IRONBARK ROAD DIAMOND CREEK 3089",
+    "locID": "LOC000052478324",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719534456",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
