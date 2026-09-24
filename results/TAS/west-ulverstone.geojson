@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-08T06:39:58.654178",
+ "generated": "2026-09-24T15:39:44.865244",
  "suburb": "WEST ULVERSTONE",
  "features": [
   {
@@ -926,10 +926,9 @@
    "properties": {
     "name": "30 ALICE STREET WEST ULVERSTONE 7315",
     "locID": "LOC000021687948",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702185030",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9383,8 +9382,8 @@
    "properties": {
     "name": "52 JOSEPHINE STREET WEST ULVERSTONE 7315",
     "locID": "LOC000039184419",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702269002",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9682,10 +9681,10 @@
    "properties": {
     "name": "13 KYWONG CRESCENT WEST ULVERSTONE 7315",
     "locID": "LOC000083731724",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702272131",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11160,9 +11159,9 @@
     "name": "13 JOSEPHINE STREET WEST ULVERSTONE 7315",
     "locID": "LOC000085126901",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702274623",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11596,10 +11595,9 @@
    "properties": {
     "name": "15 JERLING STREET WEST ULVERSTONE 7315",
     "locID": "LOC000116532578",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702278215",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15615,9 +15613,9 @@
     "name": "5 NIARA COURT WEST ULVERSTONE 7315",
     "locID": "LOC000096074037",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702306386",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17231,10 +17229,9 @@
    "properties": {
     "name": "5 NEIKA COURT WEST ULVERSTONE 7315",
     "locID": "LOC000036961568",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702314218",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20389,9 +20386,9 @@
     "name": "105 SOUTH ROAD WEST ULVERSTONE 7315",
     "locID": "LOC000008363795",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702329463",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22172,10 +22169,9 @@
    "properties": {
     "name": "14 SOUTH ROAD WEST ULVERSTONE 7315",
     "locID": "LOC000056612459",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702339542",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22790,10 +22786,10 @@
    "properties": {
     "name": "107 SOUTH ROAD WEST ULVERSTONE 7315",
     "locID": "LOC000011148029",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702343033",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36313,6 +36309,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.14576528,
+     -41.14502177
+    ]
+   },
+   "properties": {
+    "name": "5 BLAIR COURT WEST ULVERSTONE 7315",
+    "locID": "LOC000152530313",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS717233167",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.14536336,
      -41.14493299
     ]
@@ -37410,10 +37425,9 @@
    "properties": {
     "name": "94 SOUTH ROAD WEST ULVERSTONE 7315",
     "locID": "LOC000071214097",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS717413571",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39843,10 +39857,9 @@
    "properties": {
     "name": "UNIT 1, 15 JERLING STREET WEST ULVERSTONE 7315",
     "locID": "LOC000116532578",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS718236456",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
