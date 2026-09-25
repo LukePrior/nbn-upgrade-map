@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-08T20:56:11.949321",
+ "generated": "2026-09-25T03:47:21.709672",
  "suburb": "VARSITY LAKES",
  "features": [
   {
@@ -704,8 +704,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155739836",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -763,8 +764,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155748827",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2201,8 +2203,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155753420",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2220,8 +2223,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155753421",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2741,10 +2745,9 @@
    "properties": {
     "name": "15 WINDEMERE CRESCENT VARSITY LAKES 4227",
     "locID": "LOC000109458782",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155753802",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11770,10 +11773,10 @@
    "properties": {
     "name": "7 YAMIE AVENUE VARSITY LAKES 4227",
     "locID": "LOC000074962828",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155841354",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15359,10 +15362,9 @@
    "properties": {
     "name": "16 MARCIANA CRESCENT VARSITY LAKES 4227",
     "locID": "LOC000082790083",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155844658",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20871,9 +20873,9 @@
     "name": "13 THORNLEIGH CRESCENT VARSITY LAKES 4227",
     "locID": "LOC000055599972",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155851291",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -25715,10 +25717,9 @@
    "properties": {
     "name": "9 NEPEAN DRIVE VARSITY LAKES 4227",
     "locID": "LOC000005801052",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156018142",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26941,6 +26942,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156054240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.40200563,
+     -28.0910589
+    ]
+   },
+   "properties": {
+    "name": "9 KODIAK DRIVE VARSITY LAKES 4227",
+    "locID": "LOC000101122934",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156054271",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30361,6 +30381,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41201346,
+     -28.07602498
+    ]
+   },
+   "properties": {
+    "name": "98 UNIVERSITY DRIVE VARSITY LAKES 4227",
+    "locID": "LOC000001637447",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157050114"
    }
   },
   {
@@ -34942,10 +34979,9 @@
    "properties": {
     "name": "17 PENNSYLVANIA AVENUE VARSITY LAKES 4227",
     "locID": "LOC000099273383",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157220427",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37160,10 +37196,9 @@
    "properties": {
     "name": "6 WOOLLAHRA COURT VARSITY LAKES 4227",
     "locID": "LOC000080324125",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157227559",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157227559"
    }
   },
   {
@@ -37529,9 +37564,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157230995",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40676,6 +40711,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.42162508,
+     -28.08292547
+    ]
+   },
+   "properties": {
+    "name": "5 MURDOCH PLACE VARSITY LAKES 4227",
+    "locID": "LOC000079530643",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157235076",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.4214437,
      -28.08302225
     ]
@@ -41531,10 +41586,9 @@
    "properties": {
     "name": "8 RICE PLACE VARSITY LAKES 4227",
     "locID": "LOC000087631409",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157238160",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45388,10 +45442,9 @@
    "properties": {
     "name": "21 NOTRE DAME COURT VARSITY LAKES 4227",
     "locID": "LOC000102823082",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157252490",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46095,9 +46148,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157258817",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50834,10 +50887,10 @@
    "properties": {
     "name": "16 ILLINOIS COURT VARSITY LAKES 4227",
     "locID": "LOC000070840503",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157283758",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52708,9 +52761,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160677053",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53447,10 +53500,9 @@
    "properties": {
     "name": "UNIT 2, 2 WOOLLAHRA COURT VARSITY LAKES 4227",
     "locID": "LOC000079963694",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160678506",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160678506"
    }
   },
   {
@@ -53736,9 +53788,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160678926",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53985,9 +54037,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679575",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54005,9 +54057,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54025,9 +54077,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54045,9 +54097,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679578",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54065,9 +54117,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679579",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -54085,9 +54137,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160679580",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -55144,10 +55196,9 @@
    "properties": {
     "name": "UNIT 2, 6 WOOLLAHRA COURT VARSITY LAKES 4227",
     "locID": "LOC000079963694",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160681451",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160681451"
    }
   },
   {
@@ -55313,9 +55364,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160681629",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -55333,9 +55384,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160681630",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56567,9 +56618,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682658",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56587,9 +56638,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682659",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56607,9 +56658,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682660",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56627,9 +56678,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682661",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56647,9 +56698,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682662",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58638,9 +58689,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684716",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58658,9 +58709,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684717",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58678,9 +58729,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684718",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58698,9 +58749,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684719",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58718,9 +58769,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684720",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58738,9 +58789,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684721",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58758,9 +58809,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684722",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58778,9 +58829,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160684723",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59771,9 +59822,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160686413",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59791,9 +59842,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160686414",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60464,9 +60515,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687851",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60538,9 +60589,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687856",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60558,9 +60609,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687857",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60578,9 +60629,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687858",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60598,9 +60649,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687859",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60618,9 +60669,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160687860",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62677,9 +62728,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689925",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62697,9 +62748,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689926",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62717,9 +62768,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689927",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62737,9 +62788,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689928",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62757,9 +62808,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689929",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62777,9 +62828,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689930",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62797,9 +62848,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689931",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62817,9 +62868,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689932",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62837,9 +62888,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689933",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62857,9 +62908,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689934",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62877,9 +62928,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689935",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63081,9 +63132,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689946",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63101,9 +63152,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689947",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63121,9 +63172,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689948",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63141,9 +63192,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689949",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63161,9 +63212,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689950",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63181,9 +63232,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160689951",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63833,10 +63884,9 @@
    "properties": {
     "name": "UNIT 1, 6 WOOLLAHRA COURT VARSITY LAKES 4227",
     "locID": "LOC000080324125",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160692122",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160692122"
    }
   },
   {
@@ -64207,10 +64257,9 @@
    "properties": {
     "name": "UNIT 58, 5 GREENLANDS DRIVE VARSITY LAKES 4227",
     "locID": "LOC000049473933",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160694422",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160694422"
    }
   },
   {
@@ -64764,9 +64813,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160695410",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64784,9 +64833,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160695411",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64991,9 +65040,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160699007",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65011,9 +65060,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160699008",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65031,9 +65080,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160699009",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65826,7 +65875,7 @@
     "gnaf_pid": "GAQLD160709499",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -67694,9 +67743,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160713347",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68265,10 +68314,9 @@
    "properties": {
     "name": "UNIT 2, 31 MAJORCA CRESCENT VARSITY LAKES 4227",
     "locID": "LOC000054659790",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160714151",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68366,7 +68414,7 @@
     "gnaf_pid": "GAQLD160714327",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -68386,7 +68434,7 @@
     "gnaf_pid": "GAQLD160714328",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -68945,7 +68993,7 @@
     "gnaf_pid": "GAQLD160717987",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -68965,7 +69013,7 @@
     "gnaf_pid": "GAQLD160717988",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -68985,7 +69033,7 @@
     "gnaf_pid": "GAQLD160717989",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69005,7 +69053,7 @@
     "gnaf_pid": "GAQLD160717990",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69025,7 +69073,7 @@
     "gnaf_pid": "GAQLD160717991",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69045,7 +69093,7 @@
     "gnaf_pid": "GAQLD160717992",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69065,7 +69113,7 @@
     "gnaf_pid": "GAQLD160717993",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69085,7 +69133,7 @@
     "gnaf_pid": "GAQLD160717994",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69105,7 +69153,7 @@
     "gnaf_pid": "GAQLD160717995",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69125,7 +69173,7 @@
     "gnaf_pid": "GAQLD160717996",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -69245,10 +69293,9 @@
    "properties": {
     "name": "41 GERONA CIRCUIT VARSITY LAKES 4227",
     "locID": "LOC000078120818",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160718637",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69991,7 +70038,7 @@
     "gnaf_pid": "GAQLD160722111",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70011,7 +70058,7 @@
     "gnaf_pid": "GAQLD160722112",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70031,7 +70078,7 @@
     "gnaf_pid": "GAQLD160722113",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70051,7 +70098,7 @@
     "gnaf_pid": "GAQLD160722114",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70071,7 +70118,7 @@
     "gnaf_pid": "GAQLD160722115",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70091,7 +70138,7 @@
     "gnaf_pid": "GAQLD160722116",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70111,7 +70158,7 @@
     "gnaf_pid": "GAQLD160722117",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70131,7 +70178,7 @@
     "gnaf_pid": "GAQLD160722118",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -70151,7 +70198,7 @@
     "gnaf_pid": "GAQLD160722119",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71094,6 +71141,23 @@
     ]
    },
    "properties": {
+    "name": "SHOP 19, 221 CHRISTINE AVENUE VARSITY LAKES 4227",
+    "locID": "LOC000073360209",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160725745"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.42480275,
+     -28.08489764
+    ]
+   },
+   "properties": {
     "name": "SHOP 20, 221 CHRISTINE AVENUE VARSITY LAKES 4227",
     "locID": "LOC000073307208",
     "tech": "HFC",
@@ -71152,7 +71216,7 @@
     "gnaf_pid": "GAQLD160725905",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71172,7 +71236,7 @@
     "gnaf_pid": "GAQLD160725906",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71192,7 +71256,7 @@
     "gnaf_pid": "GAQLD160725907",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71229,7 +71293,7 @@
     "gnaf_pid": "GAQLD160725909",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71249,7 +71313,7 @@
     "gnaf_pid": "GAQLD160725910",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71813,7 +71877,7 @@
     "gnaf_pid": "GAQLD160728334",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -71833,7 +71897,7 @@
     "gnaf_pid": "GAQLD160728335",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -77789,10 +77853,9 @@
    "properties": {
     "name": "37 GERONA CIRCUIT VARSITY LAKES 4227",
     "locID": "LOC000059294302",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160767263",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78023,9 +78086,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160768131",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -78043,9 +78106,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160768132",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -81455,9 +81518,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161054138",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -82494,10 +82557,9 @@
    "properties": {
     "name": "52 BAYSWATER AVENUE VARSITY LAKES 4227",
     "locID": "LOC000017505598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161061375",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82863,10 +82925,9 @@
    "properties": {
     "name": "56 BRIDGEWATER DRIVE VARSITY LAKES 4227",
     "locID": "LOC000094361821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161077448",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85000,7 +85061,7 @@
     "gnaf_pid": "GAQLD161207300",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85020,7 +85081,7 @@
     "gnaf_pid": "GAQLD161207301",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85040,7 +85101,7 @@
     "gnaf_pid": "GAQLD161207302",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85056,11 +85117,11 @@
     "name": "20 LAKE STREET VARSITY LAKES 4227",
     "locID": "LOC000084262050",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161207304",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -85910,6 +85971,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.41401984,
+     -28.0795051
+    ]
+   },
+   "properties": {
+    "name": "22 MOORES CRESCENT VARSITY LAKES 4227",
+    "locID": "LOC000063233940",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161242985",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.41425902,
      -28.07943445
     ]
@@ -85996,10 +86076,9 @@
    "properties": {
     "name": "36 MOORES CRESCENT VARSITY LAKES 4227",
     "locID": "LOC000071046492",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161242991",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87278,7 +87357,7 @@
     "gnaf_pid": "GAQLD161339652",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -87792,10 +87871,9 @@
    "properties": {
     "name": "41 WATTS DRIVE VARSITY LAKES 4227",
     "locID": "LOC000026551436",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161348841",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88880,10 +88958,9 @@
    "properties": {
     "name": "UNIT 1, 3 NORTH SHORE AVENUE VARSITY LAKES 4227",
     "locID": "LOC000020775855",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161664605",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -89063,8 +89140,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161666513",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -90354,8 +90432,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161796168",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -90454,7 +90533,7 @@
     "gnaf_pid": "GAQLD161800535",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90508,7 +90587,7 @@
     "gnaf_pid": "GAQLD161800538",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90579,7 +90658,7 @@
     "gnaf_pid": "GAQLD161800542",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90599,7 +90678,7 @@
     "gnaf_pid": "GAQLD161800543",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90636,7 +90715,7 @@
     "gnaf_pid": "GAQLD161800545",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90656,7 +90735,7 @@
     "gnaf_pid": "GAQLD161800546",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90676,7 +90755,7 @@
     "gnaf_pid": "GAQLD161800547",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90713,7 +90792,7 @@
     "gnaf_pid": "GAQLD161800549",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90733,7 +90812,7 @@
     "gnaf_pid": "GAQLD161800550",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92576,7 +92655,7 @@
     "gnaf_pid": "GAQLD161969455",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92596,7 +92675,7 @@
     "gnaf_pid": "GAQLD161969456",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92616,7 +92695,7 @@
     "gnaf_pid": "GAQLD161969457",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92672,7 +92751,7 @@
     "gnaf_pid": "GAQLD161969460",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92903,7 +92982,7 @@
     "gnaf_pid": "GAQLD161978425",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92923,7 +93002,7 @@
     "gnaf_pid": "GAQLD161978426",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92943,7 +93022,7 @@
     "gnaf_pid": "GAQLD161978427",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92963,7 +93042,7 @@
     "gnaf_pid": "GAQLD161978428",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -92983,7 +93062,7 @@
     "gnaf_pid": "GAQLD161978429",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93003,7 +93082,7 @@
     "gnaf_pid": "GAQLD161978430",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93081,8 +93160,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161981115",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -93100,8 +93180,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161981116",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -93119,8 +93200,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161981117",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -93180,7 +93262,7 @@
     "gnaf_pid": "GAQLD161983493",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93270,7 +93352,7 @@
     "gnaf_pid": "GAQLD161983501",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93360,7 +93442,7 @@
     "gnaf_pid": "GAQLD161983506",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93415,7 +93497,7 @@
     "gnaf_pid": "GAQLD161983509",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93505,7 +93587,7 @@
     "gnaf_pid": "GAQLD161983514",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93823,7 +93905,7 @@
     "gnaf_pid": "GAQLD161983534",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93965,7 +94047,7 @@
     "gnaf_pid": "GAQLD161983542",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94020,7 +94102,7 @@
     "gnaf_pid": "GAQLD161983545",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94164,7 +94246,7 @@
     "gnaf_pid": "GAQLD161983555",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -95054,7 +95136,7 @@
     "gnaf_pid": "GAQLD161983610",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -95298,7 +95380,7 @@
     "gnaf_pid": "GAQLD161983626",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -95490,7 +95572,7 @@
     "gnaf_pid": "GAQLD161983640",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -99178,7 +99260,7 @@
     "gnaf_pid": "GAQLD162073184",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -100584,7 +100666,7 @@
     "gnaf_pid": "GAQLD162303985",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -100604,7 +100686,7 @@
     "gnaf_pid": "GAQLD162303986",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -100716,10 +100798,9 @@
    "properties": {
     "name": "17 CASTELLO CIRCUIT VARSITY LAKES 4227",
     "locID": "LOC000097281700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162344193",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -101262,7 +101343,7 @@
     "gnaf_pid": "GAQLD162355013",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -101988,9 +102069,9 @@
     "name": "UNIT 1, 9 WATTS DRIVE VARSITY LAKES 4227",
     "locID": "LOC000006611261",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162368108",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102279,10 +102360,9 @@
    "properties": {
     "name": "UNIT 3, 56 BRIDGEWATER DRIVE VARSITY LAKES 4227",
     "locID": "LOC000094361821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162381185",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -107225,10 +107305,9 @@
    "properties": {
     "name": "2 WOOLLAHRA COURT VARSITY LAKES 4227",
     "locID": "LOC000079963694",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162484074",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162484074"
    }
   },
   {
@@ -107596,10 +107675,10 @@
    "properties": {
     "name": "10 SALEYA DRIVE VARSITY LAKES 4227",
     "locID": "LOC000085109089",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162521143",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109451,7 +109530,7 @@
     "gnaf_pid": "GAQLD162635625",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109488,7 +109567,7 @@
     "gnaf_pid": "GAQLD162635627",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109525,7 +109604,7 @@
     "gnaf_pid": "GAQLD162635629",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109562,7 +109641,7 @@
     "gnaf_pid": "GAQLD162635631",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109599,7 +109678,7 @@
     "gnaf_pid": "GAQLD162635633",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109636,7 +109715,7 @@
     "gnaf_pid": "GAQLD162635635",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109673,7 +109752,7 @@
     "gnaf_pid": "GAQLD162635637",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109710,7 +109789,7 @@
     "gnaf_pid": "GAQLD162635639",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109747,7 +109826,7 @@
     "gnaf_pid": "GAQLD162635641",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109784,7 +109863,7 @@
     "gnaf_pid": "GAQLD162635643",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109804,7 +109883,7 @@
     "gnaf_pid": "GAQLD162635644",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109943,7 +110022,7 @@
     "gnaf_pid": "GAQLD162635662",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109980,7 +110059,7 @@
     "gnaf_pid": "GAQLD162635674",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110017,7 +110096,7 @@
     "gnaf_pid": "GAQLD162635683",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110054,7 +110133,7 @@
     "gnaf_pid": "GAQLD162635685",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110091,7 +110170,7 @@
     "gnaf_pid": "GAQLD162635687",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110128,7 +110207,7 @@
     "gnaf_pid": "GAQLD162635689",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110165,7 +110244,7 @@
     "gnaf_pid": "GAQLD162635691",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110202,7 +110281,7 @@
     "gnaf_pid": "GAQLD162635693",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -110508,7 +110587,7 @@
     "gnaf_pid": "GAQLD162657899",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111362,7 +111441,7 @@
     "gnaf_pid": "GAQLD162675005",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111382,7 +111461,7 @@
     "gnaf_pid": "GAQLD162675006",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111402,7 +111481,7 @@
     "gnaf_pid": "GAQLD162675007",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111422,7 +111501,7 @@
     "gnaf_pid": "GAQLD162675008",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111442,7 +111521,7 @@
     "gnaf_pid": "GAQLD162675009",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111462,7 +111541,7 @@
     "gnaf_pid": "GAQLD162675010",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111482,7 +111561,7 @@
     "gnaf_pid": "GAQLD162675011",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111502,7 +111581,7 @@
     "gnaf_pid": "GAQLD162675012",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111522,7 +111601,7 @@
     "gnaf_pid": "GAQLD162675013",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111542,7 +111621,7 @@
     "gnaf_pid": "GAQLD162675014",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111562,7 +111641,7 @@
     "gnaf_pid": "GAQLD162675015",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111582,7 +111661,7 @@
     "gnaf_pid": "GAQLD162675016",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112886,7 +112965,7 @@
     "gnaf_pid": "GAQLD162751924",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112906,7 +112985,7 @@
     "gnaf_pid": "GAQLD162751925",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112926,7 +113005,7 @@
     "gnaf_pid": "GAQLD162751926",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112946,7 +113025,7 @@
     "gnaf_pid": "GAQLD162751927",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112966,7 +113045,7 @@
     "gnaf_pid": "GAQLD162751928",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -112986,7 +113065,7 @@
     "gnaf_pid": "GAQLD162751929",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113006,7 +113085,7 @@
     "gnaf_pid": "GAQLD162751930",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113026,7 +113105,7 @@
     "gnaf_pid": "GAQLD162751931",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113046,7 +113125,7 @@
     "gnaf_pid": "GAQLD162751932",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113066,7 +113145,7 @@
     "gnaf_pid": "GAQLD162751933",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113086,7 +113165,7 @@
     "gnaf_pid": "GAQLD162751934",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113106,7 +113185,7 @@
     "gnaf_pid": "GAQLD162751935",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113126,7 +113205,7 @@
     "gnaf_pid": "GAQLD162751936",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113146,7 +113225,7 @@
     "gnaf_pid": "GAQLD162751937",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113166,7 +113245,7 @@
     "gnaf_pid": "GAQLD162751938",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113186,7 +113265,7 @@
     "gnaf_pid": "GAQLD162751939",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113206,7 +113285,7 @@
     "gnaf_pid": "GAQLD162751940",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113226,7 +113305,7 @@
     "gnaf_pid": "GAQLD162751941",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113246,7 +113325,7 @@
     "gnaf_pid": "GAQLD162751942",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113266,7 +113345,7 @@
     "gnaf_pid": "GAQLD162751943",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113286,7 +113365,7 @@
     "gnaf_pid": "GAQLD162751944",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113306,7 +113385,7 @@
     "gnaf_pid": "GAQLD162751945",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113326,7 +113405,7 @@
     "gnaf_pid": "GAQLD162751946",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113346,7 +113425,7 @@
     "gnaf_pid": "GAQLD162751947",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113366,7 +113445,7 @@
     "gnaf_pid": "GAQLD162751948",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113386,7 +113465,7 @@
     "gnaf_pid": "GAQLD162751949",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113406,7 +113485,7 @@
     "gnaf_pid": "GAQLD162751950",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113426,7 +113505,7 @@
     "gnaf_pid": "GAQLD162751951",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113446,7 +113525,7 @@
     "gnaf_pid": "GAQLD162751952",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113466,7 +113545,7 @@
     "gnaf_pid": "GAQLD162751953",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113486,7 +113565,7 @@
     "gnaf_pid": "GAQLD162751954",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113506,7 +113585,7 @@
     "gnaf_pid": "GAQLD162751955",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113526,7 +113605,7 @@
     "gnaf_pid": "GAQLD162751956",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113546,7 +113625,7 @@
     "gnaf_pid": "GAQLD162751957",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113566,7 +113645,7 @@
     "gnaf_pid": "GAQLD162751958",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113586,7 +113665,7 @@
     "gnaf_pid": "GAQLD162751959",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113606,7 +113685,7 @@
     "gnaf_pid": "GAQLD162751960",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113626,7 +113705,7 @@
     "gnaf_pid": "GAQLD162751961",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113646,7 +113725,7 @@
     "gnaf_pid": "GAQLD162751962",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113666,7 +113745,7 @@
     "gnaf_pid": "GAQLD162751963",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113686,7 +113765,7 @@
     "gnaf_pid": "GAQLD162751964",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113706,7 +113785,7 @@
     "gnaf_pid": "GAQLD162751965",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113726,7 +113805,7 @@
     "gnaf_pid": "GAQLD162751966",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113746,7 +113825,7 @@
     "gnaf_pid": "GAQLD162751967",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113766,7 +113845,7 @@
     "gnaf_pid": "GAQLD162751968",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113786,7 +113865,7 @@
     "gnaf_pid": "GAQLD162751969",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113843,7 +113922,7 @@
     "gnaf_pid": "GAQLD162823891",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113937,7 +114016,7 @@
     "gnaf_pid": "GAQLD162828084",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -116197,7 +116276,7 @@
     "gnaf_pid": "GAQLD162852560",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -116760,9 +116839,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162941115",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -116815,9 +116894,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162941118",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -119553,7 +119632,7 @@
     "gnaf_pid": "GAQLD163028566",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -119649,7 +119728,7 @@
     "gnaf_pid": "GAQLD163028571",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -127646,6 +127725,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163224997",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.41416862,
+     -28.08006233
+    ]
+   },
+   "properties": {
+    "name": "9 MOORES CRESCENT VARSITY LAKES 4227",
+    "locID": "LOC000062860018",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163234474",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -147161,7 +147259,7 @@
     "gnaf_pid": "GAQLD719927847",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147181,7 +147279,7 @@
     "gnaf_pid": "GAQLD719927848",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147201,7 +147299,7 @@
     "gnaf_pid": "GAQLD719928441",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147221,7 +147319,7 @@
     "gnaf_pid": "GAQLD719928849",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147241,7 +147339,7 @@
     "gnaf_pid": "GAQLD719928850",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147261,7 +147359,7 @@
     "gnaf_pid": "GAQLD719930299",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147281,7 +147379,7 @@
     "gnaf_pid": "GAQLD719930405",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147301,7 +147399,7 @@
     "gnaf_pid": "GAQLD719930814",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147321,7 +147419,7 @@
     "gnaf_pid": "GAQLD719932251",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147341,7 +147439,7 @@
     "gnaf_pid": "GAQLD719932298",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147361,7 +147459,7 @@
     "gnaf_pid": "GAQLD719932310",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147381,7 +147479,7 @@
     "gnaf_pid": "GAQLD719932334",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147401,7 +147499,7 @@
     "gnaf_pid": "GAQLD719932692",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147421,7 +147519,7 @@
     "gnaf_pid": "GAQLD719933236",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147441,7 +147539,7 @@
     "gnaf_pid": "GAQLD719933597",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147461,7 +147559,7 @@
     "gnaf_pid": "GAQLD719933820",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147481,7 +147579,7 @@
     "gnaf_pid": "GAQLD719934190",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147501,7 +147599,7 @@
     "gnaf_pid": "GAQLD719934569",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147521,7 +147619,7 @@
     "gnaf_pid": "GAQLD719934772",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147541,7 +147639,7 @@
     "gnaf_pid": "GAQLD719935147",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147561,7 +147659,7 @@
     "gnaf_pid": "GAQLD719935148",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -149572,7 +149670,7 @@
     "gnaf_pid": "GAQLD720205130",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2026"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
