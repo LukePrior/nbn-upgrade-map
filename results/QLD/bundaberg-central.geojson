@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T18:12:48.568568",
+ "generated": "2026-09-25T22:08:26.342647",
  "suburb": "BUNDABERG CENTRAL",
  "features": [
   {
@@ -192,10 +192,10 @@
    "properties": {
     "name": "7 ELECTRA STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000088459474",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155078019",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -391,6 +391,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155079783",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3344,10 +3345,10 @@
    "properties": {
     "name": "85 GEORGE STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000019932138",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155095766",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4423,6 +4424,25 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.35249195,
+     -24.86467994
+    ]
+   },
+   "properties": {
+    "name": "47 BOURBONG STREET BUNDABERG CENTRAL 4670",
+    "locID": "LOC000031524770",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156344220",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -7089,26 +7109,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.34624249,
-     -24.86908471
-    ]
-   },
-   "properties": {
-    "name": "16 MCLEAN STREET BUNDABERG CENTRAL 4670",
-    "locID": "LOC000041678486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD156353670",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.34690356,
      -24.87237209
     ]
@@ -7690,9 +7690,9 @@
     "name": "6 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538253",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156355427",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -9876,9 +9876,9 @@
     "name": "UNIT 3, 21 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538028",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160279939",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -13227,9 +13227,9 @@
     "name": "UNIT 1, 21 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538000",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160296051",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -13247,9 +13247,9 @@
     "name": "UNIT 2, 21 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538000",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160296052",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -14391,6 +14391,45 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160301406",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.35093067,
+     -24.86559986
+    ]
+   },
+   "properties": {
+    "name": "34 BOURBONG STREET BUNDABERG CENTRAL 4670",
+    "locID": "LOC000173321074",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160301409",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.35093067,
+     -24.86559986
+    ]
+   },
+   "properties": {
+    "name": "41 BOURBONG STREET BUNDABERG CENTRAL 4670",
+    "locID": "LOC000012529735",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160301412",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -16031,9 +16070,9 @@
     "name": "21 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538000",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160769871",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -16271,6 +16310,25 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.34727366,
+     -24.87079771
+    ]
+   },
+   "properties": {
+    "name": "19 MARYBOROUGH STREET BUNDABERG CENTRAL 4670",
+    "locID": "LOC000072248122",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161446624",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20568,7 +20626,7 @@
    "properties": {
     "name": "UNIT 2, 2 BOURBONG STREET BUNDABERG CENTRAL 4670",
     "locID": "LOC000136538016",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163099626",
     "tech_change_status": "MDU Complex Eligible To Apply",
