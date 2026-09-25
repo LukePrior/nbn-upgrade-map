@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-08T23:39:48.912754",
+ "generated": "2026-09-25T05:53:32.369762",
  "suburb": "MOOLOOLABA",
  "features": [
   {
@@ -1945,7 +1945,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155562780",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2117,10 +2116,9 @@
    "properties": {
     "name": "70 PARKWAY DRIVE MOOLOOLABA 4557",
     "locID": "LOC000051362174",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155562794",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4188,10 +4186,10 @@
    "properties": {
     "name": "28 META STREET MOOLOOLABA 4557",
     "locID": "LOC000010933402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155563860",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7804,10 +7802,9 @@
    "properties": {
     "name": "125 AMARINA AVENUE MOOLOOLABA 4557",
     "locID": "LOC000084524862",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155567209",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9258,11 +9255,12 @@
    "properties": {
     "name": "12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084394746",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155569125",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9298,10 +9296,11 @@
     "name": "16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003407557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155569132",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11336,7 +11335,7 @@
     "name": "34 BALYARTA CRESCENT MOOLOOLABA 4557",
     "locID": "LOC000005915069",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155572873",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13648,25 +13647,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.11844605,
-     -26.68510833
-    ]
-   },
-   "properties": {
-    "name": "73 BRISBANE ROAD MOOLOOLABA 4557",
-    "locID": "LOC000072713418",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155574639",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.11444661,
      -26.67639735
     ]
@@ -13694,10 +13674,11 @@
     "name": "15 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069055539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155574645",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13792,6 +13773,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155574652",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11246931,
+     -26.67626266
+    ]
+   },
+   "properties": {
+    "name": "33 BUDERIM AVENUE MOOLOOLABA 4557",
+    "locID": "LOC000094391582",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155574653",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -15776,10 +15776,10 @@
    "properties": {
     "name": "11 FIRST AVENUE MOOLOOLABA 4557",
     "locID": "LOC000030820230",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155575158",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -18249,10 +18249,11 @@
     "name": "10 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000109907046",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155580085",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21897,10 +21898,10 @@
    "properties": {
     "name": "23 TARWARRI CRESCENT MOOLOOLABA 4557",
     "locID": "LOC000091518280",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156815891",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24442,10 +24443,9 @@
    "properties": {
     "name": "11 COOLAMON COURT MOOLOOLABA 4557",
     "locID": "LOC000038091031",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156816742",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24542,10 +24542,11 @@
     "name": "UNIT 1, 10 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000109907046",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156816749",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24560,11 +24561,12 @@
    "properties": {
     "name": "UNIT 2, 10 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000109832894",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156816750",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24580,10 +24582,11 @@
     "name": "UNIT 3, 10 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000109907046",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156816751",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24599,10 +24602,11 @@
     "name": "UNIT 4, 10 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000109907046",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156816752",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26223,7 +26227,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156819958",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31811,6 +31814,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11570585,
+     -26.69475257
+    ]
+   },
+   "properties": {
+    "name": "205 BRISBANE ROAD MOOLOOLABA 4557",
+    "locID": "LOC000198317947",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156827440"
    }
   },
   {
@@ -38541,10 +38561,10 @@
    "properties": {
     "name": "1 KOALA COURT MOOLOOLABA 4557",
     "locID": "LOC000053483309",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156840303",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47821,11 +47841,12 @@
    "properties": {
     "name": "UNIT 1, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084394746",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156851329",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47841,10 +47862,11 @@
     "name": "UNIT 2, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084690946",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851330",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47859,11 +47881,12 @@
    "properties": {
     "name": "UNIT 3, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084644475",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156851331",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47879,10 +47902,11 @@
     "name": "UNIT 4, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084392687",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851332",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47898,10 +47922,11 @@
     "name": "UNIT 5, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084545280",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851333",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47916,11 +47941,12 @@
    "properties": {
     "name": "UNIT 6, 12 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000084394746",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156851334",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48070,10 +48096,11 @@
     "name": "UNIT 1, 16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003407557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851360",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48089,10 +48116,11 @@
     "name": "UNIT 2, 16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003385319",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851361",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48108,10 +48136,11 @@
     "name": "UNIT 3, 16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003295267",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851362",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48127,10 +48156,11 @@
     "name": "UNIT 4, 16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003407557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851363",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48146,10 +48176,11 @@
     "name": "UNIT 5, 16 PANGARINDA PLACE MOOLOOLABA 4557",
     "locID": "LOC000003262327",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156851364",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48781,10 +48812,9 @@
    "properties": {
     "name": "89 BRENTWOOD AVENUE MOOLOOLABA 4557",
     "locID": "LOC000013607861",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156851665",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58173,6 +58203,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.11776016,
+     -26.6814139
+    ]
+   },
+   "properties": {
+    "name": "30 SMITH STREET MOOLOOLABA 4557",
+    "locID": "LOC000187074668",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156861887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.11807865,
      -26.68203329
     ]
@@ -60391,7 +60438,7 @@
     "name": "35 META STREET MOOLOOLABA 4557",
     "locID": "LOC000005807652",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156862456",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -62907,6 +62954,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.11837705,
+     -26.68473823
+    ]
+   },
+   "properties": {
+    "name": "94 RIVER ESPLANADE MOOLOOLABA 4557",
+    "locID": "LOC000094651185",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156865537",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.11844605,
      -26.68510833
     ]
@@ -64445,8 +64511,8 @@
    "properties": {
     "name": "16 LENTARA CRESCENT MOOLOOLABA 4557",
     "locID": "LOC000079795449",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156868556",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -65535,9 +65601,9 @@
     "name": "2 ARUMA COURT MOOLOOLABA 4557",
     "locID": "LOC000041534491",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156869035",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65672,10 +65738,9 @@
    "properties": {
     "name": "11 AWOONGA COURT MOOLOOLABA 4557",
     "locID": "LOC000087990077",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156869042",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73590,10 +73655,11 @@
     "name": "UNIT 4, 15 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069055539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158298603",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -75605,10 +75671,11 @@
     "name": "UNIT 7, 15 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069055539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158305056",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -75777,10 +75844,11 @@
     "name": "UNIT 6, 15 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069055539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158305149",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -85561,9 +85629,9 @@
     "name": "UNIT 1, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068950044",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160097804",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -85581,9 +85649,9 @@
     "name": "UNIT 2, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069013843",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160097805",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -85600,7 +85668,7 @@
    "properties": {
     "name": "UNIT 3, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069041225",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160097806",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -85620,9 +85688,9 @@
     "name": "UNIT 4, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068950044",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160097807",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -87271,9 +87339,9 @@
     "name": "UNIT 7, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068964636",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160100441",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -87291,9 +87359,9 @@
     "name": "UNIT 11, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000070006953",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160100442",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -87331,9 +87399,9 @@
     "name": "UNIT 12, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069093956",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160100445",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -87350,10 +87418,9 @@
    "properties": {
     "name": "159 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069991891",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160100461",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87371,9 +87438,9 @@
     "name": "UNIT 5, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068986661",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160100463",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -92021,9 +92088,9 @@
     "name": "UNIT 6, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068879716",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160120265",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -92040,7 +92107,7 @@
    "properties": {
     "name": "UNIT 8, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068884039",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160120266",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -92060,9 +92127,9 @@
     "name": "UNIT 9, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069821156",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160120267",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -92080,9 +92147,9 @@
     "name": "UNIT 10, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068595119",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160120268",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -92100,9 +92167,9 @@
     "name": "UNIT 13, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068950044",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160120269",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -92119,7 +92186,7 @@
    "properties": {
     "name": "UNIT 14, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068859419",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160120270",
     "tech_change_status": "MDU Complex Eligible To Apply",
@@ -92139,10 +92206,11 @@
     "name": "UNIT 15, 67-73 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000069055539",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160120271",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -94441,9 +94509,9 @@
     "name": "67 BUDERIM AVENUE MOOLOOLABA 4557",
     "locID": "LOC000068817399",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160810551",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -120020,10 +120088,10 @@
    "properties": {
     "name": "2 META STREET MOOLOOLABA 4557",
     "locID": "LOC000010933402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162995810",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -121511,6 +121579,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163356668",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11477641,
+     -26.68127797
+    ]
+   },
+   "properties": {
+    "name": "11 BAROOGA CRESCENT MOOLOOLABA 4557",
+    "locID": "LOC000047301134",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163356684",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -135313,6 +135400,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.11246931,
+     -26.67626266
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 33 BUDERIM AVENUE MOOLOOLABA 4557",
+    "locID": "LOC000172122792",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720691543",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.11378226,
      -26.67660248
     ]
@@ -136260,10 +136366,10 @@
    "properties": {
     "name": "UNIT 1, 11 FIRST AVENUE MOOLOOLABA 4557",
     "locID": "LOC000030820230",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721149821",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }

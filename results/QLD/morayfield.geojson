@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T00:02:52.242099",
+ "generated": "2026-09-25T06:11:34.811982",
  "suburb": "MORAYFIELD",
  "features": [
   {
@@ -686,10 +686,9 @@
    "properties": {
     "name": "25 EVERT COURT MORAYFIELD 4506",
     "locID": "LOC000034775885",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155120298",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1276,11 +1275,11 @@
     "name": "87 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000060503472",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155574009",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1296,11 +1295,11 @@
     "name": "9 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000181326150",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155574010",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2162,7 +2161,7 @@
     "gnaf_pid": "GAQLD155576599",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -2177,12 +2176,12 @@
    "properties": {
     "name": "58 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000094411939",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155576600",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4381,10 +4380,10 @@
    "properties": {
     "name": "5 MULKA COURT MORAYFIELD 4506",
     "locID": "LOC000051104424",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155577251",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6079,10 +6078,10 @@
    "properties": {
     "name": "32 HOAD STREET MORAYFIELD 4506",
     "locID": "LOC000080508269",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155577720",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7731,10 +7730,9 @@
    "properties": {
     "name": "8 NICOLE STREET MORAYFIELD 4506",
     "locID": "LOC000082952785",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155578040",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9812,6 +9810,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.94481523,
+     -27.12443309
+    ]
+   },
+   "properties": {
+    "name": "162 OAKEY FLAT ROAD MORAYFIELD 4506",
+    "locID": "LOC000021550594",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD155579110",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.94887652,
      -27.11197759
     ]
@@ -9825,6 +9843,40 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94178358,
+     -27.12736214
+    ]
+   },
+   "properties": {
+    "name": "202 OAKEY FLAT ROAD MORAYFIELD 4506",
+    "locID": "LOC000199428648",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155579117"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9418835,
+     -27.12799723
+    ]
+   },
+   "properties": {
+    "name": "210 OAKEY FLAT ROAD MORAYFIELD 4506",
+    "locID": "LOC000198434204",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155579118"
    }
   },
   {
@@ -16595,10 +16647,9 @@
    "properties": {
     "name": "15 SEDGMAN STREET MORAYFIELD 4506",
     "locID": "LOC000079684836",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155582515",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18527,10 +18578,9 @@
    "properties": {
     "name": "15 MARIA COURT MORAYFIELD 4506",
     "locID": "LOC000024104319",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155583457",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18630,6 +18680,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155583499",
     "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93249613,
+     -27.10126264
+    ]
+   },
+   "properties": {
+    "name": "7-9 RONALD COURT MORAYFIELD 4506",
+    "locID": "LOC000145664837",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155583500",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19018,10 +19087,9 @@
    "properties": {
     "name": "19 ALEXANDER CRESCENT MORAYFIELD 4506",
     "locID": "LOC000014100214",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155584117",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22524,9 +22592,9 @@
     "name": "18 GRAHAM ROAD MORAYFIELD 4506",
     "locID": "LOC000093857874",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155585580",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26400,12 +26468,12 @@
    "properties": {
     "name": "16 LAKEVIEW ROAD MORAYFIELD 4506",
     "locID": "LOC000025686655",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155587401",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31284,7 +31352,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155589647",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31320,10 +31388,9 @@
    "properties": {
     "name": "21 CRESTWELL CLOSE MORAYFIELD 4506",
     "locID": "LOC000001740441",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155589650",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33591,9 +33658,9 @@
     "name": "7 LOREBURY DRIVE MORAYFIELD 4506",
     "locID": "LOC000045945931",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156041935",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33860,9 +33927,9 @@
     "name": "15 CRESTWOOD AVENUE MORAYFIELD 4506",
     "locID": "LOC000093130577",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156044011",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34601,10 +34668,9 @@
    "properties": {
     "name": "4 CRESTA COURT MORAYFIELD 4506",
     "locID": "LOC000035817522",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156054607",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35246,8 +35312,8 @@
    "properties": {
     "name": "11 GLENMAY COURT MORAYFIELD 4506",
     "locID": "LOC000107155910",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156054750",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37138,11 +37204,11 @@
     "name": "244 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000020058683",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156080550",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38092,10 +38158,9 @@
    "properties": {
     "name": "40 SHERWOOD STREET MORAYFIELD 4506",
     "locID": "LOC000097556892",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156820544",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38942,11 +39007,11 @@
     "name": "95 WILLIAMSON ROAD MORAYFIELD 4506",
     "locID": "LOC000027525408",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156844838",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42785,10 +42850,9 @@
    "properties": {
     "name": "110-112 MADELINE DRIVE MORAYFIELD 4506",
     "locID": "LOC000043003526",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD156884058",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156884058"
    }
   },
   {
@@ -42823,10 +42887,9 @@
    "properties": {
     "name": "139-141 MADELINE DRIVE MORAYFIELD 4506",
     "locID": "LOC000034263092",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156884062",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44000,10 +44063,9 @@
    "properties": {
     "name": "29 GLENWOOD DRIVE MORAYFIELD 4506",
     "locID": "LOC000064562635",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156894858",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44196,11 +44258,11 @@
     "name": "179 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000186856803",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156894881",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44216,11 +44278,11 @@
     "name": "195 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000023595396",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156894882",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47407,10 +47469,10 @@
    "properties": {
     "name": "356-360 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000128366817",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156905539",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48601,10 +48663,10 @@
    "properties": {
     "name": "20 KIRKCALDY STREET MORAYFIELD 4506",
     "locID": "LOC000039196581",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156912494",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50237,11 +50299,11 @@
     "name": "19 LAKEVIEW ROAD MORAYFIELD 4506",
     "locID": "LOC000009415451",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156923025",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50256,10 +50318,9 @@
    "properties": {
     "name": "250 PETERSEN ROAD MORAYFIELD 4506",
     "locID": "LOC000045990507",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156923041",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156923041"
    }
   },
   {
@@ -50411,7 +50472,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156923167",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52531,10 +52592,9 @@
    "properties": {
     "name": "67 BUCHANAN ROAD MORAYFIELD 4506",
     "locID": "LOC000103705416",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158290096",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54012,11 +54072,11 @@
     "name": "1 LAKEVIEW ROAD MORAYFIELD 4506",
     "locID": "LOC000099029201",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158297711",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56251,11 +56311,11 @@
     "name": "97 WILLIAMSON ROAD MORAYFIELD 4506",
     "locID": "LOC000026627912",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158303741",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57009,12 +57069,12 @@
    "properties": {
     "name": "86 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000054698086",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158304105",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57415,7 +57475,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158304571",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58520,6 +58580,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.93892778,
+     -27.1277457
+    ]
+   },
+   "properties": {
+    "name": "10 BURBURY ROAD MORAYFIELD 4506",
+    "locID": "LOC000196656577",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158305507"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.93459992,
      -27.12835336
     ]
@@ -58528,11 +58605,11 @@
     "name": "50 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000061287583",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158305508",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60800,11 +60877,11 @@
     "name": "236 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000017522110",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158307948",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60879,6 +60956,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158307961"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93946221,
+     -27.12785392
+    ]
+   },
+   "properties": {
+    "name": "4 BURBURY ROAD MORAYFIELD 4506",
+    "locID": "LOC000196656512",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158307963"
    }
   },
   {
@@ -61677,11 +61771,11 @@
     "name": "33 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000190239833",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158309243",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63819,12 +63913,12 @@
    "properties": {
     "name": "205 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000050214948",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158310697",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65102,11 +65196,11 @@
     "name": "67 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000022674611",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158313168",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65973,12 +66067,12 @@
    "properties": {
     "name": "74 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000064100211",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158314144",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65994,11 +66088,11 @@
     "name": "49 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000033614367",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158314145",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -66788,11 +66882,11 @@
     "name": "260 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000023957309",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158314976",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -68255,9 +68349,9 @@
     "name": "20 MAWSON DRIVE MORAYFIELD 4506",
     "locID": "LOC000030800745",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158317798",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69852,11 +69946,11 @@
     "name": "120 CLARK ROAD MORAYFIELD 4506",
     "locID": "LOC000087677734",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158320565",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71360,6 +71454,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.97290704,
+     -27.10944346
+    ]
+   },
+   "properties": {
+    "name": "200 BUCHANAN ROAD MORAYFIELD 4506",
+    "locID": "LOC000196831713",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158323527"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.95966582,
      -27.10812065
     ]
@@ -71697,11 +71808,11 @@
     "name": "87 WILLIAMSON ROAD MORAYFIELD 4506",
     "locID": "LOC000032504338",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158324211",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -73825,10 +73936,9 @@
    "properties": {
     "name": "2 HARRY COURT MORAYFIELD 4506",
     "locID": "LOC000025703038",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158325889",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -74141,11 +74251,11 @@
     "name": "270 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000035711573",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158326142",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -74214,11 +74324,11 @@
     "name": "131 CLARK ROAD MORAYFIELD 4506",
     "locID": "LOC000030732243",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158326779",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -75762,11 +75872,11 @@
     "name": "228 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000055221141",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD158329903",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -76137,11 +76247,11 @@
     "name": "66 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000022439417",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158343568",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -76266,10 +76376,9 @@
    "properties": {
     "name": "308-314 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000047919704",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159966446",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -76585,10 +76694,9 @@
    "properties": {
     "name": "25 RONALD COURT MORAYFIELD 4506",
     "locID": "LOC000034321170",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159979266",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78291,6 +78399,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.9326687,
+     -27.10120165
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 7-9 RONALD COURT MORAYFIELD 4506",
+    "locID": "LOC000145664837",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD159993502",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.96087954,
      -27.1161496
     ]
@@ -78670,7 +78797,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159996012",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -81350,12 +81477,12 @@
    "properties": {
     "name": "276-284 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000046789399",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160004592",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -81455,7 +81582,7 @@
     "gnaf_pid": "GAQLD160005317",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -81547,7 +81674,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160006229",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -83831,10 +83958,9 @@
    "properties": {
     "name": "25 GROGAN ROAD MORAYFIELD 4506",
     "locID": "LOC000042089683",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160014565",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90691,11 +90817,11 @@
     "name": "77-87 BRIDGES ROAD MORAYFIELD 4506",
     "locID": "LOC000004088701",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160036093",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -91937,10 +92063,10 @@
    "properties": {
     "name": "14 MAURICE AVENUE MORAYFIELD 4506",
     "locID": "LOC000013545088",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160700318",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92047,10 +92173,9 @@
    "properties": {
     "name": "55 GLENWOOD DRIVE MORAYFIELD 4506",
     "locID": "LOC000064562635",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160700491",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92361,10 +92486,9 @@
    "properties": {
     "name": "5 HINKLER STREET MORAYFIELD 4506",
     "locID": "LOC000003377954",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160721857",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92594,10 +92718,9 @@
    "properties": {
     "name": "81-83 NAIRN ROAD MORAYFIELD 4506",
     "locID": "LOC000046970422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160769410",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94411,10 +94534,10 @@
    "properties": {
     "name": "1 GLENMAY COURT MORAYFIELD 4506",
     "locID": "LOC000085610108",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161014232",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96290,9 +96413,9 @@
     "name": "227-231 WILLIAMSON ROAD MORAYFIELD 4506",
     "locID": "LOC000004900780",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161372796",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96911,10 +97034,9 @@
    "properties": {
     "name": "25-27 BURGUNDY DRIVE MORAYFIELD 4506",
     "locID": "LOC000003411357",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161429107",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161429107"
    }
   },
   {
@@ -100476,8 +100598,8 @@
    "properties": {
     "name": "19 JACKWOOD COURT MORAYFIELD 4506",
     "locID": "LOC000046994621",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161441101",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -103865,6 +103987,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.94911604,
+     -27.11156024
+    ]
+   },
+   "properties": {
+    "name": "16 OAKEY FLAT ROAD MORAYFIELD 4506",
+    "locID": "LOC000084272030",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161450886",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.94044866,
      -27.13149368
     ]
@@ -103873,11 +104015,11 @@
     "name": "248-254 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000097517749",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161450888",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -103893,11 +104035,11 @@
     "name": "257-261 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000128354491",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161450889",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -104400,10 +104542,9 @@
    "properties": {
     "name": "21 PENDA STREET MORAYFIELD 4506",
     "locID": "LOC000073909445",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161452697",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -104619,6 +104760,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161452996"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94548292,
+     -27.11008164
+    ]
+   },
+   "properties": {
+    "name": "26-38 PETERSEN ROAD MORAYFIELD 4506",
+    "locID": "LOC000113636357",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161452997",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108480,10 +108640,9 @@
    "properties": {
     "name": "30 RIVERBEND CRESCENT MORAYFIELD 4506",
     "locID": "LOC000060194738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161981380",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161981380"
    }
   },
   {
@@ -109382,10 +109541,10 @@
    "properties": {
     "name": "20 EVERT COURT MORAYFIELD 4506",
     "locID": "LOC000018359551",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162026729",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109522,11 +109681,11 @@
     "name": "11-13 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000106025378",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044172",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109542,11 +109701,11 @@
     "name": "15-19 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128383660",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044173",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109562,11 +109721,11 @@
     "name": "1-3 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128357201",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044174",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109581,12 +109740,12 @@
    "properties": {
     "name": "20-26 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000003321663",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162044175",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109602,11 +109761,11 @@
     "name": "21-25 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128402827",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044176",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109622,11 +109781,11 @@
     "name": "35-39 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128366758",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162044179",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109642,11 +109801,11 @@
     "name": "41-43 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000082840437",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044181",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109662,11 +109821,11 @@
     "name": "51-53 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128380749",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044183",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109682,11 +109841,11 @@
     "name": "55-57 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000058669891",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044184",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109702,11 +109861,11 @@
     "name": "59-61 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000051218737",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044185",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109722,11 +109881,11 @@
     "name": "60-76 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000022536759",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162044187",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109742,11 +109901,11 @@
     "name": "63-67 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000089416848",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162044188",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109762,11 +109921,11 @@
     "name": "69-71 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000066902741",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044189",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109782,11 +109941,11 @@
     "name": "73-75 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128397289",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044190",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109802,11 +109961,11 @@
     "name": "77-85 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128400213",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162044191",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109821,12 +109980,12 @@
    "properties": {
     "name": "78-80 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000102973452",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162044192",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -109842,11 +110001,11 @@
     "name": "82-84 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128351928",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162044193",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -111967,11 +112126,11 @@
     "name": "12-14 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128369754",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162164575",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -111987,11 +112146,11 @@
     "name": "16-18 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000050875930",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162164576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -114251,7 +114410,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162296198",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -116197,10 +116356,9 @@
    "properties": {
     "name": "37 DENSON STREET MORAYFIELD 4506",
     "locID": "LOC000025753497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162372799",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -116650,11 +116808,11 @@
     "name": "54-58 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000040242817",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162375346",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -117277,11 +117435,11 @@
     "name": "40-52 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000006604624",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162384667",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -117317,11 +117475,11 @@
     "name": "28-32 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000034879014",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162435927",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -117337,11 +117495,11 @@
     "name": "34-38 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128366715",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162435928",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -117840,10 +117998,9 @@
    "properties": {
     "name": "6 BLUEGRASS PLACE MORAYFIELD 4506",
     "locID": "LOC000047177296",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162462294",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -118638,7 +118795,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162474801",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -122825,10 +122982,9 @@
    "properties": {
     "name": "8 SHIELDS COURT MORAYFIELD 4506",
     "locID": "LOC000041948651",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162620541",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126106,11 +126262,11 @@
     "name": "40 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000006604624",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162735715",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -128780,10 +128936,9 @@
    "properties": {
     "name": "10 BANDICOOT STREET MORAYFIELD 4506",
     "locID": "LOC000039854108",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162852109",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -131619,10 +131774,9 @@
    "properties": {
     "name": "24 KOALA DRIVE MORAYFIELD 4506",
     "locID": "LOC000053461003",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162940802",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -133290,8 +133444,8 @@
    "properties": {
     "name": "42 ACEMIA DRIVE MORAYFIELD 4506",
     "locID": "LOC000016634824",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163065705",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -137079,10 +137233,9 @@
    "properties": {
     "name": "18 BRAHEEM STREET MORAYFIELD 4506",
     "locID": "LOC000067272272",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163183983",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -137887,10 +138040,9 @@
    "properties": {
     "name": "10 LACEBARK STREET MORAYFIELD 4506",
     "locID": "LOC000044623272",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163188890",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -140796,9 +140948,9 @@
     "name": "16 CYAN COURT MORAYFIELD 4506",
     "locID": "LOC000099239989",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163231481",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -141071,10 +141223,9 @@
    "properties": {
     "name": "1-7 FIRETAIL COURT MORAYFIELD 4506",
     "locID": "LOC000065766479",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163232313",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -143112,10 +143263,9 @@
    "properties": {
     "name": "27 SOWARD COURT MORAYFIELD 4506",
     "locID": "LOC000058564219",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163267468",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -145539,10 +145689,9 @@
    "properties": {
     "name": "9 EDI COURT MORAYFIELD 4506",
     "locID": "LOC000112832220",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163325817",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -151031,10 +151180,9 @@
    "properties": {
     "name": "132 GRAHAM ROAD MORAYFIELD 4506",
     "locID": "LOC000128376647",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424941668",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -157227,12 +157375,12 @@
    "properties": {
     "name": "45-47 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000158293411",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425331326",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -161348,10 +161496,10 @@
    "properties": {
     "name": "192 GRAHAM ROAD MORAYFIELD 4506",
     "locID": "LOC000158297719",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425588895",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -163376,10 +163524,10 @@
    "properties": {
     "name": "UNIT 2, 192 GRAHAM ROAD MORAYFIELD 4506",
     "locID": "LOC000158297719",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425663524",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -168425,9 +168573,9 @@
     "name": "433 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000194193947",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD719126302",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -193412,11 +193560,11 @@
     "name": "5 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128380658",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD720120660",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -193726,11 +193874,11 @@
     "name": "61 BRIDGES ROAD MORAYFIELD 4506",
     "locID": "LOC000181326166",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD720122920",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -194226,11 +194374,11 @@
     "name": "7 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000181326145",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD720180264",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -209622,11 +209770,11 @@
     "name": "12 BURBURY ROAD MORAYFIELD 4506",
     "locID": "LOC000022439417",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD720618926",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -219236,6 +219384,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.93572319,
+     -27.13096391
+    ]
+   },
+   "properties": {
+    "name": "79 BURBURY ROAD MORAYFIELD 4506",
+    "locID": "LOC000199374956",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721061982"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.93773495,
      -27.13054999
     ]
@@ -223094,11 +223259,11 @@
     "name": "27 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000128357548",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721119519",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -224802,7 +224967,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721151845",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -226930,6 +227095,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.93425989,
+     -27.13167272
+    ]
+   },
+   "properties": {
+    "name": "1 AFFINITY BOULEVARD MORAYFIELD 4506",
+    "locID": "LOC000199332017",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721234433"
    }
   },
   {
@@ -241352,9 +241534,9 @@
     "name": "363 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000194193934",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721558425",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -241372,9 +241554,9 @@
     "name": "371 OAKEY FLAT ROAD MORAYFIELD 4506",
     "locID": "LOC000194193947",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721558504",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -253081,12 +253263,12 @@
    "properties": {
     "name": "88 LINDEN COURT MORAYFIELD 4506",
     "locID": "LOC000193811121",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721766399",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -260071,7 +260253,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721885942",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -260755,6 +260937,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721890578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9346329,
+     -27.13106845
+    ]
+   },
+   "properties": {
+    "name": "3 AFFINITY BOULEVARD MORAYFIELD 4506",
+    "locID": "LOC000199332038",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721890628"
    }
   },
   {
