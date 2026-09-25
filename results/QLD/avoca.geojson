@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T19:17:02.846878",
+ "generated": "2026-09-25T23:05:27.776156",
  "suburb": "AVOCA",
  "features": [
   {
@@ -4439,9 +4439,9 @@
     "name": "5 THE BROADWAY AVOCA 4670",
     "locID": "LOC000073358528",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD154982286",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6669,10 +6669,9 @@
    "properties": {
     "name": "24 FERNY AVENUE AVOCA 4670",
     "locID": "LOC000097779940",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154985850",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8983,8 +8982,8 @@
    "properties": {
     "name": "13 GLEN APPIN DRIVE AVOCA 4670",
     "locID": "LOC000076611785",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154988609",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16096,10 +16095,9 @@
    "properties": {
     "name": "59 SMITHS ROAD AVOCA 4670",
     "locID": "LOC000044714116",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156231275",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22227,9 +22225,9 @@
     "name": "1 CYPRESS STREET AVOCA 4670",
     "locID": "LOC000043436146",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156240264",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -23131,10 +23129,10 @@
    "properties": {
     "name": "6 JENALYN CRESCENT AVOCA 4670",
     "locID": "LOC000079872891",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156241972",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28150,10 +28148,9 @@
    "properties": {
     "name": "292 AVOCA ROAD AVOCA 4670",
     "locID": "LOC000072415098",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157485460",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29894,10 +29891,10 @@
    "properties": {
     "name": "19 RURAL VUE TERRACE AVOCA 4670",
     "locID": "LOC000066070824",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160960280",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38623,6 +38620,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.31142036,
+     -24.87552346
+    ]
+   },
+   "properties": {
+    "name": "18 ALOHA DRIVE AVOCA 4670",
+    "locID": "LOC000197916660",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162932272"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.30739654,
      -24.8807565
     ]
@@ -42404,25 +42418,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.317413,
-     -24.889692
-    ]
-   },
-   "properties": {
-    "name": "VILLA 12, 85 TWYFORD STREET AVOCA 4670",
-    "locID": "LOC100032540994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425052913",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.313446,
      -24.888864
     ]
@@ -43971,25 +43966,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.31636,
-     -24.890113
-    ]
-   },
-   "properties": {
-    "name": "VILLA 1, 85 TWYFORD STREET AVOCA 4670",
-    "locID": "LOC100032540994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425052992",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -46406,25 +46382,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.316711,
-     -24.888803
-    ]
-   },
-   "properties": {
-    "name": "VILLA 46, 85 TWYFORD STREET AVOCA 4670",
-    "locID": "LOC100032540994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425053114",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.316772,
      -24.888929
     ]
@@ -46478,25 +46435,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.316619,
-     -24.8896
-    ]
-   },
-   "properties": {
-    "name": "VILLA 4, 85 TWYFORD STREET AVOCA 4670",
-    "locID": "LOC100032540994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425053118",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47257,25 +47195,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2028"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.31697,
-     -24.889383
-    ]
-   },
-   "properties": {
-    "name": "VILLA 8, 85 TWYFORD STREET AVOCA 4670",
-    "locID": "LOC100032540994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD425053157",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49861,10 +49780,9 @@
    "properties": {
     "name": "3 ST LUCIA CRESCENT AVOCA 4670",
     "locID": "LOC000004560739",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720931128",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
