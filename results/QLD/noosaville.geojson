@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T16:03:44.359954",
+ "generated": "2026-09-25T20:30:01.156020",
  "suburb": "NOOSAVILLE",
  "features": [
   {
@@ -1062,12 +1062,11 @@
    "properties": {
     "name": "17 LABURNUM CRESCENT NOOSAVILLE 4566",
     "locID": "LOC000074042980",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155635003",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -1597,10 +1596,10 @@
    "properties": {
     "name": "45 REGATTA CIRCUIT NOOSAVILLE 4566",
     "locID": "LOC000031663478",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155635041",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1933,10 +1932,10 @@
    "properties": {
     "name": "307 GYMPIE TERRACE NOOSAVILLE 4566",
     "locID": "LOC000172186826",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155636575",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6272,10 +6271,9 @@
    "properties": {
     "name": "15 MASTHEAD QUAY NOOSAVILLE 4566",
     "locID": "LOC000025838552",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155649346",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9817,6 +9815,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.05627495,
+     -26.39974301
+    ]
+   },
+   "properties": {
+    "name": "4 HYGIETA STREET NOOSAVILLE 4566",
+    "locID": "LOC000049531270",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155653022",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.03919545,
      -26.41920431
     ]
@@ -10237,10 +10255,9 @@
    "properties": {
     "name": "9 THE PROMONTORY NOOSAVILLE 4566",
     "locID": "LOC000086118791",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155653700",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14381,10 +14398,9 @@
    "properties": {
     "name": "30 SALTWATER AVENUE NOOSAVILLE 4566",
     "locID": "LOC000009515477",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155659604",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15855,8 +15871,8 @@
    "properties": {
     "name": "126 GYMPIE TERRACE NOOSAVILLE 4566",
     "locID": "LOC000183582883",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155661083",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16814,10 +16830,9 @@
    "properties": {
     "name": "14 WYUNA DRIVE NOOSAVILLE 4566",
     "locID": "LOC000048155087",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155661925",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18886,10 +18901,9 @@
    "properties": {
     "name": "16 DUNSTAN COURT NOOSAVILLE 4566",
     "locID": "LOC000051403154",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156927009",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23235,8 +23249,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156948564",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23254,8 +23269,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156948565",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27550,10 +27566,9 @@
    "properties": {
     "name": "46 SEACOVE COURT NOOSAVILLE 4566",
     "locID": "LOC000048114823",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156958690",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29909,8 +29924,8 @@
    "properties": {
     "name": "3 PITTA PLACE NOOSAVILLE 4566",
     "locID": "LOC000085791795",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156962456",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31358,10 +31373,10 @@
    "properties": {
     "name": "49 WYUNA DRIVE NOOSAVILLE 4566",
     "locID": "LOC000099158595",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156965821",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34238,6 +34253,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.0435836,
+     -26.4142169
+    ]
+   },
+   "properties": {
+    "name": "4 LEO ALLEY ROAD NOOSAVILLE 4566",
+    "locID": "LOC000199058891",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156973254"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.04398149,
      -26.41348561
     ]
@@ -34399,10 +34431,9 @@
    "properties": {
     "name": "14 LILLY PILLY PLACE NOOSAVILLE 4566",
     "locID": "LOC000065911461",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156973271",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36888,7 +36919,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156979781",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37320,10 +37351,9 @@
    "properties": {
     "name": "16 NEPTUNE CIRCUIT NOOSAVILLE 4566",
     "locID": "LOC000086509504",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156979813",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38281,10 +38311,9 @@
    "properties": {
     "name": "1 WAVE AVENUE NOOSAVILLE 4566",
     "locID": "LOC000083772073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156980315",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42632,6 +42661,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.06948015,
+     -26.4024757
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 12 NANNYGAI STREET NOOSAVILLE 4566",
+    "locID": "LOC000024969442",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158387574",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07541659,
      -26.39402148
     ]
@@ -45957,9 +46005,9 @@
     "name": "UNIT 3, 17 LABURNUM CRESCENT NOOSAVILLE 4566",
     "locID": "LOC000074044899",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158394762",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -47243,12 +47291,11 @@
    "properties": {
     "name": "UNIT 4, 17 LABURNUM CRESCENT NOOSAVILLE 4566",
     "locID": "LOC000074042980",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158396067",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48839,10 +48886,9 @@
    "properties": {
     "name": "3 LEESIDE PLACE NOOSAVILLE 4566",
     "locID": "LOC000005806807",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158397823",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55019,12 +55065,11 @@
    "properties": {
     "name": "UNIT 1, 17 LABURNUM CRESCENT NOOSAVILLE 4566",
     "locID": "LOC000074042980",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158406154",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -59836,8 +59881,8 @@
    "properties": {
     "name": "1 MCKENNA COURT NOOSAVILLE 4566",
     "locID": "LOC000020198816",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158410054",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -63377,10 +63422,10 @@
    "properties": {
     "name": "UNIT 2, 307 GYMPIE TERRACE NOOSAVILLE 4566",
     "locID": "LOC000172186826",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158413090",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66304,12 +66349,11 @@
    "properties": {
     "name": "UNIT 2, 17 LABURNUM CRESCENT NOOSAVILLE 4566",
     "locID": "LOC000074042980",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158416760",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -66821,10 +66865,9 @@
    "properties": {
     "name": "4 SHIPWRIGHT AVENUE NOOSAVILLE 4566",
     "locID": "LOC000082748087",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158417575",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75746,10 +75789,9 @@
    "properties": {
     "name": "UNIT 1, 3 BLUEFIN COURT NOOSAVILLE 4566",
     "locID": "LOC000001739352",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158429909",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79945,10 +79987,9 @@
    "properties": {
     "name": "24 CREEK ROAD NOOSAVILLE 4566",
     "locID": "LOC000060082090",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160111050",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -80676,8 +80717,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160128266",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -90523,7 +90565,7 @@
     "gnaf_pid": "GAQLD160151971",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93687,10 +93729,9 @@
    "properties": {
     "name": "16 TREASURE COVE NOOSAVILLE 4566",
     "locID": "LOC000014859084",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160159732",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94722,10 +94763,10 @@
    "properties": {
     "name": "13 MERMAID QUAY NOOSAVILLE 4566",
     "locID": "LOC000097514341",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160161980",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94765,8 +94806,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160162126",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -94803,8 +94845,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160162128",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -97637,10 +97680,9 @@
    "properties": {
     "name": "11 STARBOARD AVENUE NOOSAVILLE 4566",
     "locID": "LOC000059433334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160694711",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -99587,6 +99629,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.04427926,
+     -26.41360433
+    ]
+   },
+   "properties": {
+    "name": "7 LEO ALLEY ROAD NOOSAVILLE 4566",
+    "locID": "LOC000188759028",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160767609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.06795003,
      -26.39977042
     ]
@@ -100779,10 +100838,9 @@
    "properties": {
     "name": "7 SATINWOOD STREET NOOSAVILLE 4566",
     "locID": "LOC000027768622",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160983958",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -103902,6 +103960,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.04474473,
+     -26.41668494
+    ]
+   },
+   "properties": {
+    "name": "21 ACTION STREET NOOSAVILLE 4566",
+    "locID": "LOC000045049873",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161423974",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.04465565,
      -26.41736224
     ]
@@ -105227,7 +105305,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161439604",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -111975,10 +112053,9 @@
    "properties": {
     "name": "3 BLUEFIN COURT NOOSAVILLE 4566",
     "locID": "LOC000001739352",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162462283",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114748,10 +114825,9 @@
    "properties": {
     "name": "1 ASPERA PLACE NOOSAVILLE 4566",
     "locID": "LOC000055174070",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162706012",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126758,7 +126834,7 @@
     "gnaf_pid": "GAQLD163129054",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -126778,7 +126854,7 @@
     "gnaf_pid": "GAQLD163129055",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -127428,7 +127504,7 @@
     "gnaf_pid": "GAQLD163147679",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -135477,10 +135553,9 @@
    "properties": {
     "name": "6 LIMOSA CIRCUIT NOOSAVILLE 4566",
     "locID": "LOC000014237310",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163264294",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -135772,10 +135847,9 @@
    "properties": {
     "name": "12 MORINDA CIRCUIT NOOSAVILLE 4566",
     "locID": "LOC000110884799",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163297502",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -137198,7 +137272,7 @@
     "gnaf_pid": "GAQLD163360052",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137274,7 +137348,7 @@
     "gnaf_pid": "GAQLD163372084",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -139273,6 +139347,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425131916",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0435836,
+     -26.4142169
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 4 LEO ALLEY ROAD NOOSAVILLE 4566",
+    "locID": "LOC000199058891",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425144450"
    }
   },
   {
@@ -142739,7 +142830,7 @@
     "gnaf_pid": "GAQLD425493477",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -144896,10 +144987,9 @@
    "properties": {
     "name": "10 JAILEE COURT NOOSAVILLE 4566",
     "locID": "LOC000171725832",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425698309",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -145975,10 +146065,9 @@
    "properties": {
     "name": "2 MASON COURT NOOSAVILLE 4566",
     "locID": "LOC000164317976",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425811781",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -149158,7 +149247,7 @@
     "gnaf_pid": "GAQLD719295824",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -150047,7 +150136,7 @@
     "gnaf_pid": "GAQLD719557991",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -150211,7 +150300,7 @@
     "gnaf_pid": "GAQLD719559963",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -150249,7 +150338,7 @@
     "gnaf_pid": "GAQLD719561408",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156203,7 +156292,7 @@
     "gnaf_pid": "GAQLD720476494",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156223,7 +156312,7 @@
     "gnaf_pid": "GAQLD720476495",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156243,7 +156332,7 @@
     "gnaf_pid": "GAQLD720476496",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156263,7 +156352,7 @@
     "gnaf_pid": "GAQLD720476497",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156283,7 +156372,7 @@
     "gnaf_pid": "GAQLD720477994",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156303,7 +156392,7 @@
     "gnaf_pid": "GAQLD720477995",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156323,7 +156412,7 @@
     "gnaf_pid": "GAQLD720477996",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156343,7 +156432,7 @@
     "gnaf_pid": "GAQLD720478572",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156363,7 +156452,7 @@
     "gnaf_pid": "GAQLD720479075",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156383,7 +156472,7 @@
     "gnaf_pid": "GAQLD720479568",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156423,7 +156512,7 @@
     "gnaf_pid": "GAQLD720479570",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156443,7 +156532,7 @@
     "gnaf_pid": "GAQLD720480044",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156478,8 +156567,8 @@
    "properties": {
     "name": "UNIT 1, 126 GYMPIE TERRACE NOOSAVILLE 4566",
     "locID": "LOC000183582883",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720483017",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -156562,7 +156651,7 @@
     "gnaf_pid": "GAQLD720543129",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156582,7 +156671,7 @@
     "gnaf_pid": "GAQLD720543773",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156678,7 +156767,7 @@
     "gnaf_pid": "GAQLD720620325",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -156717,7 +156806,7 @@
     "gnaf_pid": "GAQLD720621204",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -158127,7 +158216,7 @@
     "gnaf_pid": "GAQLD720941492",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -159266,7 +159355,7 @@
     "gnaf_pid": "GAQLD721147430",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -160369,7 +160458,7 @@
     "gnaf_pid": "GAQLD721430432",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -161436,6 +161525,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721587808"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.04292227,
+     -26.4177234
+    ]
+   },
+   "properties": {
+    "name": "53-55 RENE STREET NOOSAVILLE 4566",
+    "locID": "LOC000095452790",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721630426",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {

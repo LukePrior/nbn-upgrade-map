@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T15:00:03.053375",
+ "generated": "2026-09-25T19:45:14.249926",
  "suburb": "MAROOCHYDORE",
  "features": [
   {
@@ -177,7 +177,7 @@
     "gnaf_pid": "GAQLD155517745",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -2434,7 +2434,7 @@
     "name": "31 BOONGALA TERRACE MAROOCHYDORE 4558",
     "locID": "LOC000002521531",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155519694",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4609,10 +4609,10 @@
    "properties": {
     "name": "1 PLYMOUTH QUAY MAROOCHYDORE 4558",
     "locID": "LOC000076337402",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155525141",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10228,7 +10228,7 @@
     "gnaf_pid": "GAQLD155529759",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -10248,7 +10248,7 @@
     "gnaf_pid": "GAQLD155529761",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -10974,7 +10974,7 @@
     "gnaf_pid": "GAQLD155530695",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -13368,6 +13368,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10295139,
+     -26.66266772
+    ]
+   },
+   "properties": {
+    "name": "23 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000087772706",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155533190",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.06847198,
      -26.65547715
     ]
@@ -14595,6 +14614,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08373918,
+     -26.64723372
+    ]
+   },
+   "properties": {
+    "name": "12 SWINBOURNE LANE MAROOCHYDORE 4558",
+    "locID": "LOC000191962490",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155534199",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.08356753,
+     -26.64740003
+    ]
+   },
+   "properties": {
+    "name": "14 SWINBOURNE LANE MAROOCHYDORE 4558",
+    "locID": "LOC000197977233",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155534200"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.08351353,
      -26.64764023
     ]
@@ -15349,10 +15404,9 @@
    "properties": {
     "name": "12 BROADSEA AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000029392363",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155534941",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16558,8 +16612,8 @@
    "properties": {
     "name": "39 WARUNG AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000073805812",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155535953",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17220,10 +17274,9 @@
    "properties": {
     "name": "49 BOONGALA TERRACE MAROOCHYDORE 4558",
     "locID": "LOC000006601832",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155536368",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22080,7 +22133,7 @@
     "gnaf_pid": "GAQLD155539283",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22100,7 +22153,7 @@
     "gnaf_pid": "GAQLD155539285",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22431,7 +22484,7 @@
     "gnaf_pid": "GAQLD155540099",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22451,7 +22504,7 @@
     "gnaf_pid": "GAQLD155540101",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22471,7 +22524,7 @@
     "gnaf_pid": "GAQLD155540102",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22568,7 +22621,7 @@
     "gnaf_pid": "GAQLD155540118",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22588,7 +22641,7 @@
     "gnaf_pid": "GAQLD155540124",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22608,7 +22661,7 @@
     "gnaf_pid": "GAQLD155540128",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -22901,7 +22954,7 @@
     "gnaf_pid": "GAQLD155540252",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -23444,7 +23497,7 @@
     "gnaf_pid": "GAQLD155541067",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -23464,7 +23517,7 @@
     "gnaf_pid": "GAQLD155541068",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -23484,7 +23537,7 @@
     "gnaf_pid": "GAQLD155541069",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -24784,10 +24837,9 @@
    "properties": {
     "name": "5 MUNGAR STREET MAROOCHYDORE 4558",
     "locID": "LOC000040454739",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155541957",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27654,9 +27706,9 @@
     "name": "45 MILLWELL ROAD MAROOCHYDORE 4558",
     "locID": "LOC000038347456",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155543861",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28511,6 +28563,23 @@
     "gnaf_pid": "GAQLD155544107",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10312068,
+     -26.66269816
+    ]
+   },
+   "properties": {
+    "name": "19 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197752681",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155544108"
    }
   },
   {
@@ -29926,7 +29995,7 @@
     "gnaf_pid": "GAQLD155545142",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -30706,7 +30775,7 @@
     "gnaf_pid": "GAQLD155545671",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -30746,7 +30815,7 @@
     "gnaf_pid": "GAQLD155545673",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -30786,7 +30855,7 @@
     "gnaf_pid": "GAQLD155545675",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -30826,7 +30895,7 @@
     "gnaf_pid": "GAQLD155545677",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -30865,7 +30934,7 @@
     "gnaf_pid": "GAQLD155545679",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -31765,7 +31834,7 @@
     "gnaf_pid": "GAQLD155546658",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -33747,7 +33816,7 @@
     "gnaf_pid": "GAQLD156761687",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -33767,7 +33836,7 @@
     "gnaf_pid": "GAQLD156761689",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -33787,7 +33856,7 @@
     "gnaf_pid": "GAQLD156761690",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -41002,7 +41071,7 @@
     "gnaf_pid": "GAQLD156768633",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -43438,10 +43507,9 @@
    "properties": {
     "name": "14 MAUD STREET MAROOCHYDORE 4558",
     "locID": "LOC000002417642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156771961",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46513,7 +46581,7 @@
     "gnaf_pid": "GAQLD156772245",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -47257,10 +47325,9 @@
    "properties": {
     "name": "28 SCHIRRMANN DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000083163487",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156775503",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48242,10 +48309,9 @@
    "properties": {
     "name": "9 GLORIA STREET MAROOCHYDORE 4558",
     "locID": "LOC000012557516",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156775696",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50611,6 +50677,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.09381488,
+     -26.6587959
+    ]
+   },
+   "properties": {
+    "name": "52 SECOND AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000197670845",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156782519"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.09430093,
      -26.65886387
     ]
@@ -50642,7 +50725,7 @@
     "gnaf_pid": "GAQLD156782533",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -50662,7 +50745,7 @@
     "gnaf_pid": "GAQLD156782535",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -54316,6 +54399,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.07062107,
+     -26.64397112
+    ]
+   },
+   "properties": {
+    "name": "18 YINNI STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197921419",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156786087"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07129138,
      -26.64439216
     ]
@@ -55914,10 +56014,10 @@
    "properties": {
     "name": "14 BLACKWOOD STREET MAROOCHYDORE 4558",
     "locID": "LOC000035017699",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156789827",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56546,12 +56646,9 @@
    "properties": {
     "name": "UNIT 6, 10 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC100091510962",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD156792984",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156792984"
    }
   },
   {
@@ -57008,10 +57105,9 @@
    "properties": {
     "name": "UNIT 1, 49 BOONGALA TERRACE MAROOCHYDORE 4558",
     "locID": "LOC000006601832",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156793047",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58708,6 +58804,26 @@
     "gnaf_pid": "GAQLD156793252",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1017909,
+     -26.66155773
+    ]
+   },
+   "properties": {
+    "name": "28-30 AERODROME ROAD MAROOCHYDORE 4558",
+    "locID": "LOC000153535438",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156793253",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2027"
    }
   },
   {
@@ -61043,6 +61159,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.07441833,
+     -26.64289487
+    ]
+   },
+   "properties": {
+    "name": "127 BRADMAN AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000021804022",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156796585",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07433198,
      -26.64291357
     ]
@@ -62946,7 +63081,7 @@
     "gnaf_pid": "GAQLD156796791",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -62966,7 +63101,7 @@
     "gnaf_pid": "GAQLD156796792",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -62986,7 +63121,7 @@
     "gnaf_pid": "GAQLD156796794",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -63689,7 +63824,7 @@
     "gnaf_pid": "GAQLD156796842",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -64684,10 +64819,10 @@
    "properties": {
     "name": "51 BROADSEA AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000041568575",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156800160",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65429,7 +65564,7 @@
     "gnaf_pid": "GAQLD156800226",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -66837,6 +66972,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.07841525,
+     -26.65629444
+    ]
+   },
+   "properties": {
+    "name": "20 VAUGHAN AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000197728192",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156803693"
    }
   },
   {
@@ -79337,10 +79489,10 @@
    "properties": {
     "name": "67 TEPEQUAR DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000005858903",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156827757",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85423,6 +85575,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08130304,
+     -26.65862331
+    ]
+   },
+   "properties": {
+    "name": "17 DULIN STREET MAROOCHYDORE 4558",
+    "locID": "LOC000071048436",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156841813",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.08138249,
      -26.65878908
     ]
@@ -85780,7 +85952,7 @@
     "gnaf_pid": "GAQLD156841846",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85800,7 +85972,7 @@
     "gnaf_pid": "GAQLD156841847",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85820,7 +85992,7 @@
     "gnaf_pid": "GAQLD156841848",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85840,7 +86012,7 @@
     "gnaf_pid": "GAQLD156841849",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85860,7 +86032,7 @@
     "gnaf_pid": "GAQLD156841850",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85880,7 +86052,7 @@
     "gnaf_pid": "GAQLD156841852",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -85900,7 +86072,7 @@
     "gnaf_pid": "GAQLD156841854",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88713,6 +88885,44 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08846225,
+     -26.64895449
+    ]
+   },
+   "properties": {
+    "name": "104 DUPORTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000019098071",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156848830",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0895391,
+     -26.64981861
+    ]
+   },
+   "properties": {
+    "name": "106 DUPORTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000019114141",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156848832",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.08655275,
      -26.6470328
     ]
@@ -88764,7 +88974,7 @@
     "gnaf_pid": "GAQLD156848861",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88804,7 +89014,7 @@
     "gnaf_pid": "GAQLD156848863",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88824,7 +89034,7 @@
     "gnaf_pid": "GAQLD156848864",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88844,7 +89054,7 @@
     "gnaf_pid": "GAQLD156848865",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88864,7 +89074,7 @@
     "gnaf_pid": "GAQLD156848866",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88884,7 +89094,7 @@
     "gnaf_pid": "GAQLD156848867",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88904,7 +89114,7 @@
     "gnaf_pid": "GAQLD156848868",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88924,7 +89134,7 @@
     "gnaf_pid": "GAQLD156848869",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -88944,7 +89154,7 @@
     "gnaf_pid": "GAQLD156848871",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -90262,7 +90472,7 @@
     "gnaf_pid": "GAQLD156848975",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -93096,6 +93306,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.07896813,
+     -26.65509215
+    ]
+   },
+   "properties": {
+    "name": "6 ELIZA WAY MAROOCHYDORE 4558",
+    "locID": "LOC000199346824",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156852711"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07959059,
      -26.65515192
     ]
@@ -93914,9 +94141,9 @@
     "name": "72 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000056881368",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156852824",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -94897,7 +95124,7 @@
     "gnaf_pid": "GAQLD156855958",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94917,7 +95144,7 @@
     "gnaf_pid": "GAQLD156855959",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94937,7 +95164,7 @@
     "gnaf_pid": "GAQLD156855960",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94957,7 +95184,7 @@
     "gnaf_pid": "GAQLD156855961",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94977,7 +95204,7 @@
     "gnaf_pid": "GAQLD156855962",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -94997,7 +95224,7 @@
     "gnaf_pid": "GAQLD156855963",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -95017,7 +95244,7 @@
     "gnaf_pid": "GAQLD156855964",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -97500,7 +97727,7 @@
     "gnaf_pid": "GAQLD156859695",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -97902,6 +98129,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10295139,
+     -26.66266772
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 23 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000021733685",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156859740",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.09894557,
      -26.65764927
     ]
@@ -98028,10 +98275,10 @@
    "properties": {
     "name": "33 HINKLER PARADE MAROOCHYDORE 4558",
     "locID": "LOC000072695768",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156859793",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98516,10 +98763,10 @@
    "properties": {
     "name": "UNIT 4, 50 ALEXANDRA PARADE MAROOCHYDORE 4558",
     "locID": "LOC000025744314",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156866458",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -98773,10 +99020,10 @@
    "properties": {
     "name": "UNIT 8, 60 ALEXANDRA PARADE MAROOCHYDORE 4558",
     "locID": "LOC000062861222",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156866486",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -98938,6 +99185,26 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.08992483,
+     -26.65172882
+    ]
+   },
+   "properties": {
+    "name": "10 BEACH ROAD MAROOCHYDORE 4558",
+    "locID": "LOC000039183682",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156866499",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2027"
    }
   },
   {
@@ -100893,7 +101160,7 @@
     "gnaf_pid": "GAQLD158207462",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -101929,7 +102196,7 @@
     "gnaf_pid": "GAQLD158214834",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -103576,7 +103843,7 @@
     "gnaf_pid": "GAQLD158227698",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -105953,8 +106220,8 @@
    "properties": {
     "name": "UNIT 11, 3 HIGHGATE PLACE MAROOCHYDORE 4558",
     "locID": "LOC000013318558",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158231495",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -108323,7 +108590,7 @@
     "gnaf_pid": "GAQLD158234635",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -109707,10 +109974,10 @@
    "properties": {
     "name": "UNIT 27, 3 HIGHGATE PLACE MAROOCHYDORE 4558",
     "locID": "LOC000013371982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158236440",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -109730,7 +109997,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158236441",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -109825,8 +110092,8 @@
    "properties": {
     "name": "UNIT 42, 3 HIGHGATE PLACE MAROOCHYDORE 4558",
     "locID": "LOC000013318558",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158236446",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -111848,7 +112115,7 @@
     "gnaf_pid": "GAQLD158240134",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -111945,7 +112212,7 @@
     "gnaf_pid": "GAQLD158240201",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113577,7 +113844,7 @@
     "gnaf_pid": "GAQLD158243374",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -113786,10 +114053,10 @@
    "properties": {
     "name": "17A BRADMAN AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000013592425",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158243763",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114994,6 +115261,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10295139,
+     -26.66266772
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 23 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000087772706",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158244962",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.06895895,
      -26.65525459
     ]
@@ -115264,6 +115550,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10312068,
+     -26.66269816
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 19 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197752681",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158245036"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.1031409,
      -26.6627079
     ]
@@ -115466,7 +115769,7 @@
     "gnaf_pid": "GAQLD158245570",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -116292,6 +116595,23 @@
     "gnaf_pid": "GAQLD158247205",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10312068,
+     -26.66269816
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 19 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197752964",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158247206"
    }
   },
   {
@@ -119045,7 +119365,7 @@
     "gnaf_pid": "GAQLD158250087",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -119175,10 +119495,10 @@
    "properties": {
     "name": "UNIT 13, 3 HIGHGATE PLACE MAROOCHYDORE 4558",
     "locID": "LOC000013371982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158250181",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -121482,7 +121802,7 @@
     "gnaf_pid": "GAQLD158252776",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -121541,6 +121861,42 @@
     "gnaf_pid": "GAQLD158252791",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10295139,
+     -26.66266772
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 23 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000087772706",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158252794",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10312068,
+     -26.66269816
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 19 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197752760",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158252804"
    }
   },
   {
@@ -125725,6 +126081,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10312068,
+     -26.66269816
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 19 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000197752862",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158259003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10149935,
      -26.66176405
     ]
@@ -126023,7 +126396,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158260536",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -129734,10 +130107,9 @@
    "properties": {
     "name": "105 SCHOOL ROAD MAROOCHYDORE 4558",
     "locID": "LOC000068665041",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158269998",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -129932,6 +130304,25 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10295139,
+     -26.66266772
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 23 PARKER STREET MAROOCHYDORE 4558",
+    "locID": "LOC000087772706",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158271462",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -132517,6 +132908,25 @@
     ]
    },
    "properties": {
+    "name": "UNIT 5, 47-51 SIXTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000101641562",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160093335",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1027891,
+     -26.65719699
+    ]
+   },
+   "properties": {
     "name": "UNIT 6, 47-51 SIXTH AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000101634842",
     "tech": "FTTN",
@@ -133367,7 +133777,7 @@
     "gnaf_pid": "GAQLD160096212",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -133387,7 +133797,7 @@
     "gnaf_pid": "GAQLD160096213",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -133407,7 +133817,7 @@
     "gnaf_pid": "GAQLD160096218",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -133427,7 +133837,7 @@
     "gnaf_pid": "GAQLD160096219",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -134209,7 +134619,7 @@
     "gnaf_pid": "GAQLD160096907",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -135667,7 +136077,7 @@
     "gnaf_pid": "GAQLD160101507",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -135727,7 +136137,7 @@
     "gnaf_pid": "GAQLD160101794",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -135747,7 +136157,7 @@
     "gnaf_pid": "GAQLD160101799",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136090,7 +136500,7 @@
     "gnaf_pid": "GAQLD160102416",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136110,7 +136520,7 @@
     "gnaf_pid": "GAQLD160102419",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136130,7 +136540,7 @@
     "gnaf_pid": "GAQLD160102421",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136150,7 +136560,7 @@
     "gnaf_pid": "GAQLD160102422",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136170,7 +136580,7 @@
     "gnaf_pid": "GAQLD160102423",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -136190,7 +136600,7 @@
     "gnaf_pid": "GAQLD160102424",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137417,7 +137827,7 @@
     "gnaf_pid": "GAQLD160105421",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137742,7 +138152,7 @@
     "gnaf_pid": "GAQLD160106153",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137876,7 +138286,7 @@
     "gnaf_pid": "GAQLD160106309",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137896,7 +138306,7 @@
     "gnaf_pid": "GAQLD160106310",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137916,7 +138326,7 @@
     "gnaf_pid": "GAQLD160106311",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137936,7 +138346,7 @@
     "gnaf_pid": "GAQLD160106312",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137956,7 +138366,7 @@
     "gnaf_pid": "GAQLD160106313",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137976,7 +138386,7 @@
     "gnaf_pid": "GAQLD160106314",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -137996,7 +138406,7 @@
     "gnaf_pid": "GAQLD160106315",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138016,7 +138426,7 @@
     "gnaf_pid": "GAQLD160106316",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138036,7 +138446,7 @@
     "gnaf_pid": "GAQLD160106440",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138056,7 +138466,7 @@
     "gnaf_pid": "GAQLD160106441",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138076,7 +138486,7 @@
     "gnaf_pid": "GAQLD160106442",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138096,7 +138506,7 @@
     "gnaf_pid": "GAQLD160106443",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -138116,7 +138526,7 @@
     "gnaf_pid": "GAQLD160106444",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -139084,6 +139494,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.09289049,
+     -26.65435218
+    ]
+   },
+   "properties": {
+    "name": "4 FIRST AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000154491036",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160108987",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.09369272,
      -26.65501192
     ]
@@ -139750,7 +140179,7 @@
     "gnaf_pid": "GAQLD160110055",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -139770,7 +140199,7 @@
     "gnaf_pid": "GAQLD160110056",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -139790,7 +140219,7 @@
     "gnaf_pid": "GAQLD160110057",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -139810,7 +140239,7 @@
     "gnaf_pid": "GAQLD160110058",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -141713,7 +142142,7 @@
     "gnaf_pid": "GAQLD160114547",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -141733,7 +142162,7 @@
     "gnaf_pid": "GAQLD160114548",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -142540,7 +142969,7 @@
     "gnaf_pid": "GAQLD160115169",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -142560,7 +142989,7 @@
     "gnaf_pid": "GAQLD160115170",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -142580,7 +143009,7 @@
     "gnaf_pid": "GAQLD160115171",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -142600,7 +143029,7 @@
     "gnaf_pid": "GAQLD160115172",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -143305,7 +143734,7 @@
     "gnaf_pid": "GAQLD160117464",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -143325,7 +143754,7 @@
     "gnaf_pid": "GAQLD160117466",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -143345,7 +143774,7 @@
     "gnaf_pid": "GAQLD160117468",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -143365,7 +143794,7 @@
     "gnaf_pid": "GAQLD160117469",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -144465,7 +144894,7 @@
     "gnaf_pid": "GAQLD160118299",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -144733,7 +145162,7 @@
     "gnaf_pid": "GAQLD160118847",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -145482,7 +145911,7 @@
     "gnaf_pid": "GAQLD160119532",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146375,7 +146804,7 @@
     "gnaf_pid": "GAQLD160119863",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146395,7 +146824,7 @@
     "gnaf_pid": "GAQLD160119864",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146415,7 +146844,7 @@
     "gnaf_pid": "GAQLD160119865",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146435,7 +146864,7 @@
     "gnaf_pid": "GAQLD160119866",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146489,7 +146918,7 @@
     "gnaf_pid": "GAQLD160119970",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146833,7 +147262,7 @@
     "gnaf_pid": "GAQLD160120566",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146853,7 +147282,7 @@
     "gnaf_pid": "GAQLD160120567",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146873,7 +147302,7 @@
     "gnaf_pid": "GAQLD160120568",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -146893,7 +147322,7 @@
     "gnaf_pid": "GAQLD160120569",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147482,7 +147911,7 @@
     "gnaf_pid": "GAQLD160123557",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -147498,9 +147927,9 @@
     "name": "UNIT 45, 6 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000155289810",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160123707",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -148053,7 +148482,7 @@
     "gnaf_pid": "GAQLD160123898",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148073,7 +148502,7 @@
     "gnaf_pid": "GAQLD160123899",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148093,7 +148522,7 @@
     "gnaf_pid": "GAQLD160123900",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148113,7 +148542,7 @@
     "gnaf_pid": "GAQLD160123901",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148133,7 +148562,7 @@
     "gnaf_pid": "GAQLD160123902",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148153,7 +148582,7 @@
     "gnaf_pid": "GAQLD160123903",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148173,7 +148602,7 @@
     "gnaf_pid": "GAQLD160123904",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148193,7 +148622,7 @@
     "gnaf_pid": "GAQLD160123905",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148213,7 +148642,7 @@
     "gnaf_pid": "GAQLD160123906",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -148489,7 +148918,7 @@
     "gnaf_pid": "GAQLD160124131",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -149097,8 +149526,8 @@
    "properties": {
     "name": "UNIT 2, 18-20 WIRRAWAY STREET MAROOCHYDORE 4558",
     "locID": "LOC000039652393",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160124432",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -149295,7 +149724,7 @@
     "gnaf_pid": "GAQLD160124634",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -149432,7 +149861,7 @@
     "gnaf_pid": "GAQLD160125158",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -149452,7 +149881,7 @@
     "gnaf_pid": "GAQLD160125159",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -151878,6 +152307,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08886777,
+     -26.64862698
+    ]
+   },
+   "properties": {
+    "name": "4 BADEN POWELL STREET MAROOCHYDORE 4558",
+    "locID": "LOC000039195522",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160137096",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.08915908,
      -26.64857627
     ]
@@ -152603,7 +153051,7 @@
     "gnaf_pid": "GAQLD160146175",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152623,7 +153071,7 @@
     "gnaf_pid": "GAQLD160146183",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152643,7 +153091,7 @@
     "gnaf_pid": "GAQLD160146185",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152663,7 +153111,7 @@
     "gnaf_pid": "GAQLD160146186",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152683,7 +153131,7 @@
     "gnaf_pid": "GAQLD160146187",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152703,7 +153151,7 @@
     "gnaf_pid": "GAQLD160146188",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152723,7 +153171,7 @@
     "gnaf_pid": "GAQLD160146189",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152743,7 +153191,7 @@
     "gnaf_pid": "GAQLD160146190",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152763,7 +153211,7 @@
     "gnaf_pid": "GAQLD160146191",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152783,7 +153231,7 @@
     "gnaf_pid": "GAQLD160146192",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152803,7 +153251,7 @@
     "gnaf_pid": "GAQLD160146193",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152823,7 +153271,7 @@
     "gnaf_pid": "GAQLD160146194",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152843,7 +153291,7 @@
     "gnaf_pid": "GAQLD160146195",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152863,7 +153311,7 @@
     "gnaf_pid": "GAQLD160146196",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152883,7 +153331,7 @@
     "gnaf_pid": "GAQLD160146197",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152903,7 +153351,7 @@
     "gnaf_pid": "GAQLD160146211",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152923,7 +153371,7 @@
     "gnaf_pid": "GAQLD160146212",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152943,7 +153391,7 @@
     "gnaf_pid": "GAQLD160146213",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152963,7 +153411,7 @@
     "gnaf_pid": "GAQLD160150881",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -152983,7 +153431,7 @@
     "gnaf_pid": "GAQLD160150882",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -153003,7 +153451,7 @@
     "gnaf_pid": "GAQLD160150883",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -153774,7 +154222,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160726129",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -157016,7 +157464,7 @@
     "gnaf_pid": "GAQLD160741071",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -157105,10 +157553,9 @@
    "properties": {
     "name": "16 ARAGORN STREET MAROOCHYDORE 4558",
     "locID": "LOC000014448420",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160741382",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -157876,7 +158323,7 @@
     "gnaf_pid": "GAQLD160813340",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -158181,10 +158628,10 @@
    "properties": {
     "name": "UNIT 10, 22 ANZAC AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000018998200",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160941938",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161461,9 +161908,9 @@
     "name": "UNIT 17, 6-8 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000192447067",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161043898",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161519,9 +161966,9 @@
     "name": "UNIT 1, 6-8 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000192447067",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161043902",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161919,9 +162366,9 @@
     "name": "UNIT 4, 6-8 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000192447067",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161043926",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161958,9 +162405,9 @@
     "name": "UNIT 6, 6-8 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000192447067",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161043929",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -161997,9 +162444,9 @@
     "name": "UNIT 8, 6-8 AERODROME ROAD MAROOCHYDORE 4558",
     "locID": "LOC000192447067",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161043931",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -163283,7 +163730,7 @@
     "gnaf_pid": "GAQLD161107394",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -163321,7 +163768,7 @@
     "gnaf_pid": "GAQLD161107396",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -165105,10 +165552,10 @@
    "properties": {
     "name": "UNIT 3, 87-89 DUPORTH AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000055237885",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161132611",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -165240,10 +165687,10 @@
    "properties": {
     "name": "UNIT 7, 87-89 DUPORTH AVENUE MAROOCHYDORE 4558",
     "locID": "LOC000055366665",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161132623",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -165637,7 +166084,7 @@
     "gnaf_pid": "GAQLD161148381",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -167379,7 +167826,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161279812",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -167497,7 +167944,7 @@
     "gnaf_pid": "GAQLD161282073",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -183267,8 +183714,8 @@
    "properties": {
     "name": "UNIT 201, 6 WHARF STREET MAROOCHYDORE 4558",
     "locID": "LOC000071898979",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162206559",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -187903,6 +188350,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10279948,
+     -26.66172137
+    ]
+   },
+   "properties": {
+    "name": "UNIT 201, 14-20 AERODROME ROAD MAROOCHYDORE 4558",
+    "locID": "LOC000093276320",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162369505",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.0856908,
      -26.64961336
     ]
@@ -188645,7 +189110,7 @@
     "gnaf_pid": "GAQLD162466523",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -188665,7 +189130,7 @@
     "gnaf_pid": "GAQLD162466989",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -188685,7 +189150,7 @@
     "gnaf_pid": "GAQLD162466990",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -188843,6 +189308,25 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09949207,
+     -26.65875567
+    ]
+   },
+   "properties": {
+    "name": "46 KINGSFORD SMITH PARADE MAROOCHYDORE 4558",
+    "locID": "LOC000004094671",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162471714",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -190607,6 +191091,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08855367,
+     -26.64879026
+    ]
+   },
+   "properties": {
+    "name": "128 DUPORTH AVENUE MAROOCHYDORE 4558",
+    "locID": "LOC000021600851",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162601563",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10019837,
      -26.65903629
     ]
@@ -190999,7 +191502,7 @@
     "gnaf_pid": "GAQLD162606749",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195604,7 +196107,7 @@
     "gnaf_pid": "GAQLD162713970",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195624,7 +196127,7 @@
     "gnaf_pid": "GAQLD162713971",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195644,7 +196147,7 @@
     "gnaf_pid": "GAQLD162713972",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195664,7 +196167,7 @@
     "gnaf_pid": "GAQLD162713973",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195684,7 +196187,7 @@
     "gnaf_pid": "GAQLD162713974",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195704,7 +196207,7 @@
     "gnaf_pid": "GAQLD162713975",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195724,7 +196227,7 @@
     "gnaf_pid": "GAQLD162713976",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195744,7 +196247,7 @@
     "gnaf_pid": "GAQLD162713977",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195764,7 +196267,7 @@
     "gnaf_pid": "GAQLD162713978",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195784,7 +196287,7 @@
     "gnaf_pid": "GAQLD162713979",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195804,7 +196307,7 @@
     "gnaf_pid": "GAQLD162713980",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195824,7 +196327,7 @@
     "gnaf_pid": "GAQLD162713983",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195844,7 +196347,7 @@
     "gnaf_pid": "GAQLD162714006",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195864,7 +196367,7 @@
     "gnaf_pid": "GAQLD162714011",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195884,7 +196387,7 @@
     "gnaf_pid": "GAQLD162714016",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195904,7 +196407,7 @@
     "gnaf_pid": "GAQLD162714020",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195924,7 +196427,7 @@
     "gnaf_pid": "GAQLD162714021",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195944,7 +196447,7 @@
     "gnaf_pid": "GAQLD162714022",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195964,7 +196467,7 @@
     "gnaf_pid": "GAQLD162714028",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -195984,7 +196487,7 @@
     "gnaf_pid": "GAQLD162714031",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -196004,7 +196507,7 @@
     "gnaf_pid": "GAQLD162714039",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -196024,7 +196527,7 @@
     "gnaf_pid": "GAQLD162714040",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -196044,7 +196547,7 @@
     "gnaf_pid": "GAQLD162714044",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -196064,7 +196567,7 @@
     "gnaf_pid": "GAQLD162714047",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -197253,7 +197756,7 @@
     "gnaf_pid": "GAQLD162742460",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -197273,7 +197776,7 @@
     "gnaf_pid": "GAQLD162742461",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -197293,7 +197796,7 @@
     "gnaf_pid": "GAQLD162742462",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202692,7 +203195,7 @@
     "gnaf_pid": "GAQLD162826023",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202712,7 +203215,7 @@
     "gnaf_pid": "GAQLD162826024",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202732,7 +203235,7 @@
     "gnaf_pid": "GAQLD162826025",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202752,7 +203255,7 @@
     "gnaf_pid": "GAQLD162826026",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202908,7 +203411,7 @@
     "gnaf_pid": "GAQLD162829266",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202928,7 +203431,7 @@
     "gnaf_pid": "GAQLD162831463",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202948,7 +203451,7 @@
     "gnaf_pid": "GAQLD162831464",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -202968,7 +203471,7 @@
     "gnaf_pid": "GAQLD162831465",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -204631,7 +205134,7 @@
     "gnaf_pid": "GAQLD162911457",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -204651,7 +205154,7 @@
     "gnaf_pid": "GAQLD162911458",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -207762,6 +208265,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10279948,
+     -26.66172137
+    ]
+   },
+   "properties": {
+    "name": "14-20 AERODROME ROAD MAROOCHYDORE 4558",
+    "locID": "LOC000153385408",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162991256",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10234223,
      -26.65381619
     ]
@@ -208249,6 +208771,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162994979",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09756982,
+     -26.65835074
+    ]
+   },
+   "properties": {
+    "name": "68 KINGSFORD SMITH PARADE MAROOCHYDORE 4558",
+    "locID": "LOC000176611421",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162994989",
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2027"
@@ -211924,7 +212466,7 @@
     "gnaf_pid": "GAQLD163231329",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -212157,7 +212699,7 @@
     "gnaf_pid": "GAQLD163288803",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -212177,7 +212719,7 @@
     "gnaf_pid": "GAQLD163288804",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215039,7 +215581,7 @@
     "gnaf_pid": "GAQLD163300636",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215249,7 +215791,7 @@
     "gnaf_pid": "GAQLD163306281",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215269,7 +215811,7 @@
     "gnaf_pid": "GAQLD163306282",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215289,7 +215831,7 @@
     "gnaf_pid": "GAQLD163306283",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215309,7 +215851,7 @@
     "gnaf_pid": "GAQLD163306284",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215329,7 +215871,7 @@
     "gnaf_pid": "GAQLD163306285",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215349,7 +215891,7 @@
     "gnaf_pid": "GAQLD163306286",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215369,7 +215911,7 @@
     "gnaf_pid": "GAQLD163306287",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215536,10 +216078,9 @@
    "properties": {
     "name": "LOT 26 SUGAR ROAD MAROOCHYDORE 4558",
     "locID": "LOC000102547653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163319188",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -215619,7 +216160,7 @@
     "gnaf_pid": "GAQLD163326307",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215658,7 +216199,7 @@
     "gnaf_pid": "GAQLD163326309",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215830,7 +216371,7 @@
     "gnaf_pid": "GAQLD163332496",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215850,7 +216391,7 @@
     "gnaf_pid": "GAQLD163332498",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215870,7 +216411,7 @@
     "gnaf_pid": "GAQLD163332503",
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215890,7 +216431,7 @@
     "gnaf_pid": "GAQLD163356803",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -215910,7 +216451,7 @@
     "gnaf_pid": "GAQLD163356804",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -216102,7 +216643,7 @@
     "gnaf_pid": "GAQLD424855923",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -216122,7 +216663,7 @@
     "gnaf_pid": "GAQLD424855924",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -223798,10 +224339,10 @@
    "properties": {
     "name": "22 SUNRISE DRIVE MAROOCHYDORE 4558",
     "locID": "LOC000164429065",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425334179",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -233080,7 +233621,7 @@
     "gnaf_pid": "GAQLD425803243",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -233100,7 +233641,7 @@
     "gnaf_pid": "GAQLD425803244",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -233253,7 +233794,7 @@
     "gnaf_pid": "GAQLD425808928",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -233307,7 +233848,7 @@
     "gnaf_pid": "GAQLD425808998",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -237315,10 +237856,9 @@
    "properties": {
     "name": "27 PEPPER TREE CIRCUIT MAROOCHYDORE 4558",
     "locID": "LOC000128572763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719264575",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -240438,7 +240978,7 @@
     "gnaf_pid": "GAQLD719335167",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -249516,7 +250056,7 @@
     "gnaf_pid": "GAQLD719955145",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -249814,7 +250354,7 @@
     "gnaf_pid": "GAQLD719956769",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -250189,7 +250729,7 @@
     "gnaf_pid": "GAQLD719959457",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -252025,7 +252565,7 @@
     "gnaf_pid": "GAQLD720030585",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -252707,7 +253247,7 @@
     "gnaf_pid": "GAQLD720031388",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -253497,7 +254037,7 @@
     "gnaf_pid": "GAQLD720032250",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -258928,7 +259468,7 @@
     "gnaf_pid": "GAQLD720181967",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2027"
+    "target_eligibility_quarter": "Dec 2026"
    }
   },
   {
@@ -259133,6 +259673,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720203294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10279948,
+     -26.66172137
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1405, 14-20 AERODROME ROAD MAROOCHYDORE 4558",
+    "locID": "LOC100090927558",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720203891",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2027"
    }
   },
   {
@@ -267675,6 +268235,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720477115"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10279948,
+     -26.66172137
+    ]
+   },
+   "properties": {
+    "name": "UNIT 701, 14-20 AERODROME ROAD MAROOCHYDORE 4558",
+    "locID": "LOC000184731718",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD720477116",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -284161,6 +284740,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.08014493,
+     -26.65751462
+    ]
+   },
+   "properties": {
+    "name": "2 DULIN STREET MAROOCHYDORE 4558",
+    "locID": "LOC000184209347",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721068948"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07125865,
      -26.6637525
     ]
@@ -292284,10 +292880,9 @@
    "properties": {
     "name": "26 SUGAR ROAD NORTH MAROOCHYDORE 4558",
     "locID": "LOC000102547653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721235559",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
