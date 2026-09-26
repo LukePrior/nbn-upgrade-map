@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-09T21:02:56.133824",
+ "generated": "2026-09-26T00:30:41.612929",
  "suburb": "MAREEBA",
  "features": [
   {
@@ -836,10 +836,10 @@
    "properties": {
     "name": "17 ROBINS STREET MAREEBA 4880",
     "locID": "LOC000068455967",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155518543",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3651,7 +3651,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155520160",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4097,10 +4097,9 @@
    "properties": {
     "name": "1A WILSON STREET MAREEBA 4880",
     "locID": "LOC000040447983",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155520229",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5646,10 +5645,9 @@
    "properties": {
     "name": "6 MOLLOY STREET MAREEBA 4880",
     "locID": "LOC000005839308",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155521990",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155521990"
    }
   },
   {
@@ -11367,10 +11365,9 @@
    "properties": {
     "name": "3 PARES STREET MAREEBA 4880",
     "locID": "LOC000006595338",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155526583",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155526583"
    }
   },
   {
@@ -15467,9 +15464,9 @@
     "name": "48 RANKIN STREET MAREEBA 4880",
     "locID": "LOC000188145853",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155529432",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23096,7 +23093,7 @@
     "name": "5 DICKSON STREET MAREEBA 4880",
     "locID": "LOC000006645589",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156767985",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37817,8 +37814,8 @@
    "properties": {
     "name": "13 ROBINS STREET MAREEBA 4880",
     "locID": "LOC000039380278",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156814008",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39911,9 +39908,9 @@
     "name": "UNIT 1, 20 CHEWKO ROAD MAREEBA 4880",
     "locID": "LOC000081324476",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158214547",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -41697,8 +41694,8 @@
    "properties": {
     "name": "17A ATHERTON STREET MAREEBA 4880",
     "locID": "LOC000062591485",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158220182"
    }
   },
@@ -52491,10 +52488,9 @@
    "properties": {
     "name": "2A PARES STREET MAREEBA 4880",
     "locID": "LOC000183486126",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD158240748",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158240748"
    }
   },
   {
@@ -62135,6 +62131,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160688716",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.38232606,
+     -17.01260824
+    ]
+   },
+   "properties": {
+    "name": "290 ROIKO ROAD MAREEBA 4880",
+    "locID": "LOC000106237926",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160688718",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
@@ -79283,8 +79299,8 @@
    "properties": {
     "name": "8 JOAN CRESCENT MAREEBA 4880",
     "locID": "LOC000105121368",
-    "tech": "WIRELESS",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162039630",
     "tech_change_status": "Eligible to Order"
    }
@@ -79919,10 +79935,9 @@
    "properties": {
     "name": "25 RIVER DRIVE MAREEBA 4880",
     "locID": "LOC000076259810",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162061814",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162061814"
    }
   },
   {
@@ -85661,10 +85676,9 @@
    "properties": {
     "name": "9 DAMIEN STREET MAREEBA 4880",
     "locID": "LOC000099187772",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162853752",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162853752"
    }
   },
   {
@@ -102697,26 +102711,6 @@
     "gnaf_pid": "GAQLD425586352",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.41421439,
-     -17.00359377
-    ]
-   },
-   "properties": {
-    "name": "30 CHEWKO ROAD MAREEBA 4880",
-    "locID": "LOC100080358918",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425586883",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
