@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-10T17:25:02.354563",
+ "generated": "2026-09-26T17:30:58.125580",
  "suburb": "BUSSELTON",
  "features": [
   {
@@ -1361,10 +1361,10 @@
    "properties": {
     "name": "97 FAIRBAIRN ROAD BUSSELTON 6280",
     "locID": "LOC000085482831",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146944344",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3546,8 +3546,8 @@
    "properties": {
     "name": "68 FAIRBAIRN ROAD BUSSELTON 6280",
     "locID": "LOC000101313944",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146948170",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3897,6 +3897,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.34734426,
+     -33.65682487
+    ]
+   },
+   "properties": {
+    "name": "33 SOUTHERN DRIVE BUSSELTON 6280",
+    "locID": "LOC000199318570",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146949172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.34738777,
      -33.65629243
     ]
@@ -3924,10 +3941,9 @@
    "properties": {
     "name": "11 PLACKETT WAY BUSSELTON 6280",
     "locID": "LOC000037953405",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146949293",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4081,10 +4097,12 @@
    "properties": {
     "name": "50 STRELLY STREET BUSSELTON 6280",
     "locID": "LOC000133029137",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146950034",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10732,7 +10750,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146963319",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17550,6 +17568,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.34345431,
+     -33.64948775
+    ]
+   },
+   "properties": {
+    "name": "44 QUEEN STREET BUSSELTON 6280",
+    "locID": "LOC000154523078",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147258027",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33002,10 +33039,9 @@
    "properties": {
     "name": "186 DUKE STREET BUSSELTON 6280",
     "locID": "LOC000073687532",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163047214",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
