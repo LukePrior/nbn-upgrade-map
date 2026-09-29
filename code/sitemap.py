@@ -19,7 +19,7 @@ def generate_sitemap(json_file, output_file):
         for suburb in suburbs:
             suburb_name = suburb["name"]
             encoded_suburb = quote(suburb_name.lower().replace(" ", "-"))
-            processed_date = suburb["processed_date"].split("T")[0]
+            processed_date = (suburb["processed_date"] or "").split("T")[0]  # None for unprocessed suburbs
             url = f"https://nbn.lukeprior.com/?suburb={encoded_suburb}&state={state.lower()}"
             add_url(urlset, url, processed_date)
 
