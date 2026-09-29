@@ -79,7 +79,8 @@ def write_csv(output_path: str, rows: Iterable[Dict[str, Any]], fields: List[str
         fields: List of field names to include in the CSV
         dedupe: Whether to deduplicate by loc_id
     """
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    if os.path.dirname(output_path):  # a bare filename has no directory to create
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
     seen = set()
     count = 0
 
