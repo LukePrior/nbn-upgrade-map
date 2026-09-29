@@ -40,7 +40,7 @@ if (window.matchMedia('(display-mode: standalone)').matches) {
 }
 
 function updateSiteDetails(suburb, state) {
-    formattedSuburb = suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    formattedSuburb = suburb.replace(/-/g, " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
     newTitle = "NBN Technology Map - " + formattedSuburb;
     if (document.title != newTitle) {
         document.title = newTitle;
@@ -58,7 +58,12 @@ function updateSiteDetailed(suburb, state, data) {
         }
         return acc;
     }, {});
-    formattedSuburb = suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    formattedSuburb = suburb.replace(/-/g, " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    if (Object.keys(techBreakdown).length == 0) {
+        // no addresses in this suburb: nothing to summarise (and reduce() would throw on an empty array)
+        $('meta[name="description"]').attr("content", "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + " as of " + data.generated.split("T")[0] + ".");
+        return;
+    }
     primaryTech = Object.keys(techBreakdown).reduce((a, b) => techBreakdown[a] > techBreakdown[b] ? a : b);
     newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + " as of " + data.generated.split("T")[0] + ".";
     newDescription += " The primary technology is " + primaryTech + " with " + techBreakdown[primaryTech] + " premises, other technologies include " + Object.keys(techBreakdown).filter(tech => tech != primaryTech).map(tech => tech + " (" + techBreakdown[tech] + ")").join(", ") + ".";
@@ -143,7 +148,7 @@ $(document).ready(function() {
         }
     });
     if (default_suburb != null && default_state != null) {
-        var option = new Option(default_suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase()), default_state + "/" + default_suburb, true, true);
+        var option = new Option(default_suburb.replace(/-/g, " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase()), default_state + "/" + default_suburb, true, true);
         $('.suburb-selector').append(option).trigger('change');
     }
 });
