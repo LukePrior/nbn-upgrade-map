@@ -5,7 +5,7 @@ import main
 import test_nbn
 import testutils
 import update_breakdown
-from data import Address
+from data import Address, Suburb
 from nbn import CACHE, NBNApi
 
 
@@ -222,3 +222,18 @@ def test_non_fttp_address_still_fetched(monkeypatch):
     assert len(api_calls) == 1, "API should be called for non-FTTP addresses"
     assert result.tech == "FTTN"
     assert result.upgrade == "FTTP_SA"
+
+
+def test_select_suburb_unknown_does_not_fall_through(monkeypatch):
+    suburbs = {"ACT": [Suburb(name="Acton", processed_date=None)]}
+    monkeypatch.setattr(main, "read_all_suburbs", lambda: suburbs)
+    assert list(main.select_suburb("Nowhere", "ACT")) == []
+    assert list(main.select_suburb("Acton", "XX")) == []
+    assert list(main.select_suburb("acton", "act")) == [("ACTON", "ACT")]
+
+
+def test_select_suburb_same_processed_date(monkeypatch):
+    when = datetime.datetime(2025, 1, 1)
+    suburbs = {"ACT": [Suburb(name="Acton", processed_date=when), Suburb(name="Barton", processed_date=when)]}
+    monkeypatch.setattr(main, "read_all_suburbs", lambda: suburbs)
+    assert list(main.select_suburb(None, None)) == [("ACTON", "ACT"), ("BARTON", "ACT")]
