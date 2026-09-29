@@ -292,3 +292,11 @@ def test_available_fields_constant():
 def test_default_fields_constant():
     """Test that DEFAULT_FIELDS maintains backward compatibility."""
     assert export_locids_csv.DEFAULT_FIELDS == ["loc_id", "latitude", "longitude"]
+
+
+def test_write_csv_bare_filename(tmp_path, monkeypatch):
+    """A bare output filename (no directory part) should not fail."""
+    monkeypatch.chdir(tmp_path)
+    rows = [{"loc_id": "LOC1", "latitude": -35.0, "longitude": 149.0}]
+    assert export_locids_csv.write_csv("out.csv", rows, ["loc_id", "latitude", "longitude"]) == 1
+    assert (tmp_path / "out.csv").exists()
