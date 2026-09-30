@@ -293,6 +293,9 @@ function getDotType(tech, upgrade, date, status, generated) {
     return dotTypes.Unknown;
 }
 
+// dot types (keys of dotTypes) the user has hidden by clicking them in the legend
+var hiddenDotTypes = new Set();
+
 // load GeoJSON from an external file
 function loadSuburb(state_file, commit, first_load=false) {
     if (state_file == "") {
@@ -347,7 +350,7 @@ function loadSuburb(state_file, commit, first_load=false) {
             pointToLayer: function (feature, latlng) {
                 var dotType = getDotType(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
                 foundDotTypes.add(dotType);
-                return L.circleMarker(latlng, {
+                var marker = L.circleMarker(latlng, {
                     radius: 5,
                     fillColor: dotType.colour,
                     color: "#000000",
@@ -355,6 +358,8 @@ function loadSuburb(state_file, commit, first_load=false) {
                     opacity: 1,
                     fillOpacity: 0.8
                 });
+                marker.dotTypeKey = Object.keys(dotTypes).find(key => dotTypes[key] === dotType);
+                return marker;
             },
             onEachFeature: function (feature, layer) {
                 // popup with place name and upgrade type
@@ -394,11 +399,30 @@ function loadSuburb(state_file, commit, first_load=false) {
             var legendHTML = '';
             for (const [key, value] of Object.entries(dotTypes)) {
                 if (foundDotTypes.has(value)) {
-                    legendHTML += `<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="${value.colour}" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> ${value.label}<br>`;
-
+                    var hidden = hiddenDotTypes.has(key);
+                    legendHTML += `<div class="legend-item" data-key="${key}" title="Click to show/hide" style="cursor: pointer;${hidden ? ' opacity: 0.4; text-decoration: line-through;' : ''}"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="${value.colour}" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> ${value.label}</div>`;
                 }
             }
             div.innerHTML = legendHTML;
+            // clicking a legend entry shows/hides the dots of that type
+            L.DomEvent.disableClickPropagation(div);
+            div.addEventListener('click', function (e) {
+                var item = e.target.closest('.legend-item');
+                if (!item) {
+                    return;
+                }
+                var key = item.dataset.key;
+                if (hiddenDotTypes.has(key)) {
+                    hiddenDotTypes.delete(key);
+                    item.style.opacity = "";
+                    item.style.textDecoration = "";
+                } else {
+                    hiddenDotTypes.add(key);
+                    item.style.opacity = "0.4";
+                    item.style.textDecoration = "line-through";
+                }
+                showVisibleMarkers();
+            });
             return div;
         }
         if (document.getElementsByClassName("legend").length > 0) {
@@ -406,8 +430,19 @@ function loadSuburb(state_file, commit, first_load=false) {
         }
         legend.addTo(map);
 
+        // (re)populate the cluster group with the dots whose type is not hidden
+        function showVisibleMarkers() {
+            var visible = [];
+            geojson.eachLayer(function (layer) {
+                if (!hiddenDotTypes.has(layer.dotTypeKey)) {
+                    visible.push(layer);
+                }
+            });
+            markers.clearLayers();
+            markers.addLayers(visible);
+        }
         map.addLayer(markers);
-        markers.addLayer(geojson);
+        showVisibleMarkers();
         // Create stats table
         var stats = L.control({ position: 'bottomright' });
         stats.onAdd = function (map) {
