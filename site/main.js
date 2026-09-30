@@ -25,6 +25,12 @@ var default_suburb = null;
 var default_state = null;
 var default_commit = "latest";
 var combined_info = null;
+// null means every postcode in the loaded suburb, including addresses with no postcode.
+var active_postcode = null;
+var loaded_collection = null;
+var loaded_state_file = null;
+var applied_postcode = undefined;
+var load_serial = 0;
 if (urlParams.has("suburb") && urlParams.has("state")) {
     default_suburb = urlParams.get("suburb");
     default_state = urlParams.get("state");
@@ -33,6 +39,9 @@ if (urlParams.has("suburb") && urlParams.has("state")) {
 if (urlParams.has("commit")) {
     default_commit = urlParams.get("commit");
     default_commit = default_commit == "main" ? "latest" : default_commit;
+}
+if (urlParams.has("postcode") && urlParams.get("postcode")) {
+    active_postcode = urlParams.get("postcode");
 }
 
 if (window.matchMedia('(display-mode: standalone)').matches) {
@@ -50,7 +59,11 @@ function updateSiteDetails(suburb, state) {
 }
 
 function updateSiteDetailed(suburb, state, data) {
-    techBreakdown = data.features.reduce((acc, feature) => {
+    var features = (data && data.features) ? data.features : [];
+    techBreakdown = features.reduce((acc, feature) => {
+        if (!feature || !feature.properties || feature.properties.tech == null) {
+            return acc;
+        }
         if (feature.properties.tech in acc) {
             acc[feature.properties.tech] += 1;
         } else if (feature.properties.tech != "NULL") {
@@ -59,6 +72,11 @@ function updateSiteDetailed(suburb, state, data) {
         return acc;
     }, {});
     formattedSuburb = suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    if (Object.keys(techBreakdown).length === 0 || !data || typeof data.generated !== "string") {
+        newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + ".";
+        $('meta[name="description"]').attr("content", newDescription);
+        return;
+    }
     primaryTech = Object.keys(techBreakdown).reduce((a, b) => techBreakdown[a] > techBreakdown[b] ? a : b);
     newDescription = "Map of NBN technology types in " + formattedSuburb + " " + state.toUpperCase() + " as of " + data.generated.split("T")[0] + ".";
     newDescription += " The primary technology is " + primaryTech + " with " + techBreakdown[primaryTech] + " premises, other technologies include " + Object.keys(techBreakdown).filter(tech => tech != primaryTech).map(tech => tech + " (" + techBreakdown[tech] + ")").join(", ") + ".";
@@ -293,18 +311,216 @@ function getDotType(tech, upgrade, date, status, generated) {
     return dotTypes.Unknown;
 }
 
-// load GeoJSON from an external file
-function loadSuburb(state_file, commit, first_load=false) {
-    if (state_file == "") {
+// Australian addresses in this dataset end with a four-digit postcode token.
+// Keep the token as a string so leading zeroes survive.
+function addressPostcode(name) {
+    if (typeof name !== "string") {
+        return null;
+    }
+    var trimmed = name.trim();
+    if (!trimmed) {
+        return null;
+    }
+    var parts = trimmed.split(/\s+/);
+    var last = parts[parts.length - 1];
+    if (/^\d{4}$/.test(last)) {
+        return last;
+    }
+    return null;
+}
+
+function featurePostcode(feature) {
+    if (!feature || !feature.properties) {
+        return null;
+    }
+    return addressPostcode(feature.properties.name);
+}
+
+function postcodesInCollection(data) {
+    var seen = {};
+    var postcodes = [];
+    var features = (data && data.features) ? data.features : [];
+    for (var i = 0; i < features.length; i++) {
+        var postcode = featurePostcode(features[i]);
+        if (postcode != null && !seen[postcode]) {
+            seen[postcode] = true;
+            postcodes.push(postcode);
+        }
+    }
+    postcodes.sort();
+    return postcodes;
+}
+
+// A null postcode keeps the full collection, including addresses with no postcode.
+function collectionForPostcode(data, postcode) {
+    if (data == null) {
+        return { type: "FeatureCollection", features: [] };
+    }
+    if (postcode == null || postcode === "") {
+        return data;
+    }
+    var features = [];
+    var source = data.features || [];
+    for (var i = 0; i < source.length; i++) {
+        if (featurePostcode(source[i]) === postcode) {
+            features.push(source[i]);
+        }
+    }
+    var view = {};
+    for (var key in data) {
+        if (Object.prototype.hasOwnProperty.call(data, key)) {
+            view[key] = data[key];
+        }
+    }
+    view.features = features;
+    view.type = data.type || "FeatureCollection";
+    return view;
+}
+
+// Unknown postcodes and single-postcode suburbs fall back to the full collection.
+function resolveActivePostcode(data) {
+    var postcodes = postcodesInCollection(data);
+    if (postcodes.length < 2) {
+        active_postcode = null;
+    } else if (active_postcode != null && postcodes.indexOf(active_postcode) === -1) {
+        active_postcode = null;
+    }
+    return postcodes;
+}
+
+function shouldFitSuburb(first_load) {
+    var tempUrlParams = new URLSearchParams(window.location.search);
+    if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
+        if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
+            return true;
+        }
+        return false;
+    }
+    return true;
+}
+
+function removeElementsByClass(className) {
+    var found = document.getElementsByClassName(className);
+    var copy = [];
+    for (var i = 0; i < found.length; i++) {
+        copy.push(found[i]);
+    }
+    for (var j = 0; j < copy.length; j++) {
+        copy[j].remove();
+    }
+    return copy.length;
+}
+
+function removePostcodeControl() {
+    var removed = removeElementsByClass("postcode-selector-container");
+    var hosts = document.getElementsByClassName("suburb-selector-container");
+    if (removed > 0 && hosts.length > 0) {
+        var host = hosts[0];
+        host.style.display = "";
+        host.style.flexWrap = "";
+        host.style.justifyContent = "";
+        host.style.alignItems = "";
+        host.style.gap = "";
+        host.style.maxWidth = "";
+    }
+}
+
+function ensurePostcodeLayoutStyles() {
+    if (!document.getElementById || document.getElementById("postcode-layout-style") || !document.head) {
         return;
     }
-    url = "https://cdn.jsdelivr.net/gh/LukePrior/nbn-upgrade-map@" + commit + "/results/" + state_file + ".geojson"
-    default_state = state_file.split('/')[0]
-    default_suburb = state_file.split('/')[1]
-    default_commit = commit
-    updateSiteDetails(default_suburb, default_state);
-    addControlWithHTML('date-selector', 'Loading...')
-    fetch(url).then(res => res.json()).then(data => {
+    var style = document.createElement("style");
+    style.id = "postcode-layout-style";
+    style.textContent = ".suburb-selector-container:has(.postcode-selector-container){display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:6px;max-width:calc(100vw - 56px);}" +
+        ".suburb-selector-container:has(.postcode-selector-container) .select2-container{max-width:calc(100vw - 56px)!important;min-width:0!important;width:min(300px,calc(100vw - 160px))!important;}" +
+        ".postcode-selector-container{max-width:calc(100vw - 56px);}";
+    document.head.appendChild(style);
+}
+
+function updatePostcodeControl(postcodes, selected) {
+    removePostcodeControl();
+    if (!postcodes || postcodes.length < 2) {
+        return;
+    }
+    ensurePostcodeLayoutStyles();
+    var hosts = document.getElementsByClassName("suburb-selector-container");
+    if (hosts.length === 0) {
+        return;
+    }
+    var host = hosts[0];
+    host.style.display = "flex";
+    host.style.flexWrap = "wrap";
+    host.style.justifyContent = "flex-end";
+    host.style.alignItems = "center";
+    host.style.gap = "6px";
+    host.style.maxWidth = "calc(100vw - 56px)";
+
+    var label = document.createElement("label");
+    label.className = "postcode-selector-container";
+    label.htmlFor = "postcode";
+    label.style.backgroundColor = "#ffffff";
+    label.style.opacity = "0.95";
+    label.style.padding = "4px 6px";
+    label.style.borderRadius = "4px";
+    label.style.display = "inline-flex";
+    label.style.alignItems = "center";
+    label.style.gap = "4px";
+    label.style.font = "12px/1.2 Arial, sans-serif";
+    label.style.maxWidth = "calc(100vw - 56px)";
+    label.style.boxSizing = "border-box";
+    label.style.flex = "0 0 auto";
+
+    var caption = document.createElement("span");
+    caption.className = "postcode-selector-label";
+    caption.textContent = "Postcode";
+    label.appendChild(caption);
+
+    var select = document.createElement("select");
+    select.id = "postcode";
+    select.className = "postcode-selector";
+    select.style.maxWidth = "46vw";
+    select.setAttribute("aria-label", "Postcode");
+
+    function addOption(value, text, isSelected) {
+        var opt = document.createElement("option");
+        opt.value = value;
+        opt.textContent = text;
+        if (isSelected) {
+            opt.selected = true;
+        }
+        select.appendChild(opt);
+    }
+    addOption("", "All postcodes", !selected);
+    for (var i = 0; i < postcodes.length; i++) {
+        addOption(postcodes[i], postcodes[i], postcodes[i] === selected);
+    }
+    select.onchange = function () {
+        selectPostcode(select.value);
+    };
+    label.appendChild(select);
+    host.appendChild(label);
+}
+
+function selectPostcode(value) {
+    if (loaded_collection == null || !loaded_state_file) {
+        return;
+    }
+    active_postcode = (value == null || value === "") ? null : String(value);
+    var postcodes = resolveActivePostcode(loaded_collection);
+    updatePostcodeControl(postcodes, active_postcode);
+    // Refit even when state and suburb are unchanged.
+    renderSuburbFeatures(collectionForPostcode(loaded_collection, active_postcode), loaded_state_file, default_commit, true);
+    applied_postcode = active_postcode;
+}
+
+// Draw markers, legend, statistics, description and bounds for one feature collection.
+function renderSuburbFeatures(data, state_file, commit, fit) {
+        if (data == null) {
+            data = { type: "FeatureCollection", features: [] };
+        }
+        if (!data.features) {
+            data.features = [];
+        }
         // Update site description
         updateSiteDetailed(default_suburb, default_state, data);
         // clear existing markers
@@ -345,7 +561,8 @@ function loadSuburb(state_file, commit, first_load=false) {
         var foundDotTypes = new Set();
         var geojson = L.geoJson(data, {
             pointToLayer: function (feature, latlng) {
-                var dotType = getDotType(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
+                var props = (feature && feature.properties) ? feature.properties : {};
+                var dotType = getDotType(props.tech, props.upgrade || "", props.target_eligibility_quarter, props.tech_change_status, data.generated);
                 foundDotTypes.add(dotType);
                 return L.circleMarker(latlng, {
                     radius: 5,
@@ -358,22 +575,23 @@ function loadSuburb(state_file, commit, first_load=false) {
             },
             onEachFeature: function (feature, layer) {
                 // popup with place name and upgrade type
-                var s = "<b>" + feature.properties.name + " (" + default_state + ")</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech
+                var props = (feature && feature.properties) ? feature.properties : {};
+                var s = "<b>" + props.name + " (" + default_state + ")</b><br>Location: " + props.locID + "<br>Current tech: " + props.tech
                 // legacy FTTP upgrade pre November 2023
-                if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP" && (feature.properties.tech == "FTTN" || feature.properties.tech == "FTTC")) {
-                    s += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : "No"))
+                if (!("target_eligibility_quarter" in props) && props.tech != "FTTP" && (props.tech == "FTTN" || props.tech == "FTTC")) {
+                    s += "<br>Upgrade available: " + (props.upgrade == "FTTP_SA" ? "Yes" : (props.upgrade == "FTTP_NA" ? "Soon" : "No"))
                 }
-                if ("tech_change_status" in feature.properties) {
-                    s += "<br>Tech Change Status: " + feature.properties.tech_change_status
-                    if ("upgrade" in feature.properties && feature.properties.upgrade != "NULL_NA") {
-                        s += " (" + feature.properties.upgrade.split("_")[0] + ")"
+                if ("tech_change_status" in props) {
+                    s += "<br>Tech Change Status: " + props.tech_change_status
+                    if ("upgrade" in props && props.upgrade != "NULL_NA") {
+                        s += " (" + props.upgrade.split("_")[0] + ")"
                     }
                 }
-                if ("program_type" in feature.properties) {
-                    s += "<br>Program Type: " + feature.properties.program_type
+                if ("program_type" in props) {
+                    s += "<br>Program Type: " + props.program_type
                 }
-                if ("target_eligibility_quarter" in feature.properties) {
-                    s += "<br>Target Eligibility Quarter: " + feature.properties.target_eligibility_quarter
+                if ("target_eligibility_quarter" in props) {
+                    s += "<br>Target Eligibility Quarter: " + props.target_eligibility_quarter
                 }
 
                 layer.bindPopup(s);
@@ -421,10 +639,14 @@ function loadSuburb(state_file, commit, first_load=false) {
             var techs = {};
             for (var feature in data["features"]) {
                 feature = data["features"][feature];
-                if (feature.properties.tech in techs) {
-                    techs[feature.properties.tech] += 1;
+                var tech = feature && feature.properties ? feature.properties.tech : undefined;
+                if (tech == null) {
+                    continue;
+                }
+                if (tech in techs) {
+                    techs[tech] += 1;
                 } else {
-                    techs[feature.properties.tech] = 1;
+                    techs[tech] = 1;
                 }
             }
             techs = Object.fromEntries(Object.entries(techs).sort(([, a], [, b]) => b - a));
@@ -454,21 +676,60 @@ function loadSuburb(state_file, commit, first_load=false) {
         }
         stats.addTo(map);
 
-        var tempUrlParams = new URLSearchParams(window.location.search);
-
-        if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
-            if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
-                map.fitBounds(geojson.getBounds());
+        if (fit) {
+            var bounds = geojson.getBounds();
+            if (bounds && typeof bounds.isValid === "function" && bounds.isValid()) {
+                map.fitBounds(bounds);
             }
-        } else {
-            map.fitBounds(geojson.getBounds());
         }
 
-        // update url
-        window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
+        // update url; omit postcode for the All view so legacy links stay stable
+        var nextUrl = "?suburb=" + state_file.split("/").pop() + "&state=" + state_file.split("/")[0] + "&commit=" + commit;
+        if (active_postcode) {
+            nextUrl += "&postcode=" + encodeURIComponent(active_postcode);
+        }
+        window.history.pushState("", "", nextUrl);
+}
+
+// load GeoJSON from an external file
+function loadSuburb(state_file, commit, first_load=false) {
+    if (state_file == "") {
+        return;
+    }
+    var serial = ++load_serial;
+    var next_state = state_file.split("/")[0];
+    var next_suburb = state_file.split("/")[1];
+    var suburb_changed = default_state !== next_state || default_suburb !== next_suburb;
+    if (suburb_changed) {
+        active_postcode = null;
+        removePostcodeControl();
+    }
+    url = "https://cdn.jsdelivr.net/gh/LukePrior/nbn-upgrade-map@" + commit + "/results/" + state_file + ".geojson"
+    default_state = next_state
+    default_suburb = next_suburb
+    default_commit = commit
+    updateSiteDetails(default_suburb, default_state);
+    addControlWithHTML('date-selector', 'Loading...')
+    fetch(url).then(res => res.json()).then(data => {
+        if (serial !== load_serial) {
+            return;
+        }
+        // Choices come from the full collection; rendering uses the filtered view.
+        loaded_collection = data;
+        loaded_state_file = state_file;
+        var postcodes = resolveActivePostcode(data);
+        // Fit on the first paint and whenever the visible postcode changes.
+        // A repeated load of the same URL (the suburb control also fires change) must still fit once.
+        var fit = shouldFitSuburb(first_load) || applied_postcode !== active_postcode;
+        updatePostcodeControl(postcodes, active_postcode);
+        renderSuburbFeatures(collectionForPostcode(data, active_postcode), state_file, commit, fit);
+        applied_postcode = active_postcode;
 
         commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
         fetch(commits_url).then(res => res.json()).then(data => {
+            if (serial !== load_serial) {
+                return;
+            }
             var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
             for (const [cid, commit] of Object.entries(data)) {
                 [commit_date, commit_time] = commit.commit.author.date.split('T')
