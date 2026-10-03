@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-17T14:22:23.910159",
+ "generated": "2026-10-03T02:17:46.526064",
  "suburb": "BURWOOD",
  "features": [
   {
@@ -485,10 +485,10 @@
    "properties": {
     "name": "UNIT 91, 28A-32 BELMORE STREET BURWOOD 2134",
     "locID": "LOC000025598748",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704232931",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6631,10 +6631,10 @@
    "properties": {
     "name": "UNIT 54, 28A-32 BELMORE STREET BURWOOD 2134",
     "locID": "LOC000025833116",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704243908",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6667,10 +6667,10 @@
    "properties": {
     "name": "UNIT 56, 28A-32 BELMORE STREET BURWOOD 2134",
     "locID": "LOC000025515555",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704243910",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6826,10 +6826,10 @@
    "properties": {
     "name": "UNIT 64, 28A-32 BELMORE STREET BURWOOD 2134",
     "locID": "LOC000025541941",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704243919",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -13395,10 +13395,10 @@
    "properties": {
     "name": "UNIT 85, 28A-32 BELMORE STREET BURWOOD 2134",
     "locID": "LOC000025402356",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704249172",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -14937,6 +14937,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704250105"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.09947389,
+     -33.87819275
+    ]
+   },
+   "properties": {
+    "name": "17-19 CONDER STREET BURWOOD 2134",
+    "locID": "LOC000165978635",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704250106"
    }
   },
   {
@@ -44323,10 +44340,9 @@
    "properties": {
     "name": "22 SHAFTESBURY ROAD BURWOOD 2134",
     "locID": "LOC000014610414",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704268666",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704268666"
    }
   },
   {
@@ -63027,6 +63043,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.10320114,
+     -33.87777818
+    ]
+   },
+   "properties": {
+    "name": "36A RAILWAY PARADE BURWOOD 2134",
+    "locID": "LOC000170253154",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW708741713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.10356199,
      -33.88800495
     ]
@@ -65764,9 +65797,9 @@
     "name": "21 WOODSIDE AVENUE BURWOOD 2134",
     "locID": "LOC000098908606",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710963099",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -96654,8 +96687,9 @@
     "name": "UNIT 1, 214 PARRAMATTA ROAD BURWOOD 2134",
     "locID": "LOC000165983244",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717602697"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717602697",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
