@@ -469,6 +469,11 @@ function loadSuburb(state_file, commit, first_load=false) {
 
         commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
         fetch(commits_url).then(res => res.json()).then(data => {
+            // e.g. GitHub API rate limit: an error object rather than a list of commits
+            if (!Array.isArray(data)) {
+                console.warn("Unable to load commit history:", data.message);
+                return;
+            }
             var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
             for (const [cid, commit] of Object.entries(data)) {
                 [commit_date, commit_time] = commit.commit.author.date.split('T')
@@ -487,7 +492,7 @@ function loadSuburb(state_file, commit, first_load=false) {
             dropdownHTML += '</select>';
             addControlWithHTML('date-selector', dropdownHTML)
             $('.commit-selector').select2();
-        });
+        }).catch(err => console.warn("Unable to load commit history:", err));
 
         gtag('event', 'suburb_load', { 'suburb': default_suburb, 'state': default_state, 'commit': commit });
     });
