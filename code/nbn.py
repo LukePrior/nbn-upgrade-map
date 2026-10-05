@@ -20,7 +20,9 @@ class NBNApi:
 
     def __init__(self):
         self.session = requests.Session()
-        self.session.mount("http://", HTTPAdapter(max_retries=(Retry(total=5))))
+        adapter = HTTPAdapter(max_retries=Retry(total=5, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504]))
+        self.session.mount("http://", adapter)
+        self.session.mount("https://", adapter)
 
     def close(self):
         """Close the cache."""

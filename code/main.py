@@ -49,12 +49,14 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
     all_suburbs = read_all_suburbs()
     if target_suburb is not None and target_state is not None:
         logging.info("Selecting explicit %s, %s", target_suburb, target_state)
-        target_suburb = target_suburb.title()
         target_state = target_state.upper()
-        for suburb in all_suburbs[target_state]:
-            if suburb.name == target_suburb:
+        for suburb in all_suburbs.get(target_state, []):
+            if suburb.name.lower() == target_suburb.lower():
                 yield suburb.name.upper(), target_state
                 return
+        # don't silently fall through to processing every other suburb
+        logging.error("Suburb %s, %s not found", target_suburb, target_state)
+        return
 
     # 1. find suburbs that have not been processed
     logging.info("Checking for unprocessed suburbs...")
@@ -65,11 +67,14 @@ def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str,
 
     # 3. find suburbs for reprocessing
     logging.info("Checking for all suburbs...")
-    by_date = {}
-    for state, suburb_list in all_suburbs.items():
-        by_date |= {s.processed_date: (s.name.upper(), state) for s in suburb_list if s.processed_date}
-    for processed_date in sorted(by_date):
-        yield by_date[processed_date]
+    by_date = [
+        (s.processed_date, s.name.upper(), state)
+        for state, suburb_list in all_suburbs.items()
+        for s in suburb_list
+        if s.processed_date
+    ]
+    for _, name, state in sorted(by_date):
+        yield name, state
 
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
@@ -180,6 +185,8 @@ def process_suburb(
 
     # if the output file exists already the use it to cache locid lookup
     global GNAF_PID_TO_LOC, GNAF_PID_TO_FTTP_ADDRESS
+    GNAF_PID_TO_LOC = {}
+    GNAF_PID_TO_FTTP_ADDRESS = {}
     if results := geojson.read_geojson_file(suburb, state):
         file_generated = datetime.fromisoformat(results["generated"])
         if (datetime.now() - file_generated).days < MAX_LOC_CACHE_AGE_DAYS:
