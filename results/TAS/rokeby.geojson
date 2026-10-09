@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-21T05:45:46.840241",
+ "generated": "2026-10-09T10:37:50.677031",
  "suburb": "ROKEBY",
  "features": [
   {
@@ -1832,10 +1832,9 @@
    "properties": {
     "name": "56 BANYALLA STREET ROKEBY 7019",
     "locID": "LOC000031136677",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702193001",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8687,10 +8686,10 @@
    "properties": {
     "name": "88 DUNTROON DRIVE ROKEBY 7019",
     "locID": "LOC000051245916",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702238723",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10431,9 +10430,9 @@
     "name": "96 HOOKEY STREET ROKEBY 7019",
     "locID": "LOC000029124468",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702255838",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12994,10 +12993,10 @@
    "properties": {
     "name": "127 HOOKEY STREET ROKEBY 7019",
     "locID": "LOC000030183976",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702277100",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16296,10 +16295,9 @@
    "properties": {
     "name": "1 STANFIELD STREET ROKEBY 7019",
     "locID": "LOC000079779669",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702342085",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23730,9 +23728,9 @@
     "name": "1 RALPH TERRACE ROKEBY 7019",
     "locID": "LOC000071063365",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS716908544",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24107,6 +24105,25 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43421228,
+     -42.89487041
+    ]
+   },
+   "properties": {
+    "name": "14 CHECQUERS STREET ROKEBY 7019",
+    "locID": "LOC000045546633",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS717235218",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50780,23 +50797,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.43975643,
-     -42.9034262
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 66 DROUGHTY POINT ROAD ROKEBY 7019",
-    "locID": "LOC000194817851",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GATAS721724145"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      147.4324996,
      -42.89783899
     ]
@@ -50807,23 +50807,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721724191"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     147.43975643,
-     -42.9034262
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 66 DROUGHTY POINT ROAD ROKEBY 7019",
-    "locID": "LOC000194817782",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GATAS721724235"
    }
   },
   {
@@ -51796,6 +51779,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721843126"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43219059,
+     -42.89761951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 7 HART PLACE ROKEBY 7019",
+    "locID": "LOC000199537152",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721843161"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43219059,
+     -42.89761951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 7 HART PLACE ROKEBY 7019",
+    "locID": "LOC000199537175",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721843182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43219059,
+     -42.89761951
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 7 HART PLACE ROKEBY 7019",
+    "locID": "LOC000199537147",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721843240"
    }
   },
   {
