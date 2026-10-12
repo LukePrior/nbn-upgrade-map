@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-09-23T21:59:47.842926",
+ "generated": "2026-10-12T04:48:26.093620",
  "suburb": "ERSKINEVILLE",
  "features": [
   {
@@ -4670,10 +4670,10 @@
    "properties": {
     "name": "20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704717466",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10306,10 +10306,10 @@
    "properties": {
     "name": "74 CHARLES STREET ERSKINEVILLE 2043",
     "locID": "LOC000033703633",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704721630",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18501,10 +18501,10 @@
    "properties": {
     "name": "11 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000025048022",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704727528",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18560,10 +18560,10 @@
    "properties": {
     "name": "33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010491261",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704727534",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23882,6 +23882,44 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486871",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704733921",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486885",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704733922",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.18286368,
      -33.90551361
     ]
@@ -24856,10 +24894,9 @@
    "properties": {
     "name": "32 AMY STREET ERSKINEVILLE 2043",
     "locID": "LOC000054399232",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704734657",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28390,6 +28427,63 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486844",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704739817",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486859",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704739818",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486863",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704739819",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.18702419,
      -33.90141497
     ]
@@ -28786,10 +28880,9 @@
    "properties": {
     "name": "146 GEORGE STREET ERSKINEVILLE 2043",
     "locID": "LOC000013259816",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704740919",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45317,9 +45410,9 @@
     "name": "UNIT 2, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086414574",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710542924",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -45335,9 +45428,9 @@
     "name": "UNIT 1, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086275648",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW710542925",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -52720,8 +52813,8 @@
    "properties": {
     "name": "UNIT 1004, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000018779103",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404482",
     "tech_change_status": "Eligible to Order"
    }
@@ -53290,10 +53383,10 @@
    "properties": {
     "name": "UNIT 1702, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000019339896",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404514",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -54074,10 +54167,10 @@
    "properties": {
     "name": "UNIT 240, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000019218791",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404558",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -54325,8 +54418,8 @@
    "properties": {
     "name": "UNIT 352, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000018797336",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404572",
     "tech_change_status": "Eligible to Order"
    }
@@ -55770,10 +55863,10 @@
    "properties": {
     "name": "UNIT 555, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000019007332",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404653",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -55896,10 +55989,10 @@
    "properties": {
     "name": "UNIT 602, 221 SYDNEY PARK ROAD ERSKINEVILLE 2043",
     "locID": "LOC000018738400",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715404660",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -62529,8 +62622,8 @@
    "properties": {
     "name": "UNIT 71, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011313714",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716467914",
     "tech_change_status": "Eligible to Order"
    }
@@ -62780,7 +62873,7 @@
     "tech": "FTTB",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716630410",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -62852,7 +62945,7 @@
     "tech": "FTTB",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716630414",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -62867,10 +62960,10 @@
    "properties": {
     "name": "UNIT 20, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630415",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -62939,10 +63032,10 @@
    "properties": {
     "name": "UNIT 24, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011539035",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630419",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -63047,10 +63140,10 @@
    "properties": {
     "name": "UNIT 2, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630425",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -63353,10 +63446,10 @@
    "properties": {
     "name": "UNIT 45, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011446343",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630442",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -63371,10 +63464,10 @@
    "properties": {
     "name": "UNIT 46, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011522269",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630443",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -63518,7 +63611,7 @@
     "tech": "FTTB",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716630451",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63896,7 +63989,7 @@
     "tech": "FTTB",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716630472",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -64076,7 +64169,7 @@
     "tech": "FTTB",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716630482",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -64109,10 +64202,10 @@
    "properties": {
     "name": "UNIT 88, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011425564",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716630484",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -64844,9 +64937,9 @@
     "name": "UNIT 1, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010497680",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716650866",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64864,9 +64957,9 @@
     "name": "UNIT 2, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010435500",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716650867",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64883,10 +64976,10 @@
    "properties": {
     "name": "UNIT 3, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010456557",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716650868",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64903,10 +64996,10 @@
    "properties": {
     "name": "UNIT 4, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010456557",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716650869",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64924,9 +65017,9 @@
     "name": "UNIT 5, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010571085",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716650870",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64943,10 +65036,10 @@
    "properties": {
     "name": "UNIT 6, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010491261",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716650871",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64964,9 +65057,9 @@
     "name": "UNIT 7, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010501140",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716650872",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -64983,10 +65076,10 @@
    "properties": {
     "name": "UNIT 8, 33-35 BURREN STREET ERSKINEVILLE 2043",
     "locID": "LOC000010996079",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716650873",
-    "tech_change_status": "MDU Complex Premises In Build",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -71880,6 +71973,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.18318482,
+     -33.90488093
+    ]
+   },
+   "properties": {
+    "name": "33-35 FLORA STREET ERSKINEVILLE 2043",
+    "locID": "LOC000168486844",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717743877",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.18229697,
      -33.90449295
     ]
@@ -72833,10 +72945,10 @@
    "properties": {
     "name": "UNIT 3409, 2 NASSAU LANE ERSKINEVILLE 2043",
     "locID": "LOC000008184308",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717865878",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -73169,9 +73281,9 @@
     "name": "UNIT 100, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086091570",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972736",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73187,9 +73299,9 @@
     "name": "UNIT 101, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086372608",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972737",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73205,9 +73317,9 @@
     "name": "UNIT 102, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086298026",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972738",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73223,9 +73335,9 @@
     "name": "UNIT 10, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086275648",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972739",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73331,9 +73443,9 @@
     "name": "UNIT 16, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086491329",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972745",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73349,9 +73461,9 @@
     "name": "UNIT 17, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000141680991",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972746",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73367,9 +73479,9 @@
     "name": "UNIT 18, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086472034",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972747",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73385,9 +73497,9 @@
     "name": "UNIT 19, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086211433",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972748",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73403,9 +73515,9 @@
     "name": "UNIT 20, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086200442",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972749",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73420,7 +73532,7 @@
    "properties": {
     "name": "UNIT 21, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086225013",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972750",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73439,9 +73551,9 @@
     "name": "UNIT 22, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086247928",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972751",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73457,9 +73569,9 @@
     "name": "UNIT 23, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086106694",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972752",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73474,7 +73586,7 @@
    "properties": {
     "name": "UNIT 24, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086192893",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972753",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73492,7 +73604,7 @@
    "properties": {
     "name": "UNIT 25, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086272944",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972754",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73511,9 +73623,9 @@
     "name": "UNIT 26, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085942588",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972755",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73529,9 +73641,9 @@
     "name": "UNIT 27, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086512555",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972756",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73547,9 +73659,9 @@
     "name": "UNIT 28, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086481921",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972757",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73565,9 +73677,9 @@
     "name": "UNIT 29, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085987417",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972758",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73583,9 +73695,9 @@
     "name": "UNIT 30, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086450577",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972759",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73601,9 +73713,9 @@
     "name": "UNIT 31, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086329895",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972760",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73618,7 +73730,7 @@
    "properties": {
     "name": "UNIT 32, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086221071",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972761",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73637,9 +73749,9 @@
     "name": "UNIT 33, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086535170",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972762",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73655,9 +73767,9 @@
     "name": "UNIT 34, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086253583",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972763",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73672,7 +73784,7 @@
    "properties": {
     "name": "UNIT 35, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086165637",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972764",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73691,9 +73803,9 @@
     "name": "UNIT 36, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086052422",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972765",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73709,9 +73821,9 @@
     "name": "UNIT 37, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086338378",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972766",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73726,7 +73838,7 @@
    "properties": {
     "name": "UNIT 38, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085971277",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972767",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -73745,9 +73857,9 @@
     "name": "UNIT 39, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086128019",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972768",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73763,9 +73875,9 @@
     "name": "UNIT 3, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086450577",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972769",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73781,9 +73893,9 @@
     "name": "UNIT 40, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086335381",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972770",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73799,9 +73911,9 @@
     "name": "UNIT 41, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086298734",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972771",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73817,9 +73929,9 @@
     "name": "UNIT 42, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086146195",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972772",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73835,9 +73947,9 @@
     "name": "UNIT 43, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086161843",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972773",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73853,9 +73965,9 @@
     "name": "UNIT 44, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086407223",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972774",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73871,9 +73983,9 @@
     "name": "UNIT 45, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086234867",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972775",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73889,9 +74001,9 @@
     "name": "UNIT 46, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086360436",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972776",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73907,9 +74019,9 @@
     "name": "UNIT 47, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086437943",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972777",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73925,9 +74037,9 @@
     "name": "UNIT 48, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086231575",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972778",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73943,9 +74055,9 @@
     "name": "UNIT 49, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085956806",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972779",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73961,9 +74073,9 @@
     "name": "UNIT 4, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086298734",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972780",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73979,9 +74091,9 @@
     "name": "UNIT 50, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086340406",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972781",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -73997,9 +74109,9 @@
     "name": "UNIT 51, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086491412",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972782",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74015,9 +74127,9 @@
     "name": "UNIT 52, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086063166",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972783",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74033,9 +74145,9 @@
     "name": "UNIT 53, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086200823",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972784",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74051,9 +74163,9 @@
     "name": "UNIT 54, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086238951",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972785",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74068,7 +74180,7 @@
    "properties": {
     "name": "UNIT 55, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086020414",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972786",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74086,7 +74198,7 @@
    "properties": {
     "name": "UNIT 56, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085974239",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972787",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74105,9 +74217,9 @@
     "name": "UNIT 57, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086088440",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972788",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74123,9 +74235,9 @@
     "name": "UNIT 58, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086159174",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972789",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74141,9 +74253,9 @@
     "name": "UNIT 59, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086377404",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972790",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74158,7 +74270,7 @@
    "properties": {
     "name": "UNIT 5, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000144050637",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972791",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74177,9 +74289,9 @@
     "name": "UNIT 60, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086221085",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972792",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74195,9 +74307,9 @@
     "name": "UNIT 61, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086098803",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972793",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74213,9 +74325,9 @@
     "name": "UNIT 62, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085940858",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972794",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74231,9 +74343,9 @@
     "name": "UNIT 63, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086502568",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972795",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74249,9 +74361,9 @@
     "name": "UNIT 64, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086442754",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972796",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74266,7 +74378,7 @@
    "properties": {
     "name": "UNIT 65, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086264942",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972797",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74285,9 +74397,9 @@
     "name": "UNIT 66, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086545160",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972798",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74303,9 +74415,9 @@
     "name": "UNIT 67, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086143685",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972799",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74321,9 +74433,9 @@
     "name": "UNIT 68, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086090831",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972800",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74339,9 +74451,9 @@
     "name": "UNIT 69, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086095432",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972801",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74357,9 +74469,9 @@
     "name": "UNIT 6, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086502568",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972802",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74375,9 +74487,9 @@
     "name": "UNIT 70, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086490024",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972803",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74393,9 +74505,9 @@
     "name": "UNIT 71, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086562005",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972804",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74411,9 +74523,9 @@
     "name": "UNIT 72, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086052915",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972805",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74429,9 +74541,9 @@
     "name": "UNIT 73, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086128298",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972806",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74446,10 +74558,10 @@
    "properties": {
     "name": "UNIT 74, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086219226",
-    "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972807",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -74464,7 +74576,7 @@
    "properties": {
     "name": "UNIT 75, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086175602",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972808",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74482,7 +74594,7 @@
    "properties": {
     "name": "UNIT 76, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086119138",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972809",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74500,7 +74612,7 @@
    "properties": {
     "name": "UNIT 77, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086098900",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972810",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74519,9 +74631,9 @@
     "name": "UNIT 78, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086467087",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972811",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74537,9 +74649,9 @@
     "name": "UNIT 79, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086361906",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972812",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74554,7 +74666,7 @@
    "properties": {
     "name": "UNIT 7, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086098900",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972813",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74573,9 +74685,9 @@
     "name": "UNIT 80, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086330580",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972814",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74590,10 +74702,10 @@
    "properties": {
     "name": "UNIT 81, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085988326",
-    "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972815",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -74609,9 +74721,9 @@
     "name": "UNIT 82, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086316212",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972816",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74627,9 +74739,9 @@
     "name": "UNIT 83, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086205652",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972817",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74645,9 +74757,9 @@
     "name": "UNIT 84, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086005428",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972818",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74662,7 +74774,7 @@
    "properties": {
     "name": "UNIT 85, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086245830",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972819",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74680,7 +74792,7 @@
    "properties": {
     "name": "UNIT 86, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086095302",
-    "tech": "FTTB",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717972820",
     "tech_change_status": "MDU Complex Eligible To Apply"
@@ -74699,9 +74811,9 @@
     "name": "UNIT 87, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086001412",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972821",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74717,9 +74829,9 @@
     "name": "UNIT 88, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086560104",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972822",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74735,9 +74847,9 @@
     "name": "UNIT 89, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086116941",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972823",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74752,10 +74864,10 @@
    "properties": {
     "name": "UNIT 8, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085988326",
-    "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717972824",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -74771,9 +74883,9 @@
     "name": "UNIT 90, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086490926",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972825",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74789,9 +74901,9 @@
     "name": "UNIT 91, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086352601",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972826",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74807,9 +74919,9 @@
     "name": "UNIT 92, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086034645",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972827",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74825,9 +74937,9 @@
     "name": "UNIT 93, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086293677",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972828",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74843,9 +74955,9 @@
     "name": "UNIT 94, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000085895171",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972829",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74861,9 +74973,9 @@
     "name": "UNIT 95, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086053570",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972830",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -74879,9 +74991,9 @@
     "name": "UNIT 96, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086061759",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972831",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74897,9 +75009,9 @@
     "name": "UNIT 97, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086438706",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972832",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74915,9 +75027,9 @@
     "name": "UNIT 98, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086392160",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972833",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74933,9 +75045,9 @@
     "name": "UNIT 99, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086188572",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972834",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -74951,9 +75063,9 @@
     "name": "UNIT 9, 2 COULSON STREET ERSKINEVILLE 2043",
     "locID": "LOC000086352601",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717972835",
-    "tech_change_status": "MDU Complex Premises In Build"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -78650,10 +78762,10 @@
    "properties": {
     "name": "UNIT 100, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687593",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78787,10 +78899,10 @@
    "properties": {
     "name": "UNIT 108, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687601",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78805,10 +78917,10 @@
    "properties": {
     "name": "UNIT 109, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687602",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78823,10 +78935,10 @@
    "properties": {
     "name": "UNIT 92, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687603",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78841,10 +78953,10 @@
    "properties": {
     "name": "UNIT 93, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687604",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78859,10 +78971,10 @@
    "properties": {
     "name": "UNIT 94, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687605",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78877,10 +78989,10 @@
    "properties": {
     "name": "UNIT 95, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687606",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78895,10 +79007,10 @@
    "properties": {
     "name": "UNIT 96, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687607",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78913,10 +79025,10 @@
    "properties": {
     "name": "UNIT 97, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687608",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78931,10 +79043,10 @@
    "properties": {
     "name": "UNIT 98, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687609",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -78949,10 +79061,10 @@
    "properties": {
     "name": "UNIT 99, 20 EVE STREET ERSKINEVILLE 2043",
     "locID": "LOC000011392863",
-    "tech": "FTTB",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687610",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -113540,7 +113652,7 @@
     "gnaf_pid": "GANSW721571146",
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2028"
+    "target_eligibility_quarter": "Mar 2029"
    }
   },
   {
@@ -113689,7 +113801,7 @@
     "gnaf_pid": "GANSW721650133",
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2028"
+    "target_eligibility_quarter": "Mar 2029"
    }
   },
   {
