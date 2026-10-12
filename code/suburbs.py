@@ -163,10 +163,13 @@ def get_technology_breakdown() -> dict:
     """Calculate a state-by-state breakdown of technology used."""
     breakdown = {}
     for state, suburb_list in read_all_suburbs().items():
+        # unprocessed suburbs have no results file
+        geojson_files = (read_geojson_file(suburb.name, state) for suburb in suburb_list)
         tally = Counter(
             address["properties"]["tech"]
-            for suburb in suburb_list
-            for address in read_geojson_file(suburb.name, state)["features"]
+            for geojson_file in geojson_files
+            if geojson_file
+            for address in geojson_file["features"]
         )
         breakdown[state] = {
             "FTTN": tally.get("FTTN", 0),
