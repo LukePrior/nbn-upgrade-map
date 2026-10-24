@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-05T06:14:09.406364",
+ "generated": "2026-10-24T12:31:10.307406",
  "suburb": "BELIVAH",
  "features": [
   {
@@ -311,12 +311,12 @@
    "properties": {
     "name": "41 BROSNAHAN COURT BELIVAH 4207",
     "locID": "LOC000020000302",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155014422",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -351,8 +351,8 @@
    "properties": {
     "name": "12 LAWLER COURT BELIVAH 4207",
     "locID": "LOC000103149364",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155015519",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1494,11 +1494,11 @@
     "name": "33 BROSNAHAN COURT BELIVAH 4207",
     "locID": "LOC000078141459",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156270769",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1513,12 +1513,12 @@
    "properties": {
     "name": "38 BROSNAHAN COURT BELIVAH 4207",
     "locID": "LOC000091347549",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156270770",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5472,6 +5472,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.18128666,
+     -27.75358181
+    ]
+   },
+   "properties": {
+    "name": "57 MACMILLAN LOOP BELIVAH 4207",
+    "locID": "LOC000192258129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391591"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.18277379,
      -27.75385404
     ]
@@ -5655,6 +5672,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721431668"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.18182934,
+     -27.75363509
+    ]
+   },
+   "properties": {
+    "name": "1 PENELOPE WAY BELIVAH 4207",
+    "locID": "LOC000192258164",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434507"
    }
   },
   {
@@ -6879,6 +6913,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721725835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.18128666,
+     -27.75358181
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 57 MACMILLAN LOOP BELIVAH 4207",
+    "locID": "LOC000192258129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721725954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.18128666,
+     -27.75358181
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 57 MACMILLAN LOOP BELIVAH 4207",
+    "locID": "LOC000192258129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721730005"
    }
   }
  ]
