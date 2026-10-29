@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-12T17:55:27.520610",
+ "generated": "2026-10-29T17:03:21.228210",
  "suburb": "INGLEWOOD",
  "features": [
   {
@@ -1354,7 +1354,7 @@
     "name": "82 ALBERT STREET INGLEWOOD 4387",
     "locID": "LOC000070902559",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156676684",
     "tech_change_status": "Eligible to Order"
    }
@@ -1372,7 +1372,7 @@
     "name": "86 ALBERT STREET INGLEWOOD 4387",
     "locID": "LOC000084574048",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156676685",
     "tech_change_status": "Eligible to Order"
    }
@@ -2879,10 +2879,9 @@
    "properties": {
     "name": "21 CHILCOTT STREET INGLEWOOD 4387",
     "locID": "LOC000058637502",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156693023",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156693023"
    }
   },
   {
@@ -3450,7 +3449,7 @@
     "name": "101 ALBERT STREET INGLEWOOD 4387",
     "locID": "LOC000103172553",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158038539",
     "tech_change_status": "Eligible to Order"
    }
@@ -6454,7 +6453,7 @@
     "name": "91 ALBERT STREET INGLEWOOD 4387",
     "locID": "LOC000091150724",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158084287",
     "tech_change_status": "Eligible to Order"
    }
@@ -7716,7 +7715,7 @@
     "name": "3 REGENT STREET INGLEWOOD 4387",
     "locID": "LOC000061985668",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159934813",
     "tech_change_status": "Eligible to Order"
    }
@@ -7733,10 +7732,9 @@
    "properties": {
     "name": "33 ALBERT STREET INGLEWOOD 4387",
     "locID": "LOC000016604204",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159936229",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11031,6 +11029,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.08035032,
+     -28.41913781
+    ]
+   },
+   "properties": {
+    "name": "17 KING STREET INGLEWOOD 4387",
+    "locID": "LOC000041715042",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162471651",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.07310453,
      -28.42130703
     ]
@@ -11077,10 +11095,10 @@
    "properties": {
     "name": "17 MCINTYRE STREET INGLEWOOD 4387",
     "locID": "LOC000097127953",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162606464",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
