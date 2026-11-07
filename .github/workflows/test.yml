@@ -40,3 +40,20 @@ jobs:
         run: |
           pip install pytest pytest-cov
           PYTHONPATH=code pytest tests --cov=code
+
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !results
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Test postcode selection
+        run: node --test tests/test_postcode_selection.cjs
