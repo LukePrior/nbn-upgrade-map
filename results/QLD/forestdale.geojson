@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-24T16:03:44.519309",
+ "generated": "2026-11-11T04:43:37.309798",
  "suburb": "FORESTDALE",
  "features": [
   {
@@ -3679,7 +3679,7 @@
     "name": "298-304 FORESTDALE DRIVE FORESTDALE 4118",
     "locID": "LOC000126872511",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156578996",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5736,8 +5736,8 @@
    "properties": {
     "name": "1-5 THE CHASE FORESTDALE 4118",
     "locID": "LOC000038324028",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159333809",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5757,7 +5757,7 @@
     "name": "19-23 THE CHASE FORESTDALE 4118",
     "locID": "LOC000046977960",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159333814",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5797,7 +5797,7 @@
     "name": "43-47 THE CHASE FORESTDALE 4118",
     "locID": "LOC000091099656",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159333819",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6581,7 +6581,7 @@
     "name": "77-81 THE CHASE FORESTDALE 4118",
     "locID": "LOC000004174286",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159348175",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7812,10 +7812,10 @@
    "properties": {
     "name": "316-320 JOHNSON ROAD FORESTDALE 4118",
     "locID": "LOC000073039247",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160722994",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9454,10 +9454,9 @@
    "properties": {
     "name": "17-19 FORESTDALE DRIVE FORESTDALE 4118",
     "locID": "LOC000126893551",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161151122",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9789,7 +9788,7 @@
     "name": "21-23 FORESTDALE DRIVE FORESTDALE 4118",
     "locID": "LOC000096705842",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161151139",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10275,7 +10274,7 @@
     "name": "305-309 FORESTDALE DRIVE FORESTDALE 4118",
     "locID": "LOC000126876885",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161151164",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10295,7 +10294,7 @@
     "name": "306-310 FORESTDALE DRIVE FORESTDALE 4118",
     "locID": "LOC000126876892",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161151165",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12618,6 +12617,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.01259252,
+     -27.67237137
+    ]
+   },
+   "properties": {
+    "name": "8-12 PRIORY PLACE FORESTDALE 4118",
+    "locID": "LOC000115887677",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161282000",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99836774,
      -27.66549179
     ]
@@ -13333,9 +13352,9 @@
     "name": "44-50 SCRIBNER AVENUE FORESTDALE 4118",
     "locID": "LOC000155501833",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161303713",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14700,10 +14719,9 @@
    "properties": {
     "name": "18-24 LOXLEY CHASE FORESTDALE 4118",
     "locID": "LOC000085720273",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162512717",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14760,7 +14778,7 @@
     "name": "26-30 THE CHASE FORESTDALE 4118",
     "locID": "LOC000024112670",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162523914",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14780,7 +14798,7 @@
     "name": "2-4 THE CHASE FORESTDALE 4118",
     "locID": "LOC000024112670",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162523915",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14800,7 +14818,7 @@
     "name": "31-35 THE CHASE FORESTDALE 4118",
     "locID": "LOC000155503853",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162523916",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14820,7 +14838,7 @@
     "name": "37-41 THE CHASE FORESTDALE 4118",
     "locID": "LOC000155503876",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162523917",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14917,7 +14935,7 @@
     "name": "69-75 THE CHASE FORESTDALE 4118",
     "locID": "LOC000155504048",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162523922",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14936,8 +14954,8 @@
    "properties": {
     "name": "6-8 THE CHASE FORESTDALE 4118",
     "locID": "LOC000155503967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162523923",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
