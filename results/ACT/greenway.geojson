@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-25T14:35:38.408169",
+ "generated": "2026-11-12T02:42:22.502367",
  "suburb": "GREENWAY",
  "features": [
   {
@@ -1273,10 +1273,9 @@
    "properties": {
     "name": "103 DE LITTLE CIRCUIT GREENWAY 2900",
     "locID": "LOC000110744188",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714915161",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5180,9 +5179,11 @@
     "name": "24 WATTS STREET GREENWAY 2900",
     "locID": "LOC100093291571",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAACT714931846",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -14189,8 +14190,9 @@
     "name": "167 SOWARD WAY GREENWAY 2900",
     "locID": "LOC000112078049",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT716582890"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT716582890",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55526,8 +55528,9 @@
     "name": "SHOP 2, 167 SOWARD WAY GREENWAY 2900",
     "locID": "LOC000112078049",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721144160"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT721144160",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55543,8 +55546,9 @@
     "name": "SHOP 3, 167 SOWARD WAY GREENWAY 2900",
     "locID": "LOC000112078049",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721144172"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT721144172",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55560,8 +55564,9 @@
     "name": "SHOP 1, 167 SOWARD WAY GREENWAY 2900",
     "locID": "LOC000112078049",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721144175"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT721144175",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55577,8 +55582,9 @@
     "name": "SHOP 4, 167 SOWARD WAY GREENWAY 2900",
     "locID": "LOC000112078049",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721144226"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT721144226",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59119,9 +59125,10 @@
    "properties": {
     "name": "UNIT 6, 56 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000122349618",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721832789"
+    "gnaf_pid": "GAACT721832789",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -59323,9 +59330,10 @@
    "properties": {
     "name": "UNIT 8, 56 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000122349639",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721832869"
+    "gnaf_pid": "GAACT721832869",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -59646,10 +59654,9 @@
    "properties": {
     "name": "UNIT 30, 58 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000169951034",
-    "tech": "FTTN",
+    "tech": "FTTB",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721832960",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GAACT721832960"
    }
   },
   {
@@ -61527,9 +61534,10 @@
    "properties": {
     "name": "UNIT 32, 58 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000169951052",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721833876"
+    "gnaf_pid": "GAACT721833876",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -62314,6 +62322,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721834329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.0663701,
+     -35.41434419
+    ]
+   },
+   "properties": {
+    "name": "UNIT 161, 150 ANKETELL STREET GREENWAY 2900",
+    "locID": "LOC000169953260",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT721834336"
    }
   },
   {
@@ -64161,9 +64186,10 @@
    "properties": {
     "name": "UNIT 20, 56 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000122349515",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721835263"
+    "gnaf_pid": "GAACT721835263",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -66093,9 +66119,10 @@
    "properties": {
     "name": "UNIT 21, 56 COWLISHAW STREET GREENWAY 2900",
     "locID": "LOC000122349527",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT721836156"
+    "gnaf_pid": "GAACT721836156",
+    "tech_change_status": "Not Planned"
    }
   },
   {
