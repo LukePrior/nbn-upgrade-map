@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-26T05:36:25.779764",
+ "generated": "2026-11-12T17:05:39.302735",
  "suburb": "BEECHWORTH",
  "features": [
   {
@@ -2365,11 +2365,9 @@
     "name": "1A CRAWFORD STREET BEECHWORTH 3747",
     "locID": "LOC000020356563",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410862099",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2029"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -9272,8 +9270,8 @@
    "properties": {
     "name": "16 HIGH STREET BEECHWORTH 3747",
     "locID": "LOC000044956682",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420024635",
     "tech_change_status": "Eligible to Order"
    }
@@ -13393,10 +13391,10 @@
    "properties": {
     "name": "2A SHORT STREET BEECHWORTH 3747",
     "locID": "LOC000095141201",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420562841",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -17945,10 +17943,10 @@
    "properties": {
     "name": "32 BEAUMONT DRIVE BEECHWORTH 3747",
     "locID": "LOC000104930399",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420890872",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32711,11 +32709,9 @@
     "name": "64 DAVIDSON LANE BEECHWORTH 3747",
     "locID": "LOC000042592590",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424080154",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2029"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -37892,8 +37888,8 @@
    "properties": {
     "name": "21 HAYES DRIVE BEECHWORTH 3747",
     "locID": "LOC000191659573",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425364018",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38347,10 +38343,10 @@
    "properties": {
     "name": "245 BEECHWORTH-WODONGA ROAD BEECHWORTH 3747",
     "locID": "LOC000180325821",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425399058",
-    "tech_change_status": "Not Planned",
+    "tech_change_status": "Eligible to Order",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -41065,6 +41061,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.68082239,
+     -36.41306232
+    ]
+   },
+   "properties": {
+    "name": "68 RYAN LANE BEECHWORTH 3747",
+    "locID": "LOC100093543208",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719210243",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.66701269,
      -36.40291848
     ]
@@ -41608,8 +41622,9 @@
     "name": "11 GORGE ROAD BEECHWORTH 3747",
     "locID": "LOC000199580730",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719525898"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719525898",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
