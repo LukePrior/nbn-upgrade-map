@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-10-25T18:21:38.453696",
+ "generated": "2026-11-12T06:16:12.137297",
  "suburb": "HILLSTON",
  "features": [
   {
@@ -1091,10 +1091,9 @@
    "properties": {
     "name": "37 MOORE STREET HILLSTON 2675",
     "locID": "LOC000042593228",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704973266",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1211,10 +1210,9 @@
    "properties": {
     "name": "7 COWPER STREET HILLSTON 2675",
     "locID": "LOC000075581436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704974803",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2388,10 +2386,10 @@
    "properties": {
     "name": "16 HENRY STREET HILLSTON 2675",
     "locID": "LOC000049428357",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704977471",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3401,10 +3399,9 @@
    "properties": {
     "name": "6 BYRON STREET HILLSTON 2675",
     "locID": "LOC000063838183",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704979708",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4678,10 +4675,9 @@
    "properties": {
     "name": "14 COWPER STREET HILLSTON 2675",
     "locID": "LOC000075581436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704982346",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8070,9 +8066,11 @@
     "name": "36 BURNS STREET HILLSTON 2675",
     "locID": "LOC000196181077",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712771424",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
@@ -9626,10 +9624,9 @@
    "properties": {
     "name": "18 GRATTAN STREET HILLSTON 2675",
     "locID": "LOC000101875555",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712792117",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10061,8 +10058,8 @@
    "properties": {
     "name": "12 MOORE STREET HILLSTON 2675",
     "locID": "LOC000087204384",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712834394",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11807,10 +11804,9 @@
    "properties": {
     "name": "16-18 GRATTAN STREET HILLSTON 2675",
     "locID": "LOC000101875555",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717080639",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14250,6 +14246,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.51275862,
+     -33.22306469
+    ]
+   },
+   "properties": {
+    "name": "2990 ROTO ROAD HILLSTON 2675",
+    "locID": "LOC000023061259",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717717330",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.45866588,
      -33.21548799
     ]
@@ -14555,6 +14569,26 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717947424",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.53592421,
+     -33.48975262
+    ]
+   },
+   "properties": {
+    "name": "43-47 COLLINS STREET HILLSTON 2675",
+    "locID": "LOC100056330797",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717947427",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -15128,9 +15162,11 @@
     "name": "34-36 BURNS STREET HILLSTON 2675",
     "locID": "LOC000196181077",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096100",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2029"
    }
   },
   {
