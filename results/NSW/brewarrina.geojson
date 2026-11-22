@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2026-11-09T00:22:40.624284",
+ "generated": "2026-11-22T08:11:22.738606",
  "suburb": "BREWARRINA",
  "features": [
   {
@@ -6578,24 +6578,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.85655161,
-     -29.95950138
-    ]
-   },
-   "properties": {
-    "name": "13 DOYLE STREET BREWARRINA 2839",
-    "locID": "LOC000088034213",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW713082310",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.8893201,
      -29.99655639
     ]
@@ -6640,11 +6622,11 @@
     "name": "7 HIGH STREET BREWARRINA 2839",
     "locID": "LOC000115575668",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW713082328",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7218,11 +7200,11 @@
     "name": "1 DARLING STREET BREWARRINA 2839",
     "locID": "LOC000028706548",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716856943",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7291,12 +7273,12 @@
    "properties": {
     "name": "4 PARK STREET BREWARRINA 2839",
     "locID": "LOC000122215793",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716883072",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8996,6 +8978,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.86274157,
+     -29.96649804
+    ]
+   },
+   "properties": {
+    "name": "51-55 WILSON STREET BREWARRINA 2839",
+    "locID": "LOC000037585128",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718429069",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.62611496,
      -29.86347982
     ]
@@ -9327,12 +9327,12 @@
    "properties": {
     "name": "18 WILSON STREET BREWARRINA 2839",
     "locID": "LOC000115575411",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718751907",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2026"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10196,9 +10196,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721047838",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2026"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
